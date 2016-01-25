@@ -1,0 +1,15 @@
+[main]
+host = https://www.transifex.com
+lang_map = ru:Russian, be:Belarusian, be@tarask: Taraskievica, uk:Ukrainian, tr:Turkish, cs:Czech, tt:Tatar, fr:French
+
+[telegram-android-unofficial.TelegramApp]
+source_lang = en
+file_filter = android/<lang>.xml
+
+[ios-5.TelegramApp]
+source_lang = en
+file_filter = ios/<lang>.strings
+
+[tdesktop-unofficial.TelegramApp]
+source_lang = en
+file_filter = tdesktop/<lang>.strings
