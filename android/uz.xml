@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="LanguageName">Ingliz</string>
+  <string name="LanguageNameInEnglish">Ingliz</string>
+  <!--signin view-->
+  <!--code enter view-->
+  <!--signup view-->
+  <!--<string name="RegisterText">Set up your name and picture</string>-->
+  <!--chats view-->
+  <string name="Settings">Sozlamalar</string>
+  <string name="Contacts">Kontaktlar</string>
+  <!--channels-->
+  <string name="ChannelSettings">Sozlamalar</string>
+  <!--broadcasts-->
+  <!--audio view-->
+  <!--documents view-->
+  <!--chat view-->
+  <string name="Invisible">ko‘rinmas</string>
+  <!--notification-->
+  <!--contacts view-->
+  <string name="LastSeenNow">hozirgina kirgandi</string>
+  <string name="Lately">yaqinda kirgan</string>
+  <string name="WithinAWeek">shu hafta kirgan</string>
+  <string name="WithinAMonth">shu oyda kirgan</string>
+  <string name="ALongTimeAgo">anchadan beri kirgani yo‘q</string>
+  <!--group create view-->
+  <!--set admins view-->
+  <!--group info view-->
+  <string name="SETTINGS">Sozlamalar</string>
+  <!--contact info view-->
+  <!--usernames-->
+  <!--stickers view-->
+  <!--settings view-->
+  <!--cache view-->
+  <!--sessions view-->
+  <!--passcode view-->
+  <!--media view-->
+  <!--map view-->
+  <!--photo gallery view-->
+  <!--password view-->
+  <!--privacy settings-->
+  <!--edit video view-->
+  <!--bot-->
+  <string name="Bot">bot</string>
+  <string name="BotSettings">Sozlamalar</string>
+  <string name="BotStatusRead">xabarlarga ruxsati bor</string>
+  <string name="BotStatusCantRead">xabarlarga ruxsati yo‘q</string>
+  <!--button titles-->
+  <string name="Back">Ortga</string>
+  <string name="Cancel">Bekor qilish</string>
+  <string name="Close">Yopish</string>
+  <string name="OK">OK</string>
+  <!--messages-->
+  <!--Alert messages-->
+  <!--permissions-->
+  <!--Intro view-->
+  <!--plural-->
+  <!--forwarded messages-->
+  <!--date formatters-->
+  <!--update text-->
+</resources>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <!--signin view-->
+  <!--code enter view-->
+  <!--signup view-->
+  <!--<string name="RegisterText">Set up your name and picture</string>-->
+  <!--chats view-->
+  <!--channels-->
+  <!--broadcasts-->
+  <!--audio view-->
+  <!--documents view-->
+  <!--chat view-->
+  <!--notification-->
+  <!--contacts view-->
+  <!--group create view-->
+  <!--set admins view-->
+  <!--group info view-->
+  <!--contact info view-->
+  <!--usernames-->
+  <!--stickers view-->
+  <!--settings view-->
+  <!--cache view-->
+  <!--sessions view-->
+  <!--passcode view-->
+  <!--media view-->
+  <!--map view-->
+  <!--photo gallery view-->
+  <!--password view-->
+  <!--privacy settings-->
+  <!--edit video view-->
+  <!--bot-->
+  <!--button titles-->
+  <!--messages-->
+  <!--Alert messages-->
+  <!--permissions-->
+  <!--Intro view-->
+  <!--plural-->
+  <!--forwarded messages-->
+  <!--date formatters-->
+  <!--update text-->
+</resources>
