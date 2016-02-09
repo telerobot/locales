@@ -4,20 +4,27 @@
   <string name="LanguageNameInEnglish">Ingliz</string>
   <!--signin view-->
   <!--code enter view-->
+  <string name="YourCode">Kodingiz</string>
   <!--signup view-->
   <!--<string name="RegisterText">Set up your name and picture</string>-->
   <!--chats view-->
   <string name="Settings">Sozlamalar</string>
   <string name="Contacts">Kontaktlar</string>
+  <string name="NewGroup">Yangi guruh</string>
+  <string name="Search">Qidiruv</string>
   <!--channels-->
+  <string name="NewChannel">Kanal yaratish</string>
   <string name="ChannelSettings">Sozlamalar</string>
+  <string name="ChannelEdit">Tahrirlash</string>
   <!--broadcasts-->
   <!--audio view-->
   <!--documents view-->
   <!--chat view-->
   <string name="Invisible">ko‘rinmas</string>
+  <string name="ChatDocument">Fayl</string>
   <!--notification-->
   <!--contacts view-->
+  <string name="Online">onlayn</string>
   <string name="LastSeenNow">hozirgina kirgandi</string>
   <string name="Lately">yaqinda kirgan</string>
   <string name="WithinAWeek">shu hafta kirgan</string>
@@ -28,6 +35,9 @@
   <!--group info view-->
   <string name="SETTINGS">Sozlamalar</string>
   <!--contact info view-->
+  <string name="EditContact">Tahrirlash</string>
+  <string name="DeleteContact">O‘chirish</string>
+  <string name="NumberUnknown">Noma’lum</string>
   <!--usernames-->
   <!--stickers view-->
   <!--settings view-->
@@ -47,10 +57,15 @@
   <string name="BotStatusCantRead">xabarlarga ruxsati yo‘q</string>
   <!--button titles-->
   <string name="Back">Ortga</string>
+  <string name="Done">Tayyor</string>
   <string name="Cancel">Bekor qilish</string>
   <string name="Close">Yopish</string>
+  <string name="Edit">Tahrirlash</string>
+  <string name="Copy">Nusxalash</string>
+  <string name="Delete">O‘chirish</string>
   <string name="OK">OK</string>
   <!--messages-->
+  <string name="AttachDocument">Fayl</string>
   <!--Alert messages-->
   <!--permissions-->
   <!--Intro view-->
