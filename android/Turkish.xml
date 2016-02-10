@@ -60,7 +60,14 @@
   <string name="Hashtags">HASHTAG\\'LER</string>
   <string name="Recent">EN SON</string>
   <!--channels-->
+  <string name="DescriptionInfoMega">You can provide an optional description for your group.</string>
+  <string name="DeleteMega">Delete Group</string>
   <string name="DeleteMegaMenu">Delete group</string>
+  <string name="MegaDeleteAlert">Wait! Deleting this group will remove all members and all messages will be lost. Delete the group anyway?</string>
+  <string name="ActionCreateMega">Group created</string>
+  <string name="GroupUserCantAdd">Sorry, you can\'t add this user to groups.</string>
+  <string name="GroupUserAddLimit">Sorry, this group is full.</string>
+  <string name="ActionMigrateFromGroup">This group was upgraded to a supergroup</string>
   <string name="NewChannel">Yeni Kanal</string>
   <string name="EnterChannelName">Kanal Adı</string>
   <string name="Comments">Yorumlar</string>
@@ -127,6 +134,7 @@
   <string name="ChannelAddTo">%1$s kanala ekle?</string>
   <string name="ChannelUserCantAdd">Üzgünüm, kanala yeni bir kullanıcı ekleyemezsin.</string>
   <string name="ChannelUserCantAdmin">Üzgünüm, bu kanala daha fazla yönetici ekleyemezsin.</string>
+  <string name="ChannelUserAddLimit">Sorry, you can only add the first 200 members to a channel. Note that an unlimited number of people may join via the channel\'s link.</string>
   <string name="ChannelAddedBy">un1 seni bu kanala ekledi</string>
   <string name="ChannelJoined">Kanala katıldınız</string>
   <string name="ChannelRemoveUser">Kanaldan kaldır</string>
@@ -223,7 +231,10 @@ sorunuz mu var?</string>
   <string name="AddContactChat">KİŞİ EKLE</string>
   <string name="ReportSpamAlert">Bu kullanıcıyı spam olarak raporlamak istediğine emin misin?</string>
   <string name="ReportSpamAlertGroup">Bu grubu spam olarak raporlamak istediğine emin misin?</string>
+  <string name="NobodyLikesSpam1">Sorry, you can only send messages to mutual contacts at the moment.</string>
+  <string name="NobodyLikesSpam2">Sorry, you can only add mutual contacts to groups at the moment.</string>
   <string name="MoreInfo">Daha fazla bilgi</string>
+  <string name="TapHereGifs">Tap here to access saved GIFs</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s kendini imha etme zamanlayıcısı %2$s olarak belirledi</string>
   <string name="MessageLifetimeChangedOutgoing">Kendini imha etme zamanlayıcısını %1$s olarak belirlediniz</string>
@@ -298,6 +309,9 @@ sorunuz mu var?</string>
   <string name="ShareLink">Linki Paylaş</string>
   <string name="LinkInfo">Telegram kullanan herkes bu linki kullanarak grubunuza katılabilir.</string>
   <!--set admins view-->
+  <string name="SetAdminsTitle">Chat Admins</string>
+  <string name="SetAdminsAllInfo">All members can add new members, edit name and photo of the group.</string>
+  <string name="SetAdminsNotAllInfo">Only admins can add and remove members, edit name and photo of the group.</string>
   <!--group info view-->
   <string name="SharedMedia">Paylaşılan İçerik</string>
   <string name="SETTINGS">Ayarlar</string>
@@ -419,6 +433,7 @@ sorunuz mu var?</string>
   <string name="WhenConnectedOnWiFi">Wi-Fi kullanıldığında</string>
   <string name="WhenRoaming">Dolaşımdayken</string>
   <string name="NoMediaAutoDownload">Medya Yok</string>
+  <string name="AutoplayGifs">Autoplay GIFs</string>
   <string name="SaveToGallerySettings">Galeriye kaydet</string>
   <string name="EditName">Adı düzenle</string>
   <string name="NotificationsPriority">Öncelik</string>
@@ -452,6 +467,15 @@ sorunuz mu var?</string>
   <string name="SmartNotificationsWithin">içinde</string>
   <string name="SmartNotificationsMinutes">dakika</string>
   <!--cache view-->
+  <string name="CacheSettings">Zula Ayarları</string>
+  <string name="ClearMediaCache">Zulayı Temizle</string>
+  <string name="CacheClear">Temizle</string>
+  <string name="LocalPhotoCache">Photos</string>
+  <string name="LocalVideoCache">Videos</string>
+  <string name="LocalMusicCache">Music</string>
+  <string name="CacheEmpty">Empty</string>
+  <string name="KeepMedia">Keep Media</string>
+  <string name="KeepMediaForever">Sürekli</string>
   <!--sessions view-->
   <string name="SessionsTitle">Aktif Oturumlar</string>
   <string name="CurrentSession">Geçerli Oturum</string>
@@ -654,6 +678,7 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="Back">Geri</string>
   <string name="Done">Bitti</string>
   <string name="Open">Aç</string>
+  <string name="Save">Save</string>
   <string name="Cancel">İptal</string>
   <string name="Close">Kapat</string>
   <string name="Add">Ekle</string>
@@ -692,6 +717,7 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="UnsuppotedMedia">Bu mesaj Telegram sürümünüz tarafından desteklenmiyor. Uygulama güncellemelerini görmek için: http://telegram.org/update</string>
   <string name="AttachPhoto">Fotoğraf</string>
   <string name="AttachVideo">Video</string>
+  <string name="AttachGif">GIF</string>
   <string name="AttachLocation">Konum</string>
   <string name="AttachContact">Kişi</string>
   <string name="AttachDocument">Dosya</string>
