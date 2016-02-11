@@ -171,7 +171,6 @@
   <string name="ChannelMessageGroupMap">%1$s %2$s каналында урнашуын калдырды</string>
   <string name="ChannelMessageGroupDocument">%1$s %2$s каналында файл калдырды</string>
   <string name="ChannelMessageGroupGif">%1$s %2$s каналында GIF калдырды</string>
-  <string name="ChannelMessageGroupAudio">%1$s %2$s каналында аудио калдырды</string>
   <string name="ChannelMessageGroupSticker">%1$s %2$s каналында стикер калдырды</string>
   <string name="ChannelMessageNoText">%1$s хат язды</string>
   <string name="ChannelMessagePhoto">%1$s фото җибәрде</string>
@@ -213,11 +212,9 @@
   <string name="Typing">яза...</string>
   <string name="IsTyping">яза...</string>
   <string name="AreTyping">яза...</string>
-  <string name="IsRecordingAudio">%1$s аудио яздыра...</string>
   <string name="IsSendingPhoto">%1$s фото җибәрә...</string>
   <string name="IsSendingVideo">%1$s видео җибәрә...</string>
   <string name="IsSendingFile">%1$s файл җибәрә...</string>
-  <string name="RecordingAudio">аудио яздыру...</string>
   <string name="SendingPhoto">фото җибәрү...</string>
   <string name="SendingVideoStatus">видео җибәрү...</string>
   <string name="SendingFile">файл җибәрү...</string>
@@ -286,7 +283,6 @@
   <string name="NotificationMessageMap">%1$s сезгә урнашу урынын җибәрде</string>
   <string name="NotificationMessageDocument">%1$s сезгә файл җибәрде</string>
   <string name="NotificationMessageGif">%1$s сезгә GIF җибәрде</string>
-  <string name="NotificationMessageAudio">%1$s сезгә аудио җибәрде</string>
   <string name="NotificationMessageSticker">%1$s сезгә стикер җибәрде</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s %2$s төркеменә хат җибәрде</string>
@@ -296,7 +292,6 @@
   <string name="NotificationMessageGroupMap">%1$s %2$s төркеменә урнашу урынын җибәрде</string>
   <string name="NotificationMessageGroupDocument">%1$s %2$s төркеменә файл җибәрде</string>
   <string name="NotificationMessageGroupGif">%1$s %2$s төркеменә GIF җибәрде</string>
-  <string name="NotificationMessageGroupAudio">%1$s %2$s төркеменә аудиоязма җибәрде</string>
   <string name="NotificationMessageGroupSticker">%1$s %2$s төркеменә стикер җибәрде</string>
   <string name="NotificationInvitedToGroup">%1$s сезне %2$s төркеменә чакырды</string>
   <string name="NotificationEditedGroupName">%1$s %2$s төркеменең исемен үзгәртте</string>
@@ -785,7 +780,6 @@
   <string name="ActionAddUserYou">un1 сезне өстәде</string>
   <string name="ActionAddUserSelf">un1 төркемгә кайтты</string>
   <string name="ActionAddUserSelfYou">Сез төркемгә кайттыгыз</string>
-  <string name="UnsuppotedMedia">Бу хат сезнең Telegram юрамасында укылмый. Укыр өчен кушымтаны яңарту: https://telegram.org/update</string>
   <string name="AttachPhoto">Фото</string>
   <string name="AttachVideo">Видео</string>
   <string name="AttachGif">GIF</string>
@@ -793,7 +787,6 @@
   <string name="AttachContact">Контакт</string>
   <string name="AttachDocument">Файл</string>
   <string name="AttachSticker">Стикер</string>
-  <string name="AttachAudio">Аудио</string>
   <string name="FromYou">Сез</string>
   <string name="ActionTakeScreenshootYou">Сез скриншот ясадыгыз!</string>
   <string name="ActionTakeScreenshoot">un1 скриншот ясады!</string>
@@ -874,7 +867,6 @@
   <string name="Members_many">%1$d катнашучы</string>
   <string name="Members_other">%1$d катнашучы</string>
   <string name="AndMoreTyping_zero">һәм тагын %1$d яза</string>
-  <string name="AndMoreTyping_one">һәм тагын %1$d яза</string>
   <string name="AndMoreTyping_two">һәм тагын %1$d яза</string>
   <string name="AndMoreTyping_few">һәм тагын %1$d яза</string>
   <string name="AndMoreTyping_many">һәм тагын %1$d яза</string>
@@ -1018,12 +1010,6 @@
   <string name="ForwardedVideo_few">%1$d видео</string>
   <string name="ForwardedVideo_many">%1$d видео</string>
   <string name="ForwardedVideo_other">%1$d видео</string>
-  <string name="ForwardedAudio_zero">%1$d аудиоязма</string>
-  <string name="ForwardedAudio_one">Аудиоязма</string>
-  <string name="ForwardedAudio_two">%1$d аудиоязма</string>
-  <string name="ForwardedAudio_few">%1$d аудиоязма</string>
-  <string name="ForwardedAudio_many">%1$d аудиоязма</string>
-  <string name="ForwardedAudio_other">%1$d аудиоязма</string>
   <string name="ForwardedLocation_zero">%1$d урнашу урыны</string>
   <string name="ForwardedLocation_one">Урнашу урыны</string>
   <string name="ForwardedLocation_two">%1$d урнашу урыны</string>

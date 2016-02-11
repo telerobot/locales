@@ -166,7 +166,6 @@
   <string name="ChannelMessageGroupMap">%1$s poslal/a polohu kanálu %2$s</string>
   <string name="ChannelMessageGroupDocument">%1$s poslal/a soubor kanálu %2$s</string>
   <string name="ChannelMessageGroupGif">\"%1$s\" poslal/a GIF skupině \"%2$s\"</string>
-  <string name="ChannelMessageGroupAudio">%1$s poslal/a audio kanálu %2$s</string>
   <string name="ChannelMessageGroupSticker">%1$s poslal/a nálepku kanálu %2$s</string>
   <string name="ChannelMessageNoText">%1$s poslal/a zprávu</string>
   <string name="ChannelMessagePhoto">%1$s poslal/a obrázek</string>
@@ -208,11 +207,9 @@
   <string name="Typing">píše...</string>
   <string name="IsTyping">píše...</string>
   <string name="AreTyping">píší...</string>
-  <string name="IsRecordingAudio">%1$s vytváří nahrávku...</string>
   <string name="IsSendingPhoto">%1$s Vám posílá fotku...</string>
   <string name="IsSendingVideo">%1$s Vám posílá video...</string>
   <string name="IsSendingFile">%1$s Vám posílá soubor...</string>
-  <string name="RecordingAudio">vytváří nahrávku...</string>
   <string name="SendingPhoto">posílá fotku...</string>
   <string name="SendingVideoStatus">posílá video...</string>
   <string name="SendingFile">posílá soubor...</string>
@@ -281,7 +278,6 @@
   <string name="NotificationMessageMap">%1$s Vám poslal/a polohu</string>
   <string name="NotificationMessageDocument">%1$s Vám poslal/a soubor</string>
   <string name="NotificationMessageGif">\"%1$s\" poslal/a GIF</string>
-  <string name="NotificationMessageAudio">%1$s Vám poslal/a nahrávku</string>
   <string name="NotificationMessageSticker">%1$s Vám poslal/a nálepku</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s poslal/a zprávu skupině %2$s</string>
@@ -291,7 +287,6 @@
   <string name="NotificationMessageGroupMap">%1$s poslal/a polohu skupině %2$s</string>
   <string name="NotificationMessageGroupDocument">%1$s poslal/a soubor skupině %2$s</string>
   <string name="NotificationMessageGroupGif">\"%1$s\" poslal/a GIF skupině \"%2$s\"</string>
-  <string name="NotificationMessageGroupAudio">%1$s poslal/a nahrávku skupině %2$s</string>
   <string name="NotificationMessageGroupSticker">%1$s poslal/a nálepku skupině %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s Vás zve do skupiny %2$s</string>
   <string name="NotificationEditedGroupName">%1$s změnil/a název skupiny %2$s</string>
@@ -763,7 +758,6 @@ Smazat a zastavit</string>
   <string name="ActionAddUserYou">un1 Vás přidal/a</string>
   <string name="ActionAddUserSelf">un1 se vrátil/a do skupiny</string>
   <string name="ActionAddUserSelfYou">Vrátili jste se do skupiny</string>
-  <string name="UnsuppotedMedia">Táto zpráva není podporována Vaší verzi Telegramu. Aktualizujte aplikaci pro zobrazení zprávy: https://telegram.org/update</string>
   <string name="AttachPhoto">Obrázek</string>
   <string name="AttachVideo">Video</string>
   <string name="AttachGif">GIF</string>
@@ -771,7 +765,6 @@ Smazat a zastavit</string>
   <string name="AttachContact">Kontakt</string>
   <string name="AttachDocument">Soubor</string>
   <string name="AttachSticker">Nálepka</string>
-  <string name="AttachAudio">Nahrávka</string>
   <string name="FromYou">Vy</string>
   <string name="ActionTakeScreenshootYou">Zachytili jste snímek obrazovky!</string>
   <string name="ActionTakeScreenshoot">un1 zachytil snímek obrazovky!</string>
@@ -852,7 +845,6 @@ Smazat a zastavit</string>
   <string name="Members_many">%1$d členů</string>
   <string name="Members_other">%1$d členů</string>
   <string name="AndMoreTyping_zero">a %1$d dalších lidí píše</string>
-  <string name="AndMoreTyping_one">a %1$d další člověk píše</string>
   <string name="AndMoreTyping_two">a %1$d další lidé píší</string>
   <string name="AndMoreTyping_few">a %1$d dalších lidí píše</string>
   <string name="AndMoreTyping_many">a %1$d dalších lidí píše</string>
@@ -996,12 +988,6 @@ Smazat a zastavit</string>
   <string name="ForwardedVideo_few">%1$d přeposlané videa</string>
   <string name="ForwardedVideo_many">%1$d přeposlaných videí</string>
   <string name="ForwardedVideo_other">%1$d přeposlaných videí</string>
-  <string name="ForwardedAudio_zero">%1$d přeposlaných nahrávek</string>
-  <string name="ForwardedAudio_one">Přeposlaná nahrávka</string>
-  <string name="ForwardedAudio_two">%1$d přeposlané nahrávky</string>
-  <string name="ForwardedAudio_few">%1$d přeposlané nahrávky</string>
-  <string name="ForwardedAudio_many">%1$d přeposlaných nahrávek</string>
-  <string name="ForwardedAudio_other">%1$d přeposlaných nahrávek</string>
   <string name="ForwardedLocation_zero">%1$d přeposlaných poloh</string>
   <string name="ForwardedLocation_one">Přeposlaná poloha</string>
   <string name="ForwardedLocation_two">%1$d přeposlané polohy</string>

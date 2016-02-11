@@ -180,11 +180,9 @@
   <string name="Typing">yazıyor...</string>
   <string name="IsTyping">yazıyor...</string>
   <string name="AreTyping">yazıyor...</string>
-  <string name="IsRecordingAudio">%1$s ses kaydediyor...</string>
   <string name="IsSendingPhoto">%1$s fotoğraf gönderiyor...</string>
   <string name="IsSendingVideo">%1$s video gönderiyor...</string>
   <string name="IsSendingFile">%1$s dosya gönderiyor...</string>
-  <string name="RecordingAudio">ses kaydediyor...</string>
   <string name="SendingPhoto">fotoğraf gönderiyor...</string>
   <string name="SendingVideoStatus">video gönderiyor...</string>
   <string name="SendingFile">dosya gönderiyor...</string>
@@ -248,7 +246,6 @@ sorunuz mu var?</string>
   <string name="NotificationMessageContact">%1$s sizinle bir kişi paylaştı</string>
   <string name="NotificationMessageMap">%1$s size bir konum gönderdi</string>
   <string name="NotificationMessageDocument">%1$s size bir dosya gönderdi</string>
-  <string name="NotificationMessageAudio">%1$s size bir ses gönderdi</string>
   <string name="NotificationMessageSticker">%1$s size bir çıkartma gönderdi</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s, %2$s grubuna bir mesaj gönderdi</string>
@@ -257,7 +254,6 @@ sorunuz mu var?</string>
   <string name="NotificationMessageGroupContact">%1$s, %2$s grubuna bir kişi paylaştı</string>
   <string name="NotificationMessageGroupMap">%1$s %2$s grubuna bir konum gönderdi</string>
   <string name="NotificationMessageGroupDocument">%1$s, %2$s grubuna bir dosya gönderdi</string>
-  <string name="NotificationMessageGroupAudio">%1$s, %2$s grubuna bir ses gönderdi</string>
   <string name="NotificationMessageGroupSticker">%1$s, %2$s grubuna bir çıkartma gönderdi</string>
   <string name="NotificationInvitedToGroup">%1$s, sizi %2$s grubuna davet etti</string>
   <string name="NotificationEditedGroupName">%1$s grubun adını %2$s olarak değiştirdi</string>
@@ -714,7 +710,6 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="ActionAddUserYou">un1 sizi ekledi</string>
   <string name="ActionAddUserSelf">un1 gruba geri döndü</string>
   <string name="ActionAddUserSelfYou">Gruba geri döndünüz.</string>
-  <string name="UnsuppotedMedia">Bu mesaj Telegram sürümünüz tarafından desteklenmiyor. Uygulama güncellemelerini görmek için: http://telegram.org/update</string>
   <string name="AttachPhoto">Fotoğraf</string>
   <string name="AttachVideo">Video</string>
   <string name="AttachGif">GIF</string>
@@ -722,7 +717,6 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="AttachContact">Kişi</string>
   <string name="AttachDocument">Dosya</string>
   <string name="AttachSticker">Çıkartma</string>
-  <string name="AttachAudio">Ses</string>
   <string name="FromYou">Siz</string>
   <string name="ActionTakeScreenshootYou">Ekran görüntüsü aldınız!</string>
   <string name="ActionTakeScreenshoot">un1 ekran görüntüsü aldı!</string>
@@ -798,7 +792,6 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="Members_many">%1$d üye</string>
   <string name="Members_other">%1$d üye</string>
   <string name="AndMoreTyping_zero">ve %1$d\'den fazla insan yazıyor</string>
-  <string name="AndMoreTyping_one">ve %1$d\'den fazla insan yazıyor</string>
   <string name="AndMoreTyping_two">ve %1$d\'den fazla insan yazıyor</string>
   <string name="AndMoreTyping_few">ve %1$d\'den fazla insan yazıyor</string>
   <string name="AndMoreTyping_many">ve %1$d\'den fazla insan yazıyor</string>
@@ -942,12 +935,6 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="ForwardedVideo_few">%1$d iletilen video</string>
   <string name="ForwardedVideo_many">%1$d iletilen video</string>
   <string name="ForwardedVideo_other">%1$d iletilen video</string>
-  <string name="ForwardedAudio_zero">%1$d iletilen ses</string>
-  <string name="ForwardedAudio_one">İletilen Ses</string>
-  <string name="ForwardedAudio_two">%1$d iletilen ses</string>
-  <string name="ForwardedAudio_few">%1$d iletilen ses</string>
-  <string name="ForwardedAudio_many">%1$d iletilen ses</string>
-  <string name="ForwardedAudio_other">%1$d iletilen ses</string>
   <string name="ForwardedLocation_zero">%1$d iletilen konum</string>
   <string name="ForwardedLocation_one">İletilen Konum</string>
   <string name="ForwardedLocation_two">%1$d iletilen konum</string>

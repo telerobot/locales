@@ -160,14 +160,14 @@
   <string name="ChannelCantSendMessage">К сожалению, вы не можете писать в этот канал.</string>
   <string name="ChannelAddedByNotification">%1$s добавил(а) вас на канал %2$s</string>
   <string name="ChannelPhotoEditNotification">Фото канала %1$s обновлено</string>
-  <string name="ChannelMessageGroupNoText">%1$s опубликовал(а) сообщение на канале %2$s</string>
+  <string name="ChannelMessageGroupNoText">%1$s опубликовал(а) сообщение на канале «%2$s»</string>
   <string name="ChannelMessageGroupPhoto">%1$s отправил(а) фото на канал %2$s</string>
   <string name="ChannelMessageGroupVideo">%1$s отправил(а) видео на канал %2$s</string>
   <string name="ChannelMessageGroupContact">%1$s отправил(а) контакт на канал %2$s</string>
   <string name="ChannelMessageGroupMap">%1$s отправил(а) местоположение на канал %2$s</string>
   <string name="ChannelMessageGroupDocument">%1$s отправил(а) файл на канал %2$s</string>
   <string name="ChannelMessageGroupGif">%1$s отправил(а) GIF на канал %2$s</string>
-  <string name="ChannelMessageGroupAudio">%1$s отправил(а) аудиозапись на канал %2$s</string>
+  <string name="ChannelMessageGroupAudio">%1$s опубликовал(а) аудиозапись на канале «%2$s»</string>
   <string name="ChannelMessageGroupSticker">%1$s отправил(а) стикер на канал %2$s</string>
   <string name="ChannelMessageNoText">%1$s опубликовал(а) сообщение</string>
   <string name="ChannelMessagePhoto">%1$s опубликовал(а) фото</string>
@@ -178,6 +178,9 @@
   <string name="ChannelMessageGIF">%1$s опубликовал(а) GIF</string>
   <string name="ChannelMessageAudio">%1$s опубликовал(а) аудиозапись</string>
   <string name="ChannelMessageSticker">%1$s опубликовал(а) стикер</string>
+  <string name="WhoCanAddMembers">Кто может добавлять новых пользователей?</string>
+  <string name="WhoCanAddMembersAllMembers">Все участники</string>
+  <string name="WhoCanAddMembersAdmins">Только администраторы</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Новая рассылка</string>
   <string name="EnterListName">Введите название рассылки</string>
@@ -187,7 +190,7 @@
   <!--audio view-->
   <string name="NoAudio">Добавьте файлы в музыкальную библиотеку этого устройства, чтобы увидеть их здесь.</string>
   <string name="AttachMusic">Музыка</string>
-  <string name="AudioUnknownArtist">Неизв. исполнитель</string>
+  <string name="AudioUnknownArtist">Неизвестный исполнитель</string>
   <string name="AudioUnknownTitle">Без названия</string>
   <!--documents view-->
   <string name="SelectFile">Выберите файл</string>
@@ -209,15 +212,15 @@
   <string name="Typing">печатает…</string>
   <string name="IsTyping">печатает…</string>
   <string name="AreTyping">печатают…</string>
-  <string name="IsRecordingAudio">%1$s записывает аудио...</string>
+  <string name="IsRecordingAudio">%1$s что-то говорит в телефон...</string>
   <string name="IsSendingPhoto">%1$s отправляет фото...</string>
   <string name="IsSendingVideo">%1$s отправляет видео...</string>
   <string name="IsSendingFile">%1$s отправляет файл...</string>
-  <string name="RecordingAudio">запись аудио...</string>
+  <string name="RecordingAudio">запись голоса...</string>
   <string name="SendingPhoto">отправка фото...</string>
   <string name="SendingVideoStatus">отправка видео...</string>
   <string name="SendingFile">отправка файла...</string>
-  <string name="GotAQuestion">Есть вопрос\nо Telegram?</string>
+  <string name="GotAQuestion">Есть вопрос по работе Telegram?</string>
   <string name="ChatTakePhoto">Сделать снимок</string>
   <string name="ChatGallery">Галерея</string>
   <string name="ChatLocation">Местоположение</string>
@@ -236,7 +239,7 @@
   <string name="EncryptedPlaceholderTitleOutgoing">Вы пригласили пользователя %s в секретный чат.</string>
   <string name="EncryptedDescriptionTitle">Секретные чаты — это:</string>
   <string name="EncryptedDescription1">сквозное шифрование</string>
-  <string name="EncryptedDescription2">никаких следов на серверах</string>
+  <string name="EncryptedDescription2">никаких следов на наших серверах</string>
   <string name="EncryptedDescription3">таймер самоуничтожения</string>
   <string name="EncryptedDescription4">запрет пересылки</string>
   <string name="YouWereKicked">Вас исключили из этой группы</string>
@@ -258,7 +261,7 @@
   <string name="CopyUrl">Копировать ссылку</string>
   <string name="SendItems">Отправить %1$s</string>
   <string name="OpenUrlAlert">Открыть ссылку в %1$s?</string>
-  <string name="ReportSpam">СПАМ</string>
+  <string name="ReportSpam">ПОЖАЛОВАТЬСЯ НА СПАМ</string>
   <string name="AddContactChat">ДОБАВИТЬ КОНТАКТ</string>
   <string name="ReportSpamAlert">Уверены, что хотите сообщить о спаме от этого пользователя?</string>
   <string name="ReportSpamAlertGroup">Уверены, что хотите сообщить о спаме от этой группы?</string>
@@ -282,7 +285,7 @@
   <string name="NotificationMessageMap">%1$s отправил(а) вам своё местоположение</string>
   <string name="NotificationMessageDocument">%1$s отправил(а) вам файл</string>
   <string name="NotificationMessageGif">%1$s отправил(а) вам GIF</string>
-  <string name="NotificationMessageAudio">%1$s отправил(а) вам аудио</string>
+  <string name="NotificationMessageAudio">%1$s прислал(а) аудиозапись</string>
   <string name="NotificationMessageSticker">%1$s отправил(а) вам стикер</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s отправил(а) сообщение в группу %2$s</string>
@@ -329,6 +332,7 @@
   <string name="NewMessageTitle">Новое сообщение</string>
   <!--group create view-->
   <string name="SendMessageTo">Отправить сообщение...</string>
+  <string name="SoftUserLimitAlert">Можно добавить ещё больше участников: для этого преобразуйте эту группу в супергруппу после того, как завершите её создание.</string>
   <string name="EnterGroupNamePlaceholder">Введите имя группы</string>
   <string name="GroupName">Имя группы</string>
   <string name="MembersCount">%1$d/%2$d участников</string>
@@ -409,6 +413,7 @@
   <string name="StickersCopy">Скопировать ссылку</string>
   <string name="StickersRemove">Удалить</string>
   <string name="NoStickers">Стикеров пока нет</string>
+  <string name="TooMuchStickersets">К сожалению, вы установили максимально допустимое количество наборов стикеров.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Сброс всех настроек уведомлений на стандартные</string>
   <string name="TextSize">Размер текста сообщений</string>
@@ -505,6 +510,8 @@
   <string name="SmartNotificationsTimes">раз(а)</string>
   <string name="SmartNotificationsWithin">в течение</string>
   <string name="SmartNotificationsMinutes">минут</string>
+  <string name="SecretWebPage">Предпросмотр ссылок</string>
+  <string name="SecretChat">Секретные чаты</string>
   <!--cache view-->
   <string name="CacheSettings">Настройки кэша</string>
   <string name="LocalDatabase">Локальная база данных</string>
@@ -604,6 +611,15 @@
   <string name="Shadows">Тени</string>
   <string name="Grain">Зернистость</string>
   <string name="Sharpen">Резкость</string>
+  <string name="Fade">Затухание</string>
+  <string name="Tint">Оттенок</string>
+  <string name="TintShadows">ТЕНИ</string>
+  <string name="TintHighlights">БЛИКИ</string>
+  <string name="Curves">Кривые</string>
+  <string name="CurvesAll">ВСЕ</string>
+  <string name="CurvesRed">КРАСНЫЙ</string>
+  <string name="CurvesGreen">ЗЕЛЁНЫЙ</string>
+  <string name="CurvesBlue">СИНИЙ</string>
   <string name="Blur">Размытие</string>
   <string name="BlurOff">Отключено</string>
   <string name="BlurLinear">Линейное</string>
@@ -700,6 +716,18 @@
   <string name="PrivacyFloodControlError">Извините, слишком много запросов. Не удаётся изменить настройки приватности прямо сейчас, пожалуйста, подождите.</string>
   <string name="ClearOtherSessionsHelp">Выйти на всех устройствах, кроме этого.</string>
   <string name="RemoveFromListText">Нажмите и удерживайте на пользователя для удаления.</string>
+  <string name="GroupsAndChannels">Групповые чаты</string>
+  <string name="WhoCanAddMe">Кто может добавлять меня в группы?</string>
+  <string name="WhoCanAddMeInfo">Укажите, кто может добавлять вас в группы и каналы, а кто не может.</string>
+  <string name="AlwaysAllow">Всегда разрешать</string>
+  <string name="NeverAllow">Никогда не разрешать</string>
+  <string name="AlwaysAllowPlaceholder">Всегда разрешать...</string>
+  <string name="NeverAllowPlaceholder">Никогда не разрешать...</string>
+  <string name="CustomShareInfo">Эти пользователи смогут (или не смогут) добавлять вас в группы или каналы, несмотря на настройки выше.</string>
+  <string name="GroupsAndChannelsHelp">Укажите, кто может добавлять вас в группы и каналы.</string>
+  <string name="InviteToGroupError">К сожалению, этот пользователь запретил добавлять его в группы.</string>
+  <string name="InviteToChannelError">К сожалению, этот пользователь запретил приглашать его на каналы.</string>
+  <string name="CreateGroupError">К сожалению, эти пользователи запретили создавать группы с их участием.</string>
   <!--edit video view-->
   <string name="EditVideo">Редактировать видео</string>
   <string name="OriginalVideo">Исходное видео</string>
@@ -763,7 +791,7 @@
   <string name="ActionAddUserYou">un1 добавил(а) вас</string>
   <string name="ActionAddUserSelf">un1 вернулся(-лась) в группу</string>
   <string name="ActionAddUserSelfYou">Вы вернулись в группу</string>
-  <string name="UnsuppotedMedia">Это сообщение не поддерживается вашей версией Telegram. Для просмотра обновите приложение: https://telegram.org/update</string>
+  <string name="UnsupportedMedia">Это сообщение не поддерживается в вашей версии Telegram. Обновите приложение для просмотра: https://telegram.org/update</string>
   <string name="AttachPhoto">Фото</string>
   <string name="AttachVideo">Видео</string>
   <string name="AttachGif">GIF</string>
@@ -771,7 +799,7 @@
   <string name="AttachContact">Контакт</string>
   <string name="AttachDocument">Файл</string>
   <string name="AttachSticker">Стикер</string>
-  <string name="AttachAudio">Аудио</string>
+  <string name="AttachAudio">Аудиозапись</string>
   <string name="FromYou">Вы</string>
   <string name="ActionTakeScreenshootYou">Вы сделали скриншот!</string>
   <string name="ActionTakeScreenshoot">un1 сделал(а) скриншот!</string>
@@ -820,6 +848,8 @@
   <string name="FeatureUnavailable">Извините, эта возможность пока не доступна в вашей стране.</string>
   <string name="NoUsernameFound">Пользователь Telegram с таким именем не найден.</string>
   <string name="BotCantJoinGroups">Этот робот не может входить в группы.</string>
+  <string name="SecretLinkPreviewAlert">Включить предпросмотр ссылок в секретных чатах? Обратите внимание: для создания превью задействуются сервера Telegram.</string>
+  <string name="SecretChatContextBotAlert">Обратите внимание: встроенные боты создаются сторонними разработчиками. Весь текст, который вы печатаете после имени пользователя робота, отправляется на сервера этих разработчиков.</string>
   <!--permissions-->
   <string name="PermissionContacts">Чтобы вы могли оставаться на связи с вашими друзьями с любого устройства, необходим доступ к контактам.</string>
   <string name="PermissionStorage">Для сохранения и отправки фото, видео и других файлов необходим доступ к памяти вашего устройства.</string>
@@ -856,7 +886,7 @@
   <string name="Members_many">%1$d участников</string>
   <string name="Members_other">%1$d участников</string>
   <string name="AndMoreTyping_zero">и ещё %1$d набирают</string>
-  <string name="AndMoreTyping_one">и ещё %1$d набирает</string>
+  <string name="AndMoreTyping_one">и ещё %1$d печатают</string>
   <string name="AndMoreTyping_two">и ещё %1$d набирают</string>
   <string name="AndMoreTyping_few">и ещё %1$d набирают</string>
   <string name="AndMoreTyping_many">и ещё %1$d набирают</string>
