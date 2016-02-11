@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="AppName">Telegram</string>
+  <string name="AppNameBeta">Telegram Beta</string>
   <string name="LanguageName">Türkçe</string>
   <string name="LanguageNameInEnglish">Turkish</string>
   <string name="LanguageCode">tr</string>
@@ -42,6 +43,7 @@
   <string name="EncryptedChatStartedOutgoing">%s gizli sohbetinize katıldı.</string>
   <string name="EncryptedChatStartedIncoming">Gizli sohbete katıldınız.</string>
   <string name="ClearHistory">Geçmişi temizle</string>
+  <string name="ClearHistoryCache">Önbellekten sil</string>
   <string name="DeleteChat">Sil ve çık</string>
   <string name="DeleteChatUser">Sohbeti sil</string>
   <string name="HiddenName">Silinmiş Hesap</string>
@@ -59,15 +61,28 @@
   <string name="MuteDisable">Kapat</string>
   <string name="Hashtags">HASHTAG\\'LER</string>
   <string name="Recent">EN SON</string>
+  <string name="LinkPreview">Bağlantı önizlemesi</string>
   <!--channels-->
+  <string name="SetAsAdmin">Yöneticliğe yükselt</string>
   <string name="DescriptionInfoMega">You can provide an optional description for your group.</string>
+  <string name="LeaveMega">Gruptan Ayrıl</string>
   <string name="DeleteMega">Delete Group</string>
+  <string name="LeaveMegaMenu">Gruptan ayrıl</string>
   <string name="DeleteMegaMenu">Delete group</string>
+  <string name="MegaDeleteInfo">Bu gruptaki bütün mesajlar silinecek.</string>
+  <string name="MegaAdminsInfo">Grubunuzun yönetimine yardımcı olması için yönetici ekleyebilirsiniz. Yönetici kaldırmak için dokunun ve basılı tutun.</string>
   <string name="MegaDeleteAlert">Wait! Deleting this group will remove all members and all messages will be lost. Delete the group anyway?</string>
   <string name="ActionCreateMega">Group created</string>
+  <string name="MegaAddedBy">un1 sizi bu kanala ekledi</string>
+  <string name="MegaLeaveAlert">Gruptan ayrılmak istediğinize emin misiniz?</string>
   <string name="GroupUserCantAdd">Sorry, you can\'t add this user to groups.</string>
   <string name="GroupUserAddLimit">Sorry, this group is full.</string>
+  <string name="GroupUserLeftError">Üzgünüz, bu kullanıcı gruptan ayrılmaya karar verdi, bu yüzden onu tekrar davet edemezsiniz.</string>
+  <string name="GroupUserCantAdmin">Üzgünüz, bu gruba daha fazla yönetici eklenemez.</string>
+  <string name="GroupUserCantBot">Üzgünüz, bu gruba daha fazla bot eklenemez.</string>
   <string name="ActionMigrateFromGroup">This group was upgraded to a supergroup</string>
+  <string name="ActionMigrateFromGroupNotify">%1$s bir süper gruba yükseltildi.</string>
+  <string name="NoBlockedGroup">Engellenen kullanıcılar gruptan silinirler ve sadece bir yönetici tarafından davet edildiklerinde geri dönebilirler. Davet bağlantıları onlar için çalışmaz.</string>
   <string name="NewChannel">Yeni Kanal</string>
   <string name="EnterChannelName">Kanal Adı</string>
   <string name="Comments">Yorumlar</string>
@@ -103,7 +118,8 @@
   <string name="LinkInvalidStartNumber">Kanal adı bir sayı ile başlayamaz.</string>
   <string name="LinkChecking">Kanal adı kontrol ediliyor...</string>
   <string name="LinkAvailable">%1$s uygun.</string>
-  <string name="ChannelMembers">Kişiler</string>
+  <string name="ChannelMembers">Üyeler</string>
+  <string name="ChannelBlockedUsers">Engellenen kullanıcılar</string>
   <string name="ChannelAdministrators">Yöneticiler</string>
   <string name="ChannelDelete">Kanalı Sil</string>
   <string name="ChannelDeleteMenu">Kanalı sil</string>
@@ -113,7 +129,7 @@
   <string name="ChannelEdit">Düzenle</string>
   <string name="ChannelWasPrivateAlert">Eğer kanalınız için açık bir link seçerseniz, kanalınızı herkesin bulabileceğini ve katılabileceğini unutmayın.\n\nKanalınızın gizli kalmasını istiyorsanız bu linki oluşturmayın.</string>
   <string name="ChannelPublicEmptyUsername">Açık kanalınız için bir link seçin, bu şekilde insanlar kanalınızı bulabilir ve diğerleri ile paylaşabilir. İlginizi çekmediyse, özel bir kanal oluşturmayı deneyebilirsiniz.</string>
-  <string name="ActionCreateChannel">Kanal oluşturuldu.</string>
+  <string name="ActionCreateChannel">Kanal oluşturuldu</string>
   <string name="ActionChannelChangedPhoto">Kanal resmi değiştirildi</string>
   <string name="ActionChannelRemovedPhoto">Kanal resmi kaldırıldı</string>
   <string name="ActionChannelChangedTitle">Kanal ismi un2 olarak değiştirildi.</string>
@@ -130,10 +146,14 @@
   <string name="ChannelMembersInfo">Sadece kalan yöneticileri bu listeyi görebilir.</string>
   <string name="ChannelAdminNotParticipant">Bu kullanıcı henüz bu kanala katılmadı. Davet etmek ister misiniz?</string>
   <string name="ChannelLinkInfo">Telegram kullanan herkes bu linki kullanarak kanalınıza katılabilir.</string>
+  <string name="ChannelAdminsInfo">Kanalınızın yönetimine yardımcı olması için yönetici ekleyebilirsiniz. Yönetici kaldırmak için dokunun ve basılı tutun.</string>
   <string name="ChannelJoinTo">\'%1$s\' kanalına katılmak istediğinize emin misiniz?</string>
+  <string name="ChannelCantOpenPrivate">Üzgünüz, bu sohbet artık erişilebilir değil.</string>
   <string name="ChannelAddTo">%1$s kanala ekle?</string>
+  <string name="ChannelUserLeftError">Üzgünüz, bu kullanıcı kanaldan ayrılmaya karar verdi, bu yüzden onu tekrar davet edemezsiniz.</string>
   <string name="ChannelUserCantAdd">Üzgünüm, kanala yeni bir kullanıcı ekleyemezsin.</string>
   <string name="ChannelUserCantAdmin">Üzgünüm, bu kanala daha fazla yönetici ekleyemezsin.</string>
+  <string name="ChannelUserCantBot">Üzgünüz, bu kanala daha fazla bot eklenemez.</string>
   <string name="ChannelUserAddLimit">Sorry, you can only add the first 200 members to a channel. Note that an unlimited number of people may join via the channel\'s link.</string>
   <string name="ChannelAddedBy">un1 seni bu kanala ekledi</string>
   <string name="ChannelJoined">Kanala katıldınız</string>
@@ -141,14 +161,27 @@
   <string name="ChannelCantSendMessage">Üzgünüm, kanala yeni bir mesaj gönderemezsiniz.</string>
   <string name="ChannelAddedByNotification">%1$s, seni %2$s kanalına ekledi</string>
   <string name="ChannelPhotoEditNotification">%1$s kanalı fotoğraf yükledi</string>
+  <string name="ChannelMessageGroupNoText">%1$s, %2$s kanalına bir mesaj gönderdi</string>
+  <string name="ChannelMessageGroupPhoto">%1$s, %2$s kanalına bir fotoğraf gönderdi</string>
+  <string name="ChannelMessageGroupVideo">%1$s, %2$s kanalına bir video gönderdi</string>
+  <string name="ChannelMessageGroupContact">%1$s, %2$s kanalında bir kişi paylaştı</string>
+  <string name="ChannelMessageGroupMap">%1$s, %2$s kanalına bir konum gönderdi</string>
+  <string name="ChannelMessageGroupDocument">%1$s, %2$s kanalına bir dosya gönderdi</string>
+  <string name="ChannelMessageGroupGif">%1$s, %2$s kanalına bir GIF gönderdi</string>
+  <string name="ChannelMessageGroupAudio">%1$s, %2$s kanalına sesli bir mesaj gönderdi</string>
+  <string name="ChannelMessageGroupSticker">%1$s, %2$s kanalına bir çıkartma gönderdi</string>
   <string name="ChannelMessageNoText">%1$s size bir mesaj gönderdi</string>
   <string name="ChannelMessagePhoto">%1$s size bir fotoğraf gönderdi</string>
   <string name="ChannelMessageVideo">%1$s size bir video gönderdi</string>
   <string name="ChannelMessageContact">%1$s sizinle bir kişi paylaştı</string>
   <string name="ChannelMessageMap">%1$s size bir konum gönderdi</string>
   <string name="ChannelMessageDocument">%1$s size bir dosya gönderdi</string>
+  <string name="ChannelMessageGIF">%1$s bir GIF gönderdi</string>
   <string name="ChannelMessageAudio">%1$s bir sesli mesaj gönderdi</string>
   <string name="ChannelMessageSticker">%1$s size bir çıkartma gönderdi</string>
+  <string name="WhoCanAddMembers">Kimler yeni bir üye ekleyebilir?</string>
+  <string name="WhoCanAddMembersAllMembers">Tüm Üyeler</string>
+  <string name="WhoCanAddMembersAdmins">Sadece Yöneticiler</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Yeni Yayın Listesi</string>
   <string name="EnterListName">Liste adı girin</string>
@@ -180,9 +213,11 @@
   <string name="Typing">yazıyor...</string>
   <string name="IsTyping">yazıyor...</string>
   <string name="AreTyping">yazıyor...</string>
+  <string name="IsRecordingAudio">%1$s sesli bir mesaj kaydediyor...</string>
   <string name="IsSendingPhoto">%1$s fotoğraf gönderiyor...</string>
   <string name="IsSendingVideo">%1$s video gönderiyor...</string>
   <string name="IsSendingFile">%1$s dosya gönderiyor...</string>
+  <string name="RecordingAudio">sesli mesaj kaydediyor...</string>
   <string name="SendingPhoto">fotoğraf gönderiyor...</string>
   <string name="SendingVideoStatus">video gönderiyor...</string>
   <string name="SendingFile">dosya gönderiyor...</string>
@@ -215,6 +250,8 @@ sorunuz mu var?</string>
   <string name="DeleteThisChat">Bu sohbeti sil</string>
   <string name="SlideToCancel">İPTAL ETMEK İÇİN KAYDIRIN</string>
   <string name="SaveToDownloads">İndirilenlere kaydet</string>
+  <string name="SaveToGIFs">GIF\'lere Kaydet</string>
+  <string name="DeleteGif">GIF\'i Sil?</string>
   <string name="SaveToMusic">Müziklere kaydet</string>
   <string name="ShareFile">Paylaş</string>
   <string name="ApplyLocalizationFile">Yerelleştirme dosyasını uygula</string>
@@ -225,13 +262,16 @@ sorunuz mu var?</string>
   <string name="OpenInBrowser">Tarayıcıda aç</string>
   <string name="CopyUrl">Adresi Kopyala</string>
   <string name="SendItems">Gönder %1$s</string>
+  <string name="OpenUrlAlert">%1$s? bağlantısını aç?</string>
   <string name="ReportSpam">SPAM RAPORLA</string>
   <string name="AddContactChat">KİŞİ EKLE</string>
   <string name="ReportSpamAlert">Bu kullanıcıyı spam olarak raporlamak istediğine emin misin?</string>
   <string name="ReportSpamAlertGroup">Bu grubu spam olarak raporlamak istediğine emin misin?</string>
   <string name="NobodyLikesSpam1">Sorry, you can only send messages to mutual contacts at the moment.</string>
   <string name="NobodyLikesSpam2">Sorry, you can only add mutual contacts to groups at the moment.</string>
+  <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Daha fazla bilgi</string>
+  <string name="ShareSendTo">Gönder...</string>
   <string name="TapHereGifs">Tap here to access saved GIFs</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s kendini imha etme zamanlayıcısı %2$s olarak belirledi</string>
@@ -246,6 +286,8 @@ sorunuz mu var?</string>
   <string name="NotificationMessageContact">%1$s sizinle bir kişi paylaştı</string>
   <string name="NotificationMessageMap">%1$s size bir konum gönderdi</string>
   <string name="NotificationMessageDocument">%1$s size bir dosya gönderdi</string>
+  <string name="NotificationMessageGif">%1$s size bir GIF gönderdi</string>
+  <string name="NotificationMessageAudio">%1$s size bir sesli bir mesaj gönderdi</string>
   <string name="NotificationMessageSticker">%1$s size bir çıkartma gönderdi</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s, %2$s grubuna bir mesaj gönderdi</string>
@@ -254,6 +296,8 @@ sorunuz mu var?</string>
   <string name="NotificationMessageGroupContact">%1$s, %2$s grubuna bir kişi paylaştı</string>
   <string name="NotificationMessageGroupMap">%1$s %2$s grubuna bir konum gönderdi</string>
   <string name="NotificationMessageGroupDocument">%1$s, %2$s grubuna bir dosya gönderdi</string>
+  <string name="NotificationMessageGroupGif">%1$s, %2$s grubuna bir GIF gönderdi</string>
+  <string name="NotificationMessageGroupAudio">%1$s, %2$s grubuna sesli bir mesaj gönderdi</string>
   <string name="NotificationMessageGroupSticker">%1$s, %2$s grubuna bir çıkartma gönderdi</string>
   <string name="NotificationInvitedToGroup">%1$s, sizi %2$s grubuna davet etti</string>
   <string name="NotificationEditedGroupName">%1$s grubun adını %2$s olarak değiştirdi</string>
@@ -290,14 +334,17 @@ sorunuz mu var?</string>
   <string name="NewMessageTitle">Yeni Mesaj</string>
   <!--group create view-->
   <string name="SendMessageTo">Mesaj gönder...</string>
+  <string name="SoftUserLimitAlert">Grup oluşturmayı tamamlayıp bunu bir süper gruba çevirdikten sonra daha fazla kullanıcı ekleyebileceksiniz.</string>
   <string name="EnterGroupNamePlaceholder">Grup adını girin</string>
   <string name="GroupName">Grup adı</string>
   <string name="MembersCount">%1$d/%2$d üye</string>
   <string name="JoinToGroup">\'%1$s\' sohbetine katılmak istediğinize emin misiniz?</string>
   <string name="JoinToGroupErrorFull">Üzgünüz, bu grup çoktan dolmuş.</string>
+  <string name="JoinToGroupErrorNotExist">Üzgünüz, bu sohbet mevcut değil.</string>
   <string name="LinkCopied">Link panoya kopyalandı</string>
   <string name="InviteToGroupByLink">Davetiye linki ile gruba davet et</string>
   <string name="InviteLink">Davetiye Linki</string>
+  <string name="RevokeAlert">Bu bağlantıyı iptal etmek istediğinize emin misiniz? Bunu yaptıktan sonra, hiç kimse bu bağlantıyı kullanarak gruba katılamayacak.</string>
   <string name="RevokeAlertNewLink">Önceki davetiye linki artık aktif değil. Yeni bir link oluşturuldu.</string>
   <string name="RevokeButton">İptal Et</string>
   <string name="RevokeLink">Linki İptal Et</string>
@@ -306,15 +353,20 @@ sorunuz mu var?</string>
   <string name="LinkInfo">Telegram kullanan herkes bu linki kullanarak grubunuza katılabilir.</string>
   <!--set admins view-->
   <string name="SetAdminsTitle">Chat Admins</string>
+  <string name="SetAdminsAll">Tüm Üyeler Yönetici</string>
   <string name="SetAdminsAllInfo">All members can add new members, edit name and photo of the group.</string>
   <string name="SetAdminsNotAllInfo">Only admins can add and remove members, edit name and photo of the group.</string>
   <!--group info view-->
   <string name="SharedMedia">Paylaşılan İçerik</string>
   <string name="SETTINGS">Ayarlar</string>
   <string name="AddMember">Üye ekle</string>
+  <string name="SetAdmins">Yöneticileri ayarla</string>
   <string name="DeleteAndExit">Sil ve gruptan ayrıl</string>
   <string name="Notifications">Bildirimler</string>
   <string name="KickFromGroup">Gruptan kaldır</string>
+  <string name="ConvertGroup">Süper Gruba Yükselt</string>
+  <string name="ConvertGroupAlert">Grup üyelerinin süper grubunuzu görmek için Telegram uygulamalarını son sürümüne yükseltmeye gerek duyacaklarını unutmayın. Bu grubu yükseltmek istediğinize emin misiniz?</string>
+  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Üye sınırına erişildi.<![CDATA[</b>]]>\n\nSınırın üstüne çıkmak ve ek özellikler edinmek için süper gruba yükseltin:\n\n• Süper gruplar %1$s kadar üye alabilirler\n• Yeni üyeler tüm sohbet geçmişini görebilir\n• Yöneticiler herkes tarafından gönderilen mesajları silebilirler\n• Bildirimler varsayılan olarak sessize alınır</string>
   <!--contact info view-->
   <string name="ShareContact">Paylaş</string>
   <string name="AddContact">Ekle</string>
@@ -364,6 +416,7 @@ sorunuz mu var?</string>
   <string name="StickersCopy">Linki kopyala</string>
   <string name="StickersRemove">Kaldır</string>
   <string name="NoStickers">Henüz etiket yok</string>
+  <string name="TooMuchStickersets">Üzgünüz, maksimum çıkartma paketi sayısına ulaştınız.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Tüm bildirim ayarlarını varsayılana sıfırla</string>
   <string name="TextSize">Mesaj Yazı Boyutu</string>
@@ -462,13 +515,21 @@ sorunuz mu var?</string>
   <string name="SmartNotificationsTimes">kez</string>
   <string name="SmartNotificationsWithin">içinde</string>
   <string name="SmartNotificationsMinutes">dakika</string>
+  <string name="SecretWebPage">Bağlantı Önizlemeleri</string>
+  <string name="SecretChat">Gizli sohbetler</string>
   <!--cache view-->
   <string name="CacheSettings">Zula Ayarları</string>
+  <string name="LocalDatabase">Yerel Veritabanı</string>
+  <string name="LocalDatabaseClear">Önbelleğe alınan metin mesajlarını temizlemek istiyor musunuz?</string>
+  <string name="LocalDatabaseInfo">Yerel veritabanını temizlemek önbelleğe alınmış mesaj metinlerini silecek ve veritabanını diskten yer kazanmak için sıkıştıracak. Telegram\'ın çalışması için bazı veriler gerekli, bu yüzden veritabanı boyutu asla sıfıra ulaşmayacak.\n\nBu işlemin tamamlanması birkaç dakika sürebilir.</string>
   <string name="ClearMediaCache">Zulayı Temizle</string>
   <string name="CacheClear">Temizle</string>
+  <string name="CalculatingSize">Hesaplanıyor...</string>
   <string name="LocalPhotoCache">Photos</string>
+  <string name="LocalAudioCache">Sesli mesajlar</string>
   <string name="LocalVideoCache">Videos</string>
   <string name="LocalMusicCache">Music</string>
+  <string name="LocalCache">Diğer dosyalar</string>
   <string name="CacheEmpty">Empty</string>
   <string name="KeepMedia">Keep Media</string>
   <string name="KeepMediaForever">Sürekli</string>
@@ -512,6 +573,7 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="SharedMediaTitle">Paylaşılan Medya</string>
   <string name="LinksTitle">Paylaşılan Linkler</string>
   <string name="AudioTitle">Müzik Paylaş</string>
+  <string name="NoSharedAudio">Bu sohbette müzik paylaşın ve paylaşımlarınıza tüm cihazlarınızdan erişin.</string>
   <string name="NoSharedFiles">Bu sohbette dosya ve doküman paylaşın ve paylaşımlarınıza tüm cihazlarınızdan erişin</string>
   <string name="NoSharedLinks">Bu sohbette linkleri paylaşın ve paylaşımlarınıza tüm cihazlarınızdan erişin</string>
   <!--map view-->
@@ -554,6 +616,14 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="Shadows">Gölgeler</string>
   <string name="Grain">Taneleme</string>
   <string name="Sharpen">Keskinlik</string>
+  <string name="Tint">Tonlama</string>
+  <string name="TintShadows">GÖLGELER</string>
+  <string name="TintHighlights">PARLAK ALANLAR</string>
+  <string name="Curves">Eğriler</string>
+  <string name="CurvesAll">TÜMÜ</string>
+  <string name="CurvesRed">KIRMIZI</string>
+  <string name="CurvesGreen">YEŞİL</string>
+  <string name="CurvesBlue">MAVİ</string>
   <string name="Blur">Bulanıklık</string>
   <string name="BlurOff">Kapalı</string>
   <string name="BlurLinear">Lineer</string>
@@ -650,6 +720,18 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="PrivacyFloodControlError">Üzgünüz, çok fazla istek yapıldı. Gizlilik ayarlarını değiştirmek şu anda mümkün değil, lütfen bekleyin.</string>
   <string name="ClearOtherSessionsHelp">Bu cihaz dışındaki bütün cihazlardan çıkış yap.</string>
   <string name="RemoveFromListText">Kullanıcıyı silmek için dokunun ve basılı tutun.</string>
+  <string name="GroupsAndChannels">Gruplar</string>
+  <string name="WhoCanAddMe">Kimler beni grup sohbetlerine ekleyebilir?</string>
+  <string name="WhoCanAddMeInfo">Sizi kimlerin gruplara ve kanallara ekleyebileceğini her bir kişi için kısıtlayabilirsiniz.</string>
+  <string name="AlwaysAllow">Her Zaman İzin Ver</string>
+  <string name="NeverAllow">Asla İzin Verme</string>
+  <string name="AlwaysAllowPlaceholder">Her zaman izin ver...</string>
+  <string name="NeverAllowPlaceholder">Asla izin verme...</string>
+  <string name="CustomShareInfo">Bu kullanıcılar yukarıdaki ayarlar göze alınmaksızın sizi gruplara ve kanallara ekleyebilecek ya da ekleyemeyecek.</string>
+  <string name="GroupsAndChannelsHelp">Sizi kimlerin gruplara ya da kanallara ekleyebileceğini değiştirin.</string>
+  <string name="InviteToGroupError">Üzgünüz, kullanıcının gizlilik ayarlarından dolayı kullanıcıyı gruplara ekleyemezsiniz.</string>
+  <string name="InviteToChannelError">Üzgünüz, kullanıcının gizlilik ayarlarından dolayı kullanıcıyı kanallara ekleyemezsiniz.</string>
+  <string name="CreateGroupError">Üzgünüz, kullanıcıların gizlilik ayarlarından dolayı bu kullanıcılarla bir grup oluşturamazsınız.</string>
   <!--edit video view-->
   <string name="EditVideo">Videoyu Düzenle</string>
   <string name="OriginalVideo">Orijinal Video</string>
@@ -683,6 +765,7 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="Call">Ara</string>
   <string name="Copy">Kopyala</string>
   <string name="Delete">Sil</string>
+  <string name="DeleteAndStop">Sil ve durdur</string>
   <string name="Forward">İlet</string>
   <string name="Retry">Tekrar dene</string>
   <string name="FromCamera">Kameradan</string>
@@ -695,12 +778,14 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="ActionInviteYou">Davetiye linkini kullanarak gruba katıldınız.</string>
   <string name="ActionInviteUser">un1 davetiye linkini kullanarak gruba katıldı.</string>
   <string name="ActionKickUser">un1, un2 kişisini sildi</string>
+  <string name="ActionLeftUser">un1 gruptan ayrıldı</string>
   <string name="ActionAddUser">un1, un2 kişisini ekledi</string>
   <string name="ActionRemovedPhoto">un1 grup resmini sildi</string>
   <string name="ActionChangedPhoto">un1 grup resmini değiştirdi</string>
   <string name="ActionChangedTitle">un1 grup adını un2 olarak değiştirdi</string>
   <string name="ActionCreateGroup">un1 grubu oluşturdu</string>
   <string name="ActionYouKickUser">un2 kişisini sildiniz</string>
+  <string name="ActionYouLeftUser">Gruptan ayrıldınız</string>
   <string name="ActionYouAddUser">un2 kişisini eklediniz</string>
   <string name="ActionYouRemovedPhoto">Grup resmini sildiniz</string>
   <string name="ActionYouChangedPhoto">Grup resmini değiştirdiniz</string>
@@ -710,6 +795,8 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="ActionAddUserYou">un1 sizi ekledi</string>
   <string name="ActionAddUserSelf">un1 gruba geri döndü</string>
   <string name="ActionAddUserSelfYou">Gruba geri döndünüz.</string>
+  <string name="UnsupportedMedia">Telegram sürümünüz bu mesajı desteklemiyor. Uygulamayı güncelleyin:
+https://telegram.org/update</string>
   <string name="AttachPhoto">Fotoğraf</string>
   <string name="AttachVideo">Video</string>
   <string name="AttachGif">GIF</string>
@@ -717,6 +804,7 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="AttachContact">Kişi</string>
   <string name="AttachDocument">Dosya</string>
   <string name="AttachSticker">Çıkartma</string>
+  <string name="AttachAudio">Sesli mesaj</string>
   <string name="FromYou">Siz</string>
   <string name="ActionTakeScreenshootYou">Ekran görüntüsü aldınız!</string>
   <string name="ActionTakeScreenshoot">un1 ekran görüntüsü aldı!</string>
@@ -734,11 +822,13 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="NoHandleAppInstalled">\'%1$s\' dosya türünü destekleyen uygulamanız yok, devam etmek için lütfen bir yane yükleyin</string>
   <string name="InviteUser">Bu kullanıcı henüz Telegram kullanmıyor, davet gönderilsin mi?</string>
   <string name="AreYouSure">Emin misiniz?</string>
+  <string name="AddToTheGroupTitle">%1$s kullanıcısını %2$s sohbetine eklemek istiyor musunuz?</string>
   <string name="AddToTheGroupForwardCount">Son kaç mesaj iletilsin:</string>
   <string name="AddToTheGroup">%1$s kişisini gruba ekle?</string>
   <string name="UserAlreadyInGroup">Bu kişi zaten bu grupta</string>
   <string name="ForwardMessagesTo">Mesajlar %1$s kişisine iletilsin mi?</string>
   <string name="SendMessagesTo">%1$s kişisine mesajlar gönderilsin mi?</string>
+  <string name="SendContactTo">%1$s kullanıcısına kişi göndermek istiyor musunuz?</string>
   <string name="AreYouSureLogout">Çıkmak istediğinize emin misiniz?
 
 Telegramı aynı anda bütün cihazlarınızda sorunsuz bir şekilde kulanabilirsiniz.
@@ -754,12 +844,16 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="AreYouSureSecretChat">Bir gizli sohbet başlatmak istediğinizden emin misiniz?</string>
   <string name="AreYouSureRegistration">Kayıt işlemini iptal etmek istediğinize emin misiniz?</string>
   <string name="AreYouSureClearHistory">Geçmişi silmek istediğinize emin misiniz?</string>
+  <string name="AreYouSureClearHistoryChannel">Önbelleğe alınmış tüm metin ve medyayı bu kanaldan silmek istiyor musunuz?</string>
+  <string name="AreYouSureClearHistorySuper">Önbelleğe alınmış tüm metin ve medyayı bu süper gruptan silmek istiyor musunuz?</string>
   <string name="AreYouSureDeleteMessages">%1$s\'i silmek istediğinize emin misiniz ? </string>
   <string name="SendMessagesToGroup">%1$s kişisine mesajları gönder?</string>
+  <string name="SendContactToGroup">%1$s kullanıcısına kişi göndermek istiyor musunuz?</string>
   <string name="ForwardMessagesToGroup">%1$s grubuna mesajları gönder?</string>
   <string name="FeatureUnavailable">Üzgünüz, bu özellik şu anda ülkenizde kullanılabilir değil.</string>
   <string name="NoUsernameFound">Bu kullanıcı adına ait bir Telegram hesabı yok.</string>
   <string name="BotCantJoinGroups">Bu bot gruplara katılamaz.</string>
+  <string name="SecretLinkPreviewAlert">Gizli Sohbetler\'de genişletilmiş bağlantı önizlemelerini kullanmak istiyor musunuz? Bağlantı önizlemelerinin Telegram sunucularında oluşturulduğunu aklınızda bulundurun.</string>
   <!--permissions-->
   <string name="PermissionOpenSettings">AYARLAR</string>
   <!--Intro view-->
@@ -971,4 +1065,5 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s saat %2$s</string>
   <!--update text-->
+  <string name="updateBuild">704</string>
 </resources>

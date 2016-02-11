@@ -169,6 +169,7 @@
   <string name="ChannelMessageGroupMap">%1$s надіслав/ла розташування до каналу %2$s</string>
   <string name="ChannelMessageGroupDocument">%1$s надіслав/ла файл до каналу %2$s</string>
   <string name="ChannelMessageGroupGif">%1$s надіслав/ла GIF до каналу %2$s</string>
+  <string name="ChannelMessageGroupAudio">%1$s надіслав/ла голосове повідомлення на канал %2$s</string>
   <string name="ChannelMessageGroupSticker">%1$s надіслав/ла наліпку до каналу %2$s</string>
   <string name="ChannelMessageNoText">%1$s опублікував/ла повідомлення</string>
   <string name="ChannelMessagePhoto">%1$s опублікував/ла фотографію</string>
@@ -179,6 +180,9 @@
   <string name="ChannelMessageGIF">%1$s розмістив/ла GIF</string>
   <string name="ChannelMessageAudio">%1$s опублікував/ла голосове повідомлення</string>
   <string name="ChannelMessageSticker">%1$s опублікував/ла наліпку</string>
+  <string name="WhoCanAddMembers">Хто може додавати нових учасників?</string>
+  <string name="WhoCanAddMembersAllMembers">Всі учасники</string>
+  <string name="WhoCanAddMembersAdmins">Лише адміністратори</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Новий список розсилки</string>
   <string name="EnterListName">Введіть назву списку</string>
@@ -210,9 +214,11 @@
   <string name="Typing">друкує...</string>
   <string name="IsTyping">друкує...</string>
   <string name="AreTyping">друкують...</string>
+  <string name="IsRecordingAudio">%1$s записує голосове повідомлення...</string>
   <string name="IsSendingPhoto">%1$s надсилає фотографію...</string>
   <string name="IsSendingVideo">%1$s надсилає відео...</string>
   <string name="IsSendingFile">%1$s надсилає файл...</string>
+  <string name="RecordingAudio">запис голосового повідомлення...</string>
   <string name="SendingPhoto">надсилання фотографії...</string>
   <string name="SendingVideoStatus">відправлення відео...</string>
   <string name="SendingFile">відправлення файлу</string>
@@ -281,6 +287,7 @@
   <string name="NotificationMessageMap">%1$s відправив/ла вам місцезнаходження</string>
   <string name="NotificationMessageDocument">%1$s відправив(-ла) вам файл</string>
   <string name="NotificationMessageGif">%1$s надіслав/ла вам GIF</string>
+  <string name="NotificationMessageAudio">%1$s надіслав/ла вам голосове повідомлення</string>
   <string name="NotificationMessageSticker">%1$s надіслав/ла вам наліпку</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s надіслав/ла повідомлення групі %2$s</string>
@@ -290,6 +297,7 @@
   <string name="NotificationMessageGroupMap">%1$s надіслав/ла розташування групі %2$s</string>
   <string name="NotificationMessageGroupDocument">%1$s надіслав/ла файл групі %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s надіслав/ла GIF до групи %2$s</string>
+  <string name="NotificationMessageGroupAudio">%1$s надіслав/ла голосове повідомлення в групу %2$s</string>
   <string name="NotificationMessageGroupSticker">%1$s надіслав/ла наліпку до групи %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s запросив/ла вас до групи %2$s</string>
   <string name="NotificationEditedGroupName">%1$s змінив/ла ім\'я групи %2$s</string>
@@ -326,6 +334,7 @@
   <string name="NewMessageTitle">Нове повідомлення</string>
   <!--group create view-->
   <string name="SendMessageTo">Надіслати повідомлення...</string>
+  <string name="SoftUserLimitAlert">Після створення групи ви зможете додавати більше учасників, а також перетворювати її на супергрупу.</string>
   <string name="EnterGroupNamePlaceholder">Уведіть назву групи</string>
   <string name="GroupName">Назва групи</string>
   <string name="MembersCount">%1$d/%2$d учасників</string>
@@ -406,6 +415,7 @@
   <string name="StickersCopy">Копіювати посилання</string>
   <string name="StickersRemove">Вилучити</string>
   <string name="NoStickers">Поки немає наліпок</string>
+  <string name="TooMuchStickersets">Вибачте, але ви досягли межі наборів наліпок.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Відновити типові налаштування сповіщень</string>
   <string name="TextSize">Розмір тексту повідомлень</string>
@@ -504,6 +514,8 @@
   <string name="SmartNotificationsTimes">разів</string>
   <string name="SmartNotificationsWithin">упродовж</string>
   <string name="SmartNotificationsMinutes">хвилин</string>
+  <string name="SecretWebPage">Перегляд посилань</string>
+  <string name="SecretChat">Секретні чати</string>
   <!--cache view-->
   <string name="CacheSettings">Налаштування кешу</string>
   <string name="LocalDatabase">Локальна база даних</string>
@@ -605,6 +617,15 @@
   <string name="Shadows">Тіні</string>
   <string name="Grain">Зернистість</string>
   <string name="Sharpen">Різкість</string>
+  <string name="Fade">Вицвітання</string>
+  <string name="Tint">Відтінок</string>
+  <string name="TintShadows">ТІНІ</string>
+  <string name="TintHighlights">ПІДСВІЧУВАННЯ</string>
+  <string name="Curves">Вигин</string>
+  <string name="CurvesAll">ВСЕ</string>
+  <string name="CurvesRed">ЧЕРВОНИЙ</string>
+  <string name="CurvesGreen">ЗЕЛЕНИЙ</string>
+  <string name="CurvesBlue">БЛАКИТНИЙ</string>
   <string name="Blur">Розмиття</string>
   <string name="BlurOff">Вимк</string>
   <string name="BlurLinear">Лінійний</string>
@@ -701,6 +722,18 @@
   <string name="PrivacyFloodControlError">Вибачте, занадто багато запитів. Неможливо змінити налаштування безпеки прямо зараз, будь ласка почекайте.</string>
   <string name="ClearOtherSessionsHelp">Завершує сеанси на всіх пристроях, крім поточного.</string>
   <string name="RemoveFromListText">Натисніть і утримуйте на користувача для видалення.</string>
+  <string name="GroupsAndChannels">Групи</string>
+  <string name="WhoCanAddMe">Хто може додавати мене до групових чатів?</string>
+  <string name="WhoCanAddMeInfo">Ви можете обмежити додавання вас до груп та каналів з високою точністю.</string>
+  <string name="AlwaysAllow">Завжди дозволяти</string>
+  <string name="NeverAllow">Ніколи не дозволяти</string>
+  <string name="AlwaysAllowPlaceholder">Завжди дозволяти...</string>
+  <string name="NeverAllowPlaceholder">Ніколи не дозволяти...</string>
+  <string name="CustomShareInfo">Ці користувачі зможуть або не зможуть додавати вас до груп та каналів, в залежності від ваших налаштувань вгорі.</string>
+  <string name="GroupsAndChannelsHelp">Змінити, хто може додавати вас до груп і каналів.</string>
+  <string name="InviteToGroupError">Вибачте, але ви не можете додавати цього користувача до груп, через його налаштування приватності.</string>
+  <string name="InviteToChannelError">Вибачте, але ви не можете додавати цього користувача до каналів, через його налаштування приватності.</string>
+  <string name="CreateGroupError">Вибачте, але ви не можете створити групу з цими користувачами, через їхні налаштування приватності.</string>
   <!--edit video view-->
   <string name="EditVideo">Редагувати відео</string>
   <string name="OriginalVideo">Оригінальне відео</string>
@@ -764,6 +797,7 @@
   <string name="ActionAddUserYou">un1 додав/ла вас</string>
   <string name="ActionAddUserSelf">un1 повернувся(-лася) в групу</string>
   <string name="ActionAddUserSelfYou">Ви повернулися до групи</string>
+  <string name="UnsupportedMedia">Це повідомлення не підтримується у вашій версії Telegram. Для перегляду оновіть програму: https://telegram.org/update</string>
   <string name="AttachPhoto">Фотографія</string>
   <string name="AttachVideo">Відео</string>
   <string name="AttachGif">GIF</string>
@@ -771,6 +805,7 @@
   <string name="AttachContact">Контакт</string>
   <string name="AttachDocument">Файл</string>
   <string name="AttachSticker">Наліпка</string>
+  <string name="AttachAudio">Голосове повідомлення</string>
   <string name="FromYou">Ви</string>
   <string name="ActionTakeScreenshootYou">Ви зробили скріншот!</string>
   <string name="ActionTakeScreenshoot">un1 зробив/ла скріншот!</string>
@@ -819,6 +854,8 @@
   <string name="FeatureUnavailable">Вибачте, ця можливість поки недоступна у вашій країні.</string>
   <string name="NoUsernameFound">Немає облікового запису Telegram з цим іменем користувача.</string>
   <string name="BotCantJoinGroups">Цей бот не може приєднуватись до груп.</string>
+  <string name="SecretLinkPreviewAlert">Чи бажаєте увімкнути розширений вигляд посилання в секретних чатах? Зауважте, що вигляд посилань генерується на серверах Telegram.</string>
+  <string name="SecretChatContextBotAlert">Зауважте, що вбудовані боти надаються розробниками третіх сторін. Для роботи бота, введені вами символи після імені користувача бота надсилаються відповідному розробнику.</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram потребує доступу до ваших контактів, щоб ви змогли зв\'язатися зі своїми друзями на всіх своїх пристроях.</string>
   <string name="PermissionStorage">Telegram потребує доступу до вашого сховища, щоб ви могли надсилати й зберігати фотографії, відео, музику та інші медіа.</string>
@@ -855,6 +892,7 @@
   <string name="Members_many">%1$d учасників</string>
   <string name="Members_other">%1$d учасників</string>
   <string name="AndMoreTyping_zero">і ще %1$d друкують</string>
+  <string name="AndMoreTyping_one">і ще %1$d людина пише</string>
   <string name="AndMoreTyping_two">і ще %1$d друкує</string>
   <string name="AndMoreTyping_few">і ще %1$d друкує</string>
   <string name="AndMoreTyping_many">і ще %1$d друкує</string>
@@ -998,6 +1036,12 @@
   <string name="ForwardedVideo_few">%1$d переслані відео</string>
   <string name="ForwardedVideo_many">%1$d пересланих відео</string>
   <string name="ForwardedVideo_other">%1$d пересланих відео</string>
+  <string name="ForwardedAudio_zero">%1$d пересланих голосових повідомлень</string>
+  <string name="ForwardedAudio_one">Переслане голосове повідомлення</string>
+  <string name="ForwardedAudio_two">%1$d переслані голосові повідомлення</string>
+  <string name="ForwardedAudio_few">%1$d переслані голосові повідомлення</string>
+  <string name="ForwardedAudio_many">%1$d пересланих голосових повідомлень</string>
+  <string name="ForwardedAudio_other">%1$d пересланих голосових повідомлень</string>
   <string name="ForwardedLocation_zero">%1$d пересланих розташувань</string>
   <string name="ForwardedLocation_one">Переслане розташування</string>
   <string name="ForwardedLocation_two">%1$d переслані розташування</string>
