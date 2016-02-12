@@ -62,6 +62,7 @@
   <string name="ActionCreateMega">Guruh yaratish</string>
   <string name="GroupUserAddLimit">Kechirasiz, ushbu guruh to`lgan</string>
   <string name="NewChannel">Kanal yaratish</string>
+  <string name="EnterChannelName">Kanal nomi</string>
   <string name="ChannelInviteLinkTitle">Taklif havolasi</string>
   <string name="ChannelSettings">Sozlamalar</string>
   <string name="LinkAvailable">%1$s mavjud.</string>
@@ -405,6 +406,7 @@
   <!--password view-->
   <string name="ResetMyAccountWarningReset">Asliga qaytarish</string>
   <string name="LoginPassword">Paro</string>
+  <string name="ForgotPassword">Parolni unutdingizmi?</string>
   <string name="PasswordCode">Kod</string>
   <!--privacy settings-->
   <string name="RemoveFromListText">Ushbu foydalanuvchini o\'chirish uchun, foydalanuvchi nomini bosib ushlab turing.</string>
