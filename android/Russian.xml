@@ -338,7 +338,7 @@
   <string name="MembersCount">%1$d/%2$d участников</string>
   <string name="JoinToGroup">Присоединиться к группе «%1$s»?</string>
   <string name="JoinToGroupErrorFull">К сожалению, эта группа уже заполнена.</string>
-  <string name="JoinToGroupErrorNotExist">Кажется, такой группы не существует.</string>
+  <string name="JoinToGroupErrorNotExist">Кажется, такой группы не существует (или ваша ссылка устарела).</string>
   <string name="LinkCopied">Скопировано</string>
   <string name="InviteToGroupByLink">Пригласить в группу по ссылке</string>
   <string name="InviteLink">Ссылка для приглашения</string>
@@ -480,6 +480,7 @@
   <string name="WhenRoaming">В роуминге</string>
   <string name="NoMediaAutoDownload">Ничего</string>
   <string name="AutoplayGifs">Автозапуск GIF</string>
+  <string name="RaiseToSpeak">Поднеси для записи</string>
   <string name="SaveToGallerySettings">Сохранять в галерее</string>
   <string name="EditName">Изменить имя</string>
   <string name="NotificationsPriority">Приоритет</string>
@@ -850,6 +851,7 @@
   <string name="BotCantJoinGroups">Этот робот не может входить в группы.</string>
   <string name="SecretLinkPreviewAlert">Включить предпросмотр ссылок в секретных чатах? Обратите внимание: для создания превью задействуются сервера Telegram.</string>
   <string name="SecretChatContextBotAlert">Обратите внимание: встроенные боты создаются сторонними разработчиками. Весь текст, который вы печатаете после имени пользователя робота, отправляется на сервера этих разработчиков.</string>
+  <string name="RaiseToSpeakAlert">Включить функцию «Поднеси для записи» для голосовых сообщений?</string>
   <!--permissions-->
   <string name="PermissionContacts">Чтобы вы могли оставаться на связи с вашими друзьями с любого устройства, необходим доступ к контактам.</string>
   <string name="PermissionStorage">Для сохранения и отправки фото, видео и других файлов необходим доступ к памяти вашего устройства.</string>
@@ -1072,6 +1074,7 @@
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s в %2$s</string>
   <!--update text-->
-  <string name="updateText">GIF-революция: загрузка и скачивание GIF теперь происходит в 20 раз быстрее, доавлен автозапуск анимаций и сохранение ваших люимых GIF в отдельную вкладку на панели стикеров.\n\nПодробнее о гифках: https://tlgrm.ru/a/gifs \n\nВстроенные боты: новый способ добавить бота, отправлющего контент, в любой чат. Наберите юзернейм бота и свой запрос в поле сообщения и отправьте моментально полученный результат собеседнику. Попробуйте набрать «@gif dog» в этом чате. Ещё боты для примера: @gif, @wiki, @bingpic, @vid.\n\nПодробнее о ботах: https://tlgrm.ru/a/inline-bots</string>
+  <string name="updateText">Ваш Telegram обновился. Что нового:\n– Переработанные голосовые сообщения: помимо нового дизайна с превью, появилась возможность прослушивания и записи голосовой заметки просто поднеся телефон к уху.\n\n– Секретные чаты повышенной комфортности. Всё то, за что мы так любим Telegram, теперь доступно и в секретных чатах: стикеры, встроенные боты, предпросмотр ссылок, ответы, подписи к фото и видео и, конечно, новые GIF.\n\n– Расширенные настройки приватности: теперь вы можете разграничить, кто может, а кто не может добавлять вас в группы и каналы.
+Информация об обновлении и обсуждение: https://tlgrm.ru/a/audio2</string>
   <string name="updateBuild">704</string>
 </resources>

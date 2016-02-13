@@ -492,6 +492,7 @@
   <string name="WhenRoaming">Роумингта</string>
   <string name="NoMediaAutoDownload">Йөкләмәскә</string>
   <string name="AutoplayGifs">GIFларны үзе уйнату</string>
+  <string name="RaiseToSpeak">Яздырганда якынрак китерегез</string>
   <string name="SaveToGallerySettings">Галереяда саклау</string>
   <string name="EditName">Исемне үзгәртү</string>
   <string name="NotificationsPriority">Приоритет</string>
@@ -868,6 +869,7 @@
   <string name="BotCantJoinGroups">Бу бот төркемләргә керә алмый.</string>
   <string name="SecretLinkPreviewAlert">Яшерен чатларда сылтамаларны алдан карауны кабызыргамы? Игътибар, алдан карау өчен Telegram серверлары кулланыла.</string>
   <string name="SecretChatContextBotAlert">Игътибар, эчендәге ботларны башка ясаучылар эшли. Бот исеменнән соң язылган бөтен текст шушы ясаучылар серверларына җибәрелә.</string>
+  <string name="RaiseToSpeakAlert">Тавышлы хатлар өчен \"Яздырганда якынрак китерегез\" функциясен кабызыргамы?</string>
   <!--permissions-->
   <string name="PermissionContacts">Дусларыгыз белән төрле җайланмалар аша элемтәдә калу өчен Telegramга контактларыгызны күрү мөмкинчелеге кирәк.</string>
   <string name="PermissionStorage">Фото, видео, һәм башка медиа файлларны җибәрү һәм саклау өчен Telegramга файллар саклау урыныгызга керү мөмкинчелеге кирәк.</string>
@@ -1049,6 +1051,7 @@
   <string name="ForwardedVideo_many">%1$d видео</string>
   <string name="ForwardedVideo_other">%1$d видео</string>
   <string name="ForwardedAudio_zero">%1$d яңа адресланган тавыш хатлары</string>
+  <string name="ForwardedAudio_one">Яңа адресланган тавыш хаты</string>
   <string name="ForwardedAudio_two">%1$d яңа адресланган тавыш хатлары</string>
   <string name="ForwardedAudio_few">%1$d яңа адресланган тавыш хатлары</string>
   <string name="ForwardedAudio_many">%1$d яңа адресланган тавыш хатлары</string>
