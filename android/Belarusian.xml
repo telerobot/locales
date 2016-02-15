@@ -168,6 +168,7 @@
   <string name="ChannelMessageGroupMap">%1$s даслаў месцазнаходжанне ў канал %2$s</string>
   <string name="ChannelMessageGroupDocument">%1$s даслаў файл у канал %2$s</string>
   <string name="ChannelMessageGroupGif">%1$s даслаў анімацыю ў канал %2$s</string>
+  <string name="ChannelMessageGroupAudio">%1$s даслаў аўдыязапіс у канал %2$s</string>
   <string name="ChannelMessageGroupSticker">%1$s даслаў налепку ў канал %2$s</string>
   <string name="ChannelMessageNoText">%1$s размясціў запіс</string>
   <string name="ChannelMessagePhoto">%1$s размясціў выяву</string>
@@ -178,6 +179,9 @@
   <string name="ChannelMessageGIF">%1$s размясціў анімацыю</string>
   <string name="ChannelMessageAudio">%1$s размясціў аўдыязапіс</string>
   <string name="ChannelMessageSticker">%1$s размясціў налепку</string>
+  <string name="WhoCanAddMembers">Хто можа дадаваць новых удзельнікаў?</string>
+  <string name="WhoCanAddMembersAllMembers">Усе ўдзельнікі</string>
+  <string name="WhoCanAddMembersAdmins">Толькі кіраўнікі</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Новы спіс рассылкі</string>
   <string name="EnterListName">Увядзіце імя спіса</string>
@@ -209,9 +213,11 @@
   <string name="Typing">піша...</string>
   <string name="IsTyping">піша...</string>
   <string name="AreTyping">пішуць...</string>
+  <string name="IsRecordingAudio">%1$s робіць аўдыязапіс...</string>
   <string name="IsSendingPhoto">%1$s адпраўляе выяву...</string>
   <string name="IsSendingVideo">%1$s адпраўляе відэазапіс...</string>
   <string name="IsSendingFile">%1$s адпраўляе файл...</string>
+  <string name="RecordingAudio">робіць аўдыязапіс...</string>
   <string name="SendingPhoto">адпраўка выявы...</string>
   <string name="SendingVideoStatus">адпраўка відэазапіса...</string>
   <string name="SendingFile">адпраўка файла...</string>
@@ -280,6 +286,7 @@
   <string name="NotificationMessageMap">%1$s даслаў вам месцазнаходжанне</string>
   <string name="NotificationMessageDocument">%1$s даслаў вам файл</string>
   <string name="NotificationMessageGif">%1$s даслаў вам анімацыю</string>
+  <string name="NotificationMessageAudio">%1$s даслаў вам аўдыязапіс</string>
   <string name="NotificationMessageSticker">%1$s даслаў вам налепку</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s даслаў паведамленне ў суполку %2$s</string>
@@ -289,6 +296,7 @@
   <string name="NotificationMessageGroupMap">%1$s даслаў месцазнаходжанне ў суполку %2$s</string>
   <string name="NotificationMessageGroupDocument">%1$s даслаў файл у суполку %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s даслаў анімацыю ў суполку %2$s</string>
+  <string name="NotificationMessageGroupAudio">%1$s даслаў аўдыязапіс у суполку %2$s</string>
   <string name="NotificationMessageGroupSticker">%1$s даслаў налепку ў суполку %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s запрасіў вас у суполку %2$s</string>
   <string name="NotificationEditedGroupName">%1$s адрэдагаваў імя суполкі %2$s</string>
@@ -326,6 +334,7 @@
   <string name="NewMessageTitle">Новае паведамленне</string>
   <!--group create view-->
   <string name="SendMessageTo">Даслаць паведамленне...</string>
+  <string name="SoftUserLimitAlert">У вас будзе магчымасць дадаць больш удзельнікаў пасля таго, як вы скончыце ствараць сваю суполку і ператворыце яе ў суперсуполку.</string>
   <string name="EnterGroupNamePlaceholder">Увядзіце імя суполкі</string>
   <string name="GroupName">Імя суполкі</string>
   <string name="MembersCount">%1$d/%2$d удзельнікаў</string>
@@ -406,6 +415,7 @@
   <string name="StickersCopy">Скапіяваць спасылку</string>
   <string name="StickersRemove">Выдаліць</string>
   <string name="NoStickers">Налепак пакуль няма</string>
+  <string name="TooMuchStickersets">Выбачайце, але вы дасягнулі ліміту набораў налепак.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Скінуць усе налады апавяшчэнняў па змаўчанні</string>
   <string name="TextSize">Памер тэксту ў паведамленнях</string>
@@ -472,6 +482,7 @@
   <string name="WhenRoaming">У роўмінгу</string>
   <string name="NoMediaAutoDownload">Няма медыяаб’ектаў</string>
   <string name="AutoplayGifs">Аўтаматычна прайграваць анімацыі </string>
+  <string name="RaiseToSpeak">Паднясі для запісу</string>
   <string name="SaveToGallerySettings">Захаваць у галерэю</string>
   <string name="EditName">Змяніць назву</string>
   <string name="NotificationsPriority">Прыярытэт</string>
@@ -502,6 +513,8 @@
   <string name="SmartNotificationsTimes">разоў</string>
   <string name="SmartNotificationsWithin">на працягу</string>
   <string name="SmartNotificationsMinutes">хвілін</string>
+  <string name="SecretWebPage">Перадпрагляд спасылак</string>
+  <string name="SecretChat">Сакрэтныя размовы</string>
   <!--cache view-->
   <string name="CacheSettings">Налады кэша</string>
   <string name="LocalDatabase">Лакальная база дадзеных</string>
@@ -601,6 +614,15 @@
   <string name="Shadows">Цені</string>
   <string name="Grain">Зерністасць</string>
   <string name="Sharpen">Рэзкасць</string>
+  <string name="Fade">Затуханне</string>
+  <string name="Tint">Адценні</string>
+  <string name="TintShadows">ЦЕНІ</string>
+  <string name="TintHighlights">ПАДСВЕТКА</string>
+  <string name="Curves">Крывыя</string>
+  <string name="CurvesAll">УСЕ</string>
+  <string name="CurvesRed">ЧЫРВОНЫ</string>
+  <string name="CurvesGreen">ЗЯЛЁНЫ</string>
+  <string name="CurvesBlue">СІНІ</string>
   <string name="Blur">Размыццё</string>
   <string name="BlurOff">Адкл</string>
   <string name="BlurLinear">Лінейнае</string>
@@ -697,6 +719,18 @@
   <string name="PrivacyFloodControlError">Выбачайце, зашмат запытаў. Немагчыма зараз змяніць налады прыватнасці, паспрабуйце пазней.</string>
   <string name="ClearOtherSessionsHelp">Выходзіць з усіх устройств, апроч гэтага.</string>
   <string name="RemoveFromListText">Датыкніцеся да карыстальніка і ўтрымлівайце, каб выдаліць.</string>
+  <string name="GroupsAndChannels">Суполкі</string>
+  <string name="WhoCanAddMe">Хто можа дадаваць мяне да суполак?</string>
+  <string name="WhoCanAddMeInfo">Вы можаце вызначыць, хто можа запрашаць вас у суполкі і каналы.</string>
+  <string name="AlwaysAllow">Заўсёды дазваляць</string>
+  <string name="NeverAllow">Ніколі не дазваляць</string>
+  <string name="AlwaysAllowPlaceholder">Заўсёды дазваляць...</string>
+  <string name="NeverAllowPlaceholder">Ніколі не дазваляць...</string>
+  <string name="CustomShareInfo">Гэтыя карыстальнікі змогуць або не змогуць дадаваць вас у суполкі і каналы, незалежна ад налад вышэй.</string>
+  <string name="GroupsAndChannelsHelp">Прызначыць тых, хто можа дадаваць вас да суполак і каналаў.</string>
+  <string name="InviteToGroupError">Выбачайце, але вы не можаце дадаць гэтага карыстальніка у суполкі, бо ён(яна) забараніў(-ла) гэта сваімі наладамі прыватнасці.</string>
+  <string name="InviteToChannelError">Выбачайце, але вы не можаце дадаць гэтага карыстальніка да каналаў, бо ён(яна) забараніў(-ла) гэта сваімі наладамі прыватнасці.</string>
+  <string name="CreateGroupError">Выбачайце, але вы не можаце стварыць суполку з гэтымі карыстальнікамі з-за іх наладаў прыватнасці.</string>
   <!--edit video view-->
   <string name="EditVideo">Рэдагаваць відэа</string>
   <string name="OriginalVideo">Арыгінальнае відэа</string>
@@ -760,6 +794,7 @@
   <string name="ActionAddUserYou">un1 дадаў вас</string>
   <string name="ActionAddUserSelf">un1 вярнуўся ў суполку</string>
   <string name="ActionAddUserSelfYou">Вы вярнуліся ў суполку</string>
+  <string name="UnsupportedMedia">Гэтае паведамленне не падтрымліваецца вашай версіяй Тэлеграма. Абнавіце праграму, каб праглядзець: http://telegram.org/update</string>
   <string name="AttachPhoto">Фотаздымак</string>
   <string name="AttachVideo">Відэазапіс</string>
   <string name="AttachGif">Анімацыя</string>
@@ -767,6 +802,7 @@
   <string name="AttachContact">Кантакт</string>
   <string name="AttachDocument">Файл</string>
   <string name="AttachSticker">Налепка</string>
+  <string name="AttachAudio">Аўдыязапіс</string>
   <string name="FromYou">Вы</string>
   <string name="ActionTakeScreenshootYou">Вы зрабілі скрыншот!</string>
   <string name="ActionTakeScreenshoot">un1 зрабіў здымак экрана!</string>
@@ -811,6 +847,9 @@
   <string name="FeatureUnavailable">Выбачайце, але гэтая функцыя ў вашай краіне пакуль што недаступная.</string>
   <string name="NoUsernameFound">Уліковага запісу Тэлеграма з такой мянушкай не існуе.</string>
   <string name="BotCantJoinGroups">Гэты бот не можа далучацца да суполак.</string>
+  <string name="SecretLinkPreviewAlert">Ці жадаеце ўключыць пашыраны перадпрагляд спасылак у сакрэтных размовах? Звярніце ўвагу, што перадпрагляд ствараецца на серверах Тэлеграма.</string>
+  <string name="SecretChatContextBotAlert">Звярніце ўвагу, што хуткія боты прадастаўляюцца пабочнымі распрацоўнікамі. Каб бот працаваў, сімвалы, якія вы набіраеце пасля мянушкі бота, дасылаюцца адказнаму распрацоўніку.</string>
+  <string name="RaiseToSpeakAlert">Жадаеце ўключыць функцыю \"Паднясі для запісу\"?</string>
   <!--permissions-->
   <string name="PermissionContacts">Тэлеграму патрэбны доступ да вашых кантактаў, каб вы маглі звязацца з сваімі сябрамі на ўсіх сваіх устройствах.</string>
   <string name="PermissionStorage">Тэлеграму патрэбны доступ да вашага сховішча файлаў, каб вы маглі дасылаць і захоўваць выявы, відэа, музыку і іншыя медыяфайлы.</string>
@@ -847,6 +886,7 @@
   <string name="Members_many">%1$d удзельнікаў</string>
   <string name="Members_other">%1$d удзельнікаў</string>
   <string name="AndMoreTyping_zero">і яшчэ %1$d чалавек друкуе</string>
+  <string name="AndMoreTyping_one">і яшчэ %1$d пішуць</string>
   <string name="AndMoreTyping_two">і яшчэ %1$d чалавекі друкуе</string>
   <string name="AndMoreTyping_few">і яшчэ %1$d чалавекі друкуе</string>
   <string name="AndMoreTyping_many">і яшчэ %1$d чалавек друкуе</string>
@@ -990,6 +1030,12 @@
   <string name="ForwardedVideo_few">%1$d перадасланых відэазапісаў</string>
   <string name="ForwardedVideo_many">%1$d перадасланых відэазапісаў</string>
   <string name="ForwardedVideo_other">%1$d перадасланых відэазапісаў</string>
+  <string name="ForwardedAudio_zero">%1$d перадасланых аўдыязапісаў</string>
+  <string name="ForwardedAudio_one">Перадасланы аўдыязапіс</string>
+  <string name="ForwardedAudio_two">%1$d перадасланых аўдыязапісы</string>
+  <string name="ForwardedAudio_few">%1$d перадасланых аўдыязапісы</string>
+  <string name="ForwardedAudio_many">%1$d перадасланых аўдыязапісаў</string>
+  <string name="ForwardedAudio_other">%1$d перадасланых аўдыязапісаў</string>
   <string name="ForwardedLocation_zero">%1$d перадасланых аўдыязапісаў</string>
   <string name="ForwardedLocation_one">Перадасланае месцазнаходжанне</string>
   <string name="ForwardedLocation_two">%1$d перадасланых месцазнаходжанні</string>
