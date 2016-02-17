@@ -482,6 +482,7 @@
   <string name="WhenRoaming">У роумінгу</string>
   <string name="NoMediaAutoDownload">Немає медіа</string>
   <string name="AutoplayGifs">Автовідтворення GIF</string>
+  <string name="RaiseToSpeak">Raise to Speak</string>
   <string name="SaveToGallerySettings">Зберегти в галереї</string>
   <string name="EditName">Редагувати ім\'я</string>
   <string name="NotificationsPriority">Приорітет</string>
@@ -856,6 +857,7 @@
   <string name="BotCantJoinGroups">Цей бот не може приєднуватись до груп.</string>
   <string name="SecretLinkPreviewAlert">Чи бажаєте увімкнути розширений вигляд посилання в секретних чатах? Зауважте, що вигляд посилань генерується на серверах Telegram.</string>
   <string name="SecretChatContextBotAlert">Зауважте, що вбудовані боти надаються розробниками третіх сторін. Для роботи бота, введені вами символи після імені користувача бота надсилаються відповідному розробнику.</string>
+  <string name="RaiseToSpeakAlert">Чи бажаєте увімкнути функцію \"Raise to speak\" для голосових повідомлень?</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram потребує доступу до ваших контактів, щоб ви змогли зв\'язатися зі своїми друзями на всіх своїх пристроях.</string>
   <string name="PermissionStorage">Telegram потребує доступу до вашого сховища, щоб ви могли надсилати й зберігати фотографії, відео, музику та інші медіа.</string>
