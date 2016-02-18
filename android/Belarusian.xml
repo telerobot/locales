@@ -133,7 +133,7 @@
   <string name="ActionChannelChangedPhoto">Выява канала абноўлена</string>
   <string name="ActionChannelRemovedPhoto">Выява канала выдалена</string>
   <string name="ActionChannelChangedTitle">Назва канала была зменена на un2</string>
-  <string name="ChannelPublicLimitReached">Выбачайце, але вы стварылі зашмат публічных каналаў. Вы можаце стварыць прыватны канал ці выдаліць адзін з вашых існуючых каналаў. </string>
+  <string name="ChannelPublicLimitReached">Выбачайце, але вы стварылі зашмат публічных каналаў. Вы можаце стварыць прыватны канал ці выдаліць адзін з вашых існых каналаў. </string>
   <string name="ChannelModerator">Мадэратар</string>
   <string name="ChannelCreator">Стваральнік</string>
   <string name="ChannelEditor">Кіраўнік</string>
