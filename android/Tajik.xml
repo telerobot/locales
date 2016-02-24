@@ -71,7 +71,11 @@
   <string name="MegaAdminsInfo">Шумо метавонед маъмуронро барои кӯмаки идораи гурӯҳ илова кунед. Барои нест кардан пахш карда доред.</string>
   <string name="ActionCreateMega">Гурӯҳ сохта шуд</string>
   <string name="MegaAddedBy">un1 шуморо ба ин гурӯҳ дохил намуд</string>
+  <!--<string name="MegaUsernameHelp">People can share this link with others and find your supergroup using Telegram search.</string>-->
   <string name="ChannelSettings">Танзимотҳо</string>
+  <!--<string name="LinkInvalidShortMega">Supergroup names must have at least 5 characters.</string>-->
+  <!--<string name="LinkInvalidStartNumberMega">Supergroup names can\'t start with a number.</string>-->
+  <!--<string name="MegaWasPrivateAlert">Please note that if you choose a public link for your supergroup, anyone will be able to find it in search and join.\n\nDo not create this link if you want your supergroup to stay private.</string>-->
   <!--broadcasts-->
   <!--audio view-->
   <!--documents view-->

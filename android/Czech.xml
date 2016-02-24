@@ -87,6 +87,7 @@
   <string name="CommentsInfo">PŘIPOJIT</string>
   <string name="AddMutual">Přidát kontakt do vašeho kanálu</string>
   <string name="ChannelUsernameHelp">Lidé mohou sdílet tento odkaz s ostatními a najít váš kanál pomocí Telegram vyhledávání.</string>
+  <!--<string name="MegaUsernameHelp">People can share this link with others and find your supergroup using Telegram search.</string>-->
   <string name="ChannelUsernamePlaceholder">odkaz</string>
   <string name="ChannelPrivateLinkHelp">Lidé se mohou připojit k vašemu kanálu pomocí následujícího odkazu. Kdykoliv můžete odkaz odvolat.</string>
   <string name="DescriptionPlaceholder">Popis</string>
@@ -114,6 +115,8 @@
   <string name="LinkInvalidShort">Uživatelské jméno musí mít nejméně 5 znaků.</string>
   <string name="LinkInvalidLong">Uživatelské jméno nemůže mít více než 32 znaků.</string>
   <string name="LinkInvalidStartNumber">Promiňte, uživatelské jméno nemůže začínat číslem.</string>
+  <!--<string name="LinkInvalidShortMega">Supergroup names must have at least 5 characters.</string>-->
+  <!--<string name="LinkInvalidStartNumberMega">Supergroup names can\'t start with a number.</string>-->
   <string name="LinkChecking">Kontrola uživatelského jména...</string>
   <string name="LinkAvailable">%1$s je dostupné.</string>
   <string name="ChannelMembers">Členové</string>
@@ -125,6 +128,7 @@
   <string name="ChannelLeaveAlert">Jste si jistý, že chcete opustit kanál?</string>
   <string name="ChannelDeleteInfo">Ztratíte všechny zprávy v tomto kanálu.</string>
   <string name="ChannelEdit">Editovat</string>
+  <!--<string name="MegaWasPrivateAlert">Please note that if you choose a public link for your supergroup, anyone will be able to find it in search and join.\n\nDo not create this link if you want your supergroup to stay private.</string>-->
   <string name="ChannelWasPrivateAlert">Vezměte prosím na vědomí, že pokud zvolíte veřejný odkaz pro váš kanál, kdokoliv ho bude schopen najít a připojit.\n\nNevytvářejte tento odkaz, chcete-li mít váš kanál soukromý.</string>
   <string name="ChannelPublicEmptyUsername">Prosím zvolte odkaz pro váš veřejný kanál, takže lidé budou moci najít a sdílet ho..\n\nPokud vás to nezajímá, doporučujeme ponechat kanál soukromý.</string>
   <string name="ActionCreateChannel">Kanál vytvořen</string>
@@ -372,7 +376,6 @@
   <string name="EncryptionKey">Šifrovací klíč</string>
   <string name="MessageLifetime">Sebedestrukce</string>
   <string name="ShortMessageLifetimeForever">Vypnuto</string>
-  <string name="EncryptionKeyDescription">Obrázek znázorňuje šifrovací klíč pro tuto soukromou konverzaci s uživatelem <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Pokud vypadá stejně i u uživatele <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, je konverzace na 200%% bezpečná.<![CDATA[<br><br>]]>Více informací na telegram.org</string>
   <string name="NumberUnknown">Neznáme</string>
   <string name="Info">Info</string>
   <string name="Phone">Telefon</string>
@@ -1024,6 +1027,4 @@ Smazat a zastavit</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s o %2$s</string>
   <!--update text-->
-  <string name="updateText">Telegram pro Android byl aktualizován. Novinky ve verzi 3.4.0:\n\nRevoluce GIFů: více než 20x rychlejší stahování/posílání, automatické přehrávání a ukládání GIFů do oddělené záložky v panelu samolepek.\n\nVíce o GIFech:\nhttps://telegram.org/blog/gif-revolution\n\nInline roboti: Nový způsob k přidávání obsahu robotů do jakéhololiv chatu. Napište uživatelské jméno a váš dotaz do textového pole ,k získání okamžitých výsledků a pošlete je vašemu partnerovi. Zkuste ve vašem chatu napsat “@gif dog”. Ukázky robotů: @gif, @wiki, @bing, @vid, @bold.\n\nVíce o robotech:\nhttps://telegram.org/blog/inline-bots</string>
-  <string name="updateBuild">704</string>
 </resources>

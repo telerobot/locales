@@ -89,6 +89,7 @@
   <string name="CommentsInfo">Калі вы ўключыце каментары, карыстальнікі змогуць абмяркоўваць вашыя паведамленні на канале.</string>
   <string name="AddMutual">Дадаць кантакты ў канал</string>
   <string name="ChannelUsernameHelp">Карыстальнікі могуць дзяліцца гэтай спасылкай з іншымі, а таксама знайсці ваш канал праз пошук Тэлеграма.</string>
+  <!--<string name="MegaUsernameHelp">People can share this link with others and find your supergroup using Telegram search.</string>-->
   <string name="ChannelUsernamePlaceholder">спасылка</string>
   <string name="ChannelPrivateLinkHelp">Карыстальнікі могуць далучыцца да вашага канала, пераходзячы па гэтай спасылцы. Вы можаце адключыць яе калі заўгодна.</string>
   <string name="DescriptionPlaceholder">Апісанне</string>
@@ -116,6 +117,8 @@
   <string name="LinkInvalidShort">Назва канала павінна складацца сама менш з 5 сімвалаў. </string>
   <string name="LinkInvalidLong">Назва не можа быць даўжэйшай за 32 сімвалы. </string>
   <string name="LinkInvalidStartNumber">Назва канала не можа пачынацца з лічбы. </string>
+  <!--<string name="LinkInvalidShortMega">Supergroup names must have at least 5 characters.</string>-->
+  <!--<string name="LinkInvalidStartNumberMega">Supergroup names can\'t start with a number.</string>-->
   <string name="LinkChecking">Праверка назвы... </string>
   <string name="LinkAvailable">Назва «%1$s» даступная. </string>
   <string name="ChannelMembers">Удзельнікі </string>
@@ -127,6 +130,7 @@
   <string name="ChannelLeaveAlert">Вы ўпэўненыя, што жадаеце пакінуць гэты канал? </string>
   <string name="ChannelDeleteInfo">Вы страціце доступ да ўсіх паведамленняў у гэтым канале.</string>
   <string name="ChannelEdit">Рэдагаваць</string>
+  <!--<string name="MegaWasPrivateAlert">Please note that if you choose a public link for your supergroup, anyone will be able to find it in search and join.\n\nDo not create this link if you want your supergroup to stay private.</string>-->
   <string name="ChannelWasPrivateAlert">Звярніце увагу, што калі вы створыце публічную спасылку на ваш канал, кожны карыстальнік зможа адшукаць яе праз пошук і далучыцца да канала.\n\nНе стварайце гэтую спасылку, калі жадаеце, каб ваш канал застаўся прыватным. </string>
   <string name="ChannelPublicEmptyUsername">Абярыце спасылку для вашага публічнага канала, каб карыстальнікі маглі адшукаць яго праз пошук і падзяліцца з іншымі.\n\nКалі вы не хочаце, каб карыстальнікі мелі такую магчымасць, мы прапануем вам стварыць прыватны канал.</string>
   <string name="ActionCreateChannel">Канал створаны</string>
@@ -384,7 +388,6 @@
   <string name="EncryptionKey">Ключ шыфравання</string>
   <string name="MessageLifetime">Таймер самазнішчэння</string>
   <string name="ShortMessageLifetimeForever">Выкл</string>
-  <string name="EncryptionKeyDescription">Гэта выява з\'яўляецца візуалізацыяй ключа шыфравання для сакрэтнай размовы з <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Калі яна выглядае гэтак жа на тэлефоне <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, то вашая размова абаронена на 200%%.<![CDATA[<br><br>]]>Дазнайцеся больш на telegram.org</string>
   <string name="NumberUnknown">Невядомы</string>
   <string name="Info">Звесткі</string>
   <string name="Phone">Тэлефон</string>
@@ -1072,6 +1075,4 @@
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s а %2$s</string>
   <!--update text-->
-  <string name="updateText">Тэлеграм для Android быў абноўлены. Новае ў версіі 3.4.0:\n\nАнімацыйная рэвалюцыя: цяпер анімацыі дасылаюцца і спампоўваюцца ў 20 разоў хутчэй; вы таксама можаце захоўваць улюбёныя анімацыі на панэль налепак.\n\nДазнацца больш аб анімацыях:\nhttps://telegram.org/blog/gif-revolution\n\nХуткія боты: Новы спосаб дзяліцца кантэнтам ад ботаў у любой размове. Набярыце мянушку бота і ваш запыт у тэкставае поле, каб імгненна атрымаць вынікі і даслаць іх вашаму суразмоўцу. Паспрабуйце набраць \"@gif dog\" у вашай наступнай размове. Прыклады ботаў: @gif, @wiki, @bing, @vid, @bold.\n\nДазнацца больш аб хуткіх ботах:\nhttps://telegram.org/blog/inline-bots</string>
-  <string name="updateBuild">704</string>
 </resources>

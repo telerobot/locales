@@ -90,6 +90,7 @@
   <string name="CommentsInfo">Якщо ви увімкнете коментарі, люди зможуть обговорювати ваші дописи на каналі.</string>
   <string name="AddMutual">Додати контакти до свого каналу</string>
   <string name="ChannelUsernameHelp">Люди можуть ділитися цим посиланням і знаходити ваш канал через пошук в Telegram.</string>
+  <!--<string name="MegaUsernameHelp">People can share this link with others and find your supergroup using Telegram search.</string>-->
   <string name="ChannelUsernamePlaceholder">посилання</string>
   <string name="ChannelPrivateLinkHelp">Люди можуть приєднуватись до вашого каналу, перейшовши за цим посиланням. Ви можете відкликати це посилання будь-коли.</string>
   <string name="DescriptionPlaceholder">Опис</string>
@@ -117,6 +118,8 @@
   <string name="LinkInvalidShort">Назви каналів повинні містити щонайменше 5 символів.</string>
   <string name="LinkInvalidLong">Назва не повинна перевищувати 32 символи.</string>
   <string name="LinkInvalidStartNumber">Назви каналів не можуть починатися з цифри.</string>
+  <!--<string name="LinkInvalidShortMega">Supergroup names must have at least 5 characters.</string>-->
+  <!--<string name="LinkInvalidStartNumberMega">Supergroup names can\'t start with a number.</string>-->
   <string name="LinkChecking">Перевірка назви...</string>
   <string name="LinkAvailable">%1$s доступне.</string>
   <string name="ChannelMembers">Учасники</string>
@@ -128,6 +131,7 @@
   <string name="ChannelLeaveAlert">Ви дійсно хочете покинути канал?</string>
   <string name="ChannelDeleteInfo">Ви втратите всі повідомлення в цьому каналі.</string>
   <string name="ChannelEdit">Змінити</string>
+  <!--<string name="MegaWasPrivateAlert">Please note that if you choose a public link for your supergroup, anyone will be able to find it in search and join.\n\nDo not create this link if you want your supergroup to stay private.</string>-->
   <string name="ChannelWasPrivateAlert">Майте на увазі, якщо ви оберете публічне посилання, будь-хто зможе знайти його через пошук і приєднатися.\n\nНе створюйте це посилання, якщо ви хочете залишити свій канал приватним.</string>
   <string name="ChannelPublicEmptyUsername">Виберіть посилання для свого публічного каналу, таким чином люди зможуть знаходити його через пошук і ділитися з іншими.\n\nЯкщо вас це не цікавить, рекомендуємо натомість створити приватний канал.</string>
   <string name="ActionCreateChannel">Канал створено</string>
@@ -384,7 +388,6 @@
   <string name="EncryptionKey">Ключ шифрування</string>
   <string name="MessageLifetime">Таймер самознищення</string>
   <string name="ShortMessageLifetimeForever">Вимкнути</string>
-  <string name="EncryptionKeyDescription"><![CDATA[Це зображення є візуалізацією ключа шифрування для цього чату з користувачем <b>%1$s</b>.<br><br>Якщо це зображення ідентично зображенню на телефоні користувача <b>%2$s\'s</b> ваш чат захищений на 200%%.<br><br>Дізнайтеся більше на telegram.org]]></string>
   <string name="NumberUnknown">Невідомо</string>
   <string name="Info">Інформація</string>
   <string name="Phone">Телефон</string>
@@ -1080,6 +1083,4 @@
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s в %2$s</string>
   <!--update text-->
-  <string name="updateText">Telegram для Android було оновлено. Нове у версії 3.4.0:\n\nGIF-революція: до 20 разів швидше завантаження/надсилання, автовідтворення, збереження GIF до відповідної вкладки панелі наліпок.\n\nДокладніше про GIF:\nhttps://telegram.org/blog/gif-revolution\n\nВбудовані боти: Новий спосіб додавати вміст від ботів до будь-якого чату. Введіть ім\'я користувача бота і свій запит в текстове поле для отримання миттєвого результату і надішліть його учаснику свого чату. Спробуйте ввести “@gif dog” в своєму чаті. Зразки ботів: @gif, @wiki, @bing, @vid, @bold.\n\nДокладніше про вбудованих ботів:\nhttps://telegram.org/blog/inline-bots</string>
-  <string name="updateBuild">704</string>
 </resources>

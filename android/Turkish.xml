@@ -89,6 +89,7 @@
   <string name="CommentsInfo">Eğer yorumları etkinleştirirseniz, insanlar kanaldaki yazılarınızı insanlar tartışabilir.</string>
   <string name="AddMutual">Kanalınıza kişi ekleyin</string>
   <string name="ChannelUsernameHelp">İnsanlar bu linki diğer insanlarla paylaşabilir ve Telegram aramasını kullanarak kanalınızı bulabilirler.</string>
+  <!--<string name="MegaUsernameHelp">People can share this link with others and find your supergroup using Telegram search.</string>-->
   <string name="ChannelUsernamePlaceholder">link</string>
   <string name="ChannelPrivateLinkHelp">İnsanlar bu linki kullanarak kanalınıza katılabilirler. İstediğiniz zaman iptal edebilirsiniz.</string>
   <string name="DescriptionPlaceholder">Açıklama</string>
@@ -116,6 +117,8 @@
   <string name="LinkInvalidShort">Kanal adları en az 5 karakter olmalıdır.</string>
   <string name="LinkInvalidLong">Kanal adı 32 karakteri geçmemelidir.</string>
   <string name="LinkInvalidStartNumber">Kanal adı bir sayı ile başlayamaz.</string>
+  <!--<string name="LinkInvalidShortMega">Supergroup names must have at least 5 characters.</string>-->
+  <!--<string name="LinkInvalidStartNumberMega">Supergroup names can\'t start with a number.</string>-->
   <string name="LinkChecking">Kanal adı kontrol ediliyor...</string>
   <string name="LinkAvailable">%1$s uygun.</string>
   <string name="ChannelMembers">Üyeler</string>
@@ -127,6 +130,7 @@
   <string name="ChannelLeaveAlert">Kanaldan ayrılmak istediğinden emin misin?</string>
   <string name="ChannelDeleteInfo">Bu kanaldaki bütün mesajlar silinecek.</string>
   <string name="ChannelEdit">Düzenle</string>
+  <!--<string name="MegaWasPrivateAlert">Please note that if you choose a public link for your supergroup, anyone will be able to find it in search and join.\n\nDo not create this link if you want your supergroup to stay private.</string>-->
   <string name="ChannelWasPrivateAlert">Eğer kanalınız için açık bir link seçerseniz, kanalınızı herkesin bulabileceğini ve katılabileceğini unutmayın.\n\nKanalınızın gizli kalmasını istiyorsanız bu linki oluşturmayın.</string>
   <string name="ChannelPublicEmptyUsername">Açık kanalınız için bir link seçin, bu şekilde insanlar kanalınızı bulabilir ve diğerleri ile paylaşabilir. İlginizi çekmediyse, özel bir kanal oluşturmayı deneyebilirsiniz.</string>
   <string name="ActionCreateChannel">Kanal oluşturuldu</string>
@@ -384,7 +388,6 @@ sorunuz mu var?</string>
   <string name="EncryptionKey">Şifreleme Anahtarı</string>
   <string name="MessageLifetime">Kendini imha etme zamanlayıcı</string>
   <string name="ShortMessageLifetimeForever">Kapalı</string>
-  <string name="EncryptionKeyDescription"><![CDATA[Bu resim <b>%1$s</b> ile yapılan bu gizli konuşmanın şifreleme anahtarının bir görselleştirmesidir.<br><br>Eğer resim <b>%2$s</b> kişisinin cihazında da tamamen aynı görünüyorsa, sohbetiniz %%200 güvenli demektir.<br><br>Daha fazla bilgi için telegram.org]]></string>
   <string name="NumberUnknown">Bilinmeyen</string>
   <string name="Info">Bilgi</string>
   <string name="Phone">Telefon</string>
@@ -1065,5 +1068,4 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s saat %2$s</string>
   <!--update text-->
-  <string name="updateBuild">704</string>
 </resources>

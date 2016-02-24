@@ -92,6 +92,7 @@
   <string name="CommentsInfo">Әгәр сез аңлатмаларны кабызсагыз, кешеләр каналыгыздагы язмаларга фикер калдыра алачаклар.</string>
   <string name="AddMutual">Каналыгызга контактлар өстәү</string>
   <string name="ChannelUsernameHelp">Кешеләр бу сылтама белән бүлешә алачаклар һәм каналыгызны эзләүдә таба алачаклар.</string>
+  <!--<string name="MegaUsernameHelp">People can share this link with others and find your supergroup using Telegram search.</string>-->
   <string name="ChannelUsernamePlaceholder">сылтама</string>
   <string name="ChannelPrivateLinkHelp">Бу сылтама аша кешеләр каналыгызга кушыла алачаклар. Бу сылтаманы сез теләгән вакытта бетерә аласыз.</string>
   <string name="DescriptionPlaceholder">Тасвирлама</string>
@@ -119,6 +120,8 @@
   <string name="LinkInvalidShort">Канал исемендә минимум 5 билге булырга тиеш.</string>
   <string name="LinkInvalidLong">Исем 32 билгедән артык булмаска тиеш.</string>
   <string name="LinkInvalidStartNumber">Канал исеме саннан башлана алмый.</string>
+  <!--<string name="LinkInvalidShortMega">Supergroup names must have at least 5 characters.</string>-->
+  <!--<string name="LinkInvalidStartNumberMega">Supergroup names can\'t start with a number.</string>-->
   <string name="LinkChecking">Исемне тикшерү...</string>
   <string name="LinkAvailable">%1$s мөмкин.</string>
   <string name="ChannelMembers">Катнашучылар</string>
@@ -130,6 +133,7 @@
   <string name="ChannelLeaveAlert">Каналдан чыгарга телисезме?</string>
   <string name="ChannelDeleteInfo">Бу каналдагы бөтен хатлар бетереләчәкләр.</string>
   <string name="ChannelEdit">Үзгәртү</string>
+  <!--<string name="MegaWasPrivateAlert">Please note that if you choose a public link for your supergroup, anyone will be able to find it in search and join.\n\nDo not create this link if you want your supergroup to stay private.</string>-->
   <string name="ChannelWasPrivateAlert">Зинһар, игътибар итегез: әгәр сез каналыгызга ачык сылтама эшләсәгез, һәркем аны эзләү аша таба алачак һәм аңа кушыла алачак.\n\nКаналыгызның шәхси булуын теләсәгез, бу сылтаманы эшләмәгез.</string>
   <string name="ChannelPublicEmptyUsername">Ачык каналыгызны кешеләр эзләү аша тапсын һәм бүлешсен өчен аңа сылтама сайлагыз.\n\nӘгәр моны теләмәсәгез, шәхси канал ясарга киңәш итәбез.</string>
   <string name="ActionCreateChannel">Канал ясалды</string>
@@ -394,7 +398,6 @@
   <string name="EncryptionKey">Шифрлау ачкычы</string>
   <string name="MessageLifetime">Үз-үзен бетерү вакыты</string>
   <string name="ShortMessageLifetimeForever">Сүнгән</string>
-  <string name="EncryptionKeyDescription"><![CDATA[Бу сүрәт — бу яшерен чатта <b>%1$s</b> кулланучысы белән шифрлау ачкычын визуаль күрсәтә.<br><br> Әгәр бу сурәт <b>%2$s</b> кулланучысы җайланмасындагы сурәткә туры килсә, сезнең аралашу 200%%ка куркынычсыз.<br><br>Күбрәк белү өчен:  telegram.org]]></string>
   <string name="NumberUnknown">Билгесез</string>
   <string name="Info">Мәгълүмат</string>
   <string name="Phone">Телефон номеры</string>
@@ -1092,6 +1095,4 @@
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s %2$s</string>
   <!--update text-->
-  <string name="updateText">Telegram Androidка яңартылды. 3.4.0 юрамасында үзгәрешләр:\n\nGIF революция: 20 тапкыр тизрәк йөкләү/җибәрү, автоуйнату, GIFларны стикерлар бүлегендә аерым бүлеккә җыеп саклау мөмкинлеге.\n\nТулырак:\nhttps://tlgrm.ru/a/gifs\n\nЭчендәге ботлар: төрле чатларда ботлардан хатлар җибәрү өчен тагын бер ысул. Бот исемен белән соратуны хат язу юлына кертегез һәм тиз алынган җавапны әңгәмәдәшегезгә җибәрегез. Чатта «@gif dog» кертеп карагыз. Охшаш ботлар: @gif, @wiki, @bing, @vid, @bold.\n\nТулырак: https://tlgrm.ru/a/inline-bots</string>
-  <string name="updateBuild">704</string>
 </resources>
