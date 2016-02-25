@@ -187,6 +187,10 @@
   <string name="WhoCanAddMembers">Хто може додавати нових учасників?</string>
   <string name="WhoCanAddMembersAllMembers">Всі учасники</string>
   <string name="WhoCanAddMembersAdmins">Лише адміністратори</string>
+  <string name="ChannelNotifyMembersInfoOn">Учасники будуть сповіщені про ваш допис</string>
+  <string name="ChannelNotifyMembersInfoOff">Учасники не будуть сповіщені про ваш допис</string>
+  <string name="ChannelSignMessages">Підписати повідомлення</string>
+  <string name="ChannelSignMessagesInfo">Додавати імена адміністраторів до їхніх повідомлень.</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Новий список розсилки</string>
   <string name="EnterListName">Введіть назву списку</string>
@@ -388,6 +392,8 @@
   <string name="EncryptionKey">Ключ шифрування</string>
   <string name="MessageLifetime">Таймер самознищення</string>
   <string name="ShortMessageLifetimeForever">Вимкнути</string>
+  <string name="EncryptionKeyDescription">Це зображення і текст були отримані з використанням ключа шифрування для цього секретного чату з <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Якщо вони виглядають однаково на <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> пристрої, в такому разі шифрування гарантоване.<![CDATA[<br><br>]]>Дізнайтеся більше на telegram.org</string>
+  <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="NumberUnknown">Невідомо</string>
   <string name="Info">Інформація</string>
   <string name="Phone">Телефон</string>
@@ -644,6 +650,7 @@
   <string name="AddCaption">Додати заголовок...</string>
   <string name="PhotoCaption">Заголовок фотографії</string>
   <string name="VideoCaption">Заголовок відео</string>
+  <string name="Caption">Заголовок</string>
   <!--password view-->
   <string name="TwoStepVerification">Двоетапна перевірка</string>
   <string name="SetAdditionalPassword">Встановити додатковий пароль</string>
@@ -861,6 +868,7 @@
   <string name="SecretLinkPreviewAlert">Чи бажаєте увімкнути розширений вигляд посилання в секретних чатах? Зауважте, що вигляд посилань генерується на серверах Telegram.</string>
   <string name="SecretChatContextBotAlert">Зауважте, що вбудовані боти надаються розробниками третіх сторін. Для роботи бота, введені вами символи після імені користувача бота надсилаються відповідному розробнику.</string>
   <string name="RaiseToSpeakAlert">Чи бажаєте увімкнути функцію \"Raise to speak\" для голосових повідомлень?</string>
+  <string name="EditMessageError">Вибачте, але ви не можете змінити це повідомлення.</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram потребує доступу до ваших контактів, щоб ви змогли зв\'язатися зі своїми друзями на всіх своїх пристроях.</string>
   <string name="PermissionStorage">Telegram потребує доступу до вашого сховища, щоб ви могли надсилати й зберігати фотографії, відео, музику та інші медіа.</string>
@@ -1041,6 +1049,12 @@
   <string name="ForwardedVideo_few">%1$d переслані відео</string>
   <string name="ForwardedVideo_many">%1$d пересланих відео</string>
   <string name="ForwardedVideo_other">%1$d пересланих відео</string>
+  <string name="ForwardedMusic_zero">%1$d пересланих композицій</string>
+  <string name="ForwardedMusic_one">Переслана композиція</string>
+  <string name="ForwardedMusic_two">%1$d переслані композиції</string>
+  <string name="ForwardedMusic_few">%1$d переслані композиції</string>
+  <string name="ForwardedMusic_many">%1$d пересланих композицій</string>
+  <string name="ForwardedMusic_other">%1$d пересланих композицій</string>
   <string name="ForwardedAudio_zero">%1$d пересланих голосових повідомлень</string>
   <string name="ForwardedAudio_one">Переслане голосове повідомлення</string>
   <string name="ForwardedAudio_two">%1$d переслані голосові повідомлення</string>
@@ -1083,4 +1097,6 @@
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s в %2$s</string>
   <!--update text-->
+  <string name="updateText">Telegram для Android було оновлено. Нове у версії 3.5:\n\n- Нові голосові повідомлення. Голосові форми візуалізацій, новий програвач. Експериментальні: raise to speak / raise to listen.\n- Нові секретні чати. Підтримка всіх улюблених вами речей хмарних чатів: GIF, відповіді, заголовки, переглян наборів наліпок, а також вбудовані боти. Додано покращена візуалізація ключа і необов\'язковий перегляд посилань.\n- Нові налаштування приватності. Контроль додавання вас до груп і каналів з високою точністю.\n- Новий фоторедактор. Додано інструменти повороту, вицвітання, тону й вигину.\n\nДокладніше про це оновлення:\nhttps://telegram.org/blog/voice-2-secret-3</string>
+  <string name="updateBuild">732</string>
 </resources>

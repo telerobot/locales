@@ -189,6 +189,10 @@
   <string name="WhoCanAddMembers">Яңа кулланучыларны кем өсти ала?</string>
   <string name="WhoCanAddMembersAllMembers">Бөтен катнашучылар</string>
   <string name="WhoCanAddMembersAdmins">Администраторлар гына</string>
+  <string name="ChannelNotifyMembersInfoOn">Язылучыларга яңа хат турында белгертү киләчәк</string>
+  <string name="ChannelNotifyMembersInfoOff">Язылучыларга яңа хат турында белгертү килмәячәк</string>
+  <string name="ChannelSignMessages">Хатларны имзалау</string>
+  <string name="ChannelSignMessagesInfo">Җибәрелгән хатларга җибәрүче администратор исемен өстәү</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Яңа хатлар тарату</string>
   <string name="EnterListName">Хатлар таратуның исемен кертегез</string>
@@ -398,6 +402,8 @@
   <string name="EncryptionKey">Шифрлау ачкычы</string>
   <string name="MessageLifetime">Үз-үзен бетерү вакыты</string>
   <string name="ShortMessageLifetimeForever">Сүнгән</string>
+  <string name="EncryptionKeyDescription">Бу сурәт һәм текст <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысы белән булган яшерен чатның шифрлау ачкычын күрсәтә. Әгәр бу сурәт һәм текст <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> кулланучысының җайланмасындагы сүрәткә һәм текстка туры килсә, сезнең аралашу якланган була. <![CDATA[<br><br>]]> Тулырак: telegram.org</string>
+  <string name="EncryptionKeyLink">https://tlgrm.ru/faq#secret-chats</string>
   <string name="NumberUnknown">Билгесез</string>
   <string name="Info">Мәгълүмат</string>
   <string name="Phone">Телефон номеры</string>
@@ -654,6 +660,7 @@
   <string name="AddCaption">Имза өстәү...</string>
   <string name="PhotoCaption">Фотога имза</string>
   <string name="VideoCaption">Видеога исем</string>
+  <string name="Caption">Имза</string>
   <!--password view-->
   <string name="TwoStepVerification">Ике адымлы авторизация</string>
   <string name="SetAdditionalPassword">Өстәмә пароль кую</string>
@@ -693,7 +700,7 @@
   <string name="PasswordEmailInvalid">Дөрес түгел e-mail</string>
   <string name="RestorePasswordNoEmailTitle">Гафу итегез</string>
   <string name="RestorePasswordNoEmailText">Электрон почтагызны күрсәтмәү сәбәпле, парольне торгызыр өчен калган вариантлар: парольне искә төшерү яисә аккаунтны ташлау.</string>
-  <string name="RestoreEmailSent">Торгызу кодын сез күрсәткән почтага җибәрдек:\n\n%1$s</string>
+  <string name="RestoreEmailSent">Тергезү кодын сез күрсәткән почтага җибәрдек:\n\n%1$s</string>
   <string name="RestoreEmailSentInfo">Зинһар, почтагызны тикшерегез һәм без җибәргән алты урынны кодны кертегез.</string>
   <string name="RestoreEmailTrouble">%1$s почтасына кереп булмыймы?</string>
   <string name="RestoreEmailTroubleText">Әгәр электрон почтагызга керә алмыйсыз икән, бердәнбер вариантлар: парольне искә төшерү яисә аккаунтны ташлау.</string>
@@ -705,7 +712,7 @@
   <string name="LoginPassword">Пароль</string>
   <string name="LoginPasswordText">Сез ике адымлы авторизация куйдыгыз: хәзер аккаунтыгыз өстәмә пароль белән сакланган.</string>
   <string name="ForgotPassword">Парольне оныттыгызмы?</string>
-  <string name="PasswordRecovery">Парольне торгызу</string>
+  <string name="PasswordRecovery">Парольне тергезү</string>
   <string name="PasswordCode">Код</string>
   <string name="PasswordReset">Пароль деактивлашты</string>
   <string name="EnabledPasswordText">Сез ике адымлы авторизация куйдыгыз.\nХәзер Telegramга керер өчен сезгә әле генә куйган парольне кертергә кирәк булачак.</string>
@@ -873,6 +880,7 @@
   <string name="SecretLinkPreviewAlert">Яшерен чатларда сылтамаларны алдан карауны кабызыргамы? Игътибар, алдан карау өчен Telegram серверлары кулланыла.</string>
   <string name="SecretChatContextBotAlert">Игътибар, эчендәге ботларны башка ясаучылар эшли. Бот исеменнән соң язылган бөтен текст шушы ясаучылар серверларына җибәрелә.</string>
   <string name="RaiseToSpeakAlert">Тавышлы хатлар өчен \"Яздырганда якынрак китерегез\" функциясен кабызыргамы?</string>
+  <string name="EditMessageError">Гафу итегез, сез бу хатны үзгәртә алмыйсыз.</string>
   <!--permissions-->
   <string name="PermissionContacts">Дусларыгыз белән төрле җайланмалар аша элемтәдә калу өчен Telegramга контактларыгызны күрү мөмкинчелеге кирәк.</string>
   <string name="PermissionStorage">Фото, видео, һәм башка медиа файлларны җибәрү һәм саклау өчен Telegramга файллар саклау урыныгызга керү мөмкинчелеге кирәк.</string>
@@ -1053,12 +1061,18 @@
   <string name="ForwardedVideo_few">%1$d видео</string>
   <string name="ForwardedVideo_many">%1$d видео</string>
   <string name="ForwardedVideo_other">%1$d видео</string>
-  <string name="ForwardedAudio_zero">%1$d яңа адресланган тавыш хатлары</string>
+  <string name="ForwardedMusic_zero">%1$d яңа адресланган трек</string>
+  <string name="ForwardedMusic_one">Яңа адресланган трек</string>
+  <string name="ForwardedMusic_two">%1$d яңа адресланган трек</string>
+  <string name="ForwardedMusic_few">%1$d яңа адресланган трек</string>
+  <string name="ForwardedMusic_many">%1$d яңа адресланган трек</string>
+  <string name="ForwardedMusic_other">%1$d яңа адресланган трек</string>
+  <string name="ForwardedAudio_zero">%1$d яңа адресланган тавыш хаты</string>
   <string name="ForwardedAudio_one">Яңа адресланган тавыш хаты</string>
-  <string name="ForwardedAudio_two">%1$d яңа адресланган тавыш хатлары</string>
-  <string name="ForwardedAudio_few">%1$d яңа адресланган тавыш хатлары</string>
-  <string name="ForwardedAudio_many">%1$d яңа адресланган тавыш хатлары</string>
-  <string name="ForwardedAudio_other">%1$d яңа адресланган тавыш хатлары</string>
+  <string name="ForwardedAudio_two">%1$d яңа адресланган тавыш хаты</string>
+  <string name="ForwardedAudio_few">%1$d яңа адресланган тавыш хаты</string>
+  <string name="ForwardedAudio_many">%1$d яңа адресланган тавыш хаты</string>
+  <string name="ForwardedAudio_other">%1$d яңа адресланган тавыш хаты</string>
   <string name="ForwardedLocation_zero">%1$d урнашу урыны</string>
   <string name="ForwardedLocation_one">Урнашу урыны</string>
   <string name="ForwardedLocation_two">%1$d урнашу урыны</string>
@@ -1095,4 +1109,6 @@
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s %2$s</string>
   <!--update text-->
+  <string name="updateText">Telegram Androidка яңартылды. 3.5 юрамасында үзгәрешләр:\n\n- Яңа тавыш хатлары. Тавыш дулкыны, яңа плеер. Тавышны яздыру/тыңлау өчен колакка якынрак китерү.\n- Яңа яшерен чатлар. Хәзер яшерен чатларда стикерлар, эчендәге ботлар, сылтамаларны алдан карау, җаваплар, фото/видеога язмалар һәм GIF. Киңәйтелгән шәхсилек көйләүләре: кем сезне төркемнәргә һәм каналларга өсти ала/алмауны көйләү.\n- Яңа фото үзгәрткече. Тулырак: https://tlgrm.ru/a/audio2</string>
+  <string name="updateBuild">732</string>
 </resources>
