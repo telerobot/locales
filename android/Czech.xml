@@ -601,6 +601,9 @@
   <string name="Shadows">Stíny</string>
   <string name="Grain">Struktura</string>
   <string name="Sharpen">Ostrost</string>
+  <string name="CurvesRed">ČERVENÁ</string>
+  <string name="CurvesGreen">ZELENÁ</string>
+  <string name="CurvesBlue">MODRÁ</string>
   <string name="Blur">Rozostření</string>
   <string name="BlurOff">Vypnuto</string>
   <string name="BlurLinear">Lineární</string>
@@ -697,6 +700,7 @@
   <string name="PrivacyFloodControlError">Promiňte, příliš mnoho žádostí. Momentálně není možné změnit Vaše nastavení soukromí, počkejte prosím.</string>
   <string name="ClearOtherSessionsHelp">Odhlásí všechny zařízení kromě tohoto.</string>
   <string name="RemoveFromListText">Stiskněte a držte uživatele pro odstranění.</string>
+  <string name="GroupsAndChannels">Skupiny</string>
   <!--edit video view-->
   <string name="EditVideo">Upravit video</string>
   <string name="OriginalVideo">Původní video</string>
@@ -1027,4 +1031,5 @@ Smazat a zastavit</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s o %2$s</string>
   <!--update text-->
+  <string name="updateBuild">732</string>
 </resources>
