@@ -186,6 +186,10 @@
   <string name="WhoCanAddMembers">Хто можа дадаваць новых удзельнікаў?</string>
   <string name="WhoCanAddMembersAllMembers">Усе ўдзельнікі</string>
   <string name="WhoCanAddMembersAdmins">Толькі кіраўнікі</string>
+  <string name="ChannelNotifyMembersInfoOn">Удзельнікі будуць апавешчаныя аб новых паведамленнях</string>
+  <string name="ChannelNotifyMembersInfoOff">Удзельнікі не будуць апавешчаныя аб новых паведамленнях</string>
+  <string name="ChannelSignMessages">Падпісваць паведамленні</string>
+  <string name="ChannelSignMessagesInfo">Пазначаць імя кіраўніка пад дасланымі ім паведамленнямі.</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Новы спіс рассылкі</string>
   <string name="EnterListName">Увядзіце імя спіса</string>
@@ -388,6 +392,8 @@
   <string name="EncryptionKey">Ключ шыфравання</string>
   <string name="MessageLifetime">Таймер самазнішчэння</string>
   <string name="ShortMessageLifetimeForever">Выкл</string>
+  <string name="EncryptionKeyDescription">Гэтыя выява і тэкст рэпрэзэнтуюць ключ шыфравання для сакрэтнай размовы з <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Калі яны выглядаюць гэтак жа на ўстройстве <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]>, то мы гарантуем вам шыфраванне з-канца-ў-канец.<![CDATA[<br><br>]]>Дазнайцеся больш на telegram.org</string>
+  <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="NumberUnknown">Невядомы</string>
   <string name="Info">Звесткі</string>
   <string name="Phone">Тэлефон</string>
@@ -640,6 +646,7 @@
   <string name="AddCaption">Дадаць подпіс…</string>
   <string name="PhotoCaption">Подпіс пад фота</string>
   <string name="VideoCaption">Подпіс пад відэа</string>
+  <string name="Caption">Подпіс</string>
   <!--password view-->
   <string name="TwoStepVerification">Двухкрокавая верыфікацыя</string>
   <string name="SetAdditionalPassword">Усталяваць дадатковы пароль</string>
@@ -853,6 +860,7 @@
   <string name="SecretLinkPreviewAlert">Ці жадаеце ўключыць пашыраны перадпрагляд спасылак у сакрэтных размовах? Звярніце ўвагу, што перадпрагляд ствараецца на серверах Тэлеграма.</string>
   <string name="SecretChatContextBotAlert">Звярніце ўвагу, што хуткія боты прадастаўляюцца пабочнымі распрацоўнікамі. Каб бот працаваў, сімвалы, якія вы набіраеце пасля мянушкі бота, дасылаюцца адказнаму распрацоўніку.</string>
   <string name="RaiseToSpeakAlert">Жадаеце ўключыць функцыю \"Паднясі для запісу\"?</string>
+  <string name="EditMessageError">Выбачайце, але вы не можаце рэдагаваць гэтае паведамленне.</string>
   <!--permissions-->
   <string name="PermissionContacts">Тэлеграму патрэбны доступ да вашых кантактаў, каб вы маглі звязацца з сваімі сябрамі на ўсіх сваіх устройствах.</string>
   <string name="PermissionStorage">Тэлеграму патрэбны доступ да вашага сховішча файлаў, каб вы маглі дасылаць і захоўваць выявы, відэа, музыку і іншыя медыяфайлы.</string>
@@ -1033,6 +1041,12 @@
   <string name="ForwardedVideo_few">%1$d перадасланых відэазапісаў</string>
   <string name="ForwardedVideo_many">%1$d перадасланых відэазапісаў</string>
   <string name="ForwardedVideo_other">%1$d перадасланых відэазапісаў</string>
+  <string name="ForwardedMusic_zero">%1$d перадасланых песняў</string>
+  <string name="ForwardedMusic_one">Перадасланая песня</string>
+  <string name="ForwardedMusic_two">%1$d перадасланых песні</string>
+  <string name="ForwardedMusic_few">%1$d перадасланых песні</string>
+  <string name="ForwardedMusic_many">%1$d перадасланых песняў</string>
+  <string name="ForwardedMusic_other">%1$d перадасланых песняў</string>
   <string name="ForwardedAudio_zero">%1$d перадасланых аўдыязапісаў</string>
   <string name="ForwardedAudio_one">Перадасланы аўдыязапіс</string>
   <string name="ForwardedAudio_two">%1$d перадасланых аўдыязапісы</string>
@@ -1075,4 +1089,6 @@
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s а %2$s</string>
   <!--update text-->
+  <string name="updateText">Тэлеграм для Android быў абноўлены. Новае ў версіі 3.5:\n\n- Абнаўленне аўдыязапісаў. Хвалевая візуялізацыя, новы прайгравальнік. Эксперыментальная опцыя \"Паднясі для запісу\"/\"Паднясі, каб прайграць\".\n- Абнаўленне сакрэтных размоў. Цяпер яны падтрымліваюць усё, што вы любіце ў \"воблачных\" размовах: анімацыі, адказы, подпісы, налепкі і хуткія боты. Палепшаная візуялізацыя ключа шыфравання і перадпрагляд спасылак (апцыянальна).\n- Новыя налады прыватнасці. Прызначайце тых, хто можа дадаваць вас да суполак і каналаў,\n- Новы рэдактар фотаздымкаў. Дададзены функцыі павароту, затухання, адценняў і крывых.\n\nольш інфармацыі аб абнаўленні:\nhttps://telegram.org/blog/voice-2-secret-3</string>
+  <string name="updateBuild">732</string>
 </resources>
