@@ -180,6 +180,7 @@
   <string name="ChannelMessageGIF">\"%1$s\" poslal/a soubor GIF</string>
   <string name="ChannelMessageAudio">%1$s poslal/a hlasovou zprávu</string>
   <string name="ChannelMessageSticker">%1$s poslal/a nálepku</string>
+  <string name="WhoCanAddMembersAllMembers">Všichni členové</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Nové vysílání</string>
   <string name="EnterListName">Zadejte název vysílání</string>
