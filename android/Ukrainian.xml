@@ -453,9 +453,9 @@
   <string name="Default">Типово</string>
   <string name="Support">Підтримка</string>
   <string name="OnlyIfSilent">Лише при вимкнених сповіщеннях</string>
-  <string name="ChatBackground">Тло чату</string>
+  <string name="ChatBackground">Задній план чату</string>
   <string name="MessagesSettings">Повідомлення</string>
-  <string name="SendByEnter">Відправлення по Enter</string>
+  <string name="SendByEnter">Відправляти по Enter</string>
   <string name="TerminateAllSessions">Вихід із усіх інших сеансів</string>
   <string name="Events">Події</string>
   <string name="ContactJoined">Контакт приєднався до Telegram</string>
