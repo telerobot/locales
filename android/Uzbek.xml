@@ -11,7 +11,6 @@
   <string name="WrongCountry">Mamlakat kodi noto‘g‘ri</string>
   <!--code enter view-->
   <string name="YourCode">Sizning kodingiz</string>
-  <string name="SentSmsCode">Telefoningizga tasdiqlash kodini SMS orqali yubordik</string>
   <string name="CallText">Biz sizga %1$d:%2$02d da qo\'ngiroq qilamiz</string>
   <string name="Calling">Sizga qo‘ng‘iroq qilyapmiz...</string>
   <string name="Code">Kod</string>
@@ -63,14 +62,10 @@
   <string name="GroupUserAddLimit">Kechirasiz, ushbu guruh to`lgan</string>
   <string name="NewChannel">Kanal yaratish</string>
   <string name="EnterChannelName">Kanal nomi</string>
-  <!--<string name="MegaUsernameHelp">People can share this link with others and find your supergroup using Telegram search.</string>-->
   <string name="ChannelInviteLinkTitle">Taklif havolasi</string>
   <string name="ChannelSettings">Sozlamalar</string>
-  <!--<string name="LinkInvalidShortMega">Supergroup names must have at least 5 characters.</string>-->
-  <!--<string name="LinkInvalidStartNumberMega">Supergroup names can\'t start with a number.</string>-->
   <string name="LinkAvailable">%1$s mavjud.</string>
   <string name="ChannelEdit">Tahrirlash</string>
-  <!--<string name="MegaWasPrivateAlert">Please note that if you choose a public link for your supergroup, anyone will be able to find it in search and join.\n\nDo not create this link if you want your supergroup to stay private.</string>-->
   <string name="ChannelRemoveUserAdmin">O‘chirib tashlash</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Yangi xabar tarqatish</string>
@@ -543,5 +538,4 @@
   <string name="chatFullDate">d\'-\'MMMM, yyyy\'-\'yil</string>
   <string name="formatterDay12H">hh::mm</string>
   <string name="formatDateAtTime">%2$s’da %1$s</string>
-  <!--update text-->
 </resources>

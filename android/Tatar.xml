@@ -13,7 +13,6 @@
   <string name="WrongCountry">Ил коды дөрес түгел</string>
   <!--code enter view-->
   <string name="YourCode">Кодыгыз</string>
-  <string name="SentSmsCode">Без телефоныгызга активация коды белән SMS җибәрдек</string>
   <string name="CallText">%1$d:%2$02d вакыттан соң без сезгә шалтыратырбыз</string>
   <string name="Calling">Сезгә шалтыратабыз...</string>
   <string name="Code">Код</string>
@@ -81,7 +80,6 @@
   <string name="GroupUserCantAdd">Гафу итегез, сез бу кулланучыны төркемнәргә өсти алмыйсыз.</string>
   <string name="GroupUserAddLimit">Гафу итегез, бу төркем тулы.</string>
   <string name="GroupUserLeftError">Гафу итегез, бу кулланучы бу төркемнән чыгарга булды һәм шуңа күрә сез аны яңадан чакыра алмыйсыз.</string>
-  <string name="GroupUserCantAdmin">Гафу итегез, бу төркемдә администраторлар бик күп.</string>
   <string name="GroupUserCantBot">Гафу итегез, бу төркемдә ботлар бик күп.</string>
   <string name="ActionMigrateFromGroup">Бу төркем супертөркемгә әйләндерелде</string>
   <string name="ActionMigrateFromGroupNotify">%1$s супертөркемгә әйләндерелде</string>
@@ -92,7 +90,6 @@
   <string name="CommentsInfo">Әгәр сез аңлатмаларны кабызсагыз, кешеләр каналыгыздагы язмаларга фикер калдыра алачаклар.</string>
   <string name="AddMutual">Каналыгызга контактлар өстәү</string>
   <string name="ChannelUsernameHelp">Кешеләр бу сылтама белән бүлешә алачаклар һәм каналыгызны эзләүдә таба алачаклар.</string>
-  <!--<string name="MegaUsernameHelp">People can share this link with others and find your supergroup using Telegram search.</string>-->
   <string name="ChannelUsernamePlaceholder">сылтама</string>
   <string name="ChannelPrivateLinkHelp">Бу сылтама аша кешеләр каналыгызга кушыла алачаклар. Бу сылтаманы сез теләгән вакытта бетерә аласыз.</string>
   <string name="DescriptionPlaceholder">Тасвирлама</string>
@@ -120,8 +117,6 @@
   <string name="LinkInvalidShort">Канал исемендә минимум 5 билге булырга тиеш.</string>
   <string name="LinkInvalidLong">Исем 32 билгедән артык булмаска тиеш.</string>
   <string name="LinkInvalidStartNumber">Канал исеме саннан башлана алмый.</string>
-  <!--<string name="LinkInvalidShortMega">Supergroup names must have at least 5 characters.</string>-->
-  <!--<string name="LinkInvalidStartNumberMega">Supergroup names can\'t start with a number.</string>-->
   <string name="LinkChecking">Исемне тикшерү...</string>
   <string name="LinkAvailable">%1$s мөмкин.</string>
   <string name="ChannelMembers">Катнашучылар</string>
@@ -133,7 +128,6 @@
   <string name="ChannelLeaveAlert">Каналдан чыгарга телисезме?</string>
   <string name="ChannelDeleteInfo">Бу каналдагы бөтен хатлар бетереләчәкләр.</string>
   <string name="ChannelEdit">Үзгәртү</string>
-  <!--<string name="MegaWasPrivateAlert">Please note that if you choose a public link for your supergroup, anyone will be able to find it in search and join.\n\nDo not create this link if you want your supergroup to stay private.</string>-->
   <string name="ChannelWasPrivateAlert">Зинһар, игътибар итегез: әгәр сез каналыгызга ачык сылтама эшләсәгез, һәркем аны эзләү аша таба алачак һәм аңа кушыла алачак.\n\nКаналыгызның шәхси булуын теләсәгез, бу сылтаманы эшләмәгез.</string>
   <string name="ChannelPublicEmptyUsername">Ачык каналыгызны кешеләр эзләү аша тапсын һәм бүлешсен өчен аңа сылтама сайлагыз.\n\nӘгәр моны теләмәсәгез, шәхси канал ясарга киңәш итәбез.</string>
   <string name="ActionCreateChannel">Канал ясалды</string>
@@ -382,9 +376,6 @@
   <string name="DeleteAndExit">Төркемне бетерү һәм чыгу</string>
   <string name="Notifications">Белгертүләр</string>
   <string name="KickFromGroup">Төркемнән чыгу</string>
-  <string name="ConvertGroup">Супертөркемгә әйләндерү</string>
-  <string name="ConvertGroupAlert">Игътибар итегез, төркемнең бөтен катнашучылары да супертөркемегезне күрер өчен Telegramны иң соңгы юрамасына тиклем яңартырга тиешләр. Бу төркемне үзгәртергә телисезме?</string>
-  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Катнашучылар саны тулды.<![CDATA[</b>]]>\n\nЧикләүне урап узу һәм өстәмә мөмкинлекләр алу өчен төркемне супертөркемгә әйләндерегез:\n\n• Супертөркемнәр %1$s тиклем җитә алалар\n• Яңа катнашучылар бөтен хатлар тарихын күрә алалар\n• Администраторлар теләгән хатны бетерә алалар\n• Белгертүләр сүндерелгән</string>
   <!--contact info view-->
   <string name="ShareContact">Бүлешү</string>
   <string name="AddContact">Өстәү</string>
@@ -707,7 +698,6 @@
   <string name="ResetMyAccount">АККАУНТНЫ ТАШЛАУ</string>
   <string name="ResetMyAccountText">Хатлар тарихы һәм чатлар бетереләчәк. Дәвам итәргәме?</string>
   <string name="ResetMyAccountWarning">Игътибар</string>
-  <string name="ResetMyAccountWarningText">Бу эш туктатыла алмый.\n\nАккаунтны ташлаганда бөтен хатлар һәм чатлар бөтенләйгә бетереләчәкләр.</string>
   <string name="ResetMyAccountWarningReset">Ташлау</string>
   <string name="LoginPassword">Пароль</string>
   <string name="LoginPasswordText">Сез ике адымлы авторизация куйдыгыз: хәзер аккаунтыгыз өстәмә пароль белән сакланган.</string>
@@ -869,7 +859,6 @@
   <string name="AreYouSureRegistration">Теркәлүне туктатырга телисезме?</string>
   <string name="AreYouSureClearHistory">Тарихны бетерергә телисезме?</string>
   <string name="AreYouSureClearHistoryChannel">Бу каналдан кэшланган бөтен хатларны һәм файлларны бетерергәме?</string>
-  <string name="AreYouSureClearHistorySuper">Бу супертөркемнән бөтен кэшланган хатларны һәм файлларны бетерергәме? </string>
   <string name="AreYouSureDeleteMessages">%1$s бетерергә телисезме?</string>
   <string name="SendMessagesToGroup">%1$s хат җибәрү?</string>
   <string name="SendContactToGroup">Контактны %1$s җибәрергәме?</string>
@@ -1108,7 +1097,4 @@
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s %2$s</string>
-  <!--update text-->
-  <string name="updateText">Telegram Androidка яңартылды. 3.5 юрамасында үзгәрешләр:\n\n- Яңа тавыш хатлары. Тавыш дулкыны, яңа плеер. Тавышны яздыру/тыңлау өчен колакка якынрак китерү.\n- Яңа яшерен чатлар. Хәзер яшерен чатларда стикерлар, эчендәге ботлар, сылтамаларны алдан карау, җаваплар, фото/видеога язмалар һәм GIF. Киңәйтелгән шәхсилек көйләүләре: кем сезне төркемнәргә һәм каналларга өсти ала/алмауны көйләү.\n- Яңа фото үзгәрткече. Тулырак: https://tlgrm.ru/a/audio2</string>
-  <string name="updateBuild">732</string>
 </resources>

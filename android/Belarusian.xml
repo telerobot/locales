@@ -12,7 +12,6 @@
   <string name="WrongCountry">Памылковы код краіны</string>
   <!--code enter view-->
   <string name="YourCode">Ваш код</string>
-  <string name="SentSmsCode">Мы даслалі SMS з кодам актывацыі на ваш тэлефон</string>
   <string name="CallText">Мы патэлефануем Вам праз %1$d:%2$02d</string>
   <string name="Calling">Тэлефануем Вам...</string>
   <string name="Code">Код</string>
@@ -78,7 +77,6 @@
   <string name="GroupUserCantAdd">Выбачайце, але вы не можаце дадаваць гэтага карыстальніка да суполак.</string>
   <string name="GroupUserAddLimit">Выбачайце, але гэтая суполка ўжо поўная.</string>
   <string name="GroupUserLeftError">Выбачайце, але гэты карыстальнік вырашыў пакінуць суполку, таму вы не можаце запрасіць яго сюды.</string>
-  <string name="GroupUserCantAdmin">Выбачайце, зашмат кіраўнікоў у гэтай суполцы.</string>
   <string name="GroupUserCantBot">Выбачайце, зашмат ботаў у гэтай суполцы.</string>
   <string name="ActionMigrateFromGroup">Гэтая суполка была ператворана ў суперсуполку</string>
   <string name="ActionMigrateFromGroupNotify">%1$s была ператворана ў суперсуполку</string>
@@ -89,7 +87,6 @@
   <string name="CommentsInfo">Калі вы ўключыце каментары, карыстальнікі змогуць абмяркоўваць вашыя паведамленні на канале.</string>
   <string name="AddMutual">Дадаць кантакты ў канал</string>
   <string name="ChannelUsernameHelp">Карыстальнікі могуць дзяліцца гэтай спасылкай з іншымі, а таксама знайсці ваш канал праз пошук Тэлеграма.</string>
-  <!--<string name="MegaUsernameHelp">People can share this link with others and find your supergroup using Telegram search.</string>-->
   <string name="ChannelUsernamePlaceholder">спасылка</string>
   <string name="ChannelPrivateLinkHelp">Карыстальнікі могуць далучыцца да вашага канала, пераходзячы па гэтай спасылцы. Вы можаце адключыць яе калі заўгодна.</string>
   <string name="DescriptionPlaceholder">Апісанне</string>
@@ -117,8 +114,6 @@
   <string name="LinkInvalidShort">Назва канала павінна складацца сама менш з 5 сімвалаў. </string>
   <string name="LinkInvalidLong">Назва не можа быць даўжэйшай за 32 сімвалы. </string>
   <string name="LinkInvalidStartNumber">Назва канала не можа пачынацца з лічбы. </string>
-  <!--<string name="LinkInvalidShortMega">Supergroup names must have at least 5 characters.</string>-->
-  <!--<string name="LinkInvalidStartNumberMega">Supergroup names can\'t start with a number.</string>-->
   <string name="LinkChecking">Праверка назвы... </string>
   <string name="LinkAvailable">Назва «%1$s» даступная. </string>
   <string name="ChannelMembers">Удзельнікі </string>
@@ -130,7 +125,6 @@
   <string name="ChannelLeaveAlert">Вы ўпэўненыя, што жадаеце пакінуць гэты канал? </string>
   <string name="ChannelDeleteInfo">Вы страціце доступ да ўсіх паведамленняў у гэтым канале.</string>
   <string name="ChannelEdit">Рэдагаваць</string>
-  <!--<string name="MegaWasPrivateAlert">Please note that if you choose a public link for your supergroup, anyone will be able to find it in search and join.\n\nDo not create this link if you want your supergroup to stay private.</string>-->
   <string name="ChannelWasPrivateAlert">Звярніце увагу, што калі вы створыце публічную спасылку на ваш канал, кожны карыстальнік зможа адшукаць яе праз пошук і далучыцца да канала.\n\nНе стварайце гэтую спасылку, калі жадаеце, каб ваш канал застаўся прыватным. </string>
   <string name="ChannelPublicEmptyUsername">Абярыце спасылку для вашага публічнага канала, каб карыстальнікі маглі адшукаць яго праз пошук і падзяліцца з іншымі.\n\nКалі вы не хочаце, каб карыстальнікі мелі такую магчымасць, мы прапануем вам стварыць прыватны канал.</string>
   <string name="ActionCreateChannel">Канал створаны</string>
@@ -372,9 +366,6 @@
   <string name="DeleteAndExit">Выдаліць і пакінуць суполку</string>
   <string name="Notifications">Апавяшчэнні</string>
   <string name="KickFromGroup">Выдаліць з суполкі</string>
-  <string name="ConvertGroup">Абнавіцца да суперсуполкі</string>
-  <string name="ConvertGroupAlert">Звярніце ўвагу, што ўдзельнікам суполкі будзе неабходна абнавіць Тэлеграм да апошняй версіі, каб яны маглі далучыцца да суперсуполкі.</string>
-  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Дасягнуты ліміт карыстальнікаў.<![CDATA[</b>]]>\n\nКаб абыйсці ліміт і атрымаць доступ да дадатковых функцый, абнавіцеся да суперсуполкі:\n\n•Суперсуполкі могуць мець да %1$s\n•Новыя удзельнікі бачаць усю гісторыю паведамленняў\n•Кіраўнікі могуць цалкам выдаляць паведамленні з гісторыі\n•Апавяшчэнні па змаўчанні выключаныя</string>
   <!--contact info view-->
   <string name="ShareContact">Падзяліцца</string>
   <string name="AddContact">Дадаць</string>
@@ -687,7 +678,6 @@
   <string name="ResetMyAccount">СКІНУЦЬ МОЙ УЛІКОВЫ ЗАПІС</string>
   <string name="ResetMyAccountText">Вы страціце ўсе свае размовы і паведамленні, а таксама ўсё медыя і ўсе файлы, якімі дзяліліся, калі працягнеце.</string>
   <string name="ResetMyAccountWarning">Увага</string>
-  <string name="ResetMyAccountWarningText">Гэтае дзеянне не можа быць скасаванае.\n\nКалі вы скінеце свой уліковы запіс, усе вашыя паведамленні і размовы будуць выдаленыя.</string>
   <string name="ResetMyAccountWarningReset">Скінуць</string>
   <string name="LoginPassword">Пароль</string>
   <string name="LoginPasswordText">Вы ўключылі двухкрокавую верыфікацыю, і цяпер ваш уліковы запіс абаронены дадатковым паролем.</string>
@@ -849,7 +839,6 @@
   <string name="AreYouSureRegistration">Вы ўпэўненыя, што жадаеце скасаваць рэгістрацыю?</string>
   <string name="AreYouSureClearHistory">Вы ўпэўненыя, што жадаеце ачысціць гісторыю?</string>
   <string name="AreYouSureClearHistoryChannel">Выдаліць увесь кэшаваны тэкст і медыя з гэтага канала?</string>
-  <string name="AreYouSureClearHistorySuper">Выдаліць увесь кэшаваны тэкст і медыя з гэтай суперсуполкі?</string>
   <string name="AreYouSureDeleteMessages">Вы ўпэўненыя, што жадаеце выдаліць %1$s?</string>
   <string name="SendMessagesToGroup">Адправіць паведамленне да %1$s?</string>
   <string name="SendContactToGroup">Даслаць кантакт да %1$s?</string>
@@ -1088,7 +1077,4 @@
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s а %2$s</string>
-  <!--update text-->
-  <string name="updateText">Тэлеграм для Android быў абноўлены. Новае ў версіі 3.5:\n\n- Абнаўленне аўдыязапісаў. Хвалевая візуялізацыя, новы прайгравальнік. Эксперыментальная опцыя \"Паднясі для запісу\"/\"Паднясі, каб прайграць\".\n- Абнаўленне сакрэтных размоў. Цяпер яны падтрымліваюць усё, што вы любіце ў \"воблачных\" размовах: анімацыі, адказы, подпісы, налепкі і хуткія боты. Палепшаная візуялізацыя ключа шыфравання і перадпрагляд спасылак (апцыянальна).\n- Новыя налады прыватнасці. Прызначайце тых, хто можа дадаваць вас да суполак і каналаў,\n- Новы рэдактар фотаздымкаў. Дададзены функцыі павароту, затухання, адценняў і крывых.\n\nольш інфармацыі аб абнаўленні:\nhttps://telegram.org/blog/voice-2-secret-3</string>
-  <string name="updateBuild">732</string>
 </resources>

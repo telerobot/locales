@@ -12,7 +12,6 @@
   <string name="WrongCountry">Yanlış ülke kodu</string>
   <!--code enter view-->
   <string name="YourCode">Kodunuz</string>
-  <string name="SentSmsCode">Telefonunuza bir etkinleştirme mesajı gönderdik</string>
   <string name="CallText">Sizi %1$d:%2$02d içinde arayacağız</string>
   <string name="Calling">Sizi arıyoruz...</string>
   <string name="Code">Kod</string>
@@ -78,7 +77,6 @@
   <string name="GroupUserCantAdd">Sorry, you can\'t add this user to groups.</string>
   <string name="GroupUserAddLimit">Sorry, this group is full.</string>
   <string name="GroupUserLeftError">Üzgünüz, bu kullanıcı gruptan ayrılmaya karar verdi, bu yüzden onu tekrar davet edemezsiniz.</string>
-  <string name="GroupUserCantAdmin">Üzgünüz, bu gruba daha fazla yönetici eklenemez.</string>
   <string name="GroupUserCantBot">Üzgünüz, bu gruba daha fazla bot eklenemez.</string>
   <string name="ActionMigrateFromGroup">This group was upgraded to a supergroup</string>
   <string name="ActionMigrateFromGroupNotify">%1$s bir süper gruba yükseltildi.</string>
@@ -89,7 +87,6 @@
   <string name="CommentsInfo">Eğer yorumları etkinleştirirseniz, insanlar kanaldaki yazılarınızı insanlar tartışabilir.</string>
   <string name="AddMutual">Kanalınıza kişi ekleyin</string>
   <string name="ChannelUsernameHelp">İnsanlar bu linki diğer insanlarla paylaşabilir ve Telegram aramasını kullanarak kanalınızı bulabilirler.</string>
-  <!--<string name="MegaUsernameHelp">People can share this link with others and find your supergroup using Telegram search.</string>-->
   <string name="ChannelUsernamePlaceholder">link</string>
   <string name="ChannelPrivateLinkHelp">İnsanlar bu linki kullanarak kanalınıza katılabilirler. İstediğiniz zaman iptal edebilirsiniz.</string>
   <string name="DescriptionPlaceholder">Açıklama</string>
@@ -117,8 +114,6 @@
   <string name="LinkInvalidShort">Kanal adları en az 5 karakter olmalıdır.</string>
   <string name="LinkInvalidLong">Kanal adı 32 karakteri geçmemelidir.</string>
   <string name="LinkInvalidStartNumber">Kanal adı bir sayı ile başlayamaz.</string>
-  <!--<string name="LinkInvalidShortMega">Supergroup names must have at least 5 characters.</string>-->
-  <!--<string name="LinkInvalidStartNumberMega">Supergroup names can\'t start with a number.</string>-->
   <string name="LinkChecking">Kanal adı kontrol ediliyor...</string>
   <string name="LinkAvailable">%1$s uygun.</string>
   <string name="ChannelMembers">Üyeler</string>
@@ -130,7 +125,6 @@
   <string name="ChannelLeaveAlert">Kanaldan ayrılmak istediğinden emin misin?</string>
   <string name="ChannelDeleteInfo">Bu kanaldaki bütün mesajlar silinecek.</string>
   <string name="ChannelEdit">Düzenle</string>
-  <!--<string name="MegaWasPrivateAlert">Please note that if you choose a public link for your supergroup, anyone will be able to find it in search and join.\n\nDo not create this link if you want your supergroup to stay private.</string>-->
   <string name="ChannelWasPrivateAlert">Eğer kanalınız için açık bir link seçerseniz, kanalınızı herkesin bulabileceğini ve katılabileceğini unutmayın.\n\nKanalınızın gizli kalmasını istiyorsanız bu linki oluşturmayın.</string>
   <string name="ChannelPublicEmptyUsername">Açık kanalınız için bir link seçin, bu şekilde insanlar kanalınızı bulabilir ve diğerleri ile paylaşabilir. İlginizi çekmediyse, özel bir kanal oluşturmayı deneyebilirsiniz.</string>
   <string name="ActionCreateChannel">Kanal oluşturuldu</string>
@@ -368,9 +362,6 @@ sorunuz mu var?</string>
   <string name="DeleteAndExit">Sil ve gruptan ayrıl</string>
   <string name="Notifications">Bildirimler</string>
   <string name="KickFromGroup">Gruptan kaldır</string>
-  <string name="ConvertGroup">Süper Gruba Yükselt</string>
-  <string name="ConvertGroupAlert">Grup üyelerinin süper grubunuzu görmek için Telegram uygulamalarını son sürümüne yükseltmeye gerek duyacaklarını unutmayın. Bu grubu yükseltmek istediğinize emin misiniz?</string>
-  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Üye sınırına erişildi.<![CDATA[</b>]]>\n\nSınırın üstüne çıkmak ve ek özellikler edinmek için süper gruba yükseltin:\n\n• Süper gruplar %1$s kadar üye alabilirler\n• Yeni üyeler tüm sohbet geçmişini görebilir\n• Yöneticiler herkes tarafından gönderilen mesajları silebilirler\n• Bildirimler varsayılan olarak sessize alınır</string>
   <!--contact info view-->
   <string name="ShareContact">Paylaş</string>
   <string name="AddContact">Ekle</string>
@@ -681,7 +672,6 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="ResetMyAccount">HESABIMI SIFIRLA</string>
   <string name="ResetMyAccountText">Eğer hesabınızı sıfırlarsanız, bütün sohbetlerinizi, mesajlarınızı ve buna bağlı olarak paylaştığınız bütün içerikleri kaybedeceksiniz.</string>
   <string name="ResetMyAccountWarning">Uyarı</string>
-  <string name="ResetMyAccountWarningText">Bu işlem geri alınamaz.\n\nHesabınızı sıfırlarsanız, bütün mesajlarınız ve sohbetleriniz silinecek.</string>
   <string name="ResetMyAccountWarningReset">Sıfırla</string>
   <string name="LoginPassword">Şifre</string>
   <string name="LoginPasswordText">2 Adımla Doğrulamayı etkinleştirdiniz, bu yüzden hesabınız ilave bir şifreyle korunuyor.</string>
@@ -848,7 +838,6 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="AreYouSureRegistration">Kayıt işlemini iptal etmek istediğinize emin misiniz?</string>
   <string name="AreYouSureClearHistory">Geçmişi silmek istediğinize emin misiniz?</string>
   <string name="AreYouSureClearHistoryChannel">Önbelleğe alınmış tüm metin ve medyayı bu kanaldan silmek istiyor musunuz?</string>
-  <string name="AreYouSureClearHistorySuper">Önbelleğe alınmış tüm metin ve medyayı bu süper gruptan silmek istiyor musunuz?</string>
   <string name="AreYouSureDeleteMessages">%1$s\'i silmek istediğinize emin misiniz ? </string>
   <string name="SendMessagesToGroup">%1$s kişisine mesajları gönder?</string>
   <string name="SendContactToGroup">%1$s kullanıcısına kişi göndermek istiyor musunuz?</string>
@@ -1067,5 +1056,4 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s saat %2$s</string>
-  <!--update text-->
 </resources>

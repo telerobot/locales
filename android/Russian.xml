@@ -13,8 +13,12 @@
   <string name="WrongCountry">Неправильный код страны</string>
   <!--code enter view-->
   <string name="YourCode">Ваш код</string>
-  <string name="SentSmsCode">Мы отправили SMS с кодом активации на ваш телефон</string>
+  <string name="SentSmsCode">Мы отправили SMS с кодом активации на этот номер: <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
+  <string name="SentAppCode">Мы отправили код в ваш <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> на другом устройстве.</string>
+  <string name="SentCallCode">Сейчас мы сделаем специальный активационный звонок на ваш номер <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>. Трубку снимать не нужно: Telegram сделает всё сам.</string>
+  <string name="SentCallOnly">Сейчас мы позвоним на ваш номер <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> и продиктуем код.</string>
   <string name="CallText">Мы позвоним вам через %1$d:%2$02d</string>
+  <string name="SmsText">SMS будет отправлено через %1$d:%2$02d</string>
   <string name="Calling">Звоним вам...</string>
   <string name="Code">Код</string>
   <string name="WrongNumber">Неправильный номер?</string>
@@ -62,6 +66,10 @@
   <string name="Recent">НЕДАВНЕЕ</string>
   <string name="LinkPreview">Превью ссылок</string>
   <!--channels-->
+  <string name="GroupType">Тип группы</string>
+  <string name="ChannelType">Тип канала</string>
+  <string name="ChannelTypePublic">Публичный</string>
+  <string name="ChannelTypePrivate">Приватный</string>
   <string name="SetAsAdmin">Назначить администратором</string>
   <string name="DescriptionInfoMega">Можно указать описание вашей группы (необязательно).</string>
   <string name="LeaveMega">Покинуть группу</string>
@@ -79,6 +87,16 @@
   <string name="GroupUserLeftError">К сожалению, этот пользователь самостоятельно покинул группу, поэтому вы не можете пригласить его снова.</string>
   <string name="GroupUserCantAdmin">К сожалению, больше администраторов добавить нельзя.</string>
   <string name="GroupUserCantBot">К сожалению, больше роботов добавить нельзя.</string>
+  <string name="ActionPinnedNoText">un1 прикрепил сообщение</string>
+  <string name="ActionPinnedPhoto">un1 прикрепил фото</string>
+  <string name="ActionPinnedVideo">un1 прикрепил видео</string>
+  <string name="ActionPinnedFile">un1 прикрепил файл</string>
+  <string name="ActionPinnedSticker">un1 прикрепил стикер</string>
+  <string name="ActionPinnedVoice">un1 прикрепил голосовое сообщение</string>
+  <string name="ActionPinnedContact">un1 прикрепил контактные данные</string>
+  <string name="ActionPinnedGeo">un1 прикрепил карту</string>
+  <string name="ActionPinnedGif">un1 прикрепил GIF-анимацию</string>
+  <string name="ActionPinnedMusic">un1 прикрепил аудиозапись</string>
   <string name="ActionMigrateFromGroup">Эта группа была преобразована в супергруппу</string>
   <string name="ActionMigrateFromGroupNotify">%1$s преобразована в супергруппу</string>
   <string name="NoBlockedGroup">Пользователи, занесённые в чёрный список, будут удалены из группы и смогут вернуться только по приглашению администратора. Пригласительные ссылки для них не работают.</string>
@@ -88,15 +106,21 @@
   <string name="CommentsInfo">Если вы включите комментарии, люди смогут обсуждать ваши сообщения на канале.</string>
   <string name="AddMutual">Добавить ваши контакты на канал</string>
   <string name="ChannelUsernameHelp">Люди могут делиться этой ссылкой и находить ваш канал через поиск.</string>
-  <!--<string name="MegaUsernameHelp">People can share this link with others and find your supergroup using Telegram search.</string>-->
+  <string name="MegaUsernameHelp">Люди могут делиться этой ссылкой и находить вашу группу через поиск.</string>
   <string name="ChannelUsernamePlaceholder">ссылка</string>
   <string name="ChannelPrivateLinkHelp">Люди могут присоединяться к вашему каналу, перейдя по этой ссылке. Вы удалить эту ссылку в любое время.</string>
+  <string name="MegaPrivateLinkHelp">Люди могут присоединяться к вашей группе, перейдя по этой ссылке. Вы можете удалить эту ссылку в любое время.</string>
+  <string name="DescriptionOptionalPlaceholder">Описание (не обязательно)</string>
   <string name="DescriptionPlaceholder">Описание</string>
   <string name="DescriptionInfo">Вы можете указать описание вашего канала (не обязательно).</string>
   <string name="ChannelPublic">Публичный канал</string>
+  <string name="MegaPublic">Публичная группа</string>
   <string name="ChannelPublicInfo">Публичные каналы видны в поиске, присоединиться к ним может кто угодно.</string>
+  <string name="MegaPublicInfo">Публичные группы видны в поиске, присоединиться к ним может кто угодно.</string>
   <string name="ChannelPrivate">Приватный канал</string>
+  <string name="MegaPrivate">Приватная группа</string>
   <string name="ChannelPrivateInfo">Присоединиться к приватному каналу можно только по ссылке.</string>
+  <string name="MegaPrivateInfo">Вступить в приватную группу можно только по ссылке.</string>
   <string name="ChannelLinkTitle">Ссылка</string>
   <string name="ChannelInviteLinkTitle">Ссылка для приглашения</string>
   <string name="ChannelAddMembers">Добавить участников</string>
@@ -106,6 +130,7 @@
   <string name="ChannelJoin">Присоединиться</string>
   <string name="OpenChannelProfile">О канале</string>
   <string name="ChannelBroadcast">Рассылка</string>
+  <string name="ChannelSilentBroadcast">Тихий режим</string>
   <string name="ChannelComment">Комментировать</string>
   <string name="ShowDiscussion">показать комментарии</string>
   <string name="ChannelAlertTitle">Что такое канал?</string>
@@ -116,8 +141,8 @@
   <string name="LinkInvalidShort">Имя канала должно содержать минимум 5 символов.</string>
   <string name="LinkInvalidLong">Имя не должно быть длиннее 32 символов.</string>
   <string name="LinkInvalidStartNumber">Имя не может начинаться с цифры.</string>
-  <!--<string name="LinkInvalidShortMega">Supergroup names must have at least 5 characters.</string>-->
-  <!--<string name="LinkInvalidStartNumberMega">Supergroup names can\'t start with a number.</string>-->
+  <string name="LinkInvalidShortMega">Название группы должно содержать минимум 5 символов.</string>
+  <string name="LinkInvalidStartNumberMega">Название не может начинаться с цифры.</string>
   <string name="LinkChecking">Проверка доступности…</string>
   <string name="LinkAvailable">имя %1$s доступно</string>
   <string name="ChannelMembers">Участники</string>
@@ -129,7 +154,7 @@
   <string name="ChannelLeaveAlert">Уверены, что хотите покинуть этот канал?</string>
   <string name="ChannelDeleteInfo">Все сообщения в этом канале будут удалены.</string>
   <string name="ChannelEdit">Изменить</string>
-  <!--<string name="MegaWasPrivateAlert">Please note that if you choose a public link for your supergroup, anyone will be able to find it in search and join.\n\nDo not create this link if you want your supergroup to stay private.</string>-->
+  <string name="MegaWasPrivateAlert">Обратите внимание: если вы создадите публичную ссылку на вашу группу, любой желающий сможет найти её через поиск и вступить в неё.\n\nНе создавайте ссылку, если хотите, чтобы ваша группа оставалась приватной.</string>
   <string name="ChannelWasPrivateAlert">Обратите внимание: если вы создадите публичную ссылку на ваш канал, любой желающий сможет найти его через поиск и присоединиться к нему.\n\nНе создавайте эту ссылку, если хотите, чтобы ваш канал оставался приватным.</string>
   <string name="ChannelPublicEmptyUsername">Создайте ссылку на ваш публичный канал, чтобы люди могли найти её через поиск и поделиться с другими пользователями.\n\nЕсли вам это не нужно, рекомендуем создать приватный канал.</string>
   <string name="ActionCreateChannel">Канал создан</string>
@@ -137,6 +162,7 @@
   <string name="ActionChannelRemovedPhoto">Фото канала удалено</string>
   <string name="ActionChannelChangedTitle">Имя канала изменено на un2</string>
   <string name="ChannelPublicLimitReached">Извините, вы создали слишком много публичных каналов. Вы можете либо удалить один из существующих, либо создать приватный канал.</string>
+  <string name="ChangePublicLimitReached">К сожалению, вы создали слишком много ссылок. Попробуйте удалить какую-нибудь ссылку или сделать вашу группу или канал приватным.</string>
   <string name="ChannelModerator">Модератор</string>
   <string name="ChannelCreator">Создатель</string>
   <string name="ChannelEditor">Администратор</string>
@@ -152,6 +178,8 @@
   <string name="ChannelAdminsInfo">Вы можете добавлять администраторов для помощи в управлении каналом. Нажмите и удерживайте для удаления.</string>
   <string name="ChannelJoinTo">Присоединиться к каналу «%1$s»?</string>
   <string name="ChannelCantOpenPrivate">К сожалению, этот чат больше недоступен.</string>
+  <string name="ChannelCantOpenBanned">К сожалению, вам запрещено участвовать в публичных группах (вы забанены).</string>
+  <string name="ChannelCantOpenNa">К сожалению, этот чат больше недоступен.</string>
   <string name="ChannelAddTo">Добавить %1$s на канал?</string>
   <string name="ChannelUserLeftError">К сожалению, этот пользователь решил покинуть данный канал, поэтому вы не можете пригласить его обратно.</string>
   <string name="ChannelUserCantAdd">К сожалению, этого пользователя нельзя добавлять в каналы.</string>
@@ -181,6 +209,7 @@
   <string name="ChannelMessageDocument">%1$s опубликовал(а) файл</string>
   <string name="ChannelMessageGIF">%1$s опубликовал(а) GIF</string>
   <string name="ChannelMessageAudio">%1$s опубликовал(а) аудиозапись</string>
+  <string name="ChannelMessageMusic">%1$s опубликовал(а) аудиозапись</string>
   <string name="ChannelMessageSticker">%1$s опубликовал(а) стикер</string>
   <string name="WhoCanAddMembers">Кто может добавлять новых пользователей?</string>
   <string name="WhoCanAddMembersAllMembers">Все участники</string>
@@ -270,15 +299,30 @@
   <string name="SendItems">Отправить %1$s</string>
   <string name="OpenUrlAlert">Открыть ссылку в %1$s?</string>
   <string name="ReportSpam">ПОЖАЛОВАТЬСЯ НА СПАМ</string>
+  <string name="ReportSpamAndLeave">ПОЖАЛОВАТЬСЯ НА СПАМ И ПОКИНУТЬ</string>
   <string name="AddContactChat">ДОБАВИТЬ КОНТАКТ</string>
   <string name="ReportSpamAlert">Уверены, что хотите сообщить о спаме от этого пользователя?</string>
   <string name="ReportSpamAlertGroup">Уверены, что хотите сообщить о спаме от этой группы?</string>
+  <string name="ReportSpamAlertChannel">Уверены, что хотите сообщить о спаме от этого канала?</string>
   <string name="NobodyLikesSpam1">К сожалению, вы можете отправлять сообщения только взаимным контактам.</string>
   <string name="NobodyLikesSpam2">К сожалению, вы можете добавлять в группы только взаимные контакты.</string>
   <string name="NobodyLikesSpamUrl">https://tlgrm.ru/faq/pochemu-ne-otpravit-soobshenie.html</string>
   <string name="MoreInfo">Подробнее</string>
   <string name="ShareSendTo">Выберите получателей...</string>
   <string name="TapHereGifs">Нажмите, чтобы посмотреть сохранённые GIF</string>
+  <string name="PinMessage">Прикрепить</string>
+  <string name="PinNotify">Уведомить всех участников</string>
+  <string name="UnpinMessage">Открепить</string>
+  <string name="PinMessageAlert">Прикрепить это сообщение в этой группе?</string>
+  <string name="DeleteBanUser">Забанить пользователя</string>
+  <string name="DeleteReportSpam">Сообщить о спаме</string>
+  <string name="ReportChat">Сообщить</string>
+  <string name="ReportChatSpam">Спам</string>
+  <string name="ReportChatViolence">Насилие</string>
+  <string name="ReportChatPornography">Порнография</string>
+  <string name="ReportChatOther">Другое</string>
+  <string name="ReportChatDescription">Описание</string>
+  <string name="PinnedMessage">Прикреплённое сообщение</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s поставил(а) таймер самоуничтожения на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы поставили таймер самоуничтожения на %1$s</string>
@@ -370,9 +414,11 @@
   <string name="DeleteAndExit">Удалить и покинуть группу</string>
   <string name="Notifications">Уведомления</string>
   <string name="KickFromGroup">Исключить из группы</string>
+  <string name="UpgradeGroup">Преобразовать в супергруппу</string>
   <string name="ConvertGroup">Преобразовать в супергруппу</string>
-  <string name="ConvertGroupAlert">Обратите внимание: всем участникам необходимо иметь свежую версию Telegram, чтобы увидеть вашу супергруппу. Продолжить?</string>
-  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Достигнуто максимальное число участников.<![CDATA[</b>]]>\n\nЧтобы повысить лимит, преобразуйте группу в супергруппу:\n\n•  Супергруппы вмещают до %1$s участников\n•  Всем новым участникам доступна вся история переписки\n•  Администраторы могут удалять любые сообщения\n•  Уведомления выключены по умолчанию</string>
+  <string name="ConvertGroupMenu">Преобразовать в супергруппу</string>
+  <string name="ConvertGroupAlertWarning">Внимание</string>
+  <string name="ConvertGroupAlert">Это действие необратимо: превратить супергруппу в обычную группу невозможно.</string>
   <!--contact info view-->
   <string name="ShareContact">Поделиться</string>
   <string name="AddContact">Добавить</string>
@@ -462,6 +508,8 @@
   <string name="AskButton">Спросить добровольца</string>
   <string name="TelegramFaq">Вопросы и ответы о Telegram</string>
   <string name="TelegramFaqUrl">https://tlgrm.ru/faq</string>
+  <string name="PrivacyPolicy">Политика конфиденциальности</string>
+  <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
   <string name="DeleteLocalization">Удалить локализацию?</string>
   <string name="IncorrectLocalization">Некорректный файл локализации</string>
   <string name="Enabled">Включено</string>
@@ -685,7 +733,6 @@
   <string name="ResetMyAccount">СБРОСИТЬ АККАУНТ</string>
   <string name="ResetMyAccountText">История сообщений и чаты будут удалены. Продолжить?</string>
   <string name="ResetMyAccountWarning">Внимание</string>
-  <string name="ResetMyAccountWarningText">Это действие не может быть отменено.\n\nПри сбросе аккаунта все сообщения и чаты будут безвозвратно удалены.</string>
   <string name="ResetMyAccountWarningReset">Сброс</string>
   <string name="LoginPassword">Пароль</string>
   <string name="LoginPasswordText">Включена двухэтапная авторизация, ваш аккаунт защищён дополнительным паролем.</string>
@@ -851,7 +898,6 @@
   <string name="AreYouSureRegistration">Уверены, что хотите прервать регистрацию?</string>
   <string name="AreYouSureClearHistory">Уверены, что хотите очистить историю?</string>
   <string name="AreYouSureClearHistoryChannel">Удалить все кэшированные сообщения и файлы из этого канала?</string>
-  <string name="AreYouSureClearHistorySuper">Удалить все кэшированные сообщения и файлы из этой супергруппы?</string>
   <string name="AreYouSureDeleteMessages">Уверены, что хотите удалить %1$s?</string>
   <string name="SendMessagesToGroup">Отправить сообщения %1$s?</string>
   <string name="SendContactToGroup">Отправить контакт в группу %1$s?</string>
@@ -863,6 +909,8 @@
   <string name="SecretChatContextBotAlert">Обратите внимание: встроенные боты создаются сторонними разработчиками. Весь текст, который вы печатаете после имени пользователя робота, отправляется на сервера этих разработчиков.</string>
   <string name="RaiseToSpeakAlert">Включить функцию «Поднеси для записи» для голосовых сообщений?</string>
   <string name="EditMessageError">К сожалению, вы не можете редактировать это сообщение.</string>
+  <string name="AllowReadSms">Разрешите Telegram доступ к SMS: тогда ваш код будет вводиться автоматически.</string>
+  <string name="AllowReadCall">Разрешите Telegram принимать входящие вызовы: тогда ваш код будет вводиться автоматически.</string>
   <!--permissions-->
   <string name="PermissionContacts">Чтобы вы могли оставаться на связи с вашими друзьями с любого устройства, необходим доступ к контактам.</string>
   <string name="PermissionStorage">Для сохранения и отправки фото, видео и других файлов необходим доступ к памяти вашего устройства.</string>
@@ -1090,7 +1138,4 @@
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s в %2$s</string>
-  <!--update text-->
-  <string name="updateText">Ваш Telegram обновился. Что нового в версии 3.5:\n– Переработанные голосовые сообщения: помимо нового дизайна с превью, появилась возможность прослушивания и записи голосовой заметки просто поднеся телефон к уху.\n\n– Секретные чаты повышенной комфортности. Всё то, за что мы так любим Telegram, теперь доступно и в секретных чатах: стикеры, встроенные боты, предпросмотр ссылок, ответы, подписи к фото и видео и, конечно, новые GIF.\n\n– Расширенные настройки приватности: теперь вы можете разграничить, кто может, а кто не может добавлять вас в группы и каналы. Информация об обновлении и обсуждение: https://tlgrm.ru/a/audio2</string>
-  <string name="updateBuild">732</string>
 </resources>

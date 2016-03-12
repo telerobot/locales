@@ -12,7 +12,6 @@
   <string name="WrongCountry">Neplatná mezinárodní předvolba</string>
   <!--code enter view-->
   <string name="YourCode">Váš kód</string>
-  <string name="SentSmsCode">Poslali jsme Vám SMS s aktivačním kódem na číslo </string>
   <string name="CallText">Zavoláme Vám za %1$d:%2$02d</string>
   <string name="Calling">Voláme Vám...</string>
   <string name="Code">Kód</string>
@@ -76,7 +75,6 @@
   <string name="GroupUserCantAdd">Litujeme, nemůžete přidat tohoto uživatele do kanálu.</string>
   <string name="GroupUserAddLimit">Litujeme, ale tato skupina je plná</string>
   <string name="GroupUserLeftError">Litujeme, ale tento uživatel se rozhodl opustit tuto skupinu, takže není možné pozvat ho zpět.</string>
-  <string name="GroupUserCantAdmin">Litujeme, v tomto kanálu je příliš mnoho správců</string>
   <string name="GroupUserCantBot">Litujeme, v tomto kanálu je příliš mnoho robotů.</string>
   <string name="ActionMigrateFromGroup">Tato skupina byla povýšena na Superskupinu</string>
   <string name="ActionMigrateFromGroupNotify">Skupina \"%1$s\" byla povýšena na Superskupinu.</string>
@@ -87,7 +85,6 @@
   <string name="CommentsInfo">PŘIPOJIT</string>
   <string name="AddMutual">Přidát kontakt do vašeho kanálu</string>
   <string name="ChannelUsernameHelp">Lidé mohou sdílet tento odkaz s ostatními a najít váš kanál pomocí Telegram vyhledávání.</string>
-  <!--<string name="MegaUsernameHelp">People can share this link with others and find your supergroup using Telegram search.</string>-->
   <string name="ChannelUsernamePlaceholder">odkaz</string>
   <string name="ChannelPrivateLinkHelp">Lidé se mohou připojit k vašemu kanálu pomocí následujícího odkazu. Kdykoliv můžete odkaz odvolat.</string>
   <string name="DescriptionPlaceholder">Popis</string>
@@ -115,8 +112,6 @@
   <string name="LinkInvalidShort">Uživatelské jméno musí mít nejméně 5 znaků.</string>
   <string name="LinkInvalidLong">Uživatelské jméno nemůže mít více než 32 znaků.</string>
   <string name="LinkInvalidStartNumber">Promiňte, uživatelské jméno nemůže začínat číslem.</string>
-  <!--<string name="LinkInvalidShortMega">Supergroup names must have at least 5 characters.</string>-->
-  <!--<string name="LinkInvalidStartNumberMega">Supergroup names can\'t start with a number.</string>-->
   <string name="LinkChecking">Kontrola uživatelského jména...</string>
   <string name="LinkAvailable">%1$s je dostupné.</string>
   <string name="ChannelMembers">Členové</string>
@@ -128,7 +123,6 @@
   <string name="ChannelLeaveAlert">Jste si jistý, že chcete opustit kanál?</string>
   <string name="ChannelDeleteInfo">Ztratíte všechny zprávy v tomto kanálu.</string>
   <string name="ChannelEdit">Editovat</string>
-  <!--<string name="MegaWasPrivateAlert">Please note that if you choose a public link for your supergroup, anyone will be able to find it in search and join.\n\nDo not create this link if you want your supergroup to stay private.</string>-->
   <string name="ChannelWasPrivateAlert">Vezměte prosím na vědomí, že pokud zvolíte veřejný odkaz pro váš kanál, kdokoliv ho bude schopen najít a připojit.\n\nNevytvářejte tento odkaz, chcete-li mít váš kanál soukromý.</string>
   <string name="ChannelPublicEmptyUsername">Prosím zvolte odkaz pro váš veřejný kanál, takže lidé budou moci najít a sdílet ho..\n\nPokud vás to nezajímá, doporučujeme ponechat kanál soukromý.</string>
   <string name="ActionCreateChannel">Kanál vytvořen</string>
@@ -357,9 +351,6 @@
   <string name="DeleteAndExit">Opustit a odstranit skupinu</string>
   <string name="Notifications">Upozornění</string>
   <string name="KickFromGroup">Odstranit ze skupiny</string>
-  <string name="ConvertGroup">Upgradovat na Supergroup</string>
-  <string name="ConvertGroupAlert">POZNÁMKA: členové skupiny si budou muset aktualizovat jejich Telegram na nejnovější verzi, aby viděli vaši superskupinu. Opravdu chcete aktualizovat tuto skupinu?</string>
-  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Limit členů byl dosažen.<![CDATA[</b>]]>\n\nKdyž chcete jít přes tento limit, musíte tuto skupinu povýšit na superskupinu:\n\n• Superskupiny mohou mít přes %1$s členů\n• Noví členové mohou vidět celou historii chatu\n• Správci mohou mazat jakékoliv zprávy\n• Notifikace jsou automaticky vypnuty</string>
   <!--contact info view-->
   <string name="ShareContact">Sdílet</string>
   <string name="AddContact">Přidat</string>
@@ -659,7 +650,6 @@
   <string name="ResetMyAccount">OBNOVA ÚČTU</string>
   <string name="ResetMyAccountText">V případě obnovení účtu, ztratíte všechny Vaše konverzace a zprávy, spolu ze všemi médii a soubory, které jste v nich sdíleli.</string>
   <string name="ResetMyAccountWarning">Upozornění</string>
-  <string name="ResetMyAccountWarningText">Tato akce je nevratná.\n\nPokud obnovíte svůj účet, ztratíte všechny zprávy a konverzace.</string>
   <string name="ResetMyAccountWarningReset">Obnovit</string>
   <string name="LoginPassword">Heslo</string>
   <string name="LoginPasswordText">Máte nastavené ověření ve dvou krocích, takže Váš účet je chráněný dodatečným heslem.</string>
@@ -809,7 +799,6 @@ Smazat a zastavit</string>
   <string name="AreYouSureRegistration">Jste si jistý, že chcete zrušit registraci?</string>
   <string name="AreYouSureClearHistory">Jste si jistý, že chcete vymazat historii?</string>
   <string name="AreYouSureClearHistoryChannel">Opravdu chcete smazat veškerý uložený text a média z tohoto kanálu?</string>
-  <string name="AreYouSureClearHistorySuper">Opravdu chcete smazat veškerý uložený text a média z této superskupiny?</string>
   <string name="AreYouSureDeleteMessages">Jste si jistý, že chcete odstranit %1$s?</string>
   <string name="SendMessagesToGroup">Poslat zprávu uživateli %1$s?</string>
   <string name="SendContactToGroup">Odeslat kontakt na %1$s?</string>
@@ -1031,6 +1020,4 @@ Smazat a zastavit</string>
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s o %2$s</string>
-  <!--update text-->
-  <string name="updateBuild">732</string>
 </resources>
