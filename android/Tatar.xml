@@ -12,7 +12,7 @@
   <string name="ChooseCountry">Илне сайлагыз</string>
   <string name="WrongCountry">Ил коды дөрес түгел</string>
   <!--code enter view-->
-  <string name="YourCode">Кодыгыз</string>
+  <string name="SentSmsCode">Без <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> номерына активлаштыру өчен код белән SMS җибәрдек.</string>
   <string name="CallText">%1$d:%2$02d вакыттан соң без сезгә шалтыратырбыз</string>
   <string name="Calling">Сезгә шалтыратабыз...</string>
   <string name="Code">Код</string>
@@ -580,11 +580,11 @@
   <string name="FingerprintHelp">Бармак эзе сканеры</string>
   <string name="FingerprintNotRecognized">Бармак эзе танылмады. Кабат эшләгез</string>
   <!--media view-->
-  <string name="NoMedia">Бу чатта фото һәм видео белән бүлешегез һәм алар бөтен җайланмаларыгызда да күрсәтеләчәкләр.</string>
   <string name="DocumentsTitle">Уртак файллар</string>
   <string name="SharedMediaTitle">Фото һәм видео</string>
   <string name="LinksTitle">Уртак сылтамалар</string>
   <string name="AudioTitle">Уртак музыка</string>
+  <string name="NoMedia">Бу чатта фото һәм видео белән бүлешегез һәм алар бөтен җайланмаларыгызда да күрсәтеләчәкләр.</string>
   <string name="NoSharedAudio">Бу чатта музыка белән бүлешегез һәм барлык җайланмаларыгызда да аның белән эш итә алачаксыз.</string>
   <string name="NoSharedFiles">Бу чатта файллар һәм документлар белән бүлешегез һәм алар бөтен җайланмаларыгызда да күрсәтеләчәкләр.</string>
   <string name="NoSharedLinks">Бу чатта сылтамаларыгыз белән бүлешегез һәм сез аларны бөтен җайланмаларыгызда күрә алачаксыз.</string>

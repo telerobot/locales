@@ -12,10 +12,8 @@
   <string name="ChooseCountry">Выберите страну</string>
   <string name="WrongCountry">Неправильный код страны</string>
   <!--code enter view-->
-  <string name="YourCode">Ваш код</string>
   <string name="SentSmsCode">Мы отправили SMS с кодом активации на этот номер: <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
   <string name="SentAppCode">Мы отправили код в ваш <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> на другом устройстве.</string>
-  <string name="SentCallCode">Сейчас мы сделаем специальный активационный звонок на ваш номер <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>. Трубку снимать не нужно: Telegram сделает всё сам.</string>
   <string name="SentCallOnly">Сейчас мы позвоним на ваш номер <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> и продиктуем код.</string>
   <string name="CallText">Мы позвоним вам через %1$d:%2$02d</string>
   <string name="SmsText">SMS будет отправлено через %1$d:%2$02d</string>
@@ -621,11 +619,11 @@
   <string name="FingerprintHelp">Сканер отпечатков пальцев</string>
   <string name="FingerprintNotRecognized">Отпечаток пальца не распознан. Попробуйте снова</string>
   <!--media view-->
-  <string name="NoMedia">Делитесь фото и видео в этом чате и получите доступ к ним на любом из ваших устройств.</string>
   <string name="DocumentsTitle">Общие файлы</string>
   <string name="SharedMediaTitle">Общие медиа</string>
   <string name="LinksTitle">Общие ссылки</string>
   <string name="AudioTitle">Общая музыка</string>
+  <string name="NoMedia">Делитесь фото и видео в этом чате и получите доступ к ним на любом из ваших устройств.</string>
   <string name="NoSharedAudio">Делитесь музыкой в этом чате и получите доступ к ней на любом из ваших устройств.</string>
   <string name="NoSharedFiles">Поделитесь файлами и документами в этом чате и получите доступ к ним на любом из ваших устройств.</string>
   <string name="NoSharedLinks">Делитесь ссылками в этом чате и получите к ним доступ с любого устройства.</string>

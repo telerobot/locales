@@ -10,7 +10,6 @@
   <string name="ChooseCountry">Mamlakatni tanlang</string>
   <string name="WrongCountry">Mamlakat kodi noto‘g‘ri</string>
   <!--code enter view-->
-  <string name="YourCode">Sizning kodingiz</string>
   <string name="CallText">Biz sizga %1$d:%2$02d da qo\'ngiroq qilamiz</string>
   <string name="Calling">Sizga qo‘ng‘iroq qilyapmiz...</string>
   <string name="Code">Kod</string>

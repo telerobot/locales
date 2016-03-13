@@ -11,8 +11,13 @@
   <string name="ChooseCountry">Выбраць краіну</string>
   <string name="WrongCountry">Памылковы код краіны</string>
   <!--code enter view-->
-  <string name="YourCode">Ваш код</string>
+  <string name="YourCode">Верыфікацыя па тэлефоне</string>
+  <string name="SentSmsCode">Мы даслалі SMS з кодам актывацыі на ваш тэлефон <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
+  <string name="SentAppCode">Мы даслалі код праз <![CDATA[<b>]]>Тэлеграм<![CDATA[</b>]]> на вашым іншым устройстве.</string>
+  <string name="SentCallCode">Мы робім званок-актывацыю на ваш тэлефон <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nНе адказвайце на яго, Тэлеграм зробіць усё неабходнае аўтаматычна.</string>
+  <string name="SentCallOnly">Мы тэлефануем вам на ваш нумар <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>, каб прадыктаваць код.</string>
   <string name="CallText">Мы патэлефануем Вам праз %1$d:%2$02d</string>
+  <string name="SmsText">Мы дашлем вам SMS праз %1$d:%2$02d</string>
   <string name="Calling">Тэлефануем Вам...</string>
   <string name="Code">Код</string>
   <string name="WrongNumber">Памылковы нумар?</string>
@@ -62,6 +67,10 @@
   <string name="Recent">НЯДАЎНІЯ</string>
   <string name="LinkPreview">Перадпрагляд спасылкі</string>
   <!--channels-->
+  <string name="GroupType">Тып суполкі</string>
+  <string name="ChannelType">Тып канала</string>
+  <string name="ChannelTypePublic">Публічны</string>
+  <string name="ChannelTypePrivate">Прыватны</string>
   <string name="SetAsAdmin">Прызначыць кіраўніком</string>
   <string name="DescriptionInfoMega">Вы можаце пакінуць дадатковае апісанне сваёй суполкі.</string>
   <string name="LeaveMega">Пакінуць суполку</string>
@@ -77,7 +86,19 @@
   <string name="GroupUserCantAdd">Выбачайце, але вы не можаце дадаваць гэтага карыстальніка да суполак.</string>
   <string name="GroupUserAddLimit">Выбачайце, але гэтая суполка ўжо поўная.</string>
   <string name="GroupUserLeftError">Выбачайце, але гэты карыстальнік вырашыў пакінуць суполку, таму вы не можаце запрасіць яго сюды.</string>
+  <string name="GroupUserCantAdmin">Выбачайце, зашмат кіраўнікоў у гэтай суполцы.</string>
   <string name="GroupUserCantBot">Выбачайце, зашмат ботаў у гэтай суполцы.</string>
+  <string name="ActionPinnedText">un1 замацаваў(-ла) \"%1$s\"</string>
+  <string name="ActionPinnedNoText">un1 замацаваў(-ла) паведамленне</string>
+  <string name="ActionPinnedPhoto">un1 замацаваў(-ла) выяву</string>
+  <string name="ActionPinnedVideo">un1 замацаваў(-ла) відэазапіс</string>
+  <string name="ActionPinnedFile">un1 замацаваў(-ла) файл</string>
+  <string name="ActionPinnedSticker">un1 замацаваў(-ла) налепку</string>
+  <string name="ActionPinnedVoice">un1 замацаваў(-ла) аўдыязапіс</string>
+  <string name="ActionPinnedContact">un1 замацаваў(-ла) кантакт</string>
+  <string name="ActionPinnedGeo">un1 замацаваў(-ла) карту</string>
+  <string name="ActionPinnedGif">un1 замацаваў(-ла) анімацыю</string>
+  <string name="ActionPinnedMusic">un1 замацаваў(-ла) песню</string>
   <string name="ActionMigrateFromGroup">Гэтая суполка была ператворана ў суперсуполку</string>
   <string name="ActionMigrateFromGroupNotify">%1$s была ператворана ў суперсуполку</string>
   <string name="NoBlockedGroup">Заблакаваныя карыстальнікі выдаляюцца з суполкі і могуць вярнуцца толькі ў тым выпадку, калі іх запросіць кіраўнік. Спасылкі-запрашэнні для іх не працуюць.</string>
@@ -87,14 +108,21 @@
   <string name="CommentsInfo">Калі вы ўключыце каментары, карыстальнікі змогуць абмяркоўваць вашыя паведамленні на канале.</string>
   <string name="AddMutual">Дадаць кантакты ў канал</string>
   <string name="ChannelUsernameHelp">Карыстальнікі могуць дзяліцца гэтай спасылкай з іншымі, а таксама знайсці ваш канал праз пошук Тэлеграма.</string>
+  <string name="MegaUsernameHelp">Карыстальнікі могуць дзяліцца гэтай спасылкай з іншымі і знайсці вашу суполку праз пошук Тэлеграму.</string>
   <string name="ChannelUsernamePlaceholder">спасылка</string>
   <string name="ChannelPrivateLinkHelp">Карыстальнікі могуць далучыцца да вашага канала, пераходзячы па гэтай спасылцы. Вы можаце адключыць яе калі заўгодна.</string>
+  <string name="MegaPrivateLinkHelp">Карыстальнікі могуць далучыцца да вашае суполкі, пераходзячы па гэтай спасылцы. Вы можаце адключыць яе калі заўгодна.</string>
+  <string name="DescriptionOptionalPlaceholder">Апісанне (неабавязкова)</string>
   <string name="DescriptionPlaceholder">Апісанне</string>
   <string name="DescriptionInfo">Вы можаце пакінуць дадатковае апісанне свайго канала.</string>
   <string name="ChannelPublic">Публічны канал</string>
+  <string name="MegaPublic">Публічная суполка</string>
   <string name="ChannelPublicInfo">Публічныя каналы могуць быць знойдзеныя праз пошук, і кожны можа да іх далучыцца</string>
+  <string name="MegaPublicInfo">Публічныя суполкі могуць быць знойдзеныя праз пошук, і кожны карыстальнік можа да іх далучыцца.</string>
   <string name="ChannelPrivate">Прыватны канал</string>
+  <string name="MegaPrivate">Прыватная суполка</string>
   <string name="ChannelPrivateInfo">Да прыватных каналаў можна далучыцца толькі праз спасылку-запрашэнне.</string>
+  <string name="MegaPrivateInfo">Да прыватных суполак можна далучыцца толькі праз спасылку-запрашэнне.</string>
   <string name="ChannelLinkTitle">Спасылка</string>
   <string name="ChannelInviteLinkTitle">Спасылка-запрашэнне</string>
   <string name="ChannelAddMembers">Дадаць удзельнікаў</string>
@@ -104,6 +132,7 @@
   <string name="ChannelJoin">ДАЛУЧЫЦЦА</string>
   <string name="OpenChannelProfile">Звесткі аб канале</string>
   <string name="ChannelBroadcast">Рассылка</string>
+  <string name="ChannelSilentBroadcast">Бязгучная рассылка</string>
   <string name="ChannelComment">Каментаваць</string>
   <string name="ShowDiscussion">паказаць каментары</string>
   <string name="ChannelAlertTitle">Што такое «канал»?</string>
@@ -114,6 +143,8 @@
   <string name="LinkInvalidShort">Назва канала павінна складацца сама менш з 5 сімвалаў. </string>
   <string name="LinkInvalidLong">Назва не можа быць даўжэйшай за 32 сімвалы. </string>
   <string name="LinkInvalidStartNumber">Назва канала не можа пачынацца з лічбы. </string>
+  <string name="LinkInvalidShortMega">Назва суполкі павінна складацца сама менш з 5 сімвалаў. </string>
+  <string name="LinkInvalidStartNumberMega">Назва суполкі не можа пачынацца з лічбы. </string>
   <string name="LinkChecking">Праверка назвы... </string>
   <string name="LinkAvailable">Назва «%1$s» даступная. </string>
   <string name="ChannelMembers">Удзельнікі </string>
@@ -125,6 +156,7 @@
   <string name="ChannelLeaveAlert">Вы ўпэўненыя, што жадаеце пакінуць гэты канал? </string>
   <string name="ChannelDeleteInfo">Вы страціце доступ да ўсіх паведамленняў у гэтым канале.</string>
   <string name="ChannelEdit">Рэдагаваць</string>
+  <string name="MegaWasPrivateAlert">Звярніце увагу, што калі вы створыце публічную спасылку на вашу суполку, кожны карыстальнік зможа адшукаць яе праз пошук і далучыцца да суполкі.\n\nНе стварайце гэтую спасылку, калі жадаеце, каб ваша суперсуполка засталася прыватнай. </string>
   <string name="ChannelWasPrivateAlert">Звярніце увагу, што калі вы створыце публічную спасылку на ваш канал, кожны карыстальнік зможа адшукаць яе праз пошук і далучыцца да канала.\n\nНе стварайце гэтую спасылку, калі жадаеце, каб ваш канал застаўся прыватным. </string>
   <string name="ChannelPublicEmptyUsername">Абярыце спасылку для вашага публічнага канала, каб карыстальнікі маглі адшукаць яго праз пошук і падзяліцца з іншымі.\n\nКалі вы не хочаце, каб карыстальнікі мелі такую магчымасць, мы прапануем вам стварыць прыватны канал.</string>
   <string name="ActionCreateChannel">Канал створаны</string>
@@ -132,6 +164,7 @@
   <string name="ActionChannelRemovedPhoto">Выява канала выдалена</string>
   <string name="ActionChannelChangedTitle">Назва канала была зменена на un2</string>
   <string name="ChannelPublicLimitReached">Выбачайце, але вы стварылі зашмат публічных каналаў. Вы можаце стварыць прыватны канал ці выдаліць адзін з вашых існых каналаў. </string>
+  <string name="ChangePublicLimitReached">Выбачайце, але вы стварылі зашмат публічных спасылак. Паспрабуйце выдаліць ці зрабіць прыватнымі вашыя існыя суполкі або каналы.</string>
   <string name="ChannelModerator">Мадэратар</string>
   <string name="ChannelCreator">Стваральнік</string>
   <string name="ChannelEditor">Кіраўнік</string>
@@ -147,6 +180,8 @@
   <string name="ChannelAdminsInfo">Калі вам патрэбная дапамога ў кіраванні каналам, вы можаце прызначыць кіраўнікоў. Каб разжалаваць кіраўніка, датыкніцеся да яго і ўтрымлівайце. </string>
   <string name="ChannelJoinTo">Жадаеце далучыцца да канала «%1$s»?</string>
   <string name="ChannelCantOpenPrivate">Выбачайце, але да гэтай размовы больш нельга далучыцца.</string>
+  <string name="ChannelCantOpenBanned">На жаль, вам было забаронена ўдзельнічаць у публічных суполках.</string>
+  <string name="ChannelCantOpenNa">Выбачайце, але да гэтай размовы больш нельга далучыцца.</string>
   <string name="ChannelAddTo">Дадаць %1$s да канала?</string>
   <string name="ChannelUserLeftError">Выбачайце, але гэты карыстальнік вырашыў адпісацца ад канала, таму вы не можаце запрасіць яго сюды.</string>
   <string name="ChannelUserCantAdd">Выбачайце, але вы не можаце дадаць гэтага карыстальніка ў каналы.</string>
@@ -167,6 +202,7 @@
   <string name="ChannelMessageGroupDocument">%1$s даслаў файл у канал %2$s</string>
   <string name="ChannelMessageGroupGif">%1$s даслаў анімацыю ў канал %2$s</string>
   <string name="ChannelMessageGroupAudio">%1$s даслаў аўдыязапіс у канал %2$s</string>
+  <string name="ChannelMessageGroupMusic">%1$s даслаў(-ла) песню ў канал %2$s</string>
   <string name="ChannelMessageGroupSticker">%1$s даслаў налепку ў канал %2$s</string>
   <string name="ChannelMessageNoText">%1$s размясціў запіс</string>
   <string name="ChannelMessagePhoto">%1$s размясціў выяву</string>
@@ -176,6 +212,7 @@
   <string name="ChannelMessageDocument">%1$s размясціў файл</string>
   <string name="ChannelMessageGIF">%1$s размясціў анімацыю</string>
   <string name="ChannelMessageAudio">%1$s размясціў аўдыязапіс</string>
+  <string name="ChannelMessageMusic">%1$s размясціў(-ла) песню</string>
   <string name="ChannelMessageSticker">%1$s размясціў налепку</string>
   <string name="WhoCanAddMembers">Хто можа дадаваць новых удзельнікаў?</string>
   <string name="WhoCanAddMembersAllMembers">Усе ўдзельнікі</string>
@@ -265,15 +302,33 @@
   <string name="SendItems">Даслаць %1$s</string>
   <string name="OpenUrlAlert">Адкрыць спасылку «%1$s»?</string>
   <string name="ReportSpam">ПАСКАРДЗІЦЦА НА СПАМ</string>
+  <string name="ReportSpamAndLeave">ПАСКАРДЗІЦЦА НА СПАМ І ВЫЙСЦІ</string>
   <string name="AddContactChat">ДАДАЦЬ КАНТАКТ</string>
   <string name="ReportSpamAlert">Вы ўпэўненыя, што жадаеце паскардзіцца на гэтага карыстальніка?</string>
   <string name="ReportSpamAlertGroup">Вы ўпэўненыя, што жадаеце паскардзіцца на гэтую суполку?</string>
+  <string name="ReportSpamAlertChannel">Вы ўпэўненыя, што жадаеце паскардзіцца на гэты канал?</string>
   <string name="NobodyLikesSpam1">Выбачайце, але на дадзены момант вы можаце дасылаць паведамленні толькі ўзаемным кантактам.</string>
   <string name="NobodyLikesSpam2">Выбачайце, але на дадзены момант вы можаце дадаваць у суполкі толькі ўзаемныя кантакты.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Больш звестак</string>
   <string name="ShareSendTo">Даслаць…</string>
   <string name="TapHereGifs">Даткніцеся, каб адкрыць тэчку з схаванымі анімацыямі</string>
+  <string name="PinMessage">Замацаваць</string>
+  <string name="PinNotify">Паведаміць усіх удзельнікаў</string>
+  <string name="UnpinMessage">Адмацаваць</string>
+  <string name="PinMessageAlert">Жадаеце замацаваць гэтае паведамленне ў гэтай суполцы?</string>
+  <string name="UnpinMessageAlert">Жадаеце адмацаваць гэтае паведамленне?</string>
+  <string name="DeleteBanUser">Заблакаваць карыстыльніка</string>
+  <string name="DeleteReportSpam">Паскардзіцца на спам</string>
+  <string name="DeleteAllFrom">Выдаліць усё з %1$s</string>
+  <string name="ClearRecentEmoji">Скінуць нядаўнія эмодзі?</string>
+  <string name="ReportChat">Паскардзіцца</string>
+  <string name="ReportChatSpam">Спам</string>
+  <string name="ReportChatViolence">Гвалт</string>
+  <string name="ReportChatPornography">Парнаграфія</string>
+  <string name="ReportChatOther">Іншае</string>
+  <string name="ReportChatDescription">Апісанне</string>
+  <string name="PinnedMessage">Замацаванае паведамленне</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s усталяваў таймер самазнішчэння на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы ўсталявалі таймер самазнішчэння на %1$s</string>
@@ -289,6 +344,7 @@
   <string name="NotificationMessageDocument">%1$s даслаў вам файл</string>
   <string name="NotificationMessageGif">%1$s даслаў вам анімацыю</string>
   <string name="NotificationMessageAudio">%1$s даслаў вам аўдыязапіс</string>
+  <string name="NotificationMessageMusic">%1$s даслаў(-ла) вам песню</string>
   <string name="NotificationMessageSticker">%1$s даслаў вам налепку</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s даслаў паведамленне ў суполку %2$s</string>
@@ -299,6 +355,7 @@
   <string name="NotificationMessageGroupDocument">%1$s даслаў файл у суполку %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s даслаў анімацыю ў суполку %2$s</string>
   <string name="NotificationMessageGroupAudio">%1$s даслаў аўдыязапіс у суполку %2$s</string>
+  <string name="NotificationMessageGroupMusic">%1$s даслаў(-ла) песню ў суполку %2$s</string>
   <string name="NotificationMessageGroupSticker">%1$s даслаў налепку ў суполку %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s запрасіў вас у суполку %2$s</string>
   <string name="NotificationEditedGroupName">%1$s адрэдагаваў імя суполкі %2$s</string>
@@ -316,6 +373,28 @@
   <string name="ReplyToGroup">Адказаць групе %1$s</string>
   <string name="ReplyToUser">Адказаць карыстальніку %1$s</string>
   <string name="NotificationMessagesPeopleDisplayOrder">%1$s %2$s</string>
+  <string name="NotificationActionPinnedText">%1$s замацаваў(-ла) \"%2$s\" у суполцы %3$s</string>
+  <string name="NotificationActionPinnedNoText">%1$s замацаваў(-ла) паведамленне ў суполцы %2$s</string>
+  <string name="NotificationActionPinnedPhoto">%1$s замацаваў(-ла) выяву ў суполцы %2$s</string>
+  <string name="NotificationActionPinnedVideo">%1$s замацаваў(-ла) відэазапіс у суполцы %2$s</string>
+  <string name="NotificationActionPinnedFile">%1$s замацаваў(-ла) файл у суполцы %2$s</string>
+  <string name="NotificationActionPinnedSticker">%1$s замацаваў(-ла) налепку ў суполцы %2$s</string>
+  <string name="NotificationActionPinnedVoice">%1$s замацаваў(-ла) аўдыязапіс у суполцы %2$s</string>
+  <string name="NotificationActionPinnedContact">%1$s замацаваў(-ла) кантакт у суполцы %2$s</string>
+  <string name="NotificationActionPinnedGeo">%1$s замацаваў(-ла) карту ў суполцы %2$s</string>
+  <string name="NotificationActionPinnedGif">%1$s замацаваў(-ла) анімацыю ў суполцы %2$s</string>
+  <string name="NotificationActionPinnedMusic">%1$s замацаваў(-ла) песню ў суполцы %2$s</string>
+  <string name="NotificationActionPinnedTextChannel">%1$s замацаваў(-ла) \"%2$s\"</string>
+  <string name="NotificationActionPinnedNoTextChannel">%1$s замацаваў(-ла) паведамленне</string>
+  <string name="NotificationActionPinnedPhotoChannel">%1$s замацаваў(-ла) выяву</string>
+  <string name="NotificationActionPinnedVideoChannel">%1$s замацаваў(-ла) відэазапіс</string>
+  <string name="NotificationActionPinnedFileChannel">%1$s замацаваў(-ла) файл</string>
+  <string name="NotificationActionPinnedStickerChannel">%1$s замацаваў(-ла) налепку</string>
+  <string name="NotificationActionPinnedVoiceChannel">%1$s замацаваў(-ла) аўдыязапіс</string>
+  <string name="NotificationActionPinnedContactChannel">%1$s замацаваў(-ла) кантакт</string>
+  <string name="NotificationActionPinnedGeoChannel">%1$s замацаваў(-ла) карту</string>
+  <string name="NotificationActionPinnedGifChannel">%1$s замацаваў(-ла) анімацыю</string>
+  <string name="NotificationActionPinnedMusicChannel">%1$s замацаваў(-ла) песню</string>
   <!--contacts view-->
   <string name="SelectContact">Выбраць кантакт</string>
   <string name="NoContacts">Яшчэ няма кантактаў</string>
@@ -366,6 +445,14 @@
   <string name="DeleteAndExit">Выдаліць і пакінуць суполку</string>
   <string name="Notifications">Апавяшчэнні</string>
   <string name="KickFromGroup">Выдаліць з суполкі</string>
+  <string name="UpgradeGroup">Абнавіцца да суперсуполкі</string>
+  <string name="ConvertGroup">Абнавіцца да суперсуполкі</string>
+  <string name="ConvertGroupMenu">Абнавіцца да суперсуполкі</string>
+  <string name="ConvertGroupAlertWarning">Увага</string>
+  <string name="ConvertGroupAlert">Гэтае дзеянне немагчыма скасаваць. Магчымасці ператварыць суперсуполку назад у суполку не будзе.</string>
+  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Дасягнута абмежаванне колькасці карыстальнікаў.<![CDATA[</b>]]>\n\nКаб перавысіць абмежаванне і атрымаць дадатковыя магчымасці, абнавіцеся да суперсуполкі:\n\n• Суперсуполкі могуць мець да %1$s\n• Новыя ўдзельнікі бачаць усю гісторыю паведамленняў\n• Паведамленні выдаляюцца для ўсіх удзельнікаў\n• Удзельнікі могуць рэдагаваць уласныя паведамленні\n• Стваральнік можа прызначыць публічную спасылку на суполку</string>
+  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>У суперсуполках:<![CDATA[</b>]]>\n\n• Новыя ўдзельнікі бачаць усю гісторыю паведамленняў\n• Паведамленні выдаляюцца для ўсіх удзельнікаў\n• Удзельнікі могуць рэдагаваць уласныя паведамленні\n• Стваральнік можа прызначыць публічную спасылку на суполку</string>
+  <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Увага:<![CDATA[</b>]]> гэтае дзеянне немагчыма скасаваць.</string>
   <!--contact info view-->
   <string name="ShareContact">Падзяліцца</string>
   <string name="AddContact">Дадаць</string>
@@ -455,6 +542,8 @@
   <string name="AskButton">Спытацца ў добраахвотніка</string>
   <string name="TelegramFaq">ЧЗП Тэлеграма</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
+  <string name="PrivacyPolicy">Палітыка прыватнасці</string>
+  <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
   <string name="DeleteLocalization">Выдаліць лакалізацыю?</string>
   <string name="IncorrectLocalization">Памылковы файл лакалізацыі</string>
   <string name="Enabled">Уключана</string>
@@ -515,6 +604,10 @@
   <string name="SmartNotificationsMinutes">хвілін</string>
   <string name="SecretWebPage">Перадпрагляд спасылак</string>
   <string name="SecretChat">Сакрэтныя размовы</string>
+  <string name="ChromeCustomTabs">Карыстальніцкія ўстаўкі Chrome</string>
+  <string name="ChromeCustomTabsInfo">Адкрываць знешнія спасылкі ўнутры праграмы</string>
+  <string name="DirectShare">Прамы абмен</string>
+  <string name="DirectShareInfo">Паказаць нядаўнія размовы ў меню абмену</string>
   <!--cache view-->
   <string name="CacheSettings">Налады кэша</string>
   <string name="LocalDatabase">Лакальная база дадзеных</string>
@@ -566,14 +659,18 @@
   <string name="FingerprintHelp">Даткніцеся да сэнсара</string>
   <string name="FingerprintNotRecognized">Адбітак не распазнаны. Паспрабуйце яшчэ раз.</string>
   <!--media view-->
-  <string name="NoMedia">Дзяліцеся выявамі і відэа ў гэтай размове. Вы будзеце мець доступ да іх з любога вашага ўстройства.</string>
   <string name="DocumentsTitle">Агульныя файлы</string>
   <string name="SharedMediaTitle">Агульнае медыя</string>
   <string name="LinksTitle">Агульныя спасылкі</string>
   <string name="AudioTitle">Агульная музыка</string>
+  <string name="NoMedia">Дзяліцеся выявамі і відэа ў гэтай размове. Вы будзеце мець доступ да іх з любога вашага ўстройства.</string>
   <string name="NoSharedAudio">Дзяліцеся музыкай у гэтай размове. Вы будзеце мець доступ да яе з любога з вашых устройстваў.</string>
   <string name="NoSharedFiles">Дзяліцеся файламі і дакументамі ў гэтай размове. Вы будзеце мець доступ да іх з любога вашага ўстройства.</string>
   <string name="NoSharedLinks">Дзяліцеся спасылкамі ў гэтай размове. Вы будзеце мець да іх доступ з любога вашага ўстройства.</string>
+  <string name="NoMediaSecret">Выявы і відэазапісы з гэтай размовы будуць адлюстроўвацца тут.</string>
+  <string name="NoSharedAudioSecret">Музыка з гэтай размовы будзе адлюстроўвацца тут.</string>
+  <string name="NoSharedFilesSecret">Файлы і дакументы з гэтай размовы будуць адлюстроўвацца тут.</string>
+  <string name="NoSharedLinksSecret">Спасылкі з гэтай размовы будуць адлюстроўвацца тут.</string>
   <!--map view-->
   <string name="Map">Мапа</string>
   <string name="Satellite">Спадарожнік</string>
@@ -678,6 +775,7 @@
   <string name="ResetMyAccount">СКІНУЦЬ МОЙ УЛІКОВЫ ЗАПІС</string>
   <string name="ResetMyAccountText">Вы страціце ўсе свае размовы і паведамленні, а таксама ўсё медыя і ўсе файлы, якімі дзяліліся, калі працягнеце.</string>
   <string name="ResetMyAccountWarning">Увага</string>
+  <string name="ResetMyAccountWarningText">Гэтае дзеянне немагчыма скасаваць.\n\nКалі вы скінеце свой уліковы запіс, усе вашыя паведамленні і размовы будуць выдаленыя.</string>
   <string name="ResetMyAccountWarningReset">Скінуць</string>
   <string name="LoginPassword">Пароль</string>
   <string name="LoginPasswordText">Вы ўключылі двухкрокавую верыфікацыю, і цяпер ваш уліковы запіс абаронены дадатковым паролем.</string>
@@ -839,6 +937,7 @@
   <string name="AreYouSureRegistration">Вы ўпэўненыя, што жадаеце скасаваць рэгістрацыю?</string>
   <string name="AreYouSureClearHistory">Вы ўпэўненыя, што жадаеце ачысціць гісторыю?</string>
   <string name="AreYouSureClearHistoryChannel">Выдаліць увесь кэшаваны тэкст і медыя з гэтага канала?</string>
+  <string name="AreYouSureClearHistorySuper">Выдаліць увесь кэшаваны тэкст і медыя з гэтай суполкі?</string>
   <string name="AreYouSureDeleteMessages">Вы ўпэўненыя, што жадаеце выдаліць %1$s?</string>
   <string name="SendMessagesToGroup">Адправіць паведамленне да %1$s?</string>
   <string name="SendContactToGroup">Даслаць кантакт да %1$s?</string>
@@ -850,6 +949,9 @@
   <string name="SecretChatContextBotAlert">Звярніце ўвагу, што хуткія боты прадастаўляюцца пабочнымі распрацоўнікамі. Каб бот працаваў, сімвалы, якія вы набіраеце пасля мянушкі бота, дасылаюцца адказнаму распрацоўніку.</string>
   <string name="RaiseToSpeakAlert">Жадаеце ўключыць функцыю \"Паднясі для запісу\"?</string>
   <string name="EditMessageError">Выбачайце, але вы не можаце рэдагаваць гэтае паведамленне.</string>
+  <string name="AllowReadSms">Калі ласка, дазвольце Тэлеграму атрымліваць SMS, каб мы маглі аўтаматычна ўвесці код за вас.</string>
+  <string name="AllowReadCall">Калі ласка, дазвольце Тэлеграму атрымліваць званкі, каб мы маглі аўтаматычна ўвесці код за вас.</string>
+  <string name="AllowReadCallAndSms">Калі ласка, дазвольце Тэлеграму атрымліваць SMS і званкі, каб мы маглі аўтаматычна ўвесці код за вас.</string>
   <!--permissions-->
   <string name="PermissionContacts">Тэлеграму патрэбны доступ да вашых кантактаў, каб вы маглі звязацца з сваімі сябрамі на ўсіх сваіх устройствах.</string>
   <string name="PermissionStorage">Тэлеграму патрэбны доступ да вашага сховішча файлаў, каб вы маглі дасылаць і захоўваць выявы, відэа, музыку і іншыя медыяфайлы.</string>

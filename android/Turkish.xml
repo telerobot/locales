@@ -11,7 +11,6 @@
   <string name="ChooseCountry">Bir ülke seçin</string>
   <string name="WrongCountry">Yanlış ülke kodu</string>
   <!--code enter view-->
-  <string name="YourCode">Kodunuz</string>
   <string name="CallText">Sizi %1$d:%2$02d içinde arayacağız</string>
   <string name="Calling">Sizi arıyoruz...</string>
   <string name="Code">Kod</string>
@@ -562,11 +561,11 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="FingerprintHelp">Dokunma algılayıcı</string>
   <string name="FingerprintNotRecognized">Parmak izi geçerli değil. Tekrar deneyin</string>
   <!--media view-->
-  <string name="NoMedia">Bu sohbette fotoğraf ve video paylaşın ve paylaşımlarınıza tüm cihazlarınızdan erişin.</string>
   <string name="DocumentsTitle">Paylaşılan Medya</string>
   <string name="SharedMediaTitle">Paylaşılan Medya</string>
   <string name="LinksTitle">Paylaşılan Linkler</string>
   <string name="AudioTitle">Müzik Paylaş</string>
+  <string name="NoMedia">Bu sohbette fotoğraf ve video paylaşın ve paylaşımlarınıza tüm cihazlarınızdan erişin.</string>
   <string name="NoSharedAudio">Bu sohbette müzik paylaşın ve paylaşımlarınıza tüm cihazlarınızdan erişin.</string>
   <string name="NoSharedFiles">Bu sohbette dosya ve doküman paylaşın ve paylaşımlarınıza tüm cihazlarınızdan erişin</string>
   <string name="NoSharedLinks">Bu sohbette linkleri paylaşın ve paylaşımlarınıza tüm cihazlarınızdan erişin</string>

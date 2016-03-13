@@ -12,7 +12,6 @@
   <string name="ChooseCountry">Оберіть країну</string>
   <string name="WrongCountry">Неправильний код країни</string>
   <!--code enter view-->
-  <string name="YourCode">Ваш код</string>
   <string name="CallText">Ми зателефонуємо вам через %1$d:%2$02d</string>
   <string name="Calling">Телефонуємо вам...</string>
   <string name="Code">Код</string>
@@ -570,11 +569,11 @@
   <string name="FingerprintHelp">Датчик дотику</string>
   <string name="FingerprintNotRecognized">Відбитки пальців не розпізнані. Спробуйте знову.</string>
   <!--media view-->
-  <string name="NoMedia">Діліться фотографіями й відео в цьому чаті та отримуйте доступ до них на будь-якому з ваших пристроїв.</string>
   <string name="DocumentsTitle">Спільні файли</string>
   <string name="SharedMediaTitle">Спільні медіаресурси</string>
   <string name="LinksTitle">Поширені посилання</string>
   <string name="AudioTitle">Спільна музика</string>
+  <string name="NoMedia">Діліться фотографіями й відео в цьому чаті та отримуйте доступ до них на будь-якому з ваших пристроїв.</string>
   <string name="NoSharedAudio">Діліться музикою в цьому чаті й отримуйте до неї доступ з будь-яких своїх пристроїв.</string>
   <string name="NoSharedFiles">Діліться файлами і документами в цьому чаті і отримаєте доступ до них на будь-якому з ваших пристроїв.</string>
   <string name="NoSharedLinks">Діліться посиланнями в цьому чаті й отримуйте до них доступ з будь-яких своїх пристроїв.</string>

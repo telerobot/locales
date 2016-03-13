@@ -9,7 +9,6 @@
   <string name="ChooseCountry">Ölkəni seçin</string>
   <string name="WrongCountry">Ölkə kodu səhvdir</string>
   <!--code enter view-->
-  <string name="YourCode">Sizin kodunuz</string>
   <string name="Calling">Sizə zəng edilir</string>
   <string name="Code">Kod</string>
   <string name="WrongNumber">Nömrə səhvdir?</string>

@@ -11,7 +11,6 @@
   <string name="ChooseCountry">Vyberte zemi</string>
   <string name="WrongCountry">Neplatná mezinárodní předvolba</string>
   <!--code enter view-->
-  <string name="YourCode">Váš kód</string>
   <string name="CallText">Zavoláme Vám za %1$d:%2$02d</string>
   <string name="Calling">Voláme Vám...</string>
   <string name="Code">Kód</string>
@@ -545,11 +544,11 @@
   <string name="FingerprintHelp">Dotykový senzor</string>
   <string name="FingerprintNotRecognized">Otisk prstu nebyl rozpoznán. Zkuste to znovu</string>
   <!--media view-->
-  <string name="NoMedia">Sdílejte fotky a videa v této konverzaci a přistupujte k nim ze kteréhokoliv Vašeho zařízení.</string>
   <string name="DocumentsTitle">Sdílené Soubory</string>
   <string name="SharedMediaTitle">Sdílené média</string>
   <string name="LinksTitle">Sdílené Odkazy</string>
   <string name="AudioTitle">Sdílená Hudba</string>
+  <string name="NoMedia">Sdílejte fotky a videa v této konverzaci a přistupujte k nim ze kteréhokoliv Vašeho zařízení.</string>
   <string name="NoSharedAudio">Podělte se o hudbu v tomto chatu a přistupujte k ni z kteréhokoliv vašeho zařízení.</string>
   <string name="NoSharedFiles">Sdílejte soubory a dokumenty v teto konverzaci a přistupujte k nim ze kteréhokoliv Vašeho zařízenía.</string>
   <string name="NoSharedLinks">Sdílet odkazy v tomto chatu a přistupovat k nim na kterémkoli ze svých zařízení.</string>
