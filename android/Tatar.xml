@@ -12,8 +12,13 @@
   <string name="ChooseCountry">Илне сайлагыз</string>
   <string name="WrongCountry">Ил коды дөрес түгел</string>
   <!--code enter view-->
+  <string name="YourCode">Кодыгыз</string>
   <string name="SentSmsCode">Без <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> номерына активлаштыру өчен код белән SMS җибәрдек.</string>
+  <string name="SentAppCode">Без бүтән җайланмагыздагы <![CDATA[<b>]]>Telegramга<![CDATA[</b>]]> код җибәрдек.</string>
+  <string name="SentCallCode">Без хәзер <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> номерына активлаштыру шалтыратуы ясарбыз.\n\nТрубканы алу кирәкми: Telegram бөтенесен үзе эшлиячәк.</string>
+  <string name="SentCallOnly">Без хәзер сезнең <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> номерына шалтыратырбыз һәм кодыгызны әйтербез.</string>
   <string name="CallText">%1$d:%2$02d вакыттан соң без сезгә шалтыратырбыз</string>
+  <string name="SmsText">SMS %1$d:%2$02d үткәч җибәреләчәк</string>
   <string name="Calling">Сезгә шалтыратабыз...</string>
   <string name="Code">Код</string>
   <string name="WrongNumber">Дөрес булмаган номер?</string>
@@ -65,6 +70,10 @@
   <string name="Recent">Күптән түгел</string>
   <string name="LinkPreview">Сылтамаларны алдан карау</string>
   <!--channels-->
+  <string name="GroupType">Төркем төре</string>
+  <string name="ChannelType">Канал төре</string>
+  <string name="ChannelTypePublic">Ачык</string>
+  <string name="ChannelTypePrivate">Шәхси</string>
   <string name="SetAsAdmin">Администраторга тәкъдим итү</string>
   <string name="DescriptionInfoMega">Төркемегезгә өстәмә тасвирлама калдыра аласыз. </string>
   <string name="LeaveMega">Төркемнән чыгу</string>
@@ -80,7 +89,19 @@
   <string name="GroupUserCantAdd">Гафу итегез, сез бу кулланучыны төркемнәргә өсти алмыйсыз.</string>
   <string name="GroupUserAddLimit">Гафу итегез, бу төркем тулы.</string>
   <string name="GroupUserLeftError">Гафу итегез, бу кулланучы бу төркемнән чыгарга булды һәм шуңа күрә сез аны яңадан чакыра алмыйсыз.</string>
+  <string name="GroupUserCantAdmin">Гафу итегез, тагын администраторлар өстәп булмый.</string>
   <string name="GroupUserCantBot">Гафу итегез, бу төркемдә ботлар бик күп.</string>
+  <string name="ActionPinnedText">un1 \"%1$s\" беркетте</string>
+  <string name="ActionPinnedNoText">un1 хат беркетте</string>
+  <string name="ActionPinnedPhoto">un1 фото беркетте</string>
+  <string name="ActionPinnedVideo">un1 видео беркетте</string>
+  <string name="ActionPinnedFile">un1 файл беркетте</string>
+  <string name="ActionPinnedSticker">un1 стикер беркетте</string>
+  <string name="ActionPinnedVoice">un1 тавышлы хат беркетте</string>
+  <string name="ActionPinnedContact">un1 контакт беркетте</string>
+  <string name="ActionPinnedGeo">un1 карта беркетте</string>
+  <string name="ActionPinnedGif">un1 GIF беркетте</string>
+  <string name="ActionPinnedMusic">un1 трек беркетте</string>
   <string name="ActionMigrateFromGroup">Бу төркем супертөркемгә әйләндерелде</string>
   <string name="ActionMigrateFromGroupNotify">%1$s супертөркемгә әйләндерелде</string>
   <string name="NoBlockedGroup">Бикләнгән кулланучылар төркемнән чыгарылдылар һәм администратор чакыруы буенча гына кире кайта алачаклар. Чакыручы сылтамалар алар өчен эшләмиләр.</string>
@@ -90,14 +111,21 @@
   <string name="CommentsInfo">Әгәр сез аңлатмаларны кабызсагыз, кешеләр каналыгыздагы язмаларга фикер калдыра алачаклар.</string>
   <string name="AddMutual">Каналыгызга контактлар өстәү</string>
   <string name="ChannelUsernameHelp">Кешеләр бу сылтама белән бүлешә алачаклар һәм каналыгызны эзләүдә таба алачаклар.</string>
+  <string name="MegaUsernameHelp">Кулланучылар бу сылтама белән бүлешә һәм каналыгызны эзләүдән таба алалар.</string>
   <string name="ChannelUsernamePlaceholder">сылтама</string>
   <string name="ChannelPrivateLinkHelp">Бу сылтама аша кешеләр каналыгызга кушыла алачаклар. Бу сылтаманы сез теләгән вакытта бетерә аласыз.</string>
+  <string name="MegaPrivateLinkHelp">Кулланучылар төркемегезгә бу сылтама аша күчеп кушыла алалар. Сылтаманы теләгән вакытта бетерә аласыз.</string>
+  <string name="DescriptionOptionalPlaceholder">Тасвирлама (мәҗбүри түгел)</string>
   <string name="DescriptionPlaceholder">Тасвирлама</string>
   <string name="DescriptionInfo">Каналыгыз турында өстәмә тасвирлама калдыра аласыз.</string>
   <string name="ChannelPublic">Ачык канал</string>
-  <string name="ChannelPublicInfo">Ачык каналларны эзләүдә табып була һәм аларга һәркем өстәлә ала.</string>
+  <string name="MegaPublic">Ачык төркем</string>
+  <string name="ChannelPublicInfo">Ачык каналларны эзләүдә табып була һәм аларга һәркем кушыла ала.</string>
+  <string name="MegaPublicInfo">Ачык төркемнәр эзләүдә күренәләр һәм аларга һәркем кушыла ала.</string>
   <string name="ChannelPrivate">Шәхси канал</string>
+  <string name="MegaPrivate">Шәхси төркем</string>
   <string name="ChannelPrivateInfo">Шәхси каналларга чакыручы сылтамалар аша гына язылып була.</string>
+  <string name="MegaPrivateInfo">Шәхси төркемгә сылтама аша гына кушылып була.</string>
   <string name="ChannelLinkTitle">Сылтама</string>
   <string name="ChannelInviteLinkTitle">Чакыручы сылтама</string>
   <string name="ChannelAddMembers">Катнашучылар өстәү</string>
@@ -107,6 +135,7 @@
   <string name="ChannelJoin">Кушылу</string>
   <string name="OpenChannelProfile">Канал турында</string>
   <string name="ChannelBroadcast">Трансляцияләү</string>
+  <string name="ChannelSilentBroadcast">Тыныч режим</string>
   <string name="ChannelComment">Аңлатма язу</string>
   <string name="ShowDiscussion">аңлатмаларны күрсәтү</string>
   <string name="ChannelAlertTitle">Канал нәрсә ул?</string>
@@ -117,6 +146,8 @@
   <string name="LinkInvalidShort">Канал исемендә минимум 5 билге булырга тиеш.</string>
   <string name="LinkInvalidLong">Исем 32 билгедән артык булмаска тиеш.</string>
   <string name="LinkInvalidStartNumber">Канал исеме саннан башлана алмый.</string>
+  <string name="LinkInvalidShortMega">Төркем исемендә кәмендә 5 билге булырга тиеш.</string>
+  <string name="LinkInvalidStartNumberMega">Төркем исеме саннан башлана алмый.</string>
   <string name="LinkChecking">Исемне тикшерү...</string>
   <string name="LinkAvailable">%1$s мөмкин.</string>
   <string name="ChannelMembers">Катнашучылар</string>
@@ -128,6 +159,7 @@
   <string name="ChannelLeaveAlert">Каналдан чыгарга телисезме?</string>
   <string name="ChannelDeleteInfo">Бу каналдагы бөтен хатлар бетереләчәкләр.</string>
   <string name="ChannelEdit">Үзгәртү</string>
+  <string name="MegaWasPrivateAlert">Зинһар, игътибар итегез: әгәр сез төркемегезгә ачык сылтама эшләсәгез, аны һәркем эзләүдә таба алачак һәм аңа кушыла алачак.\n\Төркемегезнең шәхси булуын теләсәгез, бу сылтаманы эшләмәгез.</string>
   <string name="ChannelWasPrivateAlert">Зинһар, игътибар итегез: әгәр сез каналыгызга ачык сылтама эшләсәгез, һәркем аны эзләү аша таба алачак һәм аңа кушыла алачак.\n\nКаналыгызның шәхси булуын теләсәгез, бу сылтаманы эшләмәгез.</string>
   <string name="ChannelPublicEmptyUsername">Ачык каналыгызны кешеләр эзләү аша тапсын һәм бүлешсен өчен аңа сылтама сайлагыз.\n\nӘгәр моны теләмәсәгез, шәхси канал ясарга киңәш итәбез.</string>
   <string name="ActionCreateChannel">Канал ясалды</string>
@@ -135,6 +167,7 @@
   <string name="ActionChannelRemovedPhoto">Канал фотосы бетерелде</string>
   <string name="ActionChannelChangedTitle">Канал исеме un2 үзгәртелде</string>
   <string name="ChannelPublicLimitReached">Гафу итегез, сез бик күп ачык каналлар ясадыгыз. Сез булган каналны бетерә аласыз яисә шәхси канал ясый аласыз.</string>
+  <string name="ChangePublicLimitReached">Гафу итегез, сез бик күп ачык сылтамалар ясадыгыз. Сез булган каналларны һәм төркемнәрне бетерергә мөмкинсез яисә аларны шәхси ясый аласыз.</string>
   <string name="ChannelModerator">Модератор</string>
   <string name="ChannelCreator">Ясаучы</string>
   <string name="ChannelEditor">Администратор</string>
@@ -150,6 +183,8 @@
   <string name="ChannelAdminsInfo">Сез канал белән идарә итүдә ярдәм өчен администраторлар өсти аласыз. Администраторларны бетерү өчен басыгыз һәм тотып торыгыз.</string>
   <string name="ChannelJoinTo">\'%1$s\' каналына кушыласызмы?</string>
   <string name="ChannelCantOpenPrivate">Гафу итегез, бу чат мөмкин түгел.</string>
+  <string name="ChannelCantOpenBanned">Кызганычка каршы, сезгә ачык төркемнәрдә катнашу ябылган.</string>
+  <string name="ChannelCantOpenNa">Гафу итегез, бу чат хәзер мөмкин түгел.</string>
   <string name="ChannelAddTo">%1$s каналга өстәргәме?</string>
   <string name="ChannelUserLeftError">Гафу итегез,  бу кулланучы бу каналдан чыгарга булды һәм шуңа күрә сез аны яңадан чакыра алмыйсыз.</string>
   <string name="ChannelUserCantAdd">Гафу итегез, бу кулланучыны сез каналларга өсти алмыйсыз.</string>
@@ -157,7 +192,8 @@
   <string name="ChannelUserCantBot">Гафу итегез, бу каналда ботлар бик күп.</string>
   <string name="ChannelUserAddLimit">Гафу итегез, сез беренче 200 кулланучыны гына каналга өсти аласыз. Игътибар итегез, чиксез санлы кулланучылар канал сылтамасы аша кушыла алалар.</string>
   <string name="ChannelAddedBy">un1 сезне бу каналга өстәде</string>
-  <string name="ChannelJoined">Сез бу каналга кушылдыгыз</string>
+  <string name="ChannelJoined">Сез каналга кушылдыгыз</string>
+  <string name="ChannelMegaJoined">Сез төркемгә кердегез</string>
   <string name="ChannelRemoveUser">Каналдан бетерү</string>
   <string name="ChannelCantSendMessage">Гафу итегез, сез бу каналга хатлар яза алмыйсыз.</string>
   <string name="ChannelAddedByNotification">%1$s сезне %2$s каналына өстәде</string>
@@ -170,6 +206,7 @@
   <string name="ChannelMessageGroupDocument">%1$s %2$s каналында файл калдырды</string>
   <string name="ChannelMessageGroupGif">%1$s %2$s каналында GIF калдырды</string>
   <string name="ChannelMessageGroupAudio">%1$s %2$s каналында тавышлы хат калдырды</string>
+  <string name="ChannelMessageGroupMusic">%1$s %2$s каналында трек калдырды</string>
   <string name="ChannelMessageGroupSticker">%1$s %2$s каналында стикер калдырды</string>
   <string name="ChannelMessageNoText">%1$s хат язды</string>
   <string name="ChannelMessagePhoto">%1$s фото җибәрде</string>
@@ -179,6 +216,7 @@
   <string name="ChannelMessageDocument">%1$s файл җибәрде</string>
   <string name="ChannelMessageGIF">%1$s GIF калдырды</string>
   <string name="ChannelMessageAudio">%1$s аудиоязма җибәрде</string>
+  <string name="ChannelMessageMusic">%1$s трек калдырды</string>
   <string name="ChannelMessageSticker">%1$s стикер җибәрде</string>
   <string name="WhoCanAddMembers">Яңа кулланучыларны кем өсти ала?</string>
   <string name="WhoCanAddMembersAllMembers">Бөтен катнашучылар</string>
@@ -268,15 +306,33 @@
   <string name="SendItems">%1$s җибәрү </string>
   <string name="OpenUrlAlert">Сылтамыны %1$s ачаргамы?</string>
   <string name="ReportSpam">СПАМ ТУРЫНДА БЕЛДЕРҮ</string>
+  <string name="ReportSpamAndLeave">СПАМГА ЗАРЛАНУ ҺӘМ ЧЫГУ</string>
   <string name="AddContactChat">КОНТАКТ ӨСТӘҮ</string>
   <string name="ReportSpamAlert">Бу кулланучыдан спам килү турында белгертергә телисезме?</string>
   <string name="ReportSpamAlertGroup">Бу төркемнән спам килү турында белгертергә телисезме?</string>
+  <string name="ReportSpamAlertChannel">Бу каналдан спам килү турында хәбәр итәргә телисезме?</string>
   <string name="NobodyLikesSpam1">Гафу итегез, әлеге вакытта сез үзара контактларга гына хатлар җибәрә аласыз.</string>
   <string name="NobodyLikesSpam2">Гафу итегез, әлеге вакытта сез үзара контактларны гына төркемнәргә өсти аласыз.</string>
   <string name="NobodyLikesSpamUrl">https://tlgrm.ru/faq/pochemu-ne-otpravit-soobshenie.html</string>
   <string name="MoreInfo">Тулырак</string>
   <string name="ShareSendTo">Җибәрү...</string>
   <string name="TapHereGifs">Сакланган GIFларны карар өчен басыгыз</string>
+  <string name="PinMessage">Беркетү</string>
+  <string name="PinNotify">Бөтен катнашучыларны белгертү</string>
+  <string name="UnpinMessage">Беркеткәннән алу</string>
+  <string name="PinMessageAlert">Бу төркемгә бу хатны беркетергәме?</string>
+  <string name="UnpinMessageAlert">Бу хатны беркетүне кире кагасызмы?</string>
+  <string name="DeleteBanUser">Кулланучыны чикләү</string>
+  <string name="DeleteReportSpam">Спам турында хәбәр итү</string>
+  <string name="DeleteAllFrom">%1$s булган бөтен хатларны бетерү</string>
+  <string name="ClearRecentEmoji">Күптән түгелге смайллар исемлеген бетерергәме?</string>
+  <string name="ReportChat">Хәбәр итү</string>
+  <string name="ReportChatSpam">Спам</string>
+  <string name="ReportChatViolence">Көчләү</string>
+  <string name="ReportChatPornography">Порнография</string>
+  <string name="ReportChatOther">Бүтән</string>
+  <string name="ReportChatDescription">Тасвирлама</string>
+  <string name="PinnedMessage">Беркетелгән хат</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s үз-үзен бетерү вакытын куйды: %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Үз-үзен бетерү вакыты: %1$s</string>
@@ -292,6 +348,7 @@
   <string name="NotificationMessageDocument">%1$s сезгә файл җибәрде</string>
   <string name="NotificationMessageGif">%1$s сезгә GIF җибәрде</string>
   <string name="NotificationMessageAudio">%1$s сезгә тавышлы хат җибәрде</string>
+  <string name="NotificationMessageMusic">%1$s сезгә трек җибәрде</string>
   <string name="NotificationMessageSticker">%1$s сезгә стикер җибәрде</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s %2$s төркеменә хат җибәрде</string>
@@ -302,12 +359,14 @@
   <string name="NotificationMessageGroupDocument">%1$s %2$s төркеменә файл җибәрде</string>
   <string name="NotificationMessageGroupGif">%1$s %2$s төркеменә GIF җибәрде</string>
   <string name="NotificationMessageGroupAudio">%1$s %2$s төркеменә тавышлы хат җибәрде</string>
+  <string name="NotificationMessageGroupMusic">%1$s %2$s төркеменә трек җибәрде</string>
   <string name="NotificationMessageGroupSticker">%1$s %2$s төркеменә стикер җибәрде</string>
   <string name="NotificationInvitedToGroup">%1$s сезне %2$s төркеменә чакырды</string>
   <string name="NotificationEditedGroupName">%1$s %2$s төркеменең исемен үзгәртте</string>
   <string name="NotificationEditedGroupPhoto">%1$s %2$s төркеменең фотосын үзгәртте</string>
   <string name="NotificationGroupAddMember">%1$s %3$s кулланучысын %2$s төркеменә чакырды</string>
   <string name="NotificationGroupAddSelf">%1$s кулланучысы %2$s төркеменә кайтты</string>
+  <string name="NotificationGroupAddSelfMega">%1$s %2$s төркеменә кушылды</string>
   <string name="NotificationGroupKickMember">%1$s %3$s кулланучысын %2$s төркеменнән чыгарды</string>
   <string name="NotificationGroupKickYou">%1$s сезне %2$s төркеменнән чыгарды</string>
   <string name="NotificationGroupLeftMember">%1$s %2$s төркеменнән чыкты</string>
@@ -327,6 +386,28 @@
   <string name="ReplyToGroup">%1$s төркеменә җавап бирү</string>
   <string name="ReplyToUser">%1$s кулланучысына җавап бирү</string>
   <string name="NotificationMessagesPeopleDisplayOrder">%1$s %2$s</string>
+  <string name="NotificationActionPinnedText">%1$s \"%2$s\" %3$s төркеменә беркетте</string>
+  <string name="NotificationActionPinnedNoText">%1$s %2$s төркеменә хат беркетте</string>
+  <string name="NotificationActionPinnedPhoto">%1$s %2$s төркеменә фото беркетте</string>
+  <string name="NotificationActionPinnedVideo">%1$s %2$s төркеменә видео беркетте</string>
+  <string name="NotificationActionPinnedFile">%1$s %2$s төркеменә файл беркетте</string>
+  <string name="NotificationActionPinnedSticker">%1$s %2$s төркеменә стикер беркетте</string>
+  <string name="NotificationActionPinnedVoice">%1$s %2$s төркеменә тавышлы хат беркетте</string>
+  <string name="NotificationActionPinnedContact">%1$s %2$s төркеменә контакт беркетте</string>
+  <string name="NotificationActionPinnedGeo">%1$s %2$s төркеменә карта беркетте</string>
+  <string name="NotificationActionPinnedGif">%1$s %2$s төркеменә GIF беркетте</string>
+  <string name="NotificationActionPinnedMusic">%1$s %2$s төркеменә трек беркетте</string>
+  <string name="NotificationActionPinnedTextChannel">%1$s \"%2$s\" беркетте</string>
+  <string name="NotificationActionPinnedNoTextChannel">%1$s хат беркетте</string>
+  <string name="NotificationActionPinnedPhotoChannel">%1$s фото беркетте</string>
+  <string name="NotificationActionPinnedVideoChannel">%1$s видео беркетте</string>
+  <string name="NotificationActionPinnedFileChannel">%1$s файл беркетте</string>
+  <string name="NotificationActionPinnedStickerChannel">%1$s стикер беркетте</string>
+  <string name="NotificationActionPinnedVoiceChannel">%1$s тавышлы хат беркетте</string>
+  <string name="NotificationActionPinnedContactChannel">%1$s контакт беркетте</string>
+  <string name="NotificationActionPinnedGeoChannel">%1$s карта беркетте</string>
+  <string name="NotificationActionPinnedGifChannel">%1$s GIF беркетте</string>
+  <string name="NotificationActionPinnedMusicChannel">%1$s трек беркетте</string>
   <!--contacts view-->
   <string name="SelectContact">Контакт сайлагыз</string>
   <string name="NoContacts">Контактлар әлегә юк</string>
@@ -376,6 +457,14 @@
   <string name="DeleteAndExit">Төркемне бетерү һәм чыгу</string>
   <string name="Notifications">Белгертүләр</string>
   <string name="KickFromGroup">Төркемнән чыгу</string>
+  <string name="UpgradeGroup">Супертөркемгә әйләндерелде</string>
+  <string name="ConvertGroup">Супертөркемгә үзгәртелде</string>
+  <string name="ConvertGroupMenu">Супертөркемгә үзгәртелде</string>
+  <string name="ConvertGroupAlertWarning">Кисәтү</string>
+  <string name="ConvertGroupAlert">Супертөркемне гади төркемгә әйләндереп булмый.</string>
+  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Катнашучылар саны тулды.<![CDATA[</b>]]>\n\nТагын өстәр өчен бу төркемне супертөркемгә әйләндерегез:\n\n• Супертөркемнәрдә %1$s тиклем катнашучы була ала\n• Яңа катнашучыларга бөтен тарих күренәчәк\n• Бетерелгән хатлар бөтенесендә дә бетерелә\n• Яңа хатларны үзгәртү мөмкинлеге\n• Ясаучы чакыру сылтамасын эшли ала</string>
+  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>Супертөркемнәрдә:<![CDATA[</b>]]>\n\n• Яңа катнашучыларга бөтен тарих күренәчәк\n• Бетерелгән хатлар бөтенесендә дә бетерелә\n• Хатларыгызны үзгәртү мөмкинлеге\n• Ясаучы чакыру сылтамасын эшли ала</string>
+  <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Игътибар:<![CDATA[</b>]]> бу гамәлне кире кагып булмаячак.</string>
   <!--contact info view-->
   <string name="ShareContact">Бүлешү</string>
   <string name="AddContact">Өстәү</string>
@@ -465,6 +554,8 @@
   <string name="AskButton">Волонтердан сорау</string>
   <string name="TelegramFaq">Telegram FAQ</string>
   <string name="TelegramFaqUrl">https://tlgrm.ru/faq</string>
+  <string name="PrivacyPolicy">Конфиденциальлек сәясәте</string>
+  <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
   <string name="DeleteLocalization">Локализацияне бетерү</string>
   <string name="IncorrectLocalization">Локализациянең дөрес булмаган файлы</string>
   <string name="Enabled">Кабынган</string>
@@ -527,6 +618,10 @@
   <string name="SmartNotificationsMinutes">минутлар</string>
   <string name="SecretWebPage">Сылтамаларны алдан карау</string>
   <string name="SecretChat">Яшерен чатлар</string>
+  <string name="ChromeCustomTabs">Үзендәге браузер</string>
+  <string name="ChromeCustomTabsInfo">Бу кушымтада сылтамаларны ачу</string>
+  <string name="DirectShare">Direct Share</string>
+  <string name="DirectShareInfo">Күптән түгелге чатларны \"Бүлешү\" бүлегендә күрсәтү</string>
   <!--cache view-->
   <string name="CacheSettings">Кэш көйләүләре</string>
   <string name="LocalDatabase">Локаль мәгълүмат базасы</string>
@@ -588,6 +683,10 @@
   <string name="NoSharedAudio">Бу чатта музыка белән бүлешегез һәм барлык җайланмаларыгызда да аның белән эш итә алачаксыз.</string>
   <string name="NoSharedFiles">Бу чатта файллар һәм документлар белән бүлешегез һәм алар бөтен җайланмаларыгызда да күрсәтеләчәкләр.</string>
   <string name="NoSharedLinks">Бу чатта сылтамаларыгыз белән бүлешегез һәм сез аларны бөтен җайланмаларыгызда күрә алачаксыз.</string>
+  <string name="NoMediaSecret">Бу чаттагы фото һәм видео монда күрсәтеләчәкләр.</string>
+  <string name="NoSharedAudioSecret">Бу чаттагы музыка монда күрсәтеләчәк.</string>
+  <string name="NoSharedFilesSecret">Бу чаттагы файллар һәм документлар монда күрсәтеләчәкләр.</string>
+  <string name="NoSharedLinksSecret">Бу чаттагы уртак сылтамалар монда күрсәтеләчәкләр.</string>
   <!--map view-->
   <string name="Map">Карта</string>
   <string name="Satellite">Спутник</string>
@@ -698,6 +797,7 @@
   <string name="ResetMyAccount">АККАУНТНЫ ТАШЛАУ</string>
   <string name="ResetMyAccountText">Хатлар тарихы һәм чатлар бетереләчәк. Дәвам итәргәме?</string>
   <string name="ResetMyAccountWarning">Игътибар</string>
+  <string name="ResetMyAccountWarningText">Аккаунтны ташлаганда бөтен хатлар һәм чатлар бөтенләйгә бетереләчәкләр.</string>
   <string name="ResetMyAccountWarningReset">Ташлау</string>
   <string name="LoginPassword">Пароль</string>
   <string name="LoginPasswordText">Сез ике адымлы авторизация куйдыгыз: хәзер аккаунтыгыз өстәмә пароль белән сакланган.</string>
@@ -748,8 +848,8 @@
   <string name="NeverAllowPlaceholder">Беркайчан да рөхсәт итмәскә...</string>
   <string name="CustomShareInfo">Бу кулланучылар сезне, алдагы көйләүләргә карамастан, төркемнәргә һәм каналларга өсти алачаклар/алмаячаклар.</string>
   <string name="GroupsAndChannelsHelp">Кем сезне төркемнәргә һәм каналларга өсти алганын күрсәтегез.</string>
-  <string name="InviteToGroupError">Гафу итегез, бу кулланучы үзен төркемнәргә өстәүне тыйды.</string>
-  <string name="InviteToChannelError">Гафу итегез, бу кулланучы үзен каналларга өстәүне тыйды.</string>
+  <string name="InviteToGroupError">Гафу итегез, бу кулланучы үзен төркемнәргә кушуны тыйды.</string>
+  <string name="InviteToChannelError">Гафу итегез, бу кулланучы үзен каналларга кушуны тыйды.</string>
   <string name="CreateGroupError">Гафу итегез, бу кулланучылар үзләре катнашлыгында төркем төзүне тыйдылар.</string>
   <!--edit video view-->
   <string name="EditVideo">Видеоны үзгәртү</string>
@@ -813,6 +913,7 @@
   <string name="ActionKickUserYou">un1 сезне чыгарды</string>
   <string name="ActionAddUserYou">un1 сезне өстәде</string>
   <string name="ActionAddUserSelf">un1 төркемгә кайтты</string>
+  <string name="ActionAddUserSelfMega">un1 төркемгә кушылды</string>
   <string name="ActionAddUserSelfYou">Сез төркемгә кайттыгыз</string>
   <string name="UnsupportedMedia">Бу хат сезнең Telegram юрамасында укылмый. Карар өчен кушымтаны яңартыгыз: https://telegram.org/update</string>
   <string name="AttachPhoto">Фото</string>
@@ -859,6 +960,7 @@
   <string name="AreYouSureRegistration">Теркәлүне туктатырга телисезме?</string>
   <string name="AreYouSureClearHistory">Тарихны бетерергә телисезме?</string>
   <string name="AreYouSureClearHistoryChannel">Бу каналдан кэшланган бөтен хатларны һәм файлларны бетерергәме?</string>
+  <string name="AreYouSureClearHistorySuper">Бу төркемнән бөтен кэшланган хатларны һәм файлларны бетерергәме?</string>
   <string name="AreYouSureDeleteMessages">%1$s бетерергә телисезме?</string>
   <string name="SendMessagesToGroup">%1$s хат җибәрү?</string>
   <string name="SendContactToGroup">Контактны %1$s җибәрергәме?</string>
@@ -870,6 +972,9 @@
   <string name="SecretChatContextBotAlert">Игътибар, эчендәге ботларны башка ясаучылар эшли. Бот исеменнән соң язылган бөтен текст шушы ясаучылар серверларына җибәрелә.</string>
   <string name="RaiseToSpeakAlert">Тавышлы хатлар өчен \"Яздырганда якынрак китерегез\" функциясен кабызыргамы?</string>
   <string name="EditMessageError">Гафу итегез, сез бу хатны үзгәртә алмыйсыз.</string>
+  <string name="AllowReadSms">Telegramга SMS белән эш итүне рөхсәт итсәгез, кодыгыз үзе кертеләчәк.</string>
+  <string name="AllowReadCall">Telegramга килүче шалтыратулар белән эш итүне рөхсәт итсәгез, кодыгыз үзе кертеләчәк.</string>
+  <string name="AllowReadCallAndSms">Telegramга килүче шалтыратулар һәм SMS белән эш итүне рөхсәт итсәгез, кодыгыз үзе кертеләчәк.</string>
   <!--permissions-->
   <string name="PermissionContacts">Дусларыгыз белән төрле җайланмалар аша элемтәдә калу өчен Telegramга контактларыгызны күрү мөмкинчелеге кирәк.</string>
   <string name="PermissionStorage">Фото, видео, һәм башка медиа файлларны җибәрү һәм саклау өчен Telegramга файллар саклау урыныгызга керү мөмкинчелеге кирәк.</string>

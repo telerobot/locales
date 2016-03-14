@@ -151,7 +151,6 @@
   <string name="ChannelUserCantBot">Litujeme, v této skupině je příliš mnoho robotů.</string>
   <string name="ChannelUserAddLimit">Litujeme, můžete přidat pouze prvních 200 členů do kanálu. Všimněte si, že je neomezený počet lidí, kteří se mohou pokusit připojit pomocí odkazu kanálu.</string>
   <string name="ChannelAddedBy">un1 vás přidal do tohoto kanálu</string>
-  <string name="ChannelJoined">Připojili jste se ke kanálu</string>
   <string name="ChannelRemoveUser">Vyjmout z kanálu</string>
   <string name="ChannelCantSendMessage">Litujeme, nemůžete posílat zprávy do tohoto kanálu.</string>
   <string name="ChannelAddedByNotification">%1$s vás přidal do kanálu %2$s</string>

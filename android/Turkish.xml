@@ -153,7 +153,6 @@
   <string name="ChannelUserCantBot">Üzgünüz, bu kanala daha fazla bot eklenemez.</string>
   <string name="ChannelUserAddLimit">Sorry, you can only add the first 200 members to a channel. Note that an unlimited number of people may join via the channel\'s link.</string>
   <string name="ChannelAddedBy">un1 seni bu kanala ekledi</string>
-  <string name="ChannelJoined">Kanala katıldınız</string>
   <string name="ChannelRemoveUser">Kanaldan kaldır</string>
   <string name="ChannelCantSendMessage">Üzgünüm, kanala yeni bir mesaj gönderemezsiniz.</string>
   <string name="ChannelAddedByNotification">%1$s, seni %2$s kanalına ekledi</string>

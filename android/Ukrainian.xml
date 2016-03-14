@@ -12,7 +12,13 @@
   <string name="ChooseCountry">Оберіть країну</string>
   <string name="WrongCountry">Неправильний код країни</string>
   <!--code enter view-->
+  <string name="YourCode">Підтвердження телефона</string>
+  <string name="SentSmsCode">Ми надіслали SMS з кодом активації на ваш телефон <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
+  <string name="SentAppCode">Ми надіслали код в <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> на вашому іншому пристрої.</string>
+  <string name="SentCallCode">Ми надіслали виклик активації на ваш телефон <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nНе приймайте його, Telegram все зробить автоматично.</string>
+  <string name="SentCallOnly">Ми телефонуємо вам, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> щоб продиктувати код.</string>
   <string name="CallText">Ми зателефонуємо вам через %1$d:%2$02d</string>
+  <string name="SmsText">Ми надішлемо вам SMS через %1$d:%2$02d</string>
   <string name="Calling">Телефонуємо вам...</string>
   <string name="Code">Код</string>
   <string name="WrongNumber">Неправильний номер?</string>
@@ -62,6 +68,10 @@
   <string name="Recent">НЕЩОДАВНЄ</string>
   <string name="LinkPreview">Попередній перегляд посилання</string>
   <!--channels-->
+  <string name="GroupType">Тип групи</string>
+  <string name="ChannelType">Тип каналу</string>
+  <string name="ChannelTypePublic">Публічний</string>
+  <string name="ChannelTypePrivate">Приватний</string>
   <string name="SetAsAdmin">Підняти до адміна</string>
   <string name="DescriptionInfoMega">Ви можете дати необов\'язковий опис для своєї групи.</string>
   <string name="LeaveMega">Покинути групу</string>
@@ -77,7 +87,19 @@
   <string name="GroupUserCantAdd">Вибачте, ви не можете додати цього користувача до груп.</string>
   <string name="GroupUserAddLimit">Шкода, але ця група заповнена.</string>
   <string name="GroupUserLeftError">На жаль, цей користувач вирішив покинути цю групу, тому ви не можете запросити його знову тут.</string>
+  <string name="GroupUserCantAdmin">Вибачте, але в цій групі забагато адміністраторів.</string>
   <string name="GroupUserCantBot">Вибачте, в цій групі забагато ботів.</string>
+  <string name="ActionPinnedText">un1 прикріпив/ла \"%1$s\"</string>
+  <string name="ActionPinnedNoText">un1 прикріпив/ла повідомлення</string>
+  <string name="ActionPinnedPhoto">un1 прикріпив/ла фотографію</string>
+  <string name="ActionPinnedVideo">un1 прикріпив/ла відео</string>
+  <string name="ActionPinnedFile">un1 прикріпив/ла файл</string>
+  <string name="ActionPinnedSticker">un1 прикріпив/ла наліпку</string>
+  <string name="ActionPinnedVoice">un1 прикріпив/ла голосове повідомлення</string>
+  <string name="ActionPinnedContact">un1 прикріпив/ла контакт</string>
+  <string name="ActionPinnedGeo">un1 прикріпив/ла карту</string>
+  <string name="ActionPinnedGif">un1 прикріпив/ла GIF</string>
+  <string name="ActionPinnedMusic">un1 прикріпив/ла композицію</string>
   <string name="ActionMigrateFromGroup">Ця група була оновлена до супергрупи</string>
   <string name="ActionMigrateFromGroupNotify">%1$s була оновлена до супергрупи</string>
   <string name="NoBlockedGroup">Заблоковані користувачі вилучаються з групи і можуть повернутися лише за запрошенням адміністратора. Посилання для запрошення для них не працюють.</string>
@@ -87,14 +109,21 @@
   <string name="CommentsInfo">Якщо ви увімкнете коментарі, люди зможуть обговорювати ваші дописи на каналі.</string>
   <string name="AddMutual">Додати контакти до свого каналу</string>
   <string name="ChannelUsernameHelp">Люди можуть ділитися цим посиланням і знаходити ваш канал через пошук в Telegram.</string>
+  <string name="MegaUsernameHelp">Люди можуть ділитися цим посиланням з іншими та знаходити вашу групу через пошук Telegram.</string>
   <string name="ChannelUsernamePlaceholder">посилання</string>
   <string name="ChannelPrivateLinkHelp">Люди можуть приєднуватись до вашого каналу, перейшовши за цим посиланням. Ви можете відкликати це посилання будь-коли.</string>
+  <string name="MegaPrivateLinkHelp">Люди можуть приєднуватись до вашої групи за цим посиланням. Ви можете відкликати посилання в будь-який час.</string>
+  <string name="DescriptionOptionalPlaceholder">Опис (необов\'язково)</string>
   <string name="DescriptionPlaceholder">Опис</string>
   <string name="DescriptionInfo">Ви можете додати необов\'язковий опис для свого каналу.</string>
   <string name="ChannelPublic">Публічний канал</string>
+  <string name="MegaPublic">Публічна група</string>
   <string name="ChannelPublicInfo">Публічні канали можна знайти через пошук, будь-хто може приєднатися до них.</string>
+  <string name="MegaPublicInfo">Публічні групи можна знаходити через пошук, історія чату доступна кожному і будь-хто може приєднатися.</string>
   <string name="ChannelPrivate">Приватний канал</string>
+  <string name="MegaPrivate">Приватна група</string>
   <string name="ChannelPrivateInfo">Приєднатися до приватних каналів можна лише за посиланням.</string>
+  <string name="MegaPrivateInfo">До приватних груп можна приєднатися лише за особистим запрошенням, або за запрошувальним посиланням.</string>
   <string name="ChannelLinkTitle">Посилання</string>
   <string name="ChannelInviteLinkTitle">Посилання запрошення</string>
   <string name="ChannelAddMembers">Додати учасників</string>
@@ -104,6 +133,7 @@
   <string name="ChannelJoin">ПРИЄДНАТИСЯ</string>
   <string name="OpenChannelProfile">Інформація каналу</string>
   <string name="ChannelBroadcast">Трансляція</string>
+  <string name="ChannelSilentBroadcast">Тиха трансляція</string>
   <string name="ChannelComment">Коментар</string>
   <string name="ShowDiscussion">показати коментарі</string>
   <string name="ChannelAlertTitle">Що таке канал?</string>
@@ -114,6 +144,8 @@
   <string name="LinkInvalidShort">Назви каналів повинні містити щонайменше 5 символів.</string>
   <string name="LinkInvalidLong">Назва не повинна перевищувати 32 символи.</string>
   <string name="LinkInvalidStartNumber">Назви каналів не можуть починатися з цифри.</string>
+  <string name="LinkInvalidShortMega">Назви груп повинні мати принаймні 5 символів.</string>
+  <string name="LinkInvalidStartNumberMega">Назви груп не можуть починатися з номера.</string>
   <string name="LinkChecking">Перевірка назви...</string>
   <string name="LinkAvailable">%1$s доступне.</string>
   <string name="ChannelMembers">Учасники</string>
@@ -125,6 +157,7 @@
   <string name="ChannelLeaveAlert">Ви дійсно хочете покинути канал?</string>
   <string name="ChannelDeleteInfo">Ви втратите всі повідомлення в цьому каналі.</string>
   <string name="ChannelEdit">Змінити</string>
+  <string name="MegaWasPrivateAlert">Зауважте, якщо ви оберете публічне посилання для своєї групи, будь-хто зможе знайти її через пошук і приєднатися.\n\nНе створюйте це посилання, якщо хочете щоб ваша супергрупа залишалася приватною.</string>
   <string name="ChannelWasPrivateAlert">Майте на увазі, якщо ви оберете публічне посилання, будь-хто зможе знайти його через пошук і приєднатися.\n\nНе створюйте це посилання, якщо ви хочете залишити свій канал приватним.</string>
   <string name="ChannelPublicEmptyUsername">Виберіть посилання для свого публічного каналу, таким чином люди зможуть знаходити його через пошук і ділитися з іншими.\n\nЯкщо вас це не цікавить, рекомендуємо натомість створити приватний канал.</string>
   <string name="ActionCreateChannel">Канал створено</string>
@@ -132,6 +165,7 @@
   <string name="ActionChannelRemovedPhoto">Фотографію каналу вилучено</string>
   <string name="ActionChannelChangedTitle">Назва каналу змінена на un2</string>
   <string name="ChannelPublicLimitReached">Вибачте, ви створили забагато публічних каналів. Ви можете спочатку або створити приватний канал, або видалити один із наявних каналів.</string>
+  <string name="ChangePublicLimitReached">Вибачте, але ви створили забагато публічних посилань. Спробуйте видалення, або зробіть деякі з ваших груп чи каналів приватними.</string>
   <string name="ChannelModerator">Модератор</string>
   <string name="ChannelCreator">Творець</string>
   <string name="ChannelEditor">Адміністратор</string>
@@ -147,6 +181,8 @@
   <string name="ChannelAdminsInfo">Ви можете додати адміністраторів для допомоги в керуванні своїм каналом. Торкніться й утримуйте, щоб вилучити адміністраторів.</string>
   <string name="ChannelJoinTo">Ви хочете приєднатися до каналу \'%1$s\'?</string>
   <string name="ChannelCantOpenPrivate">Шкода, але цей чат більше недоступний.</string>
+  <string name="ChannelCantOpenBanned">На жаль, вас заблоковано в участі в публічних групах.</string>
+  <string name="ChannelCantOpenNa">Вибачте, але цей чат більше недоступний.</string>
   <string name="ChannelAddTo">Додати %1$s до каналу?</string>
   <string name="ChannelUserLeftError">Шкода, але цей користувач вирішив покинути цей канал, тому ви не можете запросити його назад тут.</string>
   <string name="ChannelUserCantAdd">Вибачте, але ви не можете додати цього користувача до каналів.</string>
@@ -154,7 +190,8 @@
   <string name="ChannelUserCantBot">Вибачте, на цьому каналі забагато ботів.</string>
   <string name="ChannelUserAddLimit">Шкода, але ви можете додати до каналу лише перших 200 учасників. Майте на увазі, що до каналу може приєднатися необмежена кількість людей за посиланням.</string>
   <string name="ChannelAddedBy">un1 додав/ла вас до цього каналу</string>
-  <string name="ChannelJoined">Ви приєднались до каналу</string>
+  <string name="ChannelJoined">Ви приєдналися до цього каналу</string>
+  <string name="ChannelMegaJoined">Ви приєдналися до цієї групи</string>
   <string name="ChannelRemoveUser">Вилучити з каналу</string>
   <string name="ChannelCantSendMessage">Шкода, але ви не можете надсилати повідомлення до цього каналу.</string>
   <string name="ChannelAddedByNotification">%1$s додав/ла вас до каналу %2$s</string>
@@ -167,6 +204,7 @@
   <string name="ChannelMessageGroupDocument">%1$s надіслав/ла файл до каналу %2$s</string>
   <string name="ChannelMessageGroupGif">%1$s надіслав/ла GIF до каналу %2$s</string>
   <string name="ChannelMessageGroupAudio">%1$s надіслав/ла голосове повідомлення на канал %2$s</string>
+  <string name="ChannelMessageGroupMusic">%1$s надіслав/ла композицію до каналу %2$s</string>
   <string name="ChannelMessageGroupSticker">%1$s надіслав/ла наліпку до каналу %2$s</string>
   <string name="ChannelMessageNoText">%1$s опублікував/ла повідомлення</string>
   <string name="ChannelMessagePhoto">%1$s опублікував/ла фотографію</string>

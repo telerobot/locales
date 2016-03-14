@@ -189,7 +189,6 @@
   <string name="ChannelUserCantBot">Выбачайце, зашмат ботаў у гэтым канале.</string>
   <string name="ChannelUserAddLimit">Выбачайце, але вы можаце дадаць у канал толькі 200 карыстальнікаў. Звярніце ўвагу, што праз спасылку на канал да яго можа далучыцца неабмежаваная колькасць карыстальнікаў.</string>
   <string name="ChannelAddedBy">un1 дадаў вас у гэты канал</string>
-  <string name="ChannelJoined">Вы далучыліся да канала</string>
   <string name="ChannelRemoveUser">Выдаліць з канала</string>
   <string name="ChannelCantSendMessage">Выбачайце, але вы не можаце пакідаць паведамленні ў гэтым канале.</string>
   <string name="ChannelAddedByNotification">%1$s дадаў вас да канала %2$s</string>
@@ -604,7 +603,6 @@
   <string name="SmartNotificationsMinutes">хвілін</string>
   <string name="SecretWebPage">Перадпрагляд спасылак</string>
   <string name="SecretChat">Сакрэтныя размовы</string>
-  <string name="ChromeCustomTabs">Карыстальніцкія ўстаўкі Chrome</string>
   <string name="ChromeCustomTabsInfo">Адкрываць знешнія спасылкі ўнутры праграмы</string>
   <string name="DirectShare">Прамы абмен</string>
   <string name="DirectShareInfo">Паказаць нядаўнія размовы ў меню абмену</string>
