@@ -251,9 +251,9 @@
   <string name="GalleryInfo">Для відправки зображень без стиснення</string>
   <!--chat view-->
   <string name="Invisible">невидимий</string>
-  <string name="Typing">введення...</string>
-  <string name="IsTyping">вводить...</string>
-  <string name="AreTyping">вводять...</string>
+  <string name="Typing">пише...</string>
+  <string name="IsTyping">пише...</string>
+  <string name="AreTyping">пишуть...</string>
   <string name="IsRecordingAudio">%1$s записує голосове повідомлення...</string>
   <string name="IsSendingPhoto">%1$s надсилає фотографію...</string>
   <string name="IsSendingVideo">%1$s надсилає відео...</string>
@@ -608,6 +608,10 @@
   <string name="SmartNotificationsMinutes">хвилин</string>
   <string name="SecretWebPage">Перегляд посилань</string>
   <string name="SecretChat">Секретні чати</string>
+  <string name="ChromeCustomTabs">Вбудований браузер</string>
+  <string name="ChromeCustomTabsInfo">Відкривати зовнішні посилання всередині програми</string>
+  <string name="DirectShare">Пряме поширення</string>
+  <string name="DirectShareInfo">Показувати останні чати в меню поширення</string>
   <!--cache view-->
   <string name="CacheSettings">Налаштування кешу</string>
   <string name="LocalDatabase">Локальна база даних</string>
@@ -669,6 +673,10 @@
   <string name="NoSharedAudio">Діліться музикою в цьому чаті й отримуйте до неї доступ з будь-яких своїх пристроїв.</string>
   <string name="NoSharedFiles">Діліться файлами і документами в цьому чаті і отримаєте доступ до них на будь-якому з ваших пристроїв.</string>
   <string name="NoSharedLinks">Діліться посиланнями в цьому чаті й отримуйте до них доступ з будь-яких своїх пристроїв.</string>
+  <string name="NoMediaSecret">Фотографії та відео з цього чату будуть показані тут.</string>
+  <string name="NoSharedAudioSecret">Музика з цього чату буде показана тут.</string>
+  <string name="NoSharedFilesSecret">Файли і документи з цього чату будуть показані тут.</string>
+  <string name="NoSharedLinksSecret">Поширені посилання з цього чату будуть показуватись тут.</string>
   <!--map view-->
   <string name="Map">Карта</string>
   <string name="Satellite">Супутникова</string>
@@ -773,6 +781,7 @@
   <string name="ResetMyAccount">ВІДНОВИТИ ОБЛІКОВИЙ ЗАПИС</string>
   <string name="ResetMyAccountText">При відновленні облікового запису, ви втратите всі свої чати й повідомлення, разом з будь-якими спільними медіа й файлами.</string>
   <string name="ResetMyAccountWarning">Попередження</string>
+  <string name="ResetMyAccountWarningText">Цю дію неможливо відмінити.\n\nЯкщо ви відновите свій обліковий запис, всі ваші повідомлення і чати будуть видалені.</string>
   <string name="ResetMyAccountWarningReset">Скинути</string>
   <string name="LoginPassword">Пароль</string>
   <string name="LoginPasswordText">Ви увімкнули двоетапну перевірку, отже ваш обліковий запис захищений додатковим паролем.</string>
@@ -888,6 +897,7 @@
   <string name="ActionKickUserYou">un1 видалив/ла вас</string>
   <string name="ActionAddUserYou">un1 додав/ла вас</string>
   <string name="ActionAddUserSelf">un1 повернувся/лася в групу</string>
+  <string name="ActionAddUserSelfMega">un1 приєднався/лась до групи</string>
   <string name="ActionAddUserSelfYou">Ви повернулися до групи</string>
   <string name="UnsupportedMedia">Це повідомлення не підтримується у вашій версії Telegram. Для перегляду оновіть програму: https://telegram.org/update</string>
   <string name="AttachPhoto">Фотографія</string>
@@ -934,6 +944,7 @@
   <string name="AreYouSureRegistration">Ви впевнені, що хочете скасувати реєстрацію?</string>
   <string name="AreYouSureClearHistory">Ви впевнені, що хочете стерти історію?</string>
   <string name="AreYouSureClearHistoryChannel">Видалити всі кешовані повідомлення й медіа з цього каналу?</string>
+  <string name="AreYouSureClearHistorySuper">Видалити всі кешовані повідомлення та медіа з цієї групи?</string>
   <string name="AreYouSureDeleteMessages">Ви впевнені, що хочете видалити %1$s?</string>
   <string name="SendMessagesToGroup">Надіслати повідомлення %1$s?</string>
   <string name="SendContactToGroup">Надіслати контакт до %1$s?</string>
@@ -945,6 +956,9 @@
   <string name="SecretChatContextBotAlert">Зауважте, що вбудовані боти надаються розробниками третіх сторін. Для роботи бота, введені вами символи після імені користувача бота надсилаються відповідному розробнику.</string>
   <string name="RaiseToSpeakAlert">Чи бажаєте увімкнути функцію \"Raise to speak\" для голосових повідомлень?</string>
   <string name="EditMessageError">Вибачте, але ви не можете змінити це повідомлення.</string>
+  <string name="AllowReadSms">Будь ласка, дозвольте Telegram отримувати SMS, щоб ми могли вводити код автоматично.</string>
+  <string name="AllowReadCall">Будь ласка, дозвольте Telegram приймати виклики, щоб ми могли вводити код автоматично.</string>
+  <string name="AllowReadCallAndSms">Будь ласка, дозвольте Telegram приймати виклики та SMS, щоб ми могли вводити код автоматично.</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram потребує доступу до ваших контактів, щоб ви змогли зв\'язатися зі своїми друзями на всіх своїх пристроях.</string>
   <string name="PermissionStorage">Telegram потребує доступу до вашого сховища, щоб ви могли надсилати й зберігати фотографії, відео, музику та інші медіа.</string>
@@ -980,12 +994,12 @@
   <string name="Members_few">%1$d учасника</string>
   <string name="Members_many">%1$d учасників</string>
   <string name="Members_other">%1$d учасників</string>
-  <string name="AndMoreTyping_zero">і ще %1$d людей вводять</string>
-  <string name="AndMoreTyping_one">і ще %1$d людина вводить</string>
-  <string name="AndMoreTyping_two">і ще %1$d людей вводять</string>
-  <string name="AndMoreTyping_few">і ще %1$d людей вводять</string>
-  <string name="AndMoreTyping_many">і ще %1$d людей вводять</string>
-  <string name="AndMoreTyping_other">і ще %1$d людей вводять</string>
+  <string name="AndMoreTyping_zero">і ще %1$d людей пишуть</string>
+  <string name="AndMoreTyping_one">і ще %1$d людина пише</string>
+  <string name="AndMoreTyping_two">і ще %1$d людей пишуть</string>
+  <string name="AndMoreTyping_few">і ще %1$d людей пишуть</string>
+  <string name="AndMoreTyping_many">і ще %1$d людей пишуть</string>
+  <string name="AndMoreTyping_other">і ще %1$d людей пишуть</string>
   <string name="NewMessages_zero">немає повідомлень</string>
   <string name="NewMessages_one">%1$d нове повідомлення</string>
   <string name="NewMessages_two">%1$d нові повідомлення</string>
