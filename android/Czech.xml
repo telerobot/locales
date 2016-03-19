@@ -11,6 +11,7 @@
   <string name="ChooseCountry">Vyberte zemi</string>
   <string name="WrongCountry">Neplatná mezinárodní předvolba</string>
   <!--code enter view-->
+  <string name="YourCode">Ověření telefonního čísla</string>
   <string name="CallText">Zavoláme Vám za %1$d:%2$02d</string>
   <string name="Calling">Voláme Vám...</string>
   <string name="Code">Kód</string>
@@ -59,6 +60,10 @@
   <string name="Recent">POSLEDNÍ</string>
   <string name="LinkPreview">Náhled  odkazu</string>
   <!--channels-->
+  <string name="GroupType">Typ Skupiny</string>
+  <string name="ChannelType">Typ Kanálu</string>
+  <string name="ChannelTypePublic">Veřejné</string>
+  <string name="ChannelTypePrivate">Soukromé</string>
   <string name="SetAsAdmin">Promote to admin</string>
   <string name="DescriptionInfoMega">Můžete poskytnout volitelný popis pro vaši skupinu.</string>
   <string name="LeaveMega">Opustit skupinu</string>
@@ -75,6 +80,16 @@
   <string name="GroupUserAddLimit">Litujeme, ale tato skupina je plná</string>
   <string name="GroupUserLeftError">Litujeme, ale tento uživatel se rozhodl opustit tuto skupinu, takže není možné pozvat ho zpět.</string>
   <string name="GroupUserCantBot">Litujeme, v tomto kanálu je příliš mnoho robotů.</string>
+  <string name="ActionPinnedText">un1 připojil \"%1$s\"</string>
+  <string name="ActionPinnedNoText">un1 připojil zprávu</string>
+  <string name="ActionPinnedPhoto">un1 připojil obrázek</string>
+  <string name="ActionPinnedVideo">un1 připojil video</string>
+  <string name="ActionPinnedFile">un1 připojil soubor</string>
+  <string name="ActionPinnedSticker">un1 připojil nálepku</string>
+  <string name="ActionPinnedVoice">un1 připojil hlasovou zprávu</string>
+  <string name="ActionPinnedContact">un1 připojil kontakt</string>
+  <string name="ActionPinnedGeo">un1 připojil mapu</string>
+  <string name="ActionPinnedGif">un1 připojil GIF</string>
   <string name="ActionMigrateFromGroup">Tato skupina byla povýšena na Superskupinu</string>
   <string name="ActionMigrateFromGroupNotify">Skupina \"%1$s\" byla povýšena na Superskupinu.</string>
   <string name="NoBlockedGroup">Blokovaní uživatelé jsou vyčleněni z této skupiny a může je přidat zpět pouze správce. Odkazy na pozvání pro ně nebudou funkční.</string>
@@ -89,8 +104,10 @@
   <string name="DescriptionPlaceholder">Popis</string>
   <string name="DescriptionInfo">Můžete zadat volitelný popis kanálu.</string>
   <string name="ChannelPublic">Veřejný kanál</string>
+  <string name="MegaPublic">Veřejná Skupina</string>
   <string name="ChannelPublicInfo">Veřejné kanály lze nalézt v hledání, kdokoliv se k nim může přippojit.</string>
   <string name="ChannelPrivate">Soukromý kanál</string>
+  <string name="MegaPrivate">Soukromá Skupina</string>
   <string name="ChannelPrivateInfo">Soukromé kanalý mohou byt připojeny pomocí pozvánky.</string>
   <string name="ChannelLinkTitle">Odkaz</string>
   <string name="ChannelInviteLinkTitle">Odkaz na pozvánku</string>
@@ -173,6 +190,7 @@
   <string name="ChannelMessageAudio">%1$s poslal/a hlasovou zprávu</string>
   <string name="ChannelMessageSticker">%1$s poslal/a nálepku</string>
   <string name="WhoCanAddMembersAllMembers">Všichni členové</string>
+  <string name="WhoCanAddMembersAdmins">Jen Administrátoři</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Nové vysílání</string>
   <string name="EnterListName">Zadejte název vysílání</string>
@@ -301,6 +319,16 @@
   <string name="ReplyToGroup">Poslat odpověď skupině %1$s</string>
   <string name="ReplyToUser">Poslat odpověď uživateli %1$s</string>
   <string name="NotificationMessagesPeopleDisplayOrder">%1$s %2$s</string>
+  <string name="NotificationActionPinnedTextChannel">%1$s připojil \"%2$s\"</string>
+  <string name="NotificationActionPinnedNoTextChannel">%1$s připojil zprávu</string>
+  <string name="NotificationActionPinnedPhotoChannel">%1$s připojil obrázek</string>
+  <string name="NotificationActionPinnedVideoChannel">%1$s připojil video</string>
+  <string name="NotificationActionPinnedFileChannel">%1$s připojil soubor</string>
+  <string name="NotificationActionPinnedStickerChannel">%1$s připojil nálepku</string>
+  <string name="NotificationActionPinnedVoiceChannel">%1$s připojil hlasovou zprávu</string>
+  <string name="NotificationActionPinnedContactChannel">%1$s připojil kontakt</string>
+  <string name="NotificationActionPinnedGeoChannel">%1$s připojil mapu</string>
+  <string name="NotificationActionPinnedGifChannel">%1$s připojil GIF</string>
   <!--contacts view-->
   <string name="SelectContact">Vyberte kontakt</string>
   <string name="NoContacts">Žádné kontakty</string>

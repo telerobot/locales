@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="AppName">Telegram</string>
-  <string name="LanguageName">İngilis dili</string>
-  <string name="LanguageNameInEnglish">İngilisi dili</string>
+  <string name="AppNameBeta">Telegram Beta</string>
+  <string name="LanguageName">İngiliscə</string>
+  <string name="LanguageNameInEnglish">İngiliscə</string>
   <string name="LanguageCode">en</string>
   <!--signin view-->
   <string name="YourPhone">Sizin telefonunuz</string>
@@ -22,7 +23,7 @@
   <string name="CancelRegistration">Qeydiyyatdan imtina et</string>
   <!--chats view-->
   <string name="Settings">Tənzimləmələr</string>
-  <string name="Contacts">Kontaktlar</string>
+  <string name="Contacts">Əlaqələr</string>
   <string name="NewGroup">Yeni Qrup</string>
   <string name="Yesterday">dünən</string>
   <string name="NoResult">Nəticə yoxdur</string>
@@ -34,8 +35,10 @@
   <string name="EncryptionRejected">Gizli söhbətdən imtina edildi</string>
   <string name="EncryptedChatStartedOutgoing">%s gizli söhbətə qoşuldu.</string>
   <string name="EncryptedChatStartedIncoming">Siz gizli söhbətə qoşuldunuz.</string>
+  <string name="ClearHistory">Tarixçəni təmizlə</string>
   <string name="DeleteChat">Sil və çıx</string>
   <string name="SelectChat">Söhbəti seç</string>
+  <string name="Search">Axtar</string>
   <!--channels-->
   <string name="ChannelSettings">Tənzimləmələr</string>
   <string name="ChannelEdit">Düzəliş et</string>
