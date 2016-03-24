@@ -141,6 +141,9 @@
   <string name="CopyUrl">URL\'ni ko‘chirish</string>
   <string name="SendItems">%1$s yuborish</string>
   <string name="OpenUrlAlert">%1$s havolasi ochilsinmi?</string>
+  <string name="PinMessage">Qadab qo‘yish</string>
+  <string name="PinNotify">Barcha qatnashchilarga xabar qilinsin</string>
+  <string name="UnpinMessage">Olib tashlash</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s xabar uchun o‘zini o‘zi yo‘q qilish vaqtini %2$s qilib belgiladi</string>
   <string name="MessageLifetimeChangedOutgoing">Siz xabar uchun o‘zini o‘zi yo‘q qilish vaqtini %1$s qilib belgiladingiz</string>
