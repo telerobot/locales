@@ -403,7 +403,7 @@
   <string name="InviteText">Гэй, пераходзьце на Тэлеграм: https://telegram.org/dl</string>
   <string name="TodayAt">а</string>
   <string name="YesterdayAt">учора а</string>
-  <string name="Online">анлайн</string>
+  <string name="Online">тут</string>
   <string name="LastSeen">апошняя актыўнасць</string>
   <string name="LastSeenDate">апошняя актыўнасць</string>
   <string name="LastSeenNow">толькі што быў тут</string>
@@ -978,12 +978,12 @@
   <string name="Page7Message"><![CDATA[Паведамленні <b>Тэлеграма</b> грунтоўна<br/>зашыфраваныя і могуць сама-знішчацца.]]></string>
   <string name="StartMessaging">Пачаць абменьвацца паведамленнямі</string>
   <!--plural-->
-  <string name="Online_zero">%1$d анлайн</string>
-  <string name="Online_one">%1$d анлайн</string>
-  <string name="Online_two">%1$d анлайн</string>
-  <string name="Online_few">%1$d анлайн</string>
-  <string name="Online_many">%1$d анлайн</string>
-  <string name="Online_other">%1$d анлайн</string>
+  <string name="Online_zero">%1$d тут</string>
+  <string name="Online_one">%1$d тут</string>
+  <string name="Online_two">%1$d тут</string>
+  <string name="Online_few">%1$d тут</string>
+  <string name="Online_many">%1$d тут</string>
+  <string name="Online_other">%1$d тут</string>
   <string name="Members_zero">%1$d удзельнікаў</string>
   <string name="Members_one">%1$d удзельнік</string>
   <string name="Members_two">%1$d удзельнікі</string>
