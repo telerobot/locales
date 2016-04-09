@@ -253,10 +253,12 @@
   <string name="IsTyping">печатает…</string>
   <string name="AreTyping">печатают…</string>
   <string name="IsRecordingAudio">%1$s что-то говорит в телефон...</string>
+  <string name="IsSendingAudio">%1$s отправляет аудио...</string>
   <string name="IsSendingPhoto">%1$s отправляет фото...</string>
   <string name="IsSendingVideo">%1$s отправляет видео...</string>
   <string name="IsSendingFile">%1$s отправляет файл...</string>
   <string name="RecordingAudio">запись голоса...</string>
+  <string name="SendingAudio">отправляет аудио...</string>
   <string name="SendingPhoto">отправка фото...</string>
   <string name="SendingVideoStatus">отправка видео...</string>
   <string name="SendingFile">отправка файла...</string>
@@ -502,6 +504,7 @@
   <string name="StickersCopy">Скопировать ссылку</string>
   <string name="StickersRemove">Удалить</string>
   <string name="NoStickers">Стикеров пока нет</string>
+  <string name="SendSticker">ОТПРАВИТЬ СТИКЕР</string>
   <string name="TooMuchStickersets">К сожалению, вы установили максимально допустимое количество наборов стикеров.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Сброс всех настроек уведомлений на стандартные</string>
@@ -537,6 +540,7 @@
   <string name="TerminateAllSessions">Завершить все другие сеансы</string>
   <string name="Events">События</string>
   <string name="ContactJoined">Контакт присоединился к Telegram</string>
+  <string name="PinnedMessages">Прикреплённые сообщения</string>
   <string name="Language">Язык</string>
   <string name="AskAQuestionInfo">Пожалуйста, имейте в виду, что поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но, возможно, придётся подождать. <![CDATA[<br><br>]]>Вы также можете прочитать <![CDATA[<a href=\"https://tlgrm.ru/faq#general\">ответы на часто задаваемые вопросы</a>]]> и <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">решения проблем</a>]]>.</string>
   <string name="AskButton">Спросить добровольца</string>
@@ -549,7 +553,9 @@
   <string name="Enabled">Включено</string>
   <string name="Disabled">Отключён</string>
   <string name="NotificationsService">Служба уведомлений</string>
-  <string name="NotificationsServiceDisableInfo">Если сервисов Google Play вам достаточно для получения уведомлений, вы можете отключить Службу уведомлений. Однако мы рекомендуем вам оставить её включённой для работы приложения в фоновом режиме и получения мгновенных уведомлений.</string>
+  <string name="NotificationsServiceInfo">Перезапускать приложение, если оно было выключено пользователем или системой. Благодаря этому, уведомления всегда будут показываться.</string>
+  <string name="NotificationsServiceConnection">Фоновое подключение</string>
+  <string name="NotificationsServiceConnectionInfo">Сохранять фоновое подключение к Telegram для получения уведомлений. Включите, чтобы гарантированно получать уведомления.</string>
   <string name="SortBy">Сортировать по</string>
   <string name="ImportContacts">Импорт контактов</string>
   <string name="SortFirstName">Имя</string>
@@ -934,7 +940,15 @@
   <string name="AreYouSureSessions">Уверены, что хотите завершить все другие сеансы?</string>
   <string name="AreYouSureDeleteAndExit">Уверены, что хотите удалить и покинуть эту группу?</string>
   <string name="AreYouSureDeleteThisChat">Уверены, что хотите удалить этот чат?</string>
-  <string name="AreYouSureShareMyContactInfo">Уверены, что хотите поделиться своей контактной информацией?</string>
+  <string name="ShareYouLocationTitle">Поделиться вашим местоположением?</string>
+  <string name="ShareYouLocationInfo">Ваше местоположение будет отправлено боту.</string>
+  <string name="ShareYouLocationUnable">Мы не смогли определить ваше местоположение</string>
+  <string name="ShareYouLocationUnableManually">Выбрать вручную</string>
+  <string name="ShareYouLocationInline">Этот бот хочет получать данные о вашем местоположении при каждом запросе к нему. Это может быть полезно для получения результатов, различающихся в разных регионах.</string>
+  <string name="ShareYouPhoneNumberTitle">Поделиться вашим номером телефона?</string>
+  <string name="AreYouSureShareMyContactInfoBot">Этому боту будет доступен ваш номер телефона. Это может быть полезно для интеграции с другими сервисами.</string>
+  <string name="AreYouSureShareMyContactInfoUser">Вы точно хотите поделиться своим номером %1$s с <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>?</string>
+  <string name="AreYouSureShareMyContactInfo">Вы уверены, что хотите поделиться своим номером телефона?</string>
   <string name="AreYouSureBlockContact">Уверены, что хотите заблокировать этот контакт?</string>
   <string name="AreYouSureUnblockContact">Уверены, что хотите разблокировать этот контакт?</string>
   <string name="AreYouSureDeleteContact">Уверены, что хотите удалить этот контакт?</string>
@@ -957,11 +971,13 @@
   <string name="AllowReadSms">Разрешите Telegram доступ к SMS: тогда ваш код будет вводиться автоматически.</string>
   <string name="AllowReadCall">Разрешите Telegram принимать входящие вызовы: тогда ваш код будет вводиться автоматически.</string>
   <string name="AllowReadCallAndSms">Разрешите Telegram доступ к SMS: тогда ваш код будет вводиться автоматически.</string>
+  <string name="UserRestricted">К сожалению, вам запрещено это действие.</string>
   <!--permissions-->
   <string name="PermissionContacts">Чтобы вы могли оставаться на связи с вашими друзьями с любого устройства, необходим доступ к контактам.</string>
   <string name="PermissionStorage">Для сохранения и отправки фото, видео и других файлов необходим доступ к памяти вашего устройства.</string>
   <string name="PermissionNoAudio">Для отправки голосовых сообщений необходим доступ к микрофону.</string>
   <string name="PermissionNoLocation">Для отправки вашего местоположения Telegram должен иметь доступ к геолокации.</string>
+  <string name="PermissionNoLocationPosition">Telegram должен иметь доступ к геолокации.</string>
   <string name="PermissionOpenSettings">НАСТРОЙКИ</string>
   <!--Intro view-->
   <string name="Page1Title">Telegram</string>

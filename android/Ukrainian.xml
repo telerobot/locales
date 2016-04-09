@@ -550,8 +550,6 @@
   <string name="IncorrectLocalization">Некоректний файл локалізації</string>
   <string name="Enabled">Увімкнено</string>
   <string name="Disabled">Вимкнено</string>
-  <string name="NotificationsService">Служба сповіщень</string>
-  <string name="NotificationsServiceDisableInfo">Якщо сервісів Google Play вам достатньо для отримання повідомлень, ви можете відключити Службу повідомлень. Однак ми рекомендуємо вам залишити її включеною для роботи програми у фоновому режимі і отримання миттєвих повідомлень.</string>
   <string name="SortBy">Сортувати за</string>
   <string name="ImportContacts">Імпорт контактів</string>
   <string name="SortFirstName">Ім\'я</string>
@@ -936,7 +934,6 @@
   <string name="AreYouSureSessions">Ви впевнені, що хочете завершити всі інші сеанси?</string>
   <string name="AreYouSureDeleteAndExit">Ви впевнені, що хочете видалити і покинути цю групу?</string>
   <string name="AreYouSureDeleteThisChat">Ви впевнені, що хочете видалити цей чат?</string>
-  <string name="AreYouSureShareMyContactInfo">Ви впевнені, що хочете поділитися своєю контактною інформацією?</string>
   <string name="AreYouSureBlockContact">Ви впевнені, що хочете заблокувати цей контакт?</string>
   <string name="AreYouSureUnblockContact">Ви впевнені, що хочете розблокувати цей контакт?</string>
   <string name="AreYouSureDeleteContact">Ви впевнені, що хочете видалити цей контакт?</string>

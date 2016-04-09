@@ -560,8 +560,6 @@
   <string name="IncorrectLocalization">Локализациянең дөрес булмаган файлы</string>
   <string name="Enabled">Кабынган</string>
   <string name="Disabled">Сүнгән</string>
-  <string name="NotificationsService">Белгертүләр хезмәте</string>
-  <string name="NotificationsServiceDisableInfo">Әгәр сезгә белгертүләр алыр өчен Google Play сервислары җитсә, сез Белгертүләр хезмәтен сүндерә аласыз. Әмма без сезгә аны кушымта фон режимында эшләсен өчен һәм тиз белгертүләр алыр өчен кабынган килеш калдырырга тәкъдим итәбез.</string>
   <string name="SortBy">Болар буенча тәртипләү</string>
   <string name="ImportContacts">Контактларны импортлау</string>
   <string name="SortFirstName">Исем</string>
@@ -952,7 +950,6 @@
   <string name="AreYouSureSessions">Бөтен башка сеансларны тәмамлауны телисезме?</string>
   <string name="AreYouSureDeleteAndExit">Бу төркемнән чыгарга һәм бетерергә телисезме?</string>
   <string name="AreYouSureDeleteThisChat">Бу чатны бетерергә телисезме?</string>
-  <string name="AreYouSureShareMyContactInfo">Контакт мәгълүматләрегез белән бүлешергә телисезме?</string>
   <string name="AreYouSureBlockContact">Бу контактны бикләргә телисезме?</string>
   <string name="AreYouSureUnblockContact">Бу контакттан бикне алырга телисезме?</string>
   <string name="AreYouSureDeleteContact">Бу контактны бетерергә телисезме?</string>

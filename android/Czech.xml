@@ -467,8 +467,6 @@
   <string name="IncorrectLocalization">Neplatný soubor překladu</string>
   <string name="Enabled">Povoleno</string>
   <string name="Disabled">Zakázáno</string>
-  <string name="NotificationsService">Notifikační služba</string>
-  <string name="NotificationsServiceDisableInfo">Pokud používáte Služby Google Play pro upozornění, můžete si vypnout Služby upozornění. Avšak, doporučujeme Vám nechat je zapnuté pro běh aplikace na pozadí kvůli okamžitému přijímání upozornění.</string>
   <string name="SortBy">Řadit podle</string>
   <string name="ImportContacts">Importovat kontakty</string>
   <string name="SortFirstName">Jméno</string>
@@ -817,7 +815,6 @@ Smazat a zastavit</string>
   <string name="AreYouSureSessions">Jste si jistý, že chcete ukončit všechny ostatní připojení?</string>
   <string name="AreYouSureDeleteAndExit">Jste si jistý, že chcete opustit tuto skupinu a vymazat ji?</string>
   <string name="AreYouSureDeleteThisChat">Jste si jistý, že chcete odstranit tuto konverzaci?</string>
-  <string name="AreYouSureShareMyContactInfo">Jste si jistý, že chcete sdílet své kontaktní informace?</string>
   <string name="AreYouSureBlockContact">Jste si jistý, že chcete zablokovat tento kontakt?</string>
   <string name="AreYouSureUnblockContact">Jste si jistý, že chcete odblokovat tento kontakt?</string>
   <string name="AreYouSureDeleteContact">Jste si jistý, že chcete vymazat tento kontakt?</string>

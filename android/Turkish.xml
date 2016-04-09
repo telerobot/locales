@@ -453,8 +453,6 @@ sorunuz mu var?</string>
   <string name="IncorrectLocalization">Yanlış yerelleştirme dosyası</string>
   <string name="Enabled">Etkin</string>
   <string name="Disabled">Devre dışı</string>
-  <string name="NotificationsService">Bildirim Servisi</string>
-  <string name="NotificationsServiceDisableInfo">Eğer Google Play Hizmetleri bildirim almanız için yeterliyse, Bildirim Servisi\'ni devredışı bırakabilirsiniz. Yine de, uygulamanın arka planda çalışması ve anlık bildirim almanız için etkin bırakmanızı öneririz.</string>
   <string name="SortBy">Sırala</string>
   <string name="ImportContacts">Kişileri içe Aktar</string>
   <string name="SortFirstName">Adınız</string>
@@ -829,7 +827,6 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="AreYouSureSessions">Diğer tüm oturumları sonlandırmak istediğinizden emin misiniz?</string>
   <string name="AreYouSureDeleteAndExit">Grubu silmek ve gruptan ayrılmak istediğinize emin misiniz?</string>
   <string name="AreYouSureDeleteThisChat">Bu sohbeti silmek istediğinizden emin misiniz?</string>
-  <string name="AreYouSureShareMyContactInfo">İletişim bilgilerinizi paylaşmak istediğinize emin misiniz?</string>
   <string name="AreYouSureBlockContact">Bu kişiyi engellemek istediğinizden emin misiniz?</string>
   <string name="AreYouSureUnblockContact">Bu kişinin engelini kaldırmak istediğinizden emin misiniz?</string>
   <string name="AreYouSureDeleteContact">Bu kişiyi silmek istediğinizden emin misiniz?</string>

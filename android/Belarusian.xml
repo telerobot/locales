@@ -550,8 +550,6 @@
   <string name="IncorrectLocalization">Памылковы файл лакалізацыі</string>
   <string name="Enabled">Уключана</string>
   <string name="Disabled">Адключана</string>
-  <string name="NotificationsService">Служба апавяшчэнняў</string>
-  <string name="NotificationsServiceDisableInfo">Калі для атрымання апавяшчэнняў вам дастаткова службаў Google Play, можаце адключыць Службу паведамленняў. Аднак мы рэкамендуем пакінуць яе актыўнай, што дазволіць праграме заставацца ў фоне і генераваць апавяшчэнні адразу па факце.</string>
   <string name="SortBy">Сартаваць паводле</string>
   <string name="ImportContacts">Імпартаваць кантакты</string>
   <string name="SortFirstName">Імя</string>
@@ -932,7 +930,6 @@
   <string name="AreYouSureSessions">Напраўду жадаеце закрыць усе іншыя сесіі?</string>
   <string name="AreYouSureDeleteAndExit">Напраўду жадаеце выдаліць і пакінуць групу?</string>
   <string name="AreYouSureDeleteThisChat">Вы сапраўды жадаеце выдаліць гэтую размову?</string>
-  <string name="AreYouSureShareMyContactInfo">Вы сапраўды жадаеце дзяліцца сваёй кантактнай інфармацыяй?</string>
   <string name="AreYouSureBlockContact">Напраўду жадаеце заблакіраваць кантакт?</string>
   <string name="AreYouSureUnblockContact">Напраўду жадаеце разблакіраваць кантакт?</string>
   <string name="AreYouSureDeleteContact">Вы сапраўды жадаеце выдаліць гэты кантакт?</string>
