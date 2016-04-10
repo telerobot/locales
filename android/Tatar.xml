@@ -257,10 +257,12 @@
   <string name="IsTyping">яза...</string>
   <string name="AreTyping">яза...</string>
   <string name="IsRecordingAudio">%1$s тавышлы хат яздыра...</string>
+  <string name="IsSendingAudio">%1$s аудио җибәрә...</string>
   <string name="IsSendingPhoto">%1$s фото җибәрә...</string>
   <string name="IsSendingVideo">%1$s видео җибәрә...</string>
   <string name="IsSendingFile">%1$s файл җибәрә...</string>
   <string name="RecordingAudio">тавышлы хат яздыру...</string>
+  <string name="SendingAudio">аудио җибәрә...</string>
   <string name="SendingPhoto">фото җибәрү...</string>
   <string name="SendingVideoStatus">видео җибәрү...</string>
   <string name="SendingFile">файл җибәрү...</string>
@@ -514,6 +516,7 @@
   <string name="StickersCopy">Сылтамадан күчермә ясау</string>
   <string name="StickersRemove">Бетерү</string>
   <string name="NoStickers">Стикерлар юк</string>
+  <string name="SendSticker">СТИКЕР ҖИБӘРҮ</string>
   <string name="TooMuchStickersets">Гафу итегез, сез мөмкин кадәр күп стикер җыелмаларын урнаштырдыгыз.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Бөтен белгертүләрне стандарт көйләүләргә кайтару</string>
@@ -549,6 +552,7 @@
   <string name="TerminateAllSessions">Бөтен башка сеансларны туктату</string>
   <string name="Events">Вакыйгалар</string>
   <string name="ContactJoined">Контакт Telegramга кушылды</string>
+  <string name="PinnedMessages">Беркетелгән хатлар</string>
   <string name="Language">Тел</string>
   <string name="AskAQuestionInfo">Игътибар итегез, Telegramның ярдәме волонтерлар тарафыннан башкарыла. Без мөмкин кадәр тизрәк җавап бирергә тырышырбыз, әмма моңа вакыт таләп ителергә мөмкин.<![CDATA[<br><br>]]>Зинһар, Telegram турында сораулар һәм җаваплар белән танышып китегез: <![CDATA[<a href=\\"https://tlgrm.ru/faq\\">монда сорауларга җаваплар</a>]]> һәм <![CDATA[<a href=\\"http://telegram.org/faq#troubleshooting\\">җитешсезлекләрне бетерү өчен</a> мөһим киңәшләр бирелә.]]></string>
   <string name="AskButton">Волонтердан сорау</string>
@@ -560,6 +564,10 @@
   <string name="IncorrectLocalization">Локализациянең дөрес булмаган файлы</string>
   <string name="Enabled">Кабынган</string>
   <string name="Disabled">Сүнгән</string>
+  <string name="NotificationsService">Бергертүләр хезмәте</string>
+  <string name="NotificationsServiceInfo">Әгәр кушымта кулланучы яисә система белән сүндерелгән булса, аны яңадан кабызырга. Бу очракта белгертүләр гел күрсәтеләчәкләр.</string>
+  <string name="NotificationsServiceConnection">Фонда тоташу</string>
+  <string name="NotificationsServiceConnectionInfo">Белгертүләр килсен өчен Telegramда фонда тоташуны сакларга. Бу очракта белгертүләр гел күрсәтеләчәкләр.</string>
   <string name="SortBy">Болар буенча тәртипләү</string>
   <string name="ImportContacts">Контактларны импортлау</string>
   <string name="SortFirstName">Исем</string>
@@ -950,6 +958,15 @@
   <string name="AreYouSureSessions">Бөтен башка сеансларны тәмамлауны телисезме?</string>
   <string name="AreYouSureDeleteAndExit">Бу төркемнән чыгарга һәм бетерергә телисезме?</string>
   <string name="AreYouSureDeleteThisChat">Бу чатны бетерергә телисезме?</string>
+  <string name="ShareYouLocationTitle">Урнашу урыныгыз белән бүлешергәме?</string>
+  <string name="ShareYouLocationInfo">Урнашу урыныгыз ботка җибәреләчәк.</string>
+  <string name="ShareYouLocationUnable">Урнашу урыныгызны билгели алмадык</string>
+  <string name="ShareYouLocationUnableManually">Кулдан сайлау</string>
+  <string name="ShareYouLocationInline">Бу бот, аңа мөрәҗәгать иткән саен, урнашу урыныгызны билгеләргә тели. Бу төрле регионнарда күптөрле нәтиҗәләр булганда файдалы була ала.</string>
+  <string name="ShareYouPhoneNumberTitle">Телефон номерыгыз белән бүлешергәме?</string>
+  <string name="AreYouSureShareMyContactInfoBot">Бу бот телефон номерыгызны беләчәк. Бу бүтән сервислар белән берләшкәндә файдалы була ала.</string>
+  <string name="AreYouSureShareMyContactInfoUser">Сез чынлап та <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> белән %1$s номерыгызны бүлешергә телисезме? </string>
+  <string name="AreYouSureShareMyContactInfo">Сез чынлап та телефон номерыгыз белән бүлешергә телисезме?</string>
   <string name="AreYouSureBlockContact">Бу контактны бикләргә телисезме?</string>
   <string name="AreYouSureUnblockContact">Бу контакттан бикне алырга телисезме?</string>
   <string name="AreYouSureDeleteContact">Бу контактны бетерергә телисезме?</string>
@@ -972,11 +989,13 @@
   <string name="AllowReadSms">Telegramга SMS белән эш итүне рөхсәт итсәгез, кодыгыз үзе кертеләчәк.</string>
   <string name="AllowReadCall">Telegramга килүче шалтыратулар белән эш итүне рөхсәт итсәгез, кодыгыз үзе кертеләчәк.</string>
   <string name="AllowReadCallAndSms">Telegramга килүче шалтыратулар һәм SMS белән эш итүне рөхсәт итсәгез, кодыгыз үзе кертеләчәк.</string>
+  <string name="UserRestricted">Гафу итегез, сезгә бу гамәл мөмкин түгел.</string>
   <!--permissions-->
   <string name="PermissionContacts">Дусларыгыз белән төрле җайланмалар аша элемтәдә калу өчен Telegramга контактларыгызны күрү мөмкинчелеге кирәк.</string>
   <string name="PermissionStorage">Фото, видео, һәм башка медиа файлларны җибәрү һәм саклау өчен Telegramга файллар саклау урыныгызга керү мөмкинчелеге кирәк.</string>
   <string name="PermissionNoAudio">Тавышлы хатлар җибәрү өчен Telegramга микрофоныгызга рөхсәт кирәк.</string>
   <string name="PermissionNoLocation">Дусларыгызга урнашу урыныгызны җибәрү өчен Telegramга урнашу урыныгызны күрү мөмкинчелеге кирәк.</string>
+  <string name="PermissionNoLocationPosition">Telegramга урнашу урыныгызга мөмкинлек кирәк.</string>
   <string name="PermissionOpenSettings">КӨЙЛӘҮЛӘР</string>
   <!--Intro view-->
   <string name="Page1Title">Telegram</string>

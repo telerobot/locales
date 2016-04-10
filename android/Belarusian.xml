@@ -254,10 +254,12 @@
   <string name="IsTyping">піша...</string>
   <string name="AreTyping">пішуць...</string>
   <string name="IsRecordingAudio">%1$s робіць аўдыязапіс...</string>
+  <string name="IsSendingAudio">%1$s адпраўляе аўдыязапіс...</string>
   <string name="IsSendingPhoto">%1$s адпраўляе выяву...</string>
   <string name="IsSendingVideo">%1$s адпраўляе відэазапіс...</string>
   <string name="IsSendingFile">%1$s адпраўляе файл...</string>
   <string name="RecordingAudio">робіць аўдыязапіс...</string>
+  <string name="SendingAudio">адпраўляе аўдыязапіс...</string>
   <string name="SendingPhoto">адпраўка выявы...</string>
   <string name="SendingVideoStatus">адпраўка відэазапіса...</string>
   <string name="SendingFile">адпраўка файла...</string>
@@ -504,6 +506,7 @@
   <string name="StickersCopy">Скапіяваць спасылку</string>
   <string name="StickersRemove">Выдаліць</string>
   <string name="NoStickers">Налепак пакуль няма</string>
+  <string name="SendSticker">ДАСЛАЦЬ НАЛЕПКУ</string>
   <string name="TooMuchStickersets">Выбачайце, але вы дасягнулі ліміту набораў налепак.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Скінуць усе налады апавяшчэнняў па змаўчанні</string>
@@ -539,6 +542,7 @@
   <string name="TerminateAllSessions">Завяршыць усе астатнія сеансы</string>
   <string name="Events">Падзеі</string>
   <string name="ContactJoined">Кантакт далучыўся да Тэлеграма</string>
+  <string name="PinnedMessages">Замацаваныя паведамленні</string>
   <string name="Language">Мова</string>
   <string name="AskAQuestionInfo">Звярніце ўвагу, што падтрымка Тэлеграма ажыццяўляецца добраахвотнікамі. Мы стараемся адказваць як мага хутчэй, але гэта можа заняць час.<![CDATA[<br><br>]]>Калі ласка, зазірніце ў <![CDATA[<a href=\"https://telegram.org/faq#general\">ЧаПы Тэлеграма</a>]]>: там ёсць адказы на большасць пытанняў і парады па выпраўленні <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">хібнасцей</a>]]>.</string>
   <string name="AskButton">Спытацца ў добраахвотніка</string>
@@ -550,6 +554,10 @@
   <string name="IncorrectLocalization">Памылковы файл лакалізацыі</string>
   <string name="Enabled">Уключана</string>
   <string name="Disabled">Адключана</string>
+  <string name="NotificationsService">«Заўсёды жывы»</string>
+  <string name="NotificationsServiceInfo">Перазапускае праграму, калі яна спынена сістэмай або карыстальнікам, каб яна магла паказваць апавяшчэнні.</string>
+  <string name="NotificationsServiceConnection">Фонавае злучэнне</string>
+  <string name="NotificationsServiceConnectionInfo">Пакінуць фонавае злучэнне з нізкім выкарыстаннем трафіка, каб дазволіць Тэлеграму атрымліваць апавяшчэнні.</string>
   <string name="SortBy">Сартаваць паводле</string>
   <string name="ImportContacts">Імпартаваць кантакты</string>
   <string name="SortFirstName">Імя</string>
@@ -930,6 +938,15 @@
   <string name="AreYouSureSessions">Напраўду жадаеце закрыць усе іншыя сесіі?</string>
   <string name="AreYouSureDeleteAndExit">Напраўду жадаеце выдаліць і пакінуць групу?</string>
   <string name="AreYouSureDeleteThisChat">Вы сапраўды жадаеце выдаліць гэтую размову?</string>
+  <string name="ShareYouLocationTitle">Падзяліцца месцазнаходжаннем?</string>
+  <string name="ShareYouLocationInfo">Гэта дашле вашае бягучае месцазнаходжанне боту.</string>
+  <string name="ShareYouLocationUnable">Праграма не здолела вызначыць вашае бягучае месцазнаходжанне.</string>
+  <string name="ShareYouLocationUnableManually">Абраць уручную</string>
+  <string name="ShareYouLocationInline">Бот будзе ведаць вашае месцазнаходжанне кожны раз, калі вы дашлеце яму запыт. Гэта можа быць карысна пры складанні статыстыкі, заснаванай на месцазнаходжанні.</string>
+  <string name="ShareYouPhoneNumberTitle">Падзяліцца нумарам тэлефону?</string>
+  <string name="AreYouSureShareMyContactInfoBot">Бот будзе ведаць ваш нумар тэлефону. Гэта можа быць карысна для інтэграцыі з іншымі сэрвісамі.</string>
+  <string name="AreYouSureShareMyContactInfoUser">Вы сапраўды жадаеце падзяліцца сваім нумарам %1$s з <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>?</string>
+  <string name="AreYouSureShareMyContactInfo">Вы сапраўды жадаеце падзяліцца сваім нумарам тэлефону?</string>
   <string name="AreYouSureBlockContact">Напраўду жадаеце заблакіраваць кантакт?</string>
   <string name="AreYouSureUnblockContact">Напраўду жадаеце разблакіраваць кантакт?</string>
   <string name="AreYouSureDeleteContact">Вы сапраўды жадаеце выдаліць гэты кантакт?</string>
@@ -952,11 +969,13 @@
   <string name="AllowReadSms">Калі ласка, дазвольце Тэлеграму атрымліваць SMS, каб мы маглі аўтаматычна ўвесці код за вас.</string>
   <string name="AllowReadCall">Калі ласка, дазвольце Тэлеграму атрымліваць званкі, каб мы маглі аўтаматычна ўвесці код за вас.</string>
   <string name="AllowReadCallAndSms">Калі ласка, дазвольце Тэлеграму атрымліваць SMS і званкі, каб мы маглі аўтаматычна ўвесці код за вас.</string>
+  <string name="UserRestricted">Выбачайце, але вам не дазволена гэта рабіць.</string>
   <!--permissions-->
   <string name="PermissionContacts">Тэлеграму патрэбны доступ да вашых кантактаў, каб вы маглі звязацца з сваімі сябрамі на ўсіх сваіх устройствах.</string>
   <string name="PermissionStorage">Тэлеграму патрэбны доступ да вашага сховішча файлаў, каб вы маглі дасылаць і захоўваць выявы, відэа, музыку і іншыя медыяфайлы.</string>
   <string name="PermissionNoAudio">Тэлеграму патрэбны доступ да вашага мікрафона, каб вы маглі рабіць аўдыязапісы і дасылаць іх.</string>
   <string name="PermissionNoLocation">Тэлеграму патрэбны доступ да вашага месцазнаходжання, каб вы маглі падзяліцца ім з сваімі сябрамі.</string>
+  <string name="PermissionNoLocationPosition">Тэлеграму патрэбны доступ да вашага месцазнаходжання.</string>
   <string name="PermissionOpenSettings">НАЛАДЫ</string>
   <!--Intro view-->
   <string name="Page1Title">Тэлеграм</string>
