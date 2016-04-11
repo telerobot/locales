@@ -558,7 +558,7 @@
   <string name="AskButton">Волонтердан сорау</string>
   <string name="TelegramFaq">Telegram FAQ</string>
   <string name="TelegramFaqUrl">https://tlgrm.ru/faq</string>
-  <string name="PrivacyPolicy">Конфиденциальлек сәясәте</string>
+  <string name="PrivacyPolicy">Шәхсилек сәясәте</string>
   <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
   <string name="DeleteLocalization">Локализацияне бетерү</string>
   <string name="IncorrectLocalization">Локализациянең дөрес булмаган файлы</string>
