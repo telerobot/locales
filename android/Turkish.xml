@@ -62,6 +62,7 @@
   <string name="Recent">EN SON</string>
   <string name="LinkPreview">Bağlantı önizlemesi</string>
   <!--channels-->
+  <string name="ChannelTypePrivate">Gizli</string>
   <string name="SetAsAdmin">Yöneticliğe yükselt</string>
   <string name="DescriptionInfoMega">You can provide an optional description for your group.</string>
   <string name="LeaveMega">Gruptan Ayrıl</string>
@@ -94,6 +95,7 @@
   <string name="ChannelPublic">Genel Kanal</string>
   <string name="ChannelPublicInfo">Genel kanallar arama ile bulunabilir ve isteyen herkes kanala katılabilir.</string>
   <string name="ChannelPrivate">Özel Kanal</string>
+  <string name="MegaPrivate">Gizli Grup</string>
   <string name="ChannelPrivateInfo">Özel kanallara sadece bir davetiye linki ile katılınabilir.</string>
   <string name="ChannelLinkTitle">Link</string>
   <string name="ChannelInviteLinkTitle">Davetiye Linki</string>
@@ -154,6 +156,8 @@
   <string name="ChannelUserCantBot">Üzgünüz, bu kanala daha fazla bot eklenemez.</string>
   <string name="ChannelUserAddLimit">Sorry, you can only add the first 200 members to a channel. Note that an unlimited number of people may join via the channel\'s link.</string>
   <string name="ChannelAddedBy">un1 seni bu kanala ekledi</string>
+  <string name="ChannelJoined">Bu kanala katıldınız</string>
+  <string name="ChannelMegaJoined">Bu gruba katıldınız</string>
   <string name="ChannelRemoveUser">Kanaldan kaldır</string>
   <string name="ChannelCantSendMessage">Üzgünüm, kanala yeni bir mesaj gönderemezsiniz.</string>
   <string name="ChannelAddedByNotification">%1$s, seni %2$s kanalına ekledi</string>
@@ -215,6 +219,7 @@
   <string name="IsSendingVideo">%1$s video gönderiyor...</string>
   <string name="IsSendingFile">%1$s dosya gönderiyor...</string>
   <string name="RecordingAudio">sesli mesaj kaydediyor...</string>
+  <string name="SendingAudio">ses gönderiliyor...</string>
   <string name="SendingPhoto">fotoğraf gönderiyor...</string>
   <string name="SendingVideoStatus">video gönderiyor...</string>
   <string name="SendingFile">dosya gönderiyor...</string>
@@ -261,6 +266,7 @@ sorunuz mu var?</string>
   <string name="SendItems">Gönder %1$s</string>
   <string name="OpenUrlAlert">%1$s? bağlantısını aç?</string>
   <string name="ReportSpam">SPAM RAPORLA</string>
+  <string name="ReportSpamAndLeave">SPAM OLARAK RAPORLA VE AYRIL</string>
   <string name="AddContactChat">KİŞİ EKLE</string>
   <string name="ReportSpamAlert">Bu kullanıcıyı spam olarak raporlamak istediğine emin misin?</string>
   <string name="ReportSpamAlertGroup">Bu grubu spam olarak raporlamak istediğine emin misin?</string>
@@ -270,6 +276,13 @@ sorunuz mu var?</string>
   <string name="MoreInfo">Daha fazla bilgi</string>
   <string name="ShareSendTo">Gönder...</string>
   <string name="TapHereGifs">Tap here to access saved GIFs</string>
+  <string name="DeleteReportSpam">Spam raporla</string>
+  <string name="ReportChat">Raporla</string>
+  <string name="ReportChatSpam">Spam</string>
+  <string name="ReportChatPornography">Pornografi</string>
+  <string name="ReportChatOther">Diğer</string>
+  <string name="ReportChatDescription">Açıklama</string>
+  <string name="PinnedMessage">Mesaj eklendi</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s kendini imha etme zamanlayıcısı %2$s olarak belirledi</string>
   <string name="MessageLifetimeChangedOutgoing">Kendini imha etme zamanlayıcısını %1$s olarak belirlediniz</string>
@@ -312,6 +325,9 @@ sorunuz mu var?</string>
   <string name="ReplyToGroup">%1$s grubuna cevap yaz</string>
   <string name="ReplyToUser">%1$s kişisine cevap yaz</string>
   <string name="NotificationMessagesPeopleDisplayOrder">%1$s %2$s</string>
+  <string name="NotificationActionPinnedFileChannel">%1$s dosya eklendi</string>
+  <string name="NotificationActionPinnedVoiceChannel">%1$s sesli mesaj eklendi</string>
+  <string name="NotificationActionPinnedGeoChannel">%1$s harita eklendi</string>
   <!--contacts view-->
   <string name="SelectContact">Kişi Seç</string>
   <string name="NoContacts">Henüz kişi yok</string>
@@ -361,6 +377,7 @@ sorunuz mu var?</string>
   <string name="DeleteAndExit">Sil ve gruptan ayrıl</string>
   <string name="Notifications">Bildirimler</string>
   <string name="KickFromGroup">Gruptan kaldır</string>
+  <string name="ConvertGroupAlertWarning">Dikkat</string>
   <!--contact info view-->
   <string name="ShareContact">Paylaş</string>
   <string name="AddContact">Ekle</string>
