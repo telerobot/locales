@@ -62,17 +62,20 @@
   <string name="Recent">EN SON</string>
   <string name="LinkPreview">Bağlantı önizlemesi</string>
   <!--channels-->
+  <string name="GroupType">Grup Türü</string>
+  <string name="ChannelType">Kanal Türü</string>
+  <string name="ChannelTypePublic">Kamu</string>
   <string name="ChannelTypePrivate">Gizli</string>
   <string name="SetAsAdmin">Yöneticliğe yükselt</string>
   <string name="DescriptionInfoMega">You can provide an optional description for your group.</string>
   <string name="LeaveMega">Gruptan Ayrıl</string>
-  <string name="DeleteMega">Delete Group</string>
+  <string name="DeleteMega">Grubu Sil</string>
   <string name="LeaveMegaMenu">Gruptan ayrıl</string>
-  <string name="DeleteMegaMenu">Delete group</string>
+  <string name="DeleteMegaMenu">Grubu sil</string>
   <string name="MegaDeleteInfo">Bu gruptaki bütün mesajlar silinecek.</string>
   <string name="MegaAdminsInfo">Grubunuzun yönetimine yardımcı olması için yönetici ekleyebilirsiniz. Yönetici kaldırmak için dokunun ve basılı tutun.</string>
   <string name="MegaDeleteAlert">Wait! Deleting this group will remove all members and all messages will be lost. Delete the group anyway?</string>
-  <string name="ActionCreateMega">Group created</string>
+  <string name="ActionCreateMega">Grup yaratıldı</string>
   <string name="MegaAddedBy">un1 sizi bu kanala ekledi</string>
   <string name="MegaLeaveAlert">Gruptan ayrılmak istediğinize emin misiniz?</string>
   <string name="GroupUserCantAdd">Sorry, you can\'t add this user to groups.</string>
