@@ -637,7 +637,7 @@
   <string name="CurrentSession">Текущий сеанс</string>
   <string name="NoOtherSessions">Нет других сессий</string>
   <string name="NoOtherSessionsInfo">Вы можете войти в Telegram с другого смартфона, планшета или компьютера, используя единый номер. Все ваши данные будут мгновенно синхронизированы.</string>
-  <string name="OtherSessions">Активные сесии</string>
+  <string name="OtherSessions">Активные сессии</string>
   <string name="SessionsInfo">Контролируйте активные сессии на других устройствах.</string>
   <string name="TerminateSessionInfo">Нажмите на сессию, чтобы завершить.</string>
   <string name="TerminateSessionQuestion">Завершить сессию?</string>
