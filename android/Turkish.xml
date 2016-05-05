@@ -12,6 +12,7 @@
   <string name="WrongCountry">Yanlış ülke kodu</string>
   <!--code enter view-->
   <string name="YourCode">Telefon Doğrulama</string>
+  <string name="SentSmsCode">Telefonunuza etkinleştirme kodunu içeren bir kısa mesaj gönderdik <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
   <string name="CallText">Sizi %1$d:%2$02d içinde arayacağız</string>
   <string name="Calling">Sizi arıyoruz...</string>
   <string name="Code">Kod</string>
@@ -83,6 +84,7 @@
   <string name="GroupUserLeftError">Üzgünüz, bu kullanıcı gruptan ayrılmaya karar verdi, bu yüzden onu tekrar davet edemezsiniz.</string>
   <string name="GroupUserCantAdmin">Üzgünüm, bu gruba daha fazla yönetici eklenemez.</string>
   <string name="GroupUserCantBot">Üzgünüz, bu gruba daha fazla bot eklenemez.</string>
+  <string name="ActionPinnedNoText">un1 sabitlenmiş ileti</string>
   <string name="ActionMigrateFromGroup">Bu grup bir üst gruba yükseltldi</string>
   <string name="ActionMigrateFromGroupNotify">%1$s bir süper gruba yükseltildi.</string>
   <string name="NoBlockedGroup">Engellenen kullanıcılar gruptan silinirler ve sadece bir yönetici tarafından davet edildiklerinde geri dönebilirler. Davet bağlantıları onlar için çalışmaz.</string>
