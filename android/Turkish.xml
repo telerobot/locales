@@ -14,6 +14,7 @@
   <string name="YourCode">Telefon Doğrulama</string>
   <string name="SentSmsCode">Telefonunuza etkinleştirme kodunu içeren bir kısa mesaj gönderdik <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
   <string name="CallText">Sizi %1$d:%2$02d içinde arayacağız</string>
+  <string name="SmsText">Size %1$d:%2$02d içinde bir SMS göndereceğiz</string>
   <string name="Calling">Sizi arıyoruz...</string>
   <string name="Code">Kod</string>
   <string name="WrongNumber">Numara yanlış mı?</string>
@@ -80,7 +81,7 @@
   <string name="MegaAddedBy">un1 sizi bu gruba ekledi</string>
   <string name="MegaLeaveAlert">Gruptan ayrılmak istediğinize emin misiniz?</string>
   <string name="GroupUserCantAdd">Üzgünüm,bu kullanıcıyı gruplara ekleyemezsiniz.</string>
-  <string name="GroupUserAddLimit">Üzgünüm bu grup dolu.</string>
+  <string name="GroupUserAddLimit">Üzgünüz bu grup dolu.</string>
   <string name="GroupUserLeftError">Üzgünüz, bu kullanıcı gruptan ayrılmaya karar verdi, bu yüzden onu tekrar davet edemezsiniz.</string>
   <string name="GroupUserCantAdmin">Üzgünüm, bu gruba daha fazla yönetici eklenemez.</string>
   <string name="GroupUserCantBot">Üzgünüz, bu gruba daha fazla bot eklenemez.</string>
@@ -96,9 +97,11 @@
   <string name="ChannelUsernameHelp">İnsanlar bu linki diğer insanlarla paylaşabilir ve Telegram aramasını kullanarak kanalınızı bulabilirler.</string>
   <string name="ChannelUsernamePlaceholder">link</string>
   <string name="ChannelPrivateLinkHelp">İnsanlar bu linki kullanarak kanalınıza katılabilirler. İstediğiniz zaman iptal edebilirsiniz.</string>
+  <string name="DescriptionOptionalPlaceholder">Açıklama (opsiyonel)</string>
   <string name="DescriptionPlaceholder">Açıklama</string>
   <string name="DescriptionInfo">Kanalınız için isterseniz bir açıklama girebilirsiniz.</string>
   <string name="ChannelPublic">Genel Kanal</string>
+  <string name="MegaPublic">Açık Grup</string>
   <string name="ChannelPublicInfo">Genel kanallar arama ile bulunabilir ve isteyen herkes kanala katılabilir.</string>
   <string name="ChannelPrivate">Özel Kanal</string>
   <string name="MegaPrivate">Gizli Grup</string>
@@ -157,6 +160,7 @@
   <string name="ChannelAdminsInfo">Kanalınızın yönetimine yardımcı olması için yönetici ekleyebilirsiniz. Yönetici kaldırmak için dokunun ve basılı tutun.</string>
   <string name="ChannelJoinTo">\'%1$s\' kanalına katılmak istediğinize emin misiniz?</string>
   <string name="ChannelCantOpenPrivate">Üzgünüz, bu sohbet artık erişilebilir değil.</string>
+  <string name="ChannelCantOpenNa">Üzgünüz, bu sohbet artık erişilebilir değil.</string>
   <string name="ChannelAddTo">%1$s kanala ekle?</string>
   <string name="ChannelUserLeftError">Üzgünüz, bu kullanıcı kanaldan ayrılmaya karar verdi, bu yüzden onu tekrar davet edemezsiniz.</string>
   <string name="ChannelUserCantAdd">Üzgünüm, kanala yeni bir kullanıcı ekleyemezsin.</string>
@@ -284,6 +288,7 @@ sorunuz mu var?</string>
   <string name="MoreInfo">Daha fazla bilgi</string>
   <string name="ShareSendTo">Gönder...</string>
   <string name="TapHereGifs">Tap here to access saved GIFs</string>
+  <string name="DeleteBanUser">Kullanıcı yasakla</string>
   <string name="DeleteReportSpam">Spam raporla</string>
   <string name="ReportChat">Raporla</string>
   <string name="ReportChatSpam">Spam</string>
@@ -474,10 +479,12 @@ sorunuz mu var?</string>
   <string name="AskButton">Bir gönüllüye sor</string>
   <string name="TelegramFaq">Telegram SSS</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
+  <string name="PrivacyPolicy">Gizlilik Politikası</string>
   <string name="DeleteLocalization">Yerelleştirme silinsin mi?</string>
   <string name="IncorrectLocalization">Yanlış yerelleştirme dosyası</string>
   <string name="Enabled">Etkin</string>
   <string name="Disabled">Devre dışı</string>
+  <string name="NotificationsServiceConnection">Arkaplan Bağlantısı</string>
   <string name="SortBy">Sırala</string>
   <string name="ImportContacts">Kişileri içe Aktar</string>
   <string name="SortFirstName">Adınız</string>
@@ -541,6 +548,7 @@ sorunuz mu var?</string>
   <string name="ClearMediaCache">Zulayı Temizle</string>
   <string name="CacheClear">Temizle</string>
   <string name="CalculatingSize">Hesaplanıyor...</string>
+  <string name="LocalDocumentCache">Dökümanlar</string>
   <string name="LocalPhotoCache">Photos</string>
   <string name="LocalAudioCache">Sesli mesajlar</string>
   <string name="LocalVideoCache">Videos</string>
@@ -852,6 +860,7 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="AreYouSureSessions">Diğer tüm oturumları sonlandırmak istediğinizden emin misiniz?</string>
   <string name="AreYouSureDeleteAndExit">Grubu silmek ve gruptan ayrılmak istediğinize emin misiniz?</string>
   <string name="AreYouSureDeleteThisChat">Bu sohbeti silmek istediğinizden emin misiniz?</string>
+  <string name="ShareYouLocationUnableManually">Elle seç</string>
   <string name="AreYouSureBlockContact">Bu kişiyi engellemek istediğinizden emin misiniz?</string>
   <string name="AreYouSureUnblockContact">Bu kişinin engelini kaldırmak istediğinizden emin misiniz?</string>
   <string name="AreYouSureDeleteContact">Bu kişiyi silmek istediğinizden emin misiniz?</string>
