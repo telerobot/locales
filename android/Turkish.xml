@@ -13,6 +13,7 @@
   <!--code enter view-->
   <string name="YourCode">Telefon Doğrulama</string>
   <string name="SentSmsCode">Telefonunuza etkinleştirme kodunu içeren bir kısa mesaj gönderdik <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
+  <string name="SentAppCode">Diğer cihazınızdaki <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> uygulamasına kod gönderdik.</string>
   <string name="CallText">Sizi %1$d:%2$02d içinde arayacağız</string>
   <string name="SmsText">Size %1$d:%2$02d içinde bir SMS göndereceğiz</string>
   <string name="Calling">Sizi arıyoruz...</string>
@@ -160,6 +161,7 @@
   <string name="ChannelAdminsInfo">Kanalınızın yönetimine yardımcı olması için yönetici ekleyebilirsiniz. Yönetici kaldırmak için dokunun ve basılı tutun.</string>
   <string name="ChannelJoinTo">\'%1$s\' kanalına katılmak istediğinize emin misiniz?</string>
   <string name="ChannelCantOpenPrivate">Üzgünüz, bu sohbet artık erişilebilir değil.</string>
+  <string name="ChannelCantOpenBanned">Ne yazık ki, açık gruplara katılımınız yasaklanmıştır.</string>
   <string name="ChannelCantOpenNa">Üzgünüz, bu sohbet artık erişilebilir değil.</string>
   <string name="ChannelAddTo">%1$s kanala ekle?</string>
   <string name="ChannelUserLeftError">Üzgünüz, bu kullanıcı kanaldan ayrılmaya karar verdi, bu yüzden onu tekrar davet edemezsiniz.</string>
@@ -288,10 +290,12 @@ sorunuz mu var?</string>
   <string name="MoreInfo">Daha fazla bilgi</string>
   <string name="ShareSendTo">Gönder...</string>
   <string name="TapHereGifs">Tap here to access saved GIFs</string>
+  <string name="PinNotify">Tüm üyeleri bilgilendir</string>
   <string name="DeleteBanUser">Kullanıcı yasakla</string>
   <string name="DeleteReportSpam">Spam raporla</string>
   <string name="ReportChat">Raporla</string>
   <string name="ReportChatSpam">Spam</string>
+  <string name="ReportChatViolence">Şiddet</string>
   <string name="ReportChatPornography">Pornografi</string>
   <string name="ReportChatOther">Diğer</string>
   <string name="ReportChatDescription">Açıklama</string>
@@ -540,6 +544,10 @@ sorunuz mu var?</string>
   <string name="SmartNotificationsMinutes">dakika</string>
   <string name="SecretWebPage">Bağlantı Önizlemeleri</string>
   <string name="SecretChat">Gizli sohbetler</string>
+  <string name="ChromeCustomTabs">Uygulama-İçi Tarayıcı</string>
+  <string name="ChromeCustomTabsInfo">Dış bağlantıları uygulama ile aç</string>
+  <string name="DirectShare">Direkt Paylaşım</string>
+  <string name="DirectShareInfo">Paylaş menüsünde son konuşmaları göster</string>
   <!--cache view-->
   <string name="CacheSettings">Zula Ayarları</string>
   <string name="LocalDatabase">Yerel Veritabanı</string>
@@ -860,7 +868,10 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="AreYouSureSessions">Diğer tüm oturumları sonlandırmak istediğinizden emin misiniz?</string>
   <string name="AreYouSureDeleteAndExit">Grubu silmek ve gruptan ayrılmak istediğinize emin misiniz?</string>
   <string name="AreYouSureDeleteThisChat">Bu sohbeti silmek istediğinizden emin misiniz?</string>
+  <string name="ShareYouLocationTitle">Konumunuz paylaşılsın mı?</string>
   <string name="ShareYouLocationUnableManually">Elle seç</string>
+  <string name="ShareYouPhoneNumberTitle">Telefon numaranız paylaşılsın mı?</string>
+  <string name="AreYouSureShareMyContactInfo">Telefon numaranızı paylaşmak istediğinize emin misiniz?</string>
   <string name="AreYouSureBlockContact">Bu kişiyi engellemek istediğinizden emin misiniz?</string>
   <string name="AreYouSureUnblockContact">Bu kişinin engelini kaldırmak istediğinizden emin misiniz?</string>
   <string name="AreYouSureDeleteContact">Bu kişiyi silmek istediğinizden emin misiniz?</string>
@@ -868,6 +879,7 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="AreYouSureRegistration">Kayıt işlemini iptal etmek istediğinize emin misiniz?</string>
   <string name="AreYouSureClearHistory">Geçmişi silmek istediğinize emin misiniz?</string>
   <string name="AreYouSureClearHistoryChannel">Önbelleğe alınmış tüm metin ve medyayı bu kanaldan silmek istiyor musunuz?</string>
+  <string name="AreYouSureClearHistorySuper">Bu gruptaki tüm önbelleklenen yazı ve medyaları sil?</string>
   <string name="AreYouSureDeleteMessages">%1$s\'i silmek istediğinize emin misiniz ? </string>
   <string name="SendMessagesToGroup">%1$s kişisine mesajları gönder?</string>
   <string name="SendContactToGroup">%1$s kullanıcısına kişi göndermek istiyor musunuz?</string>
@@ -877,6 +889,7 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="BotCantJoinGroups">Bu bot gruplara katılamaz.</string>
   <string name="SecretLinkPreviewAlert">Gizli Sohbetler\'de genişletilmiş bağlantı önizlemelerini kullanmak istiyor musunuz? Bağlantı önizlemelerinin Telegram sunucularında oluşturulduğunu aklınızda bulundurun.</string>
   <!--permissions-->
+  <string name="PermissionNoLocationPosition">Telegram konumunuza erişmeye ihtiyaç duyuyor.</string>
   <string name="PermissionOpenSettings">AYARLAR</string>
   <!--Intro view-->
   <string name="Page1Title">Telegram</string>
@@ -908,6 +921,7 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="Members_many">%1$d üye</string>
   <string name="Members_other">%1$d üye</string>
   <string name="AndMoreTyping_zero">ve %1$d\'den fazla insan yazıyor</string>
+  <string name="AndMoreTyping_one">ve %1$d kişi daha yazıyor</string>
   <string name="AndMoreTyping_two">ve %1$d\'den fazla insan yazıyor</string>
   <string name="AndMoreTyping_few">ve %1$d\'den fazla insan yazıyor</string>
   <string name="AndMoreTyping_many">ve %1$d\'den fazla insan yazıyor</string>
