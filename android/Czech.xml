@@ -265,7 +265,6 @@
   <string name="SetTimer">Nastavit časovač sebedestrukce</string>
   <string name="ServiceNotifications">Služby upozornění</string>
   <string name="GettingLinkInfo">Získávání informací o odkazu...</string>
-  <string name="OpenInBrowser">Otevřít v prohlížeči</string>
   <string name="CopyUrl">Kopírovat odkaz</string>
   <string name="SendItems">Odeslat %1$s</string>
   <string name="OpenUrlAlert">Otevřít url %1$s?</string>

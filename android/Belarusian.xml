@@ -300,7 +300,6 @@
   <string name="SetTimer">Усталяваць таймер самазнішчэння</string>
   <string name="ServiceNotifications">Службовыя апавяшчэнні</string>
   <string name="GettingLinkInfo">Атрымоўваем звесткі аб спасылцы..</string>
-  <string name="OpenInBrowser">Адкрыць у адглядніку</string>
   <string name="CopyUrl">Скапіяваць спасылку</string>
   <string name="SendItems">Даслаць %1$s</string>
   <string name="OpenUrlAlert">Адкрыць спасылку «%1$s»?</string>

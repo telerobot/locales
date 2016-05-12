@@ -299,7 +299,6 @@
   <string name="SetTimer">Установить таймер самоуничтожения</string>
   <string name="ServiceNotifications">Служебные уведомления</string>
   <string name="GettingLinkInfo">Получаю информацию о ссылке...</string>
-  <string name="OpenInBrowser">Открыть в браузере</string>
   <string name="CopyUrl">Копировать ссылку</string>
   <string name="SendItems">Отправить %1$s</string>
   <string name="OpenUrlAlert">Открыть ссылку в %1$s?</string>

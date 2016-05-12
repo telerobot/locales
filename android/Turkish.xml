@@ -275,7 +275,6 @@ sorunuz mu var?</string>
   <string name="SetTimer">Kendini imha etme zamanlayıcıyıcısını ayarla</string>
   <string name="ServiceNotifications">Servis bildirimleri</string>
   <string name="GettingLinkInfo">Bağlantı bilgisi alınıyor...</string>
-  <string name="OpenInBrowser">Tarayıcıda aç</string>
   <string name="CopyUrl">Adresi Kopyala</string>
   <string name="SendItems">Gönder %1$s</string>
   <string name="OpenUrlAlert">%1$s? bağlantısını aç?</string>

@@ -303,7 +303,6 @@
   <string name="SetTimer">Үз-үзен бетерү вакытын кую</string>
   <string name="ServiceNotifications">Хезмәт белгертүләре</string>
   <string name="GettingLinkInfo">Сылтама турында мәгълүмат алам...</string>
-  <string name="OpenInBrowser">Браузерда ачу</string>
   <string name="CopyUrl">Сылтамадан күчермә ясау</string>
   <string name="SendItems">%1$s җибәрү </string>
   <string name="OpenUrlAlert">Сылтамыны %1$s ачаргамы?</string>

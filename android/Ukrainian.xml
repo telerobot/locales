@@ -301,7 +301,6 @@
   <string name="SetTimer">Встановити таймер самознищення</string>
   <string name="ServiceNotifications">Службові повідомлення</string>
   <string name="GettingLinkInfo">Отримання інформації посилання</string>
-  <string name="OpenInBrowser">Відкрити в браузері</string>
   <string name="CopyUrl">Копіювати URL</string>
   <string name="SendItems">Надіслати %1$s</string>
   <string name="OpenUrlAlert">Відкрити url %1$s?</string>
