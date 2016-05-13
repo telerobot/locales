@@ -68,6 +68,7 @@
   <string name="MuteDisable">Сүндерү</string>
   <string name="Hashtags">ХЭШТЕГЛАР</string>
   <string name="Recent">Күптән түгел</string>
+  <string name="ChatHints">ЧАТЛАР</string>
   <string name="LinkPreview">Сылтамаларны алдан карау</string>
   <!--channels-->
   <string name="GroupType">Төркем төре</string>
@@ -334,6 +335,7 @@
   <string name="ReportChatOther">Бүтән</string>
   <string name="ReportChatDescription">Тасвирлама</string>
   <string name="PinnedMessage">Беркетелгән хат</string>
+  <string name="EditedMessage">үзгәртелде</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s үз-үзен бетерү вакытын куйды: %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Үз-үзен бетерү вакыты: %1$s</string>
