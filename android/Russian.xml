@@ -64,6 +64,8 @@
   <string name="MuteDisable">Отключить</string>
   <string name="Hashtags">ХЭШТЕГИ</string>
   <string name="Recent">НЕДАВНЕЕ</string>
+  <string name="ChatHints">ЧАТЫ</string>
+  <string name="ChatHintsDelete">Убрать %1$s из предложений?</string>
   <string name="LinkPreview">Превью ссылок</string>
   <!--channels-->
   <string name="GroupType">Тип группы</string>
@@ -299,6 +301,7 @@
   <string name="SetTimer">Установить таймер самоуничтожения</string>
   <string name="ServiceNotifications">Служебные уведомления</string>
   <string name="GettingLinkInfo">Получаю информацию о ссылке...</string>
+  <string name="OpenInBrowser">ОТКРЫТЬ В...</string>
   <string name="CopyUrl">Копировать ссылку</string>
   <string name="SendItems">Отправить %1$s</string>
   <string name="OpenUrlAlert">Открыть ссылку в %1$s?</string>
@@ -330,6 +333,8 @@
   <string name="ReportChatOther">Другое</string>
   <string name="ReportChatDescription">Описание</string>
   <string name="PinnedMessage">Прикреплённое сообщение</string>
+  <string name="EditedMessage">изменено</string>
+  <string name="AttachBotsHelp">Пролистайте вниз для ботов</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s поставил(а) таймер самоуничтожения на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы поставили таймер самоуничтожения на %1$s</string>
