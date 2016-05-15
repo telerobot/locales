@@ -863,11 +863,6 @@ Smazat a zastavit</string>
   <string name="Members_few">%1$d členů</string>
   <string name="Members_many">%1$d členů</string>
   <string name="Members_other">%1$d členů</string>
-  <string name="AndMoreTyping_zero">a %1$d dalších lidí píše</string>
-  <string name="AndMoreTyping_two">a %1$d další lidé píší</string>
-  <string name="AndMoreTyping_few">a %1$d dalších lidí píše</string>
-  <string name="AndMoreTyping_many">a %1$d dalších lidí píše</string>
-  <string name="AndMoreTyping_other">a %1$d dalších lidí píše</string>
   <string name="NewMessages_zero">žádné nové zprávy</string>
   <string name="NewMessages_one">%1$d nová zpráva</string>
   <string name="NewMessages_two">%1$d nové zprávy</string>

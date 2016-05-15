@@ -509,11 +509,6 @@
   <string name="Members_few">%1$d ta a’zo</string>
   <string name="Members_many">%1$d ta a’zo</string>
   <string name="Members_other">%1$d ta a’zo</string>
-  <string name="AndMoreTyping_zero">va yana %1$d kishi yozmoqda</string>
-  <string name="AndMoreTyping_two">va yana %1$d kishi yozmoqda</string>
-  <string name="AndMoreTyping_few">va yana %1$d kishi yozmoqda</string>
-  <string name="AndMoreTyping_many">va yana %1$d kishi yozmoqda</string>
-  <string name="AndMoreTyping_other">va yana %1$d kishi yozmoqda</string>
   <string name="NewMessages_zero">yangi xabarlar yo‘q</string>
   <string name="NewMessages_one">%1$d ta yangi xabar</string>
   <string name="NewMessages_two">%1$d ta yangi xabar</string>

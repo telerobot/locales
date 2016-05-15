@@ -335,6 +335,10 @@
   <string name="PinnedMessage">Прикреплённое сообщение</string>
   <string name="EditedMessage">изменено</string>
   <string name="AttachBotsHelp">Пролистайте вниз для ботов</string>
+  <string name="TimeToEdit">%1$s</string>
+  <string name="TimeToEditExpired">К сожалению, время для редактирования истекло.</string>
+  <string name="AddShortcut">Добавить ярлык</string>
+  <string name="ShortcutAdded">Ярлык добавлен на рабочий стол</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s поставил(а) таймер самоуничтожения на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы поставили таймер самоуничтожения на %1$s</string>
@@ -1012,12 +1016,12 @@
   <string name="Members_few">%1$d участников</string>
   <string name="Members_many">%1$d участников</string>
   <string name="Members_other">%1$d участников</string>
-  <string name="AndMoreTyping_zero">и ещё %1$d набирают</string>
+  <string name="AndMoreTyping_zero">и ещё %1$d печатают</string>
   <string name="AndMoreTyping_one">и ещё %1$d печатают</string>
-  <string name="AndMoreTyping_two">и ещё %1$d набирают</string>
-  <string name="AndMoreTyping_few">и ещё %1$d набирают</string>
-  <string name="AndMoreTyping_many">и ещё %1$d набирают</string>
-  <string name="AndMoreTyping_other">и ещё %1$d набирают</string>
+  <string name="AndMoreTyping_two">и ещё %1$d печатают</string>
+  <string name="AndMoreTyping_few">и ещё %1$d печатают</string>
+  <string name="AndMoreTyping_many">и ещё %1$d печатают</string>
+  <string name="AndMoreTyping_other">и ещё %1$d печатают</string>
   <string name="NewMessages_zero">нет новых сообщений</string>
   <string name="NewMessages_one">%1$d новое сообщение</string>
   <string name="NewMessages_two">%1$d новых сообщения</string>

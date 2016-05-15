@@ -255,11 +255,6 @@
   <string name="Members_few">%1$d üzv</string>
   <string name="Members_many">%1$d üzv</string>
   <string name="Members_other">%1$d üzv</string>
-  <string name="AndMoreTyping_zero">və %1$d nəfər yazır</string>
-  <string name="AndMoreTyping_two">və %1$d nəfər yazır</string>
-  <string name="AndMoreTyping_few">və %1$d nəfər yazır</string>
-  <string name="AndMoreTyping_many">və %1$d nəfər yazır</string>
-  <string name="AndMoreTyping_other">və %1$d nəfər yazır</string>
   <string name="NewMessages_zero">yeni mesaj yoxdur</string>
   <string name="NewMessages_one">%1$d yeni mesaj</string>
   <string name="NewMessages_two">%1$d yeni mesaj</string>
