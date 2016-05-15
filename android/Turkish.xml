@@ -63,6 +63,7 @@
   <string name="MuteDisable">Kapat</string>
   <string name="Hashtags">HASHTAG\\'LER</string>
   <string name="Recent">EN SON</string>
+  <string name="ChatHints">SOHBETLER</string>
   <string name="LinkPreview">Bağlantı önizlemesi</string>
   <!--channels-->
   <string name="GroupType">Grup Türü</string>
@@ -87,6 +88,8 @@
   <string name="GroupUserCantAdmin">Üzgünüm, bu gruba daha fazla yönetici eklenemez.</string>
   <string name="GroupUserCantBot">Üzgünüz, bu gruba daha fazla bot eklenemez.</string>
   <string name="ActionPinnedNoText">un1 sabitlenmiş ileti</string>
+  <string name="ActionPinnedPhoto">un1 sabitlenmiş fotograf</string>
+  <string name="ActionPinnedVideo">un1 sabitlenmiş vidyo</string>
   <string name="ActionMigrateFromGroup">Bu grup bir üst gruba yükseltldi</string>
   <string name="ActionMigrateFromGroupNotify">%1$s bir süper gruba yükseltildi.</string>
   <string name="NoBlockedGroup">Engellenen kullanıcılar gruptan silinirler ve sadece bir yönetici tarafından davet edildiklerinde geri dönebilirler. Davet bağlantıları onlar için çalışmaz.</string>
