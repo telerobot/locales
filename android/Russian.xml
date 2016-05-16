@@ -89,16 +89,16 @@
   <string name="GroupUserLeftError">К сожалению, этот пользователь самостоятельно покинул группу, поэтому вы не можете пригласить его снова.</string>
   <string name="GroupUserCantAdmin">К сожалению, больше администраторов добавить нельзя.</string>
   <string name="GroupUserCantBot">К сожалению, больше роботов добавить нельзя.</string>
-  <string name="ActionPinnedText">un1 прикрепил «%1$s»</string>
-  <string name="ActionPinnedNoText">un1 прикрепил сообщение</string>
-  <string name="ActionPinnedPhoto">un1 прикрепил фото</string>
-  <string name="ActionPinnedVideo">un1 прикрепил видео</string>
-  <string name="ActionPinnedFile">un1 прикрепил файл</string>
-  <string name="ActionPinnedSticker">un1 прикрепил стикер</string>
-  <string name="ActionPinnedVoice">un1 прикрепил голосовое сообщение</string>
-  <string name="ActionPinnedContact">un1 прикрепил контактные данные</string>
-  <string name="ActionPinnedGeo">un1 прикрепил карту</string>
-  <string name="ActionPinnedGif">un1 прикрепил GIF-анимацию</string>
+  <string name="ActionPinnedText">un1 прикрепил(а) «%1$s»</string>
+  <string name="ActionPinnedNoText">un1 прикрепил(а) сообщение</string>
+  <string name="ActionPinnedPhoto">un1 прикрепил(а) фото</string>
+  <string name="ActionPinnedVideo">un1 прикрепил(а) видео</string>
+  <string name="ActionPinnedFile">un1 прикрепил(а) файл</string>
+  <string name="ActionPinnedSticker">un1 прикрепил(а) стикер</string>
+  <string name="ActionPinnedVoice">un1 прикрепил(а) голосовое сообщение</string>
+  <string name="ActionPinnedContact">un1 прикрепил(а) контактные данные</string>
+  <string name="ActionPinnedGeo">un1 прикрепил(а) карту</string>
+  <string name="ActionPinnedGif">un1 прикрепил(а) GIF-анимацию</string>
   <string name="ActionPinnedMusic">un1 прикрепил аудиозапись</string>
   <string name="ActionMigrateFromGroup">Эта группа была преобразована в супергруппу</string>
   <string name="ActionMigrateFromGroupNotify">%1$s преобразована в супергруппу</string>
@@ -206,6 +206,7 @@
   <string name="ChannelMessageGroupAudio">%1$s опубликовал(а) аудиозапись на канале «%2$s»</string>
   <string name="ChannelMessageGroupMusic">%1$s опубликовал(а) аудиозапись на канале %2$s</string>
   <string name="ChannelMessageGroupSticker">%1$s отправил(а) стикер на канал %2$s</string>
+  <string name="ChannelMessageGroupStickerEmoji">%1$s опубликовала(а) стикер %3$s на канале %2$s</string>
   <string name="ChannelMessageNoText">%1$s опубликовал(а) сообщение</string>
   <string name="ChannelMessagePhoto">%1$s опубликовал(а) фото</string>
   <string name="ChannelMessageVideo">%1$s опубликовал(а) видео</string>
@@ -216,6 +217,7 @@
   <string name="ChannelMessageAudio">%1$s опубликовал(а) аудиозапись</string>
   <string name="ChannelMessageMusic">%1$s опубликовал(а) аудиозапись</string>
   <string name="ChannelMessageSticker">%1$s опубликовал(а) стикер</string>
+  <string name="ChannelMessageStickerEmoji">%1$s опубликовал(а) стикер %2$s</string>
   <string name="WhoCanAddMembers">Кто может добавлять новых пользователей?</string>
   <string name="WhoCanAddMembersAllMembers">Все участники</string>
   <string name="WhoCanAddMembersAdmins">Только администраторы</string>
@@ -333,7 +335,7 @@
   <string name="ReportChatOther">Другое</string>
   <string name="ReportChatDescription">Описание</string>
   <string name="PinnedMessage">Прикреплённое сообщение</string>
-  <string name="EditedMessage">изменено</string>
+  <string name="EditedMessage">изм.</string>
   <string name="AttachBotsHelp">Пролистайте вниз для ботов</string>
   <string name="TimeToEdit">%1$s</string>
   <string name="TimeToEditExpired">К сожалению, время для редактирования истекло.</string>
@@ -356,6 +358,7 @@
   <string name="NotificationMessageAudio">%1$s прислал(а) аудиозапись</string>
   <string name="NotificationMessageMusic">%1$s прислал(а) вам аудиозапись</string>
   <string name="NotificationMessageSticker">%1$s отправил(а) вам стикер</string>
+  <string name="NotificationMessageStickerEmoji">%1$s отправил(а) вам стикер %2$s</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s отправил(а) сообщение в группу %2$s</string>
   <string name="NotificationMessageGroupPhoto">%1$s отправил(а) фото в группу %2$s</string>
@@ -367,6 +370,7 @@
   <string name="NotificationMessageGroupAudio">%1$s отправил(а) аудиозапись в группу %2$s</string>
   <string name="NotificationMessageGroupMusic">%1$s отправил(а) аудиозапись в группу %2$s</string>
   <string name="NotificationMessageGroupSticker">%1$s отправил(а) стикер в группу %2$s</string>
+  <string name="NotificationMessageGroupStickerEmoji">%1$s отправил(а) стикер %3$s в группу %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s пригласил(а) вас в группу %2$s</string>
   <string name="NotificationEditedGroupName">%1$s изменил(а) имя группы %2$s</string>
   <string name="NotificationEditedGroupPhoto">%1$s изменил(а) фото группы %2$s</string>
@@ -390,6 +394,7 @@
   <string name="NotificationActionPinnedVideo">%1$s прикрепил(а) видео в группе %2$s</string>
   <string name="NotificationActionPinnedFile">%1$s прикрепил(а) файл в группе %2$s</string>
   <string name="NotificationActionPinnedSticker">%1$s прикрепил(а) стикер в группе %2$s</string>
+  <string name="NotificationActionPinnedStickerEmoji">%1$s прикрепил(а) стикер %3$s в группе %2$s</string>
   <string name="NotificationActionPinnedVoice">%1$s прикрепил(а) голосовое сообщение в группе %2$s</string>
   <string name="NotificationActionPinnedContact">%1$s прикрепил(а) контактные данные в группе %2$s</string>
   <string name="NotificationActionPinnedGeo">%1$s прикрепил(а) карту в группе %2$s</string>
@@ -401,6 +406,7 @@
   <string name="NotificationActionPinnedVideoChannel">%1$s прикрепил(а) видео</string>
   <string name="NotificationActionPinnedFileChannel">%1$s прикрепил(а) файл</string>
   <string name="NotificationActionPinnedStickerChannel">%1$s прикрепил(а) стикер</string>
+  <string name="NotificationActionPinnedStickerEmojiChannel">%1$s прикрепил(а) стикер %2$s</string>
   <string name="NotificationActionPinnedVoiceChannel">%1$s прикрепил(а) голосовое сообщение</string>
   <string name="NotificationActionPinnedContactChannel">%1$s прикрепил(а) контактные данные</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s прикрепил(а) карту</string>
@@ -871,7 +877,7 @@
   <string name="Cancel">Отмена</string>
   <string name="Close">Закрыть</string>
   <string name="Add">Добавить</string>
-  <string name="Edit">Редактировать</string>
+  <string name="Edit">Изменить</string>
   <string name="Send">Отправить</string>
   <string name="Call">Позвонить</string>
   <string name="Copy">Копировать</string>
