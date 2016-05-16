@@ -69,6 +69,7 @@
   <string name="Hashtags">ХЭШТЕГЛАР</string>
   <string name="Recent">Күптән түгел</string>
   <string name="ChatHints">ЧАТЛАР</string>
+  <string name="ChatHintsDelete">%1$s тәкъдимнәрдән алыргамы?</string>
   <string name="LinkPreview">Сылтамаларны алдан карау</string>
   <!--channels-->
   <string name="GroupType">Төркем төре</string>
@@ -209,6 +210,7 @@
   <string name="ChannelMessageGroupAudio">%1$s %2$s каналында тавышлы хат калдырды</string>
   <string name="ChannelMessageGroupMusic">%1$s %2$s каналында трек калдырды</string>
   <string name="ChannelMessageGroupSticker">%1$s %2$s каналында стикер калдырды</string>
+  <string name="ChannelMessageGroupStickerEmoji">%1$s %2$s каналында %3$s стикерын калдырды</string>
   <string name="ChannelMessageNoText">%1$s хат язды</string>
   <string name="ChannelMessagePhoto">%1$s фото җибәрде</string>
   <string name="ChannelMessageVideo">%1$s видео җибәрде</string>
@@ -219,6 +221,7 @@
   <string name="ChannelMessageAudio">%1$s аудиоязма җибәрде</string>
   <string name="ChannelMessageMusic">%1$s трек калдырды</string>
   <string name="ChannelMessageSticker">%1$s стикер җибәрде</string>
+  <string name="ChannelMessageStickerEmoji">%1$s %2$s стикерын калдырды</string>
   <string name="WhoCanAddMembers">Яңа кулланучыларны кем өсти ала?</string>
   <string name="WhoCanAddMembersAllMembers">Бөтен катнашучылар</string>
   <string name="WhoCanAddMembersAdmins">Администраторлар гына</string>
@@ -304,6 +307,7 @@
   <string name="SetTimer">Үз-үзен бетерү вакытын кую</string>
   <string name="ServiceNotifications">Хезмәт белгертүләре</string>
   <string name="GettingLinkInfo">Сылтама турында мәгълүмат алам...</string>
+  <string name="OpenInBrowser">КУЛЛАНЫП АЧУ...</string>
   <string name="CopyUrl">Сылтамадан күчермә ясау</string>
   <string name="SendItems">%1$s җибәрү </string>
   <string name="OpenUrlAlert">Сылтамыны %1$s ачаргамы?</string>
@@ -336,6 +340,11 @@
   <string name="ReportChatDescription">Тасвирлама</string>
   <string name="PinnedMessage">Беркетелгән хат</string>
   <string name="EditedMessage">үзгәртелде</string>
+  <string name="AttachBotsHelp">Ботлар өчен аска сыпырыгыз</string>
+  <string name="TimeToEdit">%1$s</string>
+  <string name="TimeToEditExpired">Гафу итегез, үзгәртү вакыты чыкты.</string>
+  <string name="AddShortcut">Билгечек өстәү</string>
+  <string name="ShortcutAdded">Билгечек эш өстәленә өстәлде</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s үз-үзен бетерү вакытын куйды: %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Үз-үзен бетерү вакыты: %1$s</string>
@@ -353,6 +362,7 @@
   <string name="NotificationMessageAudio">%1$s сезгә тавышлы хат җибәрде</string>
   <string name="NotificationMessageMusic">%1$s сезгә трек җибәрде</string>
   <string name="NotificationMessageSticker">%1$s сезгә стикер җибәрде</string>
+  <string name="NotificationMessageStickerEmoji">%1$s сезгә %2$s стикерын җибәрде</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s %2$s төркеменә хат җибәрде</string>
   <string name="NotificationMessageGroupPhoto">%1$s %2$s төркеменә фото җибәрде</string>
@@ -364,6 +374,7 @@
   <string name="NotificationMessageGroupAudio">%1$s %2$s төркеменә тавышлы хат җибәрде</string>
   <string name="NotificationMessageGroupMusic">%1$s %2$s төркеменә трек җибәрде</string>
   <string name="NotificationMessageGroupSticker">%1$s %2$s төркеменә стикер җибәрде</string>
+  <string name="NotificationMessageGroupStickerEmoji">%1$s %2$s төркеменә %3$s стикерын җибәрде</string>
   <string name="NotificationInvitedToGroup">%1$s сезне %2$s төркеменә чакырды</string>
   <string name="NotificationEditedGroupName">%1$s %2$s төркеменең исемен үзгәртте</string>
   <string name="NotificationEditedGroupPhoto">%1$s %2$s төркеменең фотосын үзгәртте</string>
@@ -389,23 +400,25 @@
   <string name="ReplyToGroup">%1$s төркеменә җавап бирү</string>
   <string name="ReplyToUser">%1$s кулланучысына җавап бирү</string>
   <string name="NotificationMessagesPeopleDisplayOrder">%1$s %2$s</string>
-  <string name="NotificationActionPinnedText">%1$s \"%2$s\" %3$s төркеменә беркетте</string>
-  <string name="NotificationActionPinnedNoText">%1$s %2$s төркеменә хат беркетте</string>
-  <string name="NotificationActionPinnedPhoto">%1$s %2$s төркеменә фото беркетте</string>
-  <string name="NotificationActionPinnedVideo">%1$s %2$s төркеменә видео беркетте</string>
-  <string name="NotificationActionPinnedFile">%1$s %2$s төркеменә файл беркетте</string>
-  <string name="NotificationActionPinnedSticker">%1$s %2$s төркеменә стикер беркетте</string>
-  <string name="NotificationActionPinnedVoice">%1$s %2$s төркеменә тавышлы хат беркетте</string>
-  <string name="NotificationActionPinnedContact">%1$s %2$s төркеменә контакт беркетте</string>
-  <string name="NotificationActionPinnedGeo">%1$s %2$s төркеменә карта беркетте</string>
-  <string name="NotificationActionPinnedGif">%1$s %2$s төркеменә GIF беркетте</string>
-  <string name="NotificationActionPinnedMusic">%1$s %2$s төркеменә трек беркетте</string>
+  <string name="NotificationActionPinnedText">%1$s \"%2$s\" %3$s төркемендә беркетте</string>
+  <string name="NotificationActionPinnedNoText">%1$s %2$s төркемендә хат беркетте</string>
+  <string name="NotificationActionPinnedPhoto">%1$s %2$s төркемендә фото беркетте</string>
+  <string name="NotificationActionPinnedVideo">%1$s %2$s төркемендә видео беркетте</string>
+  <string name="NotificationActionPinnedFile">%1$s %2$s төркемендә файл беркетте</string>
+  <string name="NotificationActionPinnedSticker">%1$s %2$s төркемендә стикер беркетте</string>
+  <string name="NotificationActionPinnedStickerEmoji">%1$s %2$s төркемендә %3$s стикерын беркетте</string>
+  <string name="NotificationActionPinnedVoice">%1$s %2$s төркемендә тавышлы хат беркетте</string>
+  <string name="NotificationActionPinnedContact">%1$s %2$s төркемендә контакт беркетте</string>
+  <string name="NotificationActionPinnedGeo">%1$s %2$s төркемендә карта беркетте</string>
+  <string name="NotificationActionPinnedGif">%1$s %2$s төркемендә GIF беркетте</string>
+  <string name="NotificationActionPinnedMusic">%1$s %2$s төркемендә трек беркетте</string>
   <string name="NotificationActionPinnedTextChannel">%1$s \"%2$s\" беркетте</string>
   <string name="NotificationActionPinnedNoTextChannel">%1$s хат беркетте</string>
   <string name="NotificationActionPinnedPhotoChannel">%1$s фото беркетте</string>
   <string name="NotificationActionPinnedVideoChannel">%1$s видео беркетте</string>
   <string name="NotificationActionPinnedFileChannel">%1$s файл беркетте</string>
   <string name="NotificationActionPinnedStickerChannel">%1$s стикер беркетте</string>
+  <string name="NotificationActionPinnedStickerEmojiChannel">%1$s %2$s стикерын беркетте</string>
   <string name="NotificationActionPinnedVoiceChannel">%1$s тавышлы хат беркетте</string>
   <string name="NotificationActionPinnedContactChannel">%1$s контакт беркетте</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s карта беркетте</string>
@@ -1027,6 +1040,12 @@
   <string name="Members_few">%1$d катнашучы</string>
   <string name="Members_many">%1$d катнашучы</string>
   <string name="Members_other">%1$d катнашучы</string>
+  <string name="AndMoreTyping_zero">һәм тагын %1$d яза</string>
+  <string name="AndMoreTyping_one">һәм тагын %1$d яза</string>
+  <string name="AndMoreTyping_two">һәм тагын %1$d яза</string>
+  <string name="AndMoreTyping_few">һәм тагын %1$d яза</string>
+  <string name="AndMoreTyping_many">һәм тагын %1$d яза</string>
+  <string name="AndMoreTyping_other">һәм тагын %1$d яза</string>
   <string name="NewMessages_zero">яңа хатлар юк</string>
   <string name="NewMessages_one">%1$d яңа хат</string>
   <string name="NewMessages_two">%1$d яңа хат</string>
