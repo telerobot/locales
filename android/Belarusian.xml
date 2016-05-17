@@ -65,6 +65,8 @@
   <string name="MuteDisable">Адключыць</string>
   <string name="Hashtags">ЦЭТЛІКІ</string>
   <string name="Recent">НЯДАЎНІЯ</string>
+  <string name="ChatHints">РАЗМОВЫ</string>
+  <string name="ChatHintsDelete">Выдаліць %1$s з прапаноў?</string>
   <string name="LinkPreview">Перадпрагляд спасылкі</string>
   <!--channels-->
   <string name="GroupType">Тып суполкі</string>
@@ -205,6 +207,7 @@
   <string name="ChannelMessageGroupAudio">%1$s даслаў аўдыязапіс у канал %2$s</string>
   <string name="ChannelMessageGroupMusic">%1$s даслаў(-ла) песню ў канал %2$s</string>
   <string name="ChannelMessageGroupSticker">%1$s даслаў налепку ў канал %2$s</string>
+  <string name="ChannelMessageGroupStickerEmoji">%1$s даслаў %3$s налепку ў канал %2$s</string>
   <string name="ChannelMessageNoText">%1$s размясціў запіс</string>
   <string name="ChannelMessagePhoto">%1$s размясціў выяву</string>
   <string name="ChannelMessageVideo">%1$s размясціў відэазапіс</string>
@@ -215,6 +218,7 @@
   <string name="ChannelMessageAudio">%1$s размясціў аўдыязапіс</string>
   <string name="ChannelMessageMusic">%1$s размясціў(-ла) песню</string>
   <string name="ChannelMessageSticker">%1$s размясціў налепку</string>
+  <string name="ChannelMessageStickerEmoji">%1$s размясціў %2$s налепку</string>
   <string name="WhoCanAddMembers">Хто можа дадаваць новых удзельнікаў?</string>
   <string name="WhoCanAddMembersAllMembers">Усе ўдзельнікі</string>
   <string name="WhoCanAddMembersAdmins">Толькі кіраўнікі</string>
@@ -300,6 +304,7 @@
   <string name="SetTimer">Усталяваць таймер самазнішчэння</string>
   <string name="ServiceNotifications">Службовыя апавяшчэнні</string>
   <string name="GettingLinkInfo">Атрымоўваем звесткі аб спасылцы..</string>
+  <string name="OpenInBrowser">АДКРЫЦЬ ПРАЗ...</string>
   <string name="CopyUrl">Скапіяваць спасылку</string>
   <string name="SendItems">Даслаць %1$s</string>
   <string name="OpenUrlAlert">Адкрыць спасылку «%1$s»?</string>
@@ -331,6 +336,12 @@
   <string name="ReportChatOther">Іншае</string>
   <string name="ReportChatDescription">Апісанне</string>
   <string name="PinnedMessage">Замацаванае паведамленне</string>
+  <string name="EditedMessage">зменена</string>
+  <string name="AttachBotsHelp">Гартніце долу для ботаў</string>
+  <string name="TimeToEdit">%1$s</string>
+  <string name="TimeToEditExpired">Выбачайце, але гэта больш нельга рэдагаваць.</string>
+  <string name="AddShortcut">Дадаць скарот</string>
+  <string name="ShortcutAdded">Скарот даданы на галоўны экран</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s усталяваў таймер самазнішчэння на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы ўсталявалі таймер самазнішчэння на %1$s</string>
@@ -348,6 +359,7 @@
   <string name="NotificationMessageAudio">%1$s даслаў вам аўдыязапіс</string>
   <string name="NotificationMessageMusic">%1$s даслаў(-ла) вам песню</string>
   <string name="NotificationMessageSticker">%1$s даслаў вам налепку</string>
+  <string name="NotificationMessageStickerEmoji">%1$s sent you a %2$s sticker</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s даслаў паведамленне ў суполку %2$s</string>
   <string name="NotificationMessageGroupPhoto">%1$s даслаў фота ў суполку %2$s</string>
@@ -359,6 +371,7 @@
   <string name="NotificationMessageGroupAudio">%1$s даслаў аўдыязапіс у суполку %2$s</string>
   <string name="NotificationMessageGroupMusic">%1$s даслаў(-ла) песню ў суполку %2$s</string>
   <string name="NotificationMessageGroupSticker">%1$s даслаў налепку ў суполку %2$s</string>
+  <string name="NotificationMessageGroupStickerEmoji">%1$s sent a %3$s sticker to the group %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s запрасіў вас у суполку %2$s</string>
   <string name="NotificationEditedGroupName">%1$s адрэдагаваў імя суполкі %2$s</string>
   <string name="NotificationEditedGroupPhoto">%1$s адрэдагаваў фотаздымак суполкі %2$s</string>
@@ -382,6 +395,7 @@
   <string name="NotificationActionPinnedVideo">%1$s замацаваў(-ла) відэазапіс у суполцы %2$s</string>
   <string name="NotificationActionPinnedFile">%1$s замацаваў(-ла) файл у суполцы %2$s</string>
   <string name="NotificationActionPinnedSticker">%1$s замацаваў(-ла) налепку ў суполцы %2$s</string>
+  <string name="NotificationActionPinnedStickerEmoji">%1$s замацаваў(-ла) %3$s налепку ў суполцы %2$s</string>
   <string name="NotificationActionPinnedVoice">%1$s замацаваў(-ла) аўдыязапіс у суполцы %2$s</string>
   <string name="NotificationActionPinnedContact">%1$s замацаваў(-ла) кантакт у суполцы %2$s</string>
   <string name="NotificationActionPinnedGeo">%1$s замацаваў(-ла) карту ў суполцы %2$s</string>
@@ -393,6 +407,7 @@
   <string name="NotificationActionPinnedVideoChannel">%1$s замацаваў(-ла) відэазапіс</string>
   <string name="NotificationActionPinnedFileChannel">%1$s замацаваў(-ла) файл</string>
   <string name="NotificationActionPinnedStickerChannel">%1$s замацаваў(-ла) налепку</string>
+  <string name="NotificationActionPinnedStickerEmojiChannel">%1$s замацаваў(-ла) %2$s налепку</string>
   <string name="NotificationActionPinnedVoiceChannel">%1$s замацаваў(-ла) аўдыязапіс</string>
   <string name="NotificationActionPinnedContactChannel">%1$s замацаваў(-ла) кантакт</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s замацаваў(-ла) карту</string>
@@ -1005,6 +1020,12 @@
   <string name="Members_few">%1$d удзельнікі</string>
   <string name="Members_many">%1$d удзельнікаў</string>
   <string name="Members_other">%1$d удзельнікаў</string>
+  <string name="AndMoreTyping_zero">і яшчэ %1$d пішуць</string>
+  <string name="AndMoreTyping_one">і яшчэ %1$d пішуць</string>
+  <string name="AndMoreTyping_two">і яшчэ %1$d пішуць</string>
+  <string name="AndMoreTyping_few">і яшчэ %1$d пішуць</string>
+  <string name="AndMoreTyping_many">і яшчэ %1$d пішуць</string>
+  <string name="AndMoreTyping_other">і яшчэ %1$d пішуць</string>
   <string name="NewMessages_zero">няма новых паведамленняў</string>
   <string name="NewMessages_one">%1$d новае паведамленне</string>
   <string name="NewMessages_two">%1$d новыя паведамленні</string>
