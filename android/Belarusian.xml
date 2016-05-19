@@ -44,7 +44,7 @@
   <string name="AwaitingEncryption">Чакаем, калі %s з’явіцца ў сетцы...</string>
   <string name="EncryptionRejected">Сакрэтная размова скасавана</string>
   <string name="EncryptionProcessing">Абмен ключамі шыфравання...</string>
-  <string name="EncryptedChatStartedOutgoing">%s далучыўся да вашай сакрэтнай размовы.</string>
+  <string name="EncryptedChatStartedOutgoing">%s далучыўся(-лася) да вашай сакрэтнай размовы.</string>
   <string name="EncryptedChatStartedIncoming">Вы далучыліся да сакрэтнай размовы</string>
   <string name="ClearHistory">Ачысціць гісторыю</string>
   <string name="ClearHistoryCache">Выдаліць з кэша</string>
@@ -83,7 +83,7 @@
   <string name="MegaAdminsInfo">Калі вам патрэбная дапамога ў кіраванні суполкай, вы можаце прызначыць кіраўнікоў. Каб разжалаваць кіраўніка, датыкніцеся да яго і ўтрымлівайце. </string>
   <string name="MegaDeleteAlert">Пачакайце! Калі вы выдаліце гэтую суполку, удзельнікі страцяць доступ да яе, а паведамленні будуць выдаленыя. Вы сапраўды жадаеце гэта зрабіць?</string>
   <string name="ActionCreateMega">Суполка створана</string>
-  <string name="MegaAddedBy">un1 дадаў вас у гэтую суполку</string>
+  <string name="MegaAddedBy">un1 дадаў(-ла) вас у гэтую суполку</string>
   <string name="MegaLeaveAlert">Вы ўпэўненыя, што жадаеце пакінуць гэтую суполку? </string>
   <string name="GroupUserCantAdd">Выбачайце, але вы не можаце дадаваць гэтага карыстальніка да суполак.</string>
   <string name="GroupUserAddLimit">Выбачайце, але гэтая суполка ўжо поўная.</string>
@@ -381,12 +381,12 @@
   <string name="NotificationGroupKickMember">%1$s выдаліў %3$s з суполкі %2$s</string>
   <string name="NotificationGroupKickYou">%1$s выдаліў вас з суполкі %2$s</string>
   <string name="NotificationGroupLeftMember">%1$s пакінуў суполку %2$s</string>
-  <string name="NotificationContactJoined">%1$s далучыўся да Тэлеграма!</string>
+  <string name="NotificationContactJoined">%1$s далучыўся(-лася) да Тэлеграма!</string>
   <string name="NotificationUnrecognizedDevice">%1$s,\nМы заўважылі, што нехта зайшоў у ваш уліковы запіс з новага ўстройства.\n\nДата і час: %2$s\nУстройства: %3$s\nМесцазнаходжанне: %4$s\n\nКалі гэта былі не вы, вы можаце зайсці ў Налады — Прыватнасць і бяспека — Сэсіі і скасаваць гэтую сэсію.\n\nКалі вы падазраеце, што нехта зайшоў у ваш уліковы запіс без вашага ведама, вы можаце ўключыць двухкрокавую верыфікацыю ў наладах прыватнасці і бяспекі.\n\nЗ павагай,\nКаманда Тэлеграма</string>
   <string name="NotificationContactNewPhoto">%1$s абнавіў фота профілю</string>
-  <string name="NotificationInvitedToGroupByLink">%1$s далучыўся да суполкі %2$s праз спасылку-запрашэнне</string>
+  <string name="NotificationInvitedToGroupByLink">%1$s далучыўся(-лася) да суполкі %2$s праз спасылку-запрашэнне</string>
   <string name="Reply">Адказ</string>
-  <string name="ReplyToGroup">Адказаць групе %1$s</string>
+  <string name="ReplyToGroup">Адказаць у суполку %1$s</string>
   <string name="ReplyToUser">Адказаць карыстальніку %1$s</string>
   <string name="NotificationMessagesPeopleDisplayOrder">%1$s %2$s</string>
   <string name="NotificationActionPinnedText">%1$s замацаваў(-ла) \"%2$s\" у суполцы %3$s</string>
@@ -898,7 +898,7 @@
   <string name="ActionInviteUser">un1 далучыўся да суполкі праз спасылку-запрашэнне</string>
   <string name="ActionKickUser">un1 выдаліў un2</string>
   <string name="ActionLeftUser">un1 пакінуў суполку</string>
-  <string name="ActionAddUser">un1 дадаў un2</string>
+  <string name="ActionAddUser">un1 дадаў(-ла) un2</string>
   <string name="ActionRemovedPhoto">un1 выдаліў фотаздымак суполкі</string>
   <string name="ActionChangedPhoto">un1 змяніў фотаздымак суполкі</string>
   <string name="ActionChangedTitle">un1 змяніў імя суполкі на un2</string>
@@ -949,8 +949,8 @@
   <string name="SendMessagesTo">Адправіць паведамленне да %1$s?</string>
   <string name="SendContactTo">Даслаць кантакт да %1$s?</string>
   <string name="AreYouSureLogout">Вы ўпэўненыя, што жадаеце выйсці?\n\nЗвярніце ўвагу, што вы можаце заходзіць у Тэлеграм з усіх сваіх устройстваў адначасова.\n\nІ не забудзьцеся, што выхад з уліковага запісу выдаліць вашыя сакрэтныя размовы!</string>
-  <string name="AreYouSureSessions">Напраўду жадаеце закрыць усе іншыя сесіі?</string>
-  <string name="AreYouSureDeleteAndExit">Напраўду жадаеце выдаліць і пакінуць групу?</string>
+  <string name="AreYouSureSessions">Вы сапраўды жадаеце закрыць усе іншыя сэсіі?</string>
+  <string name="AreYouSureDeleteAndExit">Вы сапраўды жадаеце пакінуць суполку і выдаліць гісторыю паведамленняў?</string>
   <string name="AreYouSureDeleteThisChat">Вы сапраўды жадаеце выдаліць гэтую размову?</string>
   <string name="ShareYouLocationTitle">Падзяліцца месцазнаходжаннем?</string>
   <string name="ShareYouLocationInfo">Гэта дашле вашае бягучае месцазнаходжанне боту.</string>
@@ -961,8 +961,8 @@
   <string name="AreYouSureShareMyContactInfoBot">Бот будзе ведаць ваш нумар тэлефону. Гэта можа быць карысна для інтэграцыі з іншымі сэрвісамі.</string>
   <string name="AreYouSureShareMyContactInfoUser">Вы сапраўды жадаеце падзяліцца сваім нумарам %1$s з <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>?</string>
   <string name="AreYouSureShareMyContactInfo">Вы сапраўды жадаеце падзяліцца сваім нумарам тэлефону?</string>
-  <string name="AreYouSureBlockContact">Напраўду жадаеце заблакіраваць кантакт?</string>
-  <string name="AreYouSureUnblockContact">Напраўду жадаеце разблакіраваць кантакт?</string>
+  <string name="AreYouSureBlockContact">Вы сапраўды жадаеце заблакаваць кантакт?</string>
+  <string name="AreYouSureUnblockContact">Вы сапраўды жадаеце разблакаваць кантакт?</string>
   <string name="AreYouSureDeleteContact">Вы сапраўды жадаеце выдаліць гэты кантакт?</string>
   <string name="AreYouSureSecretChat">Вы сапраўды жадаеце распачаць сакрэтную размову?</string>
   <string name="AreYouSureRegistration">Вы ўпэўненыя, што жадаеце скасаваць рэгістрацыю?</string>

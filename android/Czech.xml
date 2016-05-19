@@ -12,7 +12,12 @@
   <string name="WrongCountry">Neplatná mezinárodní předvolba</string>
   <!--code enter view-->
   <string name="YourCode">Ověření telefonního čísla</string>
+  <string name="SentSmsCode">Poslali jsme na váš telefon SMS  s aktivačním kódem <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
+  <string name="SentAppCode">Poslali jsme vám kód do aplikace <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> na vašem zařízení.</string>
+  <string name="SentCallCode">Poslali jsme aktivační hovor na váš telefon<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nNezvedejte ho, Telegram vše zařídí.</string>
+  <string name="SentCallOnly">Voláme vám na váš telefon <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> abychom vám nadiktovali váš kód.</string>
   <string name="CallText">Zavoláme Vám za %1$d:%2$02d</string>
+  <string name="SmsText">Pošleme vám SMS za %1$d:%2$02d</string>
   <string name="Calling">Voláme Vám...</string>
   <string name="Code">Kód</string>
   <string name="WrongNumber">Nesprávně zadané číslo?</string>
@@ -58,6 +63,8 @@
   <string name="MuteDisable">Vypnout</string>
   <string name="Hashtags">HASHTAGY</string>
   <string name="Recent">POSLEDNÍ</string>
+  <string name="ChatHints">CHATY</string>
+  <string name="ChatHintsDelete">Smazat %1$s z návrhů?</string>
   <string name="LinkPreview">Náhled  odkazu</string>
   <!--channels-->
   <string name="GroupType">Typ Skupiny</string>
@@ -79,6 +86,7 @@
   <string name="GroupUserCantAdd">Litujeme, nemůžete přidat tohoto uživatele do kanálu.</string>
   <string name="GroupUserAddLimit">Litujeme, ale tato skupina je plná</string>
   <string name="GroupUserLeftError">Litujeme, ale tento uživatel se rozhodl opustit tuto skupinu, takže není možné pozvat ho zpět.</string>
+  <string name="GroupUserCantAdmin">Litujeme, v tomto kanálu je příliš mnoho správců.</string>
   <string name="GroupUserCantBot">Litujeme, v tomto kanálu je příliš mnoho robotů.</string>
   <string name="ActionPinnedText">un1 připojil \"%1$s\"</string>
   <string name="ActionPinnedNoText">un1 připojil zprávu</string>
@@ -90,6 +98,7 @@
   <string name="ActionPinnedContact">un1 připojil kontakt</string>
   <string name="ActionPinnedGeo">un1 připojil mapu</string>
   <string name="ActionPinnedGif">un1 připojil GIF</string>
+  <string name="ActionPinnedMusic">un1 připojil polohu</string>
   <string name="ActionMigrateFromGroup">Tato skupina byla povýšena na Superskupinu</string>
   <string name="ActionMigrateFromGroupNotify">Skupina \"%1$s\" byla povýšena na Superskupinu.</string>
   <string name="NoBlockedGroup">Blokovaní uživatelé jsou vyčleněni z této skupiny a může je přidat zpět pouze správce. Odkazy na pozvání pro ně nebudou funkční.</string>
@@ -99,13 +108,17 @@
   <string name="CommentsInfo">PŘIPOJIT</string>
   <string name="AddMutual">Přidát kontakt do vašeho kanálu</string>
   <string name="ChannelUsernameHelp">Lidé mohou sdílet tento odkaz s ostatními a najít váš kanál pomocí Telegram vyhledávání.</string>
+  <string name="MegaUsernameHelp">Lidé mohou sdílet tento odkaz a najít vaši skupinu pomocí Telegram vyhledávání.</string>
   <string name="ChannelUsernamePlaceholder">odkaz</string>
   <string name="ChannelPrivateLinkHelp">Lidé se mohou připojit k vašemu kanálu pomocí následujícího odkazu. Kdykoliv můžete odkaz odvolat.</string>
+  <string name="MegaPrivateLinkHelp">Lidé se mohou připojit k vašemu kanálu pomocí následujícího odkazu. Kdykoliv můžete odkaz odvolat.</string>
+  <string name="DescriptionOptionalPlaceholder">Popis (volitelný)</string>
   <string name="DescriptionPlaceholder">Popis</string>
   <string name="DescriptionInfo">Můžete zadat volitelný popis kanálu.</string>
   <string name="ChannelPublic">Veřejný kanál</string>
   <string name="MegaPublic">Veřejná Skupina</string>
   <string name="ChannelPublicInfo">Veřejné kanály lze nalézt v hledání, kdokoliv se k nim může přippojit.</string>
+  <string name="MegaPublicInfo">Veřejné skupiny lze nalézt v hledání, historie chatu je k dispozici komukoliv a připojit se může kdokoliv.</string>
   <string name="ChannelPrivate">Soukromý kanál</string>
   <string name="MegaPrivate">Soukromá Skupina</string>
   <string name="ChannelPrivateInfo">Soukromé kanalý mohou byt připojeny pomocí pozvánky.</string>
@@ -161,6 +174,8 @@
   <string name="ChannelAdminsInfo">Můžete přidat administrátory, kteří vám pomohou spravovat kanál. Klepnutím a přidržením mužete odstranit administrátory.</string>
   <string name="ChannelJoinTo">Chcete se připojit ke kanálu \'%1$s\'?</string>
   <string name="ChannelCantOpenPrivate">Litujeme, tento chat už není dostupný.</string>
+  <string name="ChannelCantOpenBanned">Byla vám zablokována účast ve veřejných skupinách.</string>
+  <string name="ChannelCantOpenNa">Litujeme, tento chat už není dostupný.</string>
   <string name="ChannelAddTo">Přidat %1$s do kanálu?</string>
   <string name="ChannelUserLeftError">Litujeme, ale tento uživatel se rozhodl opustit tuto skupinu, takže není možné pozvat ho zpět.</string>
   <string name="ChannelUserCantAdd">Litujeme, nemůžete přidat tohoto uživatele do kanálu.</string>
@@ -168,6 +183,8 @@
   <string name="ChannelUserCantBot">Litujeme, v této skupině je příliš mnoho robotů.</string>
   <string name="ChannelUserAddLimit">Litujeme, můžete přidat pouze prvních 200 členů do kanálu. Všimněte si, že je neomezený počet lidí, kteří se mohou pokusit připojit pomocí odkazu kanálu.</string>
   <string name="ChannelAddedBy">un1 vás přidal do tohoto kanálu</string>
+  <string name="ChannelJoined">Připojili jste se ke kanálu</string>
+  <string name="ChannelMegaJoined">Připojili jste se ke skupině</string>
   <string name="ChannelRemoveUser">Vyjmout z kanálu</string>
   <string name="ChannelCantSendMessage">Litujeme, nemůžete posílat zprávy do tohoto kanálu.</string>
   <string name="ChannelAddedByNotification">%1$s vás přidal do kanálu %2$s</string>
@@ -179,7 +196,10 @@
   <string name="ChannelMessageGroupMap">%1$s poslal/a polohu kanálu %2$s</string>
   <string name="ChannelMessageGroupDocument">%1$s poslal/a soubor kanálu %2$s</string>
   <string name="ChannelMessageGroupGif">\"%1$s\" poslal/a GIF skupině \"%2$s\"</string>
+  <string name="ChannelMessageGroupAudio">%1$s poslal/a hlasovou zprávu kanálu %2$s</string>
+  <string name="ChannelMessageGroupMusic">%1$s poslal/a polohu kanálu %2$s</string>
   <string name="ChannelMessageGroupSticker">%1$s poslal/a nálepku kanálu %2$s</string>
+  <string name="ChannelMessageGroupStickerEmoji">%1$s poslal/a nálepku %3$s kanálu %2$s</string>
   <string name="ChannelMessageNoText">%1$s poslal/a zprávu</string>
   <string name="ChannelMessagePhoto">%1$s poslal/a obrázek</string>
   <string name="ChannelMessageVideo">%1$s poslal/a video</string>
@@ -188,7 +208,10 @@
   <string name="ChannelMessageDocument">%1$s poslal/a soubor</string>
   <string name="ChannelMessageGIF">\"%1$s\" poslal/a soubor GIF</string>
   <string name="ChannelMessageAudio">%1$s poslal/a hlasovou zprávu</string>
+  <string name="ChannelMessageMusic">%1$s poslal/a polohu</string>
   <string name="ChannelMessageSticker">%1$s poslal/a nálepku</string>
+  <string name="ChannelMessageStickerEmoji">%1$s poslal/a nálepku %2$s</string>
+  <string name="WhoCanAddMembers">Kdo může přidávat nové účastníky?</string>
   <string name="WhoCanAddMembersAllMembers">Všichni členové</string>
   <string name="WhoCanAddMembersAdmins">Jen Administrátoři</string>
   <!--broadcasts-->
