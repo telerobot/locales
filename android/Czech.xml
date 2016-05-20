@@ -196,10 +196,10 @@
   <string name="ChannelMessageGroupMap">%1$s poslal/a polohu kanálu %2$s</string>
   <string name="ChannelMessageGroupDocument">%1$s poslal/a soubor kanálu %2$s</string>
   <string name="ChannelMessageGroupGif">\"%1$s\" poslal/a GIF skupině \"%2$s\"</string>
-  <string name="ChannelMessageGroupAudio">%1$s poslal/a hlasovou zprávu kanálu %2$s</string>
+  <string name="ChannelMessageGroupAudio">%1$s poslal/a hlasovou zprávu do kanálu %2$s</string>
   <string name="ChannelMessageGroupMusic">%1$s poslal/a polohu kanálu %2$s</string>
   <string name="ChannelMessageGroupSticker">%1$s poslal/a nálepku kanálu %2$s</string>
-  <string name="ChannelMessageGroupStickerEmoji">%1$s poslal/a nálepku %3$s kanálu %2$s</string>
+  <string name="ChannelMessageGroupStickerEmoji">%1$s poslal/a nálepku %3$s do kanálu %2$s</string>
   <string name="ChannelMessageNoText">%1$s poslal/a zprávu</string>
   <string name="ChannelMessagePhoto">%1$s poslal/a obrázek</string>
   <string name="ChannelMessageVideo">%1$s poslal/a video</string>
