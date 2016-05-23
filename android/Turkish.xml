@@ -14,6 +14,7 @@
   <string name="YourCode">Telefon Doğrulama</string>
   <string name="SentSmsCode">Telefonunuza etkinleştirme kodunu içeren bir kısa mesaj gönderdik <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
   <string name="SentAppCode">Diğer cihazınızdaki <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> uygulamasına kod gönderdik.</string>
+  <string name="SentCallCode">Telefonunuza bir aktivasyon araması gönderildi <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nYanıtlamayın, Telegram her şeyi otomatik halledecek.</string>
   <string name="CallText">Sizi %1$d:%2$02d içinde arayacağız</string>
   <string name="SmsText">Size %1$d:%2$02d içinde bir SMS göndereceğiz</string>
   <string name="Calling">Sizi arıyoruz...</string>
