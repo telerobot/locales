@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="AppName">Telegram</string>
+  <string name="AppName">Telegram Բետա</string>
   <string name="AppNameBeta">Telegram Բետա</string>
   <string name="LanguageName">Հայերեն</string>
   <string name="LanguageNameInEnglish">Հայերեն</string>
@@ -14,21 +14,53 @@
   <string name="YourName">Ձեր անունը</string>
   <string name="RegisterText">Նշեք Ձեր անունը և ազգանունը</string>
   <!--<string name="RegisterText">Set up your name and picture</string>-->
+  <string name="FirstName">Անուն (պարտադիր)</string>
+  <string name="LastName">Ազգանուն (ոչ պարտադիր)</string>
   <!--chats view-->
   <string name="Settings">Կայանքներ</string>
+  <string name="Contacts">Կոնտակտներ</string>
+  <string name="NewGroup">Նոր խումբ</string>
+  <string name="NoResult">Արդյունքներ չկան</string>
   <string name="WaitingForNetwork">Ցանցի սպասում...</string>
   <string name="Connecting">Կապակցում...</string>
   <string name="Updating">Թարմացում...</string>
   <string name="ClearHistory">Մաքրել պատմությունը</string>
   <string name="DeleteChat">Հեռացնել և դուրս գալ</string>
   <string name="DeleteChatUser">Ջնջել զրույցը</string>
+  <string name="SearchMessages">ՀԱՂՈՐԴԱԳՐՈՒԹՅՈՒՆ</string>
   <string name="Search">Որոնել</string>
+  <string name="MuteDisable">Անջատել</string>
   <!--channels-->
+  <string name="ChannelUsernamePlaceholder">Հղում</string>
   <string name="ChannelSettings">Կայանքներ</string>
+  <string name="ChannelBlockedUsers">Սև ցուցակ</string>
+  <string name="ChannelAdministrators">Ադմինիստրատորներ</string>
+  <string name="ChannelModerator">Մոդերատոր</string>
+  <string name="ChannelCreator">Ստեղծող</string>
+  <string name="ChannelEditor">Ադմինիստրատոր</string>
+  <string name="ChannelRemoveUserAdmin">Ջնջել</string>
   <!--broadcasts-->
   <!--audio view-->
+  <string name="AttachMusic">Երաժշտություն</string>
+  <string name="AudioUnknownTitle">Անվերնագիր</string>
   <!--documents view-->
+  <string name="SelectFile">Ընտրեք ֆայլը</string>
+  <string name="UnknownError">Անհայտ սխալ</string>
+  <string name="Folder">Պանակ</string>
   <!--chat view-->
+  <string name="Invisible">անտեսանելի</string>
+  <string name="ChatLocation">Գտնվելու վայր</string>
+  <string name="ChatDocument">Խցիկ</string>
+  <string name="ChatCamera">Խցիկ</string>
+  <string name="Message">Հաղորդագրություն</string>
+  <string name="TypeMessage">Հաղորդագրություն</string>
+  <string name="AddToContacts">Ավելացնել կոնտակտներում</string>
+  <string name="ReportChatSpam">Սպամ</string>
+  <string name="ReportChatViolence">Բռնություն</string>
+  <string name="ReportChatPornography">Պոռնոգրաֆիա</string>
+  <string name="ReportChatOther">Այլ</string>
+  <string name="ReportChatDescription">Նկարագրություն</string>
+  <string name="EditedMessage">խմբ.</string>
   <!--notification-->
   <!--contacts view-->
   <!--group create view-->
