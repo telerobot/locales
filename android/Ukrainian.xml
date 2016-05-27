@@ -66,6 +66,7 @@
   <string name="MuteDisable">Вимкнути</string>
   <string name="Hashtags">ХЕШТЕГИ</string>
   <string name="Recent">НЕЩОДАВНЄ</string>
+  <string name="ChatHints">ЧАТИ</string>
   <string name="LinkPreview">Попередній перегляд посилання</string>
   <!--channels-->
   <string name="GroupType">Тип групи</string>
@@ -301,6 +302,7 @@
   <string name="SetTimer">Встановити таймер самознищення</string>
   <string name="ServiceNotifications">Службові повідомлення</string>
   <string name="GettingLinkInfo">Отримання інформації посилання</string>
+  <string name="OpenInBrowser">ВІДКРИТИ В...</string>
   <string name="CopyUrl">Копіювати URL</string>
   <string name="SendItems">Надіслати %1$s</string>
   <string name="OpenUrlAlert">Відкрити url %1$s?</string>
@@ -332,6 +334,12 @@
   <string name="ReportChatOther">Інше</string>
   <string name="ReportChatDescription">Опис</string>
   <string name="PinnedMessage">Прикріплене повідомлення</string>
+  <string name="EditedMessage">ред</string>
+  <string name="AttachBotsHelp">Прокрутіть вниз для ботів</string>
+  <string name="TimeToEdit">%1$s</string>
+  <string name="TimeToEditExpired">На жаль, час для редагування минув.</string>
+  <string name="AddShortcut">Додати ярлик</string>
+  <string name="ShortcutAdded">Ярлик доданий на робочий стіл</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s встановив/ла таймер самознищення на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Ви встановили таймер самознищення на %1$s</string>
@@ -349,6 +357,7 @@
   <string name="NotificationMessageAudio">%1$s надіслав/ла вам голосове повідомлення</string>
   <string name="NotificationMessageMusic">%1$s надіслав/ла вам композицію</string>
   <string name="NotificationMessageSticker">%1$s надіслав/ла вам наліпку</string>
+  <string name="NotificationMessageStickerEmoji">%1$s надіслав(-ла) вам наліпку %2$s</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s надіслав/ла повідомлення групі %2$s</string>
   <string name="NotificationMessageGroupPhoto">%1$s надіслав/ла фотографію групі %2$s</string>
