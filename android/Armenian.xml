@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="AppName">Telegram Բետա</string>
+  <string name="AppName">Telegram</string>
   <string name="AppNameBeta">Telegram Բետա</string>
   <string name="LanguageName">Հայերեն</string>
   <string name="LanguageNameInEnglish">Հայերեն</string>
@@ -8,66 +8,109 @@
   <!--signin view-->
   <string name="YourPhone">Ձեր հեռախոսը</string>
   <string name="ChooseCountry">Ընտրեք երկիրը</string>
+  <string name="WrongCountry">Երկրի կոդը սխալ է</string>
   <!--code enter view-->
-  <string name="Code">Ծածկագիր</string>
+  <string name="YourCode">Ձեր կոդը</string>
+  <string name="Calling">Զանգում ենք Ձեզ…</string>
+  <string name="Code">Կոդ</string>
+  <string name="WrongNumber">Համարը սխա՞լ է։</string>
+  <string name="DidNotGetTheCode">Չստացա՞ք կոդը։</string>
   <!--signup view-->
   <string name="YourName">Ձեր անունը</string>
   <string name="RegisterText">Նշեք Ձեր անունը և ազգանունը</string>
   <!--<string name="RegisterText">Set up your name and picture</string>-->
   <string name="FirstName">Անուն (պարտադիր)</string>
   <string name="LastName">Ազգանուն (ոչ պարտադիր)</string>
+  <string name="CancelRegistration">Չեղարկել գրանցումը</string>
   <!--chats view-->
-  <string name="Settings">Կայանքներ</string>
-  <string name="Contacts">Կոնտակտներ</string>
+  <string name="Settings">Կարգավորումներ</string>
+  <string name="Contacts">Կապորդներ</string>
   <string name="NewGroup">Նոր խումբ</string>
+  <string name="Yesterday">երեկ</string>
   <string name="NoResult">Արդյունքներ չկան</string>
+  <string name="NoChats">Զրույցեր դեռ չկան…</string>
   <string name="WaitingForNetwork">Ցանցի սպասում...</string>
   <string name="Connecting">Կապակցում...</string>
   <string name="Updating">Թարմացում...</string>
+  <string name="NewSecretChat">Նոր գաղտնի զրույց</string>
   <string name="ClearHistory">Մաքրել պատմությունը</string>
   <string name="DeleteChat">Հեռացնել և դուրս գալ</string>
   <string name="DeleteChatUser">Ջնջել զրույցը</string>
-  <string name="SearchMessages">ՀԱՂՈՐԴԱԳՐՈՒԹՅՈՒՆ</string>
+  <string name="SelectChat">Ընտրեք զրույցը</string>
+  <string name="SearchMessages">ՀԱՂՈՐԴԱԳՐՈՒԹՅՈՒՆՆԵՐ</string>
   <string name="Search">Որոնել</string>
+  <string name="MuteNotifications">Անջատալ ծանուցումները</string>
+  <string name="UnmuteNotifications">Միացնել ծանուցումները</string>
   <string name="MuteDisable">Անջատել</string>
+  <string name="ChatHints">ԶՐՈՒՅՑԵՐ</string>
   <!--channels-->
-  <string name="ChannelUsernamePlaceholder">Հղում</string>
-  <string name="ChannelSettings">Կայանքներ</string>
-  <string name="ChannelBlockedUsers">Սև ցուցակ</string>
-  <string name="ChannelAdministrators">Ադմինիստրատորներ</string>
-  <string name="ChannelModerator">Մոդերատոր</string>
+  <string name="ChannelType">Ալիքի տեսակը</string>
+  <string name="LeaveMega">Լքել խումբը</string>
+  <string name="DeleteMega">Ջնջել խումբը</string>
+  <string name="LeaveMegaMenu">Լքել խումբը</string>
+  <string name="DeleteMegaMenu">Ջնջել խումբը</string>
+  <string name="NewChannel">Ստեղծել ալիք</string>
+  <string name="EnterChannelName">Ալիքի անունը</string>
+  <string name="Comments">Մեկնաբանություններ</string>
+  <string name="ChannelUsernamePlaceholder">հղում</string>
+  <string name="DescriptionOptionalPlaceholder">Նկարագրություն (ոչ պարտադիր)</string>
+  <string name="DescriptionPlaceholder">Նկարագրություն</string>
+  <string name="ChannelPublic">Հանրային ալիք</string>
+  <string name="MegaPublic">Հանրային խումբ</string>
+  <string name="ChannelLinkTitle">Հղում</string>
+  <string name="LeaveChannel">Լքել ալիքը</string>
+  <string name="LeaveChannelMenu">Լքել ալիքը</string>
+  <string name="ChannelSettings">Կարգավորումներ</string>
+  <string name="ChannelJoin">ՄԻԱՆԱԼ</string>
+  <string name="OpenChannelProfile">Ալիքի մասին</string>
+  <string name="ChannelComment">Մեկնաբանել</string>
+  <string name="ChannelAlertCreate">ՍՏԵՂԾԵԼ ԱԼԻՔ</string>
+  <string name="ChannelMembers">Անդամներ</string>
+  <string name="ChannelBlockedUsers">Սեւ ցուցակ</string>
+  <string name="ChannelAdministrators">Վարիչներ</string>
+  <string name="ChannelDelete">Ջնջել ալիքը</string>
+  <string name="ChannelDeleteMenu">Ջնջել ալիքը</string>
+  <string name="ChannelEdit">Փոխել</string>
+  <string name="ChannelModerator">Կարգավորիչ</string>
   <string name="ChannelCreator">Ստեղծող</string>
-  <string name="ChannelEditor">Ադմինիստրատոր</string>
+  <string name="ChannelEditor">Վարիչ</string>
   <string name="ChannelRemoveUserAdmin">Ջնջել</string>
   <!--broadcasts-->
   <!--audio view-->
   <string name="AttachMusic">Երաժշտություն</string>
   <string name="AudioUnknownTitle">Անվերնագիր</string>
   <!--documents view-->
-  <string name="SelectFile">Ընտրեք ֆայլը</string>
+  <string name="SelectFile">Ընտրեք նիշքը</string>
   <string name="UnknownError">Անհայտ սխալ</string>
   <string name="Folder">Պանակ</string>
   <!--chat view-->
   <string name="Invisible">անտեսանելի</string>
-  <string name="ChatLocation">Գտնվելու վայր</string>
-  <string name="ChatDocument">Խցիկ</string>
+  <string name="ChatLocation">Տեղադրություն</string>
+  <string name="ChatDocument">Նիշք</string>
   <string name="ChatCamera">Խցիկ</string>
   <string name="Message">Հաղորդագրություն</string>
   <string name="TypeMessage">Հաղորդագրություն</string>
-  <string name="AddToContacts">Ավելացնել կոնտակտներում</string>
-  <string name="ReportChatSpam">Սպամ</string>
+  <string name="AddToContacts">Ավելացնել կապորդներին</string>
+  <string name="ReportChatSpam">Փոստաղբ</string>
   <string name="ReportChatViolence">Բռնություն</string>
-  <string name="ReportChatPornography">Պոռնոգրաֆիա</string>
+  <string name="ReportChatPornography">Պոռնկագրություն</string>
   <string name="ReportChatOther">Այլ</string>
   <string name="ReportChatDescription">Նկարագրություն</string>
   <string name="EditedMessage">խմբ.</string>
   <!--notification-->
   <!--contacts view-->
   <!--group create view-->
+  <string name="CopyLink">Պատճենել հղումը</string>
+  <string name="ShareLink">Կիսվել հղմամբ</string>
   <!--set admins view-->
   <!--group info view-->
-  <string name="SETTINGS">Կայանքներ</string>
+  <string name="SETTINGS">Կարգավորումներ</string>
+  <string name="Notifications">Ծանուցումներ</string>
   <!--contact info view-->
+  <string name="ShareContact">Կիսվել</string>
+  <string name="AddContact">Ավելացնել</string>
+  <string name="BlockContact">Արգելափակել</string>
+  <string name="PhoneOther">Այլ</string>
   <!--usernames-->
   <!--stickers view-->
   <!--settings view-->
@@ -78,18 +121,35 @@
   <!--map view-->
   <!--photo gallery view-->
   <!--password view-->
-  <string name="PasswordCode">Ծածկագիր</string>
+  <string name="PasswordCode">Կոդ</string>
   <!--privacy settings-->
   <!--edit video view-->
   <!--bot-->
-  <string name="BotSettings">Կայանքներ</string>
+  <string name="BotSettings">Կարգավորումներ</string>
   <!--button titles-->
   <!--messages-->
   <!--Alert messages-->
   <!--permissions-->
+  <string name="PermissionOpenSettings">ԿԱՐԳԱՎՈՐՈՒՄՆԵՐ</string>
   <!--Intro view-->
   <string name="Page1Title">Telegram</string>
   <!--plural-->
+  <string name="Online_zero">%1$d առցանց</string>
+  <string name="Users_zero">%1$d օգտվող</string>
+  <string name="Users_one">%1$d օգտվող</string>
+  <string name="Users_two">%1$d օգտվող</string>
+  <string name="Users_few">%1$d օգտվող</string>
+  <string name="Users_many">%1$d օգտվող</string>
+  <string name="Users_other">%1$d օգտվող</string>
   <!--forwarded messages-->
   <!--date formatters-->
+  <string name="formatterMonthYear">yyyy MMMM</string>
+  <string name="formatterMonth">MMM dd</string>
+  <string name="formatterYear">yy.MM.dd</string>
+  <string name="formatterYearMax">yyyy.MM.dd</string>
+  <string name="chatDate">MMMM d</string>
+  <string name="chatFullDate">yyyy MMMM d</string>
+  <string name="formatterWeek">EEE</string>
+  <string name="formatterDay24H">HH:mm</string>
+  <string name="formatDateAtTime">%1$s՝ ժամը %2$s</string>
 </resources>
