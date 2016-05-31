@@ -28,7 +28,7 @@
   <string name="RegisterText">Вкажіть ваше ім\'я та прізвище</string>
   <!--<string name="RegisterText">Set up your name and picture</string>-->
   <string name="FirstName">Ім\'я (обов\'язково)</string>
-  <string name="LastName">Прізвище (не обов\'язково)</string>
+  <string name="LastName">Прізвище (необов\'язково)</string>
   <string name="CancelRegistration">Скасувати реєстрацію</string>
   <!--chats view-->
   <string name="Settings">Налаштування</string>
@@ -56,12 +56,12 @@
   <string name="HiddenName">Видалений обліковий запис</string>
   <string name="SelectChat">Оберіть чат</string>
   <string name="PhotoTip">Натисніть і утримуйте для перегляду</string>
-  <string name="CompatibilityChat">%1$s використовує стару версію Telegram, тому секретні фотографії будуть відображатися в режимі сумісності.\n\nЯк тільки %2$s оновить Telegram, фотографії з таймером на 1 хвилину чи менше почнуть відображатися в режимі «Для перегляду натиснути й утримувати». Ви будете повідомлені, коли інша сторона приймає знімок екрану.</string>
+  <string name="CompatibilityChat">%1$s використовує стару версію Telegram, тому секретні фото будуть відображатися в режимі сумісності.\n\nЯк тільки %2$s оновить Telegram, фото з таймером на 1 хвилину чи менше почнуть відображатися в режимі «Для перегляду натиснути й утримувати». Ви будете повідомлені, коли інша сторона приймає знімок екрану.</string>
   <string name="SearchMessages">ПОВІДОМЛЕННЯ</string>
   <string name="Search">Пошук</string>
   <string name="MuteNotifications">Вимкнути сповіщення</string>
   <string name="MuteFor">Вимкнути на %1$s</string>
-  <string name="UnmuteNotifications">Увімкнути</string>
+  <string name="UnmuteNotifications">Увімкнути сповіщення</string>
   <string name="WillUnmuteIn">Через %1$s</string>
   <string name="MuteDisable">Вимкнути</string>
   <string name="Hashtags">ХЕШТЕГИ</string>
@@ -75,7 +75,7 @@
   <string name="ChannelTypePublic">Публічний</string>
   <string name="ChannelTypePrivate">Приватний</string>
   <string name="SetAsAdmin">Підняти до адміна</string>
-  <string name="DescriptionInfoMega">Ви можете дати необов\'язковий опис для своєї групи.</string>
+  <string name="DescriptionInfoMega">Ви можете вказати необов\'язковий опис для своєї групи.</string>
   <string name="LeaveMega">Покинути групу</string>
   <string name="DeleteMega">Видалити групу</string>
   <string name="LeaveMegaMenu">Покинути групу</string>
@@ -93,7 +93,7 @@
   <string name="GroupUserCantBot">Вибачте, в цій групі забагато ботів.</string>
   <string name="ActionPinnedText">un1 прикріпив/ла \"%1$s\"</string>
   <string name="ActionPinnedNoText">un1 прикріпив/ла повідомлення</string>
-  <string name="ActionPinnedPhoto">un1 прикріпив/ла фотографію</string>
+  <string name="ActionPinnedPhoto">un1 прикріпив/ла фото</string>
   <string name="ActionPinnedVideo">un1 прикріпив/ла відео</string>
   <string name="ActionPinnedFile">un1 прикріпив/ла файл</string>
   <string name="ActionPinnedSticker">un1 прикріпив/ла наліпку</string>
@@ -163,13 +163,13 @@
   <string name="ChannelWasPrivateAlert">Майте на увазі, якщо ви оберете публічне посилання, будь-хто зможе знайти його через пошук і приєднатися.\n\nНе створюйте це посилання, якщо ви хочете залишити свій канал приватним.</string>
   <string name="ChannelPublicEmptyUsername">Виберіть посилання для свого публічного каналу, таким чином люди зможуть знаходити його через пошук і ділитися з іншими.\n\nЯкщо вас це не цікавить, рекомендуємо натомість створити приватний канал.</string>
   <string name="ActionCreateChannel">Канал створено</string>
-  <string name="ActionChannelChangedPhoto">Фотографію каналу змінено</string>
-  <string name="ActionChannelRemovedPhoto">Фотографію каналу вилучено</string>
+  <string name="ActionChannelChangedPhoto">Фото каналу змінено</string>
+  <string name="ActionChannelRemovedPhoto">Фото каналу вилучено</string>
   <string name="ActionChannelChangedTitle">Назва каналу змінена на un2</string>
   <string name="ChannelPublicLimitReached">Вибачте, ви створили забагато публічних каналів. Ви можете спочатку або створити приватний канал, або видалити один із наявних каналів.</string>
   <string name="ChangePublicLimitReached">Вибачте, але ви створили забагато публічних посилань. Спробуйте видалення, або зробіть деякі з ваших груп чи каналів приватними.</string>
   <string name="ChannelModerator">Модератор</string>
-  <string name="ChannelCreator">Творець</string>
+  <string name="ChannelCreator">Власник</string>
   <string name="ChannelEditor">Адміністратор</string>
   <string name="ChannelMute">ВИМКНУТИ</string>
   <string name="ChannelUnmute">УВІМКНУТИ</string>
@@ -197,9 +197,9 @@
   <string name="ChannelRemoveUser">Вилучити з каналу</string>
   <string name="ChannelCantSendMessage">Шкода, але ви не можете надсилати повідомлення до цього каналу.</string>
   <string name="ChannelAddedByNotification">%1$s додав/ла вас до каналу %2$s</string>
-  <string name="ChannelPhotoEditNotification">Оновлено фотографію каналу %1$s</string>
+  <string name="ChannelPhotoEditNotification">Оновлено фото каналу %1$s</string>
   <string name="ChannelMessageGroupNoText">%1$s надіслав/ла повідомлення до каналу %2$s</string>
-  <string name="ChannelMessageGroupPhoto">%1$s надіслав/ла фотографію до каналу %2$s</string>
+  <string name="ChannelMessageGroupPhoto">%1$s надіслав/ла фото до каналу %2$s</string>
   <string name="ChannelMessageGroupVideo">%1$s надіслав/ла відео до каналу %2$s</string>
   <string name="ChannelMessageGroupContact">%1$s поділився/лась контактом на каналі %2$s</string>
   <string name="ChannelMessageGroupMap">%1$s надіслав/ла розташування до каналу %2$s</string>
@@ -210,7 +210,7 @@
   <string name="ChannelMessageGroupSticker">%1$s надіслав/ла наліпку до каналу %2$s</string>
   <string name="ChannelMessageGroupStickerEmoji">%1$s надіслав/ла %3$s наліпку на каналі %2$s</string>
   <string name="ChannelMessageNoText">%1$s опублікував/ла повідомлення</string>
-  <string name="ChannelMessagePhoto">%1$s опублікував/ла фотографію</string>
+  <string name="ChannelMessagePhoto">%1$s опублікував/ла фото</string>
   <string name="ChannelMessageVideo">%1$s опублікував/ла відео</string>
   <string name="ChannelMessageContact">%1$s опублікував/ла контакт</string>
   <string name="ChannelMessageMap">%1$s опублікував/ла розташування</string>
@@ -260,16 +260,16 @@
   <string name="AreTyping">пишуть...</string>
   <string name="IsRecordingAudio">%1$s записує голосове повідомлення...</string>
   <string name="IsSendingAudio">%1$s надсилає аудіо...</string>
-  <string name="IsSendingPhoto">%1$s надсилає фотографію...</string>
+  <string name="IsSendingPhoto">%1$s надсилає фото...</string>
   <string name="IsSendingVideo">%1$s надсилає відео...</string>
   <string name="IsSendingFile">%1$s надсилає файл...</string>
   <string name="RecordingAudio">запис голосового повідомлення...</string>
   <string name="SendingAudio">надсилання аудіо...</string>
-  <string name="SendingPhoto">надсилання фотографії...</string>
+  <string name="SendingPhoto">надсилання фото...</string>
   <string name="SendingVideoStatus">надсилання відео...</string>
   <string name="SendingFile">надсилання файлу</string>
   <string name="GotAQuestion">Є питання щодо Telegram?</string>
-  <string name="ChatTakePhoto">Зробити знімок</string>
+  <string name="ChatTakePhoto">Зробити фото</string>
   <string name="ChatGallery">Галерея</string>
   <string name="ChatLocation">Розташування</string>
   <string name="ChatVideo">Відео</string>
@@ -351,7 +351,7 @@
   <string name="YouHaveNewMessage">У вас нове повідомлення</string>
   <string name="NotificationMessageText">%1$s: %2$s</string>
   <string name="NotificationMessageNoText">%1$s відправив/ла вам повідомлення</string>
-  <string name="NotificationMessagePhoto">%1$s надіслав/ла вам фотографію</string>
+  <string name="NotificationMessagePhoto">%1$s надіслав/ла вам фото</string>
   <string name="NotificationMessageVideo">%1$s відправив/ла вам відео</string>
   <string name="NotificationMessageContact">%1$s поділився/лась з вами контактом</string>
   <string name="NotificationMessageMap">%1$s відправив/ла вам розташування</string>
@@ -363,7 +363,7 @@
   <string name="NotificationMessageStickerEmoji">%1$s надіслав(-ла) вам наліпку %2$s</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s надіслав/ла повідомлення групі %2$s</string>
-  <string name="NotificationMessageGroupPhoto">%1$s надіслав/ла фотографію групі %2$s</string>
+  <string name="NotificationMessageGroupPhoto">%1$s надіслав/ла фото групі %2$s</string>
   <string name="NotificationMessageGroupVideo">%1$s надіслав/ла відео групі %2$s</string>
   <string name="NotificationMessageGroupContact">%1$s поділився/лась контактом з групою %2$s</string>
   <string name="NotificationMessageGroupMap">%1$s надіслав/ла розташування групі %2$s</string>
@@ -375,7 +375,7 @@
   <string name="NotificationMessageGroupStickerEmoji">%1$s надіслав/ла %3$s наліпку групі %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s запросив/ла вас до групи %2$s</string>
   <string name="NotificationEditedGroupName">%1$s змінив/ла ім\'я групи %2$s</string>
-  <string name="NotificationEditedGroupPhoto">%1$s змінив/ла фотографію групи %2$s</string>
+  <string name="NotificationEditedGroupPhoto">%1$s змінив/ла фото групи %2$s</string>
   <string name="NotificationGroupAddMember">%1$s запросив/ла користувача %3$s до групи %2$s</string>
   <string name="NotificationGroupAddSelf">%1$s повернувся/лась до групи %2$s</string>
   <string name="NotificationGroupAddSelfMega">%1$s приєднався/лась до групи %2$s</string>
@@ -384,7 +384,7 @@
   <string name="NotificationGroupLeftMember">%1$s покинув/ла групу %2$s</string>
   <string name="NotificationContactJoined">%1$s приєднався/лась до Telegram!</string>
   <string name="NotificationUnrecognizedDevice">%1$s,\nМи виявили вхід у ваш обліковий запис з нового пристрою на %2$s\n\nПристрій: %3$s\nРозташування: %4$s\n\nЯкщо це були не ви, можете перейти в Налаштування - Приватність і Безпека - Активні сеанси і припинити той сеанс.\n\nЯкщо ви вважаєте, що хтось увійшов у ваш обліковий запис замість вас, можете увімкнути двоетапну перевірку в налаштуваннях Приватність і безпека.\n\nЩиро ваша,\nкоманда Telegram</string>
-  <string name="NotificationContactNewPhoto">%1$s оновив/ла фотографію профілю</string>
+  <string name="NotificationContactNewPhoto">%1$s оновив/ла фото профілю</string>
   <string name="NotificationInvitedToGroupByLink">%1$s приєднався до групи %2$s через посилання</string>
   <string name="Reply">Відповісти</string>
   <string name="ReplyToGroup">Відповісти %1$s</string>
@@ -392,7 +392,7 @@
   <string name="NotificationMessagesPeopleDisplayOrder">%1$s %2$s</string>
   <string name="NotificationActionPinnedText">%1$s прикріпив/ла \"%2$s\" в групі %3$s</string>
   <string name="NotificationActionPinnedNoText">%1$s прикріпив/ла повідомлення в групі %2$s</string>
-  <string name="NotificationActionPinnedPhoto">%1$s прикріпив/ла фотографію в групі %2$s</string>
+  <string name="NotificationActionPinnedPhoto">%1$s прикріпив/ла фото в групі %2$s</string>
   <string name="NotificationActionPinnedVideo">%1$s прикріпив/ла відео в групі %2$s</string>
   <string name="NotificationActionPinnedFile">%1$s прикріпив/ла файл в групі %2$s</string>
   <string name="NotificationActionPinnedSticker">%1$s прикріпив/ла наліпку в групі %2$s</string>
@@ -404,7 +404,7 @@
   <string name="NotificationActionPinnedMusic">%1$s прикріпив/ла композицію в групі %2$s</string>
   <string name="NotificationActionPinnedTextChannel">%1$s прикріпив/ла \"%2$s\"</string>
   <string name="NotificationActionPinnedNoTextChannel">%1$s прикріпив/ла повідомлення</string>
-  <string name="NotificationActionPinnedPhotoChannel">%1$s прикріпив/ла фотографію</string>
+  <string name="NotificationActionPinnedPhotoChannel">%1$s прикріпив/ла фото</string>
   <string name="NotificationActionPinnedVideoChannel">%1$s прикріпив/ла відео</string>
   <string name="NotificationActionPinnedFileChannel">%1$s прикріпив/ла файл</string>
   <string name="NotificationActionPinnedStickerChannel">%1$s прикріпив/ла наліпку</string>
@@ -418,10 +418,10 @@
   <string name="SelectContact">Оберіть контакт</string>
   <string name="NoContacts">Контактів поки що немає</string>
   <string name="InviteText">Привіт, переходь на Telegram: https://telegram.org/dl</string>
-  <string name="TodayAt">о</string>
-  <string name="YesterdayAt">вчора о/об</string>
+  <string name="TodayAt">,</string>
+  <string name="YesterdayAt">вчора</string>
   <string name="Online">в мережі</string>
-  <string name="LastSeen">заходив/ла</string>
+  <string name="LastSeen">заходив/ла,</string>
   <string name="LastSeenDate">заходив/ла</string>
   <string name="LastSeenNow">заходив/ла щойно</string>
   <string name="InviteFriends">Запросити друзів</string>
@@ -453,14 +453,14 @@
   <!--set admins view-->
   <string name="SetAdminsTitle">Адміністратори чату</string>
   <string name="SetAdminsAll">Всі учасники є адміністраторами</string>
-  <string name="SetAdminsAllInfo">Всі учасники можуть додавати нових учасників, змінювати ім\'я та фотографію групи.</string>
-  <string name="SetAdminsNotAllInfo">Лише адміністратори можуть додавати й вилучати учасників, змінювати ім\'я та фотографію групи.</string>
+  <string name="SetAdminsAllInfo">Всі учасники можуть додавати нових учасників, змінювати ім\'я і фото групи.</string>
+  <string name="SetAdminsNotAllInfo">Лише адміністратори можуть додавати й вилучати учасників, змінювати ім\'я і фото групи.</string>
   <!--group info view-->
   <string name="SharedMedia">Спільні медіа</string>
   <string name="SETTINGS">Налаштування</string>
   <string name="AddMember">Додати учасника</string>
   <string name="SetAdmins">Встановити адміністраторів</string>
-  <string name="DeleteAndExit">Видалити та покинути групу</string>
+  <string name="DeleteAndExit">Видалити й покинути групу</string>
   <string name="Notifications">Сповіщення</string>
   <string name="KickFromGroup">Вилучити з групи</string>
   <string name="UpgradeGroup">Оновити до Супергрупи</string>
@@ -468,8 +468,8 @@
   <string name="ConvertGroupMenu">Конвертувати в супергрупу</string>
   <string name="ConvertGroupAlertWarning">Попередження</string>
   <string name="ConvertGroupAlert">Цю дію неможливо відмінити. Неможливо змінити супергрупу на звичайну групу.</string>
-  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Досягнуто обмеження учасників.<![CDATA[</b>]]>\n\nЩоб зняти обмеження та отримати додаткові функції, оновіть до супергрупи:\n\n• Супергрупи можуть досягати %1$s\n• Нові учасники можуть бачити всю історію повідомлень\n• Видалені повідомлення будуть зникати в усіх учасників\n• Учасники можуть редагувати свої повідомлення\n• Творець групи може встановити для групи публічне посилання</string>
-  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>В супергрупах:<![CDATA[</b>]]>\n\n• Нові учасники можуть бачити всю історію повідомлень\n• Видалені повідомлення будуть зникати в усіх учасників\n• Учасники можуть редагувати свої повідомлення\n• Творець групи може встановити для групи публічне посилання</string>
+  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Досягнуто обмеження учасників.<![CDATA[</b>]]>\n\nЩоб зняти обмеження та отримати додаткові функції, оновіть до супергрупи:\n\n• Супергрупи можуть досягати %1$s\n• Нові учасники можуть бачити всю історію повідомлень\n• Видалені повідомлення будуть зникати в усіх учасників\n• Учасники можуть редагувати свої повідомлення\n• Власник групи може встановити для групи публічне посилання</string>
+  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>В супергрупах:<![CDATA[</b>]]>\n\n• Нові учасники можуть бачити всю історію повідомлень\n• Видалені повідомлення будуть зникати в усіх учасників\n• Учасники можуть редагувати свої повідомлення\n• Власник групи може встановити для групи публічне посилання</string>
   <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Примітка:<![CDATA[</b>]]> цю дію неможливо відмінити.</string>
   <!--contact info view-->
   <string name="ShareContact">Поділитися</string>
@@ -648,7 +648,7 @@
   <string name="LocalCache">Інші файли</string>
   <string name="CacheEmpty">Порожньо</string>
   <string name="KeepMedia">Залишити медіа</string>
-  <string name="KeepMediaInfo">Ваші фотографії, відео й інші файли з чатів <![CDATA[<b>недоступні</b>]]> під час цього періоду, будуть вилучені з цього пристрою для збереження дискового простору.\n\nВсі медіа залишаться в хмарному сховищі Telegram і можуть за потреби бути повторно завантажені.</string>
+  <string name="KeepMediaInfo">Ваші фото, відео й інші файли з чатів <![CDATA[<b>недоступні</b>]]> під час цього періоду, будуть вилучені з цього пристрою для збереження дискового простору.\n\nВсі медіа залишаться в хмарному сховищі Telegram і можуть за потреби бути повторно завантажені.</string>
   <string name="KeepMediaForever">Назавжди</string>
   <!--sessions view-->
   <string name="SessionsTitle">Активні сеанси</string>
@@ -661,11 +661,11 @@
   <string name="TerminateSessionQuestion">Завершити цей сеанс?</string>
   <string name="UnofficialApp">неофіційний застосунок</string>
   <!--passcode view-->
-  <string name="Passcode">Заблоковано кодом допуску</string>
+  <string name="Passcode">Код допуску</string>
   <string name="ChangePasscode">Змінити код допуску</string>
   <string name="ChangePasscodeInfo">Після встановлення додаткового коду допуску на сторінці чатів з\'явиться піктограма замка. Торкніться її для блокування і розблокування Telegram. 
 
-Увага: якщо ви забудете код пуску, вам потрібно буде видалити і перевстановити цей додаток. Всі секретні чати будуть втрачені.</string>
+Увага: якщо ви забудете код допуску, вам потрібно буде видалити і перевстановити цей додаток. Всі секретні чати будуть втрачені.</string>
   <string name="ChangePasscodeAlert">Тепер ви будете бачити піктограму замка на сторінці чатів. Торкніться її, щоб заблокувати Telegram за допомогою вашого нового коду допуску.</string>
   <string name="PasscodePIN">ПІН</string>
   <string name="PasscodePassword">Пароль</string>
@@ -674,10 +674,10 @@
   <string name="EnterNewPasscode">Введіть новий код допуску</string>
   <string name="EnterYourPasscode">Введіть ваш код допуску</string>
   <string name="ReEnterYourPasscode">Введіть ще раз новий код допуску</string>
-  <string name="InvalidPasscode">Недійсний код допуску</string>
+  <string name="InvalidPasscode">Неправильний код допуску</string>
   <string name="PasscodeDoNotMatch">Коди допуску не збігаються</string>
   <string name="AutoLock">Автоблокування</string>
-  <string name="AutoLockInfo">Вимагати пароль у разі відсутності активності.</string>
+  <string name="AutoLockInfo">Вимагати код допуску при відсутності активності.</string>
   <string name="AutoLockInTime">Через %1$s</string>
   <string name="AutoLockDisabled">Вимкнено</string>
   <string name="UnlockFingerprint">Розблокування за відбитком пальців</string>
@@ -689,11 +689,11 @@
   <string name="SharedMediaTitle">Спільні медіаресурси</string>
   <string name="LinksTitle">Поширені посилання</string>
   <string name="AudioTitle">Спільна музика</string>
-  <string name="NoMedia">Діліться фотографіями й відео в цьому чаті та отримуйте доступ до них на будь-якому з ваших пристроїв.</string>
+  <string name="NoMedia">Діліться фото й відео в цьому чаті та отримуйте доступ до них на будь-якому з ваших пристроїв.</string>
   <string name="NoSharedAudio">Діліться музикою в цьому чаті й отримуйте до неї доступ з будь-яких своїх пристроїв.</string>
   <string name="NoSharedFiles">Діліться файлами і документами в цьому чаті і отримаєте доступ до них на будь-якому з ваших пристроїв.</string>
   <string name="NoSharedLinks">Діліться посиланнями в цьому чаті й отримуйте до них доступ з будь-яких своїх пристроїв.</string>
-  <string name="NoMediaSecret">Фотографії та відео з цього чату будуть показані тут.</string>
+  <string name="NoMediaSecret">Фото й відео з цього чату будуть показані тут.</string>
   <string name="NoSharedAudioSecret">Музика з цього чату буде показана тут.</string>
   <string name="NoSharedFilesSecret">Файли і документи з цього чату будуть показані тут.</string>
   <string name="NoSharedLinksSecret">Поширені посилання з цього чату будуть показуватись тут.</string>
@@ -715,7 +715,7 @@
   <string name="Gallery">Галерея</string>
   <string name="AllPhotos">Всі фотографії</string>
   <string name="AllVideo">Все відео</string>
-  <string name="NoPhotos">фотографій наразі немає</string>
+  <string name="NoPhotos">Фотографій наразі немає</string>
   <string name="NoVideo">Поки немає відео</string>
   <string name="PleaseDownload">Спочатку завантажте медіа</string>
   <string name="NoRecentPhotos">Нещодавніх фотографій немає</string>
@@ -758,7 +758,7 @@
   <string name="PickerPhotos">Фотографії</string>
   <string name="PickerVideo">Відео</string>
   <string name="AddCaption">Додати заголовок...</string>
-  <string name="PhotoCaption">Заголовок фотографії</string>
+  <string name="PhotoCaption">Заголовок фото</string>
   <string name="VideoCaption">Заголовок відео</string>
   <string name="Caption">Заголовок</string>
   <!--password view-->
@@ -845,7 +845,7 @@
   <string name="RemoveFromListText">Торкніться й утримуйте користувача для видалення.</string>
   <string name="GroupsAndChannels">Групи</string>
   <string name="WhoCanAddMe">Хто може додавати мене до групових чатів?</string>
-  <string name="WhoCanAddMeInfo">Ви можете обмежити додавання вас до груп та каналів з високою точністю.</string>
+  <string name="WhoCanAddMeInfo">Ви можете точно визначити, хто може додавати вас до груп та каналів.</string>
   <string name="AlwaysAllow">Завжди дозволяти</string>
   <string name="NeverAllow">Ніколи не дозволяти</string>
   <string name="AlwaysAllowPlaceholder">Завжди дозволяти...</string>
@@ -893,7 +893,7 @@
   <string name="Retry">Повторити</string>
   <string name="FromCamera">З камери</string>
   <string name="FromGalley">З галереї</string>
-  <string name="DeletePhoto">Видалити фотографію</string>
+  <string name="DeletePhoto">Видалити фото</string>
   <string name="Set">Встановити</string>
   <string name="OK">OK</string>
   <string name="Crop">КАДРУВАННЯ</string>
@@ -903,15 +903,15 @@
   <string name="ActionKickUser">un1 видалив/ла користувача un2</string>
   <string name="ActionLeftUser">un1 покинув/ла групу</string>
   <string name="ActionAddUser">un1 додав/ла користувача un2</string>
-  <string name="ActionRemovedPhoto">un1 видалив/ла фотографію групи</string>
-  <string name="ActionChangedPhoto">un1 змінив/ла фотографію групи</string>
+  <string name="ActionRemovedPhoto">un1 видалив/ла фото групи</string>
+  <string name="ActionChangedPhoto">un1 змінив/ла фото групи</string>
   <string name="ActionChangedTitle">un1 змінив/ла назву групи на un2</string>
   <string name="ActionCreateGroup">un1 створив/ла групу</string>
   <string name="ActionYouKickUser">Ви видалили користувача un2</string>
   <string name="ActionYouLeftUser">Ви покинули групу</string>
   <string name="ActionYouAddUser">Ви додали користувача un2</string>
-  <string name="ActionYouRemovedPhoto">Ви видалили фотографію групи</string>
-  <string name="ActionYouChangedPhoto">Ви змінили фотографію групи</string>
+  <string name="ActionYouRemovedPhoto">Ви видалили фото групи</string>
+  <string name="ActionYouChangedPhoto">Ви змінили фото групи</string>
   <string name="ActionYouChangedTitle">Ви змінили назву групи на un2</string>
   <string name="ActionYouCreateGroup">Ви створили групу</string>
   <string name="ActionKickUserYou">un1 видалив/ла вас</string>
@@ -990,7 +990,7 @@
   <string name="UserRestricted">Шкода, але вам не дозволено робити це.</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram потребує доступу до ваших контактів, щоб ви змогли зв\'язатися зі своїми друзями на всіх своїх пристроях.</string>
-  <string name="PermissionStorage">Telegram потребує доступу до вашого сховища, щоб ви могли надсилати й зберігати фотографії, відео, музику та інші медіа.</string>
+  <string name="PermissionStorage">Telegram потребує доступу до вашого сховища, щоб ви могли надсилати й зберігати фото, відео, музику та інші медіа.</string>
   <string name="PermissionNoAudio">Telegram потребує доступу до вашого мікрофону, щоб ви могли надсилати голосові повідомлення.</string>
   <string name="PermissionNoLocation">Telegram потребує доступу до вашого розташування, щоб ви могли ділитися ним зі своїми друзями.</string>
   <string name="PermissionNoLocationPosition">Telegram потребує доступу до вашого розташування.</string>
@@ -1072,7 +1072,7 @@
   <string name="Minutes_few">%1$d хвилини</string>
   <string name="Minutes_many">%1$d хвилин</string>
   <string name="Minutes_other">%1$d хвилин</string>
-  <string name="Hours_zero">%1$d година</string>
+  <string name="Hours_zero">%1$d годин</string>
   <string name="Hours_one">%1$d година</string>
   <string name="Hours_two">%1$d години</string>
   <string name="Hours_few">%1$d години</string>
@@ -1158,7 +1158,7 @@
   <string name="ForwardedFile_many">%1$d пересланих файлів</string>
   <string name="ForwardedFile_other">%1$d пересланих файлів</string>
   <string name="ForwardedPhoto_zero">%1$d пересланих фотографій</string>
-  <string name="ForwardedPhoto_one">Переслана фотографія</string>
+  <string name="ForwardedPhoto_one">Пересланий фотознімок</string>
   <string name="ForwardedPhoto_two">%1$d переслані фотографії</string>
   <string name="ForwardedPhoto_few">%1$d переслані фотографії</string>
   <string name="ForwardedPhoto_many">%1$d пересланих фотографій</string>
@@ -1207,13 +1207,13 @@
   <string name="AndOther_other">й %1$d інших</string>
   <!--date formatters-->
   <string name="formatterMonthYear">MMMM yyyy</string>
-  <string name="formatterMonth">MMM dd</string>
+  <string name="formatterMonth">dd MMM</string>
   <string name="formatterYear">dd.MM.yy</string>
   <string name="formatterYearMax">dd.MM.yyyy</string>
-  <string name="chatDate">MMMM d</string>
-  <string name="chatFullDate">MMMM d, yyyy</string>
+  <string name="chatDate">d MMMM</string>
+  <string name="chatFullDate">d MMMM yyyy</string>
   <string name="formatterWeek">EEE</string>
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
-  <string name="formatDateAtTime">%1$s в %2$s</string>
+  <string name="formatDateAtTime">%1$s, %2$s</string>
 </resources>
