@@ -1232,4 +1232,6 @@
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s %2$s</string>
+  <string name="Draft">Каралама</string>
+  <string name="HistoryCleared">Тарих чистартылган булган</string>
 </resources>
