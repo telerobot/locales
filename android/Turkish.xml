@@ -90,7 +90,7 @@
   <string name="GroupUserLeftError">Üzgünüz, bu kullanıcı gruptan ayrılmaya karar verdi, bu yüzden onu tekrar davet edemezsiniz.</string>
   <string name="GroupUserCantAdmin">Üzgünüz, bu grupta çok fazla yönetici var.</string>
   <string name="GroupUserCantBot">Üzgünüz, bu grupta çok fazla bot var.</string>
-  <string name="ActionPinnedText">un1 \"%1$s\" mesajını sabitledi.</string>
+  <string name="ActionPinnedText">un1 sabitledi: \"%1$s\"</string>
   <string name="ActionPinnedNoText">un1 bir mesaj sabitledi</string>
   <string name="ActionPinnedPhoto">un1 bir fotoğraf sabitledi</string>
   <string name="ActionPinnedVideo">un1 bir video sabitledi</string>
@@ -165,6 +165,7 @@
   <string name="ActionChannelRemovedPhoto">Kanal resmi kaldırıldı</string>
   <string name="ActionChannelChangedTitle">Kanal ismi un2 olarak değiştirildi.</string>
   <string name="ChannelPublicLimitReached">Üzgünüz, çok fazla açık kanal oluşturdunuz. Özel bir kanal oluşturmayı ya da açık kanallarınızdan birisini silmeyi deneyebilirsiniz.</string>
+  <string name="ChangePublicLimitReached">Üzgünüz, çok fazla açık link oluşturdunuz. Silmeyi veya kanal ya da gruplarınızı özel yapmayı düşünebilirsiniz.</string>
   <string name="ChannelModerator">Moderatör</string>
   <string name="ChannelCreator">Sahip</string>
   <string name="ChannelEditor">Yönetici</string>
@@ -203,7 +204,9 @@
   <string name="ChannelMessageGroupDocument">%1$s, %2$s kanalına bir dosya gönderdi</string>
   <string name="ChannelMessageGroupGif">%1$s, %2$s kanalına bir GIF gönderdi</string>
   <string name="ChannelMessageGroupAudio">%1$s, %2$s kanalına sesli bir mesaj gönderdi</string>
+  <string name="ChannelMessageGroupMusic">%1$s, %2$s kanalına bir parça gönderdi</string>
   <string name="ChannelMessageGroupSticker">%1$s, %2$s kanalına bir çıkartma gönderdi</string>
+  <string name="ChannelMessageGroupStickerEmoji">%1$s, %2$s kanalına bir %3$s çıkartması gönderdi</string>
   <string name="ChannelMessageNoText">%1$s bir mesaj yayınladı</string>
   <string name="ChannelMessagePhoto">%1$s bir fotoğraf yayınladı</string>
   <string name="ChannelMessageVideo">%1$s bir video yayınladı</string>
@@ -214,11 +217,14 @@
   <string name="ChannelMessageAudio">%1$s bir sesli mesaj yayınladı</string>
   <string name="ChannelMessageMusic">%1$s bir parça yayınladı</string>
   <string name="ChannelMessageSticker">%1$s size bir çıkartma yayınladı</string>
+  <string name="ChannelMessageStickerEmoji">%1$s, bir %2$s çıkartması gönderdi</string>
   <string name="WhoCanAddMembers">Kimler yeni bir üye ekleyebilir?</string>
   <string name="WhoCanAddMembersAllMembers">Tüm Üyeler</string>
   <string name="WhoCanAddMembersAdmins">Sadece Yöneticiler</string>
   <string name="ChannelNotifyMembersInfoOn">İleti yayınladığınızda üyeler bilgilendirilecek</string>
   <string name="ChannelNotifyMembersInfoOff">İleti yayınladığınızda üyeler bilgilendirilmeyecek</string>
+  <string name="ChannelSignMessages">Giriş Mesajları</string>
+  <string name="ChannelSignMessagesInfo">Yöneticilerin isimlerini yayınladıkları mesajlara ekle.</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Yeni Yayın Listesi</string>
   <string name="EnterListName">Liste adı girin</string>
@@ -251,6 +257,7 @@
   <string name="IsTyping">yazıyor...</string>
   <string name="AreTyping">yazıyor...</string>
   <string name="IsRecordingAudio">%1$s sesli mesaj kaydediyor...</string>
+  <string name="IsSendingAudio">%1$s ses gönderiyor...</string>
   <string name="IsSendingPhoto">%1$s fotoğraf gönderiyor...</string>
   <string name="IsSendingVideo">%1$s video gönderiyor...</string>
   <string name="IsSendingFile">%1$s dosya gönderiyor...</string>
@@ -297,6 +304,7 @@ sorunuz mu var?</string>
   <string name="SetTimer">Kendini imha etme zamanlayıcıyıcısını ayarla</string>
   <string name="ServiceNotifications">Servis bildirimleri</string>
   <string name="GettingLinkInfo">Bağlantı bilgisi alınıyor...</string>
+  <string name="OpenInBrowser">BİRLİKTE AÇ...</string>
   <string name="CopyUrl">Adresi Kopyala</string>
   <string name="SendItems">Gönder %1$s</string>
   <string name="OpenUrlAlert">%1$s? bağlantısını aç?</string>
@@ -305,6 +313,7 @@ sorunuz mu var?</string>
   <string name="AddContactChat">KİŞİ EKLE</string>
   <string name="ReportSpamAlert">Bu kullanıcıyı spam olarak raporlamak istediğinizden emin misiniz?</string>
   <string name="ReportSpamAlertGroup">Bu grubu spam olarak raporlamak istediğinizden emin misiniz?</string>
+  <string name="ReportSpamAlertChannel">Bu kanalı spam olarak bildirmek istediğinize emin misiniz?</string>
   <string name="NobodyLikesSpam1">Üzgünüz, şu anda sadece ortak üyelere mesaj gönderebilirsiniz.</string>
   <string name="NobodyLikesSpam2">Üzgünüz, şu anda sadece ortak üyeleri gruplara ekleyebilirsiniz.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
@@ -349,7 +358,7 @@ sorunuz mu var?</string>
   <string name="NotificationMessageAudio">%1$s size bir sesli bir mesaj gönderdi</string>
   <string name="NotificationMessageMusic">%1$s size bir parça gönderdi</string>
   <string name="NotificationMessageSticker">%1$s size bir çıkartma gönderdi</string>
-  <string name="NotificationMessageStickerEmoji">%1$s, %2$s etiketi gönderdi</string>
+  <string name="NotificationMessageStickerEmoji">%1$s, %2$s çıkartması gönderdi</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s, %2$s grubuna bir mesaj gönderdi</string>
   <string name="NotificationMessageGroupPhoto">%1$s, %2$s grubuna bir fotoğraf gönderdi</string>
@@ -384,12 +393,20 @@ sorunuz mu var?</string>
   <string name="NotificationActionPinnedPhoto">%1$s, %2$s grubunda bir fotoğraf sabitledi</string>
   <string name="NotificationActionPinnedVideo">%1$s, %2$s grubunda bir video sabitledi</string>
   <string name="NotificationActionPinnedFile">%1$s, %2$s grubunda bir dosya sabitledi</string>
+  <string name="NotificationActionPinnedSticker">%1$s, %2$s grubunda bir çıkartma sabitledi</string>
+  <string name="NotificationActionPinnedStickerEmoji">%1$s, %2$s grubunda bir %3$s çıkartmasını sabitledi</string>
+  <string name="NotificationActionPinnedVoice">%1$s, %2$s grubunda bir sesli mesaj sabitledi</string>
+  <string name="NotificationActionPinnedContact">%1$s, %2$s grubunda bir kişi sabitledi</string>
+  <string name="NotificationActionPinnedGeo">%1$s, %2$s grubunda bir harita sabitledi</string>
+  <string name="NotificationActionPinnedGif">%1$s, %2$s grubunda bir GIF sabitledi</string>
+  <string name="NotificationActionPinnedMusic">%1$s, %2$s grubunda bir parça sabitledi</string>
+  <string name="NotificationActionPinnedTextChannel">%1$s sabitledi: \"%2$s\"</string>
   <string name="NotificationActionPinnedNoTextChannel">%1$s bir mesaj sabitledi</string>
   <string name="NotificationActionPinnedPhotoChannel">%1$s bir fotoğraf sabitledi</string>
   <string name="NotificationActionPinnedVideoChannel">%1$s bir video sabitledi</string>
   <string name="NotificationActionPinnedFileChannel">%1$s bir dosya sabitledi</string>
-  <string name="NotificationActionPinnedStickerChannel">%1$s bir etiket sabitledi</string>
-  <string name="NotificationActionPinnedStickerEmojiChannel">%1$s bir %2$s etiketi sabitledi</string>
+  <string name="NotificationActionPinnedStickerChannel">%1$s bir çıkartma sabitledi</string>
+  <string name="NotificationActionPinnedStickerEmojiChannel">%1$s bir %2$s çıkartmasını sabitledi</string>
   <string name="NotificationActionPinnedVoiceChannel">%1$s bir sesli mesaj sabitledi</string>
   <string name="NotificationActionPinnedContactChannel">%1$s bir kişi sabitledi</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s bir harita sabitledi</string>
@@ -444,9 +461,14 @@ sorunuz mu var?</string>
   <string name="DeleteAndExit">Sil ve gruptan ayrıl</string>
   <string name="Notifications">Bildirimler</string>
   <string name="KickFromGroup">Gruptan kaldır</string>
+  <string name="UpgradeGroup">Süpergruba Yükselt</string>
+  <string name="ConvertGroup">Süpergruba Dönüştür</string>
+  <string name="ConvertGroupMenu">Süpergruba dönüştür</string>
   <string name="ConvertGroupAlertWarning">Uyarı</string>
+  <string name="ConvertGroupAlert">Bu işlem geri alınamaz. Bir süpergrubu normal gruba dönüştürmek mümkün değildir.</string>
   <string name="ConvertGroupInfo"><![CDATA[<b>]]>Üye sınırına ulaşıldı.<![CDATA[</b>]]>\n\nLimitten kurtulmak ve ek özellikler almak için süpergruba yükseltin:\n\n• Süpergruplar %1$s üyeden oluşabilir\n• Yeni üyeler bütün mesaj geçmişini görebilir\n• Silinen mesajlar büyün üyeler için silinir\n• Üyeler kendi mesajlarını düzenleyebilir\n• Grup sahibi grup için genel bir bağlantı oluşturabilir</string>
   <string name="ConvertGroupInfo2"><![CDATA[<b>]]>Süpergruplarda:<![CDATA[</b>]]>\n\n• Yeni üyeler bütün mesaj geçmişini görebilir\n• Silinen mesajlar büyün üyeler için silinir\n• Üyeler kendi mesajlarını düzenleyebilir\n• Grup sahibi grup için genel bir bağlantı oluşturabilir</string>
+  <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Not:<![CDATA[</b>]]> bu işlem geri alınamaz.</string>
   <!--contact info view-->
   <string name="ShareContact">Paylaş</string>
   <string name="AddContact">Ekle</string>
@@ -464,6 +486,7 @@ sorunuz mu var?</string>
   <string name="EncryptionKey">Şifreleme Anahtarı</string>
   <string name="MessageLifetime">Kendini imha etme zamanlayıcı</string>
   <string name="ShortMessageLifetimeForever">Kapalı</string>
+  <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="NumberUnknown">Bilinmeyen</string>
   <string name="Info">Bilgi</string>
   <string name="Phone">Telefon</string>
@@ -482,19 +505,20 @@ sorunuz mu var?</string>
   <string name="UsernameEmpty">Yok</string>
   <string name="ErrorOccurred">Bir hata oluştu.</string>
   <!--stickers view-->
-  <string name="Stickers">Etiketler</string>
-  <string name="StickersInfo">Sanatçılar @stickers botumuzu kullanarak kendi etiket paketlerini ekleyebilirler.\n\nKullanıcılar etiketlere dokunarak ve \\"Etiketlere Ekle\\"yi seçerek ekleyebilirler.</string>
-  <string name="AddStickers">Etiketleri Ekle</string>
-  <string name="AddToStickers">Etiketlere Ekle</string>
-  <string name="AddStickersNotFound">Etiketler bulunamadı.</string>
-  <string name="StickersRemoved">Etiketler kaldırıldı</string>
-  <string name="AddStickersInstalled">Yeni etiketler eklendi</string>
+  <string name="Stickers">Çıkartmalar</string>
+  <string name="StickersInfo">Sanatçılar @stickers botumuzu kullanarak kendi çıkartma paketlerini ekleyebilirler.\n\nKullanıcılar çıkartmalara dokunarak ve \\"Çıkartmalara Ekle\\"yi seçerek ekleyebilirler.</string>
+  <string name="AddStickers">Çıkartma Ekle</string>
+  <string name="AddToStickers">Çıkartmalara Ekle</string>
+  <string name="AddStickersNotFound">Çıkartmalar bulunamadı.</string>
+  <string name="StickersRemoved">Çıkartmalar kaldırıldı</string>
+  <string name="AddStickersInstalled">Yeni çıkartmalar eklendi</string>
   <string name="StickersHide">Gizle</string>
   <string name="StickersShow">Göster</string>
   <string name="StickersShare">Paylaş</string>
   <string name="StickersCopy">Linki kopyala</string>
   <string name="StickersRemove">Kaldır</string>
-  <string name="NoStickers">Henüz etiket yok</string>
+  <string name="NoStickers">Henüz çıkartma yok</string>
+  <string name="SendSticker">ÇIKARTMA GÖNDER</string>
   <string name="TooMuchStickersets">Üzgünüz, maksimum çıkartma paketi sayısına ulaştınız.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Tüm bildirim ayarlarını varsayılana sıfırla</string>
@@ -537,10 +561,12 @@ sorunuz mu var?</string>
   <string name="TelegramFaq">Telegram SSS</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
   <string name="PrivacyPolicy">Gizlilik Politikası</string>
+  <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
   <string name="DeleteLocalization">Yerelleştirme silinsin mi?</string>
   <string name="IncorrectLocalization">Yanlış yerelleştirme dosyası</string>
   <string name="Enabled">Etkin</string>
   <string name="Disabled">Devre dışı</string>
+  <string name="NotificationsService">Keep-Alive Servisi</string>
   <string name="NotificationsServiceConnection">Arkaplan Bağlantısı</string>
   <string name="SortBy">Sırala</string>
   <string name="ImportContacts">Kişileri içe Aktar</string>
@@ -661,6 +687,10 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="NoSharedAudio">Bu sohbette müzik paylaşın ve paylaşımlarınıza tüm cihazlarınızdan erişin.</string>
   <string name="NoSharedFiles">Bu sohbette dosya ve doküman paylaşın ve paylaşımlarınıza tüm cihazlarınızdan erişin</string>
   <string name="NoSharedLinks">Bu sohbette linkleri paylaşın ve paylaşımlarınıza tüm cihazlarınızdan erişin</string>
+  <string name="NoMediaSecret">Bu sohbetteki resimler ve videolar burada görünür.</string>
+  <string name="NoSharedAudioSecret">Bu sohbetteki müzikler burada görünür.</string>
+  <string name="NoSharedFilesSecret">Bu sohbetteki dosyalar ve belgeler burada görünür.</string>
+  <string name="NoSharedLinksSecret">Bu sohbetteki paylaşılan bağlantılar burada görünür.</string>
   <!--map view-->
   <string name="Map">Harita</string>
   <string name="Satellite">Uydu</string>
@@ -701,6 +731,7 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="Shadows">Gölgeler</string>
   <string name="Grain">Taneleme</string>
   <string name="Sharpen">Keskinlik</string>
+  <string name="Fade">Soldur</string>
   <string name="Tint">Tonlama</string>
   <string name="TintShadows">GÖLGELER</string>
   <string name="TintHighlights">PARLAK ALANLAR</string>
@@ -723,6 +754,7 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="AddCaption">Başlık ekleyin...</string>
   <string name="PhotoCaption">Resim Başlığı</string>
   <string name="VideoCaption">Video Başlığı</string>
+  <string name="Caption">Başlık</string>
   <!--password view-->
   <string name="TwoStepVerification">2 Adımlı Doğrulama</string>
   <string name="SetAdditionalPassword">İlave Şifre Ayarla</string>
@@ -763,6 +795,7 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="ResetMyAccount">HESABIMI SIFIRLA</string>
   <string name="ResetMyAccountText">Eğer hesabınızı sıfırlarsanız, bütün sohbetlerinizi, mesajlarınızı ve buna bağlı olarak paylaştığınız bütün içerikleri kaybedeceksiniz.</string>
   <string name="ResetMyAccountWarning">Uyarı</string>
+  <string name="ResetMyAccountWarningText">Bu işlem geri alınamaz.\n\nEğer hesabınızı sıfırlarsanız bütün mesajlarınız ve sohbetleriniz silinecek.</string>
   <string name="ResetMyAccountWarningReset">Sıfırla</string>
   <string name="LoginPassword">Şifre</string>
   <string name="LoginPasswordText">2 Adımla Doğrulamayı etkinleştirdiniz, bu yüzden hesabınız ilave bir şifreyle korunuyor.</string>
@@ -878,6 +911,7 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="ActionKickUserYou">un1 sizi sildi</string>
   <string name="ActionAddUserYou">un1 sizi ekledi</string>
   <string name="ActionAddUserSelf">un1 gruba geri döndü</string>
+  <string name="ActionAddUserSelfMega">un1 gruba katıldı</string>
   <string name="ActionAddUserSelfYou">Gruba geri döndünüz.</string>
   <string name="UnsupportedMedia">Telegram sürümünüz bu mesajı desteklemiyor. Uygulamayı güncelleyin: https://telegram.org/update</string>
   <string name="AttachPhoto">Fotoğraf</string>
@@ -921,8 +955,12 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="AreYouSureDeleteAndExit">Grubu silmek ve gruptan ayrılmak istediğinize emin misiniz?</string>
   <string name="AreYouSureDeleteThisChat">Bu sohbeti silmek istediğinizden emin misiniz?</string>
   <string name="ShareYouLocationTitle">Konumunuz paylaşılsın mı?</string>
+  <string name="ShareYouLocationInfo">Bu işlem bulunduğunuz konumu bot\'a gönderecek.</string>
+  <string name="ShareYouLocationUnable">Uygulama geçerli konumunuzu belirleyemiyor</string>
   <string name="ShareYouLocationUnableManually">Elle seç</string>
+  <string name="ShareYouLocationInline">Bu bot her işlem talebinizde konumunuzu bilmek istemektedir. Bunun sebebi konum-bazlı sonuçları oluşturmaktır.</string>
   <string name="ShareYouPhoneNumberTitle">Telefon numaranız paylaşılsın mı?</string>
+  <string name="AreYouSureShareMyContactInfoBot">Bot telefon numaranızı bilecek. Bu diğer servisler ile entegrasyon için faydalı olabilir.</string>
   <string name="AreYouSureShareMyContactInfo">Telefon numaranızı paylaşmak istediğinizden emin misiniz?</string>
   <string name="AreYouSureBlockContact">Bu kişiyi engellemek istediğinizden emin misiniz?</string>
   <string name="AreYouSureUnblockContact">Bu kişinin engelini kaldırmak istediğinizden emin misiniz?</string>
@@ -940,6 +978,8 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="NoUsernameFound">Bu kullanıcı adına ait bir Telegram hesabı yok.</string>
   <string name="BotCantJoinGroups">Bu bot gruplara katılamaz.</string>
   <string name="SecretLinkPreviewAlert">Gizli Sohbetler\'de genişletilmiş bağlantı önizlemelerini etkinleştirmek istiyor musunuz? Bağlantı önizlemelerinin Telegram sunucularında oluşturulduğunu unutmayın.</string>
+  <string name="EditMessageError">Üzgünüz, bu mesajı düzenleyemezsiniz.</string>
+  <string name="UserRestricted">Üzgünüz, bu işlem için izinli değilsiniz.</string>
   <!--permissions-->
   <string name="PermissionNoLocationPosition">Telegram\'ın konumunuza erişmesi gerekli.</string>
   <string name="PermissionOpenSettings">AYARLAR</string>
@@ -1068,12 +1108,12 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="Meters_few">%1$d metre</string>
   <string name="Meters_many">%1$d metre</string>
   <string name="Meters_other">%1$d metre</string>
-  <string name="Stickers_zero">%1$d etiket</string>
-  <string name="Stickers_one">%1$d etiket</string>
-  <string name="Stickers_two">%1$d etiket</string>
-  <string name="Stickers_few">%1$d etiket</string>
-  <string name="Stickers_many">%1$d etiket</string>
-  <string name="Stickers_other">%1$d etiket</string>
+  <string name="Stickers_zero">%1$d çıkartma</string>
+  <string name="Stickers_one">%1$d çıkartma</string>
+  <string name="Stickers_two">%1$d çıkartma</string>
+  <string name="Stickers_few">%1$d çıkartma</string>
+  <string name="Stickers_many">%1$d çıkartma</string>
+  <string name="Stickers_other">%1$d çıkartma</string>
   <string name="Photos_zero">%1$d fotoğraf</string>
   <string name="Photos_one">%1$d fotoğraf</string>
   <string name="Photos_two">%1$d fotoğraf</string>
@@ -1117,6 +1157,18 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="ForwardedVideo_few">%1$d iletilen video</string>
   <string name="ForwardedVideo_many">%1$d iletilen video</string>
   <string name="ForwardedVideo_other">%1$d iletilen video</string>
+  <string name="ForwardedMusic_zero">%1$d iletilen parça</string>
+  <string name="ForwardedMusic_one">İletilen parça</string>
+  <string name="ForwardedMusic_two">%1$d iletilen parça</string>
+  <string name="ForwardedMusic_few">%1$d iletilen parça</string>
+  <string name="ForwardedMusic_many">%1$d iletilen parça</string>
+  <string name="ForwardedMusic_other">%1$d iletilen parça</string>
+  <string name="ForwardedAudio_zero">%1$d iletilen sesli mesaj</string>
+  <string name="ForwardedAudio_one">İletilen sesli mesaj</string>
+  <string name="ForwardedAudio_two">%1$d iletilen sesli mesaj</string>
+  <string name="ForwardedAudio_few">%1$d iletilen sesli mesaj</string>
+  <string name="ForwardedAudio_many">%1$d iletilen sesli mesaj</string>
+  <string name="ForwardedAudio_other">%1$d iletilen sesli mesaj</string>
   <string name="ForwardedLocation_zero">%1$d iletilen konum</string>
   <string name="ForwardedLocation_one">İletilen Konum</string>
   <string name="ForwardedLocation_two">%1$d iletilen konum</string>
@@ -1129,12 +1181,12 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="ForwardedContact_few">%1$d iletilen kişi</string>
   <string name="ForwardedContact_many">%1$d iletilen kişi</string>
   <string name="ForwardedContact_other">%1$d iletilen kişi</string>
-  <string name="ForwardedSticker_zero">%1$d iletilen etiket</string>
-  <string name="ForwardedSticker_one">İletilen Etiket</string>
-  <string name="ForwardedSticker_two">%1$d iletilen etiket</string>
-  <string name="ForwardedSticker_few">%1$d iletilen etiket</string>
-  <string name="ForwardedSticker_many">%1$d iletilen etiket</string>
-  <string name="ForwardedSticker_other">%1$d iletilen etiket</string>
+  <string name="ForwardedSticker_zero">%1$d iletilen çıkartma</string>
+  <string name="ForwardedSticker_one">İletilen çıkartma</string>
+  <string name="ForwardedSticker_two">%1$d iletilen çıkartma</string>
+  <string name="ForwardedSticker_few">%1$d iletilen çıkartma</string>
+  <string name="ForwardedSticker_many">%1$d iletilen çıkartma</string>
+  <string name="ForwardedSticker_other">%1$d iletilen çıkartma</string>
   <string name="AndOther_zero">ve %1$d diğerleri</string>
   <string name="AndOther_one">ve %1$d diğerleri</string>
   <string name="AndOther_two">ve %1$d diğerleri</string>
@@ -1152,4 +1204,6 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s saat %2$s</string>
+  <string name="Draft">Taslak</string>
+  <string name="HistoryCleared">Geçmiş temizlendi</string>
 </resources>

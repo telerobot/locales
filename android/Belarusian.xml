@@ -1212,4 +1212,6 @@
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s а %2$s</string>
+  <string name="Draft">Чарнавік</string>
+  <string name="HistoryCleared">Гісторыя была ачышчана</string>
 </resources>
