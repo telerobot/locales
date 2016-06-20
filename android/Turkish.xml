@@ -158,6 +158,7 @@
   <string name="ChannelLeaveAlert">Kanaldan ayrılmak istediğinizden emin misiniz?</string>
   <string name="ChannelDeleteInfo">Kanaldaki bütün mesajları kaybedeceksiniz.</string>
   <string name="ChannelEdit">Düzenle</string>
+  <string name="MegaWasPrivateAlert">Eğer grubunuz için açık bir link seçerseniz, grubunuzu herkesin aramalarda bulabileceğini ve katılabileceğini unutmayın.\n\Süpergrubunuzun gizli kalmasını istiyorsanız bu linki oluşturmayın.</string>
   <string name="ChannelWasPrivateAlert">Eğer kanalınız için açık bir link seçerseniz, kanalınızı herkesin bulabileceğini ve katılabileceğini unutmayın.\n\nKanalınızın gizli kalmasını istiyorsanız bu linki oluşturmayın.</string>
   <string name="ChannelPublicEmptyUsername">Açık kanalınız için bir link seçin, bu şekilde insanlar kanalınızı bulabilir ve diğerleri ile paylaşabilir. İlginizi çekmediyse, özel bir kanal oluşturmayı deneyebilirsiniz.</string>
   <string name="ActionCreateChannel">Kanal oluşturuldu</string>
@@ -327,6 +328,7 @@ sorunuz mu var?</string>
   <string name="UnpinMessageAlert">Bu gruptaki bu mesajı sabitlemeyi kapatmak istiyor musunuz?</string>
   <string name="DeleteBanUser">Kullanıcı yasakla</string>
   <string name="DeleteReportSpam">Spam raporla</string>
+  <string name="DeleteAllFrom">Hepsini sil: %1$s</string>
   <string name="ClearRecentEmoji">Son emojileri temizle?</string>
   <string name="ReportChat">Raporla</string>
   <string name="ReportChatSpam">Spam</string>
@@ -486,6 +488,7 @@ sorunuz mu var?</string>
   <string name="EncryptionKey">Şifreleme Anahtarı</string>
   <string name="MessageLifetime">Kendini imha etme zamanlayıcı</string>
   <string name="ShortMessageLifetimeForever">Kapalı</string>
+  <string name="EncryptionKeyDescription">Bu resim ve yazı <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ile yaptığınız bu gizli sohbet için türetildi.<![CDATA[<br><br>]]>Eğer <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> kişisinin cihazında da aynıysa, noktadan noktaya şifreleme sağlanmış demektir.<![CDATA[<br><br>]]>telegram.org\'da daha fazlasını öğrenin.</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="NumberUnknown">Bilinmeyen</string>
   <string name="Info">Bilgi</string>
@@ -567,7 +570,9 @@ sorunuz mu var?</string>
   <string name="Enabled">Etkin</string>
   <string name="Disabled">Devre dışı</string>
   <string name="NotificationsService">Keep-Alive Servisi</string>
+  <string name="NotificationsServiceInfo">Sistem ya da kullanıcı tarafından uygulama kapatılırsa yeniden başlatın. Bu uygulamanın bildirimleri göstermesini sağlar.</string>
   <string name="NotificationsServiceConnection">Arkaplan Bağlantısı</string>
+  <string name="NotificationsServiceConnectionInfo">Bildirimleri almak için Telegram\'a düşük sistem harcamalı arkaplan bağlantısı sağlayın. Güvenilir bildirimler için gereklidir.</string>
   <string name="SortBy">Sırala</string>
   <string name="ImportContacts">Kişileri içe Aktar</string>
   <string name="SortFirstName">Adınız</string>
@@ -589,6 +594,7 @@ sorunuz mu var?</string>
   <string name="WhenRoaming">Dolaşımdayken</string>
   <string name="NoMediaAutoDownload">Medya Yok</string>
   <string name="AutoplayGifs">GIF\'leri otomatik oynat</string>
+  <string name="RaiseToSpeak">Konuşmak için Kaldır</string>
   <string name="SaveToGallerySettings">Galeriye kaydet</string>
   <string name="EditName">Adı düzenle</string>
   <string name="NotificationsPriority">Öncelik</string>
