@@ -89,7 +89,7 @@
   <string name="GroupUserAddLimit">Üzgünüz, bu grup dolu.</string>
   <string name="GroupUserLeftError">Üzgünüz, bu kullanıcı gruptan ayrılmaya karar verdi, bu yüzden onu tekrar davet edemezsiniz.</string>
   <string name="GroupUserCantAdmin">Üzgünüz, bu grupta çok fazla yönetici var.</string>
-  <string name="GroupUserCantBot">Üzgünüz, bu grupta çok fazla bot var.</string>
+  <string name="GroupUserCantBot">Üzgünüz, bu grupta çok fazla robot var.</string>
   <string name="ActionPinnedText">un1 sabitledi: \"%1$s\"</string>
   <string name="ActionPinnedNoText">un1 bir mesaj sabitledi</string>
   <string name="ActionPinnedPhoto">un1 bir fotoğraf sabitledi</string>
@@ -188,7 +188,7 @@
   <string name="ChannelUserLeftError">Üzgünüz, bu kullanıcı kanaldan ayrılmaya karar verdi, bu yüzden onu tekrar davet edemezsiniz.</string>
   <string name="ChannelUserCantAdd">Üzgünüm, kanala yeni bir kullanıcı ekleyemezsiniz.</string>
   <string name="ChannelUserCantAdmin">Üzgünüz, bu grupta çok fazla yönetici var.</string>
-  <string name="ChannelUserCantBot">Üzgünüz, bu grupta çok fazla bot var.</string>
+  <string name="ChannelUserCantBot">Üzgünüz, bu grupta çok fazla robot var.</string>
   <string name="ChannelUserAddLimit">Üzgünüz, sadece ilk 200 üyeyi kanalınıza siz ekleyebilirsiniz. Davet bağlantısını kullanarak sınırsız kullanıcının kanalınıza katılabileceğini unutmayın.</string>
   <string name="ChannelAddedBy">un1 sizi kanala ekledi</string>
   <string name="ChannelJoined">Kanala katıldınız</string>
@@ -338,7 +338,7 @@ sorunuz mu var?</string>
   <string name="ReportChatDescription">Açıklama</string>
   <string name="PinnedMessage">Sabitlenen Mesaj</string>
   <string name="EditedMessage">düzenlendi</string>
-  <string name="AttachBotsHelp">Bot\'lar için aşağı kaydır</string>
+  <string name="AttachBotsHelp">Robotlar için aşağı kaydır</string>
   <string name="TimeToEdit">%1$s</string>
   <string name="TimeToEditExpired">Üzgünüz, düzenleme süresi doldu.</string>
   <string name="AddShortcut">Kısayol Ekle</string>
@@ -509,7 +509,7 @@ sorunuz mu var?</string>
   <string name="ErrorOccurred">Bir hata oluştu.</string>
   <!--stickers view-->
   <string name="Stickers">Çıkartmalar</string>
-  <string name="StickersInfo">Sanatçılar @stickers botumuzu kullanarak kendi çıkartma paketlerini ekleyebilirler.\n\nKullanıcılar çıkartmalara dokunarak ve \\"Çıkartmalara Ekle\\"yi seçerek ekleyebilirler.</string>
+  <string name="StickersInfo">Sanatçılar @stickers robotumuzu kullanarak kendi çıkartma paketlerini ekleyebilirler.\n\nKullanıcılar çıkartmalara dokunarak ve \\"Çıkartmalara Ekle\\"yi seçerek ekleyebilirler.</string>
   <string name="AddStickers">Çıkartma Ekle</string>
   <string name="AddToStickers">Çıkartmalara Ekle</string>
   <string name="AddStickersNotFound">Çıkartmalar bulunamadı.</string>
@@ -649,6 +649,7 @@ sorunuz mu var?</string>
   <string name="LocalCache">Diğer dosyalar</string>
   <string name="CacheEmpty">Boş</string>
   <string name="KeepMedia">Medyayı Sakla</string>
+  <string name="KeepMediaInfo">Bulut sohbetlerinizdeki <![CDATA[<b>bu süre içerisinde bakmadığınız</b>]]> fotoğraflar, videolar ve diğer dosyalar, disk alanı kazanmak için bu cihazdan silinecek.\n\nTüm medya dosyalarınız, Telegram bulut hafızası içinde kalacak ve tekrar ihtiyacınız tekrar indirebilecek.</string>
   <string name="KeepMediaForever">Sürekli</string>
   <!--sessions view-->
   <string name="SessionsTitle">Aktif Oturumlar</string>
@@ -862,18 +863,18 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="SendingVideo">Video gönderiliyor ...</string>
   <string name="CompressVideo">Videoyu sıkıştır</string>
   <!--bot-->
-  <string name="Bot">bot</string>
+  <string name="Bot">robot</string>
   <string name="BotShare">Paylaş</string>
   <string name="BotInvite">Gruba Ekle</string>
   <string name="BotSettings">Ayarlar</string>
   <string name="BotHelp">Yardım</string>
   <string name="BotStatusRead">mesajlara erişebilir</string>
   <string name="BotStatusCantRead">mesajlara erişemez</string>
-  <string name="BotInfoTitle">Bu bot ne yapabilir?</string>
+  <string name="BotInfoTitle">Bu robot ne yapabilir?</string>
   <string name="BotStart">BAŞLA</string>
   <string name="BotUnblock">YENİDEN BAŞLAT</string>
-  <string name="BotStop">Botu durdur</string>
-  <string name="BotRestart">Botu yenide başlat</string>
+  <string name="BotStop">Robotu durdur</string>
+  <string name="BotRestart">Robotu yeniden başlat</string>
   <!--button titles-->
   <string name="Next">İleri</string>
   <string name="Back">Geri</string>
@@ -961,12 +962,13 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="AreYouSureDeleteAndExit">Grubu silmek ve gruptan ayrılmak istediğinize emin misiniz?</string>
   <string name="AreYouSureDeleteThisChat">Bu sohbeti silmek istediğinizden emin misiniz?</string>
   <string name="ShareYouLocationTitle">Konumunuz paylaşılsın mı?</string>
-  <string name="ShareYouLocationInfo">Bu işlem bulunduğunuz konumu bot\'a gönderecek.</string>
+  <string name="ShareYouLocationInfo">Bu işlem bulunduğunuz konumu robota gönderecek.</string>
   <string name="ShareYouLocationUnable">Uygulama geçerli konumunuzu belirleyemiyor</string>
   <string name="ShareYouLocationUnableManually">Elle seç</string>
-  <string name="ShareYouLocationInline">Bu bot her işlem talebinizde konumunuzu bilmek istemektedir. Bunun sebebi konum-bazlı sonuçları oluşturmaktır.</string>
+  <string name="ShareYouLocationInline">Bu robot her işlem talebinizde konumunuzu bilmek istemektedir. Bunun sebebi konum-bazlı sonuçları oluşturmaktır.</string>
   <string name="ShareYouPhoneNumberTitle">Telefon numaranız paylaşılsın mı?</string>
-  <string name="AreYouSureShareMyContactInfoBot">Bot telefon numaranızı bilecek. Bu diğer servisler ile entegrasyon için faydalı olabilir.</string>
+  <string name="AreYouSureShareMyContactInfoBot">Robot telefon numaranızı bilecek. Bu diğer servisler ile entegrasyon için faydalı olabilir.</string>
+  <string name="AreYouSureShareMyContactInfoUser"><![CDATA[<b>]]>%2$s<![CDATA[</b>]]> ile %1$s numaranızı paylaşmak istediğinizden emin misiniz?</string>
   <string name="AreYouSureShareMyContactInfo">Telefon numaranızı paylaşmak istediğinizden emin misiniz?</string>
   <string name="AreYouSureBlockContact">Bu kişiyi engellemek istediğinizden emin misiniz?</string>
   <string name="AreYouSureUnblockContact">Bu kişinin engelini kaldırmak istediğinizden emin misiniz?</string>
@@ -982,11 +984,20 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="ForwardMessagesToGroup">%1$s grubuna mesajları gönder?</string>
   <string name="FeatureUnavailable">Üzgünüz, bu özellik şu anda ülkenizde kullanılabilir değil.</string>
   <string name="NoUsernameFound">Bu kullanıcı adına ait bir Telegram hesabı yok.</string>
-  <string name="BotCantJoinGroups">Bu bot gruplara katılamaz.</string>
+  <string name="BotCantJoinGroups">Bu robot gruplara katılamaz.</string>
   <string name="SecretLinkPreviewAlert">Gizli Sohbetler\'de genişletilmiş bağlantı önizlemelerini etkinleştirmek istiyor musunuz? Bağlantı önizlemelerinin Telegram sunucularında oluşturulduğunu unutmayın.</string>
+  <string name="SecretChatContextBotAlert">Robotların üçüncü parti geliştiriciler tarafından sağlandığını unutmayın. Robotun çalışması için robotun kullanıcı adından sonra yazdığınız şeyler kendi geliştiricisine gönderilir.</string>
+  <string name="RaiseToSpeakAlert">Sesli mesajlar için \"Konuşmak için kaldır\"ı etkinleştirmek ister misiniz?</string>
   <string name="EditMessageError">Üzgünüz, bu mesajı düzenleyemezsiniz.</string>
+  <string name="AllowReadSms">Sizin yerinize kodları girebilmemiz için lütfen Telegram\'ın SMS mesajarınıza erişmesine izin verin.</string>
+  <string name="AllowReadCall">Sizin yerinize kodları girebilmemiz için lütfen Telegram\'ın çağrılarınıza erişmesine izin verin.</string>
+  <string name="AllowReadCallAndSms">Sizin yerinize kodları girebilmemiz için lütfen Telegram\'ın SMS mesajarınıza ve çağrılarınıza erişmesine izin verin.</string>
   <string name="UserRestricted">Üzgünüz, bu işlem için izinli değilsiniz.</string>
   <!--permissions-->
+  <string name="PermissionContacts">Telegram\'ın kişilerinize erişmesi gerekiyor, bu şekilde bütün cihazlarınızda arkadaşlarınızla bağlantıda kalabilirsiniz.</string>
+  <string name="PermissionStorage">Telegram\'ın depolama biriminize erişmesi gerekiyor, bu şekilde resim, video, müzik ve diğer medyalarınızı kaydedebilir ve gönderebilirsiniz.</string>
+  <string name="PermissionNoAudio">Telegram\'ın mikrofonunuza erişmesi gerekiyor, bu şekilde sesli mesajlar gönderebilirsiniz.</string>
+  <string name="PermissionNoLocation">Telegram\'ın konumunuza erişmesi gerekiyor, bu şekilde konumunuzu arkadaşlarınızla paylaşabilirsiniz.</string>
   <string name="PermissionNoLocationPosition">Telegram\'ın konumunuza erişmesi gerekli.</string>
   <string name="PermissionOpenSettings">AYARLAR</string>
   <!--Intro view-->

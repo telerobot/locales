@@ -7,10 +7,17 @@
   <string name="LanguageCode">hy</string>
   <!--signin view-->
   <string name="YourPhone">Ձեր հեռախոսը</string>
+  <string name="StartText">Հաստատեք ձեր երկրի կոդը և մուտքագրեք ձեր հեռախոսահամարը:</string>
   <string name="ChooseCountry">Ընտրեք երկիրը</string>
   <string name="WrongCountry">Երկրի կոդը սխալ է</string>
   <!--code enter view-->
   <string name="YourCode">Ձեր կոդը</string>
+  <string name="SentSmsCode">Մենք կուղարկեք ենք ակտիվացման ծածկագիր բովանդակող SMS հետևյալ համարին.  <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
+  <string name="SentAppCode">Մենք ուղարկել ենք ծածկագիրը ձեր մյուս սարքի <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> -ին:</string>
+  <string name="SentCallCode">Այժմ մենք կկատարենք ակտիվացման հատուկ զանգ ձեր <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nհամարին:  Լսափողը պետք չէ վերցնել:  Telegram-ն անհրաժեշտ ամեն ինչ ինքը կանի:</string>
+  <string name="SentCallOnly">Հիմա մենք կզանգահարենք ձեր <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> համարին և կթելադրենք ծածկագիրը:</string>
+  <string name="CallText">Մենք ձեզ կզանգահարենք %1$d:%2$02d -ից:</string>
+  <string name="SmsText">մեր SMS-ը կուղարկվի %1$d:%2$02d-ից:</string>
   <string name="Calling">Զանգում ենք Ձեզ…</string>
   <string name="Code">Կոդ</string>
   <string name="WrongNumber">Համարը սխա՞լ է։</string>
@@ -29,22 +36,39 @@
   <string name="Yesterday">երեկ</string>
   <string name="NoResult">Արդյունքներ չկան</string>
   <string name="NoChats">Զրույցեր դեռ չկան…</string>
+  <string name="NoChatsHelp">Սեղմեք նոր չատի ստեղծման համար նախատեսված n կոճակը, որը գտնվում է ստորին աջ անկյունում կամ սեղմեք մենյուի/n կոճակը լրացուցիչ տարբերակների համար:</string>
   <string name="WaitingForNetwork">Ցանցի սպասում...</string>
   <string name="Connecting">Կապակցում...</string>
   <string name="Updating">Թարմացում...</string>
   <string name="NewSecretChat">Նոր գաղտնի զրույց</string>
+  <string name="AwaitingEncryption">Սպասում ենք, մինչև %s -ը հայտնվի ցանցում</string>
+  <string name="EncryptionRejected">Գաղտնի չատը չեղարկված է</string>
+  <string name="EncryptionProcessing">Ծածկագրման բանալիների փոխանակություն…</string>
+  <string name="EncryptedChatStartedOutgoing">Այժմ դուք և %s -ը գաղտնի չատում եք:</string>
+  <string name="EncryptedChatStartedIncoming">Դուք միացել եք գաղտնի չատին:</string>
   <string name="ClearHistory">Մաքրել պատմությունը</string>
+  <string name="ClearHistoryCache">Ջնջել հիշապահեստից</string>
   <string name="DeleteChat">Հեռացնել և դուրս գալ</string>
   <string name="DeleteChatUser">Ջնջել զրույցը</string>
+  <string name="HiddenName">Ջնջված հաշիվը</string>
   <string name="SelectChat">Ընտրեք զրույցը</string>
+  <string name="PhotoTip">Սեղմեք և սպասեք, որ դիտեք:</string>
   <string name="SearchMessages">ՀԱՂՈՐԴԱԳՐՈՒԹՅՈՒՆՆԵՐ</string>
   <string name="Search">Որոնել</string>
   <string name="MuteNotifications">Անջատալ ծանուցումները</string>
+  <string name="MuteFor">Անջատալ  %1$s-ի ծանուցումները</string>
   <string name="UnmuteNotifications">Միացնել ծանուցումները</string>
+  <string name="WillUnmuteIn">%1$s-ի միջոցով</string>
   <string name="MuteDisable">Անջատել</string>
+  <string name="Hashtags">ՎԱՆԴԿԱՆԻՇ</string>
+  <string name="Recent">ՎԵՐՋԻՆՆԵՐԸ</string>
   <string name="ChatHints">ԶՐՈՒՅՑԵՐ</string>
   <!--channels-->
+  <string name="GroupType">Խմբի տեսակը</string>
   <string name="ChannelType">Ալիքի տեսակը</string>
+  <string name="ChannelTypePublic">Հանրային</string>
+  <string name="ChannelTypePrivate">Մասնավոր</string>
+  <string name="DescriptionInfoMega">Կարող եք նշել ձեր խմբի նկարագիրը ոչ պարտադիր</string>
   <string name="LeaveMega">Լքել խումբը</string>
   <string name="DeleteMega">Ջնջել խումբը</string>
   <string name="LeaveMegaMenu">Լքել խումբը</string>
