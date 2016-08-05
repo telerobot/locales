@@ -1065,13 +1065,13 @@
   <string name="Minutes_zero">%1$d хвілін</string>
   <string name="Minutes_one">%1$d хвіліна</string>
   <string name="Minutes_two">%1$d хвіліны</string>
-  <string name="Minutes_few">%1$d хвілін</string>
+  <string name="Minutes_few">%1$d хвіліны</string>
   <string name="Minutes_many">%1$d хвілін</string>
   <string name="Minutes_other">%1$d хвілін</string>
   <string name="Hours_zero">%1$d гадзін</string>
   <string name="Hours_one">%1$d гадзіна</string>
   <string name="Hours_two">%1$d гадзіны</string>
-  <string name="Hours_few">%1$d гадзін</string>
+  <string name="Hours_few">%1$d гадзіны</string>
   <string name="Hours_many">%1$d гадзін</string>
   <string name="Hours_other">%1$d гадзін</string>
   <string name="Days_zero">%1$d дзён</string>
@@ -1131,13 +1131,13 @@
   <string name="LastSeenMinutes_zero">быў тут %1$d хвілін таму</string>
   <string name="LastSeenMinutes_one">быў тут %1$d хвіліну таму</string>
   <string name="LastSeenMinutes_two">быў тут %1$d хвіліны таму</string>
-  <string name="LastSeenMinutes_few">быў тут %1$d хвілін таму</string>
+  <string name="LastSeenMinutes_few">быў тут %1$d хвіліны таму</string>
   <string name="LastSeenMinutes_many">быў тут %1$d хвілін таму</string>
   <string name="LastSeenMinutes_other">быў тут %1$d хвілін таму</string>
   <string name="LastSeenHours_zero">быў тут %1$d гадзін таму</string>
   <string name="LastSeenHours_one">быў тут %1$d гадзіну таму</string>
   <string name="LastSeenHours_two">быў тут %1$d гадзіны таму</string>
-  <string name="LastSeenHours_few">быў тут %1$d гадзін таму</string>
+  <string name="LastSeenHours_few">быў тут %1$d гадзіны таму</string>
   <string name="LastSeenHours_many">быў тут %1$d гадзін таму</string>
   <string name="LastSeenHours_other">быў тут %1$d гадзін таму</string>
   <!--forwarded messages-->

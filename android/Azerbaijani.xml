@@ -7,9 +7,11 @@
   <string name="LanguageCode">en</string>
   <!--signin view-->
   <string name="YourPhone">Sizin telefonunuz</string>
+  <string name="StartText">Lütfən ölkə kodunuzu təsdiqləyin və nömrənizi daxil edin.</string>
   <string name="ChooseCountry">Ölkəni seçin</string>
   <string name="WrongCountry">Ölkə kodu səhvdir</string>
   <!--code enter view-->
+  <string name="YourCode">Telefon təsdiqləməsi</string>
   <string name="Calling">Sizə zəng edilir</string>
   <string name="Code">Kod</string>
   <string name="WrongNumber">Nömrə səhvdir?</string>
@@ -32,14 +34,44 @@
   <string name="Connecting">Qoşulur ...</string>
   <string name="Updating">Yenilənir ...</string>
   <string name="NewSecretChat">Yeni gizli söhbət</string>
+  <string name="AwaitingEncryption">%s tərəfinin onlayn olması üçün gözlənilir...</string>
   <string name="EncryptionRejected">Gizli söhbətdən imtina edildi</string>
+  <string name="EncryptionProcessing">Şifrələmə açarları mübadilə edilir...</string>
   <string name="EncryptedChatStartedOutgoing">%s gizli söhbətə qoşuldu.</string>
   <string name="EncryptedChatStartedIncoming">Siz gizli söhbətə qoşuldunuz.</string>
   <string name="ClearHistory">Tarixçəni təmizlə</string>
+  <string name="ClearHistoryCache">Keşdən sil</string>
   <string name="DeleteChat">Sil və çıx</string>
+  <string name="DeleteChatUser">Söhbəti sil</string>
+  <string name="HiddenName">Silinmiş Hesab</string>
   <string name="SelectChat">Söhbəti seç</string>
+  <string name="PhotoTip">Görmək üçün bas və tut</string>
+  <string name="SearchMessages">MESAJLAR</string>
   <string name="Search">Axtar</string>
+  <string name="MuteNotifications">Bildirişləri səssizləşdir</string>
+  <string name="MuteFor">%1$s qədər səssizləşdir</string>
+  <string name="UnmuteNotifications">Səsi aç</string>
+  <string name="WillUnmuteIn">%1$s içində</string>
+  <string name="MuteDisable">Söndür</string>
+  <string name="Hashtags">HASHTAGS</string>
+  <string name="Recent">TƏZƏLİKCƏ</string>
+  <string name="ChatHints">SÖHBƏTLƏR</string>
+  <string name="ChatHintsDelete">%1$s məsləhətlərdən silinsin?</string>
+  <string name="LinkPreview">Keçid ön görünüşü</string>
   <!--channels-->
+  <string name="GroupType">Qrup Növü</string>
+  <string name="ChannelType">Kanal Növü</string>
+  <string name="ChannelTypePublic">İctimai</string>
+  <string name="ChannelTypePrivate">Məxfi</string>
+  <string name="SetAsAdmin">Adminə yüksəlt</string>
+  <string name="DescriptionInfoMega">Qrupunuz üçün əlavə açıqlama verə bilərsiz.</string>
+  <string name="LeaveMega">Qrupdan Çıx</string>
+  <string name="DeleteMega">Qrupu Sil</string>
+  <string name="LeaveMegaMenu">Qrupdan çıx</string>
+  <string name="DeleteMegaMenu">Qrupu sil</string>
+  <string name="MegaDeleteInfo">Bu qrupda olan bütün mesajları itirəcəksiz.</string>
+  <string name="ActionCreateMega">Qrup yaradıldı</string>
+  <string name="MegaAddedBy">un1 sizi bu qrupa əlavə etdi</string>
   <string name="ChannelSettings">Tənzimləmələr</string>
   <string name="ChannelEdit">Düzəliş et</string>
   <!--broadcasts-->
