@@ -22,6 +22,15 @@
   <string name="Code">Код</string>
   <string name="WrongNumber">Памылковы нумар?</string>
   <string name="DidNotGetTheCode">Не атрымалі код?</string>
+  <string name="CancelAccountReset">Скасаваць выдаленне ўліковага запісу</string>
+  <string name="CancelAccountResetInfo">Нехта, хто меў доступ да вашага нумара тэлефону  <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> падаў запыт на выдаленне вашага ўліковага запісу і скід вашага паролю двухкрокавай верыфікацыі.\n\nКалі гэта былі не вы, калі ласка, увядзіце код, які мы толькі што даслалі вам праз SMS.</string>
+  <string name="ResetAccount">Скінуць уліковы запіс</string>
+  <string name="ResetAccountInfo">Так як уліковы запіс, зарэгістраваны на нумар <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>, нядаўна выкарыстоўваўся і абаронены паролем, мы выдалім яго праз тыдзень.\n\nВы можаце скасаваць гэты працэс у любы час.</string>
+  <string name="ResetAccountStatus">Уліковы запіс можна будзе скінуць праз:</string>
+  <string name="ResetAccountCancelledAlert">Ваша нядаўняя спроба скінуць гэты ўліковы запіс была скасавана яго актыўным карыстальнікам. Вы можаце паспрабаваць яшчэ раз праз 7 дзён.</string>
+  <string name="ResetAccountButton">СКІНУЦЬ</string>
+  <string name="CancelLinkExpired">Гэтая спасылка няправільная або яе тэрмін дзеяння скончыўся.</string>
+  <string name="CancelLinkSuccess">Працэс выдалення вашага ўліковага запісу %1$s быў скасаваны. Цяпер вы можаце закрыць гэтае акно.</string>
   <!--signup view-->
   <string name="YourName">Вашае імя</string>
   <string name="RegisterText">Пазначце вашыя імя і прозвішча</string>
@@ -302,6 +311,7 @@
   <string name="ServiceNotifications">Службовыя апавяшчэнні</string>
   <string name="GettingLinkInfo">Атрымоўваем звесткі аб спасылцы..</string>
   <string name="OpenInBrowser">АДКРЫЦЬ ПРАЗ...</string>
+  <string name="OpenInExternalApp">Адкрыць праз...</string>
   <string name="CopyUrl">Скапіяваць спасылку</string>
   <string name="SendItems">Даслаць %1$s</string>
   <string name="OpenUrlAlert">Адкрыць спасылку «%1$s»?</string>
@@ -339,6 +349,13 @@
   <string name="TimeToEditExpired">Выбачайце, але гэта больш нельга рэдагаваць.</string>
   <string name="AddShortcut">Дадаць скарот</string>
   <string name="ShortcutAdded">Скарот даданы на галоўны экран</string>
+  <string name="ChatYourSelf">размова з сабой</string>
+  <string name="ChatYourSelfName">Вы</string>
+  <string name="ChatYourSelfDescription1">Перадасылайце паведамленні сюды, каб захаваць іх</string>
+  <string name="ChatYourSelfDescription2">Захоўвайце файлы і медыя</string>
+  <string name="ChatYourSelfDescription3">Вы можаце адкрыць гэтую размову з любога ўстройства</string>
+  <string name="ChatYourSelfDescription4">Карыстайце пошук, каб хутка нешта знайсці</string>
+  <string name="ChatYourSelfTitle">Вашае воблачнае сховішча</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s усталяваў таймер самазнішчэння на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы ўсталявалі таймер самазнішчэння на %1$s</string>
@@ -465,6 +482,8 @@
   <string name="ConvertGroupMenu">Абнавіцца да суперсуполкі</string>
   <string name="ConvertGroupAlertWarning">Увага</string>
   <string name="ConvertGroupAlert">Гэтае дзеянне немагчыма скасаваць. Магчымасці ператварыць суперсуполку назад у суполку не будзе.</string>
+  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Дасягнуты ліміт удзельнікаў.<![CDATA[</b>]]>\n\nКаб перавысіць ліміт і атрымаць доступ да дадатковых опцый, ператварыце суполку ў суперсуполку:\n\n• Суперсуполкі могуць мець да %1$s\n• Новыя ўдзельнікі бачаць усю гісторыю паведамленняў\n• Паведамленні выдаляюцца для ўсіх удзельнікаў\n• Кіраўнікі могуць замацаваць важныя паведамленні\n• Стваральнік можа прызначыць публічную спасылку на суполку</string>
+  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>У суперсуполках<![CDATA[</b>]]>\n\n• Новыя ўдзельнікі бачаць усю гісторыю паведамленняў\n• Паведамленні выдаляюцца для ўсіх удзельнікаў\n• Кіраўнікі могуць замацаваць важныя паведамленні\n• Стваральнік можа прызначыць публічную спасылку на суполку</string>
   <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Увага:<![CDATA[</b>]]> гэтае дзеянне немагчыма скасаваць.</string>
   <!--contact info view-->
   <string name="ShareContact">Падзяліцца</string>
@@ -508,12 +527,21 @@
   <string name="AddStickersNotFound">Налепкі не знойдзеныя</string>
   <string name="StickersRemoved">Налепкі выдаленыя</string>
   <string name="AddStickersInstalled">Новыя налепкі дададзеныя</string>
+  <string name="StickersHide">Архіў</string>
   <string name="StickersShare">Падзяліцца</string>
   <string name="StickersCopy">Скапіяваць спасылку</string>
   <string name="StickersRemove">Выдаліць</string>
   <string name="NoStickers">Налепак пакуль няма</string>
+  <string name="FeaturedStickers">Папулярныя налепкі</string>
+  <string name="FeaturedStickersInfo">Гэтыя налепкі прыйшліся да спадобы іншым карыстальнікам Тэлеграма. Вы можаце дадаваць свае налепкі праз бота @stickers.</string>
+  <string name="ArchivedStickers">Налепкі ў архіве</string>
+  <string name="ArchivedStickersEmpty">У архіве пакуль што няма налепак</string>
+  <string name="ArchivedStickersInfo">Вы можаце дадаць да 200 набораў налепак.
+Неўжываныя налепкі трапляюць у архіў, калі вы дадаеце новы набор.</string>
   <string name="SendSticker">ДАСЛАЦЬ НАЛЕПКУ</string>
   <string name="TooMuchStickersets">Выбачайце, але вы дасягнулі ліміту набораў налепак.</string>
+  <string name="ArchivedStickersAlertTitle">Налепкі ў архіве</string>
+  <string name="ArchivedStickersAlertInfo">Некаторыя з вашых неўжываных налепак былі перамешчаны ў архіў. Вы можаце перамясціць іх назад праз налады налепак.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Скінуць усе налады апавяшчэнняў па змаўчанні</string>
   <string name="TextSize">Памер тэксту ў паведамленнях</string>
@@ -976,10 +1004,12 @@
   <string name="AllowReadCall">Калі ласка, дазвольце Тэлеграму атрымліваць званкі, каб мы маглі аўтаматычна ўвесці код за вас.</string>
   <string name="AllowReadCallAndSms">Калі ласка, дазвольце Тэлеграму атрымліваць SMS і званкі, каб мы маглі аўтаматычна ўвесці код за вас.</string>
   <string name="UserRestricted">Выбачайце, але вам не дазволена гэта рабіць.</string>
+  <string name="JoinGroup">ДАЛУЧЫЦЦА ДА СУПОЛКІ</string>
   <!--permissions-->
   <string name="PermissionContacts">Тэлеграму патрэбны доступ да вашых кантактаў, каб вы маглі звязацца з сваімі сябрамі на ўсіх сваіх устройствах.</string>
   <string name="PermissionStorage">Тэлеграму патрэбны доступ да вашага сховішча файлаў, каб вы маглі дасылаць і захоўваць выявы, відэа, музыку і іншыя медыяфайлы.</string>
   <string name="PermissionNoAudio">Тэлеграму патрэбны доступ да вашага мікрафона, каб вы маглі рабіць аўдыязапісы і дасылаць іх.</string>
+  <string name="PermissionNoCamera">Тэлеграму патрэбны доступ да вашае камеры, каб вы маглі рабіць фотаздымкі і відэазапісы.</string>
   <string name="PermissionNoLocation">Тэлеграму патрэбны доступ да вашага месцазнаходжання, каб вы маглі падзяліцца ім з сваімі сябрамі.</string>
   <string name="PermissionNoLocationPosition">Тэлеграму патрэбны доступ да вашага месцазнаходжання.</string>
   <string name="PermissionOpenSettings">НАЛАДЫ</string>
@@ -1126,6 +1156,30 @@
   <string name="LastSeenHours_few">быў тут %1$d гадзіны таму</string>
   <string name="LastSeenHours_many">быў тут %1$d гадзін таму</string>
   <string name="LastSeenHours_other">быў тут %1$d гадзін таму</string>
+  <string name="SecondsBold_zero"><![CDATA[<b>%1$d</b>]]> секунд</string>
+  <string name="SecondsBold_one"><![CDATA[<b>%1$d</b>]]> с</string>
+  <string name="SecondsBold_two"><![CDATA[<b>%1$d</b>]]> с</string>
+  <string name="SecondsBold_few"><![CDATA[<b>%1$d</b>]]> с</string>
+  <string name="SecondsBold_many"><![CDATA[<b>%1$d</b>]]> с</string>
+  <string name="SecondsBold_other"><![CDATA[<b>%1$d</b>]]> с</string>
+  <string name="MinutesBold_zero"><![CDATA[<b>%1$d</b>]]> хвілін</string>
+  <string name="MinutesBold_one"><![CDATA[<b>%1$d</b>]]> хв</string>
+  <string name="MinutesBold_two"><![CDATA[<b>%1$d</b>]]> хв</string>
+  <string name="MinutesBold_few"><![CDATA[<b>%1$d</b>]]> хв</string>
+  <string name="MinutesBold_many"><![CDATA[<b>%1$d</b>]]> хв</string>
+  <string name="MinutesBold_other"><![CDATA[<b>%1$d</b>]]> хв</string>
+  <string name="HoursBold_zero"><![CDATA[<b>%1$d</b>]]> гдз</string>
+  <string name="HoursBold_one"><![CDATA[<b>%1$d</b>]]> гдз</string>
+  <string name="HoursBold_two"><![CDATA[<b>%1$d</b>]]> гдз</string>
+  <string name="HoursBold_few"><![CDATA[<b>%1$d</b>]]> гдз</string>
+  <string name="HoursBold_many"><![CDATA[<b>%1$d</b>]]> гдз</string>
+  <string name="HoursBold_other"><![CDATA[<b>%1$d</b>]]> гдз</string>
+  <string name="DaysBold_zero"><![CDATA[<b>%1$d</b>]]> д</string>
+  <string name="DaysBold_one"><![CDATA[<b>%1$d</b>]]> д</string>
+  <string name="DaysBold_two"><![CDATA[<b>%1$d</b>]]> д</string>
+  <string name="DaysBold_few"><![CDATA[<b>%1$d</b>]]> д</string>
+  <string name="DaysBold_many"><![CDATA[<b>%1$d</b>]]> д</string>
+  <string name="DaysBold_other"><![CDATA[<b>%1$d</b>]]> д</string>
   <!--forwarded messages-->
   <string name="ForwardedMessage_zero">%1$d перадасланых паведамленняў</string>
   <string name="ForwardedMessage_one">Перадасланае паведамленне</string>
