@@ -75,7 +75,6 @@
   <string name="DeleteMegaMenu">Ջնջել խումբը</string>
   <string name="NewChannel">Ստեղծել ալիք</string>
   <string name="EnterChannelName">Ալիքի անունը</string>
-  <string name="Comments">Մեկնաբանություններ</string>
   <string name="ChannelUsernamePlaceholder">հղում</string>
   <string name="DescriptionOptionalPlaceholder">Նկարագրություն (ոչ պարտադիր)</string>
   <string name="DescriptionPlaceholder">Նկարագրություն</string>
@@ -86,8 +85,6 @@
   <string name="LeaveChannelMenu">Լքել ալիքը</string>
   <string name="ChannelSettings">Կարգավորումներ</string>
   <string name="ChannelJoin">ՄԻԱՆԱԼ</string>
-  <string name="OpenChannelProfile">Ալիքի մասին</string>
-  <string name="ChannelComment">Մեկնաբանել</string>
   <string name="ChannelAlertCreate">ՍՏԵՂԾԵԼ ԱԼԻՔ</string>
   <string name="ChannelMembers">Անդամներ</string>
   <string name="ChannelBlockedUsers">Սեւ ցուցակ</string>

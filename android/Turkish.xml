@@ -68,6 +68,8 @@
   <string name="ChatHints">SOHBETLER</string>
   <string name="ChatHintsDelete">%1$s, önerilerden kaldır?</string>
   <string name="LinkPreview">Bağlantı önizlemesi</string>
+  <string name="Draft">Taslak</string>
+  <string name="HistoryCleared">Geçmiş temizlendi</string>
   <!--channels-->
   <string name="GroupType">Grup Türü</string>
   <string name="ChannelType">Kanal Türü</string>
@@ -106,8 +108,6 @@
   <string name="NoBlockedGroup">Engellenen kullanıcılar gruptan silinirler ve sadece bir yönetici tarafından davet edildiklerinde geri dönebilirler. Davet bağlantıları onlar için çalışmaz.</string>
   <string name="NewChannel">Yeni Kanal</string>
   <string name="EnterChannelName">Kanal adı</string>
-  <string name="Comments">Yorumlar</string>
-  <string name="CommentsInfo">Eğer yorumları etkinleştirirseniz, kişiler kanalda yazılarınızı tartışabilir.</string>
   <string name="AddMutual">Kişileri kanalınıza ekleyin</string>
   <string name="ChannelUsernameHelp">Kişiler bu linki diğer kişilerler paylaşabilir ve Telegram aramasını kullanarak kanalınızı bulabilirler.</string>
   <string name="MegaUsernameHelp">Kişiler bu linki diğer kişilerler paylaşabilir ve Telegram aramasını kullanarak kanalınızı bulabilirler.</string>
@@ -132,11 +132,8 @@
   <string name="LeaveChannelMenu">Kanaldan ayrıl</string>
   <string name="ChannelSettings">Ayarlar</string>
   <string name="ChannelJoin">KATIL</string>
-  <string name="OpenChannelProfile">Kanal bilgisi</string>
   <string name="ChannelBroadcast">Yayın</string>
   <string name="ChannelSilentBroadcast">Sessiz Yayın</string>
-  <string name="ChannelComment">Yorum</string>
-  <string name="ShowDiscussion">yorumları göster</string>
   <string name="ChannelAlertTitle">Kanal nedir?</string>
   <string name="ChannelAlertText">Kanallar mesajlarınızı daha geniş kitlelere yayınlamak için yeni bir araçtır.</string>
   <string name="ChannelAlertCreate">KANAL YARAT</string>
@@ -468,8 +465,6 @@ sorunuz mu var?</string>
   <string name="ConvertGroupMenu">Süpergruba dönüştür</string>
   <string name="ConvertGroupAlertWarning">Uyarı</string>
   <string name="ConvertGroupAlert">Bu işlem geri alınamaz. Bir süpergrubu normal gruba dönüştürmek mümkün değildir.</string>
-  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Üye sınırına ulaşıldı.<![CDATA[</b>]]>\n\nLimitten kurtulmak ve ek özellikler almak için süpergruba yükseltin:\n\n• Süpergruplar %1$s üyeden oluşabilir\n• Yeni üyeler bütün mesaj geçmişini görebilir\n• Silinen mesajlar büyün üyeler için silinir\n• Üyeler kendi mesajlarını düzenleyebilir\n• Grup sahibi grup için genel bir bağlantı oluşturabilir</string>
-  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>Süpergruplarda:<![CDATA[</b>]]>\n\n• Yeni üyeler bütün mesaj geçmişini görebilir\n• Silinen mesajlar büyün üyeler için silinir\n• Üyeler kendi mesajlarını düzenleyebilir\n• Grup sahibi grup için genel bir bağlantı oluşturabilir</string>
   <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Not:<![CDATA[</b>]]> bu işlem geri alınamaz.</string>
   <!--contact info view-->
   <string name="ShareContact">Paylaş</string>
@@ -509,14 +504,11 @@ sorunuz mu var?</string>
   <string name="ErrorOccurred">Bir hata oluştu.</string>
   <!--stickers view-->
   <string name="Stickers">Çıkartmalar</string>
-  <string name="StickersInfo">Sanatçılar @stickers robotumuzu kullanarak kendi çıkartma paketlerini ekleyebilirler.\n\nKullanıcılar çıkartmalara dokunarak ve \\"Çıkartmalara Ekle\\"yi seçerek ekleyebilirler.</string>
   <string name="AddStickers">Çıkartma Ekle</string>
   <string name="AddToStickers">Çıkartmalara Ekle</string>
   <string name="AddStickersNotFound">Çıkartmalar bulunamadı.</string>
   <string name="StickersRemoved">Çıkartmalar kaldırıldı</string>
   <string name="AddStickersInstalled">Yeni çıkartmalar eklendi</string>
-  <string name="StickersHide">Gizle</string>
-  <string name="StickersShow">Göster</string>
   <string name="StickersShare">Paylaş</string>
   <string name="StickersCopy">Linki kopyala</string>
   <string name="StickersRemove">Kaldır</string>
@@ -1047,12 +1039,6 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="messages_few">%1$d mesaj</string>
   <string name="messages_many">%1$d mesaj</string>
   <string name="messages_other">%1$d mesaj</string>
-  <string name="comments_zero">%1$d yorum</string>
-  <string name="comments_one">%1$d yorum</string>
-  <string name="comments_two">%1$d yorum</string>
-  <string name="comments_few">%1$d yorum</string>
-  <string name="comments_many">%1$d yorum</string>
-  <string name="comments_other">%1$d yorum</string>
   <string name="items_zero">öğe yok</string>
   <string name="items_one">%1$d öğe</string>
   <string name="items_two">%1$d öğe</string>
@@ -1221,6 +1207,4 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s saat %2$s</string>
-  <string name="Draft">Taslak</string>
-  <string name="HistoryCleared">Geçmiş temizlendi</string>
 </resources>

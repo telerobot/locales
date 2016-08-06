@@ -23,6 +23,15 @@
   <string name="Code">Код</string>
   <string name="WrongNumber">Неправильный номер?</string>
   <string name="DidNotGetTheCode">Не получили код?</string>
+  <string name="CancelAccountReset">Отменить сброс аккаунта</string>
+  <string name="CancelAccountResetInfo">Кто-то, кто имеет доступ к вашему номеру <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>, отправил запрос на удаление вашего профиля и отключение двуэтапной авторизации.\n\nЕсли это были не вы, введите код, который мы только что отправили вам по SMS.</string>
+  <string name="ResetAccount">Сбросить аккаунт</string>
+  <string name="ResetAccountInfo">Так как ваш аккаунт (<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>) активен и защищён паролем, мы сможем удалить его только через 1 неделю.\n\nВы сможете отменить удаление в любой момент.</string>
+  <string name="ResetAccountStatus">Сброс аккаунта станет возможен через</string>
+  <string name="ResetAccountCancelledAlert">Ваша попытка сброса была отклонена активным аккаунтом. Пожалуйста, попробуйте повторить запрос через 7 дней.</string>
+  <string name="ResetAccountButton">СБРОСИТЬ</string>
+  <string name="CancelLinkExpired">Ссылка некорректна или просрочена.</string>
+  <string name="CancelLinkSuccess">Процесс сброса для вашего аккаунта %1$s был отменён. Это окно можно закрыть.</string>
   <!--signup view-->
   <string name="YourName">Ваше имя</string>
   <string name="RegisterText">Укажите ваше имя и фамилию</string>
@@ -67,6 +76,8 @@
   <string name="ChatHints">ЧАТЫ</string>
   <string name="ChatHintsDelete">Убрать %1$s из предложений?</string>
   <string name="LinkPreview">Превью ссылок</string>
+  <string name="Draft">Черновик</string>
+  <string name="HistoryCleared">История была очищена</string>
   <!--channels-->
   <string name="GroupType">Тип группы</string>
   <string name="ChannelType">Тип канала</string>
@@ -105,8 +116,6 @@
   <string name="NoBlockedGroup">Пользователи, занесённые в чёрный список, будут удалены из группы и смогут вернуться только по приглашению администратора. Пригласительные ссылки для них не работают.</string>
   <string name="NewChannel">Создать канал</string>
   <string name="EnterChannelName">Название</string>
-  <string name="Comments">Комментарии</string>
-  <string name="CommentsInfo">Если вы включите комментарии, люди смогут обсуждать ваши сообщения на канале.</string>
   <string name="AddMutual">Добавить ваши контакты на канал</string>
   <string name="ChannelUsernameHelp">Люди могут делиться этой ссылкой и находить ваш канал через поиск.</string>
   <string name="MegaUsernameHelp">Люди могут делиться этой ссылкой и находить вашу группу через поиск.</string>
@@ -131,11 +140,8 @@
   <string name="LeaveChannelMenu">Покинуть канал</string>
   <string name="ChannelSettings">Настройки</string>
   <string name="ChannelJoin">Присоединиться</string>
-  <string name="OpenChannelProfile">О канале</string>
   <string name="ChannelBroadcast">Рассылка</string>
   <string name="ChannelSilentBroadcast">Тихий режим</string>
-  <string name="ChannelComment">Комментировать</string>
-  <string name="ShowDiscussion">показать комментарии</string>
   <string name="ChannelAlertTitle">Что такое канал?</string>
   <string name="ChannelAlertText">Каналы — новый инструмент для трансляции ваших сообщений неограниченному числу пользователей.</string>
   <string name="ChannelAlertCreate">СОЗДАТЬ КАНАЛ</string>
@@ -304,6 +310,7 @@
   <string name="ServiceNotifications">Служебные уведомления</string>
   <string name="GettingLinkInfo">Получаю информацию о ссылке...</string>
   <string name="OpenInBrowser">ОТКРЫТЬ В...</string>
+  <string name="OpenInExternalApp">Открыть в...</string>
   <string name="CopyUrl">Копировать ссылку</string>
   <string name="SendItems">Отправить %1$s</string>
   <string name="OpenUrlAlert">Открыть ссылку в %1$s?</string>
@@ -341,6 +348,13 @@
   <string name="TimeToEditExpired">К сожалению, время для редактирования истекло.</string>
   <string name="AddShortcut">Добавить ярлык</string>
   <string name="ShortcutAdded">Ярлык добавлен на рабочий стол</string>
+  <string name="ChatYourSelf">чат с самим собой</string>
+  <string name="ChatYourSelfName">Вы</string>
+  <string name="ChatYourSelfDescription1">Пересылайте сюда сообщения, чтобы сохранить их</string>
+  <string name="ChatYourSelfDescription2">Отправляйте сюда любые файлы на хранение</string>
+  <string name="ChatYourSelfDescription3">Доступ к этому чату открыт для любого устройства</string>
+  <string name="ChatYourSelfDescription4">Используйте поиск, чтобы быстро что-то найти</string>
+  <string name="ChatYourSelfTitle">Ваше облачное хранилище</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s поставил(а) таймер самоуничтожения на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы поставили таймер самоуничтожения на %1$s</string>
@@ -466,8 +480,8 @@
   <string name="ConvertGroupMenu">Преобразовать в супергруппу</string>
   <string name="ConvertGroupAlertWarning">Внимание</string>
   <string name="ConvertGroupAlert">Это действие необратимо: превратить супергруппу в обычную группу невозможно.</string>
-  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Достигнуто максимальное число участников.<![CDATA[</b>]]>\n\nЧтобы добавить ещё, преобразуйте эту группу в супергруппу:\n\n• В супергруппы помещается до %1$s участников\n• Новым участникам доступна вся история\n• Удалённые сообщения удаляются у всех\n• Возможность редактирования своих сообщений\n• Создатель может сгенерировать ссылку для приглашения</string>
-  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>В супергруппах:<![CDATA[</b>]]>\n\n• Новым участникам доступна вся история\n• Удалённые сообщения удаляются у всех\n• Возможность редактирования своих сообщений\n• Создатель может сгенерировать ссылку для приглашения</string>
+  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Достигнуто максимальное число участников.<![CDATA[</b>]]>Чтобы добавить ещё, преобразуйте эту группу в супергруппу:\n\n• Вы сможете добавить до %1$s участников\n• Новым участникам будет доступна вся история\n• Удалённые сообщения будут удаляться у всех\n• Администраторы смогут прикреплять сообщения\n• Создатель сможет сгенерировать ссылку для приглашения</string>
+  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>В супергруппах:<![CDATA[</b>]]>\n\n• Новым участникам доступна вся история\n• Удалённые сообщения удаляются у всех\n• Администраторы могут прикреплять важные сообщения\n• Создатель может сгенерировать ссылку для приглашения</string>
   <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Внимание<![CDATA[</b>]]>: это действие необратимо.</string>
   <!--contact info view-->
   <string name="ShareContact">Поделиться</string>
@@ -506,20 +520,25 @@
   <string name="ErrorOccurred">Произошла ошибка.</string>
   <!--stickers view-->
   <string name="Stickers">Стикеры</string>
-  <string name="StickersInfo">Приглашаем художников добавлять свои собственные наборы стикеров с помощью нашего бота @stickers.\n\nПользователи могут добавлять себе стикеры, нажимая на них и выбирая «Добавить в стикеры».</string>
   <string name="AddStickers">Добавить стикеры</string>
   <string name="AddToStickers">Добавить в стикеры</string>
   <string name="AddStickersNotFound">Стикеры не найдены</string>
   <string name="StickersRemoved">Стикеры удалены</string>
   <string name="AddStickersInstalled">Стикеры добавлены</string>
   <string name="StickersHide">Скрыть</string>
-  <string name="StickersShow">Показать</string>
   <string name="StickersShare">Поделиться</string>
   <string name="StickersCopy">Скопировать ссылку</string>
   <string name="StickersRemove">Удалить</string>
   <string name="NoStickers">Стикеров пока нет</string>
+  <string name="FeaturedStickers">Продвигаемые наборы</string>
+  <string name="FeaturedStickersInfo">Эти стикеры были нарисованы профессиональными художниками специально для Telegram. Вы тоже можете добавить свой набор: для этого напишите боту @stickers</string>
+  <string name="ArchivedStickers">Архив стикеров</string>
+  <string name="ArchivedStickersEmpty">Нет заархивированных наборов</string>
+  <string name="ArchivedStickersInfo">Вы можете установить до 200 наборов стикеров. Все неиспользуемые наборы сверх этого числа будут заархивированы.</string>
   <string name="SendSticker">ОТПРАВИТЬ СТИКЕР</string>
   <string name="TooMuchStickersets">К сожалению, вы установили максимально допустимое количество наборов стикеров.</string>
+  <string name="ArchivedStickersAlertTitle">Архив стикеров</string>
+  <string name="ArchivedStickersAlertInfo">Некоторые из ваших старых наборов были заархивированы, чтобы освободить место для новых. Вы можете восстановить их в настройках стикеров.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Сброс всех настроек уведомлений на стандартные</string>
   <string name="TextSize">Размер текста сообщений</string>
@@ -986,10 +1005,12 @@
   <string name="AllowReadCall">Разрешите Telegram принимать входящие вызовы: тогда ваш код будет вводиться автоматически.</string>
   <string name="AllowReadCallAndSms">Разрешите Telegram доступ к SMS: тогда ваш код будет вводиться автоматически.</string>
   <string name="UserRestricted">К сожалению, вам запрещено это действие.</string>
+  <string name="JoinGroup">ПРИСОЕДИНИТЬСЯ К ГРУППЕ</string>
   <!--permissions-->
   <string name="PermissionContacts">Чтобы вы могли оставаться на связи с вашими друзьями с любого устройства, необходим доступ к контактам.</string>
   <string name="PermissionStorage">Для сохранения и отправки фото, видео и других файлов необходим доступ к памяти вашего устройства.</string>
   <string name="PermissionNoAudio">Для отправки голосовых сообщений необходим доступ к микрофону.</string>
+  <string name="PermissionNoCamera">Для отправки фото и видео необходим доступ к камере вашего устройства.</string>
   <string name="PermissionNoLocation">Для отправки вашего местоположения Telegram должен иметь доступ к геолокации.</string>
   <string name="PermissionNoLocationPosition">Telegram должен иметь доступ к геолокации.</string>
   <string name="PermissionOpenSettings">НАСТРОЙКИ</string>
@@ -1040,12 +1061,6 @@
   <string name="messages_few">%1$d сообщения</string>
   <string name="messages_many">%1$d сообщений</string>
   <string name="messages_other">%1$d сообщений</string>
-  <string name="comments_zero">%1$d комментариев</string>
-  <string name="comments_one">%1$d комментарий</string>
-  <string name="comments_two">%1$d комментария</string>
-  <string name="comments_few">Комментариев: %1$d</string>
-  <string name="comments_many">Комментариев: %1$d</string>
-  <string name="comments_other">Комментариев: %1$d</string>
   <string name="items_zero">нет элементов</string>
   <string name="items_one">%1$d элемент</string>
   <string name="items_two">%1$d элемента</string>
@@ -1142,6 +1157,30 @@
   <string name="LastSeenHours_few">был(а) в сети %1$d ч. назад</string>
   <string name="LastSeenHours_many">был(а) в сети %1$d ч. назад</string>
   <string name="LastSeenHours_other">был(а) в сети %1$d ч. назад</string>
+  <string name="SecondsBold_zero"><![CDATA[<b>%1$d</b>]]> с.</string>
+  <string name="SecondsBold_one"><![CDATA[<b>%1$d</b>]]> с.</string>
+  <string name="SecondsBold_two"><![CDATA[<b>%1$d</b>]]> с.</string>
+  <string name="SecondsBold_few"><![CDATA[<b>%1$d</b>]]> с.</string>
+  <string name="SecondsBold_many"><![CDATA[<b>%1$d</b>]]> с.</string>
+  <string name="SecondsBold_other"><![CDATA[<b>%1$d</b>]]> с.</string>
+  <string name="MinutesBold_zero"><![CDATA[<b>%1$d</b>]]> мин.</string>
+  <string name="MinutesBold_one"><![CDATA[<b>%1$d</b>]]> мин.</string>
+  <string name="MinutesBold_two"><![CDATA[<b>%1$d</b>]]> мин.</string>
+  <string name="MinutesBold_few"><![CDATA[<b>%1$d</b>]]> мин.</string>
+  <string name="MinutesBold_many"><![CDATA[<b>%1$d</b>]]> мин.</string>
+  <string name="MinutesBold_other"><![CDATA[<b>%1$d</b>]]> мин.</string>
+  <string name="HoursBold_zero"><![CDATA[<b>%1$d</b>]]> ч.</string>
+  <string name="HoursBold_one"><![CDATA[<b>%1$d</b>]]> ч.</string>
+  <string name="HoursBold_two"><![CDATA[<b>%1$d</b>]]> ч.</string>
+  <string name="HoursBold_few"><![CDATA[<b>%1$d</b>]]> ч.</string>
+  <string name="HoursBold_many"><![CDATA[<b>%1$d</b>]]> ч.</string>
+  <string name="HoursBold_other"><![CDATA[<b>%1$d</b>]]> ч.</string>
+  <string name="DaysBold_zero"><![CDATA[<b>%1$d</b>]]> дн.</string>
+  <string name="DaysBold_one"><![CDATA[<b>%1$d</b>]]> дн.</string>
+  <string name="DaysBold_two"><![CDATA[<b>%1$d</b>]]> дн.</string>
+  <string name="DaysBold_few"><![CDATA[<b>%1$d</b>]]> дн.</string>
+  <string name="DaysBold_many"><![CDATA[<b>%1$d</b>]]> дн.</string>
+  <string name="DaysBold_other"><![CDATA[<b>%1$d</b>]]> дн.</string>
   <!--forwarded messages-->
   <string name="ForwardedMessage_zero">%1$d сообщений</string>
   <string name="ForwardedMessage_one">Сообщение</string>
@@ -1214,6 +1253,4 @@
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s в %2$s</string>
-  <string name="Draft">Черновик</string>
-  <string name="HistoryCleared">История была очищена</string>
 </resources>

@@ -107,8 +107,6 @@
   <string name="NoBlockedGroup">Заблоковані користувачі вилучаються з групи і можуть повернутися лише за запрошенням адміністратора. Посилання для запрошення для них не працюють.</string>
   <string name="NewChannel">Новий канал</string>
   <string name="EnterChannelName">Назва каналу</string>
-  <string name="Comments">Коментарі</string>
-  <string name="CommentsInfo">Якщо ви увімкнете коментарі, люди зможуть обговорювати ваші дописи на каналі.</string>
   <string name="AddMutual">Додати контакти до свого каналу</string>
   <string name="ChannelUsernameHelp">Люди можуть ділитися цим посиланням і знаходити ваш канал через пошук в Telegram.</string>
   <string name="MegaUsernameHelp">Люди можуть ділитися цим посиланням з іншими та знаходити вашу групу через пошук Telegram.</string>
@@ -133,11 +131,8 @@
   <string name="LeaveChannelMenu">Покинути канал</string>
   <string name="ChannelSettings">Налаштування</string>
   <string name="ChannelJoin">ПРИЄДНАТИСЯ</string>
-  <string name="OpenChannelProfile">Інформація каналу</string>
   <string name="ChannelBroadcast">Трансляція</string>
   <string name="ChannelSilentBroadcast">Тиха трансляція</string>
-  <string name="ChannelComment">Коментар</string>
-  <string name="ShowDiscussion">показати коментарі</string>
   <string name="ChannelAlertTitle">Що таке канал?</string>
   <string name="ChannelAlertText">Канали - це новий інструмент для поширення ваших повідомлень широкій аудиторії.</string>
   <string name="ChannelAlertCreate">СТВОРИТИ КАНАЛ</string>
@@ -468,8 +463,6 @@
   <string name="ConvertGroupMenu">Конвертувати в супергрупу</string>
   <string name="ConvertGroupAlertWarning">Попередження</string>
   <string name="ConvertGroupAlert">Цю дію неможливо відмінити. Неможливо змінити супергрупу на звичайну групу.</string>
-  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Досягнуто обмеження учасників.<![CDATA[</b>]]>\n\nЩоб зняти обмеження та отримати додаткові функції, оновіть до супергрупи:\n\n• Супергрупи можуть досягати %1$s\n• Нові учасники можуть бачити всю історію повідомлень\n• Видалені повідомлення будуть зникати в усіх учасників\n• Учасники можуть редагувати свої повідомлення\n• Власник групи може встановити для групи публічне посилання</string>
-  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>В супергрупах:<![CDATA[</b>]]>\n\n• Нові учасники можуть бачити всю історію повідомлень\n• Видалені повідомлення будуть зникати в усіх учасників\n• Учасники можуть редагувати свої повідомлення\n• Власник групи може встановити для групи публічне посилання</string>
   <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Примітка:<![CDATA[</b>]]> цю дію неможливо відмінити.</string>
   <!--contact info view-->
   <string name="ShareContact">Поділитися</string>
@@ -508,14 +501,11 @@
   <string name="ErrorOccurred">Сталася помилка.</string>
   <!--stickers view-->
   <string name="Stickers">Наліпки</string>
-  <string name="StickersInfo">Вітаються власні набори наліпок артистів, з використанням нашого бота @stickers.\n\nКористувачі можуть додавати наліпки, торкаючись їх і вибравши \"Додати до наліпок\".</string>
   <string name="AddStickers">Додати наліпки</string>
   <string name="AddToStickers">Додати до наліпок</string>
   <string name="AddStickersNotFound">Наліпок не знайдено</string>
   <string name="StickersRemoved">Наліпки вилучені</string>
   <string name="AddStickersInstalled">Нові наліпки додано</string>
-  <string name="StickersHide">Сховати</string>
-  <string name="StickersShow">Показати</string>
   <string name="StickersShare">Поділитися</string>
   <string name="StickersCopy">Копіювати посилання</string>
   <string name="StickersRemove">Вилучити</string>
@@ -1042,12 +1032,6 @@
   <string name="messages_few">%1$d повідомлення</string>
   <string name="messages_many">%1$d повідомлень</string>
   <string name="messages_other">%1$d повідомлень</string>
-  <string name="comments_zero">%1$d коментарів</string>
-  <string name="comments_one">%1$d коментар</string>
-  <string name="comments_two">%1$d коментаря</string>
-  <string name="comments_few">%1$d коментарів</string>
-  <string name="comments_many">%1$d коментарів</string>
-  <string name="comments_other">%1$d коментарів</string>
   <string name="items_zero">немає елементів</string>
   <string name="items_one">%1$d елемент</string>
   <string name="items_two">%1$d елемента</string>

@@ -104,8 +104,6 @@
   <string name="NoBlockedGroup">Blokovaní uživatelé jsou vyčleněni z této skupiny a může je přidat zpět pouze správce. Odkazy na pozvání pro ně nebudou funkční.</string>
   <string name="NewChannel">Nový kanál</string>
   <string name="EnterChannelName">Název kanálu</string>
-  <string name="Comments">Komentáře</string>
-  <string name="CommentsInfo">PŘIPOJIT</string>
   <string name="AddMutual">Přidát kontakt do vašeho kanálu</string>
   <string name="ChannelUsernameHelp">Lidé mohou sdílet tento odkaz s ostatními a najít váš kanál pomocí Telegram vyhledávání.</string>
   <string name="MegaUsernameHelp">Lidé mohou sdílet tento odkaz a najít vaši skupinu pomocí Telegram vyhledávání.</string>
@@ -129,10 +127,7 @@
   <string name="LeaveChannelMenu">Opustit kanál</string>
   <string name="ChannelSettings">Nastavení</string>
   <string name="ChannelJoin">PŘIPOJIT</string>
-  <string name="OpenChannelProfile">Info o kanálu</string>
   <string name="ChannelBroadcast">Vysílání</string>
-  <string name="ChannelComment">Komentář</string>
-  <string name="ShowDiscussion">zobrazit komentáře</string>
   <string name="ChannelAlertTitle">Co je Kanál?</string>
   <string name="ChannelAlertText">Kanály jsou novým nástrojem pro vysílání zpráv k velkému publiku.</string>
   <string name="ChannelAlertCreate">VYTVOŘIT KANÁL</string>
@@ -434,14 +429,11 @@
   <string name="ErrorOccurred">Došlo k chybě.</string>
   <!--stickers view-->
   <string name="Stickers">Nálepky</string>
-  <string name="StickersInfo">Umělci mohou přidávat své vlastní balíky nálepek prostřednictvím našeho @stickers robota.\n\nUživatelé kliknutím na nálepku a potvrzením dialogu \"Přidat k nálepkám\".</string>
   <string name="AddStickers">Přidat nálepky</string>
   <string name="AddToStickers">Přidat k nálepkám</string>
   <string name="AddStickersNotFound">Nálepky nebyly nalezené</string>
   <string name="StickersRemoved">Nálepky byly odstraněné</string>
   <string name="AddStickersInstalled">Nové nálepky byly přidané</string>
-  <string name="StickersHide">Skrýt</string>
-  <string name="StickersShow">Zobrazit</string>
   <string name="StickersShare">Sdílet</string>
   <string name="StickersCopy">Kopírovat odkaz</string>
   <string name="StickersRemove">Vymazat</string>
@@ -898,12 +890,6 @@ Smazat a zastavit</string>
   <string name="messages_few">%1$d zprávy</string>
   <string name="messages_many">%1$d zpráv</string>
   <string name="messages_other">%1$d zpráv</string>
-  <string name="comments_zero">%1$d komentářů</string>
-  <string name="comments_one">%1$d komentář</string>
-  <string name="comments_two">%1$d komentářů</string>
-  <string name="comments_few">%1$d komentářů</string>
-  <string name="comments_many">%1$d komentářů</string>
-  <string name="comments_other">%1$d komentářů</string>
   <string name="items_zero">žádné položky</string>
   <string name="items_one">%1$d položka</string>
   <string name="items_two">%1$d položky</string>

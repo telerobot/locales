@@ -71,6 +71,8 @@
   <string name="ChatHints">ЧАТЛАР</string>
   <string name="ChatHintsDelete">%1$s тәкъдимнәрдән алыргамы?</string>
   <string name="LinkPreview">Сылтамаларны алдан карау</string>
+  <string name="Draft">Каралама</string>
+  <string name="HistoryCleared">Тарих чистартылган булган</string>
   <!--channels-->
   <string name="GroupType">Төркем төре</string>
   <string name="ChannelType">Канал төре</string>
@@ -109,8 +111,6 @@
   <string name="NoBlockedGroup">Бикләнгән кулланучылар төркемнән чыгарылдылар һәм администратор чакыруы буенча гына кире кайта алачаклар. Чакыручы сылтамалар алар өчен эшләмиләр.</string>
   <string name="NewChannel">Яңа канал</string>
   <string name="EnterChannelName">Канал исеме</string>
-  <string name="Comments">Аңлатмалар</string>
-  <string name="CommentsInfo">Әгәр сез аңлатмаларны кабызсагыз, кешеләр каналыгыздагы язмаларга фикер калдыра алачаклар.</string>
   <string name="AddMutual">Каналыгызга контактлар өстәү</string>
   <string name="ChannelUsernameHelp">Кешеләр бу сылтама белән бүлешә алачаклар һәм каналыгызны эзләүдә таба алачаклар.</string>
   <string name="MegaUsernameHelp">Кулланучылар бу сылтама белән бүлешә һәм каналыгызны эзләүдән таба алалар.</string>
@@ -135,11 +135,8 @@
   <string name="LeaveChannelMenu">Каналдан чыгу</string>
   <string name="ChannelSettings">Көйләүләр</string>
   <string name="ChannelJoin">Кушылу</string>
-  <string name="OpenChannelProfile">Канал турында</string>
   <string name="ChannelBroadcast">Трансляцияләү</string>
   <string name="ChannelSilentBroadcast">Тыныч режим</string>
-  <string name="ChannelComment">Аңлатма язу</string>
-  <string name="ShowDiscussion">аңлатмаларны күрсәтү</string>
   <string name="ChannelAlertTitle">Канал нәрсә ул?</string>
   <string name="ChannelAlertText">Канал - ул хатларыгызны чиксез санлы кулланучыларга трансляцияләү өчен яңа инструмент.</string>
   <string name="ChannelAlertCreate">КАНАЛ ЯСАУ</string>
@@ -478,8 +475,6 @@
   <string name="ConvertGroupMenu">Супертөркемгә үзгәртелде</string>
   <string name="ConvertGroupAlertWarning">Кисәтү</string>
   <string name="ConvertGroupAlert">Супертөркемне гади төркемгә әйләндереп булмый.</string>
-  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Катнашучылар саны тулды.<![CDATA[</b>]]>\n\nТагын өстәр өчен бу төркемне супертөркемгә әйләндерегез:\n\n• Супертөркемнәрдә %1$s тиклем катнашучы була ала\n• Яңа катнашучыларга бөтен тарих күренәчәк\n• Бетерелгән хатлар бөтенесендә дә бетерелә\n• Яңа хатларны үзгәртү мөмкинлеге\n• Ясаучы чакыру сылтамасын эшли ала</string>
-  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>Супертөркемнәрдә:<![CDATA[</b>]]>\n\n• Яңа катнашучыларга бөтен тарих күренәчәк\n• Бетерелгән хатлар бөтенесендә дә бетерелә\n• Хатларыгызны үзгәртү мөмкинлеге\n• Ясаучы чакыру сылтамасын эшли ала</string>
   <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Игътибар:<![CDATA[</b>]]> бу гамәлне кире кагып булмаячак.</string>
   <!--contact info view-->
   <string name="ShareContact">Бүлешү</string>
@@ -518,14 +513,11 @@
   <string name="ErrorOccurred">Хата булды.</string>
   <!--stickers view-->
   <string name="Stickers">Стикерлар</string>
-  <string name="StickersInfo">Рәссамнәрне үзләренең стикер җыелмаларын  @stickers боты аша өстәр өчен чакырабыз.\n\nКулланучылар стикерларны сайлап һәм \"Стикерларга өстәү\"гә басып үзләренә өсти алалар.</string>
   <string name="AddStickers">Стикерлар өстәү</string>
   <string name="AddToStickers">Стикерларга өстәү</string>
   <string name="AddStickersNotFound">Стикерлар табылмады</string>
   <string name="StickersRemoved">Стикерлар бетерелделәр</string>
   <string name="AddStickersInstalled">Стикерлар өстәлделәр</string>
-  <string name="StickersHide">Яшерү</string>
-  <string name="StickersShow">Күрсәтү</string>
   <string name="StickersShare">Бүлешү</string>
   <string name="StickersCopy">Сылтамадан күчермә ясау</string>
   <string name="StickersRemove">Бетерү</string>
@@ -1058,12 +1050,6 @@
   <string name="messages_few">%1$d хат</string>
   <string name="messages_many">%1$d хат</string>
   <string name="messages_other">%1$d хат</string>
-  <string name="comments_zero">%1$d аңлатма</string>
-  <string name="comments_one">%1$d аңлатма</string>
-  <string name="comments_two">%1$d аңлатма</string>
-  <string name="comments_few">%1$d аңлатма</string>
-  <string name="comments_many">%1$d аңлатма</string>
-  <string name="comments_other">%1$d аңлатма</string>
   <string name="items_zero">элементлар юк</string>
   <string name="items_one">%1$d элемент</string>
   <string name="items_two">%1$d элемент</string>
@@ -1232,6 +1218,4 @@
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s %2$s</string>
-  <string name="Draft">Каралама</string>
-  <string name="HistoryCleared">Тарих чистартылган булган</string>
 </resources>

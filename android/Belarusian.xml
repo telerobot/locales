@@ -68,6 +68,8 @@
   <string name="ChatHints">РАЗМОВЫ</string>
   <string name="ChatHintsDelete">Выдаліць %1$s з прапаноў?</string>
   <string name="LinkPreview">Перадпрагляд спасылкі</string>
+  <string name="Draft">Чарнавік</string>
+  <string name="HistoryCleared">Гісторыя была ачышчана</string>
   <!--channels-->
   <string name="GroupType">Тып суполкі</string>
   <string name="ChannelType">Тып канала</string>
@@ -106,8 +108,6 @@
   <string name="NoBlockedGroup">Заблакаваныя карыстальнікі выдаляюцца з суполкі і могуць вярнуцца толькі ў тым выпадку, калі іх запросіць кіраўнік. Спасылкі-запрашэнні для іх не працуюць.</string>
   <string name="NewChannel">Новы канал</string>
   <string name="EnterChannelName">Назва канала</string>
-  <string name="Comments">Каментары</string>
-  <string name="CommentsInfo">Калі вы ўключыце каментары, карыстальнікі змогуць абмяркоўваць вашыя паведамленні на канале.</string>
   <string name="AddMutual">Дадаць кантакты ў канал</string>
   <string name="ChannelUsernameHelp">Карыстальнікі могуць дзяліцца гэтай спасылкай з іншымі, а таксама знайсці ваш канал праз пошук Тэлеграма.</string>
   <string name="MegaUsernameHelp">Карыстальнікі могуць дзяліцца гэтай спасылкай з іншымі і знайсці вашу суполку праз пошук Тэлеграму.</string>
@@ -132,11 +132,8 @@
   <string name="LeaveChannelMenu">Пакінуць канал</string>
   <string name="ChannelSettings">Налады</string>
   <string name="ChannelJoin">ДАЛУЧЫЦЦА</string>
-  <string name="OpenChannelProfile">Звесткі аб канале</string>
   <string name="ChannelBroadcast">Рассылка</string>
   <string name="ChannelSilentBroadcast">Бязгучная рассылка</string>
-  <string name="ChannelComment">Каментаваць</string>
-  <string name="ShowDiscussion">паказаць каментары</string>
   <string name="ChannelAlertTitle">Што такое «канал»?</string>
   <string name="ChannelAlertText">Каналы – гэта новы спосаб рассылкі сваіх паведамленняў вялікім аўдыторыям.</string>
   <string name="ChannelAlertCreate">СТВАРЫЦЬ КАНАЛ</string>
@@ -468,8 +465,6 @@
   <string name="ConvertGroupMenu">Абнавіцца да суперсуполкі</string>
   <string name="ConvertGroupAlertWarning">Увага</string>
   <string name="ConvertGroupAlert">Гэтае дзеянне немагчыма скасаваць. Магчымасці ператварыць суперсуполку назад у суполку не будзе.</string>
-  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Дасягнута абмежаванне колькасці карыстальнікаў.<![CDATA[</b>]]>\n\nКаб перавысіць абмежаванне і атрымаць дадатковыя магчымасці, абнавіцеся да суперсуполкі:\n\n• Суперсуполкі могуць мець да %1$s\n• Новыя ўдзельнікі бачаць усю гісторыю паведамленняў\n• Паведамленні выдаляюцца для ўсіх удзельнікаў\n• Удзельнікі могуць рэдагаваць уласныя паведамленні\n• Стваральнік можа прызначыць публічную спасылку на суполку</string>
-  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>У суперсуполках:<![CDATA[</b>]]>\n\n• Новыя ўдзельнікі бачаць усю гісторыю паведамленняў\n• Паведамленні выдаляюцца для ўсіх удзельнікаў\n• Удзельнікі могуць рэдагаваць уласныя паведамленні\n• Стваральнік можа прызначыць публічную спасылку на суполку</string>
   <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Увага:<![CDATA[</b>]]> гэтае дзеянне немагчыма скасаваць.</string>
   <!--contact info view-->
   <string name="ShareContact">Падзяліцца</string>
@@ -508,14 +503,11 @@
   <string name="ErrorOccurred">Адбылася памылка.</string>
   <!--stickers view-->
   <string name="Stickers">Налепкі</string>
-  <string name="StickersInfo">Мы запрашаем мастакоў дадаваць свае ўласныя наборы налепак з дапамогай нашага бота @stickers.\n\nКарыстальнікі могуць дадаваць налепкі, даткнуўшыся да іх і абраўшы \"Дадаць у налепкі\".</string>
   <string name="AddStickers">Дадаць налепкі</string>
   <string name="AddToStickers">Дадаць у налепкі</string>
   <string name="AddStickersNotFound">Налепкі не знойдзеныя</string>
   <string name="StickersRemoved">Налепкі выдаленыя</string>
   <string name="AddStickersInstalled">Новыя налепкі дададзеныя</string>
-  <string name="StickersHide">Схаваць</string>
-  <string name="StickersShow">Адлюстраваць</string>
   <string name="StickersShare">Падзяліцца</string>
   <string name="StickersCopy">Скапіяваць спасылку</string>
   <string name="StickersRemove">Выдаліць</string>
@@ -1038,12 +1030,6 @@
   <string name="messages_few">%1$d паведамленні</string>
   <string name="messages_many">%1$d паведамленняў</string>
   <string name="messages_other">%1$d паведамленняў</string>
-  <string name="comments_zero">%1$d каментароў</string>
-  <string name="comments_one">%1$d каментар</string>
-  <string name="comments_two">%1$d каментары</string>
-  <string name="comments_few">%1$d каментароў</string>
-  <string name="comments_many">%1$d каментароў</string>
-  <string name="comments_other">%1$d каментароў</string>
   <string name="items_zero">няма аб\'ектаў</string>
   <string name="items_one">%1$d аб\'ект</string>
   <string name="items_two">%1$d аб\'екты</string>
@@ -1212,6 +1198,4 @@
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s а %2$s</string>
-  <string name="Draft">Чарнавік</string>
-  <string name="HistoryCleared">Гісторыя была ачышчана</string>
 </resources>
