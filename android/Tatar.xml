@@ -23,6 +23,10 @@
   <string name="Code">Код</string>
   <string name="WrongNumber">Дөрес булмаган номер?</string>
   <string name="DidNotGetTheCode">Код алмадыгызмы?</string>
+  <string name="CancelAccountReset">Аккаунтны ташлауны кире кагу</string>
+  <string name="ResetAccount">Аккаунтны ташлау</string>
+  <string name="ResetAccountButton">ТАШЛАУ</string>
+  <string name="CancelLinkExpired">Сылтама дөрес түгел яисә яраклык вакыты чыккан.</string>
   <!--signup view-->
   <string name="YourName">Исемегез</string>
   <string name="RegisterText">Фамилиягызны һәм исемегезне кертегез</string>
@@ -342,6 +346,13 @@
   <string name="TimeToEditExpired">Гафу итегез, үзгәртү вакыты чыкты.</string>
   <string name="AddShortcut">Билгечек өстәү</string>
   <string name="ShortcutAdded">Билгечек эш өстәленә өстәлде</string>
+  <string name="ChatYourSelf">үзең белән чат</string>
+  <string name="ChatYourSelfName">Сез</string>
+  <string name="ChatYourSelfDescription1">Саклар өчен хатларны монда җибәрә аласыз</string>
+  <string name="ChatYourSelfDescription2">Саклау өчен файлларны монда җибәрә аласыз</string>
+  <string name="ChatYourSelfDescription3">Бу чат бөтен җайланмалар өчен ачык</string>
+  <string name="ChatYourSelfDescription4">Табу өчен эзләүне кулланыгыз</string>
+  <string name="ChatYourSelfTitle">Болытлы саклау урыныгыз</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s үз-үзен бетерү вакытын куйды: %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Үз-үзен бетерү вакыты: %1$s</string>
@@ -518,12 +529,18 @@
   <string name="AddStickersNotFound">Стикерлар табылмады</string>
   <string name="StickersRemoved">Стикерлар бетерелделәр</string>
   <string name="AddStickersInstalled">Стикерлар өстәлделәр</string>
+  <string name="StickersHide">Яшерү</string>
   <string name="StickersShare">Бүлешү</string>
   <string name="StickersCopy">Сылтамадан күчермә ясау</string>
   <string name="StickersRemove">Бетерү</string>
   <string name="NoStickers">Стикерлар юк</string>
+  <string name="FeaturedStickersInfo">Бу стикерлар Telegram өчен профессиональ рәссамнар белән төшерелгәннәр. Үзегезнең җыелмагызны өстәр өчен @stickers ботына языгыз.</string>
+  <string name="ArchivedStickers">Стикерлар архивы</string>
+  <string name="ArchivedStickersEmpty">Архивланган стикерлар юк</string>
+  <string name="ArchivedStickersInfo">Сез 200 тиклем стикер җыелмаларын куя аласыз. Бу саннан артык булган һәм кулланылмаган җыелмалар архивлашачаклар.</string>
   <string name="SendSticker">СТИКЕР ҖИБӘРҮ</string>
   <string name="TooMuchStickersets">Гафу итегез, сез мөмкин кадәр күп стикер җыелмаларын урнаштырдыгыз.</string>
+  <string name="ArchivedStickersAlertTitle">Архивланган стикерлар</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Бөтен белгертүләрне стандарт көйләүләргә кайтару</string>
   <string name="TextSize">Хатлар текстының зурлыгы</string>
@@ -996,10 +1013,12 @@
   <string name="AllowReadCall">Telegramга килүче шалтыратулар белән эш итүне рөхсәт итсәгез, кодыгыз үзе кертеләчәк.</string>
   <string name="AllowReadCallAndSms">Telegramга килүче шалтыратулар һәм SMS белән эш итүне рөхсәт итсәгез, кодыгыз үзе кертеләчәк.</string>
   <string name="UserRestricted">Гафу итегез, сезгә бу гамәл мөмкин түгел.</string>
+  <string name="JoinGroup">ТӨРКЕМГӘ КУШЫЛУ</string>
   <!--permissions-->
   <string name="PermissionContacts">Дусларыгыз белән төрле җайланмалар аша элемтәдә калу өчен Telegramга контактларыгызны күрү мөмкинчелеге кирәк.</string>
   <string name="PermissionStorage">Фото, видео, һәм башка медиа файлларны җибәрү һәм саклау өчен Telegramга файллар саклау урыныгызга керү мөмкинчелеге кирәк.</string>
   <string name="PermissionNoAudio">Тавышлы хатлар җибәрү өчен Telegramга микрофоныгызга рөхсәт кирәк.</string>
+  <string name="PermissionNoCamera">Фото һәм видео җибәрер өчен җайланмагызның камерасын куллану рөхсәте сорала.</string>
   <string name="PermissionNoLocation">Дусларыгызга урнашу урыныгызны җибәрү өчен Telegramга урнашу урыныгызны күрү мөмкинчелеге кирәк.</string>
   <string name="PermissionNoLocationPosition">Telegramга урнашу урыныгызга мөмкинлек кирәк.</string>
   <string name="PermissionOpenSettings">КӨЙЛӘҮЛӘР</string>
@@ -1146,6 +1165,30 @@
   <string name="LastSeenHours_few">%1$d сәгать элек кергән иде</string>
   <string name="LastSeenHours_many">%1$d сәгать элек кергән иде</string>
   <string name="LastSeenHours_other">%1$d сәгать элек кергән иде</string>
+  <string name="SecondsBold_zero"><![CDATA[<b>%1$d</b>]]> с.</string>
+  <string name="SecondsBold_one"><![CDATA[<b>%1$d</b>]]> с.</string>
+  <string name="SecondsBold_two"><![CDATA[<b>%1$d</b>]]> с.</string>
+  <string name="SecondsBold_few"><![CDATA[<b>%1$d</b>]]> с.</string>
+  <string name="SecondsBold_many"><![CDATA[<b>%1$d</b>]]> с.</string>
+  <string name="SecondsBold_other"><![CDATA[<b>%1$d</b>]]> с.</string>
+  <string name="MinutesBold_zero"><![CDATA[<b>%1$d</b>]]>мин.</string>
+  <string name="MinutesBold_one"><![CDATA[<b>%1$d</b>]]> мин.</string>
+  <string name="MinutesBold_two"><![CDATA[<b>%1$d</b>]]> мин.</string>
+  <string name="MinutesBold_few"><![CDATA[<b>%1$d</b>]]> мин.</string>
+  <string name="MinutesBold_many"><![CDATA[<b>%1$d</b>]]> мин.</string>
+  <string name="MinutesBold_other"><![CDATA[<b>%1$d</b>]]> мин.</string>
+  <string name="HoursBold_zero"><![CDATA[<b>%1$d</b>]]> сәг.</string>
+  <string name="HoursBold_one"><![CDATA[<b>%1$d</b>]]> сәг.</string>
+  <string name="HoursBold_two"><![CDATA[<b>%1$d</b>]]> сәг.</string>
+  <string name="HoursBold_few"><![CDATA[<b>%1$d</b>]]> сәг.</string>
+  <string name="HoursBold_many"><![CDATA[<b>%1$d</b>]]> сәг.</string>
+  <string name="HoursBold_other"><![CDATA[<b>%1$d</b>]]> сәг.</string>
+  <string name="DaysBold_zero"><![CDATA[<b>%1$d</b>]]> көн</string>
+  <string name="DaysBold_one"><![CDATA[<b>%1$d</b>]]> көн</string>
+  <string name="DaysBold_two"><![CDATA[<b>%1$d</b>]]> көн</string>
+  <string name="DaysBold_few"><![CDATA[<b>%1$d</b>]]> көн</string>
+  <string name="DaysBold_many"><![CDATA[<b>%1$d</b>]]> көн</string>
+  <string name="DaysBold_other"><![CDATA[<b>%1$d</b>]]> көн</string>
   <!--forwarded messages-->
   <string name="ForwardedMessage_zero">%1$d хат</string>
   <string name="ForwardedMessage_one">Хат</string>
