@@ -489,7 +489,7 @@
   <string name="ShareContact">Падзяліцца</string>
   <string name="AddContact">Дадаць</string>
   <string name="AddContactTitle">Дадаць кантакт</string>
-  <string name="BlockContact">Блакіраваць</string>
+  <string name="BlockContact">Заблакаваць</string>
   <string name="EditContact">Рэдагаваць</string>
   <string name="DeleteContact">Выдаліць</string>
   <string name="PhoneHome">Хатні</string>
@@ -547,9 +547,9 @@
   <string name="TextSize">Памер тэксту ў паведамленнях</string>
   <string name="AskAQuestion">Спытацца</string>
   <string name="EnableAnimations">Уключыць анімацыю</string>
-  <string name="Unblock">Разблакіраваць</string>
-  <string name="UnblockText">Націсніце на карыстальніка і ўтрымлівайце, каб разблакіраваць.</string>
-  <string name="NoBlocked">Пакуль няма заблакіраваных карыстальнікаў</string>
+  <string name="Unblock">Разблакаваць</string>
+  <string name="UnblockText">Націсніце на карыстальніка і ўтрымлівайце, каб разблакаваць.</string>
+  <string name="NoBlocked">Пакуль няма заблакаваных карыстальнікаў</string>
   <string name="MessageNotifications">Апавяшчэнні аб паведамленнях</string>
   <string name="Alert">Трывога</string>
   <string name="MessagePreview">Прагляд паведамлення</string>
@@ -564,7 +564,7 @@
   <string name="ResetAllNotifications">Скінуць усе апавяшчэнні</string>
   <string name="UndoAllCustom">Скасаваць усе карыстальніцкія налады апавяшчэнняў для ўсіх вашых кантактаў і суполак</string>
   <string name="NotificationsAndSounds">Апавяшчэнні і гукі</string>
-  <string name="BlockedUsers">Заблакіраваныя карыстальнікі</string>
+  <string name="BlockedUsers">Заблакаваныя карыстальнікі</string>
   <string name="LogOut">Выйсці</string>
   <string name="NoSound">Гук адсутнічае</string>
   <string name="Default">Па змаўчанні</string>
@@ -580,7 +580,7 @@
   <string name="Language">Мова</string>
   <string name="AskAQuestionInfo">Звярніце ўвагу, што падтрымка Тэлеграма ажыццяўляецца добраахвотнікамі. Мы стараемся адказваць як мага хутчэй, але гэта можа заняць час.<![CDATA[<br><br>]]>Калі ласка, зазірніце ў <![CDATA[<a href=\"https://telegram.org/faq#general\">ЧаПы Тэлеграма</a>]]>: там ёсць адказы на большасць пытанняў і парады па выпраўленні <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">хібнасцей</a>]]>.</string>
   <string name="AskButton">Спытацца ў добраахвотніка</string>
-  <string name="TelegramFaq">ЧЗП Тэлеграма</string>
+  <string name="TelegramFaq">ЧаПы Тэлеграма</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
   <string name="PrivacyPolicy">Палітыка прыватнасці</string>
   <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
