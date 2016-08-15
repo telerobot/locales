@@ -22,6 +22,9 @@
   <string name="Code">Kód</string>
   <string name="WrongNumber">Nesprávně zadané číslo?</string>
   <string name="DidNotGetTheCode">Nedostali jste kód?</string>
+  <string name="CancelAccountReset">Zrušit reset účtu</string>
+  <string name="ResetAccount">Reset účtu</string>
+  <string name="ResetAccountButton">RESET</string>
   <!--signup view-->
   <string name="YourName">Vaše jméno</string>
   <string name="RegisterText">Zadejte jméno a příjmení</string>
@@ -66,6 +69,8 @@
   <string name="ChatHints">CHATY</string>
   <string name="ChatHintsDelete">Smazat %1$s z návrhů?</string>
   <string name="LinkPreview">Náhled  odkazu</string>
+  <string name="Draft">Koncept</string>
+  <string name="HistoryCleared">Historie byla smazána</string>
   <!--channels-->
   <string name="GroupType">Typ Skupiny</string>
   <string name="ChannelType">Typ Kanálu</string>
@@ -296,6 +301,8 @@
   <string name="MoreInfo">Více informací</string>
   <string name="ShareSendTo">Odeslat na...</string>
   <string name="TapHereGifs">Dotkněte se zde pro přístup k uloženým GIFům.</string>
+  <string name="ChatYourSelf">chat sám se sebou</string>
+  <string name="ChatYourSelfName">Vy</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s nastavil/a čas k sebedestrukci na %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Čas k sebedestrukci nastaven na %1$s</string>
@@ -532,6 +539,8 @@
   <string name="SmartNotificationsTimes">krát</string>
   <string name="SmartNotificationsWithin">v průběhu</string>
   <string name="SmartNotificationsMinutes">minut</string>
+  <string name="SecretChat">Tajné chaty</string>
+  <string name="DirectShare">Přímé sdílení</string>
   <!--cache view-->
   <string name="CacheSettings">Nastavení Cache</string>
   <string name="LocalDatabase">Lokální Databaze</string>
@@ -631,6 +640,7 @@
   <string name="Shadows">Stíny</string>
   <string name="Grain">Struktura</string>
   <string name="Sharpen">Ostrost</string>
+  <string name="CurvesAll">VŠE</string>
   <string name="CurvesRed">ČERVENÁ</string>
   <string name="CurvesGreen">ZELENÁ</string>
   <string name="CurvesBlue">MODRÁ</string>
@@ -648,6 +658,7 @@
   <string name="AddCaption">Přidat popis...</string>
   <string name="PhotoCaption">Popis fotky</string>
   <string name="VideoCaption">Popis videa</string>
+  <string name="Caption">Titulek</string>
   <!--password view-->
   <string name="TwoStepVerification">Ověření ve dvou krocích</string>
   <string name="SetAdditionalPassword">Nastavit dodatečné heslo</string>
@@ -801,6 +812,7 @@ Smazat a zastavit</string>
   <string name="AttachContact">Kontakt</string>
   <string name="AttachDocument">Soubor</string>
   <string name="AttachSticker">Nálepka</string>
+  <string name="AttachAudio">Hlasová zpráva</string>
   <string name="FromYou">Vy</string>
   <string name="ActionTakeScreenshootYou">Zachytili jste snímek obrazovky!</string>
   <string name="ActionTakeScreenshoot">un1 zachytil snímek obrazovky!</string>
@@ -829,6 +841,8 @@ Smazat a zastavit</string>
   <string name="AreYouSureSessions">Jste si jistý, že chcete ukončit všechny ostatní připojení?</string>
   <string name="AreYouSureDeleteAndExit">Jste si jistý, že chcete opustit tuto skupinu a vymazat ji?</string>
   <string name="AreYouSureDeleteThisChat">Jste si jistý, že chcete odstranit tuto konverzaci?</string>
+  <string name="ShareYouLocationTitle">Sdílet vaší pozici?</string>
+  <string name="ShareYouLocationUnableManually">Zvolit ručně</string>
   <string name="AreYouSureBlockContact">Jste si jistý, že chcete zablokovat tento kontakt?</string>
   <string name="AreYouSureUnblockContact">Jste si jistý, že chcete odblokovat tento kontakt?</string>
   <string name="AreYouSureDeleteContact">Jste si jistý, že chcete vymazat tento kontakt?</string>
@@ -986,6 +1000,30 @@ Smazat a zastavit</string>
   <string name="LastSeenHours_few">naposledy viděn před %1$d hodinami</string>
   <string name="LastSeenHours_many">naposledy viděn před %1$d hodinami</string>
   <string name="LastSeenHours_other">naposledy viděn před %1$d hodinami</string>
+  <string name="SecondsBold_zero"><![CDATA[<b>%1$d</b>]]> sekund</string>
+  <string name="SecondsBold_one"><![CDATA[<b>%1$d</b>]]> sekund</string>
+  <string name="SecondsBold_two"><![CDATA[<b>%1$d</b>]]> sekund</string>
+  <string name="SecondsBold_few"><![CDATA[<b>%1$d</b>]]> sekund</string>
+  <string name="SecondsBold_many"><![CDATA[<b>%1$d</b>]]> sekund</string>
+  <string name="SecondsBold_other"><![CDATA[<b>%1$d</b>]]> sekund</string>
+  <string name="MinutesBold_zero"><![CDATA[<b>%1$d</b>]]> minut</string>
+  <string name="MinutesBold_one"><![CDATA[<b>%1$d</b>]]> minut</string>
+  <string name="MinutesBold_two"><![CDATA[<b>%1$d</b>]]> minut</string>
+  <string name="MinutesBold_few"><![CDATA[<b>%1$d</b>]]> minut</string>
+  <string name="MinutesBold_many"><![CDATA[<b>%1$d</b>]]> minut</string>
+  <string name="MinutesBold_other"><![CDATA[<b>%1$d</b>]]> minut</string>
+  <string name="HoursBold_zero"><![CDATA[<b>%1$d</b>]]> hodin</string>
+  <string name="HoursBold_one"><![CDATA[<b>%1$d</b>]]> hodina</string>
+  <string name="HoursBold_two"><![CDATA[<b>%1$d</b>]]> hodin</string>
+  <string name="HoursBold_few"><![CDATA[<b>%1$d</b>]]> hodin</string>
+  <string name="HoursBold_many"><![CDATA[<b>%1$d</b>]]> hodin</string>
+  <string name="HoursBold_other"><![CDATA[<b>%1$d</b>]]> hodin</string>
+  <string name="DaysBold_zero"><![CDATA[<b>%1$d</b>]]> dní</string>
+  <string name="DaysBold_one"><![CDATA[<b>%1$d</b>]]> den</string>
+  <string name="DaysBold_two"><![CDATA[<b>%1$d</b>]]> dní</string>
+  <string name="DaysBold_few"><![CDATA[<b>%1$d</b>]]> dní</string>
+  <string name="DaysBold_many"><![CDATA[<b>%1$d</b>]]> dní</string>
+  <string name="DaysBold_other"><![CDATA[<b>%1$d</b>]]> dní</string>
   <!--forwarded messages-->
   <string name="ForwardedMessage_zero">%1$d přeposlaných zpráv</string>
   <string name="ForwardedMessage_one">Přeposlaná zpráva</string>
