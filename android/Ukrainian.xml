@@ -23,6 +23,7 @@
   <string name="Code">Код</string>
   <string name="WrongNumber">Неправильний номер?</string>
   <string name="DidNotGetTheCode">Не отримали код?</string>
+  <string name="ResetAccountButton">СКИНУТИ</string>
   <!--signup view-->
   <string name="YourName">Ваше ім\'я</string>
   <string name="RegisterText">Вкажіть ваше ім\'я та прізвище</string>
@@ -301,6 +302,7 @@
   <string name="ServiceNotifications">Службові повідомлення</string>
   <string name="GettingLinkInfo">Отримання інформації посилання</string>
   <string name="OpenInBrowser">ВІДКРИТИ В...</string>
+  <string name="OpenInExternalApp">Відкрити через...</string>
   <string name="CopyUrl">Копіювати URL</string>
   <string name="SendItems">Надіслати %1$s</string>
   <string name="OpenUrlAlert">Відкрити url %1$s?</string>
@@ -338,6 +340,8 @@
   <string name="TimeToEditExpired">На жаль, час для редагування минув.</string>
   <string name="AddShortcut">Додати ярлик</string>
   <string name="ShortcutAdded">Ярлик доданий на робочий стіл</string>
+  <string name="ChatYourSelfName">Ви</string>
+  <string name="ChatYourSelfTitle">Ваше хмарне сховище</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s встановив/ла таймер самознищення на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Ви встановили таймер самознищення на %1$s</string>
@@ -506,6 +510,7 @@
   <string name="AddStickersNotFound">Наліпок не знайдено</string>
   <string name="StickersRemoved">Наліпки вилучені</string>
   <string name="AddStickersInstalled">Нові наліпки додано</string>
+  <string name="StickersHide">Архів</string>
   <string name="StickersShare">Поділитися</string>
   <string name="StickersCopy">Копіювати посилання</string>
   <string name="StickersRemove">Вилучити</string>
@@ -978,6 +983,7 @@
   <string name="AllowReadCall">Будь ласка, дозвольте Telegram приймати виклики, щоб ми могли вводити код автоматично.</string>
   <string name="AllowReadCallAndSms">Будь ласка, дозвольте Telegram приймати виклики та SMS, щоб ми могли вводити код автоматично.</string>
   <string name="UserRestricted">Шкода, але вам не дозволено робити це.</string>
+  <string name="JoinGroup">ПРИЄДНАТИСЯ ДО ГРУПИ</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram потребує доступу до ваших контактів, щоб ви змогли зв\'язатися зі своїми друзями на всіх своїх пристроях.</string>
   <string name="PermissionStorage">Telegram потребує доступу до вашого сховища, щоб ви могли надсилати й зберігати фото, відео, музику та інші медіа.</string>
