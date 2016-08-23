@@ -25,6 +25,7 @@
   <string name="DidNotGetTheCode">Код алмадыгызмы?</string>
   <string name="CancelAccountReset">Аккаунтны ташлауны кире кагу</string>
   <string name="ResetAccount">Аккаунтны ташлау</string>
+  <string name="ResetAccountStatus">Аккаунтны ташлау бу вакыт үткәч мөмкин булачак:</string>
   <string name="ResetAccountButton">ТАШЛАУ</string>
   <string name="CancelLinkExpired">Сылтама дөрес түгел яисә яраклык вакыты чыккан.</string>
   <!--signup view-->
@@ -309,6 +310,7 @@
   <string name="ServiceNotifications">Хезмәт белгертүләре</string>
   <string name="GettingLinkInfo">Сылтама турында мәгълүмат алам...</string>
   <string name="OpenInBrowser">КУЛЛАНЫП АЧУ...</string>
+  <string name="OpenInExternalApp">Кулланып ачу...</string>
   <string name="CopyUrl">Сылтамадан күчермә ясау</string>
   <string name="SendItems">%1$s җибәрү </string>
   <string name="OpenUrlAlert">Сылтамыны %1$s ачаргамы?</string>

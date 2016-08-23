@@ -1,15 +1,23 @@
 [main]
 host = https://www.transifex.com
-lang_map = ru:Russian, be:Belarusian, be@tarask: Taraskievica, az: Azerbaijani, uk:Ukrainian, tr:Turkish, cs:Czech, tt:Tatar, fr:French, tg:Tajik, hy:Armenian, uz:Uzbek
+lang_map = ar: Arabic, az: Azerbaijani, be:Belarusian, be@tarask: Taraskievica, cs:Czech, fr:French, hy:Armenian, pl:Polish, ru:Russian, tg:Tajik, tr:Turkish, tt:Tatar, uk:Ukrainian, uz:Uzbek
 
-[telegram-android-unofficial.TelegramApp]
+[telegram-android.TelegramApp]
 source_lang = en
 file_filter = android/<lang>.xml
+minimum_perc = 40
 
-[ios-5.TelegramApp]
+[telegram-ios.TelegramApp]
 source_lang = en
 file_filter = ios/<lang>.strings
+minimum_perc = 40
 
-[tdesktop-unofficial.TelegramApp]
+[telegram-pc.TelegramApp]
 source_lang = en
 file_filter = tdesktop/<lang>.strings
+minimum_perc = 40
+
+[telegram-osx.TelegramApp]
+source_lang = en
+file_filter = osx/<lang>.strings
+minimum_perc = 40
