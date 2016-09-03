@@ -536,6 +536,7 @@
   <string name="StickersCopy">Сылтамадан күчермә ясау</string>
   <string name="StickersRemove">Бетерү</string>
   <string name="NoStickers">Стикерлар юк</string>
+  <string name="FeaturedStickers">Тәкъдим ителгән стикерлар</string>
   <string name="FeaturedStickersInfo">Бу стикерлар Telegram өчен профессиональ рәссамнар белән төшерелгәннәр. Үзегезнең җыелмагызны өстәр өчен @stickers ботына языгыз.</string>
   <string name="ArchivedStickers">Стикерлар архивы</string>
   <string name="ArchivedStickersEmpty">Архивланган стикерлар юк</string>
@@ -543,6 +544,7 @@
   <string name="SendSticker">СТИКЕР ҖИБӘРҮ</string>
   <string name="TooMuchStickersets">Гафу итегез, сез мөмкин кадәр күп стикер җыелмаларын урнаштырдыгыз.</string>
   <string name="ArchivedStickersAlertTitle">Архивланган стикерлар</string>
+  <string name="ArchivedStickersAlertInfo">Кайбер стикер җыелмаларыгыз архивлаштылар. Сез аларны көйләүләрдә активлаштыра аласыз.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Бөтен белгертүләрне стандарт көйләүләргә кайтару</string>
   <string name="TextSize">Хатлар текстының зурлыгы</string>
