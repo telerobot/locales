@@ -83,6 +83,7 @@
   <string name="ChannelTypePublic">Umumiy</string>
   <string name="ChannelTypePrivate">Shaxsiy</string>
   <string name="SetAsAdmin">Administrator etib tayinlash</string>
+  <string name="DescriptionInfoMega">Istasangiz guruhingiz haqida yozishingiz mumkin.</string>
   <string name="LeaveMega">Guruhni unutish</string>
   <string name="DeleteMega">Guruhni o`chirish</string>
   <string name="LeaveMegaMenu">Guruhni unutish</string>
@@ -108,8 +109,16 @@
   <string name="ActionPinnedContact">un1 kontaktni belgilab qo\'ydi</string>
   <string name="ActionPinnedGeo">un1 xaritani belgilab qo\'ydi</string>
   <string name="ActionPinnedGif">un1 GIFni belgilab qo\'ydi</string>
+  <string name="ActionPinnedMusic">un1 audio yozuvni belgilab qoydi</string>
+  <string name="ActionMigrateFromGroup">Ushbu guruh super guruh darajasiga oshirildi</string>
+  <string name="ActionMigrateFromGroupNotify">%1$s super guruh darajasiga oshirildi</string>
+  <string name="NoBlockedGroup">Qora ro\'\'yxatga kiritilgan foydalanuvchilar guruhdan chiqarib yuboriladi va ular faqatgina administrator taklifi bilan guruhga qayta oladilar. Taklif qiluvhi havolalar bunday foydalanuvchilar uchun ishlamaydi.</string>
   <string name="NewChannel">Kanal yaratish</string>
   <string name="EnterChannelName">Kanal nomi</string>
+  <string name="AddMutual">Kontaktlarni o\'z kanalingizga qo\'shish</string>
+  <string name="ChannelUsernameHelp">Odamlar bu havolani boshqalarga yuborishi va sizning kanalingizni Telegram qidiruv tizimi orqali topishlari mumkin.</string>
+  <string name="ChannelUsernamePlaceholder">havola</string>
+  <string name="ChannelPrivate">Shaxsiy Kanal</string>
   <string name="ChannelInviteLinkTitle">Taklif havolasi</string>
   <string name="ChannelSettings">Sozlamalar</string>
   <string name="LinkAvailable">%1$s mavjud.</string>
@@ -568,14 +577,32 @@
   <string name="messages_few">%1$d ta xabar</string>
   <string name="messages_many">%1$d ta xabar</string>
   <string name="messages_other">%1$d ta xabar</string>
+  <string name="Months_zero">%1$d oy</string>
+  <string name="Months_one">%1$d oy</string>
+  <string name="Months_two">%1$d oy</string>
+  <string name="Months_few">%1$d oy</string>
+  <string name="Months_many">%1$d oy</string>
+  <string name="Months_other">%1$d oy</string>
+  <string name="Years_zero">%1$d yil</string>
+  <string name="Years_one">%1$d yil</string>
   <!--forwarded messages-->
   <string name="ForwardedMessage_one">Uzatilgan xabar</string>
+  <string name="ForwardedSticker_other">Yuborilgan stikerlar: %1$d </string>
+  <string name="AndOther_zero">va yana %1$d</string>
+  <string name="AndOther_one">va yana %1$d</string>
+  <string name="AndOther_two">va yana %1$d</string>
+  <string name="AndOther_few">va yana %1$d</string>
+  <string name="AndOther_many">va yana %1$d</string>
+  <string name="AndOther_other">va yana %1$d</string>
   <!--date formatters-->
+  <string name="formatterMonthYear">OOOO yyyy</string>
   <string name="formatterMonth">dd\'-\'MMM</string>
   <string name="formatterYear">dd.MM.yy</string>
   <string name="formatterYearMax">dd.MM.yyyy</string>
   <string name="chatDate">d\'-\'MMMM</string>
   <string name="chatFullDate">d\'-\'MMMM, yyyy\'-\'yil</string>
+  <string name="formatterWeek">EEE</string>
+  <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">hh::mm</string>
   <string name="formatDateAtTime">%2$s’da %1$s</string>
 </resources>
