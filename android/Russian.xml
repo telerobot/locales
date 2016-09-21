@@ -28,7 +28,6 @@
   <string name="ResetAccount">Сбросить аккаунт</string>
   <string name="ResetAccountInfo">Так как ваш аккаунт (<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>) активен и защищён паролем, мы сможем удалить его только через 1 неделю.\n\nВы сможете отменить удаление в любой момент.</string>
   <string name="ResetAccountStatus">Сброс аккаунта станет возможен через</string>
-  <string name="ResetAccountCancelledAlert">Ваша попытка сброса была отклонена активным аккаунтом. Пожалуйста, попробуйте повторить запрос через 7 дней.</string>
   <string name="ResetAccountButton">СБРОСИТЬ</string>
   <string name="CancelLinkExpired">Ссылка некорректна или просрочена.</string>
   <string name="CancelLinkSuccess">Процесс сброса для вашего аккаунта %1$s был отменён. Это окно можно закрыть.</string>
@@ -170,8 +169,6 @@
   <string name="ActionChannelChangedPhoto">Фото канала обновлено</string>
   <string name="ActionChannelRemovedPhoto">Фото канала удалено</string>
   <string name="ActionChannelChangedTitle">Имя канала изменено на un2</string>
-  <string name="ChannelPublicLimitReached">Извините, вы создали слишком много публичных каналов. Вы можете либо удалить один из существующих, либо создать приватный канал.</string>
-  <string name="ChangePublicLimitReached">К сожалению, вы создали слишком много ссылок. Попробуйте удалить какую-нибудь ссылку или сделать вашу группу или канал приватным.</string>
   <string name="ChannelModerator">Модератор</string>
   <string name="ChannelCreator">Создатель</string>
   <string name="ChannelEditor">Администратор</string>
@@ -536,7 +533,6 @@
   <string name="ArchivedStickersEmpty">Нет заархивированных наборов</string>
   <string name="ArchivedStickersInfo">Вы можете установить до 200 наборов стикеров. Все неиспользуемые наборы сверх этого числа будут заархивированы.</string>
   <string name="SendSticker">ОТПРАВИТЬ СТИКЕР</string>
-  <string name="TooMuchStickersets">К сожалению, вы установили максимально допустимое количество наборов стикеров.</string>
   <string name="ArchivedStickersAlertTitle">Архив стикеров</string>
   <string name="ArchivedStickersAlertInfo">Некоторые из ваших старых наборов были заархивированы, чтобы освободить место для новых. Вы можете восстановить их в настройках стикеров.</string>
   <!--settings view-->

@@ -162,8 +162,6 @@
   <string name="ActionChannelChangedPhoto">Фото каналу змінено</string>
   <string name="ActionChannelRemovedPhoto">Фото каналу вилучено</string>
   <string name="ActionChannelChangedTitle">Назва каналу змінена на un2</string>
-  <string name="ChannelPublicLimitReached">Вибачте, ви створили забагато публічних каналів. Ви можете спочатку або створити приватний канал, або видалити один із наявних каналів.</string>
-  <string name="ChangePublicLimitReached">Вибачте, але ви створили забагато публічних посилань. Спробуйте видалення, або зробіть деякі з ваших груп чи каналів приватними.</string>
   <string name="ChannelModerator">Модератор</string>
   <string name="ChannelCreator">Власник</string>
   <string name="ChannelEditor">Адміністратор</string>
@@ -516,7 +514,6 @@
   <string name="StickersRemove">Вилучити</string>
   <string name="NoStickers">Поки немає наліпок</string>
   <string name="SendSticker">НАДІСЛАТИ НАЛІПКУ</string>
-  <string name="TooMuchStickersets">Вибачте, але ви досягли межі наборів наліпок.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Відновити типові налаштування сповіщень</string>
   <string name="TextSize">Розмір тексту повідомлень</string>

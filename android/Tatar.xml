@@ -170,8 +170,6 @@
   <string name="ActionChannelChangedPhoto">Канал фотосы үзгәртелде</string>
   <string name="ActionChannelRemovedPhoto">Канал фотосы бетерелде</string>
   <string name="ActionChannelChangedTitle">Канал исеме un2 үзгәртелде</string>
-  <string name="ChannelPublicLimitReached">Гафу итегез, сез бик күп ачык каналлар ясадыгыз. Сез булган каналны бетерә аласыз яисә шәхси канал ясый аласыз.</string>
-  <string name="ChangePublicLimitReached">Гафу итегез, сез бик күп ачык сылтамалар ясадыгыз. Сез булган каналларны һәм төркемнәрне бетерергә мөмкинсез яисә аларны шәхси ясый аласыз.</string>
   <string name="ChannelModerator">Модератор</string>
   <string name="ChannelCreator">Ясаучы</string>
   <string name="ChannelEditor">Администратор</string>
@@ -542,7 +540,6 @@
   <string name="ArchivedStickersEmpty">Архивланган стикерлар юк</string>
   <string name="ArchivedStickersInfo">Сез 200 тиклем стикер җыелмаларын куя аласыз. Бу саннан артык булган һәм кулланылмаган җыелмалар архивлашачаклар.</string>
   <string name="SendSticker">СТИКЕР ҖИБӘРҮ</string>
-  <string name="TooMuchStickersets">Гафу итегез, сез мөмкин кадәр күп стикер җыелмаларын урнаштырдыгыз.</string>
   <string name="ArchivedStickersAlertTitle">Архивланган стикерлар</string>
   <string name="ArchivedStickersAlertInfo">Кайбер стикер җыелмаларыгыз архивлаштылар. Сез аларны көйләүләрдә активлаштыра аласыз.</string>
   <!--settings view-->

@@ -158,7 +158,6 @@
   <string name="ActionChannelChangedPhoto">Obrázek kanálu změněn</string>
   <string name="ActionChannelRemovedPhoto">Obrázek kanálu odstraněn</string>
   <string name="ActionChannelChangedTitle">Název kanálu změněn na un2</string>
-  <string name="ChannelPublicLimitReached">Litujeme, vytvořili jste příliš mnoho veřejných kanálů. Můžete buď vytvořit soukromý kanál nebo nejprve odstranit některý z existujících veřejných kanálů.</string>
   <string name="ChannelModerator">Moderátor</string>
   <string name="ChannelCreator">Tvůrce</string>
   <string name="ChannelEditor">Administrátor</string>

@@ -162,8 +162,6 @@
   <string name="ActionChannelChangedPhoto">Kanal resmi değiştirildi</string>
   <string name="ActionChannelRemovedPhoto">Kanal resmi kaldırıldı</string>
   <string name="ActionChannelChangedTitle">Kanal ismi un2 olarak değiştirildi.</string>
-  <string name="ChannelPublicLimitReached">Üzgünüz, çok fazla açık kanal oluşturdunuz. Özel bir kanal oluşturmayı ya da açık kanallarınızdan birisini silmeyi deneyebilirsiniz.</string>
-  <string name="ChangePublicLimitReached">Üzgünüz, çok fazla açık link oluşturdunuz. Silmeyi veya kanal ya da gruplarınızı özel yapmayı düşünebilirsiniz.</string>
   <string name="ChannelModerator">Moderatör</string>
   <string name="ChannelCreator">Sahip</string>
   <string name="ChannelEditor">Yönetici</string>
@@ -514,7 +512,6 @@ sorunuz mu var?</string>
   <string name="StickersRemove">Kaldır</string>
   <string name="NoStickers">Henüz çıkartma yok</string>
   <string name="SendSticker">ÇIKARTMA GÖNDER</string>
-  <string name="TooMuchStickersets">Üzgünüz, maksimum çıkartma paketi sayısına ulaştınız.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Tüm bildirim ayarlarını varsayılana sıfırla</string>
   <string name="TextSize">Mesaj Yazı Boyutu</string>

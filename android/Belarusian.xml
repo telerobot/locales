@@ -27,7 +27,6 @@
   <string name="ResetAccount">Скінуць уліковы запіс</string>
   <string name="ResetAccountInfo">Так як уліковы запіс, зарэгістраваны на нумар <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>, нядаўна выкарыстоўваўся і абаронены паролем, мы выдалім яго праз тыдзень.\n\nВы можаце скасаваць гэты працэс у любы час.</string>
   <string name="ResetAccountStatus">Уліковы запіс можна будзе скінуць праз:</string>
-  <string name="ResetAccountCancelledAlert">Ваша нядаўняя спроба скінуць гэты ўліковы запіс была скасавана яго актыўным карыстальнікам. Вы можаце паспрабаваць яшчэ раз праз 7 дзён.</string>
   <string name="ResetAccountButton">СКІНУЦЬ</string>
   <string name="CancelLinkExpired">Гэтая спасылка няправільная або яе тэрмін дзеяння скончыўся.</string>
   <string name="CancelLinkSuccess">Працэс выдалення вашага ўліковага запісу %1$s быў скасаваны. Цяпер вы можаце закрыць гэтае акно.</string>
@@ -171,8 +170,6 @@
   <string name="ActionChannelChangedPhoto">Выява канала абноўлена</string>
   <string name="ActionChannelRemovedPhoto">Выява канала выдалена</string>
   <string name="ActionChannelChangedTitle">Назва канала была зменена на un2</string>
-  <string name="ChannelPublicLimitReached">Выбачайце, але вы стварылі зашмат публічных каналаў. Вы можаце стварыць прыватны канал ці выдаліць адзін з вашых існых каналаў. </string>
-  <string name="ChangePublicLimitReached">Выбачайце, але вы стварылі зашмат публічных спасылак. Паспрабуйце выдаліць ці зрабіць прыватнымі вашыя існыя суполкі або каналы.</string>
   <string name="ChannelModerator">Мадэратар</string>
   <string name="ChannelCreator">Стваральнік</string>
   <string name="ChannelEditor">Кіраўнік</string>
@@ -539,7 +536,6 @@
   <string name="ArchivedStickersInfo">Вы можаце дадаць да 200 набораў налепак.
 Неўжываныя налепкі трапляюць у архіў, калі вы дадаеце новы набор.</string>
   <string name="SendSticker">ДАСЛАЦЬ НАЛЕПКУ</string>
-  <string name="TooMuchStickersets">Выбачайце, але вы дасягнулі ліміту набораў налепак.</string>
   <string name="ArchivedStickersAlertTitle">Налепкі ў архіве</string>
   <string name="ArchivedStickersAlertInfo">Некаторыя з вашых неўжываных налепак былі перамешчаны ў архіў. Вы можаце перамясціць іх назад праз налады налепак.</string>
   <!--settings view-->
