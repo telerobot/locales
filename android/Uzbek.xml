@@ -290,7 +290,7 @@
   <string name="EncryptedDescriptionTitle">Maxfiy suhbatlar:</string>
   <string name="EncryptedDescription1">Ikki yoqlama shifrlash</string>
   <string name="EncryptedDescription2">Iz qoldirmasdan suhbatlashing</string>
-  <string name="EncryptedDescription3">O‘zini o‘zi yo‘q qilish</string>
+  <string name="EncryptedDescription3">O‘z-o‘zini yo‘q qilish</string>
   <string name="EncryptedDescription4">Xabarni uzatishni taqiqlang</string>
   <string name="YouWereKicked">Siz ushbu guruhdan chiqarib tashlandingiz</string>
   <string name="YouLeft">Siz ushbu guruhni tark etdingiz</string>
@@ -304,7 +304,7 @@
   <string name="ShareFile">Ulashish</string>
   <string name="ApplyLocalizationFile">Tarjima faylini qo‘llash</string>
   <string name="UnsupportedAttachment">Biriktirma fayli qo‘llab-quvvatlanmaydi</string>
-  <string name="SetTimer">O\'z-o\'zini yo\'q qilish vaqtini o\'rnatish</string>
+  <string name="SetTimer">O\'z-o\'zini yo\'q qilish vaqtini belgilash</string>
   <string name="ServiceNotifications">Xizmat bildirishnimalari</string>
   <string name="GettingLinkInfo">Havola ma’lumotini olishu2026</string>
   <string name="OpenInBrowser">...ORQALI OCHISH</string>
@@ -355,10 +355,10 @@
   <string name="ChatYourSelfDescription4">Biror narsani tezda topish uchun qidiruvdan foydalaning</string>
   <string name="ChatYourSelfTitle">Sizning \"bulutli\" xotirangiz</string>
   <!--notification-->
-  <string name="MessageLifetimeChanged">%1$s xabar uchun o‘zini o‘zi yo‘q qilish vaqtini %2$s qilib belgiladi</string>
-  <string name="MessageLifetimeChangedOutgoing">Siz xabar uchun o‘zini o‘zi yo‘q qilish vaqtini %1$s qilib belgiladingiz</string>
-  <string name="MessageLifetimeRemoved">%1$s xabar uchun o‘zini o‘zi yo‘q qilish vaqtini bekor qildi</string>
-  <string name="MessageLifetimeYouRemoved">Siz xabar uchun o‘zini o‘zi yo‘q qilish vaqtini bekor qildingiz</string>
+  <string name="MessageLifetimeChanged">%1$s uchun o‘z-o‘zini yo‘q qilish vaqti %2$s qilib belgilandi</string>
+  <string name="MessageLifetimeChangedOutgoing">Siz xabar uchun o‘z-o‘zini yo‘q qilish vaqtini %1$s qilib belgiladingiz</string>
+  <string name="MessageLifetimeRemoved">%1$s xabar o‘z-o‘zini yo‘q qilish vaqtini bekor qildi</string>
+  <string name="MessageLifetimeYouRemoved">Siz xabar uchun o‘z-o‘zini yo‘q qilish vaqtini bekor qildingiz</string>
   <string name="YouHaveNewMessage">Sizga yangi xabar keldi</string>
   <string name="NotificationMessageText">%1$s: %2$s</string>
   <string name="NotificationMessageNoText">%1$s sizga xabar yubordi</string>
@@ -430,7 +430,7 @@
   <string name="NoContacts">Hozircha kontaktlar yo‘q</string>
   <string name="InviteText">Salom! Sizni Telegramga taklif qilaman: https://telegram.org/dl</string>
   <string name="TodayAt">soat</string>
-  <string name="YesterdayAt">kecha</string>
+  <string name="YesterdayAt">kecha,</string>
   <string name="Online">onlayn</string>
   <string name="LastSeen">so‘nggi faolligi:</string>
   <string name="LastSeenDate">so‘nggi faolligi:</string>
@@ -499,7 +499,7 @@
   <string name="StartEncryptedChat">Maxfiy suhbat boshlash</string>
   <string name="CreateEncryptedChatError">Xatolik yuz berdi.</string>
   <string name="EncryptionKey">Shifrlash kaliti</string>
-  <string name="MessageLifetime">O‘zini o‘zi yo‘q qilish vaqti</string>
+  <string name="MessageLifetime">O‘z-o‘zini yo‘q qilish vaqti</string>
   <string name="ShortMessageLifetimeForever">O‘chirilgan</string>
   <string name="EncryptionKeyDescription">Bu tasvir va matn — <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> bilan maxfiy suhbat uchun shifrlangan kalitning vizual ko\'rinishidir.<![CDATA[<br><br>]]>Agar <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> ning qurilmasida xuddi shunday tasvir va matn ko\'rinayotgan bo\'lsa, suhbatning himoyalanganligi kafolatlanadi.<![CDATA[<br><br>]]>Batafsil ma’lumot telegram.org saytida</string>
   <string name="EncryptionKeyLink">https://tlgrm.ru/faq#secret-chats</string>
@@ -581,7 +581,7 @@
   <string name="ChatBackground">Suhbat orqa foni</string>
   <string name="MessagesSettings">Xabarlar</string>
   <string name="SendByEnter">Enter bilan yuborish</string>
-  <string name="TerminateAllSessions">Boshqa barcha seanslarni tugatish</string>
+  <string name="TerminateAllSessions">Boshqa barcha sessiyalarni tugatish</string>
   <string name="Events">Hodisalar</string>
   <string name="ContactJoined">Kontakt Telegramga a’zo bo‘ldi</string>
   <string name="PinnedMessages">Qadalgan Xabarlar</string>
@@ -682,9 +682,9 @@
   <string name="NoOtherSessions">Boshqa faol sessiyalar mavjud emas</string>
   <string name="NoOtherSessionsInfo">Siz bitta telefon raqamidan foydalanib, boshqa mobil qurilma, planshet va kompyuterdan Telegramga kirishingiz mumkin. Barcha ma\'lumotlar bir zumda sinxronizatsiya qilinadi.</string>
   <string name="OtherSessions">Faol sessiyalar</string>
-  <string name="SessionsInfo">Boshqa qurilmalaringizni sessiyasini boshqaring</string>
-  <string name="TerminateSessionInfo">Sessiyani tugatish uchun bosing.</string>
-  <string name="TerminateSessionQuestion">Sessiyani tugatmoqchimisiz?</string>
+  <string name="SessionsInfo">Boshqa qurilmalardagi sessiyalarni boshqaring.</string>
+  <string name="TerminateSessionInfo">Sessiyani tugatish uchun unga bosing.</string>
+  <string name="TerminateSessionQuestion">Bu sessiyani tugatmoqchimisiz?</string>
   <string name="UnofficialApp">norasmiy ilova</string>
   <!--passcode view-->
   <string name="Passcode">Parolli kodlash</string>
@@ -857,20 +857,20 @@
   <string name="LastSeenNobodyPlus">Hech kim (+%1$d)</string>
   <string name="SecurityTitle">Xavfsizlik</string>
   <string name="DeleteAccountTitle">Profil o\'z-o\'zini yo\'q qiladi</string>
-  <string name="DeleteAccountIfAwayFor">Agar siz bo\'lmasangiz</string>
+  <string name="DeleteAccountIfAwayFor">Agar shu vaqt ichida kirmasangiz</string>
   <string name="DeleteAccountHelp">Agar bu vaqt davomida kamida bir marta kirmasangiz, sizning profilingiz barcha guruhlar, xabarlar va kontaktlar bilan birgalikda o\'chiriladi.</string>
   <string name="DeleteAccountNowConfirmation">Profilingiz o\'chirilsinmi?</string>
   <string name="LastSeenHelp">Sizning son\'ggi faol bo\'lgan vaqtingizni ko\'ra oladiganlarning ro\'yxatini o\'zgartirish.</string>
-  <string name="LastSeenTitle">Sizning so\'nggi faol bo\'lgan vaqtingizni kim ko\'ra oladi?</string>
+  <string name="LastSeenTitle">Sizning so\'nggi faollik vaqtingizni kim ko\'ra oladi?</string>
   <string name="AddExceptions">Istisnolarni kiritish</string>
   <string name="CustomHelp">Muhim: siz so\'nggi faollik vaqtingizni ko\'rsatmagan shaxslarning ham so\'nggi faollik vaqtini ko\'ra olmaysiz. Uning o\'rniga taxminiy so\'nggi faollik vaqti ko\'rsatiladi (yaqinda, bir hafta ichida, bir oy ichida).</string>
   <string name="AlwaysShareWith">Har doim shu foydananuvchilar uchun ko\'rsatilsin:</string>
   <string name="NeverShareWith">Hech qachon shu foydalanuvchilar uchun ko\'rsatilmasin</string>
   <string name="CustomShareSettingsHelp">Ushbu sozlamalar yuqoridagi sozlamalarni bekor qiladi.</string>
   <string name="AlwaysShareWithTitle">Har doim ko\'rsatilsin</string>
-  <string name="AlwaysShareWithPlaceholder">Har doim shu foydananuvchilar uchun ko\'rsatilsin:</string>
+  <string name="AlwaysShareWithPlaceholder">Bu foydananuvchilar uchun ko\'rsatilsin...</string>
   <string name="NeverShareWithTitle">Hech qachon ko\'rsatilmasin</string>
-  <string name="NeverShareWithPlaceholder">Hech qachon shu foydalanuvchilar uchun ko\'rsatilmasin</string>
+  <string name="NeverShareWithPlaceholder">Bu foydalanuvchilar uchun ko\'rsatilmasin...</string>
   <string name="EmpryUsersPlaceholder">Foydalanuvchilarni Qo\'shish</string>
   <string name="PrivacyFloodControlError">Kechirasiz, so\'rovlar juda ko\'p. Hozirda maxfiylik sozlamalarini o\'zgartirish imkoniyati mavjud emas. Iltimos, kuting.</string>
   <string name="ClearOtherSessionsHelp">Ushbu qurilmadan tashqari, barcha qurilmalardan chiqib ketish.</string>
@@ -878,10 +878,10 @@
   <string name="GroupsAndChannels">Guruhlar</string>
   <string name="WhoCanAddMe">Meni guruh suhbatlariga kim qo\'sha oladi?</string>
   <string name="WhoCanAddMeInfo">Siz yuqori aniqlik bilan sizni kim guruhlar va kanallarga qo\'sha olish yoki olmasligini ko\'rsatishingiz mumkin.</string>
-  <string name="AlwaysAllow">Har doim ruxsat berish</string>
-  <string name="NeverAllow">Hech qachon ruxsat bermaslik</string>
-  <string name="AlwaysAllowPlaceholder">Har doim ruxsat berish...</string>
-  <string name="NeverAllowPlaceholder">Hech qachon ruxsat bermaslik...</string>
+  <string name="AlwaysAllow">Ruxsat bor</string>
+  <string name="NeverAllow">Ruxsat yoq</string>
+  <string name="AlwaysAllowPlaceholder">Ruxsat bor...</string>
+  <string name="NeverAllowPlaceholder">Ruxsat yoq...</string>
   <string name="CustomShareInfo">Yuqorida o\'rnatilgan sozlamalarga qaramay, ushbu foydalanuvchilar sizni guruhlar yoki kanallarga qo\'shishi yoki qo\'sha olmasligi mumkin.</string>
   <string name="GroupsAndChannelsHelp">Sizni kim guruhlar va kanallarga qo\'sha olishi mumkinligini ko\'rsating.</string>
   <string name="InviteToGroupError">Kechirasiz, ushbu foydalanuvchining maxfiylik sozlamalari tufayli siz uni guruhlarga qo\'sha olmaysiz.</string>
@@ -1000,7 +1000,7 @@
   <string name="ShareYouLocationUnableManually">Qo\'lda tanlang</string>
   <string name="ShareYouLocationInline">Har safar ushbu botga so\'rov yuborganingizda, u sizning joylashuvingiz haqida ma\'lumot olish istagida. Bu narsa joylashuv ma\'lumotiga ko\'ra unga mos natijalar taqdim qilish uchun ishlatilishi mumkin.</string>
   <string name="ShareYouPhoneNumberTitle">Telefon raqamingizni ulashmoqchimisiz?</string>
-  <string name="AreYouSureShareMyContactInfoBot">Bu bot sizning telefon raqamingiz biladi. Bu narsa boshqa xizmatlar bilan integratsi qilish uchun foydali bo\'lishi mumkin.</string>
+  <string name="AreYouSureShareMyContactInfoBot">Bu bot sizning telefon raqamingizni biladi. Bu narsa boshqa xizmatlar bilan integratsiya qilish uchun foydali bo\'lishi mumkin.</string>
   <string name="AreYouSureShareMyContactInfoUser">%1$s telefon raqamingizni <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> ga taqdim qilmoqchimisiz?</string>
   <string name="AreYouSureShareMyContactInfo">Haqiqatan ham telefon raqamingizni taqdim qilmoqchimisiz?</string>
   <string name="AreYouSureBlockContact">Haqiqatan ham ushbu kontaktni bloklamoqchimisiz?</string>
@@ -1136,11 +1136,11 @@
   <string name="Years_few">%1$d yil</string>
   <string name="Years_many">%1$d yil</string>
   <string name="Years_other">%1$d yil</string>
-  <string name="Users_zero">%1$d ta foydalanuvchilar</string>
+  <string name="Users_zero">%1$d ta foydalanuvchi</string>
   <string name="Users_one">%1$d ta foydalanuvchi</string>
-  <string name="Users_two">%1$d ta foydalanuvchilar</string>
-  <string name="Users_few">%1$d ta foydalanuvchilar</string>
-  <string name="Users_many">%1$d ta foydalanuvchilar</string>
+  <string name="Users_two">%1$d ta foydalanuvchi</string>
+  <string name="Users_few">%1$d ta foydalanuvchi</string>
+  <string name="Users_many">%1$d ta foydalanuvchi</string>
   <string name="Users_other">%1$d ta foydalanuvchilar</string>
   <string name="Times_zero">%1$d marta</string>
   <string name="Times_one">%1$d marta</string>
