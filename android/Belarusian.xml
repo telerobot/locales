@@ -27,6 +27,7 @@
   <string name="ResetAccount">Скінуць уліковы запіс</string>
   <string name="ResetAccountInfo">Так як уліковы запіс, зарэгістраваны на нумар <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>, нядаўна выкарыстоўваўся і абаронены паролем, мы выдалім яго праз тыдзень.\n\nВы можаце скасаваць гэты працэс у любы час.</string>
   <string name="ResetAccountStatus">Уліковы запіс можна будзе скінуць праз:</string>
+  <string name="ResetAccountCancelledAlert">Ваша нядаўняя спроба скінуць гэты ўліковы запіс была скасавана яго актыўным карыстальнікам. Вы можаце паспрабаваць яшчэ раз праз 7 дзён.</string>
   <string name="ResetAccountButton">СКІНУЦЬ</string>
   <string name="CancelLinkExpired">Гэтая спасылка няправільная або яе тэрмін дзеяння скончыўся.</string>
   <string name="CancelLinkSuccess">Працэс выдалення вашага ўліковага запісу %1$s быў скасаваны. Цяпер вы можаце закрыць гэтае акно.</string>
@@ -170,6 +171,7 @@
   <string name="ActionChannelChangedPhoto">Выява канала абноўлена</string>
   <string name="ActionChannelRemovedPhoto">Выява канала выдалена</string>
   <string name="ActionChannelChangedTitle">Назва канала была зменена на un2</string>
+  <string name="ChangePublicLimitReached">Выбачайце, але вы занялі зашмат публічных мянушак. Вы можаце абнуліць адну з мянушак з вашых старых суполак ці каналаў.</string>
   <string name="ChannelModerator">Мадэратар</string>
   <string name="ChannelCreator">Стваральнік</string>
   <string name="ChannelEditor">Кіраўнік</string>
@@ -312,6 +314,7 @@
   <string name="CopyUrl">Скапіяваць спасылку</string>
   <string name="SendItems">Даслаць %1$s</string>
   <string name="OpenUrlAlert">Адкрыць спасылку «%1$s»?</string>
+  <string name="BotPermissionUrlAlert">Вы сапраўды дазваляеце %1$s перадаваць звесткі аб вашым уліковым запісе Тэлеграма на старонкі Сеціва, якія вы адкрываеце з дапамогай гэтага бота?</string>
   <string name="ReportSpam">ПАСКАРДЗІЦЦА НА СПАМ</string>
   <string name="ReportSpamAndLeave">ПАСКАРДЗІЦЦА НА СПАМ І ВЫЙСЦІ</string>
   <string name="AddContactChat">ДАДАЦЬ КАНТАКТ</string>
@@ -458,6 +461,8 @@
   <string name="RevokeAlertNewLink">Папярэдняя спасылка-запрашэнне цяпер неактыўная. Новая спасылка была кагадзе згенеравана.</string>
   <string name="RevokeButton">Абнуліць</string>
   <string name="RevokeLink">Абнуліць спасылку</string>
+  <string name="RevokeLinkAlert">Вы сапраўды хочаце абнуліць спасылку <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?\n\nСуполка \"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" стане прыватнай.</string>
+  <string name="RevokeLinkAlertChannel">Вы сапраўды хочаце абнуліць спасылку <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?\n\nКанал \"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" стане прыватным.</string>
   <string name="CopyLink">Скапіяваць спасылку</string>
   <string name="ShareLink">Падзяліцца спасылкай</string>
   <string name="LinkInfo">Кожны карыстальнік Тэлеграма будзе мець магчымасць далучыцца да вашай суполкі праз гэтую спасылку</string>
@@ -486,6 +491,8 @@
   <string name="ShareContact">Падзяліцца</string>
   <string name="AddContact">Дадаць</string>
   <string name="AddContactTitle">Дадаць кантакт</string>
+  <string name="ContactNotRegistered">%1$s яшчэ не далучыўся(-лася) да Тэлеграма. Жадаеце запрасіць яго (яе)?</string>
+  <string name="Invite">Запрасіць</string>
   <string name="BlockContact">Заблакаваць</string>
   <string name="EditContact">Рэдагаваць</string>
   <string name="DeleteContact">Выдаліць</string>
@@ -520,24 +527,36 @@
   <!--stickers view-->
   <string name="Stickers">Налепкі</string>
   <string name="AddStickers">Дадаць налепкі</string>
+  <string name="AddMasks">Дадаць маскі</string>
   <string name="AddToStickers">Дадаць у налепкі</string>
   <string name="AddStickersNotFound">Налепкі не знойдзеныя</string>
   <string name="StickersRemoved">Налепкі выдаленыя</string>
-  <string name="AddStickersInstalled">Новыя налепкі дададзеныя</string>
+  <string name="MasksRemoved">Маскі выдаленыя</string>
+  <string name="AddStickersInstalled">Новыя налепкі даданыя</string>
+  <string name="AddMasksInstalled">Новыя маскі даданыя</string>
   <string name="StickersHide">Архіў</string>
   <string name="StickersShare">Падзяліцца</string>
   <string name="StickersCopy">Скапіяваць спасылку</string>
   <string name="StickersRemove">Выдаліць</string>
   <string name="NoStickers">Налепак пакуль няма</string>
+  <string name="NoMasks">Масак пакуль няма</string>
+  <string name="Masks">Маскі</string>
+  <string name="MasksInfo">Вы можаце накладаць маскі на выявы, якія дасылаеце. Каб зрабіць гэта, адкрыйце выяву ў фотарэдактары.</string>
   <string name="FeaturedStickers">Папулярныя налепкі</string>
   <string name="FeaturedStickersInfo">Гэтыя налепкі прыйшліся да спадобы іншым карыстальнікам Тэлеграма. Вы можаце дадаваць свае налепкі праз бота @stickers.</string>
   <string name="ArchivedStickers">Налепкі ў архіве</string>
+  <string name="ArchivedMasks">Маскі ў архіве</string>
   <string name="ArchivedStickersEmpty">У архіве пакуль што няма налепак</string>
+  <string name="ArchivedMasksEmpty">У архіве пакуль што няма масак</string>
   <string name="ArchivedStickersInfo">Вы можаце дадаць да 200 набораў налепак.
 Неўжываныя налепкі трапляюць у архіў, калі вы дадаеце новы набор.</string>
+  <string name="ArchivedMasksInfo">Вы можаце дадаць да 200 набораў масак.
+Неўжываныя маскі трапляюць у архіў, калі вы дадаеце новы набор.</string>
   <string name="SendSticker">ДАСЛАЦЬ НАЛЕПКУ</string>
   <string name="ArchivedStickersAlertTitle">Налепкі ў архіве</string>
   <string name="ArchivedStickersAlertInfo">Некаторыя з вашых неўжываных налепак былі перамешчаны ў архіў. Вы можаце перамясціць іх назад праз налады налепак.</string>
+  <string name="ArchivedMasksAlertTitle">Маскі ў архіве</string>
+  <string name="ArchivedMasksAlertInfo">Некаторыя з вашых неўжываных масак былі перамешчаны ў архіў. Вы можаце перамясціць іх назад праз налады масак.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Скінуць усе налады апавяшчэнняў па змаўчанні</string>
   <string name="TextSize">Памер тэксту ў паведамленнях</string>
@@ -773,6 +792,14 @@
   <string name="PhotoCaption">Подпіс пад фота</string>
   <string name="VideoCaption">Подпіс пад відэа</string>
   <string name="Caption">Подпіс</string>
+  <string name="PaintDraw">Намаляваць</string>
+  <string name="PaintStickers">Налепкі</string>
+  <string name="PaintText">Тэкст</string>
+  <string name="PaintDelete">Выдаліць</string>
+  <string name="PaintEdit">Рэдагаваць</string>
+  <string name="PaintDuplicate">Дубляваць</string>
+  <string name="PaintOutlined">Абведзены</string>
+  <string name="PaintRegular">Звычайны</string>
   <!--password view-->
   <string name="TwoStepVerification">Двухкрокавая верыфікацыя</string>
   <string name="SetAdditionalPassword">Усталяваць дадатковы пароль</string>
@@ -872,6 +899,7 @@
   <string name="OriginalVideo">Арыгінальнае відэа</string>
   <string name="EditedVideo">Рэдагаванае відэа</string>
   <string name="SendingVideo">Адпраўка відэа...</string>
+  <string name="SendingGif">Дасылаем анімацыю…</string>
   <string name="CompressVideo">Сціснуць відэа</string>
   <!--bot-->
   <string name="Bot">бот</string>
@@ -922,6 +950,10 @@
   <string name="ActionYouKickUser"> Вы выдалілі un2</string>
   <string name="ActionYouLeftUser">Вы пакінулі суполку</string>
   <string name="ActionYouAddUser">Вы дадалі un2</string>
+  <string name="ActionYouScored">Вы набралі %1$s</string>
+  <string name="ActionUserScored">un1 набраў(-ла) %1$s</string>
+  <string name="ActionYouScoredInGame">Вы набралі %1$s у un2</string>
+  <string name="ActionUserScoredInGame">un1 набраў(-ла) %1$s у un2</string>
   <string name="ActionYouRemovedPhoto">Вы выдалілі фотаздымак суполкі</string>
   <string name="ActionYouChangedPhoto">Вы змянілі фотаздымак суполкі</string>
   <string name="ActionYouChangedTitle">Вы змянілі імя суполкі на un2</string>
@@ -945,6 +977,7 @@
   <string name="ActionTakeScreenshoot">un1 зрабіў здымак экрана!</string>
   <!--Alert messages-->
   <string name="InvalidPhoneNumber">Памылковы нумар тэлефона</string>
+  <string name="BannedPhoneNumber">Заблакаваны нумар</string>
   <string name="CodeExpired">Тэрмін дзеяння коду скончыўся, калі ласка, увайдзіце зноў</string>
   <string name="FloodWait">Занадта шмат спробаў, калі ласка, паспрабуйце пазней</string>
   <string name="FloodWaitTime">Зашмат спроб, паспрабуйце яшчэ раз праз %1$s</string>
@@ -1140,6 +1173,12 @@
   <string name="Photos_few">%1$d выяў</string>
   <string name="Photos_many">%1$d выяў</string>
   <string name="Photos_other">%1$d выяў</string>
+  <string name="Points_zero">%1$d</string>
+  <string name="Points_one">%1$d</string>
+  <string name="Points_two">%1$d</string>
+  <string name="Points_few">%1$d</string>
+  <string name="Points_many">%1$d</string>
+  <string name="Points_other">%1$d</string>
   <string name="LastSeenMinutes_zero">быў тут %1$d хвілін таму</string>
   <string name="LastSeenMinutes_one">быў тут %1$d хвіліну таму</string>
   <string name="LastSeenMinutes_two">быў тут %1$d хвіліны таму</string>

@@ -229,7 +229,7 @@
   <string name="ChannelNotifyMembersInfoOn">Подписчикам придёт уведомление о новом сообщении</string>
   <string name="ChannelNotifyMembersInfoOff">Подписчикам не придёт уведомление о новом сообщении</string>
   <string name="ChannelSignMessages">Подписывать сообщения</string>
-  <string name="ChannelSignMessagesInfo">Добавлять к сообщениям имя администратора, который их опубликовал</string>
+  <string name="ChannelSignMessagesInfo">Добавлять к сообщениям имя администратора, который их опубликовал.</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Новая рассылка</string>
   <string name="EnterListName">Введите название рассылки</string>
@@ -267,7 +267,7 @@
   <string name="IsSendingVideo">%1$s отправляет видео...</string>
   <string name="IsSendingFile">%1$s отправляет файл...</string>
   <string name="RecordingAudio">запись голоса...</string>
-  <string name="SendingAudio">отправляет аудио...</string>
+  <string name="SendingAudio">отправка аудио...</string>
   <string name="SendingPhoto">отправка фото...</string>
   <string name="SendingVideoStatus">отправка видео...</string>
   <string name="SendingFile">отправка файла...</string>
@@ -489,6 +489,8 @@
   <string name="ShareContact">Поделиться</string>
   <string name="AddContact">Добавить</string>
   <string name="AddContactTitle">Добавить контакт</string>
+  <string name="ContactNotRegistered">%1$s ещё не зарегистрировался в Telegram. Пригласить его?</string>
+  <string name="Invite">Пригласить</string>
   <string name="BlockContact">Заблокировать</string>
   <string name="EditContact">Изменить</string>
   <string name="DeleteContact">Удалить</string>
@@ -944,10 +946,10 @@
   <string name="ActionYouKickUser">Вы исключили пользователя un2</string>
   <string name="ActionYouLeftUser">Вы покинули группу</string>
   <string name="ActionYouAddUser">Вы добавили пользователя un2</string>
-  <string name="ActionYouScored">Вы заработали %1$s</string>
-  <string name="ActionUserScored">un1 заработал(а) %1$s</string>
-  <string name="ActionYouScoredInGame">Вы заработали %1$s в un2</string>
-  <string name="ActionUserScoredInGame">un1 заработал(а) %1$s в un2</string>
+  <string name="ActionYouScored">Вы набрали %1$s</string>
+  <string name="ActionUserScored">un1 набрал(а) %1$s</string>
+  <string name="ActionYouScoredInGame">Вы набрали %1$s в un2</string>
+  <string name="ActionUserScoredInGame">un1 набрал(а) %1$s в un2</string>
   <string name="ActionYouRemovedPhoto">Вы удалили фото группы</string>
   <string name="ActionYouChangedPhoto">Вы изменили фото группы</string>
   <string name="ActionYouChangedTitle">Вы изменили имя группы на un2</string>
@@ -1171,12 +1173,12 @@
   <string name="Photos_few">Фотографий: %1$d</string>
   <string name="Photos_many">Фотографий: %1$d</string>
   <string name="Photos_other">Фото: %1$d</string>
-  <string name="Points_zero">%1$d балов</string>
-  <string name="Points_one">%1$d балл</string>
-  <string name="Points_two">%1$d балла</string>
-  <string name="Points_few">%1$d б.</string>
-  <string name="Points_many">%1$d б.</string>
-  <string name="Points_other">%1$d б.</string>
+  <string name="Points_zero">%1$d очков</string>
+  <string name="Points_one">%1$d очко</string>
+  <string name="Points_two">%1$d очка</string>
+  <string name="Points_few">%1$d очков</string>
+  <string name="Points_many">%1$d очков</string>
+  <string name="Points_other">%1$d очков</string>
   <string name="LastSeenMinutes_zero">был(а) в сети %1$d минут назад</string>
   <string name="LastSeenMinutes_one">был(а) в сети %1$d минуту назад</string>
   <string name="LastSeenMinutes_two">был(а) в сети %1$d минуты назад</string>

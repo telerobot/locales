@@ -7,7 +7,7 @@
   <string name="LanguageCode">uz</string>
   <!--signin view-->
   <string name="YourPhone">Telefoningiz</string>
-  <string name="StartText">Iltimos telefon raqamingizni davlat kodi bilan birga kiriting.</string>
+  <string name="StartText">Iltimos telefon raqamingizni mamlakat kodi bilan birga kiriting.</string>
   <string name="ChooseCountry">Mamlakatni tanlang</string>
   <string name="WrongCountry">Mamlakat kodi noto‘g‘ri</string>
   <!--code enter view-->
@@ -112,7 +112,7 @@
   <string name="ActionPinnedMusic">un1 audio yozuvni belgilab qoydi</string>
   <string name="ActionMigrateFromGroup">Ushbu guruh super guruh darajasiga oshirildi</string>
   <string name="ActionMigrateFromGroupNotify">%1$s super guruh darajasiga oshirildi</string>
-  <string name="NoBlockedGroup">Qora ro\'\'yxatga kiritilgan foydalanuvchilar guruhdan chiqarib yuboriladi va ular faqatgina administrator taklifi bilan guruhga qayta oladilar. Taklif qiluvhi havolalar bunday foydalanuvchilar uchun ishlamaydi.</string>
+  <string name="NoBlockedGroup">Qora ro\'yxatga kiritilgan foydalanuvchilar guruhdan chiqarib yuboriladi va ular faqatgina administrator taklifi bilan guruhga qayta oladilar. Taklif qiluvhi havolalar bunday foydalanuvchilar uchun ishlamaydi.</string>
   <string name="NewChannel">Kanal yaratish</string>
   <string name="EnterChannelName">Kanal nomi</string>
   <string name="AddMutual">Kontaktlarni o\'z kanalingizga qo\'shish</string>
@@ -488,6 +488,8 @@
   <string name="ShareContact">Ulashish</string>
   <string name="AddContact">Qo‘shish</string>
   <string name="AddContactTitle">Kontakt qo\'shish</string>
+  <string name="ContactNotRegistered">%1$s Telegram tarmog\'ida ro\'yxatdan o\'tmagan. Uni taklif qilishni istaysizmi?</string>
+  <string name="Invite">Taklif qilish</string>
   <string name="BlockContact">Bloklash</string>
   <string name="EditContact">Tahrirlash</string>
   <string name="DeleteContact">O‘chirish</string>
