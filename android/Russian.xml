@@ -527,6 +527,7 @@
   <string name="AddStickers">Добавить стикеры</string>
   <string name="AddMasks">Добавить маски</string>
   <string name="AddToStickers">Добавить в стикеры</string>
+  <string name="AddToMasks">Добавить в маски</string>
   <string name="AddStickersNotFound">Стикеры не найдены</string>
   <string name="StickersRemoved">Стикеры удалены</string>
   <string name="MasksRemoved">Маски удалены</string>
