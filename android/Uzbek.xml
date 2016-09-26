@@ -526,6 +526,7 @@
   <string name="AddStickers">Stikerlarni qo‘shis</string>
   <string name="AddMasks">Niqoblash</string>
   <string name="AddToStickers">Stikerlarga qo‘shish</string>
+  <string name="AddToMasks">Niqoblarga qo\'shish</string>
   <string name="AddStickersNotFound">Stikerlar topilmadi</string>
   <string name="StickersRemoved">Stikerlar o‘chirib tashland</string>
   <string name="MasksRemoved">Niqoblash o\'chirildi</string>
