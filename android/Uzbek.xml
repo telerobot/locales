@@ -99,17 +99,18 @@
   <string name="GroupUserLeftError">Kechirasiz, bu foydalanuvchi guruhni tark etishga qaror qilgan, shuning uchun siz uni quruhga qayta taklif qila olmaysiz.</string>
   <string name="GroupUserCantAdmin">Kechirasiz, ushbu guruhda juda ko\'p administratorlar mavjud.</string>
   <string name="GroupUserCantBot">Kechirasiz, ushbu guruhda juda ko\'p botlar mavjud.</string>
-  <string name="ActionPinnedText">un1 \"%1$s\"ni belgilab qo\'ydi</string>
-  <string name="ActionPinnedNoText">un1 xabarni belgilab qo\'ydi</string>
-  <string name="ActionPinnedPhoto">un1 rasmni belgilab qo\'ydi</string>
-  <string name="ActionPinnedVideo">un1 videoni belgilab qo\'ydi</string>
-  <string name="ActionPinnedFile">un1 faylni belgilab qo\'ydi</string>
-  <string name="ActionPinnedSticker">un1 stikerni belgilab qo\'ydi</string>
-  <string name="ActionPinnedVoice">un1 ovozli xabarni belgilab qo\'ydi</string>
-  <string name="ActionPinnedContact">un1 kontaktni belgilab qo\'ydi</string>
-  <string name="ActionPinnedGeo">un1 xaritani belgilab qo\'ydi</string>
-  <string name="ActionPinnedGif">un1 GIFni belgilab qo\'ydi</string>
-  <string name="ActionPinnedMusic">un1 audio yozuvni belgilab qoydi</string>
+  <string name="ActionPinnedText">un1 \"%1$s\"ni qadab qo\'ydi</string>
+  <string name="ActionPinnedNoText">un1 xabarni qadab qo\'ydi</string>
+  <string name="ActionPinnedPhoto">un1 rasmni qadab qo\'ydi</string>
+  <string name="ActionPinnedVideo">un1 videoni qadab qo\'ydi</string>
+  <string name="ActionPinnedFile">un1 faylni qadab qo\'ydi</string>
+  <string name="ActionPinnedSticker">un1 stikerni qadab qo\'ydi</string>
+  <string name="ActionPinnedVoice">un1 ovozli xabarni qadab qo\'ydi</string>
+  <string name="ActionPinnedContact">un1 kontaktni qadab qo\'ydi</string>
+  <string name="ActionPinnedGame">un1 %1$s ni qadab qo\'ydi</string>
+  <string name="ActionPinnedGeo">un1 xaritani qadab qo\'ydi</string>
+  <string name="ActionPinnedGif">un1 GIFni qadab qo\'ydi</string>
+  <string name="ActionPinnedMusic">un1 audio yozuvni qadab qoydi</string>
   <string name="ActionMigrateFromGroup">Ushbu guruh super guruh darajasiga oshirildi</string>
   <string name="ActionMigrateFromGroupNotify">%1$s super guruh darajasiga oshirildi</string>
   <string name="NoBlockedGroup">Qora ro\'yxatga kiritilgan foydalanuvchilar guruhdan chiqarib yuboriladi va ular faqatgina administrator taklifi bilan guruhga qayta oladilar. Taklif qiluvhi havolalar bunday foydalanuvchilar uchun ishlamaydi.</string>
@@ -312,7 +313,7 @@
   <string name="CopyUrl">URL\'ni ko‘chirish</string>
   <string name="SendItems">%1$s yuborish</string>
   <string name="OpenUrlAlert">%1$s havolasi ochilsinmi?</string>
-  <string name="BotPermissionUrlAlert">%1$s tomonidan bu bot orqali ochiladigan veb sahifalariga sizning Telegramdagi nomingiz hamda id ni taqdim qilinishiga ruxsat berasizmi?</string>
+  <string name="BotPermissionGameAlert">%1$s ga sizning Telegramdagi nomingiz va ID\'ingizni (telefon raqamingiz emas) ushbu bot orqali ochiladigan sahifalarga taqdim qilishiga ruxsat berilsinmi?</string>
   <string name="ReportSpam">SPAM HAQIDA SHIKOYAT QILISH</string>
   <string name="ReportSpamAndLeave">SPAM HAQIDA SHIKOYAT QILISH VA TARK ETISH</string>
   <string name="AddContactChat">KONTAKT QO\'SHISH</string>
@@ -366,6 +367,7 @@
   <string name="NotificationMessageVideo">%1$s sizga video yubordi</string>
   <string name="NotificationMessageContact">%1$s sizga kontakt ulashdi</string>
   <string name="NotificationMessageMap">%1$s sizga joylashuv ma’lumotini yubordi</string>
+  <string name="NotificationMessageGame">%1$s sizni %2$s ni o\'ynashga taklif qildi</string>
   <string name="NotificationMessageDocument">%1$s Sizga fayl yubordi</string>
   <string name="NotificationMessageGif">%1$s sizga GIF yubordi</string>
   <string name="NotificationMessageAudio">%1$s sizga ovozli xabar yubordi</string>
@@ -378,6 +380,7 @@
   <string name="NotificationMessageGroupVideo">%1$s “%2$s” guruhiga video yubordi</string>
   <string name="NotificationMessageGroupContact">%1$s “%2$s” guruhiga kontakt ulashdi</string>
   <string name="NotificationMessageGroupMap">%1$s “%2$s” guruhiga joylashuv ma’lumotini yubordi</string>
+  <string name="NotificationMessageGroupGame">%1$s %2$s guruhini %3$s ni o\'ynashga taklif qildi</string>
   <string name="NotificationMessageGroupDocument">%1$s “%2$s” guruhiga fayl yubordi</string>
   <string name="NotificationMessageGroupGif">%1$s “%2$s” guruhiga GIF yubordi</string>
   <string name="NotificationMessageGroupAudio">%1$s “%2$s” guruhiga ovozli xabar yubordi</string>
@@ -404,6 +407,7 @@
   <string name="NotificationActionPinnedText">%1$s \"%2$s\"ni %3$s guruhida qadab qo\'ydi</string>
   <string name="NotificationActionPinnedNoText">%1$s %2$s guruhida xabarni qadab qo\'ydi</string>
   <string name="NotificationActionPinnedPhoto">%1$s %2$s guruhida rasmni qadab qo\'ydi</string>
+  <string name="NotificationActionPinnedGame">%1$s %2$s guruhida o\'yinni qadab qo\'ydi</string>
   <string name="NotificationActionPinnedVideo">%1$s %2$s guruhida videoni qadab qo\'ydi</string>
   <string name="NotificationActionPinnedFile">%1$s %2$s guruhida faylni qadab qo\'ydi</string>
   <string name="NotificationActionPinnedSticker">%1$s %2$s guruhida stikerni qadab qo\'ydi</string>
@@ -425,6 +429,7 @@
   <string name="NotificationActionPinnedGeoChannel">%1$s xaritani qadab qoydi</string>
   <string name="NotificationActionPinnedGifChannel">%1$s GIF ni qadab qoydi</string>
   <string name="NotificationActionPinnedMusicChannel">%1$s audio yozuvni qadab qoydi</string>
+  <string name="NotificationActionPinnedGameChannel">%1$s o\'yinni qadab qo\'ydi</string>
   <!--contacts view-->
   <string name="SelectContact">Kontaktni tanlang</string>
   <string name="NoContacts">Hozircha kontaktlar yo‘q</string>
@@ -694,7 +699,7 @@
   <string name="ChangePasscode">Parolni o‘zgartirish</string>
   <string name="ChangePasscodeInfo">Agar qo\'shimcha parolni o\'rnatsangiz, suhbatlar sahifasida qulf belgisi paydo bo\'ladi. Telegram dasturingizni qulflash va ochish uchun uni bosing.\n\nEslatma: Agar parolni unutib qo\'ysangiz, qurilmangizdan dasturni o\'chirib tashlab, uni qayta o\'rnatishingiz kerak bo\'ladi. Barcha maxfiy suhbatlar yo\'qoladi.</string>
   <string name="ChangePasscodeAlert">Endi siz suhbatlar sahifasida qulf belgisini ko\'rasiz. Telegram dasturingizni yangi parol bilan qulflash uchun uni bosing.</string>
-  <string name="PasscodePIN">PIN</string>
+  <string name="PasscodePIN">PIN код</string>
   <string name="PasscodePassword">Paro</string>
   <string name="EnterCurrentPasscode">Hozirgi paroolingizni kiriting</string>
   <string name="EnterNewFirstPasscode">Parolni kiriting</string>
@@ -968,6 +973,7 @@
   <string name="AttachDocument">Fayl</string>
   <string name="AttachSticker">Stiker</string>
   <string name="AttachAudio">Ovozli xabar</string>
+  <string name="AttachGame">O\'yin</string>
   <string name="FromYou">Siz</string>
   <string name="ActionTakeScreenshootYou">Siz ekranni suratga oldingiz!</string>
   <string name="ActionTakeScreenshoot">un1 ekranni suratga oldi!</string>
@@ -992,6 +998,7 @@
   <string name="UserAlreadyInGroup">Ushbu foydalanuvchi allaqachon guruhda bor</string>
   <string name="ForwardMessagesTo">Xabarlar %1$sga yuborilsinmi?</string>
   <string name="SendMessagesTo">Ushbu foydalanuvchiga xabarlar yuborilsinmi: %1$s?</string>
+  <string name="SendGameTo">%1$s bilan o\'yin baham ko\'rilsinmi?</string>
   <string name="SendContactTo">Foydalanuvchi %1$s ga kontakt yuborilsinmi?</string>
   <string name="AreYouSureLogout">Haqiqatan ham chiqib ketishni istaysizmi?\n\nUnutmang, siz bir vaqtning o\'zida barcha qurilmalarda Telegramdan muammosiz foydalanishingiz mumkin.\n\n Yodda tuting, chiqib ketish barcha Maxfiy Suhbatlarni yakunlaydi.</string>
   <string name="AreYouSureSessions">Haqiqatan ham boshqa barcha seanslarni tugatmoqchimisiz?</string>
@@ -1016,6 +1023,7 @@
   <string name="AreYouSureClearHistorySuper">Ushbu guruhdan barcha keshlangan matnlar va media fayllar o\'chirilsinmi?</string>
   <string name="AreYouSureDeleteMessages">Haqiqatan ham %1$s ni o\'chirmoqchimisiz?</string>
   <string name="SendMessagesToGroup">Xabarlar %1$sga yuborilsinmi?</string>
+  <string name="SendGameToGroup">%1$s bilan o\'yin baham ko\'rilsinmi?</string>
   <string name="SendContactToGroup">%1$s guruhiga kontakt yuborilsinmi?</string>
   <string name="ForwardMessagesToGroup">Xabarlar “%1$s” guruhiga yuborilsinmi?</string>
   <string name="FeatureUnavailable">Kechirasiz, bu imkoniyat ayni paytda mamlakatingizda mavjud emas.</string>

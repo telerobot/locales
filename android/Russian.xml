@@ -313,7 +313,6 @@
   <string name="CopyUrl">Копировать ссылку</string>
   <string name="SendItems">Отправить %1$s</string>
   <string name="OpenUrlAlert">Открыть ссылку в %1$s?</string>
-  <string name="BotPermissionUrlAlert">Разрешить %1$s отправлять ваше имя и ID веб-страницам, которые вы открываете с помощью этого бота?</string>
   <string name="ReportSpam">ПОЖАЛОВАТЬСЯ НА СПАМ</string>
   <string name="ReportSpamAndLeave">ПОЖАЛОВАТЬСЯ НА СПАМ И ПОКИНУТЬ</string>
   <string name="AddContactChat">ДОБАВИТЬ КОНТАКТ</string>

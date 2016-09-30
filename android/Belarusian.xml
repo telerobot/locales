@@ -314,7 +314,6 @@
   <string name="CopyUrl">Скапіяваць спасылку</string>
   <string name="SendItems">Даслаць %1$s</string>
   <string name="OpenUrlAlert">Адкрыць спасылку «%1$s»?</string>
-  <string name="BotPermissionUrlAlert">Вы сапраўды дазваляеце %1$s перадаваць звесткі аб вашым уліковым запісе Тэлеграма на старонкі Сеціва, якія вы адкрываеце з дапамогай гэтага бота?</string>
   <string name="ReportSpam">ПАСКАРДЗІЦЦА НА СПАМ</string>
   <string name="ReportSpamAndLeave">ПАСКАРДЗІЦЦА НА СПАМ І ВЫЙСЦІ</string>
   <string name="AddContactChat">ДАДАЦЬ КАНТАКТ</string>
