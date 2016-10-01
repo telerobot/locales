@@ -109,6 +109,7 @@
   <string name="ActionPinnedSticker">un1 замацаваў(-ла) налепку</string>
   <string name="ActionPinnedVoice">un1 замацаваў(-ла) аўдыязапіс</string>
   <string name="ActionPinnedContact">un1 замацаваў(-ла) кантакт</string>
+  <string name="ActionPinnedGame">un1 замавацаў(-ла) %1$s</string>
   <string name="ActionPinnedGeo">un1 замацаваў(-ла) карту</string>
   <string name="ActionPinnedGif">un1 замацаваў(-ла) анімацыю</string>
   <string name="ActionPinnedMusic">un1 замацаваў(-ла) песню</string>
@@ -314,6 +315,7 @@
   <string name="CopyUrl">Скапіяваць спасылку</string>
   <string name="SendItems">Даслаць %1$s</string>
   <string name="OpenUrlAlert">Адкрыць спасылку «%1$s»?</string>
+  <string name="BotPermissionGameAlert">Вы сапраўды дазваляеце %1$s перадаваць вашае імя і мянушку ў Тэлеграме (нумар тэлефона не перадаецца) на старонкі Сеціва, якія вы адкрываеце з дапамогай гэтага бота?</string>
   <string name="ReportSpam">ПАСКАРДЗІЦЦА НА СПАМ</string>
   <string name="ReportSpamAndLeave">ПАСКАРДЗІЦЦА НА СПАМ І ВЫЙСЦІ</string>
   <string name="AddContactChat">ДАДАЦЬ КАНТАКТ</string>
@@ -367,6 +369,7 @@
   <string name="NotificationMessageVideo">%1$s даслаў вам відэа</string>
   <string name="NotificationMessageContact">%1$s падзяліўся кантактам з вамі</string>
   <string name="NotificationMessageMap">%1$s даслаў вам месцазнаходжанне</string>
+  <string name="NotificationMessageGame">%1$s запрасіў(-ла) вас у гульню %2$s</string>
   <string name="NotificationMessageDocument">%1$s даслаў вам файл</string>
   <string name="NotificationMessageGif">%1$s даслаў вам анімацыю</string>
   <string name="NotificationMessageAudio">%1$s даслаў вам аўдыязапіс</string>
@@ -379,6 +382,7 @@
   <string name="NotificationMessageGroupVideo">%1$s даслаў відэа ў суполку %2$s</string>
   <string name="NotificationMessageGroupContact">%1$s падзяліўся кантактам у суполцы %2$s</string>
   <string name="NotificationMessageGroupMap">%1$s даслаў месцазнаходжанне ў суполку %2$s</string>
+  <string name="NotificationMessageGroupGame">%1$s запрасіў(-ла) суполку %2$s у гульню %3$s</string>
   <string name="NotificationMessageGroupDocument">%1$s даслаў файл у суполку %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s даслаў анімацыю ў суполку %2$s</string>
   <string name="NotificationMessageGroupAudio">%1$s даслаў аўдыязапіс у суполку %2$s</string>
@@ -405,6 +409,7 @@
   <string name="NotificationActionPinnedText">%1$s замацаваў(-ла) \"%2$s\" у суполцы %3$s</string>
   <string name="NotificationActionPinnedNoText">%1$s замацаваў(-ла) паведамленне ў суполцы %2$s</string>
   <string name="NotificationActionPinnedPhoto">%1$s замацаваў(-ла) выяву ў суполцы %2$s</string>
+  <string name="NotificationActionPinnedGame">%1$s замацаваў(-ла) гульню ў суполцы %2$s</string>
   <string name="NotificationActionPinnedVideo">%1$s замацаваў(-ла) відэазапіс у суполцы %2$s</string>
   <string name="NotificationActionPinnedFile">%1$s замацаваў(-ла) файл у суполцы %2$s</string>
   <string name="NotificationActionPinnedSticker">%1$s замацаваў(-ла) налепку ў суполцы %2$s</string>
@@ -426,6 +431,7 @@
   <string name="NotificationActionPinnedGeoChannel">%1$s замацаваў(-ла) карту</string>
   <string name="NotificationActionPinnedGifChannel">%1$s замацаваў(-ла) анімацыю</string>
   <string name="NotificationActionPinnedMusicChannel">%1$s замацаваў(-ла) песню</string>
+  <string name="NotificationActionPinnedGameChannel">%1$s замацаваў(-ла) гульню</string>
   <!--contacts view-->
   <string name="SelectContact">Выбраць кантакт</string>
   <string name="NoContacts">Яшчэ няма кантактаў</string>
@@ -972,6 +978,7 @@
   <string name="AttachDocument">Файл</string>
   <string name="AttachSticker">Налепка</string>
   <string name="AttachAudio">Аўдыязапіс</string>
+  <string name="AttachGame">Гульня</string>
   <string name="FromYou">Вы</string>
   <string name="ActionTakeScreenshootYou">Вы зрабілі скрыншот!</string>
   <string name="ActionTakeScreenshoot">un1 зрабіў здымак экрана!</string>
@@ -996,6 +1003,7 @@
   <string name="UserAlreadyInGroup">Гэты карыстальнік ужо ёсць удзельнікам гэтай суполкі</string>
   <string name="ForwardMessagesTo">Пераадрасаваць паведамленні да %1$s?</string>
   <string name="SendMessagesTo">Адправіць паведамленне да %1$s?</string>
+  <string name="SendGameTo">Падзяліцца гульнёй з %1$s?</string>
   <string name="SendContactTo">Даслаць кантакт да %1$s?</string>
   <string name="AreYouSureLogout">Вы ўпэўненыя, што жадаеце выйсці?\n\nЗвярніце ўвагу, што вы можаце заходзіць у Тэлеграм з усіх сваіх устройстваў адначасова.\n\nІ не забудзьцеся, што выхад з уліковага запісу выдаліць вашыя сакрэтныя размовы!</string>
   <string name="AreYouSureSessions">Вы сапраўды жадаеце закрыць усе іншыя сэсіі?</string>
@@ -1020,6 +1028,7 @@
   <string name="AreYouSureClearHistorySuper">Выдаліць увесь кэшаваны тэкст і медыя з гэтай суполкі?</string>
   <string name="AreYouSureDeleteMessages">Вы ўпэўненыя, што жадаеце выдаліць %1$s?</string>
   <string name="SendMessagesToGroup">Адправіць паведамленне да %1$s?</string>
+  <string name="SendGameToGroup">Падзяліцца гульнёй з %1$s?</string>
   <string name="SendContactToGroup">Даслаць кантакт да %1$s?</string>
   <string name="ForwardMessagesToGroup">Пераслаць паведамленне да %1$s?</string>
   <string name="FeatureUnavailable">Выбачайце, але гэтая функцыя ў вашай краіне пакуль што недаступная.</string>
