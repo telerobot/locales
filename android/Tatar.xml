@@ -491,6 +491,7 @@
   <string name="ShareContact">Бүлешү</string>
   <string name="AddContact">Өстәү</string>
   <string name="AddContactTitle">Контакт өстәү</string>
+  <string name="Invite">Чакыру</string>
   <string name="BlockContact">Бикләү</string>
   <string name="EditContact">Үзгәртү</string>
   <string name="DeleteContact">Бетерү</string>
@@ -525,23 +526,32 @@
   <!--stickers view-->
   <string name="Stickers">Стикерлар</string>
   <string name="AddStickers">Стикерлар өстәү</string>
+  <string name="AddMasks">Маскалар өстәү</string>
   <string name="AddToStickers">Стикерларга өстәү</string>
+  <string name="AddToMasks">Маскаларга өстәү</string>
   <string name="AddStickersNotFound">Стикерлар табылмады</string>
   <string name="StickersRemoved">Стикерлар бетерелделәр</string>
+  <string name="MasksRemoved">Маскалар бетерелделәр</string>
   <string name="AddStickersInstalled">Стикерлар өстәлделәр</string>
+  <string name="AddMasksInstalled">Яңа маскалар өстәлделәр</string>
   <string name="StickersHide">Яшерү</string>
   <string name="StickersShare">Бүлешү</string>
   <string name="StickersCopy">Сылтамадан күчермә ясау</string>
   <string name="StickersRemove">Бетерү</string>
   <string name="NoStickers">Стикерлар юк</string>
+  <string name="NoMasks">Маскалар әлегә юк</string>
+  <string name="Masks">Маскалар</string>
   <string name="FeaturedStickers">Тәкъдим ителгән стикерлар</string>
   <string name="FeaturedStickersInfo">Бу стикерлар Telegram өчен профессиональ рәссамнар белән төшерелгәннәр. Үзегезнең җыелмагызны өстәр өчен @stickers ботына языгыз.</string>
   <string name="ArchivedStickers">Стикерлар архивы</string>
+  <string name="ArchivedMasks">Архивланган маскалар</string>
   <string name="ArchivedStickersEmpty">Архивланган стикерлар юк</string>
+  <string name="ArchivedMasksEmpty">Архивланган маскалар юк</string>
   <string name="ArchivedStickersInfo">Сез 200 тиклем стикер җыелмаларын куя аласыз. Бу саннан артык булган һәм кулланылмаган җыелмалар архивлашачаклар.</string>
   <string name="SendSticker">СТИКЕР ҖИБӘРҮ</string>
   <string name="ArchivedStickersAlertTitle">Архивланган стикерлар</string>
   <string name="ArchivedStickersAlertInfo">Кайбер стикер җыелмаларыгыз архивлаштылар. Сез аларны көйләүләрдә активлаштыра аласыз.</string>
+  <string name="ArchivedMasksAlertTitle">Архивланган маскалар</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Бөтен белгертүләрне стандарт көйләүләргә кайтару</string>
   <string name="TextSize">Хатлар текстының зурлыгы</string>
@@ -781,6 +791,13 @@
   <string name="PhotoCaption">Фотога имза</string>
   <string name="VideoCaption">Видеога исем</string>
   <string name="Caption">Имза</string>
+  <string name="PaintDraw">Төшерү</string>
+  <string name="PaintStickers">Стикерлар</string>
+  <string name="PaintText">Текст</string>
+  <string name="PaintDelete">Бетерү</string>
+  <string name="PaintEdit">Үзгәртү</string>
+  <string name="PaintDuplicate">Кабатлау</string>
+  <string name="PaintRegular">Еш</string>
   <!--password view-->
   <string name="TwoStepVerification">Ике адымлы авторизация</string>
   <string name="SetAdditionalPassword">Өстәмә пароль кую</string>
@@ -886,6 +903,7 @@
   <string name="OriginalVideo">Баштагы видео</string>
   <string name="EditedVideo">Үзгәртелгән видео</string>
   <string name="SendingVideo">Видео җибәрү...</string>
+  <string name="SendingGif">GIF җибәрелә...</string>
   <string name="CompressVideo">Видеоны кысу</string>
   <!--bot-->
   <string name="Bot">бот</string>
@@ -954,11 +972,13 @@
   <string name="AttachDocument">Файл</string>
   <string name="AttachSticker">Стикер</string>
   <string name="AttachAudio">Тавышлы хат</string>
+  <string name="AttachGame">Уен</string>
   <string name="FromYou">Сез</string>
   <string name="ActionTakeScreenshootYou">Сез скриншот ясадыгыз!</string>
   <string name="ActionTakeScreenshoot">un1 скриншот ясады!</string>
   <!--Alert messages-->
   <string name="InvalidPhoneNumber">Телефон номеры дөрес түгел</string>
+  <string name="BannedPhoneNumber">Телефон номеры бикләнгән</string>
   <string name="CodeExpired">Кодның яраклык вакыты чыкты, зинһар, яңадан керегез</string>
   <string name="FloodWait">Бик күп эшләп карау, зинһар, соңрак яңадан эшләп карагыз</string>
   <string name="FloodWaitTime">Бик күп тырышып карау, %1$s вакыт үткәч яңадан эшләп карагыз</string>
@@ -1154,6 +1174,12 @@
   <string name="Photos_few">%1$d фото</string>
   <string name="Photos_many">%1$d фото</string>
   <string name="Photos_other">%1$d фото</string>
+  <string name="Points_zero">%1$d</string>
+  <string name="Points_one">%1$d</string>
+  <string name="Points_two">%1$d</string>
+  <string name="Points_few">%1$d</string>
+  <string name="Points_many">%1$d</string>
+  <string name="Points_other">%1$d</string>
   <string name="LastSeenMinutes_zero">%1$d минут элек кергән иде</string>
   <string name="LastSeenMinutes_one">%1$d минут элек кергән иде</string>
   <string name="LastSeenMinutes_two">%1$d минут элек кергән иде</string>
