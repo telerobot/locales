@@ -491,6 +491,7 @@
   <string name="ShareContact">Бүлешү</string>
   <string name="AddContact">Өстәү</string>
   <string name="AddContactTitle">Контакт өстәү</string>
+  <string name="ContactNotRegistered">%1$s Telegram кулланмый әле. Сез аны чакырырга телисезме?</string>
   <string name="Invite">Чакыру</string>
   <string name="BlockContact">Бикләү</string>
   <string name="EditContact">Үзгәртү</string>
@@ -997,6 +998,7 @@
   <string name="UserAlreadyInGroup">Бу кулланучы бу төркемдә инде</string>
   <string name="ForwardMessagesTo">%1$s кулланучысына хатны кире җибәрергәме?</string>
   <string name="SendMessagesTo">Хатларны %1$s җибәрергәме?</string>
+  <string name="SendGameTo">Уенны %1$s белән уртаклашыргамы?</string>
   <string name="SendContactTo">Контактны %1$s җибәрергәме?</string>
   <string name="AreYouSureLogout">Чыгарга телисезме?\n\nИсәпкә алыгыз, сез Telegram белән бөтен җайланмаларыгызда да берьюлы куллана аласыз.\n\nИсегездә тотыгыз, чыгу бөтен яшерен чатларны бетерә.</string>
   <string name="AreYouSureSessions">Бөтен башка сеансларны тәмамлауны телисезме?</string>
@@ -1021,6 +1023,7 @@
   <string name="AreYouSureClearHistorySuper">Бу төркемнән бөтен кэшланган хатларны һәм файлларны бетерергәме?</string>
   <string name="AreYouSureDeleteMessages">%1$s бетерергә телисезме?</string>
   <string name="SendMessagesToGroup">%1$s хат җибәрү?</string>
+  <string name="SendGameToGroup">Уенны %1$s белән уртаклашыргамы?</string>
   <string name="SendContactToGroup">Контактны %1$s җибәрергәме?</string>
   <string name="ForwardMessagesToGroup">%1$s хатны кире җибәрү?</string>
   <string name="FeatureUnavailable">Гафу итегез, бу мөмкинлек сезнең илдә юк.</string>
