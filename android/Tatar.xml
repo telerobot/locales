@@ -365,6 +365,7 @@
   <string name="NotificationMessageVideo">%1$s сезгә видео җибәрде</string>
   <string name="NotificationMessageContact">%1$s сезнең белән контакт бүлеште</string>
   <string name="NotificationMessageMap">%1$s сезгә урнашу урынын җибәрде</string>
+  <string name="NotificationMessageGame">%1$s сезне %2$s уйнарга чакырды</string>
   <string name="NotificationMessageDocument">%1$s сезгә файл җибәрде</string>
   <string name="NotificationMessageGif">%1$s сезгә GIF җибәрде</string>
   <string name="NotificationMessageAudio">%1$s сезгә тавышлы хат җибәрде</string>
@@ -998,7 +999,7 @@
   <string name="UserAlreadyInGroup">Бу кулланучы бу төркемдә инде</string>
   <string name="ForwardMessagesTo">%1$s кулланучысына хатны кире җибәрергәме?</string>
   <string name="SendMessagesTo">Хатларны %1$s җибәрергәме?</string>
-  <string name="SendGameTo">Уенны %1$s белән уртаклашыргамы?</string>
+  <string name="SendGameTo">Уенны %1$s белән бүлешергәме?</string>
   <string name="SendContactTo">Контактны %1$s җибәрергәме?</string>
   <string name="AreYouSureLogout">Чыгарга телисезме?\n\nИсәпкә алыгыз, сез Telegram белән бөтен җайланмаларыгызда да берьюлы куллана аласыз.\n\nИсегездә тотыгыз, чыгу бөтен яшерен чатларны бетерә.</string>
   <string name="AreYouSureSessions">Бөтен башка сеансларны тәмамлауны телисезме?</string>
@@ -1023,7 +1024,7 @@
   <string name="AreYouSureClearHistorySuper">Бу төркемнән бөтен кэшланган хатларны һәм файлларны бетерергәме?</string>
   <string name="AreYouSureDeleteMessages">%1$s бетерергә телисезме?</string>
   <string name="SendMessagesToGroup">%1$s хат җибәрү?</string>
-  <string name="SendGameToGroup">Уенны %1$s белән уртаклашыргамы?</string>
+  <string name="SendGameToGroup">Уенны %1$s белән бүлешергәме?</string>
   <string name="SendContactToGroup">Контактны %1$s җибәрергәме?</string>
   <string name="ForwardMessagesToGroup">%1$s хатны кире җибәрү?</string>
   <string name="FeatureUnavailable">Гафу итегез, бу мөмкинлек сезнең илдә юк.</string>
