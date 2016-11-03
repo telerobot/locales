@@ -108,6 +108,7 @@
   <string name="ActionPinnedSticker">un1 стикер беркетте</string>
   <string name="ActionPinnedVoice">un1 тавышлы хат беркетте</string>
   <string name="ActionPinnedContact">un1 контакт беркетте</string>
+  <string name="ActionPinnedGame">un1 %1$s беркетте</string>
   <string name="ActionPinnedGeo">un1 карта беркетте</string>
   <string name="ActionPinnedGif">un1 GIF беркетте</string>
   <string name="ActionPinnedMusic">un1 трек беркетте</string>
@@ -378,6 +379,7 @@
   <string name="NotificationMessageGroupVideo">%1$s %2$s төркеменә видео җибәрде</string>
   <string name="NotificationMessageGroupContact">%1$s %2$s төркеменә контакт җибәрде</string>
   <string name="NotificationMessageGroupMap">%1$s %2$s төркеменә урнашу урынын җибәрде</string>
+  <string name="NotificationMessageGroupGame">%1$s %2$s төркеменә %3$s уйнарга чакырды</string>
   <string name="NotificationMessageGroupDocument">%1$s %2$s төркеменә файл җибәрде</string>
   <string name="NotificationMessageGroupGif">%1$s %2$s төркеменә GIF җибәрде</string>
   <string name="NotificationMessageGroupAudio">%1$s %2$s төркеменә тавышлы хат җибәрде</string>
@@ -412,6 +414,7 @@
   <string name="NotificationActionPinnedText">%1$s \"%2$s\" %3$s төркемендә беркетте</string>
   <string name="NotificationActionPinnedNoText">%1$s %2$s төркемендә хат беркетте</string>
   <string name="NotificationActionPinnedPhoto">%1$s %2$s төркемендә фото беркетте</string>
+  <string name="NotificationActionPinnedGame">%1$s %2$s төркемендә уен беркетте</string>
   <string name="NotificationActionPinnedVideo">%1$s %2$s төркемендә видео беркетте</string>
   <string name="NotificationActionPinnedFile">%1$s %2$s төркемендә файл беркетте</string>
   <string name="NotificationActionPinnedSticker">%1$s %2$s төркемендә стикер беркетте</string>
@@ -433,6 +436,7 @@
   <string name="NotificationActionPinnedGeoChannel">%1$s карта беркетте</string>
   <string name="NotificationActionPinnedGifChannel">%1$s GIF беркетте</string>
   <string name="NotificationActionPinnedMusicChannel">%1$s трек беркетте</string>
+  <string name="NotificationActionPinnedGameChannel">%1$s уен беркетте</string>
   <!--contacts view-->
   <string name="SelectContact">Контакт сайлагыз</string>
   <string name="NoContacts">Контактлар әлегә юк</string>
@@ -528,32 +532,35 @@
   <!--stickers view-->
   <string name="Stickers">Стикерлар</string>
   <string name="AddStickers">Стикерлар өстәү</string>
-  <string name="AddMasks">Маскалар өстәү</string>
+  <string name="AddMasks">Битлекләр өстәү</string>
   <string name="AddToStickers">Стикерларга өстәү</string>
-  <string name="AddToMasks">Маскаларга өстәү</string>
+  <string name="AddToMasks">Битлекләргә өстәү</string>
   <string name="AddStickersNotFound">Стикерлар табылмады</string>
   <string name="StickersRemoved">Стикерлар бетерелделәр</string>
-  <string name="MasksRemoved">Маскалар бетерелделәр</string>
+  <string name="MasksRemoved">Битлекләр бетерелделәр</string>
   <string name="AddStickersInstalled">Стикерлар өстәлделәр</string>
-  <string name="AddMasksInstalled">Яңа маскалар өстәлделәр</string>
+  <string name="AddMasksInstalled">Яңа битлекләр өстәлделәр</string>
   <string name="StickersHide">Яшерү</string>
   <string name="StickersShare">Бүлешү</string>
   <string name="StickersCopy">Сылтамадан күчермә ясау</string>
   <string name="StickersRemove">Бетерү</string>
   <string name="NoStickers">Стикерлар юк</string>
-  <string name="NoMasks">Маскалар әлегә юк</string>
-  <string name="Masks">Маскалар</string>
+  <string name="NoMasks">Битлекләр әлегә юк</string>
+  <string name="Masks">Битлекләр</string>
+  <string name="MasksInfo">Сез җибәрәсе фотоларыгызга битлекләр өсти аласыз. Моның өчен фотоны җибәрер алдыннан фото үзгәрткечен ачыгыз.</string>
   <string name="FeaturedStickers">Тәкъдим ителгән стикерлар</string>
   <string name="FeaturedStickersInfo">Бу стикерлар Telegram өчен профессиональ рәссамнар белән төшерелгәннәр. Үзегезнең җыелмагызны өстәр өчен @stickers ботына языгыз.</string>
   <string name="ArchivedStickers">Стикерлар архивы</string>
-  <string name="ArchivedMasks">Архивланган маскалар</string>
+  <string name="ArchivedMasks">Архивланган битлекләр</string>
   <string name="ArchivedStickersEmpty">Архивланган стикерлар юк</string>
-  <string name="ArchivedMasksEmpty">Архивланган маскалар юк</string>
+  <string name="ArchivedMasksEmpty">Архивланган битлекләр юк</string>
   <string name="ArchivedStickersInfo">Сез 200 тиклем стикер җыелмаларын куя аласыз. Бу саннан артык булган һәм кулланылмаган җыелмалар архивлашачаклар.</string>
+  <string name="ArchivedMasksInfo">Сез 200гә тиклем битлек җыелмаларын куя аласыз. Кулланмаган битлекләр яңа җыелмалар куйганда архивлашачаклар.</string>
   <string name="SendSticker">СТИКЕР ҖИБӘРҮ</string>
   <string name="ArchivedStickersAlertTitle">Архивланган стикерлар</string>
   <string name="ArchivedStickersAlertInfo">Кайбер стикер җыелмаларыгыз архивлаштылар. Сез аларны көйләүләрдә активлаштыра аласыз.</string>
-  <string name="ArchivedMasksAlertTitle">Архивланган маскалар</string>
+  <string name="ArchivedMasksAlertTitle">Архивланган битлекләр</string>
+  <string name="ArchivedMasksAlertInfo">Кайбер иске битлек җыелмаларыгыз архивлашкан. Сез аларны Битлек көйләүләрендә активлаштыра аласыз.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Бөтен белгертүләрне стандарт көйләүләргә кайтару</string>
   <string name="TextSize">Хатлар текстының зурлыгы</string>
@@ -956,6 +963,10 @@
   <string name="ActionYouKickUser">Сез un2 кулланучысын чыгардыгыз</string>
   <string name="ActionYouLeftUser">Сез төркемнән чыктыгыз</string>
   <string name="ActionYouAddUser">Сез un2 кулланучысын өстәдегез</string>
+  <string name="ActionYouScored">Сез %1$s җыйдыгыз</string>
+  <string name="ActionUserScored">un1 %1$s җыйды</string>
+  <string name="ActionYouScoredInGame">Сез un2 %1$s җыйдыгыз</string>
+  <string name="ActionUserScoredInGame">un1 un2 %1$s җыйды</string>
   <string name="ActionYouRemovedPhoto">Сез төркем фотосын бетердегез</string>
   <string name="ActionYouChangedPhoto">Сез төркем фотосын үзгәрттегез</string>
   <string name="ActionYouChangedTitle">Сез төркем исемен un2 үзгәрттегез</string>
