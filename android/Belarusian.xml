@@ -109,7 +109,6 @@
   <string name="ActionPinnedSticker">un1 замацаваў(-ла) налепку</string>
   <string name="ActionPinnedVoice">un1 замацаваў(-ла) аўдыязапіс</string>
   <string name="ActionPinnedContact">un1 замацаваў(-ла) кантакт</string>
-  <string name="ActionPinnedGame">un1 замавацаў(-ла) %1$s</string>
   <string name="ActionPinnedGeo">un1 замацаваў(-ла) карту</string>
   <string name="ActionPinnedGif">un1 замацаваў(-ла) анімацыю</string>
   <string name="ActionPinnedMusic">un1 замацаваў(-ла) песню</string>
@@ -266,11 +265,13 @@
   <string name="IsRecordingAudio">%1$s робіць аўдыязапіс...</string>
   <string name="IsSendingAudio">%1$s адпраўляе аўдыязапіс...</string>
   <string name="IsSendingPhoto">%1$s адпраўляе выяву...</string>
+  <!--<string name="IsSendingGame">%1$s is playing a game...</string>-->
   <string name="IsSendingVideo">%1$s адпраўляе відэазапіс...</string>
   <string name="IsSendingFile">%1$s адпраўляе файл...</string>
   <string name="RecordingAudio">робіць аўдыязапіс...</string>
   <string name="SendingAudio">адпраўляе аўдыязапіс...</string>
   <string name="SendingPhoto">адпраўка выявы...</string>
+  <!--<string name="SendingGame">playing a game...</string>-->
   <string name="SendingVideoStatus">адпраўка відэазапіса...</string>
   <string name="SendingFile">адпраўка файла...</string>
   <string name="GotAQuestion">Ёсць пытанні наконт Telegram?</string>
@@ -322,8 +323,6 @@
   <string name="ReportSpamAlert">Вы ўпэўненыя, што жадаеце паскардзіцца на гэтага карыстальніка?</string>
   <string name="ReportSpamAlertGroup">Вы ўпэўненыя, што жадаеце паскардзіцца на гэтую суполку?</string>
   <string name="ReportSpamAlertChannel">Вы ўпэўненыя, што жадаеце паскардзіцца на гэты канал?</string>
-  <string name="NobodyLikesSpam1">Выбачайце, але на дадзены момант вы можаце дасылаць паведамленні толькі ўзаемным кантактам.</string>
-  <string name="NobodyLikesSpam2">Выбачайце, але на дадзены момант вы можаце дадаваць у суполкі толькі ўзаемныя кантакты.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Больш звестак</string>
   <string name="ShareSendTo">Даслаць…</string>
@@ -451,11 +450,9 @@
   <string name="ALongTimeAgo">быў тут вельмі даўно</string>
   <string name="NewMessageTitle">Новае паведамленне</string>
   <!--group create view-->
-  <string name="SendMessageTo">Даслаць паведамленне...</string>
   <string name="SoftUserLimitAlert">У вас будзе магчымасць дадаць больш удзельнікаў пасля таго, як вы скончыце ствараць сваю суполку і ператворыце яе ў суперсуполку.</string>
   <string name="EnterGroupNamePlaceholder">Увядзіце імя суполкі</string>
   <string name="GroupName">Імя суполкі</string>
-  <string name="MembersCount">%1$d/%2$d удзельнікаў</string>
   <string name="JoinToGroup">Жадаеце далучыцца да размовы «%1$s»?</string>
   <string name="JoinToGroupErrorFull">Выбачайце, але гэтая суполка ўжо поўная.</string>
   <string name="JoinToGroupErrorNotExist">Выбачайце, але гэтая размова, здаецца, не існуе.</string>
@@ -626,8 +623,6 @@
   <string name="BadgeNumber">Бэдж-лічыльнік</string>
   <string name="Short">Кароткі</string>
   <string name="Long">Даўгі</string>
-  <string name="SystemDefault">Стандартны для сістэмы</string>
-  <string name="SettingsDefault">Стандартны для праграмы</string>
   <string name="AutomaticMediaDownload">Аўта-спампоўка медыяфайлаў</string>
   <string name="WhenUsingMobileData">Пры мабільным злучэнні</string>
   <string name="WhenConnectedOnWiFi">Пры падлучэнні праз Wi-Fi</string>
@@ -660,11 +655,6 @@
   <string name="VibrationDefault">Па змаўчанні</string>
   <string name="SmartNotifications">Разумныя апавяшчэнні</string>
   <string name="SmartNotificationsDisabled">Адключана</string>
-  <string name="SmartNotificationsInfo">Гучаць не болей за %1$s на працягу %2$s</string>
-  <string name="SmartNotificationsSoundAtMost">Гучаць не болей за</string>
-  <string name="SmartNotificationsTimes">разоў</string>
-  <string name="SmartNotificationsWithin">на працягу</string>
-  <string name="SmartNotificationsMinutes">хвілін</string>
   <string name="SecretWebPage">Перадпрагляд спасылак</string>
   <string name="SecretChat">Сакрэтныя размовы</string>
   <string name="ChromeCustomTabs">Убудаваны аглядальнік</string>
@@ -871,7 +861,6 @@
   <string name="SecurityTitle">Бяспека</string>
   <string name="DeleteAccountTitle">Самазнішчэнне ўліковага запіса</string>
   <string name="DeleteAccountIfAwayFor">Калі вы адсутнічалі</string>
-  <string name="DeleteAccountHelp">Калі вы не заходзілі ў ваш уліковы запіс сама менш аднойчы за гэты перыяд, то ён будзе выдалены з усімі суполкамі, паведамленнямі і кантактамі.</string>
   <string name="DeleteAccountNowConfirmation">Выдаліць ваш уліковы запіс?</string>
   <string name="LastSeenHelp">Змена бачнасці вашай апошняй актыўнасці.</string>
   <string name="LastSeenTitle">Хто можа бачыць час вашай апошняй актыўнасці?</string>
@@ -902,11 +891,8 @@
   <string name="CreateGroupError">Выбачайце, але вы не можаце стварыць суполку з гэтымі карыстальнікамі з-за іх наладаў прыватнасці.</string>
   <!--edit video view-->
   <string name="EditVideo">Рэдагаваць відэа</string>
-  <string name="OriginalVideo">Арыгінальнае відэа</string>
-  <string name="EditedVideo">Рэдагаванае відэа</string>
   <string name="SendingVideo">Адпраўка відэа...</string>
   <string name="SendingGif">Дасылаем анімацыю…</string>
-  <string name="CompressVideo">Сціснуць відэа</string>
   <!--bot-->
   <string name="Bot">бот</string>
   <string name="BotShare">Падзяліцца</string>

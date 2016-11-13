@@ -78,6 +78,7 @@
   <string name="LinkPreview">Превью ссылок</string>
   <string name="Draft">Черновик</string>
   <string name="HistoryCleared">История была очищена</string>
+  <string name="ArticleByAuthor">от %1$s</string>
   <!--channels-->
   <string name="GroupType">Тип группы</string>
   <string name="ChannelType">Тип канала</string>
@@ -108,7 +109,6 @@
   <string name="ActionPinnedSticker">un1 прикрепил(а) стикер</string>
   <string name="ActionPinnedVoice">un1 прикрепил(а) голосовое сообщение</string>
   <string name="ActionPinnedContact">un1 прикрепил(а) контактные данные</string>
-  <string name="ActionPinnedGame">un1 прикрепил(а) %1$s</string>
   <string name="ActionPinnedGeo">un1 прикрепил(а) карту</string>
   <string name="ActionPinnedGif">un1 прикрепил(а) GIF-анимацию</string>
   <string name="ActionPinnedMusic">un1 прикрепил аудиозапись</string>
@@ -265,11 +265,13 @@
   <string name="IsRecordingAudio">%1$s что-то говорит в телефон...</string>
   <string name="IsSendingAudio">%1$s отправляет аудио...</string>
   <string name="IsSendingPhoto">%1$s отправляет фото...</string>
+  <!--<string name="IsSendingGame">%1$s is playing a game...</string>-->
   <string name="IsSendingVideo">%1$s отправляет видео...</string>
   <string name="IsSendingFile">%1$s отправляет файл...</string>
   <string name="RecordingAudio">запись голоса...</string>
   <string name="SendingAudio">отправка аудио...</string>
   <string name="SendingPhoto">отправка фото...</string>
+  <!--<string name="SendingGame">playing a game...</string>-->
   <string name="SendingVideoStatus">отправка видео...</string>
   <string name="SendingFile">отправка файла...</string>
   <string name="GotAQuestion">Есть вопрос по работе Telegram?</string>
@@ -321,8 +323,6 @@
   <string name="ReportSpamAlert">Уверены, что хотите сообщить о спаме от этого пользователя?</string>
   <string name="ReportSpamAlertGroup">Уверены, что хотите сообщить о спаме от этой группы?</string>
   <string name="ReportSpamAlertChannel">Уверены, что хотите сообщить о спаме от этого канала?</string>
-  <string name="NobodyLikesSpam1">К сожалению, вы можете отправлять сообщения только взаимным контактам.</string>
-  <string name="NobodyLikesSpam2">К сожалению, вы можете добавлять в группы только взаимные контакты.</string>
   <string name="NobodyLikesSpamUrl">https://tlgrm.ru/faq/pochemu-ne-otpravit-soobshenie.html</string>
   <string name="MoreInfo">Подробнее</string>
   <string name="ShareSendTo">Выберите получателей...</string>
@@ -449,11 +449,9 @@
   <string name="ALongTimeAgo">заходил(а) давно</string>
   <string name="NewMessageTitle">Новое сообщение</string>
   <!--group create view-->
-  <string name="SendMessageTo">Отправить сообщение...</string>
   <string name="SoftUserLimitAlert">Можно добавить ещё больше участников: для этого преобразуйте эту группу в супергруппу после того, как завершите её создание.</string>
   <string name="EnterGroupNamePlaceholder">Введите имя группы</string>
   <string name="GroupName">Имя группы</string>
-  <string name="MembersCount">%1$d/%2$d участников</string>
   <string name="JoinToGroup">Присоединиться к группе «%1$s»?</string>
   <string name="JoinToGroupErrorFull">К сожалению, эта группа переполнена.</string>
   <string name="JoinToGroupErrorNotExist">Кажется, такой группы не существует (или ваша ссылка устарела).</string>
@@ -622,8 +620,6 @@
   <string name="BadgeNumber">Счётчик на иконке</string>
   <string name="Short">Короткий</string>
   <string name="Long">Долгий</string>
-  <string name="SystemDefault">Настройки системы</string>
-  <string name="SettingsDefault">Настройки по умолчанию</string>
   <string name="AutomaticMediaDownload">Автозагрузка медиа</string>
   <string name="WhenUsingMobileData">По мобильной сети</string>
   <string name="WhenConnectedOnWiFi">По Wi-Fi</string>
@@ -656,11 +652,6 @@
   <string name="VibrationDefault">По умолчанию</string>
   <string name="SmartNotifications">Умные уведомления</string>
   <string name="SmartNotificationsDisabled">Отключены</string>
-  <string name="SmartNotificationsInfo">Звучать не более %1$s в течение %2$s</string>
-  <string name="SmartNotificationsSoundAtMost">Звучать не более</string>
-  <string name="SmartNotificationsTimes">раз(а)</string>
-  <string name="SmartNotificationsWithin">в течение</string>
-  <string name="SmartNotificationsMinutes">минут</string>
   <string name="SecretWebPage">Предпросмотр ссылок</string>
   <string name="SecretChat">Секретные чаты</string>
   <string name="ChromeCustomTabs">Встроенный браузер</string>
@@ -867,7 +858,6 @@
   <string name="SecurityTitle">Безопасность</string>
   <string name="DeleteAccountTitle">Самоуничтожение аккаунта</string>
   <string name="DeleteAccountIfAwayFor">Если вас не было</string>
-  <string name="DeleteAccountHelp">Если вы не войдёте хотя бы раз в свой аккаунт в течение этого периода, он будет удалён со всеми группами, сообщениями и контактами.</string>
   <string name="DeleteAccountNowConfirmation">Удалить ваш аккаунт?</string>
   <string name="LastSeenHelp">Изменить список тех, кто может видеть время вашей последней активности.</string>
   <string name="LastSeenTitle">Кто видит время моей последней активности?</string>
@@ -898,11 +888,8 @@
   <string name="CreateGroupError">К сожалению, эти пользователи запретили создавать группы с их участием.</string>
   <!--edit video view-->
   <string name="EditVideo">Редактировать видео</string>
-  <string name="OriginalVideo">Исходное видео</string>
-  <string name="EditedVideo">Отредактированное видео</string>
   <string name="SendingVideo">Отправка видео...</string>
   <string name="SendingGif">Отправка gif...</string>
-  <string name="CompressVideo">Сжать видео</string>
   <!--bot-->
   <string name="Bot">робот</string>
   <string name="BotShare">Поделиться</string>

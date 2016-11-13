@@ -255,11 +255,13 @@
   <string name="IsRecordingAudio">%1$s sesli mesaj kaydediyor...</string>
   <string name="IsSendingAudio">%1$s ses gönderiyor...</string>
   <string name="IsSendingPhoto">%1$s fotoğraf gönderiyor...</string>
+  <!--<string name="IsSendingGame">%1$s is playing a game...</string>-->
   <string name="IsSendingVideo">%1$s video gönderiyor...</string>
   <string name="IsSendingFile">%1$s dosya gönderiyor...</string>
   <string name="RecordingAudio">sesli mesaj kaydediyor...</string>
   <string name="SendingAudio">ses gönderiyor...</string>
   <string name="SendingPhoto">fotoğraf gönderiyor...</string>
+  <!--<string name="SendingGame">playing a game...</string>-->
   <string name="SendingVideoStatus">video gönderiyor...</string>
   <string name="SendingFile">dosya gönderiyor...</string>
   <string name="GotAQuestion">Telegram ile ilgili
@@ -310,8 +312,6 @@ sorunuz mu var?</string>
   <string name="ReportSpamAlert">Bu kullanıcıyı spam olarak raporlamak istediğinizden emin misiniz?</string>
   <string name="ReportSpamAlertGroup">Bu grubu spam olarak raporlamak istediğinizden emin misiniz?</string>
   <string name="ReportSpamAlertChannel">Bu kanalı spam olarak bildirmek istediğinize emin misiniz?</string>
-  <string name="NobodyLikesSpam1">Üzgünüz, şu anda sadece ortak üyelere mesaj gönderebilirsiniz.</string>
-  <string name="NobodyLikesSpam2">Üzgünüz, şu anda sadece ortak üyeleri gruplara ekleyebilirsiniz.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Daha fazla bilgi</string>
   <string name="ShareSendTo">Buraya gönder...</string>
@@ -427,11 +427,9 @@ sorunuz mu var?</string>
   <string name="ALongTimeAgo">son görülme uzun zaman önce</string>
   <string name="NewMessageTitle">Yeni Mesaj</string>
   <!--group create view-->
-  <string name="SendMessageTo">Mesaj gönder...</string>
   <string name="SoftUserLimitAlert">Grup oluşturmayı tamamlayıp bunu bir süper gruba çevirdikten sonra daha fazla kullanıcı ekleyebileceksiniz.</string>
   <string name="EnterGroupNamePlaceholder">Grup adını girin</string>
   <string name="GroupName">Grup adı</string>
-  <string name="MembersCount">%1$d/%2$d üye</string>
   <string name="JoinToGroup">\'%1$s\' sohbetine katılmak istediğinizden emin misiniz?</string>
   <string name="JoinToGroupErrorFull">Üzgünüz, bu grup çoktan dolmuş.</string>
   <string name="JoinToGroupErrorNotExist">Üzgünüz, bu sohbet mevcut değil.</string>
@@ -575,8 +573,6 @@ sorunuz mu var?</string>
   <string name="BadgeNumber">Rozet Sayacı</string>
   <string name="Short">Kısa</string>
   <string name="Long">Uzun</string>
-  <string name="SystemDefault">Sistem varsayılanı</string>
-  <string name="SettingsDefault">Varsayılan ayarlar</string>
   <string name="AutomaticMediaDownload">Medyayı otomatik indir</string>
   <string name="WhenUsingMobileData">Mobil veri kullanıldığında</string>
   <string name="WhenConnectedOnWiFi">Wi-Fi kullanıldığında</string>
@@ -611,11 +607,6 @@ sorunuz mu var?</string>
   <string name="VibrationDefault">Varsayılan</string>
   <string name="SmartNotifications">Akıllı Bildirimler</string>
   <string name="SmartNotificationsDisabled">Kapalı</string>
-  <string name="SmartNotificationsInfo">%2$s içinde en çok %1$s bildirim göster</string>
-  <string name="SmartNotificationsSoundAtMost">En çok</string>
-  <string name="SmartNotificationsTimes">kez</string>
-  <string name="SmartNotificationsWithin">içinde</string>
-  <string name="SmartNotificationsMinutes">dakika</string>
   <string name="SecretWebPage">Bağlantı Önizlemeleri</string>
   <string name="SecretChat">Gizli sohbetler</string>
   <string name="ChromeCustomTabs">Uygulama-İçi Tarayıcı</string>
@@ -816,7 +807,6 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="SecurityTitle">Güvenlik</string>
   <string name="DeleteAccountTitle">Hesap kendini imha eder</string>
   <string name="DeleteAccountIfAwayFor">Şu kadar süre uzaktaysanız</string>
-  <string name="DeleteAccountHelp">Eğer bu süre içinde giriş yapmazsanız, hesabınız tüm gruplarınız, mesajlarınız ve kişilerinizle birlikte silinecektir.</string>
   <string name="DeleteAccountNowConfirmation">Hesabınız silinsin mi?</string>
   <string name="LastSeenHelp">Son Görülme zamanınızı kimin görebileceğini değiştirin.</string>
   <string name="LastSeenTitle">Son Görülme zamanınızı kim görebilir?</string>
@@ -847,10 +837,7 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="CreateGroupError">Üzgünüz, kullanıcıların gizlilik ayarlarından dolayı bu kullanıcılarla bir grup oluşturamazsınız.</string>
   <!--edit video view-->
   <string name="EditVideo">Videoyu Düzenle</string>
-  <string name="OriginalVideo">Orijinal Video</string>
-  <string name="EditedVideo">Düzenlenmiş Video</string>
   <string name="SendingVideo">Video gönderiliyor ...</string>
-  <string name="CompressVideo">Videoyu sıkıştır</string>
   <!--bot-->
   <string name="Bot">robot</string>
   <string name="BotShare">Paylaş</string>

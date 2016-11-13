@@ -107,7 +107,6 @@
   <string name="ActionPinnedSticker">un1 stikerni qadab qo\'ydi</string>
   <string name="ActionPinnedVoice">un1 ovozli xabarni qadab qo\'ydi</string>
   <string name="ActionPinnedContact">un1 kontaktni qadab qo\'ydi</string>
-  <string name="ActionPinnedGame">un1 %1$s ni qadab qo\'ydi</string>
   <string name="ActionPinnedGeo">un1 xaritani qadab qo\'ydi</string>
   <string name="ActionPinnedGif">un1 GIFni qadab qo\'ydi</string>
   <string name="ActionPinnedMusic">un1 audio yozuvni qadab qoydi</string>
@@ -264,11 +263,13 @@
   <string name="IsRecordingAudio">%1$s ovozli xabar yozmoqda...</string>
   <string name="IsSendingAudio">%1$s audio yubormoqda…</string>
   <string name="IsSendingPhoto">%1$s rasm yuboryapti…</string>
+  <!--<string name="IsSendingGame">%1$s is playing a game...</string>-->
   <string name="IsSendingVideo">%1$s video yuboryapti…</string>
   <string name="IsSendingFile">%1$s fayl yuboryapti…</string>
   <string name="RecordingAudio">Ovozli xabar yozilmoqda...</string>
   <string name="SendingAudio">audio yuborilmoqda…</string>
   <string name="SendingPhoto">rasm yuborilmoqda…</string>
+  <!--<string name="SendingGame">playing a game...</string>-->
   <string name="SendingVideoStatus">video yuborilmoqda…</string>
   <string name="SendingFile">fayl yuborilmoqda…</string>
   <string name="GotAQuestion">Telegram haqida\nsavolingiz bormi?</string>
@@ -320,8 +321,6 @@
   <string name="ReportSpamAlert">Haqiqatan ham ushbu foydalanuvchidan kelgan spam haqida shikoyat qilmoqchimisiz?</string>
   <string name="ReportSpamAlertGroup">Haqiqatan ham ushbu guruhdan kelgan spam haqida shikoyat qilmoqchimisiz?</string>
   <string name="ReportSpamAlertChannel">Haqiqatan ham ushbu kanaldan kelgan spam haqida shikoyat qilmoqchimisiz?</string>
-  <string name="NobodyLikesSpam1">Kechirasiz, hozirgi vaqtda siz faqatgina ikki tomonlama kontaktlarga xabarlar yubora olasiz.</string>
-  <string name="NobodyLikesSpam2">Kechirasiz, hozirgi vaqtda siz faqatgina ikki tomonlama kontaktlarni guruhlarga qo\'sha olasiz.</string>
   <string name="NobodyLikesSpamUrl">https://tlgrm.ru/faq/pochemu-ne-otpravit-soobshenie.html</string>
   <string name="MoreInfo">Batafsil ma\'lumot</string>
   <string name="ShareSendTo">Quyidagi foydalanuvchilarga yuborish...</string>
@@ -448,11 +447,9 @@
   <string name="ALongTimeAgo">so‘nggi marta ancha vaqt olding faol bo\'lgan</string>
   <string name="NewMessageTitle">Yangi xabar</string>
   <!--group create view-->
-  <string name="SendMessageTo">Quyidagilarga xabar yuborish...</string>
   <string name="SoftUserLimitAlert">Siz guruhni yaratish jarayonini tugatib, uni super guruhga aylantirganingizdan so\'ng unga yanada ko\'proq foydalanuvchilarni qo\'shish imkoniyatiga ega bo\'lasiz.</string>
   <string name="EnterGroupNamePlaceholder">Guruh nomini kiriting</string>
   <string name="GroupName">Guruh nomi</string>
-  <string name="MembersCount">A’zolar: %1$d/%2$d</string>
   <string name="JoinToGroup">\'%1$s\' guruhiga qo\'shilishni istaysizmi?</string>
   <string name="JoinToGroupErrorFull">Kechirasiz, bu guruh allaqachon to‘lgan.</string>
   <string name="JoinToGroupErrorNotExist">Kechirasiz, ushbu guruh mavjud emas.</string>
@@ -621,8 +618,6 @@
   <string name="BadgeNumber">Yorliq hisoblagich</string>
   <string name="Short">Qisqa</string>
   <string name="Long">Uzun</string>
-  <string name="SystemDefault">Tizim tili</string>
-  <string name="SettingsDefault">Standart sozlamalar</string>
   <string name="AutomaticMediaDownload">Avtomatik media yuklash</string>
   <string name="WhenUsingMobileData">Mobil internet orqali ulanganda</string>
   <string name="WhenConnectedOnWiFi">Wi-Fi orqali ulanganda</string>
@@ -655,11 +650,6 @@
   <string name="VibrationDefault">Standart</string>
   <string name="SmartNotifications">Aqilli bildirishnomalar</string>
   <string name="SmartNotificationsDisabled">O‘chirilgan</string>
-  <string name="SmartNotificationsInfo">%2$s davomida ko\'pi bilan %1$s marta ovoz chiqarish</string>
-  <string name="SmartNotificationsSoundAtMost">Ko\'pi bilan ... marta ovoz chiqarish</string>
-  <string name="SmartNotificationsTimes">marta</string>
-  <string name="SmartNotificationsWithin">davomida</string>
-  <string name="SmartNotificationsMinutes">minut</string>
   <string name="SecretWebPage">Havolalarni oldindan ko\'rib chiqish</string>
   <string name="SecretChat">Maxfiy suhbatlar</string>
   <string name="ChromeCustomTabs">Ilova ichida brauzer</string>
@@ -866,7 +856,6 @@
   <string name="SecurityTitle">Xavfsizlik</string>
   <string name="DeleteAccountTitle">Profil o\'z-o\'zini yo\'q qiladi</string>
   <string name="DeleteAccountIfAwayFor">Agar shu vaqt ichida kirmasangiz</string>
-  <string name="DeleteAccountHelp">Agar bu vaqt davomida kamida bir marta kirmasangiz, sizning profilingiz barcha guruhlar, xabarlar va kontaktlar bilan birgalikda o\'chiriladi.</string>
   <string name="DeleteAccountNowConfirmation">Profilingiz o\'chirilsinmi?</string>
   <string name="LastSeenHelp">Sizning son\'ggi faol bo\'lgan vaqtingizni ko\'ra oladiganlarning ro\'yxatini o\'zgartirish.</string>
   <string name="LastSeenTitle">Sizning so\'nggi faollik vaqtingizni kim ko\'ra oladi?</string>
@@ -897,11 +886,8 @@
   <string name="CreateGroupError">Kechirasiz, ushbu foydalanuvchilarning maxfiylik sozlamalari tufayli siz ular ishtirokidagi guruh yarata olmaysiz.</string>
   <!--edit video view-->
   <string name="EditVideo">Videoni tahrirlash</string>
-  <string name="OriginalVideo">Asl video</string>
-  <string name="EditedVideo">Tahrirlangan video</string>
   <string name="SendingVideo">Video yuborilmoqda...</string>
   <string name="SendingGif">GIF yuborilmoqda...</string>
-  <string name="CompressVideo">Videoni siqish</string>
   <!--bot-->
   <string name="Bot">bot</string>
   <string name="BotShare">Ulashish</string>

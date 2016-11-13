@@ -255,11 +255,13 @@
   <string name="IsRecordingAudio">%1$s записує голосове повідомлення...</string>
   <string name="IsSendingAudio">%1$s надсилає аудіо...</string>
   <string name="IsSendingPhoto">%1$s надсилає фото...</string>
+  <!--<string name="IsSendingGame">%1$s is playing a game...</string>-->
   <string name="IsSendingVideo">%1$s надсилає відео...</string>
   <string name="IsSendingFile">%1$s надсилає файл...</string>
   <string name="RecordingAudio">запис голосового повідомлення...</string>
   <string name="SendingAudio">надсилання аудіо...</string>
   <string name="SendingPhoto">надсилання фото...</string>
+  <!--<string name="SendingGame">playing a game...</string>-->
   <string name="SendingVideoStatus">надсилання відео...</string>
   <string name="SendingFile">надсилання файлу</string>
   <string name="GotAQuestion">Є питання щодо Telegram?</string>
@@ -310,8 +312,6 @@
   <string name="ReportSpamAlert">Ви дійсно хочете повідомити про спам від цього користувача?</string>
   <string name="ReportSpamAlertGroup">Ви дійсно хочете повідомити про спам від цієї групи?</string>
   <string name="ReportSpamAlertChannel">Ви впевнені, що хочете повідомити про спам від цього каналу?</string>
-  <string name="NobodyLikesSpam1">Шкода, але в даний момент ви можете надсилати повідомлення лише спільним контактам.</string>
-  <string name="NobodyLikesSpam2">Шкода, але в даний момент ви можете додавати до груп лише спільні контакти.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Докладніше</string>
   <string name="ShareSendTo">Надіслати до...</string>
@@ -429,11 +429,9 @@
   <string name="ALongTimeAgo">заходив/ла давно</string>
   <string name="NewMessageTitle">Нове повідомлення</string>
   <!--group create view-->
-  <string name="SendMessageTo">Надіслати повідомлення...</string>
   <string name="SoftUserLimitAlert">Після створення групи ви зможете додавати більше учасників, а також перетворювати її на супергрупу.</string>
   <string name="EnterGroupNamePlaceholder">Введіть назву групи</string>
   <string name="GroupName">Назва групи</string>
-  <string name="MembersCount">%1$d/%2$d учасників</string>
   <string name="JoinToGroup">Ви хочете приєднатися до чату \'%1$s\'?</string>
   <string name="JoinToGroupErrorFull">Вибачте, ця група вже заповнена.</string>
   <string name="JoinToGroupErrorNotExist">Шкода, але цей чат, здається, не існує.</string>
@@ -577,8 +575,6 @@
   <string name="BadgeNumber">Лічильник на значку</string>
   <string name="Short">Короткий</string>
   <string name="Long">Довгий</string>
-  <string name="SystemDefault">Мова системи</string>
-  <string name="SettingsDefault">Типові налаштування</string>
   <string name="AutomaticMediaDownload">Автозавантаження медіа</string>
   <string name="WhenUsingMobileData">При використанні мобільної мережі</string>
   <string name="WhenConnectedOnWiFi">При підключенні по Wi-Fi</string>
@@ -613,11 +609,6 @@
   <string name="VibrationDefault">Типово</string>
   <string name="SmartNotifications">Розумні сповіщення</string>
   <string name="SmartNotificationsDisabled">Вимкнено</string>
-  <string name="SmartNotificationsInfo">Звучати не більше %1$s упродовж %2$s</string>
-  <string name="SmartNotificationsSoundAtMost">Звучати не більше</string>
-  <string name="SmartNotificationsTimes">разів</string>
-  <string name="SmartNotificationsWithin">упродовж</string>
-  <string name="SmartNotificationsMinutes">хвилин</string>
   <string name="SecretWebPage">Перегляд посилань</string>
   <string name="SecretChat">Секретні чати</string>
   <string name="ChromeCustomTabs">Вбудований браузер</string>
@@ -818,7 +809,6 @@
   <string name="SecurityTitle">Безпека</string>
   <string name="DeleteAccountTitle">Самознищення облікового запису</string>
   <string name="DeleteAccountIfAwayFor">Якщо вас не було</string>
-  <string name="DeleteAccountHelp">Якщо ви не ввійдете в свій обліковий запис хоча б раз протягом цього періоду, він буде видалений з усіма групами, повідомленнями та контактами.</string>
   <string name="DeleteAccountNowConfirmation">Видалити ваш обліковий запис?</string>
   <string name="LastSeenHelp">Змінити список тих, хто може бачити ваше останнє відвідування.</string>
   <string name="LastSeenTitle">Хто може бачити час вашої останньої активності?</string>
@@ -849,10 +839,7 @@
   <string name="CreateGroupError">Вибачте, але ви не можете створити групу з цими користувачами, через їхні налаштування приватності.</string>
   <!--edit video view-->
   <string name="EditVideo">Редагувати відео</string>
-  <string name="OriginalVideo">Оригінальне відео</string>
-  <string name="EditedVideo">Відредаговане відео</string>
   <string name="SendingVideo">Надсилання відео...</string>
-  <string name="CompressVideo">Стиснути відео</string>
   <!--bot-->
   <string name="Bot">бот</string>
   <string name="BotShare">Поділитися</string>

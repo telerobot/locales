@@ -245,9 +245,11 @@
   <string name="IsTyping">píše...</string>
   <string name="AreTyping">píší...</string>
   <string name="IsSendingPhoto">%1$s Vám posílá fotku...</string>
+  <!--<string name="IsSendingGame">%1$s is playing a game...</string>-->
   <string name="IsSendingVideo">%1$s Vám posílá video...</string>
   <string name="IsSendingFile">%1$s Vám posílá soubor...</string>
   <string name="SendingPhoto">posílá fotku...</string>
+  <!--<string name="SendingGame">playing a game...</string>-->
   <string name="SendingVideoStatus">posílá video...</string>
   <string name="SendingFile">posílá soubor...</string>
   <string name="GotAQuestion">Máte otázku\nohledně Telegramu?</string>
@@ -294,8 +296,6 @@
   <string name="AddContactChat">PŘIDAT KONTAKT</string>
   <string name="ReportSpamAlert">Jste si jistý, že chcete nahlásit spam od tohoto uživatele?</string>
   <string name="ReportSpamAlertGroup">Jste si jistý, že chcete nahlásit spam od této skupiny?</string>
-  <string name="NobodyLikesSpam1">Litujeme, nyní můžete odesílat zprávy pouze vzájemných kontaktů.</string>
-  <string name="NobodyLikesSpam2">Litujeme, nyní můžete přidat do skupiny jen vzájemné kontakty.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Více informací</string>
   <string name="ShareSendTo">Odeslat na...</string>
@@ -370,10 +370,8 @@
   <string name="ALongTimeAgo">dlouho nebyl/a online</string>
   <string name="NewMessageTitle">Nová zpráva</string>
   <!--group create view-->
-  <string name="SendMessageTo">Poslat zprávu...</string>
   <string name="EnterGroupNamePlaceholder">Zadejte název skupiny</string>
   <string name="GroupName">Název skupiny</string>
-  <string name="MembersCount">%1$d/%2$d členů</string>
   <string name="JoinToGroup">Chcete se připojit ke konverzaci \'%1$s\'?</string>
   <string name="JoinToGroupErrorFull">Promiňte, táto skupina je už plně obsazená.</string>
   <string name="JoinToGroupErrorNotExist">Litujeme, tento chat zdá se neexistuje.</string>
@@ -500,8 +498,6 @@
   <string name="BadgeNumber">Počítadlo nepřečtených zpráv</string>
   <string name="Short">Krátké</string>
   <string name="Long">Dlouhé</string>
-  <string name="SystemDefault">Výchozí systémové nastavení</string>
-  <string name="SettingsDefault">Výchozí nastavení</string>
   <string name="AutomaticMediaDownload">Automatické stahování médií</string>
   <string name="WhenUsingMobileData">Během používání mobilních dat</string>
   <string name="WhenConnectedOnWiFi">Během připojení na Wi-Fi</string>
@@ -533,11 +529,6 @@
   <string name="VibrationDefault">Výchozí</string>
   <string name="SmartNotifications">Inteligentní upozornění</string>
   <string name="SmartNotificationsDisabled">Vypnuté</string>
-  <string name="SmartNotificationsInfo">Zvuk nejvíce %1$s v průběhu %2$s</string>
-  <string name="SmartNotificationsSoundAtMost">Zvuk nanejvýš</string>
-  <string name="SmartNotificationsTimes">krát</string>
-  <string name="SmartNotificationsWithin">v průběhu</string>
-  <string name="SmartNotificationsMinutes">minut</string>
   <string name="SecretChat">Tajné chaty</string>
   <string name="DirectShare">Přímé sdílení</string>
   <!--cache view-->
@@ -722,7 +713,6 @@
   <string name="SecurityTitle">Bezpečnost</string>
   <string name="DeleteAccountTitle">Sebedestrukce účtu</string>
   <string name="DeleteAccountIfAwayFor">Dokud jste pryč </string>
-  <string name="DeleteAccountHelp">Dokud se nepřihlásíte aspoň jednou za určité časové období, Váš účet bude odstraněn spolu se všemi zprávami, skupinami a kontakty.</string>
   <string name="DeleteAccountNowConfirmation">Odstranit účet?</string>
   <string name="LastSeenHelp">Změnit, kdo může vidět Vaše \"naposledy online\".</string>
   <string name="LastSeenTitle">Kdo může vidět Vaše \"naposledy online\"?</string>
@@ -742,10 +732,7 @@
   <string name="GroupsAndChannels">Skupiny</string>
   <!--edit video view-->
   <string name="EditVideo">Upravit video</string>
-  <string name="OriginalVideo">Původní video</string>
-  <string name="EditedVideo">Upravené video</string>
   <string name="SendingVideo">Posílá video...</string>
-  <string name="CompressVideo">Komprese videa</string>
   <!--bot-->
   <string name="Bot">robot</string>
   <string name="BotShare">Sdílet</string>
