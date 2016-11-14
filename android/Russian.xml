@@ -79,6 +79,7 @@
   <string name="Draft">Черновик</string>
   <string name="HistoryCleared">История была очищена</string>
   <string name="ArticleByAuthor">от %1$s</string>
+  <string name="ArticleDateByAuthor">%1$s • %2$s</string>
   <!--channels-->
   <string name="GroupType">Тип группы</string>
   <string name="ChannelType">Тип канала</string>
@@ -109,6 +110,7 @@
   <string name="ActionPinnedSticker">un1 прикрепил(а) стикер</string>
   <string name="ActionPinnedVoice">un1 прикрепил(а) голосовое сообщение</string>
   <string name="ActionPinnedContact">un1 прикрепил(а) контактные данные</string>
+  <string name="ActionPinnedGame">un1 прикрепил(а) %1$s</string>
   <string name="ActionPinnedGeo">un1 прикрепил(а) карту</string>
   <string name="ActionPinnedGif">un1 прикрепил(а) GIF-анимацию</string>
   <string name="ActionPinnedMusic">un1 прикрепил аудиозапись</string>
@@ -449,9 +451,12 @@
   <string name="ALongTimeAgo">заходил(а) давно</string>
   <string name="NewMessageTitle">Новое сообщение</string>
   <!--group create view-->
+  <string name="SendMessageTo">Добавить...</string>
   <string name="SoftUserLimitAlert">Можно добавить ещё больше участников: для этого преобразуйте эту группу в супергруппу после того, как завершите её создание.</string>
   <string name="EnterGroupNamePlaceholder">Введите имя группы</string>
   <string name="GroupName">Имя группы</string>
+  <string name="MembersCount">выбрано %1$d из %2$d</string>
+  <string name="MembersCountZero">до %1$s</string>
   <string name="JoinToGroup">Присоединиться к группе «%1$s»?</string>
   <string name="JoinToGroupErrorFull">К сожалению, эта группа переполнена.</string>
   <string name="JoinToGroupErrorNotExist">Кажется, такой группы не существует (или ваша ссылка устарела).</string>
@@ -503,6 +508,9 @@
   <string name="PhoneOther">Другое</string>
   <string name="PhoneMain">Основной</string>
   <string name="StartEncryptedChat">Начать секретный чат</string>
+  <string name="GroupsInCommon">Общие группы</string>
+  <string name="GroupsInCommonTitle">Общие группы</string>
+  <string name="NoGroupsInCommon">Общих групп пока нет</string>
   <string name="CreateEncryptedChatError">Произошла ошибка.</string>
   <string name="EncryptionKey">Ключ шифрования</string>
   <string name="MessageLifetime">Таймер самоуничтожения</string>
@@ -579,6 +587,22 @@
   <string name="ResetAllNotifications">Сбросить все уведомления</string>
   <string name="UndoAllCustom">Отменить все пользовательские настройки уведомлений для всех ваших контактов и групп</string>
   <string name="NotificationsAndSounds">Уведомления и звук</string>
+  <string name="CustomNotifications">Настройки уведомлений</string>
+  <string name="ProfilePopupNotification">Всплывающие уведомления</string>
+  <string name="NotificationsLed">LED</string>
+  <string name="NotificationsLedColor">Цвет светодиода</string>
+  <string name="ColorBlue">Синий</string>
+  <string name="ColorRed">Красный</string>
+  <string name="ColorYellow">Жёлтый</string>
+  <string name="ColorGreen">Зелёный</string>
+  <string name="ColorCyan">Голубой</string>
+  <string name="ColorWhite">Белый</string>
+  <string name="ColorPink">Розовый</string>
+  <string name="ColorViolet">Фиолетовый</string>
+  <string name="ColorOrange">Оранжевый</string>
+  <string name="General">Общее</string>
+  <string name="NotificationsOn">Вкл.</string>
+  <string name="NotificationsOff">Отключён</string>
   <string name="BlockedUsers">Чёрный список</string>
   <string name="LogOut">Выход</string>
   <string name="NoSound">Без звука</string>
@@ -630,6 +654,7 @@
   <string name="SaveToGallerySettings">Сохранять в галерее</string>
   <string name="EditName">Изменить имя</string>
   <string name="NotificationsPriority">Приоритет</string>
+  <string name="NotificationsPrioritySettings">Как в настройках</string>
   <string name="NotificationsPriorityDefault">По умолчанию</string>
   <string name="NotificationsPriorityLow">Низкий</string>
   <string name="NotificationsPriorityHigh">Высокий</string>
@@ -645,6 +670,8 @@
   <string name="NotificationsOther">Другое</string>
   <string name="NotificationsDisabled">Отключены</string>
   <string name="VibrationDisabled">Отключён</string>
+  <string name="PopupEnabled">Вкл.</string>
+  <string name="PopupDisabled">Выкл.</string>
   <string name="LedDisabled">Отключён</string>
   <string name="RepeatDisabled">Выкл</string>
   <string name="InChatSound">Звук в чате</string>
@@ -658,6 +685,9 @@
   <string name="ChromeCustomTabsInfo">Открывать ссылки в этом приложении</string>
   <string name="DirectShare">Direct Share</string>
   <string name="DirectShareInfo">Показывать недавние чаты в блоке «Поделиться»</string>
+  <string name="Emoji">Эмодзи</string>
+  <string name="EmojiBigSize">Отобажать большие смайлы</string>
+  <string name="EmojiUseDefault">Использовать системные смайлы</string>
   <!--cache view-->
   <string name="CacheSettings">Настройки кэша</string>
   <string name="LocalDatabase">Локальная база данных</string>

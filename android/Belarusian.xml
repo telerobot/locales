@@ -79,6 +79,8 @@
   <string name="LinkPreview">Перадпрагляд спасылкі</string>
   <string name="Draft">Чарнавік</string>
   <string name="HistoryCleared">Гісторыя была ачышчана</string>
+  <string name="ArticleByAuthor">ад %1$s</string>
+  <string name="ArticleDateByAuthor">%1$s ад %2$s</string>
   <!--channels-->
   <string name="GroupType">Тып суполкі</string>
   <string name="ChannelType">Тып канала</string>
@@ -109,6 +111,7 @@
   <string name="ActionPinnedSticker">un1 замацаваў(-ла) налепку</string>
   <string name="ActionPinnedVoice">un1 замацаваў(-ла) аўдыязапіс</string>
   <string name="ActionPinnedContact">un1 замацаваў(-ла) кантакт</string>
+  <string name="ActionPinnedGame">un1 замацаваў(-ла) %1$s</string>
   <string name="ActionPinnedGeo">un1 замацаваў(-ла) карту</string>
   <string name="ActionPinnedGif">un1 замацаваў(-ла) анімацыю</string>
   <string name="ActionPinnedMusic">un1 замацаваў(-ла) песню</string>
@@ -323,6 +326,8 @@
   <string name="ReportSpamAlert">Вы ўпэўненыя, што жадаеце паскардзіцца на гэтага карыстальніка?</string>
   <string name="ReportSpamAlertGroup">Вы ўпэўненыя, што жадаеце паскардзіцца на гэтую суполку?</string>
   <string name="ReportSpamAlertChannel">Вы ўпэўненыя, што жадаеце паскардзіцца на гэты канал?</string>
+  <string name="NobodyLikesSpam1">За сёння вы зачаста кантактаваліся з карыстальнікамі не з свайго спісу кантактаў. Паспрабуйце яшчэ раз заўтра. Вы ўсё яшчэ можаце адказаць карыстальніку, калі ён напіша вам першым.</string>
+  <string name="NobodyLikesSpam2">Вы не можаце дадаць гэтага карыстальніка, бо сёння зачаста кантактаваліся з карыстальнікамі не з свайго спісу кантактаў. Паспрабуйце яшчэ раз заўтра або папрасіце іншага ўдзельніка дадаць гэтага карыстальніка ў суполку.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Больш звестак</string>
   <string name="ShareSendTo">Даслаць…</string>
@@ -450,9 +455,12 @@
   <string name="ALongTimeAgo">быў тут вельмі даўно</string>
   <string name="NewMessageTitle">Новае паведамленне</string>
   <!--group create view-->
+  <string name="SendMessageTo">Дадаць людзей...</string>
   <string name="SoftUserLimitAlert">У вас будзе магчымасць дадаць больш удзельнікаў пасля таго, як вы скончыце ствараць сваю суполку і ператворыце яе ў суперсуполку.</string>
   <string name="EnterGroupNamePlaceholder">Увядзіце імя суполкі</string>
   <string name="GroupName">Імя суполкі</string>
+  <string name="MembersCount">%1$d з %2$d абрана</string>
+  <string name="MembersCountZero">да %1$s</string>
   <string name="JoinToGroup">Жадаеце далучыцца да размовы «%1$s»?</string>
   <string name="JoinToGroupErrorFull">Выбачайце, але гэтая суполка ўжо поўная.</string>
   <string name="JoinToGroupErrorNotExist">Выбачайце, але гэтая размова, здаецца, не існуе.</string>
@@ -504,6 +512,9 @@
   <string name="PhoneOther">Іншы</string>
   <string name="PhoneMain">Галоўны</string>
   <string name="StartEncryptedChat">Распачаць сакрэтную размову</string>
+  <string name="GroupsInCommon">Агульныя суполкі</string>
+  <string name="GroupsInCommonTitle">Агульныя суполкі</string>
+  <string name="NoGroupsInCommon">У вас пакуль што няма агульных суполак</string>
   <string name="CreateEncryptedChatError">Адбылася памылка.</string>
   <string name="EncryptionKey">Ключ шыфравання</string>
   <string name="MessageLifetime">Таймер самазнішчэння</string>
@@ -582,6 +593,25 @@
   <string name="ResetAllNotifications">Скінуць усе апавяшчэнні</string>
   <string name="UndoAllCustom">Скасаваць усе карыстальніцкія налады апавяшчэнняў для ўсіх вашых кантактаў і суполак</string>
   <string name="NotificationsAndSounds">Апавяшчэнні і гукі</string>
+  <string name="CustomNotifications">Налады апавяшчэнняў</string>
+  <string name="ProfilePopupNotification">Усплыўныя апавяшчэнні</string>
+  <string name="ProfilePopupNotificationInfo">Новыя паведамленні ад гэтага кантакту будуць з’яўляцца на экране нават тады, калі вы не карыстаецеся Тэлеграмам</string>
+  <string name="NotificationsLed">LED</string>
+  <string name="NotificationsLedColor">Колер</string>
+  <string name="ColorBlue">Сіні</string>
+  <string name="ColorRed">Чырвоны</string>
+  <string name="ColorYellow">Жоўты</string>
+  <string name="ColorGreen">Зялёны</string>
+  <string name="ColorCyan">Бірузовы</string>
+  <string name="ColorWhite">Белы</string>
+  <string name="ColorPink">Ружовы</string>
+  <string name="ColorViolet">Фіялетавы</string>
+  <string name="ColorOrange">Аранжавы</string>
+  <string name="NotificationsLedInfo">LED – невялічкая лямпачка на некаторых устройствах, якую можна скарыстаць для апавяшчэнняў аб новых паведамленнях.</string>
+  <string name="PriorityInfo">Апавяшчэнні з высокім прыярытэтам будуць працаваць нават тады, калі ваш тэлефон знаходзіцца ў рэжыме «Не турбаваць».</string>
+  <string name="General">Агульныя</string>
+  <string name="NotificationsOn">Укл</string>
+  <string name="NotificationsOff">Выкл</string>
   <string name="BlockedUsers">Заблакаваныя карыстальнікі</string>
   <string name="LogOut">Выйсці</string>
   <string name="NoSound">Гук адсутнічае</string>
@@ -632,7 +662,10 @@
   <string name="RaiseToSpeak">Паднясі для запісу</string>
   <string name="SaveToGallerySettings">Захаваць у галерэю</string>
   <string name="EditName">Змяніць назву</string>
+  <string name="NotificationsCustomize">Наладзіць</string>
+  <string name="NotificationsEnableCustom">Уключыць наладжаныя апавяшчэнні</string>
   <string name="NotificationsPriority">Прыярытэт</string>
+  <string name="NotificationsPrioritySettings">Такія ж, як у наладах</string>
   <string name="NotificationsPriorityDefault">Па змаўчанні</string>
   <string name="NotificationsPriorityLow">Нізкі</string>
   <string name="NotificationsPriorityHigh">Высокі</string>
@@ -648,19 +681,27 @@
   <string name="NotificationsOther">Іншыя</string>
   <string name="NotificationsDisabled">Адключана</string>
   <string name="VibrationDisabled">Адключана</string>
+  <string name="PopupEnabled">Уключана</string>
+  <string name="PopupDisabled">Выключана</string>
   <string name="LedDisabled">Адключана</string>
   <string name="RepeatDisabled">Адкл</string>
   <string name="InChatSound">Гукі ў размове</string>
   <string name="SoundDefault">Па змаўчанні</string>
   <string name="VibrationDefault">Па змаўчанні</string>
   <string name="SmartNotifications">Разумныя апавяшчэнні</string>
+  <string name="SmartNotificationsInfo">%1$d / %2$s</string>
   <string name="SmartNotificationsDisabled">Адключана</string>
+  <string name="SmartNotificationsAlert">Частата гукавога апавяшчэння</string>
+  <string name="SmartNotificationsDetail">%1$s у %2$s</string>
   <string name="SecretWebPage">Перадпрагляд спасылак</string>
   <string name="SecretChat">Сакрэтныя размовы</string>
   <string name="ChromeCustomTabs">Убудаваны аглядальнік</string>
   <string name="ChromeCustomTabsInfo">Адкрываць знешнія спасылкі ўнутры праграмы</string>
   <string name="DirectShare">Прамы абмен</string>
   <string name="DirectShareInfo">Паказаць нядаўнія размовы ў меню абмену</string>
+  <string name="Emoji">Эмодзі</string>
+  <string name="EmojiBigSize">Вялікія эмодзі</string>
+  <string name="EmojiUseDefault">Выкарыстоўваць стандартныя эмодзі</string>
   <!--cache view-->
   <string name="CacheSettings">Налады кэша</string>
   <string name="LocalDatabase">Лакальная база дадзеных</string>
@@ -711,6 +752,8 @@
   <string name="FingerprintInfo">Пацвердзіце адбітак пальца, каб працягнуць</string>
   <string name="FingerprintHelp">Даткніцеся да сэнсара</string>
   <string name="FingerprintNotRecognized">Адбітак не распазнаны. Паспрабуйце яшчэ раз.</string>
+  <string name="ScreenCapture">Дазволіць здымкі экрана</string>
+  <string name="ScreenCaptureInfo">Калі гэтая опцыя ўключана, вы можаце рабіць здымкі экрана з праграмай, але сістэма будзе паказваць вашыя размовы пры пераключэнні між праграмамі нават тады, калі праграма заблакавана кодам.\n\nДля таго, каб гэтая опцыя пачала працаваць, вам можа спатрэбіцца перазапусціць праграму.</string>
   <!--media view-->
   <string name="DocumentsTitle">Агульныя файлы</string>
   <string name="SharedMediaTitle">Агульнае медыя</string>
@@ -861,6 +904,7 @@
   <string name="SecurityTitle">Бяспека</string>
   <string name="DeleteAccountTitle">Самазнішчэнне ўліковага запіса</string>
   <string name="DeleteAccountIfAwayFor">Калі вы адсутнічалі</string>
+  <string name="DeleteAccountHelp">Калі вы не заходзілі сама менш аднойчы за гэты перыяд, ваш уліковы запіс будзе аўтаматычна выдалены, разам з усімі суполкамі, паведамленнямі і кантактамі.</string>
   <string name="DeleteAccountNowConfirmation">Выдаліць ваш уліковы запіс?</string>
   <string name="LastSeenHelp">Змена бачнасці вашай апошняй актыўнасці.</string>
   <string name="LastSeenTitle">Хто можа бачыць час вашай апошняй актыўнасці?</string>
@@ -1026,6 +1070,7 @@
   <string name="EditMessageError">Выбачайце, але вы не можаце рэдагаваць гэтае паведамленне.</string>
   <string name="AllowReadSms">Калі ласка, дазвольце Тэлеграму атрымліваць SMS, каб мы маглі аўтаматычна ўвесці код за вас.</string>
   <string name="AllowReadCall">Калі ласка, дазвольце Тэлеграму атрымліваць званкі, каб мы маглі аўтаматычна ўвесці код за вас.</string>
+  <string name="AllowFillNumber">Калі ласка, дазвольце Тэлеграму атрымліваць SMS і званкі, каб мы маглі аўтаматычна ўвесці нумар тэлефону і код за вас.</string>
   <string name="AllowReadCallAndSms">Калі ласка, дазвольце Тэлеграму атрымліваць SMS і званкі, каб мы маглі аўтаматычна ўвесці код за вас.</string>
   <string name="UserRestricted">Выбачайце, але вам не дазволена гэта рабіць.</string>
   <string name="JoinGroup">ДАЛУЧЫЦЦА ДА СУПОЛКІ</string>
