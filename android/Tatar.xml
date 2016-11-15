@@ -108,6 +108,7 @@
   <string name="ActionPinnedSticker">un1 стикер беркетте</string>
   <string name="ActionPinnedVoice">un1 тавышлы хат беркетте</string>
   <string name="ActionPinnedContact">un1 контакт беркетте</string>
+  <string name="ActionPinnedGame">un1 %1$s беркетте</string>
   <string name="ActionPinnedGeo">un1 карта беркетте</string>
   <string name="ActionPinnedGif">un1 GIF беркетте</string>
   <string name="ActionPinnedMusic">un1 трек беркетте</string>
@@ -454,6 +455,7 @@
   <string name="ALongTimeAgo">күптән кергән иде</string>
   <string name="NewMessageTitle">Яңа хат</string>
   <!--group create view-->
+  <string name="SendMessageTo">Кешеләр өстәү...</string>
   <string name="SoftUserLimitAlert">Сез күбрәк кулланучы өсти аласыз: төркемегезне супертөркемгә әйләндерегез.</string>
   <string name="EnterGroupNamePlaceholder">Төркем исемен кертү</string>
   <string name="GroupName">Төркем исеме</string>
@@ -580,6 +582,20 @@
   <string name="ResetAllNotifications">Бөтен белгертүләрне ташлау</string>
   <string name="UndoAllCustom">Кулланучының бөтен белгертү көйләүләрен сезнең бөтен контактлар һәм төркемнәр өчен кире кагу</string>
   <string name="NotificationsAndSounds">Белгертүләр һәм тавыш</string>
+  <string name="CustomNotifications">Кулланучы белгертүләре</string>
+  <string name="NotificationsLed">Диодлы ут</string>
+  <string name="NotificationsLedColor">Төс</string>
+  <string name="ColorBlue">Зәңгәрсу</string>
+  <string name="ColorRed">Кызыл</string>
+  <string name="ColorYellow">Сары</string>
+  <string name="ColorGreen">Яшел</string>
+  <string name="ColorCyan">Зәңгәр</string>
+  <string name="ColorWhite">Ак</string>
+  <string name="ColorPink">Алсу</string>
+  <string name="ColorViolet">Шәмәхә</string>
+  <string name="ColorOrange">Кызгылт сары</string>
+  <string name="NotificationsOn">Кабызу</string>
+  <string name="NotificationsOff">Сүндерү</string>
   <string name="BlockedUsers">Кара исемлек</string>
   <string name="LogOut">Чыгу</string>
   <string name="NoSound">Тавышсыз</string>
@@ -631,6 +647,7 @@
   <string name="SaveToGallerySettings">Галереяда саклау</string>
   <string name="EditName">Исемне үзгәртү</string>
   <string name="NotificationsPriority">Приоритет</string>
+  <string name="NotificationsPrioritySettings">Көйләүләрдә кебек</string>
   <string name="NotificationsPriorityDefault">Баштагыча</string>
   <string name="NotificationsPriorityLow">Түбән</string>
   <string name="NotificationsPriorityHigh">Югары</string>
@@ -661,6 +678,7 @@
   <string name="ChromeCustomTabsInfo">Бу кушымтада сылтамаларны ачу</string>
   <string name="DirectShare">Direct Share</string>
   <string name="DirectShareInfo">Күптән түгелге чатларны \"Бүлешү\" бүлегендә күрсәтү</string>
+  <string name="Emoji">Смайликлар</string>
   <!--cache view-->
   <string name="CacheSettings">Кэш көйләүләре</string>
   <string name="LocalDatabase">Локаль мәгълүмат базасы</string>
