@@ -289,6 +289,8 @@
   <string name="SetTimer">Nastavit časovač sebedestrukce</string>
   <string name="ServiceNotifications">Služby upozornění</string>
   <string name="GettingLinkInfo">Získávání informací o odkazu...</string>
+  <string name="OpenInBrowser">OTEVŘÍT V...</string>
+  <string name="OpenInExternalApp">Otevřít v...</string>
   <string name="CopyUrl">Kopírovat odkaz</string>
   <string name="SendItems">Odeslat %1$s</string>
   <string name="OpenUrlAlert">Otevřít url %1$s?</string>
@@ -300,6 +302,15 @@
   <string name="MoreInfo">Více informací</string>
   <string name="ShareSendTo">Odeslat na...</string>
   <string name="TapHereGifs">Dotkněte se zde pro přístup k uloženým GIFům.</string>
+  <string name="PinMessage">Připnout</string>
+  <string name="UnpinMessage">Odepnout</string>
+  <string name="DeleteBanUser">Zablokovat uživatele</string>
+  <string name="DeleteReportSpam">Nahlásit spam</string>
+  <string name="ReportChat">Nahlásit</string>
+  <string name="ReportChatSpam">Spam</string>
+  <string name="ReportChatViolence">Pravidla</string>
+  <string name="EditedMessage">upraveno</string>
+  <string name="AttachBotsHelp">Scrollujte směrem dolů pro zobrazení botů.</string>
   <string name="ChatYourSelf">chat sám se sebou</string>
   <string name="ChatYourSelfName">Vy</string>
   <!--notification-->
@@ -352,6 +363,7 @@
   <string name="NotificationActionPinnedContactChannel">%1$s připojil kontakt</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s připojil mapu</string>
   <string name="NotificationActionPinnedGifChannel">%1$s připojil GIF</string>
+  <string name="NotificationActionPinnedMusicChannel">%1$s připnul/a stopu</string>
   <!--contacts view-->
   <string name="SelectContact">Vyberte kontakt</string>
   <string name="NoContacts">Žádné kontakty</string>
