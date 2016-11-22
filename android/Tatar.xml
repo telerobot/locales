@@ -583,6 +583,7 @@
   <string name="UndoAllCustom">Кулланучының бөтен белгертү көйләүләрен сезнең бөтен контактлар һәм төркемнәр өчен кире кагу</string>
   <string name="NotificationsAndSounds">Белгертүләр һәм тавыш</string>
   <string name="CustomNotifications">Кулланучы белгертүләре</string>
+  <string name="ProfilePopupNotificationInfo">Бу контакттан яңа хатлар сез Telegramны кулланмаганда экранда күрсәтеләчәкләр.</string>
   <string name="NotificationsLed">Диодлы ут</string>
   <string name="NotificationsLedColor">Төс</string>
   <string name="ColorBlue">Зәңгәрсу</string>
@@ -594,6 +595,7 @@
   <string name="ColorPink">Алсу</string>
   <string name="ColorViolet">Шәмәхә</string>
   <string name="ColorOrange">Кызгылт сары</string>
+  <string name="NotificationsLedInfo">Диодлы ут - ул кайбер җайланмаларда яңа хат килгәндә җемелдәүче ут.</string>
   <string name="NotificationsOn">Кабызу</string>
   <string name="NotificationsOff">Сүндерү</string>
   <string name="BlockedUsers">Кара исемлек</string>
@@ -646,6 +648,7 @@
   <string name="RaiseToSpeak">Яздырганда якынрак китерегез</string>
   <string name="SaveToGallerySettings">Галереяда саклау</string>
   <string name="EditName">Исемне үзгәртү</string>
+  <string name="NotificationsEnableCustom">Кулланучы белгертүләрен кабызу</string>
   <string name="NotificationsPriority">Приоритет</string>
   <string name="NotificationsPrioritySettings">Көйләүләрдә кебек</string>
   <string name="NotificationsPriorityDefault">Баштагыча</string>
@@ -665,6 +668,8 @@
   <string name="NotificationsOther">Башка</string>
   <string name="NotificationsDisabled">Сүнгән</string>
   <string name="VibrationDisabled">Сүнгән</string>
+  <string name="PopupEnabled">Кабынган</string>
+  <string name="PopupDisabled">Сүнгән</string>
   <string name="LedDisabled">Сүнгән</string>
   <string name="RepeatDisabled">Сүнгән</string>
   <string name="InChatSound">Чаттагы тавышлар</string>
@@ -679,6 +684,7 @@
   <string name="DirectShare">Direct Share</string>
   <string name="DirectShareInfo">Күптән түгелге чатларны \"Бүлешү\" бүлегендә күрсәтү</string>
   <string name="Emoji">Смайликлар</string>
+  <string name="EmojiUseDefault">Система смайликларын куллану</string>
   <!--cache view-->
   <string name="CacheSettings">Кэш көйләүләре</string>
   <string name="LocalDatabase">Локаль мәгълүмат базасы</string>
@@ -731,6 +737,7 @@
   <string name="FingerprintInfo">Дәвам итү өчен бармак эзен раслагыз</string>
   <string name="FingerprintHelp">Бармак эзе сканеры</string>
   <string name="FingerprintNotRecognized">Бармак эзе танылмады. Кабат эшләгез</string>
+  <string name="ScreenCapture">Скриншот ясауны рөхсәт итү</string>
   <!--media view-->
   <string name="DocumentsTitle">Уртак файллар</string>
   <string name="SharedMediaTitle">Фото һәм видео</string>
