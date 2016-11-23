@@ -255,13 +255,11 @@
   <string name="IsRecordingAudio">%1$s записує голосове повідомлення...</string>
   <string name="IsSendingAudio">%1$s надсилає аудіо...</string>
   <string name="IsSendingPhoto">%1$s надсилає фото...</string>
-  <!--<string name="IsSendingGame">%1$s is playing a game...</string>-->
   <string name="IsSendingVideo">%1$s надсилає відео...</string>
   <string name="IsSendingFile">%1$s надсилає файл...</string>
   <string name="RecordingAudio">запис голосового повідомлення...</string>
   <string name="SendingAudio">надсилання аудіо...</string>
   <string name="SendingPhoto">надсилання фото...</string>
-  <!--<string name="SendingGame">playing a game...</string>-->
   <string name="SendingVideoStatus">надсилання відео...</string>
   <string name="SendingFile">надсилання файлу</string>
   <string name="GotAQuestion">Є питання щодо Telegram?</string>

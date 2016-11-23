@@ -245,11 +245,9 @@
   <string name="IsTyping">píše...</string>
   <string name="AreTyping">píší...</string>
   <string name="IsSendingPhoto">%1$s Vám posílá fotku...</string>
-  <!--<string name="IsSendingGame">%1$s is playing a game...</string>-->
   <string name="IsSendingVideo">%1$s Vám posílá video...</string>
   <string name="IsSendingFile">%1$s Vám posílá soubor...</string>
   <string name="SendingPhoto">posílá fotku...</string>
-  <!--<string name="SendingGame">playing a game...</string>-->
   <string name="SendingVideoStatus">posílá video...</string>
   <string name="SendingFile">posílá soubor...</string>
   <string name="GotAQuestion">Máte otázku\nohledně Telegramu?</string>

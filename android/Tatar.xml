@@ -78,6 +78,8 @@
   <string name="LinkPreview">Сылтамаларны алдан карау</string>
   <string name="Draft">Каралама</string>
   <string name="HistoryCleared">Тарих чистартылган булган</string>
+  <string name="PreviewFeedback">Алдан карау турында фикер калдыру</string>
+  <string name="SendStickerPreview">Стикер җибәрү</string>
   <!--channels-->
   <string name="GroupType">Төркем төре</string>
   <string name="ChannelType">Канал төре</string>
@@ -264,13 +266,13 @@
   <string name="IsRecordingAudio">%1$s тавышлы хат яздыра...</string>
   <string name="IsSendingAudio">%1$s аудио җибәрә...</string>
   <string name="IsSendingPhoto">%1$s фото җибәрә...</string>
-  <!--<string name="IsSendingGame">%1$s is playing a game...</string>-->
+  <string name="IsSendingGame">%1$s уен уйный...</string>
   <string name="IsSendingVideo">%1$s видео җибәрә...</string>
   <string name="IsSendingFile">%1$s файл җибәрә...</string>
   <string name="RecordingAudio">тавышлы хат яздыру...</string>
   <string name="SendingAudio">аудио җибәрә...</string>
   <string name="SendingPhoto">фото җибәрү...</string>
-  <!--<string name="SendingGame">playing a game...</string>-->
+  <string name="SendingGame">уен уйный...</string>
   <string name="SendingVideoStatus">видео җибәрү...</string>
   <string name="SendingFile">файл җибәрү...</string>
   <string name="GotAQuestion">Telegram турында сорау бармы?</string>
@@ -354,6 +356,7 @@
   <string name="ChatYourSelfDescription3">Бу чат бөтен җайланмалар өчен ачык</string>
   <string name="ChatYourSelfDescription4">Табу өчен эзләүне кулланыгыз</string>
   <string name="ChatYourSelfTitle">Болытлы саклау урыныгыз</string>
+  <string name="JumpToDate">Датага күчү</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s үз-үзен бетерү вакытын куйды: %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Үз-үзен бетерү вакыты: %1$s</string>
@@ -598,6 +601,8 @@
   <string name="NotificationsLedInfo">Диодлы ут - ул кайбер җайланмаларда яңа хат килгәндә җемелдәүче ут.</string>
   <string name="NotificationsOn">Кабызу</string>
   <string name="NotificationsOff">Сүндерү</string>
+  <string name="NotificationsTurnOn">Кабызу</string>
+  <string name="NotificationsTurnOff">Сүндерү</string>
   <string name="BlockedUsers">Кара исемлек</string>
   <string name="LogOut">Чыгу</string>
   <string name="NoSound">Тавышсыз</string>
@@ -676,7 +681,9 @@
   <string name="SoundDefault">Баштагыча</string>
   <string name="VibrationDefault">Баштагыча</string>
   <string name="SmartNotifications">Акыллы белгертүләр</string>
+  <string name="SmartNotificationsInfo">%1$d / %2$s</string>
   <string name="SmartNotificationsDisabled">Сүнгән</string>
+  <string name="SmartNotificationsAlert">Тавышлы белгертүләр ешлыгы</string>
   <string name="SecretWebPage">Сылтамаларны алдан карау</string>
   <string name="SecretChat">Яшерен чатлар</string>
   <string name="ChromeCustomTabs">Үзендәге браузер</string>
@@ -814,6 +821,7 @@
   <string name="AddCaption">Имза өстәү...</string>
   <string name="PhotoCaption">Фотога имза</string>
   <string name="VideoCaption">Видеога исем</string>
+  <string name="GifCaption">GIF язма</string>
   <string name="Caption">Имза</string>
   <string name="PaintDraw">Төшерү</string>
   <string name="PaintStickers">Стикерлар</string>
@@ -1065,6 +1073,7 @@
   <string name="PermissionContacts">Дусларыгыз белән төрле җайланмалар аша элемтәдә калу өчен Telegramга контактларыгызны күрү мөмкинчелеге кирәк.</string>
   <string name="PermissionStorage">Фото, видео, һәм башка медиа файлларны җибәрү һәм саклау өчен Telegramга файллар саклау урыныгызга керү мөмкинчелеге кирәк.</string>
   <string name="PermissionNoAudio">Тавышлы хатлар җибәрү өчен Telegramга микрофоныгызга рөхсәт кирәк.</string>
+  <string name="PermissionNoAudioVideo">Видео яздырыр өчен Telegramга микрофоныгызга мөмкинлек кирәк.</string>
   <string name="PermissionNoCamera">Фото һәм видео җибәрер өчен җайланмагызның камерасын куллану рөхсәте сорала.</string>
   <string name="PermissionNoLocation">Дусларыгызга урнашу урыныгызны җибәрү өчен Telegramга урнашу урыныгызны күрү мөмкинчелеге кирәк.</string>
   <string name="PermissionNoLocationPosition">Telegramга урнашу урыныгызга мөмкинлек кирәк.</string>

@@ -268,13 +268,11 @@
   <string name="IsRecordingAudio">%1$s робіць аўдыязапіс...</string>
   <string name="IsSendingAudio">%1$s адпраўляе аўдыязапіс...</string>
   <string name="IsSendingPhoto">%1$s адпраўляе выяву...</string>
-  <!--<string name="IsSendingGame">%1$s is playing a game...</string>-->
   <string name="IsSendingVideo">%1$s адпраўляе відэазапіс...</string>
   <string name="IsSendingFile">%1$s адпраўляе файл...</string>
   <string name="RecordingAudio">робіць аўдыязапіс...</string>
   <string name="SendingAudio">адпраўляе аўдыязапіс...</string>
   <string name="SendingPhoto">адпраўка выявы...</string>
-  <!--<string name="SendingGame">playing a game...</string>-->
   <string name="SendingVideoStatus">адпраўка відэазапіса...</string>
   <string name="SendingFile">адпраўка файла...</string>
   <string name="GotAQuestion">Ёсць пытанні наконт Telegram?</string>

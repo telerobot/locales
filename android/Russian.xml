@@ -80,6 +80,9 @@
   <string name="HistoryCleared">История была очищена</string>
   <string name="ArticleByAuthor">от %1$s</string>
   <string name="ArticleDateByAuthor">%1$s • %2$s</string>
+  <string name="PreviewFeedback">Оставить отзыв об этом превью</string>
+  <string name="SendStickerPreview">Отправить стикер</string>
+  <string name="ViewPackPreview">Посмотреть весь набор</string>
   <!--channels-->
   <string name="GroupType">Тип группы</string>
   <string name="ChannelType">Тип канала</string>
@@ -101,7 +104,7 @@
   <string name="GroupUserAddLimit">К сожалению, в этой группе уже есть максимальное число участников.</string>
   <string name="GroupUserLeftError">К сожалению, этот пользователь самостоятельно покинул группу, поэтому вы не можете пригласить его снова.</string>
   <string name="GroupUserCantAdmin">К сожалению, больше администраторов добавить нельзя.</string>
-  <string name="GroupUserCantBot">К сожалению, больше роботов добавить нельзя.</string>
+  <string name="GroupUserCantBot">К сожалению, больше ботов добавить нельзя.</string>
   <string name="ActionPinnedText">un1 прикрепил(а) «%1$s»</string>
   <string name="ActionPinnedNoText">un1 прикрепил(а) сообщение</string>
   <string name="ActionPinnedPhoto">un1 прикрепил(а) фото</string>
@@ -195,7 +198,7 @@
   <string name="ChannelUserLeftError">К сожалению, этот пользователь решил покинуть данный канал, поэтому вы не можете пригласить его обратно.</string>
   <string name="ChannelUserCantAdd">К сожалению, этого пользователя нельзя добавлять в каналы.</string>
   <string name="ChannelUserCantAdmin">К сожалению, больше администраторов добавить нельзя.</string>
-  <string name="ChannelUserCantBot">К сожалению, больше роботов добавить нельзя.</string>
+  <string name="ChannelUserCantBot">К сожалению, больше ботов добавить нельзя.</string>
   <string name="ChannelUserAddLimit">К сожалению, вручную можно добавить только первых 200 пользователей. Для того, чтобы пригласить больше людей, воспользуйтесь пригласительной ссылкой.</string>
   <string name="ChannelAddedBy">un1 добавил(а) вас на этот канал</string>
   <string name="ChannelJoined">Вы подписались на этот канал</string>
@@ -267,13 +270,14 @@
   <string name="IsRecordingAudio">%1$s что-то говорит в телефон...</string>
   <string name="IsSendingAudio">%1$s отправляет аудио...</string>
   <string name="IsSendingPhoto">%1$s отправляет фото...</string>
-  <!--<string name="IsSendingGame">%1$s is playing a game...</string>-->
+  <string name="InstantView">ЧИТАТЬ ДАЛЬШЕ</string>
+  <string name="IsSendingGame">%1$s играет в игру...</string>
   <string name="IsSendingVideo">%1$s отправляет видео...</string>
   <string name="IsSendingFile">%1$s отправляет файл...</string>
   <string name="RecordingAudio">запись голоса...</string>
   <string name="SendingAudio">отправка аудио...</string>
   <string name="SendingPhoto">отправка фото...</string>
-  <!--<string name="SendingGame">playing a game...</string>-->
+  <string name="SendingGame">играет в игру...</string>
   <string name="SendingVideoStatus">отправка видео...</string>
   <string name="SendingFile">отправка файла...</string>
   <string name="GotAQuestion">Есть вопрос по работе Telegram?</string>
@@ -358,6 +362,7 @@
   <string name="ChatYourSelfDescription3">Доступ к этому чату открыт для любого устройства</string>
   <string name="ChatYourSelfDescription4">Используйте поиск, чтобы быстро что-то найти</string>
   <string name="ChatYourSelfTitle">Ваше облачное хранилище</string>
+  <string name="JumpToDate">Перейти к дате</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s поставил(а) таймер самоуничтожения на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы поставили таймер самоуничтожения на %1$s</string>
@@ -589,7 +594,7 @@
   <string name="NotificationsAndSounds">Уведомления и звук</string>
   <string name="CustomNotifications">Настройки уведомлений</string>
   <string name="ProfilePopupNotification">Всплывающие уведомления</string>
-  <string name="NotificationsLed">LED</string>
+  <string name="NotificationsLed">Индикатор</string>
   <string name="NotificationsLedColor">Цвет светодиода</string>
   <string name="ColorBlue">Синий</string>
   <string name="ColorRed">Красный</string>
@@ -600,9 +605,12 @@
   <string name="ColorPink">Розовый</string>
   <string name="ColorViolet">Фиолетовый</string>
   <string name="ColorOrange">Оранжевый</string>
+  <string name="NotificationsLedInfo">Индикатор – маленькая лампочка на некоторых устройствах. Она загорается при получении сообщения.</string>
   <string name="General">Общее</string>
   <string name="NotificationsOn">Вкл.</string>
   <string name="NotificationsOff">Отключён</string>
+  <string name="NotificationsTurnOn">Включить</string>
+  <string name="NotificationsTurnOff">Выключить</string>
   <string name="BlockedUsers">Чёрный список</string>
   <string name="LogOut">Выход</string>
   <string name="NoSound">Без звука</string>
@@ -635,7 +643,7 @@
   <string name="ImportContacts">Импорт контактов</string>
   <string name="SortFirstName">Имя</string>
   <string name="SortLastName">Фамилия</string>
-  <string name="LedColor">Цвет светодиода</string>
+  <string name="LedColor">Цвет индикатора</string>
   <string name="PopupNotification">Всплывающие уведомления</string>
   <string name="NoPopup">Не показывать</string>
   <string name="OnlyWhenScreenOn">Только когда экран включён</string>
@@ -653,6 +661,7 @@
   <string name="RaiseToSpeak">Поднеси для записи</string>
   <string name="SaveToGallerySettings">Сохранять в галерее</string>
   <string name="EditName">Изменить имя</string>
+  <string name="NotificationsCustomize">Настроить</string>
   <string name="NotificationsPriority">Приоритет</string>
   <string name="NotificationsPrioritySettings">Как в настройках</string>
   <string name="NotificationsPriorityDefault">По умолчанию</string>
@@ -669,9 +678,9 @@
   <string name="ChangePhoneNumberOccupied">Номер %1$s уже привязан к аккаунту Telegram. Удалите этот аккаунт, прежде чем перейти на новый номер.</string>
   <string name="NotificationsOther">Другое</string>
   <string name="NotificationsDisabled">Отключены</string>
-  <string name="VibrationDisabled">Отключён</string>
-  <string name="PopupEnabled">Вкл.</string>
-  <string name="PopupDisabled">Выкл.</string>
+  <string name="VibrationDisabled">Отключена</string>
+  <string name="PopupEnabled">Включены</string>
+  <string name="PopupDisabled">Отключены</string>
   <string name="LedDisabled">Отключён</string>
   <string name="RepeatDisabled">Выкл</string>
   <string name="InChatSound">Звук в чате</string>
@@ -738,6 +747,7 @@
   <string name="FingerprintInfo">Подтвердите отпечаток пальца для продолжения</string>
   <string name="FingerprintHelp">Сканер отпечатков пальцев</string>
   <string name="FingerprintNotRecognized">Отпечаток пальца не распознан. Попробуйте снова</string>
+  <string name="ScreenCapture">Разрешить захват экрана</string>
   <!--media view-->
   <string name="DocumentsTitle">Общие файлы</string>
   <string name="SharedMediaTitle">Общие медиа</string>
@@ -814,6 +824,7 @@
   <string name="AddCaption">Добавить подпись…</string>
   <string name="PhotoCaption">Подпись к фото</string>
   <string name="VideoCaption">Подпись к видео</string>
+  <string name="GifCaption">Подпись к GIF</string>
   <string name="Caption">Подпись</string>
   <string name="PaintDraw">Рисовать</string>
   <string name="PaintStickers">Стикеры</string>
@@ -888,6 +899,7 @@
   <string name="SecurityTitle">Безопасность</string>
   <string name="DeleteAccountTitle">Самоуничтожение аккаунта</string>
   <string name="DeleteAccountIfAwayFor">Если вас не было</string>
+  <string name="DeleteAccountHelp">Если вы хотя бы раз не зайдёте в свой аккаунт в течение этого периода, он будет удалён со всеми группами, сообщениями и контактами.</string>
   <string name="DeleteAccountNowConfirmation">Удалить ваш аккаунт?</string>
   <string name="LastSeenHelp">Изменить список тех, кто может видеть время вашей последней активности.</string>
   <string name="LastSeenTitle">Кто видит время моей последней активности?</string>
@@ -921,18 +933,18 @@
   <string name="SendingVideo">Отправка видео...</string>
   <string name="SendingGif">Отправка gif...</string>
   <!--bot-->
-  <string name="Bot">робот</string>
+  <string name="Bot">бот</string>
   <string name="BotShare">Поделиться</string>
   <string name="BotInvite">Добавить в группу</string>
   <string name="BotSettings">Настройки</string>
   <string name="BotHelp">Помощь</string>
   <string name="BotStatusRead">имеет доступ к сообщениям</string>
   <string name="BotStatusCantRead">не имеет доступа к сообщениям</string>
-  <string name="BotInfoTitle">Что умеет этот робот?</string>
+  <string name="BotInfoTitle">Что умеет этот бот?</string>
   <string name="BotStart">НАЧАТЬ</string>
   <string name="BotUnblock">ПЕРЕЗАПУСК</string>
   <string name="BotStop">Остановить</string>
-  <string name="BotRestart">Перезапустить робота</string>
+  <string name="BotRestart">Перезапустить бота</string>
   <!--button titles-->
   <string name="Next">Далее</string>
   <string name="Back">Назад</string>
@@ -1050,13 +1062,14 @@
   <string name="ForwardMessagesToGroup">Переслать сообщения %1$s?</string>
   <string name="FeatureUnavailable">Извините, эта возможность пока не доступна в вашей стране.</string>
   <string name="NoUsernameFound">Пользователь Telegram с таким именем не найден.</string>
-  <string name="BotCantJoinGroups">Этот робот не может входить в группы.</string>
+  <string name="BotCantJoinGroups">Этот бот не может входить в группы.</string>
   <string name="SecretLinkPreviewAlert">Включить предпросмотр ссылок в секретных чатах? Обратите внимание: для создания превью задействуются сервера Telegram.</string>
-  <string name="SecretChatContextBotAlert">Обратите внимание: встроенные боты создаются сторонними разработчиками. Весь текст, который вы печатаете после имени пользователя робота, отправляется на сервера этих разработчиков.</string>
+  <string name="SecretChatContextBotAlert">Обратите внимание: встроенные боты создаются сторонними разработчиками. Весь текст, который вы печатаете после имени пользователя бота, отправляется на сервера этих разработчиков.</string>
   <string name="RaiseToSpeakAlert">Включить функцию «Поднеси для записи» для голосовых сообщений?</string>
   <string name="EditMessageError">К сожалению, вы не можете редактировать это сообщение.</string>
   <string name="AllowReadSms">Разрешите Telegram доступ к SMS: тогда ваш код будет вводиться автоматически.</string>
   <string name="AllowReadCall">Разрешите Telegram принимать входящие вызовы: тогда ваш код будет вводиться автоматически.</string>
+  <string name="AllowFillNumber">Разрешите Telegram доступ к SMS: тогда ваш код будет вводиться автоматически.</string>
   <string name="AllowReadCallAndSms">Разрешите Telegram доступ к SMS: тогда ваш код будет вводиться автоматически.</string>
   <string name="UserRestricted">К сожалению, вам запрещено это действие.</string>
   <string name="JoinGroup">ПРИСОЕДИНИТЬСЯ К ГРУППЕ</string>
@@ -1064,6 +1077,7 @@
   <string name="PermissionContacts">Чтобы вы могли оставаться на связи с вашими друзьями с любого устройства, необходим доступ к контактам.</string>
   <string name="PermissionStorage">Для сохранения и отправки фото, видео и других файлов необходим доступ к памяти вашего устройства.</string>
   <string name="PermissionNoAudio">Для отправки голосовых сообщений необходим доступ к микрофону.</string>
+  <string name="PermissionNoAudioVideo">Для записи видео необходим доступ к микрофону.</string>
   <string name="PermissionNoCamera">Для отправки фото и видео необходим доступ к камере вашего устройства.</string>
   <string name="PermissionNoLocation">Для отправки вашего местоположения Telegram должен иметь доступ к геолокации.</string>
   <string name="PermissionNoLocationPosition">Telegram должен иметь доступ к геолокации.</string>
