@@ -81,6 +81,9 @@
   <string name="HistoryCleared">Гісторыя была ачышчана</string>
   <string name="ArticleByAuthor">ад %1$s</string>
   <string name="ArticleDateByAuthor">%1$s ад %2$s</string>
+  <string name="PreviewFeedback">Пакінуць каментар</string>
+  <string name="SendStickerPreview">Даслаць налепку</string>
+  <string name="ViewPackPreview">Праглядзець набор</string>
   <!--channels-->
   <string name="GroupType">Тып суполкі</string>
   <string name="ChannelType">Тып канала</string>
@@ -268,11 +271,14 @@
   <string name="IsRecordingAudio">%1$s робіць аўдыязапіс...</string>
   <string name="IsSendingAudio">%1$s адпраўляе аўдыязапіс...</string>
   <string name="IsSendingPhoto">%1$s адпраўляе выяву...</string>
+  <string name="InstantView">Хуткi прагляд</string>
+  <string name="IsSendingGame">%1$s гуляе ў гульню</string>
   <string name="IsSendingVideo">%1$s адпраўляе відэазапіс...</string>
   <string name="IsSendingFile">%1$s адпраўляе файл...</string>
   <string name="RecordingAudio">робіць аўдыязапіс...</string>
   <string name="SendingAudio">адпраўляе аўдыязапіс...</string>
   <string name="SendingPhoto">адпраўка выявы...</string>
+  <string name="SendingGame">гуляе ў гульню</string>
   <string name="SendingVideoStatus">адпраўка відэазапіса...</string>
   <string name="SendingFile">адпраўка файла...</string>
   <string name="GotAQuestion">Ёсць пытанні наконт Telegram?</string>
@@ -359,6 +365,7 @@
   <string name="ChatYourSelfDescription3">Вы можаце адкрыць гэтую размову з любога ўстройства</string>
   <string name="ChatYourSelfDescription4">Карыстайце пошук, каб хутка нешта знайсці</string>
   <string name="ChatYourSelfTitle">Вашае воблачнае сховішча</string>
+  <string name="JumpToDate">Перайсці да даты</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s усталяваў таймер самазнішчэння на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы ўсталявалі таймер самазнішчэння на %1$s</string>
@@ -610,6 +617,8 @@
   <string name="General">Агульныя</string>
   <string name="NotificationsOn">Укл</string>
   <string name="NotificationsOff">Выкл</string>
+  <string name="NotificationsTurnOn">Уключыць</string>
+  <string name="NotificationsTurnOff">Адключыць</string>
   <string name="BlockedUsers">Заблакаваныя карыстальнікі</string>
   <string name="LogOut">Выйсці</string>
   <string name="NoSound">Гук адсутнічае</string>
@@ -829,6 +838,7 @@
   <string name="AddCaption">Дадаць подпіс…</string>
   <string name="PhotoCaption">Подпіс пад фота</string>
   <string name="VideoCaption">Подпіс пад відэа</string>
+  <string name="GifCaption">Подпіс</string>
   <string name="Caption">Подпіс</string>
   <string name="PaintDraw">Намаляваць</string>
   <string name="PaintStickers">Налепкі</string>
@@ -1077,6 +1087,7 @@
   <string name="PermissionContacts">Тэлеграму патрэбны доступ да вашых кантактаў, каб вы маглі звязацца з сваімі сябрамі на ўсіх сваіх устройствах.</string>
   <string name="PermissionStorage">Тэлеграму патрэбны доступ да вашага сховішча файлаў, каб вы маглі дасылаць і захоўваць выявы, відэа, музыку і іншыя медыяфайлы.</string>
   <string name="PermissionNoAudio">Тэлеграму патрэбны доступ да вашага мікрафона, каб вы маглі рабіць аўдыязапісы і дасылаць іх.</string>
+  <string name="PermissionNoAudioVideo">Тэлеграму патрэбны доступ да вашага мікрафона, каб вы маглі рабіць вiдыёзапісы.</string>
   <string name="PermissionNoCamera">Тэлеграму патрэбны доступ да вашае камеры, каб вы маглі рабіць фотаздымкі і відэазапісы.</string>
   <string name="PermissionNoLocation">Тэлеграму патрэбны доступ да вашага месцазнаходжання, каб вы маглі падзяліцца ім з сваімі сябрамі.</string>
   <string name="PermissionNoLocationPosition">Тэлеграму патрэбны доступ да вашага месцазнаходжання.</string>
