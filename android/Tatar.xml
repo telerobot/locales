@@ -317,6 +317,7 @@
   <string name="CopyUrl">Сылтамадан күчермә ясау</string>
   <string name="SendItems">%1$s җибәрү </string>
   <string name="OpenUrlAlert">Сылтамыны %1$s ачаргамы?</string>
+  <string name="BotPermissionGameAlert">Бу ботны кулланып ачкан веб-битләргә %1$s өчен исемегезне һәм ID-ны (телефон номеры түгел) җибәрүне рөхсәт итәргәме?</string>
   <string name="ReportSpam">СПАМ ТУРЫНДА БЕЛДЕРҮ</string>
   <string name="ReportSpamAndLeave">СПАМГА ЗАРЛАНУ ҺӘМ ЧЫГУ</string>
   <string name="AddContactChat">КОНТАКТ ӨСТӘҮ</string>
@@ -509,6 +510,9 @@
   <string name="PhoneOther">Башка</string>
   <string name="PhoneMain">Төп</string>
   <string name="StartEncryptedChat">Яшерен чатны башлау</string>
+  <string name="GroupsInCommon">Уртак төркемнәр</string>
+  <string name="GroupsInCommonTitle">Уртак төркемнәр</string>
+  <string name="NoGroupsInCommon">Уртак төркемнәр әлегә юк</string>
   <string name="CreateEncryptedChatError">Хата булды.</string>
   <string name="EncryptionKey">Шифрлау ачкычы</string>
   <string name="MessageLifetime">Үз-үзен бетерү вакыты</string>
@@ -586,6 +590,7 @@
   <string name="UndoAllCustom">Кулланучының бөтен белгертү көйләүләрен сезнең бөтен контактлар һәм төркемнәр өчен кире кагу</string>
   <string name="NotificationsAndSounds">Белгертүләр һәм тавыш</string>
   <string name="CustomNotifications">Кулланучы белгертүләре</string>
+  <string name="ProfilePopupNotification">Калкучы белгертүләр</string>
   <string name="ProfilePopupNotificationInfo">Бу контакттан яңа хатлар сез Telegramны кулланмаганда экранда күрсәтеләчәкләр.</string>
   <string name="NotificationsLed">Диодлы ут</string>
   <string name="NotificationsLedColor">Төс</string>
@@ -599,6 +604,7 @@
   <string name="ColorViolet">Шәмәхә</string>
   <string name="ColorOrange">Кызгылт сары</string>
   <string name="NotificationsLedInfo">Диодлы ут - ул кайбер җайланмаларда яңа хат килгәндә җемелдәүче ут.</string>
+  <string name="General">Уртак</string>
   <string name="NotificationsOn">Кабызу</string>
   <string name="NotificationsOff">Сүндерү</string>
   <string name="NotificationsTurnOn">Кабызу</string>
@@ -640,7 +646,7 @@
   <string name="NoPopup">Күрсәтмәскә</string>
   <string name="OnlyWhenScreenOn">Экран кабынганда гына</string>
   <string name="OnlyWhenScreenOff">Экран сүнгәндә генә</string>
-  <string name="AlwaysShowPopup">Һәрвакыт күрсәтү</string>
+  <string name="AlwaysShowPopup">Гел күрсәтү</string>
   <string name="BadgeNumber">Иконкада хатлар саны</string>
   <string name="Short">Кыска</string>
   <string name="Long">Озак</string>
@@ -653,6 +659,7 @@
   <string name="RaiseToSpeak">Яздырганда якынрак китерегез</string>
   <string name="SaveToGallerySettings">Галереяда саклау</string>
   <string name="EditName">Исемне үзгәртү</string>
+  <string name="NotificationsCustomize">Көйләү</string>
   <string name="NotificationsEnableCustom">Кулланучы белгертүләрен кабызу</string>
   <string name="NotificationsPriority">Приоритет</string>
   <string name="NotificationsPrioritySettings">Көйләүләрдә кебек</string>
@@ -901,6 +908,7 @@
   <string name="SecurityTitle">Иминлек</string>
   <string name="DeleteAccountTitle">Аккаунтның үз-үзен бетерү</string>
   <string name="DeleteAccountIfAwayFor">Әгәр сез кермәсәгез</string>
+  <string name="DeleteAccountHelp">Әгәр сез бу вакыт арасында аккаунтыгызга бер тапкыр булса да кермәсәгез, ул бөтен төркемнәр, хатлар һәм контактлар белән бергә бетереләчәк.</string>
   <string name="DeleteAccountNowConfirmation">Аккаунтыгызны бетерәсезме?</string>
   <string name="LastSeenHelp">Соңгы активлык вакытыгызны күрүчеләр исемлеген үзгәртәсезме?</string>
   <string name="LastSeenTitle">Соңгы актив вакытымны кем күрә?</string>
