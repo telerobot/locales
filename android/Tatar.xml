@@ -173,6 +173,7 @@
   <string name="ActionChannelChangedPhoto">Канал фотосы үзгәртелде</string>
   <string name="ActionChannelRemovedPhoto">Канал фотосы бетерелде</string>
   <string name="ActionChannelChangedTitle">Канал исеме un2 үзгәртелде</string>
+  <string name="ChangePublicLimitReached">Гафу итегез, сез бик күп ачык сылтамалар ясадыгыз. Сез булган каналларны һәм төркемнәрне бетерә яисә аларны шәхси ясый аласыз.</string>
   <string name="ChannelModerator">Модератор</string>
   <string name="ChannelCreator">Ясаучы</string>
   <string name="ChannelEditor">Администратор</string>
@@ -266,6 +267,7 @@
   <string name="IsRecordingAudio">%1$s тавышлы хат яздыра...</string>
   <string name="IsSendingAudio">%1$s аудио җибәрә...</string>
   <string name="IsSendingPhoto">%1$s фото җибәрә...</string>
+  <string name="InstantView">ТУЛЫСЫНЧА УКУ</string>
   <string name="IsSendingGame">%1$s уен уйный...</string>
   <string name="IsSendingVideo">%1$s видео җибәрә...</string>
   <string name="IsSendingFile">%1$s файл җибәрә...</string>
