@@ -84,6 +84,8 @@
   <string name="PreviewFeedback">Пакінуць каментар</string>
   <string name="SendStickerPreview">Даслаць налепку</string>
   <string name="ViewPackPreview">Праглядзець набор</string>
+  <string name="PinToTop">Замацаваць</string>
+  <string name="UnpinFromTop">Адмацаваць</string>
   <!--channels-->
   <string name="GroupType">Тып суполкі</string>
   <string name="ChannelType">Тып канала</string>
@@ -538,6 +540,7 @@
   <string name="UsernameInvalidLong">Мянушка не павінна быць даўжэйшай за 32 сімвалы.</string>
   <string name="UsernameInvalidStartNumber">Выбачайце, але мянушка не можа пачынацца з лічбы.</string>
   <string name="UsernameHelp">Вы можаце абраць мянушку ў <![CDATA[<b>]]>Тэлеграме<![CDATA[</b>]]>. Калі вы зробіце гэтак, іншыя карыстальнікі змогуць знайсці вас па гэтай мянушцы і звязацца з вамі, не выкарыстоўваючы ваш нумар тэлефону.<![CDATA[<br><br>]]>Вы можаце выкарыстоўваць <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> і ніжняе падкрэсліванне. Мінімальная даўжыня — <![CDATA[<b>]]>5<![CDATA[</b>]]> сімвалаў.</string>
+  <string name="UsernameHelpLink">Гэтая спасылка адкрые размову з вамі ў Тэлеграме:\n%1$s</string>
   <string name="UsernameChecking">Праверка мянушкі…</string>
   <string name="UsernameAvailable">«%1$s» даступная. </string>
   <string name="UsernameEmpty">Няма</string>
@@ -848,6 +851,9 @@
   <string name="PaintDuplicate">Дубляваць</string>
   <string name="PaintOutlined">Абведзены</string>
   <string name="PaintRegular">Звычайны</string>
+  <string name="CropReset">Скінуць</string>
+  <string name="CropOriginal">Арыгінал</string>
+  <string name="CropSquare">Квадрат</string>
   <!--password view-->
   <string name="TwoStepVerification">Двухкрокавая верыфікацыя</string>
   <string name="SetAdditionalPassword">Усталяваць дадатковы пароль</string>
@@ -1091,6 +1097,7 @@
   <string name="PermissionNoCamera">Тэлеграму патрэбны доступ да вашае камеры, каб вы маглі рабіць фотаздымкі і відэазапісы.</string>
   <string name="PermissionNoLocation">Тэлеграму патрэбны доступ да вашага месцазнаходжання, каб вы маглі падзяліцца ім з сваімі сябрамі.</string>
   <string name="PermissionNoLocationPosition">Тэлеграму патрэбны доступ да вашага месцазнаходжання.</string>
+  <string name="PermissionDrawAboveOtherApps">Тэлеграму патрэбны доступ да адмалёўкі над іншымі праграмамі, каб прайграваць відэа ў рэжыме «Picture-in-Picture».</string>
   <string name="PermissionOpenSettings">НАЛАДЫ</string>
   <!--Intro view-->
   <string name="Page1Title">Тэлеграм</string>

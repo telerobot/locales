@@ -533,6 +533,7 @@
   <string name="UsernameInvalidLong">Кулланучының исеме 32 билгедән артык булырга тиеш түгел.</string>
   <string name="UsernameInvalidStartNumber">Кызганычка каршы, кулланучының исеме саннан башлана алмый.</string>
   <string name="UsernameHelp"><![CDATA[Сез үзегезгә <b>Telegramда</b> кулланучы исемен сайлый аласыз. Моны эшләгәч, башка кешеләр, телефон номерыгызны белмичә дә, сезне эзләп табып, сезнең белән бәйләнешкә керә алачак.<br><br>Кулланучы исеме латин хәрефләреннән генә <b>(a–z)</b>, саннар <b>(0–9)</b> һәм ассызык билгеләреннән генә тора ала. Минималь булган озынлык — <b>5</b> билге.]]></string>
+  <string name="UsernameHelpLink">Бу сылтама сезнең белән Telegramда чат ача:\n%1$s</string>
   <string name="UsernameChecking">Кулланучы исемен тикшерү...</string>
   <string name="UsernameAvailable">%1$s кулланучы исеме буш.</string>
   <string name="UsernameEmpty">Бирелмәгән</string>
@@ -839,6 +840,9 @@
   <string name="PaintEdit">Үзгәртү</string>
   <string name="PaintDuplicate">Кабатлау</string>
   <string name="PaintRegular">Еш</string>
+  <string name="CropReset">Ташлау</string>
+  <string name="CropOriginal">Оригинал</string>
+  <string name="CropSquare">Мәйдан</string>
   <!--password view-->
   <string name="TwoStepVerification">Ике адымлы авторизация</string>
   <string name="SetAdditionalPassword">Өстәмә пароль кую</string>
