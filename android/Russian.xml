@@ -128,7 +128,7 @@
   <string name="ChannelUsernameHelp">Люди могут делиться этой ссылкой и находить ваш канал через поиск.</string>
   <string name="MegaUsernameHelp">Люди могут делиться этой ссылкой и находить вашу группу через поиск.</string>
   <string name="ChannelUsernamePlaceholder">ссылка</string>
-  <string name="ChannelPrivateLinkHelp">Люди могут присоединяться к вашему каналу, перейдя по этой ссылке. Вы удалить эту ссылку в любое время.</string>
+  <string name="ChannelPrivateLinkHelp">Люди смогут присоединиться к вашему каналу, перейдя по этой ссылке. Вы можете удалить эту ссылку в любой момент.</string>
   <string name="MegaPrivateLinkHelp">Люди могут присоединяться к вашей группе, перейдя по этой ссылке. Вы можете удалить эту ссылку в любое время.</string>
   <string name="DescriptionOptionalPlaceholder">Описание (не обязательно)</string>
   <string name="DescriptionPlaceholder">Описание</string>
@@ -273,13 +273,13 @@
   <string name="IsSendingAudio">%1$s отправляет аудио...</string>
   <string name="IsSendingPhoto">%1$s отправляет фото...</string>
   <string name="InstantView">ЧИТАТЬ ДАЛЬШЕ</string>
-  <string name="IsSendingGame">%1$s играет в игру...</string>
+  <string name="IsSendingGame">%1$s сейчас играет...</string>
   <string name="IsSendingVideo">%1$s отправляет видео...</string>
   <string name="IsSendingFile">%1$s отправляет файл...</string>
   <string name="RecordingAudio">запись голоса...</string>
   <string name="SendingAudio">отправка аудио...</string>
   <string name="SendingPhoto">отправка фото...</string>
-  <string name="SendingGame">играет в игру...</string>
+  <string name="SendingGame">сейчас играет...</string>
   <string name="SendingVideoStatus">отправка видео...</string>
   <string name="SendingFile">отправка файла...</string>
   <string name="GotAQuestion">Есть вопрос по работе Telegram?</string>
@@ -596,7 +596,7 @@
   <string name="UndoAllCustom">Отменить все пользовательские настройки уведомлений для всех ваших контактов и групп</string>
   <string name="NotificationsAndSounds">Уведомления и звук</string>
   <string name="CustomNotifications">Настройки уведомлений</string>
-  <string name="ProfilePopupNotification">Быстрый ответ</string>
+  <string name="ProfilePopupNotification">Окно быстрого ответа</string>
   <string name="ProfilePopupNotificationInfo">Новые сообщения от этого контакта появятся на экране, даже если Telegram закрыт.</string>
   <string name="NotificationsLed">Индикатор</string>
   <string name="NotificationsLedColor">Цвет светодиода</string>
@@ -613,7 +613,7 @@
   <string name="PriorityInfo">Уведомления с высоким приоритетом показываются даже если телефон находится в режиме «Без звука».</string>
   <string name="General">Общее</string>
   <string name="NotificationsOn">Вкл.</string>
-  <string name="NotificationsOff">Отключён</string>
+  <string name="NotificationsOff">Отключены</string>
   <string name="NotificationsTurnOn">Включить</string>
   <string name="NotificationsTurnOff">Выключить</string>
   <string name="BlockedUsers">Чёрный список</string>
@@ -639,7 +639,7 @@
   <string name="DeleteLocalization">Удалить локализацию?</string>
   <string name="IncorrectLocalization">Некорректный файл локализации</string>
   <string name="Enabled">Включено</string>
-  <string name="Disabled">Отключён</string>
+  <string name="Disabled">Откл</string>
   <string name="NotificationsService">Служба уведомлений</string>
   <string name="NotificationsServiceInfo">Перезапускать приложение, если оно было выключено пользователем или системой. Благодаря этому, уведомления всегда будут показываться.</string>
   <string name="NotificationsServiceConnection">Фоновое подключение</string>
@@ -649,7 +649,7 @@
   <string name="SortFirstName">Имя</string>
   <string name="SortLastName">Фамилия</string>
   <string name="LedColor">Цвет индикатора</string>
-  <string name="PopupNotification">Быстрый ответ</string>
+  <string name="PopupNotification">Окно быстрого ответа</string>
   <string name="NoPopup">Не показывать</string>
   <string name="OnlyWhenScreenOn">Только когда экран включён</string>
   <string name="OnlyWhenScreenOff">Только когда экран выключен</string>
@@ -686,9 +686,9 @@
   <string name="NotificationsOther">Другое</string>
   <string name="NotificationsDisabled">Отключены</string>
   <string name="VibrationDisabled">Отключена</string>
-  <string name="PopupEnabled">Включены</string>
-  <string name="PopupDisabled">Отключены</string>
-  <string name="LedDisabled">Отключён</string>
+  <string name="PopupEnabled">Показывать</string>
+  <string name="PopupDisabled">Не показывать</string>
+  <string name="LedDisabled">Отключить</string>
   <string name="RepeatDisabled">Выкл</string>
   <string name="InChatSound">Звук в чате</string>
   <string name="SoundDefault">По умолчанию</string>
