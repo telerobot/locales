@@ -542,7 +542,6 @@
   <string name="SecretChat">Tajné chaty</string>
   <string name="DirectShare">Přímé sdílení</string>
   <!--cache view-->
-  <string name="CacheSettings">Nastavení Cache</string>
   <string name="LocalDatabase">Lokální Databaze</string>
   <string name="LocalDatabaseClear">Opravdu chcete smazat uložené zprávy?</string>
   <string name="LocalDatabaseInfo">Smazání lokální databáze smaže všechny uložené zprávy a zkomprimuje databázi k uložení na interní úložiště. Telegram k funkci potřebuje data, takže velikost databáze nedosáhne nuly.\n\nDokončení této operace může trvat několik minut.</string>
@@ -708,6 +707,7 @@
   <string name="PasswordReset">Heslo je vypnuté</string>
   <string name="EnabledPasswordText">Máte nastavené ověřování ve dvou krocích.\nBudete potřebovat heslo, které jste si nastavili pro přihlášení do svého účtu v Telegramu.</string>
   <string name="PendingEmailText">Vaše e-mailová adresa %1$s zatím není aktivní a požaduje potvrzení.</string>
+  <!--data settings-->
   <!--privacy settings-->
   <string name="PrivacySettings">Soukromí a bezpečnost</string>
   <string name="PrivacyTitle">Bezpečnost</string>
@@ -875,6 +875,7 @@ Smazat a zastavit</string>
   <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> Vám umožňuje přístup k zprávám<![CDATA[<br/>]]>z více zařízení.</string>
   <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> zprávy důkladně šifruje<![CDATA[<br/>]]>a umožňuje jejich sebedestrukci.</string>
   <string name="StartMessaging">Začít komunikovat</string>
+  <!--VoIP-->
   <!--plural-->
   <string name="Online_zero">%1$d online</string>
   <string name="Online_one">%1$d online</string>

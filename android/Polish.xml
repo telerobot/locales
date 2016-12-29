@@ -718,7 +718,6 @@ Ekipa Telegram</string>
   <string name="EmojiBigSize">Wyślij jedna dużą emotikone</string>
   <string name="EmojiUseDefault">Używaj systemowych emotikon </string>
   <!--cache view-->
-  <string name="CacheSettings">Ustawienia pamięci podręcznej</string>
   <string name="LocalDatabase">Lokalna baza</string>
   <string name="LocalDatabaseClear">Wyczyścić pamięć podręczną wiadomości?</string>
   <string name="LocalDatabaseInfo">Wyczyszczenie lokalnej bazy skasuje wiadomości z pamęci podrecznej i skompresuje bazę by zmniejszyć zużycie pamięci. Telegram potrzebuje danych do pracy, więc rozmiar bazy nie bedzie zerowy.\n\nTa operacja może zająć parę minut.</string>
@@ -908,6 +907,7 @@ Ekipa Telegram</string>
   <string name="PasswordReset">Hasło wylaczone</string>
   <string name="EnabledPasswordText">Masz włączoną Dwu-etapową Weryfikację.\nBędziesz potrzebował hasła, aby zalogować się na Twoje konto Telegram.</string>
   <string name="PendingEmailText">Twój adres email %1$s nie został jeszcze aktywowany i czeka na potwierdzenie. </string>
+  <!--data settings-->
   <!--privacy settings-->
   <string name="PrivacySettings">Prywatność i bezpieczeństwo</string>
   <string name="PrivacyTitle">Prywatność</string>
@@ -955,7 +955,6 @@ Ekipa Telegram</string>
   <!--edit video view-->
   <string name="EditVideo">Edytuj wideo</string>
   <string name="SendingVideo">Wysyłanie wideo...</string>
-  <string name="SendingGif">Wysyłanie GIFa…</string>
   <!--bot-->
   <string name="Bot">bot</string>
   <string name="BotShare">Udostępni</string>
@@ -1119,6 +1118,7 @@ Ekipa Telegram</string>
   <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> miej dostęp do twoich wiadomości<![CDATA[<br/>]]>z wielu różnych urządzeń..</string>
   <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> zabezpiecza wiadomości na wysokim poziomie <![CDATA[<br/>]]>i mogą ulec samozniszczeniu.</string>
   <string name="StartMessaging">Zacznij się komunikować</string>
+  <!--VoIP-->
   <!--plural-->
   <string name="Online_zero">%1$d Dostępny</string>
   <string name="Online_one">%1$d Dostępny</string>

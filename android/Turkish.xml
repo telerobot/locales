@@ -612,7 +612,6 @@ sorunuz mu var?</string>
   <string name="DirectShare">Direkt Paylaşım</string>
   <string name="DirectShareInfo">Paylaş menüsünde son konuşmaları göster</string>
   <!--cache view-->
-  <string name="CacheSettings">Önbellek Ayarları</string>
   <string name="LocalDatabase">Yerel Veritabanı</string>
   <string name="LocalDatabaseClear">Önbelleğe alınan metin mesajlarını temizle?</string>
   <string name="LocalDatabaseInfo">Yerel veritabanını temizlemek önbelleğe alınmış mesaj metinlerini silecek ve veritabanını diskten yer kazanmak için sıkıştıracak. Telegram\'ın çalışması için bazı veriler gerekli, bu yüzden veritabanı boyutu asla sıfıra ulaşmayacak.\n\nBu işlemin tamamlanması birkaç dakika sürebilir.</string>
@@ -790,6 +789,7 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="PasswordReset">Şifre devredışı bırakıldı</string>
   <string name="EnabledPasswordText">2 Adımla Doğrulamayı etkinleştirdiniz.\nTelegram hesabınıza giriş yapmak için ayarladığınız şifre gerekiyor.</string>
   <string name="PendingEmailText">Kurtama e-posta adresiniz (%1$s) henüz aktif değil, doğrulama işlemini tamamlamanız gerekiyor.</string>
+  <!--data settings-->
   <!--privacy settings-->
   <string name="PrivacySettings">Gizlilik ve Güvenlik</string>
   <string name="PrivacyTitle">Gizlilik</string>
@@ -990,6 +990,7 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="Page6Message"><![CDATA[<b>Telegram<b> mesajlarınıza birden çok cihazdan<br/>ulaşmanıza imkan tanır.]]></string>
   <string name="Page7Message"><![CDATA[<b>Telegram</b> mesajları güçlü bir şekilde şifrelenmiştir<br/> ve kendini yok edebilir.]]></string>
   <string name="StartMessaging">Mesajlaşmaya Başlayın</string>
+  <!--VoIP-->
   <!--plural-->
   <string name="Online_zero">%1$d çevrimiçi</string>
   <string name="Online_one">%1$d çevrimiçi</string>

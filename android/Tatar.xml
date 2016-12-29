@@ -703,7 +703,6 @@
   <string name="Emoji">Смайликлар</string>
   <string name="EmojiUseDefault">Система смайликларын куллану</string>
   <!--cache view-->
-  <string name="CacheSettings">Кэш көйләүләре</string>
   <string name="LocalDatabase">Локаль мәгълүмат базасы</string>
   <string name="LocalDatabaseClear">Кэшланган текстлы хатларны чистартыргамы?</string>
   <string name="LocalDatabaseInfo">Локаль мәгълүмат базасын чистарту хатлар кэшын бетерәчәк һәм ул җайланмада әзрәк урын алачак. Telegram эшләсен өчен күпмедер мәгълүмат таләп ителә, шуңа күрә локаль мәгълүмат базасының зурлыгы 0 була алмый.\n\nЧистарту бераз вакыт алырга мөмкин.</string>
@@ -899,6 +898,7 @@
   <string name="PasswordReset">Пароль деактивлашты</string>
   <string name="EnabledPasswordText">Сез ике адымлы авторизация куйдыгыз.\nХәзер Telegramга керер өчен сезгә әле генә куйган парольне кертергә кирәк булачак.</string>
   <string name="PendingEmailText">Сезнең торгызыр өчен %1$s электрон почта адресы әлегә актив түгел һәм раслауны көтә.</string>
+  <!--data settings-->
   <!--privacy settings-->
   <string name="PrivacySettings">Шәхсилек һәм иминлек</string>
   <string name="PrivacyTitle">Шәхсилек</string>
@@ -946,7 +946,6 @@
   <!--edit video view-->
   <string name="EditVideo">Видеоны үзгәртү</string>
   <string name="SendingVideo">Видео җибәрү...</string>
-  <string name="SendingGif">GIF җибәрелә...</string>
   <!--bot-->
   <string name="Bot">бот</string>
   <string name="BotShare">Бүлешү</string>
@@ -1108,6 +1107,7 @@
   <string name="Page6Message"><![CDATA[<b>Telegram күп җайланмаларда</b> хатларыгызга керү мөмкинлеге бирә<br/>.]]></string>
   <string name="Page7Message"><![CDATA[Бөтен хатлар <b>Telegramда</b> яхшы шифрланганнар<br/>һәм үз-үзләрен бетерә алалар.]]></string>
   <string name="StartMessaging">Хатны башлау</string>
+  <!--VoIP-->
   <!--plural-->
   <string name="Online_zero">%1$d челтәрдә</string>
   <string name="Online_one">%1$d челтәрдә</string>

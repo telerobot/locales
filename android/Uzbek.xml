@@ -655,7 +655,6 @@
   <string name="DirectShare">To\'g\'ridan-to\'g\'ri Ulashish</string>
   <string name="DirectShareInfo">Ulashish menyusida so\'nggi suhbatlarni ko\'rsatish</string>
   <!--cache view-->
-  <string name="CacheSettings">Kesh Sozlamalari</string>
   <string name="LocalDatabase">Ichki ma\'lumotlar bazasi</string>
   <string name="LocalDatabaseClear">Keshlangan matn xabarlari tozalansinmi?</string>
   <string name="LocalDatabaseInfo">Ichki ma\'lumotlar bazasini tozalash keshlangan xabarlar matnlarini o\'chirish va ichki disk hajmini tejash uchun ma\'lumotlar bazasini kichraytiradi. Telegram ishlashi uchun ba\'zi bir ma\'lumotlar kerak, shuning uchun baza hajmi hech qachon nolga teng bo\'lmaydi.\n\nTozalash bir necha daqiqa vaqt talab qilishi mumkin.</string>
@@ -839,6 +838,7 @@
   <string name="PasswordReset">Parol o\'chirilgan</string>
   <string name="EnabledPasswordText">Siz ikki bosqichli tasdiqlashni faol holga keltirdingiz.\nBu yerda o\'rnatgan parolingiz Telegram profilingizga kirishingiz uchun kerak bo\'ladi.</string>
   <string name="PendingEmailText">Sizning parolni tiklash uchun ishlatilmoqchi bo\'lgan %1$s elektron manzilingiz aktiv holatda emas va tasdiqni kutish jarayonida.</string>
+  <!--data settings-->
   <!--privacy settings-->
   <string name="PrivacySettings">Maxfiylik va Xavfsizlik</string>
   <string name="PrivacyTitle">Maxfiylik</string>
@@ -885,7 +885,6 @@
   <!--edit video view-->
   <string name="EditVideo">Videoni tahrirlash</string>
   <string name="SendingVideo">Video yuborilmoqda...</string>
-  <string name="SendingGif">GIF yuborilmoqda...</string>
   <!--bot-->
   <string name="Bot">bot</string>
   <string name="BotShare">Ulashish</string>
@@ -1046,6 +1045,7 @@
   <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> xabarlarga bir nechta qurilmadan<![CDATA[<br/>]]>kirish imkonini beradi.</string>
   <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> xabarlari kuchli shifrlanadi<![CDATA[<br/>]]> va o‘zini o‘zi yo‘q qila oladi.</string>
   <string name="StartMessaging">Muloqotni boshlash</string>
+  <!--VoIP-->
   <!--plural-->
   <string name="Online_zero">%1$d onlayn</string>
   <string name="Online_one">%1$d onlayn</string>

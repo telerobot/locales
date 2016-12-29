@@ -664,7 +664,6 @@
   <string name="EmojiBigSize">Dezenja na emoji sìngoła beła granda</string>
   <string name="EmojiUseDefault">Dòpara el sistema de emoji predefenìo</string>
   <!--cache view-->
-  <string name="CacheSettings">Inpostasion cache</string>
   <string name="LocalDatabase">Database Łocałe</string>
   <string name="LocalDatabaseClear">Vutu netar i mesaji inte ła cache?</string>
   <string name="LocalDatabaseInfo">Netando el database łocałe A te ełimenarè i mesaji inte ła cache e A te conpresarè i dati par salvar spasio inte\'l disco. A Telegram A ghe serve senpre un fià de dati par funsionar, donca ła dimension de\'l database no ła ndarà mìa mai a zero.\\n\\n\'Sta oparasion ła połe portarte via calche menuto.</string>
@@ -848,6 +847,7 @@
   <string name="PasswordReset">Password dezativada</string>
   <string name="EnabledPasswordText">A te ghè ativà ła verìfega in 2 pasaji.\\nA te gavarè bizonjo de \'sta password cuà par ndar rento a\'l to account Telegram.</string>
   <string name="PendingEmailText">Ła to mail de recùparo %1$s no ła ze njancora ativa e ła speta ła confermasion.</string>
+  <!--data settings-->
   <!--privacy settings-->
   <string name="PrivacySettings">Privacy e Securesa</string>
   <string name="PrivacyTitle">Privacy</string>
@@ -895,7 +895,6 @@
   <!--edit video view-->
   <string name="EditVideo">Modìfega video</string>
   <string name="SendingVideo">Mandando el video...</string>
-  <string name="SendingGif">Mandando ła gif...</string>
   <!--bot-->
   <string name="Bot">bot</string>
   <string name="BotShare">Sparpanja</string>
@@ -1056,6 +1055,7 @@
   <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> el te parmete l\'aceso<![CDATA[<br/>]]>a i to mesaji da pì dispozitivi.</string>
   <string name="Page7Message">I mesaji de <![CDATA[<b>Telegram</b>]]> i ze criptài de bruto<![CDATA[<br/>]]>e i połe autodestrùzarse.</string>
   <string name="StartMessaging">Taca mesajar</string>
+  <!--VoIP-->
   <!--plural-->
   <string name="Online_zero">%1$d in łinea</string>
   <string name="Online_one">%1$d in łinea</string>

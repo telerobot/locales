@@ -707,7 +707,6 @@
   <string name="EmojiBigSize">Отобажать большие смайлы</string>
   <string name="EmojiUseDefault">Использовать системные смайлы</string>
   <!--cache view-->
-  <string name="CacheSettings">Настройки кэша</string>
   <string name="LocalDatabase">Локальная база данных</string>
   <string name="LocalDatabaseClear">Очистить кэш сообщений?</string>
   <string name="LocalDatabaseInfo">Очистка локальной базы данных удалит кэш сообщений и уменьшит её размер для экономии места на устройстве. Для работы Telegram необходимы кое-какие данные, поэтому размер базы данных никогда не достигнет 0.\n\nОчистка может занять некоторое время.</string>
@@ -896,6 +895,7 @@
   <string name="PasswordReset">Пароль отключён</string>
   <string name="EnabledPasswordText">Вы включили двухэтапную авторизацию.\nДля входа в Telegram потребуется ввести пароль, который вы установили.</string>
   <string name="PendingEmailText">Ваш адрес электронной почты для восстановления %1$s ещё не активирован и ожидает подтверждения.</string>
+  <!--data settings-->
   <!--privacy settings-->
   <string name="PrivacySettings">Приватность и безопасность</string>
   <string name="PrivacyTitle">Приватность</string>
@@ -943,7 +943,6 @@
   <!--edit video view-->
   <string name="EditVideo">Редактировать видео</string>
   <string name="SendingVideo">Отправка видео...</string>
-  <string name="SendingGif">Отправка gif...</string>
   <!--bot-->
   <string name="Bot">бот</string>
   <string name="BotShare">Поделиться</string>
@@ -1111,6 +1110,7 @@
   <string name="Page6Message"><![CDATA[<b>Telegram</b> позволяет вам получать доступ к вашим сообщениям<br/>на множестве устройств.]]></string>
   <string name="Page7Message"><![CDATA[Все сообщения в <b>Telegram</b> надёжно зашифрованы<br/>и могут самоуничтожаться.]]></string>
   <string name="StartMessaging">Начать общение</string>
+  <!--VoIP-->
   <!--plural-->
   <string name="Online_zero">%1$d в сети</string>
   <string name="Online_one">%1$d в сети</string>

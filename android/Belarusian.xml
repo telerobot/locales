@@ -714,7 +714,6 @@
   <string name="EmojiBigSize">Вялікія эмодзі</string>
   <string name="EmojiUseDefault">Выкарыстоўваць стандартныя эмодзі</string>
   <!--cache view-->
-  <string name="CacheSettings">Налады кэша</string>
   <string name="LocalDatabase">Лакальная база дадзеных</string>
   <string name="LocalDatabaseClear">Выдаліць кэшаваныя паведамленні?</string>
   <string name="LocalDatabaseInfo">Ачыстка лакальнай базы дадзеных выдаліць кэшаваныя паведамленні і сцісне яе, каб захаваць дыскавую прастору. Тэлеграму патрэбныя некаторыя дадзеныя, каб працаваць, таму цалкам выдаліць гэтую базу немагчыма.\n\nГэтае дзеянне можа заняць некалькі хвілін.</string>
@@ -904,6 +903,7 @@
   <string name="PasswordReset">Пароль адключаны</string>
   <string name="EnabledPasswordText">Вы ўключылі двухкрокавую верыфікацыю.\nПароль, які вы толькі што пазначылі, спатрэбіцца вам, каб заходзіць у ўліковы запіс.</string>
   <string name="PendingEmailText">Ваш адрас электроннае пошты %1$s пакуль што не актываваны і чакае пацверджання.</string>
+  <!--data settings-->
   <!--privacy settings-->
   <string name="PrivacySettings">Прыватнасць і бяспека</string>
   <string name="PrivacyTitle">Прыватнасць</string>
@@ -951,7 +951,6 @@
   <!--edit video view-->
   <string name="EditVideo">Рэдагаваць відэа</string>
   <string name="SendingVideo">Адпраўка відэа...</string>
-  <string name="SendingGif">Дасылаем анімацыю…</string>
   <!--bot-->
   <string name="Bot">бот</string>
   <string name="BotShare">Падзяліцца</string>
@@ -1115,6 +1114,7 @@
   <string name="Page6Message"><![CDATA[<b>Тэлеграм</b> дазваляе даступацца<br/>да паведамленняў з некалькіх прылад.]]></string>
   <string name="Page7Message"><![CDATA[Паведамленні <b>Тэлеграма</b> грунтоўна<br/>зашыфраваныя і могуць сама-знішчацца.]]></string>
   <string name="StartMessaging">Пачаць абменьвацца паведамленнямі</string>
+  <!--VoIP-->
   <!--plural-->
   <string name="Online_zero">%1$d тут</string>
   <string name="Online_one">%1$d тут</string>

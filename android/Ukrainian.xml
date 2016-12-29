@@ -614,7 +614,6 @@
   <string name="DirectShare">Пряме поширення</string>
   <string name="DirectShareInfo">Показувати останні чати в меню поширення</string>
   <!--cache view-->
-  <string name="CacheSettings">Налаштування кешу</string>
   <string name="LocalDatabase">Локальна база даних</string>
   <string name="LocalDatabaseClear">Стерти кешовані текстові повідомлення?</string>
   <string name="LocalDatabaseInfo">Стирання локальної бази даних видалить тексти кешованих повідомлень і стисне базу даних для збереження простору диску. Telegram потребує деякі дані для роботи, отже розмір бази даних не буде дорівнювати нулю.\n\nЦя операція може тривати кілька хвилин.</string>
@@ -792,6 +791,7 @@
   <string name="PasswordReset">Пароль деактивовано</string>
   <string name="EnabledPasswordText">Ви увімкнули двоетапну перевірку.\nДля входу в свій обліковий запис Telegram вам знадобиться пароль, який ви встановили тут.</string>
   <string name="PendingEmailText">Ваша адреса електронної пошти для відновлення %1$s ще не активна й очікує підтвердження.</string>
+  <!--data settings-->
   <!--privacy settings-->
   <string name="PrivacySettings">Приватність і Безпека</string>
   <string name="PrivacyTitle">Приватність</string>
@@ -989,6 +989,7 @@
   <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> дозволяє вам отримувати доступ до повідомлень<![CDATA[<br/>]]>на багатьох пристроях.</string>
   <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> повідомлення надійно зашифровані<![CDATA[<br/>]]>і можуть самознищуватися.</string>
   <string name="StartMessaging">Почати спілкування</string>
+  <!--VoIP-->
   <!--plural-->
   <string name="Online_zero">%1$d в мережі</string>
   <string name="Online_one">%1$d в мережі</string>
