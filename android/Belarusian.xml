@@ -39,6 +39,7 @@
   <string name="LastName">Прозвішча (абавязкова)</string>
   <string name="CancelRegistration">Скасаваць рэгістрацыю</string>
   <!--chats view-->
+  <string name="NewConversationShortcut">Новая размова</string>
   <string name="Settings">Налады</string>
   <string name="Contacts">Кантакты</string>
   <string name="NewGroup">Новая суполка</string>
@@ -368,6 +369,8 @@
   <string name="ChatYourSelfDescription4">Карыстайце пошук, каб хутка нешта знайсці</string>
   <string name="ChatYourSelfTitle">Вашае воблачнае сховішча</string>
   <string name="JumpToDate">Перайсці да даты</string>
+  <string name="DeleteForUser">Выдаліць для %1$s</string>
+  <string name="DeleteForAll">Выдаліць для ўсіх</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s усталяваў таймер самазнішчэння на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы ўсталявалі таймер самазнішчэння на %1$s</string>
@@ -725,6 +728,7 @@
   <string name="LocalAudioCache">Аўдыязапісы</string>
   <string name="LocalVideoCache">Відэазапісы</string>
   <string name="LocalMusicCache">Музыка</string>
+  <string name="LocalGifCache">Анімацыі</string>
   <string name="LocalCache">Іншыя файлы</string>
   <string name="CacheEmpty">Пуста</string>
   <string name="KeepMedia">Пакінуць медыя</string>
@@ -904,6 +908,26 @@
   <string name="EnabledPasswordText">Вы ўключылі двухкрокавую верыфікацыю.\nПароль, які вы толькі што пазначылі, спатрэбіцца вам, каб заходзіць у ўліковы запіс.</string>
   <string name="PendingEmailText">Ваш адрас электроннае пошты %1$s пакуль што не актываваны і чакае пацверджання.</string>
   <!--data settings-->
+  <string name="DataSettings">Дадзеныя і сховішча</string>
+  <string name="DataUsage">Выкарыстанне дыску і сеткі</string>
+  <string name="StorageUsage">Выкарыстанне сховішча</string>
+  <string name="MobileUsage">Выкарыстанне мабільнага Інтэрнэта</string>
+  <string name="RoamingUsage">Выкарыстанне роўмінгу</string>
+  <string name="WiFiUsage">Выкарыстанне Wi-Fi</string>
+  <string name="MessagesDataUsage">Паведамленні і іншыя дадзеныя</string>
+  <string name="CountSent">Адаслана</string>
+  <string name="CountReceived">Атрымана</string>
+  <string name="BytesSent">Байтаў адаслана</string>
+  <string name="BytesReceived">Байтаў атрымана</string>
+  <string name="FilesDataUsage">Файлы</string>
+  <string name="CallsDataUsage">Званкі</string>
+  <string name="OutgoingCalls">Выходныя званкі</string>
+  <string name="IncomingCalls">Уваходныя званкі</string>
+  <string name="CallsTotalTime">Агульны час</string>
+  <string name="TotalDataUsage">Усяго</string>
+  <string name="ResetStatistics">Скінуць статыстыку</string>
+  <string name="NetworkUsageSince">Выкарыстанне сеткі з %1$s</string>
+  <string name="ResetStatisticsAlert">Вы сапраўды жадаеце скінуць статыстыку?</string>
   <!--privacy settings-->
   <string name="PrivacySettings">Прыватнасць і бяспека</string>
   <string name="PrivacyTitle">Прыватнасць</string>
@@ -951,6 +975,7 @@
   <!--edit video view-->
   <string name="EditVideo">Рэдагаваць відэа</string>
   <string name="SendingVideo">Адпраўка відэа...</string>
+  <string name="SendingGif">Анімацыя дасылаецца...</string>
   <!--bot-->
   <string name="Bot">бот</string>
   <string name="BotShare">Падзяліцца</string>
@@ -987,6 +1012,8 @@
   <string name="Set">Набор</string>
   <string name="OK">Добра</string>
   <string name="Crop">АБРЭЗАЦЬ</string>
+  <string name="Yes">Так</string>
+  <string name="No">Не</string>
   <!--messages-->
   <string name="ActionInviteYou">Вы далучыліся да суполкі праз спасылку-запрашэнне</string>
   <string name="ActionInviteUser">un1 далучыўся да суполкі праз спасылку-запрашэнне</string>
@@ -1033,6 +1060,7 @@
   <string name="FloodWait">Занадта шмат спробаў, калі ласка, паспрабуйце пазней</string>
   <string name="FloodWaitTime">Зашмат спроб, паспрабуйце яшчэ раз праз %1$s</string>
   <string name="InvalidCode">Памылковы код</string>
+  <string name="PhoneNumberFlood">Выбачайце, але вы зачаста выдалялі і перастваралі свой уліковы запіс апошнім часам. Калі ласка, пачакайце некалькі дзён і паспрабуйце яшчэ раз.</string>
   <string name="InvalidFirstName">Памылковае імя</string>
   <string name="InvalidLastName">Памылковае прозвішча</string>
   <string name="Loading">Ладаванне...</string>
@@ -1115,6 +1143,51 @@
   <string name="Page7Message"><![CDATA[Паведамленні <b>Тэлеграма</b> грунтоўна<br/>зашыфраваныя і могуць сама-знішчацца.]]></string>
   <string name="StartMessaging">Пачаць абменьвацца паведамленнямі</string>
   <!--VoIP-->
+  <string name="AccountSettings">Налады ўліковага запіса</string>
+  <string name="VoipUseLessData">Эканоміць трафік для выклікаў</string>
+  <string name="VoipIncoming">Уваходны выклік</string>
+  <string name="VoipConnecting">Злучэнне</string>
+  <string name="VoipExchangingKeys">Абмен ключамі шыфравання</string>
+  <string name="VoipWaiting">Чаканне</string>
+  <string name="VoipRequesting">Запыт</string>
+  <string name="VoipHangingUp">Сканчэнне размовы</string>
+  <string name="VoipCallEnded">Выклік скончаны</string>
+  <string name="VoipFailed">Не атрымалася злучыцца</string>
+  <string name="VoipRinging">Ідзе дазвон</string>
+  <string name="VoipBusy">Лінія занятая</string>
+  <string name="VoipInCallBranding">Выклік праз Тэлеграм</string>
+  <string name="VoipOutgoingCall">Бягучы выклік праз Тэлеграм</string>
+  <string name="VoipEndCall">Скончыць размову</string>
+  <string name="VoipOngoingAlertTitle">Іншы выклік у працэсе</string>
+  <string name="VoipOngoingAlert">Вы ўжо размаўляеце з <![CDATA[<b>%1$s</b>]]>. Вы хочаце скончыць размову ў гэтым выкліку і пачаць новую з <![CDATA[<b>%2$s</b>]]>?</string>
+  <string name="VoipNotificationSettings">Выклікі</string>
+  <string name="VoipSettingsRingtone">Мелодыя</string>
+  <string name="VoipRingtoneInfo">Вы можаце абраць мелодыю, якая будзе гучаць, калі гэты кантакт тэлефануе вам праз Тэлеграм.</string>
+  <string name="Calls">Выклікі</string>
+  <string name="WhoCanCallMe">Хто можа мне тэлефанаваць?</string>
+  <string name="WhoCanCallMeInfo">Вы можаце забараняць карыстальнікам вам тэлефанаваць.</string>
+  <string name="CustomCallInfo">Гэтыя карыстальнікі змогуць або не змогуць тэлефанаваць вам, незалежна ад налад вышэй.</string>
+  <string name="UseLessDataNever">Ніколі</string>
+  <string name="UseLessDataOnMobile">Пры мабільным злучэнні</string>
+  <string name="UseLessDataAlways">Заўсёды</string>
+  <string name="VoipAnswerCall">Адказаць</string>
+  <string name="VoipDeclineCall">Адмовіць</string>
+  <string name="VoipOffline">У вас няма сувязі з Інтэрнэтам. Калі ласка, падлучыцеся да Інтэрнэта, каб мець магчымасць рабіць выклікі.</string>
+  <string name="VoipOfflineAirplane">У вас актываваны рэжым «У самалёце». Калі ласка, адключыце яго або падлучыцеся да Wi-Fi, каб мець магчымасць рабіць выклікі.</string>
+  <string name="VoipOfflineTitle">няма сувязі</string>
+  <string name="VoipOfflineAirplaneTitle">Рэжым «У самалёце»</string>
+  <string name="VoipOfflineOpenSettings">Налады</string>
+  <string name="CallMessageOutgoing">Выходны выклік</string>
+  <string name="CallMessageIncoming">Уваходны выклік</string>
+  <string name="CallMessageIncomingMissed">Прапушчаны выклік</string>
+  <string name="CallMessageOutgoingMissed">Адмоўлены выклік</string>
+  <string name="CallMessageWithDuration">%1$s (%2$s)</string>
+  <string name="CallEncryptionKeyDescription">Гэтыя выява і тэкст рэпрэзэнтуюць ключ шыфравання для сакрэтнай размовы з <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Калі яны выглядаюць гэтак жа на ўстройстве <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]>, то мы гарантуем вам шыфраванне з-канца-ў-канец.</string>
+  <string name="NoCallLog">Вы пакуль што не рабілі выклікаў.</string>
+  <string name="VoipPeerIncompatible">Праграма гэтага карыстальніка (<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>) ужывае несумяшчальны пратакол. Яму або ёй трэба абнавіць сваю праграму, каб мець магчымасць прымаць выклікі.</string>
+  <string name="VoipPeerOutdated">Праграма гэтага карыстальніка (<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>) не падтрымлівае функцыю выклікаў. Яму або ёй трэба абнавіць сваю праграму, каб мець магчымасць прымаць выклікі.</string>
+  <string name="VoipRateCallAlert">Калі ласка, пастаўце адзнаку гэтаму выкліку</string>
+  <string name="VoipFeedbackAlert">Жадаеце пакінуць нам паведамленне, каб мы маглі палепшыць якасць выклікаў?</string>
   <!--plural-->
   <string name="Online_zero">%1$d тут</string>
   <string name="Online_one">%1$d тут</string>
@@ -1334,6 +1407,8 @@
   <string name="AndOther_many">і яшчэ %1$d</string>
   <string name="AndOther_other">і яшчэ %1$d</string>
   <!--date formatters-->
+  <string name="formatterStats12H">dd MMM yyyy, HH:mm</string>
+  <string name="formatterStats24H">dd MMM yyyy, HH:mm</string>
   <string name="formatterMonthYear">MMMM yyyy</string>
   <string name="formatterMonth">MMM dd</string>
   <string name="formatterYear">dd.MM.yy</string>

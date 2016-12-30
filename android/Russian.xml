@@ -40,6 +40,7 @@
   <string name="LastName">Фамилия (не обязательно)</string>
   <string name="CancelRegistration">Отменить регистрацию</string>
   <!--chats view-->
+  <string name="NewConversationShortcut">Новый диалог</string>
   <string name="Settings">Настройки</string>
   <string name="Contacts">Контакты</string>
   <string name="NewGroup">Новая группа</string>
@@ -178,7 +179,7 @@
   <string name="ActionChannelChangedPhoto">Фото канала обновлено</string>
   <string name="ActionChannelRemovedPhoto">Фото канала удалено</string>
   <string name="ActionChannelChangedTitle">Имя канала изменено на un2</string>
-  <string name="ChangePublicLimitReached">К сожалению, вы создали слишком много публичных ссылок. Вам нужно удалить какую-нибудь из ваших каналов или групп.</string>
+  <string name="ChangePublicLimitReached">К сожалению, вы создали слишком много публичных ссылок. Вам нужно удалить одну из ссылок в вашем канале или группе.</string>
   <string name="ChannelModerator">Модератор</string>
   <string name="ChannelCreator">Создатель</string>
   <string name="ChannelEditor">Администратор</string>
@@ -282,7 +283,7 @@
   <string name="SendingGame">сейчас играет...</string>
   <string name="SendingVideoStatus">отправка видео...</string>
   <string name="SendingFile">отправка файла...</string>
-  <string name="GotAQuestion">Есть вопрос по работе Telegram?</string>
+  <string name="GotAQuestion">Есть вопрос по\nработе Telegram?</string>
   <string name="ChatTakePhoto">Сделать снимок</string>
   <string name="ChatGallery">Галерея</string>
   <string name="ChatLocation">Местоположение</string>
@@ -338,7 +339,7 @@
   <string name="PinMessage">Прикрепить</string>
   <string name="PinNotify">Уведомить всех участников</string>
   <string name="UnpinMessage">Открепить</string>
-  <string name="PinMessageAlert">Прикрепить это сообщение в этой группе?</string>
+  <string name="PinMessageAlert">Прикрепить это сообщение в группе?</string>
   <string name="UnpinMessageAlert">Открепить это сообщение?</string>
   <string name="DeleteBanUser">Забанить пользователя</string>
   <string name="DeleteReportSpam">Сообщить о спаме</string>
@@ -365,6 +366,8 @@
   <string name="ChatYourSelfDescription4">Используйте поиск, чтобы быстро что-то найти</string>
   <string name="ChatYourSelfTitle">Ваше облачное хранилище</string>
   <string name="JumpToDate">Перейти к дате</string>
+  <string name="DeleteForUser">Удалить у %1$s</string>
+  <string name="DeleteForAll">Удалить у всех</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s поставил(а) таймер самоуничтожения на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы поставили таймер самоуничтожения на %1$s</string>
@@ -718,6 +721,7 @@
   <string name="LocalAudioCache">Аудио</string>
   <string name="LocalVideoCache">Видео</string>
   <string name="LocalMusicCache">Музыка</string>
+  <string name="LocalGifCache">Анимации</string>
   <string name="LocalCache">Другие файлы</string>
   <string name="CacheEmpty">Пусто</string>
   <string name="KeepMedia">Срок хранения файлов</string>
@@ -734,9 +738,9 @@
   <string name="TerminateSessionQuestion">Завершить сессию?</string>
   <string name="UnofficialApp">неофициальное приложение</string>
   <!--passcode view-->
-  <string name="Passcode">Код блокировки</string>
-  <string name="ChangePasscode">Изменить код блокировки</string>
-  <string name="ChangePasscodeInfo">После установки дополнительного кода блокировки на странице чатов появится значок замка. Нажимайте на него для блокировки и разблокировки приложения Telegram.\n\nОбратите внимание: если вы забудете код доступа, вам нужно будет удалить и заново установить это приложение. Все секретные чаты будут утрачены.</string>
+  <string name="Passcode">Код доступа</string>
+  <string name="ChangePasscode">Изменить код доступа</string>
+  <string name="ChangePasscodeInfo">После установки дополнительного кода доступа на странице чатов появится значок замка. Нажимайте на него для блокировки и разблокировки приложения Telegram.\n\nОбратите внимание: если вы забудете код доступа, вам нужно будет удалить и заново установить это приложение. Все секретные чаты будут утрачены.</string>
   <string name="ChangePasscodeAlert">Теперь вы будете видеть значок замка на странице чатов. Нажмите на него, чтобы заблокировать приложение Telegram с помощью вашего нового кода доступа.</string>
   <string name="PasscodePIN">ПИН-код</string>
   <string name="PasscodePassword">Пароль</string>
@@ -765,9 +769,9 @@
   <string name="NoSharedAudio">Делитесь музыкой в этом чате и получите доступ к ней на любом из ваших устройств.</string>
   <string name="NoSharedFiles">Поделитесь файлами и документами в этом чате и получите доступ к ним на любом из ваших устройств.</string>
   <string name="NoSharedLinks">Делитесь ссылками в этом чате и получите к ним доступ с любого устройства.</string>
-  <string name="NoMediaSecret">Фото и видео из этого чата будут отображаться здесь.</string>
+  <string name="NoMediaSecret">Здесь будут отображаться фото и видео из этого чата.</string>
   <string name="NoSharedAudioSecret">Вся музыка из этого чата появится здесь.</string>
-  <string name="NoSharedFilesSecret">Файлы и документы из этого чата будут отображаться здесь.</string>
+  <string name="NoSharedFilesSecret">Здесь будут отображаться файлы и документы из этого чата.</string>
   <string name="NoSharedLinksSecret">Ссылки, отправленные в этом чате, появятся здесь.</string>
   <!--map view-->
   <string name="Map">Карта</string>
@@ -856,7 +860,7 @@
   <string name="PleaseReEnterPassword">Повторите ввод пароля</string>
   <string name="RecoveryEmail">Резервный e-mail</string>
   <string name="YourEmail">Ваш e-mail</string>
-  <string name="YourEmailInfo">Пожалуйста, добавьте ваш настоящий адрес электронной почты. Это единственный способ восстановления забытого пароля.</string>
+  <string name="YourEmailInfo">Пожалуйста, укажите ваш действующий адрес электронной почты. Это единственный способ восстановления забытого пароля.</string>
   <string name="YourEmailSkip">Пропустить</string>
   <string name="YourEmailSkipWarning">Внимание</string>
   <string name="YourEmailSkipWarningText">Нет, серьёзно.\n\nЕсли вы забудете ваш пароль, вы потеряете доступ к вашему аккаунту Telegram. Не будет никакого способа его восстановить.</string>
@@ -896,6 +900,26 @@
   <string name="EnabledPasswordText">Вы включили двухэтапную авторизацию.\nДля входа в Telegram потребуется ввести пароль, который вы установили.</string>
   <string name="PendingEmailText">Ваш адрес электронной почты для восстановления %1$s ещё не активирован и ожидает подтверждения.</string>
   <!--data settings-->
+  <string name="DataSettings">Данные и хранилище</string>
+  <string name="DataUsage">Использование накопителя и сети</string>
+  <string name="StorageUsage">Занято на устройстве</string>
+  <string name="MobileUsage">Мобильный трафик</string>
+  <string name="RoamingUsage">Трафик в роуминге</string>
+  <string name="WiFiUsage">Передано через Wi-Fi</string>
+  <string name="MessagesDataUsage">Сообщения и прочие данные</string>
+  <string name="CountSent">Отправлено</string>
+  <string name="CountReceived">Получено</string>
+  <string name="BytesSent">Отправлено байт</string>
+  <string name="BytesReceived">Получено байт</string>
+  <string name="FilesDataUsage">Файлы</string>
+  <string name="CallsDataUsage">Звонки</string>
+  <string name="OutgoingCalls">Исходящие звонки</string>
+  <string name="IncomingCalls">Входящие звонки</string>
+  <string name="CallsTotalTime">Всего времени</string>
+  <string name="TotalDataUsage">Всего</string>
+  <string name="ResetStatistics">Сбросить статистику</string>
+  <string name="NetworkUsageSince">Использование сети с %1$s</string>
+  <string name="ResetStatisticsAlert">Сбросить статистику?</string>
   <!--privacy settings-->
   <string name="PrivacySettings">Приватность и безопасность</string>
   <string name="PrivacyTitle">Приватность</string>
@@ -943,6 +967,7 @@
   <!--edit video view-->
   <string name="EditVideo">Редактировать видео</string>
   <string name="SendingVideo">Отправка видео...</string>
+  <string name="SendingGif">Отправка GIF...</string>
   <!--bot-->
   <string name="Bot">бот</string>
   <string name="BotShare">Поделиться</string>
@@ -979,6 +1004,8 @@
   <string name="Set">Установить</string>
   <string name="OK">OK</string>
   <string name="Crop">КАДРИРОВАТЬ</string>
+  <string name="Yes">Да</string>
+  <string name="No">Нет</string>
   <!--messages-->
   <string name="ActionInviteYou">Вы вступили в группу по приглашению</string>
   <string name="ActionInviteUser">un1 вступил(а) в группу по приглашению</string>
@@ -1111,6 +1138,40 @@
   <string name="Page7Message"><![CDATA[Все сообщения в <b>Telegram</b> надёжно зашифрованы<br/>и могут самоуничтожаться.]]></string>
   <string name="StartMessaging">Начать общение</string>
   <!--VoIP-->
+  <string name="AccountSettings">Настройки профиля</string>
+  <string name="VoipUseLessData">Сжимать данные при звонках</string>
+  <string name="VoipIncoming">Входящий вызов</string>
+  <string name="VoipConnecting">Подключение</string>
+  <string name="VoipExchangingKeys">Обмен ключами шифрования</string>
+  <string name="VoipWaiting">Ожидание</string>
+  <string name="VoipRequesting">Запрос</string>
+  <string name="VoipHangingUp">Завершение</string>
+  <string name="VoipCallEnded">Звонок завершён</string>
+  <string name="VoipFailed">Не удалось подключиться</string>
+  <string name="VoipRinging">Вызов</string>
+  <string name="VoipBusy">Линия занята</string>
+  <string name="VoipInCallBranding">Вызов</string>
+  <string name="VoipEndCall">Завершить вызов</string>
+  <string name="VoipNotificationSettings">Голосовые вызовы</string>
+  <string name="VoipSettingsRingtone">Сигнал вызова</string>
+  <string name="Calls">Звонки</string>
+  <string name="WhoCanCallMe">Кто может мне звонить?</string>
+  <string name="UseLessDataNever">Никогда</string>
+  <string name="UseLessDataOnMobile">Только через мобильную сеть</string>
+  <string name="UseLessDataAlways">Всегда</string>
+  <string name="VoipAnswerCall">Ответить</string>
+  <string name="VoipDeclineCall">Отклонить</string>
+  <string name="VoipOfflineTitle">Оффлайн</string>
+  <string name="VoipOfflineAirplaneTitle">Режим полёта</string>
+  <string name="VoipOfflineOpenSettings">Настройки</string>
+  <string name="CallMessageOutgoing">Исходящий вызов</string>
+  <string name="CallMessageIncoming">Входящий вызов</string>
+  <string name="CallMessageIncomingMissed">Пропущенный вызов</string>
+  <string name="CallMessageOutgoingMissed">Отменённый вызов</string>
+  <string name="CallMessageWithDuration">%1$s (%2$s)</string>
+  <string name="NoCallLog">Вы пока никому не звонили.</string>
+  <string name="VoipRateCallAlert">Пожалуйста, оцените качество вашего звонка через Telegram</string>
+  <string name="VoipFeedbackAlert">Хотите ли вы оставить отзыв, чтобы помочь нам улучшить звонки?</string>
   <!--plural-->
   <string name="Online_zero">%1$d в сети</string>
   <string name="Online_one">%1$d в сети</string>
@@ -1330,6 +1391,8 @@
   <string name="AndOther_many">и ещё %1$d</string>
   <string name="AndOther_other">и ещё %1$d</string>
   <!--date formatters-->
+  <string name="formatterStats12H">dd MMM yyyy, h:mm a</string>
+  <string name="formatterStats24H">dd MMM yyyy, HH:mm</string>
   <string name="formatterMonthYear">MMMM yyyy</string>
   <string name="formatterMonth">dd MMM</string>
   <string name="formatterYear">dd.MM.yy</string>
