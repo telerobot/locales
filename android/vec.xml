@@ -39,6 +39,7 @@
   <string name="LastName">Conjome (opsionałe)</string>
   <string name="CancelRegistration">Anuła rejistrasion</string>
   <!--chats view-->
+  <string name="NewConversationShortcut">Conversasion nova</string>
   <string name="Settings">Inpostasion</string>
   <string name="Contacts">Contati</string>
   <string name="NewGroup">Grupo novo</string>
@@ -364,8 +365,10 @@
   <string name="ChatYourSelfDescription2">Manda media e file par archivarli</string>
   <string name="ChatYourSelfDescription3">Acedi a \'sta chat da calsìase dispozitivo</string>
   <string name="ChatYourSelfDescription4">Par catar fora robe in presa dòpara ła reserca</string>
-  <string name="ChatYourSelfTitle">El to archivo nùvoła</string>
+  <string name="ChatYourSelfTitle">Ła to memoria nùvoła</string>
   <string name="JumpToDate">Và so \'sta Data</string>
+  <string name="DeleteForUser">Ełìmena par %1$s</string>
+  <string name="DeleteForAll">Ełìmena par tuti i menbri</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s L ga inpostà el timer de autodestrusion a %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">A te ghe inpostà el timer de autodestrusion a %1$s</string>
@@ -720,6 +723,7 @@
   <string name="LocalAudioCache">Mesaji vocałi</string>
   <string name="LocalVideoCache">Video</string>
   <string name="LocalMusicCache">Mùzega</string>
+  <string name="LocalGifCache">GIF</string>
   <string name="LocalCache">File vari</string>
   <string name="CacheEmpty">Voda</string>
   <string name="KeepMedia">Tien media</string>
@@ -899,6 +903,26 @@
   <string name="EnabledPasswordText">A te ghè ativà ła verìfega in 2 pasaji.\\nA te gavarè bizonjo de \'sta password cuà par ndar rento a\'l to account Telegram.</string>
   <string name="PendingEmailText">Ła to mail de recùparo %1$s no ła ze njancora ativa e ła speta ła confermasion.</string>
   <!--data settings-->
+  <string name="DataSettings">Dati e memoria</string>
+  <string name="DataUsage">Dòparo disco e rete</string>
+  <string name="StorageUsage">Dòparo memoria</string>
+  <string name="MobileUsage">Dòparo dati mòbiłi</string>
+  <string name="RoamingUsage">Dòparo dati roaming</string>
+  <string name="WiFiUsage">Dòparo dati Wi-Fi</string>
+  <string name="MessagesDataUsage">Dati de i mesaji e altro</string>
+  <string name="CountSent">Mandài</string>
+  <string name="CountReceived">Resevesti</string>
+  <string name="BytesSent">Byte mandài</string>
+  <string name="BytesReceived">Byte resevesti</string>
+  <string name="FilesDataUsage">File</string>
+  <string name="CallsDataUsage">Ciamàe</string>
+  <string name="OutgoingCalls">Ciamàe in sortìa</string>
+  <string name="IncomingCalls">Ciamàe in entrada</string>
+  <string name="CallsTotalTime">Tenpo totałe</string>
+  <string name="TotalDataUsage">Totałe</string>
+  <string name="ResetStatistics">Reinposta statìsteghe</string>
+  <string name="NetworkUsageSince">Rete doparada da %1$s</string>
+  <string name="ResetStatisticsAlert">Vutu reinpostar łe statìsteghe de\'l to dòparo?</string>
   <!--privacy settings-->
   <string name="PrivacySettings">Privacy e Securesa</string>
   <string name="PrivacyTitle">Privacy</string>
@@ -938,7 +962,7 @@
   <string name="NeverAllow">Mai parmétar</string>
   <string name="AlwaysAllowPlaceholder">Parmeti senpre...</string>
   <string name="NeverAllowPlaceholder">Mai parmétar...</string>
-  <string name="CustomShareInfo">\'Sti utenti i sarà boni o manco de zontarte inte i grupi o inte i canałi pasando via łe inpostasion de sora.</string>
+  <string name="CustomShareInfo">\'Sti utenti i sarà boni o manco de zontarte inte i grupi o inte i canałi indipendentemente da łe inpostasion desora.</string>
   <string name="GroupsAndChannelsHelp">Canbia chi che połe zontarte inte i grupi o inte i canałi.</string>
   <string name="InviteToGroupError">Ne despiaze, A no te połi mìa zontar \'sto utente inte i grupi par colpa de łe so inpostasion de privacy.</string>
   <string name="InviteToChannelError">Ne despiaze, A no te połi mìa zontar \'sto utente inte i canałi par colpa de łe so inpostasion de privacy.</string>
@@ -983,6 +1007,8 @@
   <string name="Set">Inposta</string>
   <string name="OK">SÌ</string>
   <string name="Crop">TAJA FORA</string>
+  <string name="Yes">Sì</string>
+  <string name="No">Nò</string>
   <!--messages-->
   <string name="ActionInviteYou">Te te si zontà inte\'l grupo co un link de invito</string>
   <string name="ActionInviteUser">un1 L se ga zontà inte\'l grupo co un link de invito</string>
@@ -1029,6 +1055,7 @@
   <string name="FloodWait">Masa tentadivi, reprova danovo pì tardi</string>
   <string name="FloodWaitTime">Masa tentadivi, reprova danovo tenpo %1$s</string>
   <string name="InvalidCode">Còdeze mìa vàłido</string>
+  <string name="PhoneNumberFlood">Ne despiaze, de resente A te ghè ełimenà e recreà el to account masa \'olte. Speta calche dì prima de rejistrarte n\'antra danovo.</string>
   <string name="InvalidFirstName">Nome mìa vàłido</string>
   <string name="InvalidLastName">Conjome mìa vàłido</string>
   <string name="Loading">Cargando...</string>
@@ -1111,6 +1138,34 @@
   <string name="Page7Message">I mesaji de <![CDATA[<b>Telegram</b>]]> i ze criptài de bruto<![CDATA[<br/>]]>e i połe autodestrùzarse.</string>
   <string name="StartMessaging">Taca mesajar</string>
   <!--VoIP-->
+  <string name="AccountSettings">Inpostasion account</string>
+  <string name="VoipUseLessData">Dòpara manco dati par łe ciamàe</string>
+  <string name="VoipIncoming">Ciamàda in entrada</string>
+  <string name="VoipConnecting">Conesion</string>
+  <string name="VoipExchangingKeys">Scanbio ciave de criptasion</string>
+  <string name="VoipCallEnded">Ciamada fenìa</string>
+  <string name="VoipBusy">Łinea ocupàda</string>
+  <string name="VoipInCallBranding">Ciamada Telegram</string>
+  <string name="VoipOutgoingCall">Ciamada Telegram in corso</string>
+  <string name="VoipEndCall">Miti zo</string>
+  <string name="VoipOngoingAlertTitle">N\'antra ciamada in corso</string>
+  <string name="VoipOngoingAlert">A te ghè zà na ciamada in corso co <![CDATA[<b>%1$s</b>]]>. Vutu butarghe zo e tacar na ciamada nova co <![CDATA[<b>%2$s</b>]]>?</string>
+  <string name="VoipNotificationSettings">Ciamàe vocałi</string>
+  <string name="VoipSettingsRingtone">Sonarìa</string>
+  <string name="VoipRingtoneInfo">A te połi parsonałizar ła sonarìa doparàda par łe ciamàe Telegram de \'sto contato.</string>
+  <string name="Calls">Ciamàe</string>
+  <string name="WhoCanCallMeInfo">A te połi desìdar chi che połe ciamarte.</string>
+  <string name="CustomCallInfo">\'Sti utenti i sarà boni o manco de ciamarte indipendentemente da łe inpostasion desora.</string>
+  <string name="UseLessDataNever">Mai</string>
+  <string name="UseLessDataOnMobile">Soło so i dati mòbiłi</string>
+  <string name="UseLessDataAlways">Senpre</string>
+  <string name="VoipAnswerCall">Respondi</string>
+  <string name="VoipDeclineCall">Refuda</string>
+  <string name="CallMessageOutgoing">Ciamada in sortìa</string>
+  <string name="CallMessageIncoming">Ciamada in entrada</string>
+  <string name="CallMessageIncomingMissed">Ciamada mancada</string>
+  <string name="CallMessageOutgoingMissed">Ciamada anułada</string>
+  <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <!--plural-->
   <string name="Online_zero">%1$d in łinea</string>
   <string name="Online_one">%1$d in łinea</string>
@@ -1330,6 +1385,8 @@
   <string name="AndOther_many">e n\'antri %1$d</string>
   <string name="AndOther_other">e n\'antri %1$d</string>
   <!--date formatters-->
+  <string name="formatterStats12H">dd MM yyyy, mm:h a</string>
+  <string name="formatterStats24H">dd MM yyyy, mm:HH</string>
   <string name="formatterMonthYear">MM/yyyy</string>
   <string name="formatterMonth">dd/MM</string>
   <string name="formatterYear">dd.MM.yy</string>
