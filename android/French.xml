@@ -50,7 +50,7 @@
   <string name="WaitingForNetwork">En attente du réseau…</string>
   <string name="Connecting">Connexion…</string>
   <string name="Updating">Mise à jour…</string>
-  <string name="NewSecretChat">Nouvelle conv. secrète</string>
+  <string name="NewSecretChat">Nouvelle conversation secrète</string>
   <string name="AwaitingEncryption">En attente de la connexion de %s…</string>
   <string name="EncryptionRejected">Conversation secrète annulée</string>
   <string name="EncryptionProcessing">Échange des clés de chiffrement…</string>
@@ -627,7 +627,7 @@
   <string name="Default">Par défaut</string>
   <string name="Support">Support</string>
   <string name="OnlyIfSilent">Seulement si silencieux</string>
-  <string name="ChatBackground">Arrière-plan</string>
+  <string name="ChatBackground">Arrière-plan des conversations</string>
   <string name="MessagesSettings">Messages</string>
   <string name="SendByEnter">Touche Entrée pour envoyer</string>
   <string name="TerminateAllSessions">Terminer toutes les autres sessions</string>
@@ -695,7 +695,7 @@
   <string name="PopupDisabled">Désactivé</string>
   <string name="LedDisabled">Désactivé</string>
   <string name="RepeatDisabled">Désactivé</string>
-  <string name="InChatSound">Sons des conversations</string>
+  <string name="InChatSound">Sons en conversation</string>
   <string name="SoundDefault">Par défaut</string>
   <string name="VibrationDefault">Par défaut</string>
   <string name="SmartNotifications">Notifications intelligentes</string>
@@ -1076,7 +1076,7 @@
   <string name="AreYouSureLogout">Êtes-vous certain de vouloir vous déconnecter?\n\nNotez que vous pouvez utiliser Telegram simultanément sur tous vos appareils.\n\nPour rappel, une déconnexion détruit toutes vos conversations secrètes.</string>
   <string name="AreYouSureSessions">Êtes-vous certain de vouloir fermer toutes les autres sessions?</string>
   <string name="AreYouSureDeleteAndExit">Êtes-vous certain de vouloir supprimer et quitter le groupe?</string>
-  <string name="AreYouSureDeleteThisChat">Êtes-vous certain de vouloir supprimer cette conversation?</string>
+  <string name="AreYouSureDeleteThisChat">Êtes-vous sûr de vouloir supprimer cette conversation?</string>
   <string name="ShareYouLocationTitle">Partager votre localisation?</string>
   <string name="ShareYouLocationInfo">Ceci enverra votre localisation actuelle au bot.</string>
   <string name="ShareYouLocationUnable">L\'application n\'a pas été capable de déterminer votre localisation actuelle</string>
@@ -1089,7 +1089,7 @@
   <string name="AreYouSureBlockContact">Êtes-vous certain de vouloir bloquer ce contact?</string>
   <string name="AreYouSureUnblockContact">Êtes-vous certain de vouloir débloquer ce contact?</string>
   <string name="AreYouSureDeleteContact">Êtes-vous certain de vouloir supprimer ce contact?</string>
-  <string name="AreYouSureSecretChat">Êtes-vous certain de vouloir démarrer une conversation secrète? </string>
+  <string name="AreYouSureSecretChat">Êtes-vous sûr de vouloir démarrer une conversation secrète ? </string>
   <string name="AreYouSureRegistration">Êtes-vous certain de vouloir annuler l\'enregistrement?</string>
   <string name="AreYouSureClearHistory">Êtes-vous certain de vouloir effacer l\'historique </string>
   <string name="AreYouSureClearHistoryChannel">Supprimer tous les messages et médias du cache pour cette chaîne?</string>
@@ -1102,7 +1102,7 @@
   <string name="FeatureUnavailable">Désolé, cette option n\'est actuellement pas disponible dans votre pays.</string>
   <string name="NoUsernameFound">Il n\'y a pas de compte Telegram associé à cet utilisateur.</string>
   <string name="BotCantJoinGroups">Ce bot ne peut pas rejoindre des groupes.</string>
-  <string name="SecretLinkPreviewAlert">Voulez-vous permettre les aperçus de liens étendus dans les conversations privées ? Notez que les liens seront générés sur les serveurs de Telegram.</string>
+  <string name="SecretLinkPreviewAlert">Voulez-vous activer les aperçus étendus des liens dans les Conversations Secrètes ? Notez que les aperçus sont générés sur les serveurs de Telegram.</string>
   <string name="SecretChatContextBotAlert">Notez que les bots en ligne sont fournis par des développeurs indépendants. Pour que le bot fonctionne, les caractères entrés après le nom du bot sont envoyés au développeur respectif.</string>
   <string name="RaiseToSpeakAlert">Voulez vous activer \"Lever pour parler\" pour les messages vocaux?</string>
   <string name="EditMessageError">Désolé, vous ne pouvez pas modifier ce message.</string>

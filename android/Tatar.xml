@@ -80,6 +80,8 @@
   <string name="HistoryCleared">Тарих чистартылган булган</string>
   <string name="PreviewFeedback">Алдан карау турында фикер калдыру</string>
   <string name="SendStickerPreview">Стикер җибәрү</string>
+  <string name="ViewPackPreview">Җыелманы карау</string>
+  <string name="PinToTop">Беркетү</string>
   <!--channels-->
   <string name="GroupType">Төркем төре</string>
   <string name="ChannelType">Канал төре</string>
@@ -663,6 +665,7 @@
   <string name="SaveToGallerySettings">Галереяда саклау</string>
   <string name="EditName">Исемне үзгәртү</string>
   <string name="NotificationsCustomize">Көйләү</string>
+  <string name="NotificationsCustom">Көйләү</string>
   <string name="NotificationsEnableCustom">Кулланучы белгертүләрен кабызу</string>
   <string name="NotificationsPriority">Приоритет</string>
   <string name="NotificationsPrioritySettings">Көйләүләрдә кебек</string>
@@ -714,6 +717,7 @@
   <string name="LocalAudioCache">Тавышлы хатлар</string>
   <string name="LocalVideoCache">Видео</string>
   <string name="LocalMusicCache">Музыка</string>
+  <string name="LocalGifCache">GIFлар</string>
   <string name="LocalCache">Бүтән файллар</string>
   <string name="CacheEmpty">Буш</string>
   <string name="KeepMedia">Медианы саклау вакыт арасы</string>
@@ -838,6 +842,7 @@
   <string name="PaintDelete">Бетерү</string>
   <string name="PaintEdit">Үзгәртү</string>
   <string name="PaintDuplicate">Кабатлау</string>
+  <string name="PaintOutlined">Контур белән</string>
   <string name="PaintRegular">Еш</string>
   <string name="CropReset">Ташлау</string>
   <string name="CropOriginal">Оригинал</string>
@@ -899,6 +904,23 @@
   <string name="EnabledPasswordText">Сез ике адымлы авторизация куйдыгыз.\nХәзер Telegramга керер өчен сезгә әле генә куйган парольне кертергә кирәк булачак.</string>
   <string name="PendingEmailText">Сезнең торгызыр өчен %1$s электрон почта адресы әлегә актив түгел һәм раслауны көтә.</string>
   <!--data settings-->
+  <string name="MobileUsage">Мобиль трафик</string>
+  <string name="RoamingUsage">Роумингтагы трафик</string>
+  <string name="WiFiUsage">WI-FI аша җибәрелгән</string>
+  <string name="MessagesDataUsage">Хатлар һәм бүтән мәгълүмат</string>
+  <string name="CountSent">Җибәрелде</string>
+  <string name="CountReceived">Алынды</string>
+  <string name="BytesSent">Байт җибәрелде</string>
+  <string name="BytesReceived">Байт алынды</string>
+  <string name="FilesDataUsage">Файллар</string>
+  <string name="CallsDataUsage">Шалтыратулар</string>
+  <string name="OutgoingCalls">Чыккан шалтыратулар</string>
+  <string name="IncomingCalls">Керүче шалтыратулар</string>
+  <string name="CallsTotalTime">Барлык вакыт</string>
+  <string name="TotalDataUsage">Барлыгы</string>
+  <string name="ResetStatistics">Статистиканы ташлау</string>
+  <string name="NetworkUsageSince">Челтәр %1$s вакытыннан бирле кулланыла</string>
+  <string name="ResetStatisticsAlert">Статистиканы ташларга телисезме? </string>
   <!--privacy settings-->
   <string name="PrivacySettings">Шәхсилек һәм иминлек</string>
   <string name="PrivacyTitle">Шәхсилек</string>
@@ -946,6 +968,7 @@
   <!--edit video view-->
   <string name="EditVideo">Видеоны үзгәртү</string>
   <string name="SendingVideo">Видео җибәрү...</string>
+  <string name="SendingGif">GIF җибәрелә...</string>
   <!--bot-->
   <string name="Bot">бот</string>
   <string name="BotShare">Бүлешү</string>
@@ -982,6 +1005,8 @@
   <string name="Set">Кую</string>
   <string name="OK">Әйе</string>
   <string name="Crop">КИСҮ</string>
+  <string name="Yes">Әйе</string>
+  <string name="No">Юк</string>
   <!--messages-->
   <string name="ActionInviteYou">Сез чакыру буенча төркемгә кердегез</string>
   <string name="ActionInviteUser">un1 чакыру буенча төркемгә керде</string>
@@ -1108,6 +1133,26 @@
   <string name="Page7Message"><![CDATA[Бөтен хатлар <b>Telegramда</b> яхшы шифрланганнар<br/>һәм үз-үзләрен бетерә алалар.]]></string>
   <string name="StartMessaging">Хатны башлау</string>
   <!--VoIP-->
+  <string name="AccountSettings">Аккаунт көйләүләре</string>
+  <string name="VoipUseLessData">Шалтыратканда мәгълүматларны кысу</string>
+  <string name="VoipIncoming">Керүче шалтырату</string>
+  <string name="VoipConnecting">Тоташу</string>
+  <string name="VoipNotificationSettings">Тавышлы шалтыратулар</string>
+  <string name="VoipSettingsRingtone">Рингтон</string>
+  <string name="Calls">Шалтыратулар</string>
+  <string name="WhoCanCallMe">Кем миңа шалтырата ала?</string>
+  <string name="UseLessDataNever">Беркайчан да</string>
+  <string name="UseLessDataOnMobile">Мобиль челтәр аша гына</string>
+  <string name="UseLessDataAlways">Гел</string>
+  <string name="VoipAnswerCall">Җавап бирү</string>
+  <string name="VoipDeclineCall">Кире кагу</string>
+  <string name="VoipOfflineTitle">Оффлайн</string>
+  <string name="VoipOfflineAirplaneTitle">Очу режимы</string>
+  <string name="VoipOfflineOpenSettings">Көйләүләр</string>
+  <string name="CallMessageOutgoing">Чыккан шалтырату</string>
+  <string name="CallMessageIncoming">Керүче шалтырату</string>
+  <string name="CallMessageIncomingMissed">Алынмаган шалтырату</string>
+  <string name="CallMessageOutgoingMissed">Кире кагылган шалтырату</string>
   <!--plural-->
   <string name="Online_zero">%1$d челтәрдә</string>
   <string name="Online_one">%1$d челтәрдә</string>
