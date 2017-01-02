@@ -231,7 +231,7 @@
   <string name="ChannelMessageMusic">%1$s L ga publegà un àudio</string>
   <string name="ChannelMessageSticker">%1$s L ga publegà na figureta</string>
   <string name="ChannelMessageStickerEmoji">%1$s L ga publegà na figureta %2$s</string>
-  <string name="WhoCanAddMembers">Chi póseło zontar menbri novi?</string>
+  <string name="WhoCanAddMembers">Chi pòseło zontar menbri novi?</string>
   <string name="WhoCanAddMembersAllMembers">Tuti i menbri</string>
   <string name="WhoCanAddMembersAdmins">Soło i aministradori</string>
   <string name="ChannelNotifyMembersInfoOn">Łe to publegasion łe venjarà notifegàe a i menbri</string>
@@ -526,7 +526,7 @@
   <string name="EncryptionKey">Ciave de criptasion</string>
   <string name="MessageLifetime">Timer de autodestrusion</string>
   <string name="ShortMessageLifetimeForever">Dezativà</string>
-  <string name="EncryptionKeyDescription">\'Sta imàjine e \'sto testo i ze derivài da ła ciave de criptasion de \'sta chat segreta co <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Se i ze guałivi inte\'l dispozitivo de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, ła criptasion d\'in cao s\'in cao ła ze garantìa.<![CDATA[<br><br>]]>Par savèrghine de pì va so telegram.org</string>
+  <string name="EncryptionKeyDescription">\'Sta imàjine e \'sto testo i riva da ła ciave de criptasion de \'sta chat segreta co <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Se i ze guałivi inte\'l dispozitivo de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, ła criptasion d\'in cao s\'in cao ła ze garantìa.<![CDATA[<br><br>]]>Par savèrghine de pì va so telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq/it#chat-segrete</string>
   <string name="NumberUnknown">Mìa conosùo</string>
   <string name="Info">Informasion</string>
@@ -614,7 +614,7 @@
   <string name="ColorViolet">Vioła</string>
   <string name="ColorOrange">Naranson</string>
   <string name="NotificationsLedInfo">El LED el ze na łuze ceła łanpejante che so calche dispozitivo ła ze doparada par indegar mesaji novi.</string>
-  <string name="PriorityInfo">Łe notìfeghe co prioridà alta łe funsionarà anca se el to mòbiłe el ga ła modałidà siłensioza tacada.</string>
+  <string name="PriorityInfo">Łe notìfeghe co prioridà alta łe funsionarà anca co ła modałidà siłensioza tacada.</string>
   <string name="General">Zenerałe</string>
   <string name="NotificationsOn">Ativàe</string>
   <string name="NotificationsOff">Dezativàe</string>
@@ -1049,7 +1049,7 @@
   <string name="ActionTakeScreenshootYou">A te ghè brincà un screenshot!</string>
   <string name="ActionTakeScreenshoot">un1 L ga brincà un screenshot!</string>
   <!--Alert messages-->
-  <string name="InvalidPhoneNumber">Nùmaro mòbiłe mìa vàłido</string>
+  <string name="InvalidPhoneNumber">Nùmaro de tełèfono mìa vàłido</string>
   <string name="BannedPhoneNumber">Nùmaro de tełèfono banà</string>
   <string name="CodeExpired">El còdeze el ze scadùo, acedi danovo</string>
   <string name="FloodWait">Masa tentadivi, reprova danovo pì tardi</string>
@@ -1081,10 +1081,10 @@
   <string name="ShareYouLocationUnable">L\'app no ła ze mìa stà bona de detarminar ła to pozision</string>
   <string name="ShareYouLocationUnableManually">Sernisi manualmente</string>
   <string name="ShareYouLocationInline">\'Sto bot el vurìa saver ła to pozision tute łe \'olte che A te ghe dimandi calcoza. \'Sta informasion ła połe èsar doparada par ver rezultài geospesìfeghi.</string>
-  <string name="ShareYouPhoneNumberTitle">Vutu sparpanjar el to nùmaro mòbiłe?</string>
-  <string name="AreYouSureShareMyContactInfoBot">\'Sto bot el venjarà a saver el to nùmaro mòbiłe. \'Sta informasion ła połe èsar ùtiłe par l\'integrasion co altri servisi.</string>
-  <string name="AreYouSureShareMyContactInfoUser">Vutu davero sparpanjar el to nùmaro mòbiłe %1$s co <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>?</string>
-  <string name="AreYouSureShareMyContactInfo">Vutu davero sparpanjar el to nùmaro mòbiłe?</string>
+  <string name="ShareYouPhoneNumberTitle">Vutu sparpanjar el to nùmaro de tełèfono?</string>
+  <string name="AreYouSureShareMyContactInfoBot">\'Sto bot el venjarà a saver el to nùmaro de tełèfono. \'Sta informasion ła połe tornar ùtiłe par l\'integrasion co altri servisi.</string>
+  <string name="AreYouSureShareMyContactInfoUser">Vutu davero sparpanjar el to nùmaro de tełèfono %1$s co <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>?</string>
+  <string name="AreYouSureShareMyContactInfo">Vutu davero sparpanjar el to nùmaro de tełèfono?</string>
   <string name="AreYouSureBlockContact">Vutu davero blocar \'sto contato?</string>
   <string name="AreYouSureUnblockContact">Vutu davero dezblocar \'sto contato?</string>
   <string name="AreYouSureDeleteContact">Vutu davero ełimenar \'sto contato?</string>
@@ -1098,7 +1098,7 @@
   <string name="SendGameToGroup">Vutu sparpanjar el zogo co %1$s?</string>
   <string name="SendContactToGroup">Vutu mandar el contato a %1$s?</string>
   <string name="ForwardMessagesToGroup">Vutu voltar i mesaji a %1$s?</string>
-  <string name="FeatureUnavailable">Ne despiaze, \'sta funsion no ła ze mìa disponìbiłe inte ła to nasion.</string>
+  <string name="FeatureUnavailable">Ne despiaze, par deso \'sta funsion no ła ze mìa disponìbiłe inte ła to nasion.</string>
   <string name="NoUsernameFound">A no ghe ze njaun account Telegram co \'sto nome utente.</string>
   <string name="BotCantJoinGroups">\'Sto bot no\'l połe zontarse inte i grupi.</string>
   <string name="SecretLinkPreviewAlert">Ghetu caro ativar łe anteprime estendeste de i link inte łe chat segrete? Tien conto che łe anteprime de i link łe ze jeneràe so i server de Telegram.</string>
@@ -1107,7 +1107,7 @@
   <string name="EditMessageError">Ne despiaze, A no te połi mìa modifegar \'sto mesajo.</string>
   <string name="AllowReadSms">Parmétaghe a Telegram de resévar SMS, in manjera che A podemo insarir automategamente el to còdeze par ti.</string>
   <string name="AllowReadCall">Parmétaghe a Telegram de resévar ciamàe, in manjera che A podemo insarir automategamente el to còdeze par ti.</string>
-  <string name="AllowFillNumber">Parmétaghe a Telegram de resévar ciamàe e SMS, in manjera che A podemo rejistrar el to nùmaro mòbiłe, mandarte un còdeze e insarirlo par ti.</string>
+  <string name="AllowFillNumber">Parmétaghe a Telegram de resévar ciamàe e SMS, in manjera che A podemo rejistrar el to nùmaro de tełèfono, mandarte un còdeze e insarirlo par ti.</string>
   <string name="AllowReadCallAndSms">Parmétaghe a Telegram de resévar ciamàe e SMS, in manjera che A podemo insarir automategamente el to còdeze par ti.</string>
   <string name="UserRestricted">Ne despiaze, A no te ghe mìa el parmeso par farlo.</string>
   <string name="JoinGroup">ZÓNTATE INTE\'L GRUPO</string>
@@ -1143,7 +1143,12 @@
   <string name="VoipIncoming">Ciamàda in entrada</string>
   <string name="VoipConnecting">Conesion</string>
   <string name="VoipExchangingKeys">Scanbio ciave de criptasion</string>
+  <string name="VoipWaiting">Spetando</string>
+  <string name="VoipRequesting">Dimandando</string>
+  <string name="VoipHangingUp">Metindo baso</string>
   <string name="VoipCallEnded">Ciamada fenìa</string>
+  <string name="VoipFailed">Conesion fałìa</string>
+  <string name="VoipRinging">Sonando</string>
   <string name="VoipBusy">Łinea ocupàda</string>
   <string name="VoipInCallBranding">Ciamada Telegram</string>
   <string name="VoipOutgoingCall">Ciamada Telegram in corso</string>
@@ -1154,6 +1159,7 @@
   <string name="VoipSettingsRingtone">Sonarìa</string>
   <string name="VoipRingtoneInfo">A te połi parsonałizar ła sonarìa doparàda par łe ciamàe Telegram de \'sto contato.</string>
   <string name="Calls">Ciamàe</string>
+  <string name="WhoCanCallMe">Chi pòseło ciamarme?</string>
   <string name="WhoCanCallMeInfo">A te połi desìdar chi che połe ciamarte.</string>
   <string name="CustomCallInfo">\'Sti utenti i sarà boni o manco de ciamarte indipendentemente da łe inpostasion desora.</string>
   <string name="UseLessDataNever">Mai</string>
@@ -1161,11 +1167,22 @@
   <string name="UseLessDataAlways">Senpre</string>
   <string name="VoipAnswerCall">Respondi</string>
   <string name="VoipDeclineCall">Refuda</string>
+  <string name="VoipOffline">El to dispozitivo el ze desconeso. Conéteło a internet par poder far ciamàe.</string>
+  <string name="VoipOfflineAirplane">A te ghè ła modałidà aereo ativada. Dezatìveła o conétate co un Wi-Fi par poder far ciamàe.</string>
+  <string name="VoipOfflineTitle">Desconeso</string>
+  <string name="VoipOfflineAirplaneTitle">Modałidà aereo</string>
+  <string name="VoipOfflineOpenSettings">Inpostasion</string>
   <string name="CallMessageOutgoing">Ciamada in sortìa</string>
   <string name="CallMessageIncoming">Ciamada in entrada</string>
   <string name="CallMessageIncomingMissed">Ciamada mancada</string>
   <string name="CallMessageOutgoingMissed">Ciamada anułada</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
+  <string name="CallEncryptionKeyDescription">\'Sta imàjine e \'sto testo i riva da ła ciave de criptasion de \'sta \'sta ciamada co <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Se i ze guałivi inte\'l dispozitivo de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, ła criptasion d\'in cao s\'in cao ła ze garantìa.</string>
+  <string name="NoCallLog">A no te ghè fazesto njancora njauna ciamada.</string>
+  <string name="VoipPeerIncompatible">L\'app de <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ła ze drio doparar un protocoło mìa conpatìbiłe. L\'utente el ga da ajornarla prima de poderlo ciamar.</string>
+  <string name="VoipPeerOutdated">L\'app de <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> no ła suporta mìa łe ciamàe. L\'utente el ga da ajornarla prima de poderlo ciamar.</string>
+  <string name="VoipRateCallAlert">Vàłuta ła cuałidà de ła ciamada Telegram</string>
+  <string name="VoipFeedbackAlert">Ghetu caro łasar zo un comento par jutarne a mejorar el servisio ciamàe?</string>
   <!--plural-->
   <string name="Online_zero">%1$d in łinea</string>
   <string name="Online_one">%1$d in łinea</string>
