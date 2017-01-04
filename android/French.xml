@@ -98,7 +98,7 @@
   <string name="DeleteMegaMenu">Supprimer le groupe</string>
   <string name="MegaDeleteInfo">Vous allez perdre tous les messages de ce groupe.</string>
   <string name="MegaAdminsInfo">Vous pouvez ajouter des administrateurs pour vous aider à gérer votre groupe. Touchez et maintenez pour retirer des administrateurs.</string>
-  <string name="MegaDeleteAlert">Attention ! Supprimer ce groupe enlèvera tous les membres, et tous les messages seront perdus. Êtes vous certain?</string>
+  <string name="MegaDeleteAlert">Attendez ! La suppression de ce groupe retirera tous les membres, et tous les messages seront perdus. Êtes-vous sûr ?</string>
   <string name="ActionCreateMega">Groupe créé</string>
   <string name="MegaAddedBy">un1 vous a ajouté à ce groupe</string>
   <string name="MegaLeaveAlert">Êtes-vous certain de vouloir quitter ce groupe ?</string>
@@ -121,7 +121,7 @@
   <string name="ActionPinnedMusic">un1 a épinglé une piste</string>
   <string name="ActionMigrateFromGroup">Ce groupe a été changé en super-groupe</string>
   <string name="ActionMigrateFromGroupNotify">%1$s a été changé en super-groupe</string>
-  <string name="NoBlockedGroup">Les utilisateurs bloqués sont supprimer du groupe et peuvent seulement être réinvités par un administrateur. Les liens d\'invitation ne fonctionneront plus pour eux.</string>
+  <string name="NoBlockedGroup">Les utilisateurs bloqués sont retirés du groupe et peuvent seulement être réinvités par un administrateur. Les liens d\'invitation ne fonctionneront plus pour eux.</string>
   <string name="NewChannel">Nouvelle chaîne</string>
   <string name="EnterChannelName">Nom de la chaîne</string>
   <string name="AddMutual">Ajouter des contacts à votre chaîne</string>
@@ -167,7 +167,7 @@
   <string name="ChannelAdministrators">Administrateurs</string>
   <string name="ChannelDelete">Supprimer la chaîne</string>
   <string name="ChannelDeleteMenu">Supprimer la chaîne</string>
-  <string name="ChannelDeleteAlert">Attention ! Supprimer cette chaîne supprimera tous les membres, et tous les messages seront perdus. Êtes vous certain ?</string>
+  <string name="ChannelDeleteAlert">Attendez ! La suppression de cette chaîne retirera tous les membres, et tous les messages seront perdus. Êtes-vous sûr ?</string>
   <string name="ChannelLeaveAlert">Êtes-vous certain de vouloir quitter ce groupe ?</string>
   <string name="ChannelDeleteInfo">Vous allez perdre tous les messages dans cette chaîne.</string>
   <string name="ChannelEdit">Éditer</string>
@@ -187,7 +187,7 @@
   <string name="ChannelAddAdmin">Ajouter un administrateur</string>
   <string name="ChannelInviteViaLink">Lien d\'invitation</string>
   <string name="ChannelAddUserAdminAlert">Êtes-vous certain de vouloir rendre %1$s administrateur ?</string>
-  <string name="ChannelRemoveUserAdmin">Supprimer</string>
+  <string name="ChannelRemoveUserAdmin">Retirer</string>
   <string name="ChannelMembersInfo">Seuls les administrateurs de la chaîne peuvent voir cette liste.</string>
   <string name="ChannelAdminNotParticipant">Cet utilisateur n\'a pas encore rejoint cette chaîne. Voulez vous l\'inviter ?</string>
   <string name="ChannelLinkInfo">Quelqu\'un qui à Telegram sera capable de rejoindre votre chaîne en suivant ce lien.</string>
@@ -205,7 +205,7 @@
   <string name="ChannelAddedBy">un1 vous a ajouté à la chaîne</string>
   <string name="ChannelJoined">Vous avez rejoin cette chaîne</string>
   <string name="ChannelMegaJoined">Vous avez rejoint ce groupe</string>
-  <string name="ChannelRemoveUser">Supprimer de la chaîne</string>
+  <string name="ChannelRemoveUser">Retirer de la chaîne</string>
   <string name="ChannelCantSendMessage">Désolé, vous ne pouvez envoyer de messages à cette chaîne.</string>
   <string name="ChannelAddedByNotification">%1$s vous a ajouté à la chaîne %2$s</string>
   <string name="ChannelPhotoEditNotification">La chaîne %1$s a actualisé sa photo de profil</string>
@@ -213,7 +213,7 @@
   <string name="ChannelMessageGroupPhoto">%1$s a envoyé une photo à la chaîne %2$s</string>
   <string name="ChannelMessageGroupVideo">%1$s a envoyé une vidéo à la chaîne %2$s</string>
   <string name="ChannelMessageGroupContact">%1$s a partagé un contact dans la chaîne %2$s</string>
-  <string name="ChannelMessageGroupMap">%1$s a envoyé une localisation à la chaîne %2$s</string>
+  <string name="ChannelMessageGroupMap">%1$s a envoyé une position à la chaîne %2$s</string>
   <string name="ChannelMessageGroupDocument">%1$s a envoyé un fichier à la chaîne %2$s</string>
   <string name="ChannelMessageGroupGif">%1$s a envoyé un GIF à la chaîne %2$s</string>
   <string name="ChannelMessageGroupAudio">%1$s a envoyé un message vocal à la chaîne %2$s</string>
@@ -224,7 +224,7 @@
   <string name="ChannelMessagePhoto">%1$s a envoyé une photo</string>
   <string name="ChannelMessageVideo">%1$s a envoyé une vidéo</string>
   <string name="ChannelMessageContact">%1$s a envoyé un contact</string>
-  <string name="ChannelMessageMap">%1$s a envoyé une localisation</string>
+  <string name="ChannelMessageMap">%1$s a publié une position</string>
   <string name="ChannelMessageDocument">%1$s a envoyé un fichier</string>
   <string name="ChannelMessageGIF">%1$s a envoyé un GIF</string>
   <string name="ChannelMessageAudio">%1$s a envoyé un message vocal</string>
@@ -243,7 +243,7 @@
   <string name="EnterListName">Saisissez le nom de la liste</string>
   <string name="YouCreatedBroadcastList">Vous avez créé un liste de diffusion</string>
   <string name="AddRecipient">Ajouter un destinataire</string>
-  <string name="KickFromBroadcast">Supprimer de la liste de diffusion</string>
+  <string name="KickFromBroadcast">Retirer de la liste de diffusion</string>
   <!--audio view-->
   <string name="NoAudio">Merci d\'ajouter des fichiers à votre bibliothèque musicale sur votre appareil pour les voir ici.</string>
   <string name="AttachMusic">Musique</string>
@@ -285,7 +285,7 @@
   <string name="GotAQuestion">Une question\nsur Telegram?</string>
   <string name="ChatTakePhoto">Prendre une photo</string>
   <string name="ChatGallery">Galerie</string>
-  <string name="ChatLocation">Localisation</string>
+  <string name="ChatLocation">Position</string>
   <string name="ChatVideo">Vidéo</string>
   <string name="ChatDocument">Fichier</string>
   <string name="ChatCamera">Appareil photo</string>
@@ -304,7 +304,7 @@
   <string name="EncryptedDescription2">Ne laissent aucune trace sur nos serveurs</string>
   <string name="EncryptedDescription3">Ont un délai d\'auto-destruction des messages</string>
   <string name="EncryptedDescription4">N\'autorisent pas le transfert</string>
-  <string name="YouWereKicked">Vous avez été supprimer du groupe</string>
+  <string name="YouWereKicked">Vous avez été retiré du groupe</string>
   <string name="YouLeft">Vous avez quitté ce groupe</string>
   <string name="DeleteThisGroup">Supprimer ce groupe</string>
   <string name="DeleteThisChat">Supprimer cette conversation.</string>
@@ -354,7 +354,7 @@
   <string name="ReportChatOther">Autre</string>
   <string name="ReportChatDescription">Description</string>
   <string name="PinnedMessage">Message épinglé</string>
-  <string name="EditedMessage">édité</string>
+  <string name="EditedMessage">modifié</string>
   <string name="AttachBotsHelp">Défiler vers les bas pour les bots</string>
   <string name="TimeToEdit">%1$s</string>
   <string name="TimeToEditExpired">Désolé, temps d\'édition expiré.</string>
@@ -381,7 +381,7 @@
   <string name="NotificationMessagePhoto">%1$s vous a envoyé une photo</string>
   <string name="NotificationMessageVideo">%1$s vous a envoyé une vidéo</string>
   <string name="NotificationMessageContact">%1$s a partagé un contact avec vous</string>
-  <string name="NotificationMessageMap">%1$s vous a envoyé une localisation</string>
+  <string name="NotificationMessageMap">%1$s vous a envoyé une position</string>
   <string name="NotificationMessageGame">%1$s vous a invité à jouer à %2$s</string>
   <string name="NotificationMessageDocument">%1$s vous a envoyé un fichier</string>
   <string name="NotificationMessageGif">%1$s vous a envoyé un GIF</string>
@@ -394,7 +394,7 @@
   <string name="NotificationMessageGroupPhoto">%1$s a envoyé une photo au groupe %2$s</string>
   <string name="NotificationMessageGroupVideo">%1$s a envoyé une vidéo au groupe %2$s</string>
   <string name="NotificationMessageGroupContact">%1$s a partagé un contact avec le groupe %2$s</string>
-  <string name="NotificationMessageGroupMap">%1$s a envoyé une localisation au groupe %2$s</string>
+  <string name="NotificationMessageGroupMap">%1$s a envoyé une position au groupe %2$s</string>
   <string name="NotificationMessageGroupGame">%1$s a invité le groupe %2$s à jouer à %3$s</string>
   <string name="NotificationMessageGroupDocument">%1$s a envoyé un fichier au groupe %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s a envoyé un GIF au groupe %2$s</string>
@@ -408,11 +408,11 @@
   <string name="NotificationGroupAddMember">%1$s a invité %3$s dans le groupe %2$s</string>
   <string name="NotificationGroupAddSelf">%1$s est revenu dans le groupe %2$s</string>
   <string name="NotificationGroupAddSelfMega">%1$s a rejoint le groupe %2$s</string>
-  <string name="NotificationGroupKickMember">%1$s a supprimé %3$s du groupe %2$s</string>
-  <string name="NotificationGroupKickYou">%1$s vous a supprimé du groupe %2$s</string>
+  <string name="NotificationGroupKickMember">%1$s a retiré %3$s du groupe %2$s</string>
+  <string name="NotificationGroupKickYou">%1$s vous a retiré du groupe %2$s</string>
   <string name="NotificationGroupLeftMember">%1$s a quitté le groupe %2$s</string>
   <string name="NotificationContactJoined">%1$s a rejoint Telegram!</string>
-  <string name="NotificationUnrecognizedDevice">%1$s,\nNous avons détecté une connexion à votre compte depuis un nouvel appareil le %2$s\n\nAppareil : %3$s\nEmplacement : %4$s\n\nSi ce n\'était pas vous, vous pouvez aller terminer cette session dans Paramètres - Vie privée et Sécurité - Sessions.\n\nSi vous pensez qu\'une personne indésirable s\'est connectée à votre compte, vous pouvez activer la vérification en deux étapes dans Paramètres - Vie privée et Sécurité.\n\nCordialement,\nL\'équipe Telegram</string>
+  <string name="NotificationUnrecognizedDevice">%1$s,\nNous avons détecté une connexion à votre compte depuis un nouvel appareil le %2$s\n\nAppareil : %3$s\nPosition : %4$s\n\nSi ce n\'était pas vous, vous pouvez aller terminer cette session dans Paramètres - Vie privée et Sécurité - Sessions.\n\nSi vous pensez que quelqu\'un s\'est connecté à votre compte à votre insu, vous pouvez activer la vérification en deux étapes dans Paramètres - Vie privée et Sécurité.\n\nCordialement,\nL\'équipe Telegram</string>
   <string name="NotificationContactNewPhoto">%1$s a actualisé sa photo de profil</string>
   <string name="NotificationInvitedToGroupByLink">%1$s a rejoint le groupe %2$s avec un lien d\'invitation</string>
   <string name="Reply">Répondre</string>
@@ -488,7 +488,7 @@
   <string name="SetAdminsTitle">Admins de discussions</string>
   <string name="SetAdminsAll">Tous les membres sont administrateurs</string>
   <string name="SetAdminsAllInfo">Tous les membres peuvent ajouter des nouveaux membres et modifier le nom et la photo du groupe.</string>
-  <string name="SetAdminsNotAllInfo">Seuls les administrateurs peuvent ajouter des nouveaux membres, et modifier le nom et la photo du groupe.</string>
+  <string name="SetAdminsNotAllInfo">Seuls les administrateurs peuvent ajouter et retirer des membres, et modifier le nom et la photo du groupe.</string>
   <!--group info view-->
   <string name="SharedMedia">Médias partagés</string>
   <string name="SETTINGS">Paramètres</string>
@@ -496,7 +496,7 @@
   <string name="SetAdmins">Définir les admins</string>
   <string name="DeleteAndExit">Supprimer et quitter le groupe</string>
   <string name="Notifications">Notifications</string>
-  <string name="KickFromGroup">Supprimer du groupe</string>
+  <string name="KickFromGroup">Retirer du groupe</string>
   <string name="UpgradeGroup">Surclasser en super-groupe</string>
   <string name="ConvertGroup">Convertir en super-groupe</string>
   <string name="ConvertGroupMenu">Convertir en super-groupe</string>
@@ -554,7 +554,7 @@
   <string name="AddToMasks">Ajouter aux masques</string>
   <string name="AddStickersNotFound">Stickers introuvables</string>
   <string name="StickersRemoved">Stickers supprimés</string>
-  <string name="MasksRemoved">Masque supprimé</string>
+  <string name="MasksRemoved">Masques supprimés</string>
   <string name="AddStickersInstalled">Nouveaux stickers ajoutés</string>
   <string name="AddMasksInstalled">Nouveaux masques ajoutés</string>
   <string name="StickersHide">Archive</string>
@@ -728,7 +728,7 @@
   <string name="LocalCache">Autres fichiers</string>
   <string name="CacheEmpty">Vide</string>
   <string name="KeepMedia">Conserver les médias</string>
-  <string name="KeepMediaInfo">Les photos, vidéos et autres fichiers provenant de discussions sur le cloud auxquels vous n\'avez <![CDATA[<b>pas accédé</b>]]> pendant cette période seront supprimés de cet appareil pour économiser de l\'espace disque.\n\nTous les médias resteront sur le cloud Telegram et peuvent être re-téléchargés si vous en avez de nouveau besoin.</string>
+  <string name="KeepMediaInfo">Les photos, vidéos et autres fichiers provenant de discussions sur le cloud auxquels vous n\'avez <![CDATA[<b>pas accédé</b>]]> pendant cette période seront supprimés de cet appareil pour économiser de l\'espace de stockage.\n\nTous les médias resteront sur le cloud Telegram et peuvent être re-téléchargés si vous en avez de nouveau besoin.</string>
   <string name="KeepMediaForever">Pour toujours</string>
   <!--sessions view-->
   <string name="SessionsTitle">Sessions actives</string>
@@ -783,9 +783,9 @@
   <string name="Hybrid">Hybride</string>
   <string name="MetersAway">m de distance</string>
   <string name="KMetersAway">km de distance</string>
-  <string name="SendLocation">Envoyer votre localisation actuelle</string>
-  <string name="SendSelectedLocation">Envoyer la localisation selectionnée</string>
-  <string name="ShareLocation">Localisation</string>
+  <string name="SendLocation">Envoyer votre position actuelle</string>
+  <string name="SendSelectedLocation">Envoyer la position selectionnée</string>
+  <string name="ShareLocation">Position</string>
   <string name="AccurateTo">Exact à %1$s</string>
   <string name="NearbyPlaces">OU CHOISIR UN LIEU</string>
   <!--photo gallery view-->
@@ -1013,14 +1013,14 @@
   <!--messages-->
   <string name="ActionInviteYou">Vous avez rejoint le groupe avec un lien d\'invitation</string>
   <string name="ActionInviteUser">un1 a rejoint le groupe avec un lien d\'invitation</string>
-  <string name="ActionKickUser">un1 a supprimé un2</string>
+  <string name="ActionKickUser">un1 a retiré un2</string>
   <string name="ActionLeftUser">un1 a quitté le groupe</string>
   <string name="ActionAddUser">un1 a ajouté un2</string>
   <string name="ActionRemovedPhoto">un1 a supprimé la photo du groupe</string>
   <string name="ActionChangedPhoto">un1 a modifié la photo du groupe</string>
   <string name="ActionChangedTitle">un1 a renommé le groupe en un2</string>
   <string name="ActionCreateGroup">un1 a créé le groupe</string>
-  <string name="ActionYouKickUser">Vous avez supprimé un2</string>
+  <string name="ActionYouKickUser">Vous avez retiré un2</string>
   <string name="ActionYouLeftUser">Vous avez quitté le groupe</string>
   <string name="ActionYouAddUser">Vous avez ajouté un2</string>
   <string name="ActionYouScored">Vous avez obtenu %1$s</string>
@@ -1031,7 +1031,7 @@
   <string name="ActionYouChangedPhoto">Vous avez modifié la photo du groupe</string>
   <string name="ActionYouChangedTitle">Vous avez renommé le groupe en un2</string>
   <string name="ActionYouCreateGroup">Vous avez créé le groupe</string>
-  <string name="ActionKickUserYou">un1 vous a supprimé</string>
+  <string name="ActionKickUserYou">un1 vous a retiré</string>
   <string name="ActionAddUserYou">un1 vous a ajouté</string>
   <string name="ActionAddUserSelf">un1 est revenu dans le groupe</string>
   <string name="ActionAddUserSelfMega">un1 a rejoint le groupe</string>
@@ -1040,7 +1040,7 @@
   <string name="AttachPhoto">Photo</string>
   <string name="AttachVideo">Vidéo</string>
   <string name="AttachGif">GIF</string>
-  <string name="AttachLocation">Localisation</string>
+  <string name="AttachLocation">Position</string>
   <string name="AttachContact">Contact</string>
   <string name="AttachDocument">Fichier</string>
   <string name="AttachSticker">Stickers</string>
@@ -1077,11 +1077,11 @@
   <string name="AreYouSureSessions">Êtes-vous certain de vouloir fermer toutes les autres sessions?</string>
   <string name="AreYouSureDeleteAndExit">Êtes-vous certain de vouloir supprimer et quitter le groupe?</string>
   <string name="AreYouSureDeleteThisChat">Êtes-vous sûr de vouloir supprimer cette conversation?</string>
-  <string name="ShareYouLocationTitle">Partager votre localisation?</string>
-  <string name="ShareYouLocationInfo">Ceci enverra votre localisation actuelle au bot.</string>
-  <string name="ShareYouLocationUnable">L\'application n\'a pas été capable de déterminer votre localisation actuelle</string>
+  <string name="ShareYouLocationTitle">Partager votre position ?</string>
+  <string name="ShareYouLocationInfo">Ceci enverra votre position actuelle au bot.</string>
+  <string name="ShareYouLocationUnable">L\'application n\'a pas réussi à déterminer votre position actuelle</string>
   <string name="ShareYouLocationUnableManually">Choisir manuellement</string>
-  <string name="ShareYouLocationInline">Ce bot voudrait connaître votre localisation chaque fois que vous lui envoyerait une requête. Ceci peut être utile pour vous donner des résultats spécifiques à votre localisation.</string>
+  <string name="ShareYouLocationInline">Ce bot souhaite connaître votre position chaque fois que vous lui enverrez une requête. Ceci peut être utile pour vous donner des résultats spécifiques à votre position.</string>
   <string name="ShareYouPhoneNumberTitle">Partager votre numéro de téléphone?</string>
   <string name="AreYouSureShareMyContactInfoBot">Le bot va connaitre votre numéro de téléphone. Ceci peut être utile pour l\'intégration à d\'autres services.</string>
   <string name="AreYouSureShareMyContactInfoUser">Êtes-vous certain de vouloir partager votre numéro de téléphone %1$s avec <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>?</string>
@@ -1118,8 +1118,8 @@
   <string name="PermissionNoAudio">Telegram a besoin d\'accéder à votre microphone pour que vous puissiez envoyer des messages vocaux.</string>
   <string name="PermissionNoAudioVideo">Telegram a besoin d\'accéder à votre microphone pour que vous puissiez enregistrer des vidéos.</string>
   <string name="PermissionNoCamera">Telegram a besoin d\'accéder à votre caméra pour que vous puissiez capturer des photos et des vidéos.</string>
-  <string name="PermissionNoLocation">Telegram a besoin d\'accéder à votre localisation pour que vous puissiez la partager avec vos amis.</string>
-  <string name="PermissionNoLocationPosition">Telegram a besoin d\'accéder à votre localisation.</string>
+  <string name="PermissionNoLocation">Telegram a besoin d\'accéder à votre position pour que vous puissiez la partager avec vos amis.</string>
+  <string name="PermissionNoLocationPosition">Telegram a besoin d\'accéder à votre position.</string>
   <string name="PermissionDrawAboveOtherApps">Telegram a besoin d\'accès pour dessiner sur d\'autres applications afin de jouer les vidéos en mode Picture-in-Picture.</string>
   <string name="PermissionOpenSettings">PARAMÈTRES</string>
   <!--Intro view-->
@@ -1378,12 +1378,12 @@
   <string name="ForwardedAudio_few">%1$d messages vocaux transférés</string>
   <string name="ForwardedAudio_many">%1$d messages vocaux transférés</string>
   <string name="ForwardedAudio_other">%1$d messages vocaux transférés</string>
-  <string name="ForwardedLocation_zero">%1$d localisations transférées</string>
-  <string name="ForwardedLocation_one">localisation transférée</string>
-  <string name="ForwardedLocation_two">%1$d localisations transférées</string>
-  <string name="ForwardedLocation_few">%1$d localisations transférées</string>
-  <string name="ForwardedLocation_many">%1$d localisations transférées</string>
-  <string name="ForwardedLocation_other">%1$d localisations transférées</string>
+  <string name="ForwardedLocation_zero">%1$d positions transférées</string>
+  <string name="ForwardedLocation_one">Position transférée</string>
+  <string name="ForwardedLocation_two">%1$d positions transférées</string>
+  <string name="ForwardedLocation_few">%1$d positions transférées</string>
+  <string name="ForwardedLocation_many">%1$d positions transférées</string>
+  <string name="ForwardedLocation_other">%1$d positions transférées</string>
   <string name="ForwardedContact_zero">%1$d contacts transférés</string>
   <string name="ForwardedContact_one">Contact transféré</string>
   <string name="ForwardedContact_two">%1$d contacts transférés</string>

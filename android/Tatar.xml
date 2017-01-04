@@ -904,6 +904,8 @@
   <string name="EnabledPasswordText">Сез ике адымлы авторизация куйдыгыз.\nХәзер Telegramга керер өчен сезгә әле генә куйган парольне кертергә кирәк булачак.</string>
   <string name="PendingEmailText">Сезнең торгызыр өчен %1$s электрон почта адресы әлегә актив түгел һәм раслауны көтә.</string>
   <!--data settings-->
+  <string name="DataSettings">Трафик һәм саклау урыны</string>
+  <string name="StorageUsage">Кэш көйләүләре</string>
   <string name="MobileUsage">Мобиль трафик</string>
   <string name="RoamingUsage">Роумингтагы трафик</string>
   <string name="WiFiUsage">WI-FI аша җибәрелгән</string>
@@ -1137,15 +1139,28 @@
   <string name="VoipUseLessData">Шалтыратканда мәгълүматларны кысу</string>
   <string name="VoipIncoming">Керүче шалтырату</string>
   <string name="VoipConnecting">Тоташу</string>
+  <string name="VoipExchangingKeys">Шифрлау ачкычлары белән алмашу</string>
+  <string name="VoipWaiting">Көтү</string>
+  <string name="VoipHangingUp">Тәмамлау</string>
+  <string name="VoipCallEnded">Шалтырату тәмам</string>
+  <string name="VoipFailed">Тоташып булмады</string>
+  <string name="VoipRinging">Чакыру</string>
+  <string name="VoipBusy">Линия мөмкин түгел</string>
+  <string name="VoipInCallBranding">Чакыру</string>
+  <string name="VoipEndCall">Чакыруны тәмамлау</string>
   <string name="VoipNotificationSettings">Тавышлы шалтыратулар</string>
   <string name="VoipSettingsRingtone">Рингтон</string>
+  <string name="VoipRingtoneInfo">Бу контакт өчен шалтырату көен сайлый аласыз.</string>
   <string name="Calls">Шалтыратулар</string>
   <string name="WhoCanCallMe">Кем миңа шалтырата ала?</string>
+  <string name="WhoCanCallMeInfo">Сез кем сезгә шалтырата алганын/алмаганын сайлый аласыз.</string>
+  <string name="CustomCallInfo">Өстәге көйләүләргә карамастан, бу кулланучылар сезгә шалтырата алачаклар/алмаячаклар.</string>
   <string name="UseLessDataNever">Беркайчан да</string>
   <string name="UseLessDataOnMobile">Мобиль челтәр аша гына</string>
   <string name="UseLessDataAlways">Гел</string>
   <string name="VoipAnswerCall">Җавап бирү</string>
   <string name="VoipDeclineCall">Кире кагу</string>
+  <string name="VoipOffline">Сез әлеге вакытта интернетка тоташмагансыз. Шалтырату өчен интернетка тоташу кирәк.</string>
   <string name="VoipOfflineTitle">Оффлайн</string>
   <string name="VoipOfflineAirplaneTitle">Очу режимы</string>
   <string name="VoipOfflineOpenSettings">Көйләүләр</string>
@@ -1153,6 +1168,7 @@
   <string name="CallMessageIncoming">Керүче шалтырату</string>
   <string name="CallMessageIncomingMissed">Алынмаган шалтырату</string>
   <string name="CallMessageOutgoingMissed">Кире кагылган шалтырату</string>
+  <string name="VoipRateCallAlert">Зинһар, Telegram аша сөйләшүнең сыйфатын бәяләгез</string>
   <!--plural-->
   <string name="Online_zero">%1$d челтәрдә</string>
   <string name="Online_one">%1$d челтәрдә</string>

@@ -332,6 +332,8 @@
   <string name="ReportSpamAlert">Уверены, что хотите сообщить о спаме от этого пользователя?</string>
   <string name="ReportSpamAlertGroup">Уверены, что хотите сообщить о спаме от этой группы?</string>
   <string name="ReportSpamAlertChannel">Уверены, что хотите сообщить о спаме от этого канала?</string>
+  <string name="NobodyLikesSpam1">За сегодня вы написали слишком много сообщений пользователям, не находящимся у вас в контактах. Повторите попытку завтра или попросите пользователя написать вам первому.</string>
+  <string name="NobodyLikesSpam2">Вы не можете добавить этого пользователя, потому что за сегодня вы написали слишком много сообщений людям не из ваших контактов. Повторите попытку завтра или попросите кого-нибудь другого добавить этого пользователя.</string>
   <string name="NobodyLikesSpamUrl">https://tlgrm.ru/faq/pochemu-ne-otpravit-soobshenie.html</string>
   <string name="MoreInfo">Подробнее</string>
   <string name="ShareSendTo">Выберите получателей...</string>
@@ -700,6 +702,7 @@
   <string name="SmartNotificationsInfo">%1$d / %2$s</string>
   <string name="SmartNotificationsDisabled">Отключены</string>
   <string name="SmartNotificationsAlert">Частота уведомлений</string>
+  <string name="SmartNotificationsDetail">%1$s в течение %2$s</string>
   <string name="SecretWebPage">Предпросмотр ссылок</string>
   <string name="SecretChat">Секретные чаты</string>
   <string name="ChromeCustomTabs">Встроенный браузер</string>
@@ -900,17 +903,17 @@
   <string name="EnabledPasswordText">Вы включили двухэтапную авторизацию.\nДля входа в Telegram потребуется ввести пароль, который вы установили.</string>
   <string name="PendingEmailText">Ваш адрес электронной почты для восстановления %1$s ещё не активирован и ожидает подтверждения.</string>
   <!--data settings-->
-  <string name="DataSettings">Данные и хранилище</string>
+  <string name="DataSettings">Трафик и хранилище</string>
   <string name="DataUsage">Использование накопителя и сети</string>
-  <string name="StorageUsage">Занято на устройстве</string>
+  <string name="StorageUsage">Настройки кэша</string>
   <string name="MobileUsage">Мобильный трафик</string>
   <string name="RoamingUsage">Трафик в роуминге</string>
-  <string name="WiFiUsage">Передано через Wi-Fi</string>
+  <string name="WiFiUsage">Трафик через Wi-Fi</string>
   <string name="MessagesDataUsage">Сообщения и прочие данные</string>
   <string name="CountSent">Отправлено</string>
   <string name="CountReceived">Получено</string>
-  <string name="BytesSent">Отправлено байт</string>
-  <string name="BytesReceived">Получено байт</string>
+  <string name="BytesSent">Исходящий трафик</string>
+  <string name="BytesReceived">Входящий трафик</string>
   <string name="FilesDataUsage">Файлы</string>
   <string name="CallsDataUsage">Звонки</string>
   <string name="OutgoingCalls">Исходящие звонки</string>
@@ -918,8 +921,8 @@
   <string name="CallsTotalTime">Всего времени</string>
   <string name="TotalDataUsage">Всего</string>
   <string name="ResetStatistics">Сбросить статистику</string>
-  <string name="NetworkUsageSince">Использование сети с %1$s</string>
-  <string name="ResetStatisticsAlert">Сбросить статистику?</string>
+  <string name="NetworkUsageSince">Использование мобильного трафика начиная с %1$s</string>
+  <string name="ResetStatisticsAlert">Уверены, что хотите сбросить статистику?</string>
   <!--privacy settings-->
   <string name="PrivacySettings">Приватность и безопасность</string>
   <string name="PrivacyTitle">Приватность</string>
@@ -1052,6 +1055,7 @@
   <string name="FloodWait">Слишком много попыток, пожалуйста, попробуйте снова позже</string>
   <string name="FloodWaitTime">Слишком много попыток, попробуйте снова через %1$s</string>
   <string name="InvalidCode">Неверный код</string>
+  <string name="PhoneNumberFlood">К сожалению, вы слишком часто удаляли и создавали заново свой аккаунт. Теперь вам придётся подождать несколько дней.</string>
   <string name="InvalidFirstName">Некорректное имя</string>
   <string name="InvalidLastName">Некорректная фамилия</string>
   <string name="Loading">Загрузка...</string>
@@ -1152,15 +1156,21 @@
   <string name="VoipBusy">Линия занята</string>
   <string name="VoipInCallBranding">Вызов</string>
   <string name="VoipEndCall">Завершить вызов</string>
+  <string name="VoipOngoingAlert">В данный момент вы уже разговариваете с <![CDATA[<b>%1$s</b>]]>. Желаете прекратить разговор и начать новый с <![CDATA[<b>%2$s</b>]]>?</string>
   <string name="VoipNotificationSettings">Голосовые вызовы</string>
   <string name="VoipSettingsRingtone">Сигнал вызова</string>
+  <string name="VoipRingtoneInfo">Вы можете выбрать сигнал вызова для этого контакта.</string>
   <string name="Calls">Звонки</string>
   <string name="WhoCanCallMe">Кто может мне звонить?</string>
+  <string name="WhoCanCallMeInfo">Вы можете указать, кто может, а кто не может вам звонить.</string>
+  <string name="CustomCallInfo">Эти пользователи смогут (или не смогут) звонить вам, несмотря на настройки выше.</string>
   <string name="UseLessDataNever">Никогда</string>
   <string name="UseLessDataOnMobile">Только через мобильную сеть</string>
   <string name="UseLessDataAlways">Всегда</string>
   <string name="VoipAnswerCall">Ответить</string>
   <string name="VoipDeclineCall">Отклонить</string>
+  <string name="VoipOffline">В данный момент вы не подключены к сети. Для звонков необходимо интернет-подключение.</string>
+  <string name="VoipOfflineAirplane">В данный момент у вас включён режим полёта. Выключите его или подключитесь к Wi-Fi, чтобы совершать звонки.</string>
   <string name="VoipOfflineTitle">Оффлайн</string>
   <string name="VoipOfflineAirplaneTitle">Режим полёта</string>
   <string name="VoipOfflineOpenSettings">Настройки</string>
@@ -1169,7 +1179,10 @@
   <string name="CallMessageIncomingMissed">Пропущенный вызов</string>
   <string name="CallMessageOutgoingMissed">Отменённый вызов</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
+  <string name="CallEncryptionKeyDescription">Это изображение и текст — визуализация ключа шифрования для этого разговора c <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Если на устройстве пользователя <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> отображаются идентичные текст и изображание, то оконечное шифрование между вами безопасно.</string>
   <string name="NoCallLog">Вы пока никому не звонили.</string>
+  <string name="VoipPeerIncompatible">К сожалению, приложение у <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> устарело и не может принимать звонки.</string>
+  <string name="VoipPeerOutdated">К сожалению, приложение у <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> не поддерживает голосовые звонки. Этому пользователю нужно обновить приложение, чтобы вы могли ему позвонить.</string>
   <string name="VoipRateCallAlert">Пожалуйста, оцените качество вашего звонка через Telegram</string>
   <string name="VoipFeedbackAlert">Хотите ли вы оставить отзыв, чтобы помочь нам улучшить звонки?</string>
   <!--plural-->
