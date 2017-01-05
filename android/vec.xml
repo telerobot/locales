@@ -39,7 +39,7 @@
   <string name="LastName">Conjome (opsionałe)</string>
   <string name="CancelRegistration">Anuła rejistrasion</string>
   <!--chats view-->
-  <string name="NewConversationShortcut">Conversasion nova</string>
+  <string name="NewConversationShortcut">Convarsasion nova</string>
   <string name="Settings">Inpostasion</string>
   <string name="Contacts">Contati</string>
   <string name="NewGroup">Grupo novo</string>
@@ -717,7 +717,7 @@
   <string name="LocalDatabaseInfo">Netando el database łocałe A te ełimenarè i mesaji inte ła cache e A te conpresarè i dati par salvar spasio inte\'l disco. A Telegram A ghe serve senpre un fià de dati par funsionar, donca ła dimension de\'l database no ła ndarà mìa mai a zero.\\n\\n\'Sta oparasion ła połe portarte via calche menuto.</string>
   <string name="ClearMediaCache">Neta cache</string>
   <string name="CacheClear">Neta</string>
-  <string name="CalculatingSize">Calcołasion...</string>
+  <string name="CalculatingSize">Calcołando...</string>
   <string name="LocalDocumentCache">Documenti</string>
   <string name="LocalPhotoCache">Foto</string>
   <string name="LocalAudioCache">Mesaji vocałi</string>
@@ -727,7 +727,7 @@
   <string name="LocalCache">File vari</string>
   <string name="CacheEmpty">Voda</string>
   <string name="KeepMedia">Tien media</string>
-  <string name="KeepMediaInfo">Foto, video e file vari inte łe chat nùvoła che A no te ghe <![CDATA[<b>mìa pì verto</b>]]> inte \'sto parìodo i venjarà cavài via da \'sto dispozitivo par sparanjar spasio inte\'l disco.\\n\\nItim tuti i media i restarà inte ła nùvoła de Telegram e i podarà èsar descargài n\'antra \'olta se A te dovesi vèrghene bizonjo danovo.</string>
+  <string name="KeepMediaInfo">Foto, video e file vari inte łe chat nùvoła che, inte \'sto parìodo, A no te ghè <![CDATA[<b>mìa pì verto</b>]]>, i venjarà cavài via da \'sto dispozitivo par sparanjar spasio inte\'l disco.\\n\\nItim tuti i media i restarà inte ła nùvoła de Telegram e i podarà èsar descargài n\'antra \'olta se A te dovesi vèrghene bizonjo danovo.</string>
   <string name="KeepMediaForever">Par senpre</string>
   <!--sessions view-->
   <string name="SessionsTitle">Sesion ative</string>
@@ -921,7 +921,7 @@
   <string name="CallsTotalTime">Tenpo totałe</string>
   <string name="TotalDataUsage">Totałe</string>
   <string name="ResetStatistics">Reinposta statìsteghe</string>
-  <string name="NetworkUsageSince">Rete doparada da %1$s</string>
+  <string name="NetworkUsageSince">Dòparo rete da\'l %1$s</string>
   <string name="ResetStatisticsAlert">Vutu reinpostar łe statìsteghe de\'l to dòparo?</string>
   <!--privacy settings-->
   <string name="PrivacySettings">Privacy e Securesa</string>
@@ -1402,8 +1402,8 @@
   <string name="AndOther_many">e n\'antri %1$d</string>
   <string name="AndOther_other">e n\'antri %1$d</string>
   <!--date formatters-->
-  <string name="formatterStats12H">dd MM yyyy, mm:h a</string>
-  <string name="formatterStats24H">dd MM yyyy, mm:HH</string>
+  <string name="formatterStats12H">dd/MM/yyyy, mm:h a</string>
+  <string name="formatterStats24H">dd/MM/yyyy, mm:HH</string>
   <string name="formatterMonthYear">MM/yyyy</string>
   <string name="formatterMonth">dd/MM</string>
   <string name="formatterYear">dd.MM.yy</string>

@@ -36,6 +36,7 @@
   <string name="LastName">Фамилия (мәҗбүри түгел)</string>
   <string name="CancelRegistration">Теркәлүне туктату</string>
   <!--chats view-->
+  <string name="NewConversationShortcut">Яңа әңгәмә</string>
   <string name="Settings">Көйләүләр</string>
   <string name="Contacts">Контактлар</string>
   <string name="NewGroup">Яңа төркем</string>
@@ -362,6 +363,7 @@
   <string name="ChatYourSelfDescription4">Табу өчен эзләүне кулланыгыз</string>
   <string name="ChatYourSelfTitle">Болытлы саклау урыныгыз</string>
   <string name="JumpToDate">Датага күчү</string>
+  <string name="DeleteForAll">Барсыннан да бетерү</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s үз-үзен бетерү вакытын куйды: %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Үз-үзен бетерү вакыты: %1$s</string>
