@@ -921,7 +921,7 @@
   <string name="CallsTotalTime">Всего времени</string>
   <string name="TotalDataUsage">Всего</string>
   <string name="ResetStatistics">Сбросить статистику</string>
-  <string name="NetworkUsageSince">Использование мобильного трафика начиная с %1$s</string>
+  <string name="NetworkUsageSince">Статистика использования сети с %1$s</string>
   <string name="ResetStatisticsAlert">Уверены, что хотите сбросить статистику?</string>
   <!--privacy settings-->
   <string name="PrivacySettings">Приватность и безопасность</string>

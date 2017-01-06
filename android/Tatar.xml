@@ -26,8 +26,10 @@
   <string name="CancelAccountReset">Аккаунтны ташлауны кире кагу</string>
   <string name="ResetAccount">Аккаунтны ташлау</string>
   <string name="ResetAccountStatus">Аккаунтны ташлау бу вакыт үткәч мөмкин булачак:</string>
+  <string name="ResetAccountCancelledAlert">Ташлап карау актив аккаунт белән кире кагылды. Зинһар, 7 көннән кабатлап карагыз.</string>
   <string name="ResetAccountButton">ТАШЛАУ</string>
   <string name="CancelLinkExpired">Сылтама дөрес түгел яисә яраклык вакыты чыккан.</string>
+  <string name="CancelLinkSuccess">%1$s аккаунтыгызны ташлау кире кагылды. Бу тәрәзәне яба аласыз.</string>
   <!--signup view-->
   <string name="YourName">Исемегез</string>
   <string name="RegisterText">Фамилиягызны һәм исемегезне кертегез</string>
@@ -329,6 +331,8 @@
   <string name="ReportSpamAlert">Бу кулланучыдан спам килү турында белгертергә телисезме?</string>
   <string name="ReportSpamAlertGroup">Бу төркемнән спам килү турында белгертергә телисезме?</string>
   <string name="ReportSpamAlertChannel">Бу каналдан спам килү турында хәбәр итәргә телисезме?</string>
+  <string name="NobodyLikesSpam1">Сез контактларыгызда булмаган кулланучыларга бүген бик күп хат яздыгыз. Иртәгә язып карагыз яисә кулланучыдан беренче булып язуны сорагыз.</string>
+  <string name="NobodyLikesSpam2">Бу кулланучыны өсти алмыйсыз, чөнки сез бүген контактларыгызда булмаган кешеләргә бик күп хат яздыгыз. Иртәгә өстәп карагыз яисә бүтән кешедән бу кулланучыны өстәүне сорагыз.</string>
   <string name="NobodyLikesSpamUrl">https://tlgrm.ru/faq/pochemu-ne-otpravit-soobshenie.html</string>
   <string name="MoreInfo">Тулырак</string>
   <string name="ShareSendTo">Җибәрү...</string>
@@ -363,6 +367,7 @@
   <string name="ChatYourSelfDescription4">Табу өчен эзләүне кулланыгыз</string>
   <string name="ChatYourSelfTitle">Болытлы саклау урыныгыз</string>
   <string name="JumpToDate">Датага күчү</string>
+  <string name="DeleteForUser">Моннан %1$s бетерү</string>
   <string name="DeleteForAll">Барсыннан да бетерү</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s үз-үзен бетерү вакытын куйды: %2$s</string>
@@ -469,6 +474,7 @@
   <string name="SoftUserLimitAlert">Сез күбрәк кулланучы өсти аласыз: төркемегезне супертөркемгә әйләндерегез.</string>
   <string name="EnterGroupNamePlaceholder">Төркем исемен кертү</string>
   <string name="GroupName">Төркем исеме</string>
+  <string name="MembersCountZero">%1$s тиклем</string>
   <string name="JoinToGroup">\'%1$s\' чатына кушылырга телисезме?</string>
   <string name="JoinToGroupErrorFull">Бу төркемдә максималь катнашучылар саны тулган.</string>
   <string name="JoinToGroupErrorNotExist">Гафу итегез, мондый чат юк.</string>
@@ -611,6 +617,7 @@
   <string name="ColorViolet">Шәмәхә</string>
   <string name="ColorOrange">Кызгылт сары</string>
   <string name="NotificationsLedInfo">Диодлы ут - ул кайбер җайланмаларда яңа хат килгәндә җемелдәүче ут.</string>
+  <string name="PriorityInfo">Югары приоритетлы белгертүләр телефон \"Тавышсыз\" режимында булса да күрсәтеләчәкләр.</string>
   <string name="General">Уртак</string>
   <string name="NotificationsOn">Кабызу</string>
   <string name="NotificationsOff">Сүндерү</string>
@@ -706,6 +713,7 @@
   <string name="DirectShare">Direct Share</string>
   <string name="DirectShareInfo">Күптән түгелге чатларны \"Бүлешү\" бүлегендә күрсәтү</string>
   <string name="Emoji">Смайликлар</string>
+  <string name="EmojiBigSize">Зур смайликларны күрсәтү</string>
   <string name="EmojiUseDefault">Система смайликларын куллану</string>
   <!--cache view-->
   <string name="LocalDatabase">Локаль мәгълүмат базасы</string>
@@ -907,6 +915,7 @@
   <string name="PendingEmailText">Сезнең торгызыр өчен %1$s электрон почта адресы әлегә актив түгел һәм раслауны көтә.</string>
   <!--data settings-->
   <string name="DataSettings">Трафик һәм саклау урыны</string>
+  <string name="DataUsage">Челтәрне һәм җыйгычны куллану</string>
   <string name="StorageUsage">Кэш көйләүләре</string>
   <string name="MobileUsage">Мобиль трафик</string>
   <string name="RoamingUsage">Роумингтагы трафик</string>
@@ -1057,6 +1066,7 @@
   <string name="FloodWait">Бик күп эшләп карау, зинһар, соңрак яңадан эшләп карагыз</string>
   <string name="FloodWaitTime">Бик күп тырышып карау, %1$s вакыт үткәч яңадан эшләп карагыз</string>
   <string name="InvalidCode">Код дөрес түгел</string>
+  <string name="PhoneNumberFlood">Кызганычка каршы, Сез аккаунтыгызны бик еш бетердегез һәм яңадан эшләдегез. Яңадан эшләү өчен берничә көн көтегез.</string>
   <string name="InvalidFirstName">Исем дөрес түгел</string>
   <string name="InvalidLastName">Фамилия дөрес түгел</string>
   <string name="Loading">Йөкләү...</string>
@@ -1119,6 +1129,7 @@
   <string name="PermissionNoCamera">Фото һәм видео җибәрер өчен җайланмагызның камерасын куллану рөхсәте сорала.</string>
   <string name="PermissionNoLocation">Дусларыгызга урнашу урыныгызны җибәрү өчен Telegramга урнашу урыныгызны күрү мөмкинчелеге кирәк.</string>
   <string name="PermissionNoLocationPosition">Telegramга урнашу урыныгызга мөмкинлек кирәк.</string>
+  <string name="PermissionDrawAboveOtherApps">Telegramга видеоны бөтен тәрәзәләр өстеннән күрсәтү өчен тиешле рөхсәт кирәк.</string>
   <string name="PermissionOpenSettings">КӨЙЛӘҮЛӘР</string>
   <!--Intro view-->
   <string name="Page1Title">Telegram</string>
@@ -1143,6 +1154,7 @@
   <string name="VoipConnecting">Тоташу</string>
   <string name="VoipExchangingKeys">Шифрлау ачкычлары белән алмашу</string>
   <string name="VoipWaiting">Көтү</string>
+  <string name="VoipRequesting">Сорату</string>
   <string name="VoipHangingUp">Тәмамлау</string>
   <string name="VoipCallEnded">Шалтырату тәмам</string>
   <string name="VoipFailed">Тоташып булмады</string>
@@ -1170,7 +1182,9 @@
   <string name="CallMessageIncoming">Керүче шалтырату</string>
   <string name="CallMessageIncomingMissed">Алынмаган шалтырату</string>
   <string name="CallMessageOutgoingMissed">Кире кагылган шалтырату</string>
+  <string name="NoCallLog">Сез беркемгә дә шалтыратмадыгыз әле.</string>
   <string name="VoipRateCallAlert">Зинһар, Telegram аша сөйләшүнең сыйфатын бәяләгез</string>
+  <string name="VoipFeedbackAlert">Шалтыратуларны яхшыртыр өчен бәяләмә калдырырга телисезме?</string>
   <!--plural-->
   <string name="Online_zero">%1$d челтәрдә</string>
   <string name="Online_one">%1$d челтәрдә</string>
@@ -1390,6 +1404,8 @@
   <string name="AndOther_many">һәм тагын %1$d</string>
   <string name="AndOther_other">һәм тагын %1$d</string>
   <!--date formatters-->
+  <string name="formatterStats12H">dd MMM yyyy, h:mm a</string>
+  <string name="formatterStats24H">dd MMM yyyy, HH:mm</string>
   <string name="formatterMonthYear">MMMM yyyy</string>
   <string name="formatterMonth">dd MMM</string>
   <string name="formatterYear">dd.MM.yy</string>
