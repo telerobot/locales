@@ -22,6 +22,12 @@
   <string name="Code">Kod</string>
   <string name="WrongNumber">Numara yanlış mı?</string>
   <string name="DidNotGetTheCode">Kodu almadınız mı?</string>
+  <string name="CancelAccountReset">Hesap sıfırlamayı iptal et</string>
+  <string name="CancelAccountResetInfo"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> numaranıza erişen birisi hesabınızı silmek ve 2 Adımlı Doğrulamayı sıfırlamak istedi. Eğer siz değilseniz, telefon numaranıza SMS ile gönderdiğimiz kodu girin.</string>
+  <string name="ResetAccount">Hesabı sıfırla</string>
+  <string name="ResetAccountButton">SIFIRLA</string>
+  <string name="CancelLinkExpired">Bağlantı geçersiz ya da süresi dolmuş.</string>
+  <string name="CancelLinkSuccess">%1$s hesabınız için silme işlemi iptal edildi. Şimdi bu pencereyi kapatabilirsiniz.</string>
   <!--signup view-->
   <string name="YourName">Adınız</string>
   <string name="RegisterText">Adınızı ve soyadınızı ayarlayın</string>
@@ -30,6 +36,7 @@
   <string name="LastName">Soyadınız (isteğe bağlı)</string>
   <string name="CancelRegistration">Kaydı iptal et</string>
   <!--chats view-->
+  <string name="NewConversationShortcut">Yeni konuşma</string>
   <string name="Settings">Ayarlar</string>
   <string name="Contacts">Kişiler</string>
   <string name="NewGroup">Yeni Grup</string>
@@ -70,6 +77,13 @@
   <string name="LinkPreview">Bağlantı önizlemesi</string>
   <string name="Draft">Taslak</string>
   <string name="HistoryCleared">Geçmiş temizlendi</string>
+  <string name="ArticleByAuthor">%1$s tarafından</string>
+  <string name="ArticleDateByAuthor">%2$s tarafından %1$s</string>
+  <string name="PreviewFeedback">Bu ön izleme için öneride bulunun</string>
+  <string name="SendStickerPreview">Etiket gönder</string>
+  <string name="ViewPackPreview">Paketi görüntüle</string>
+  <string name="PinToTop">Üste sabitle</string>
+  <string name="UnpinFromTop">Üste sabitlemeyi kaldır</string>
   <!--channels-->
   <string name="GroupType">Grup Türü</string>
   <string name="ChannelType">Kanal Türü</string>
@@ -100,6 +114,7 @@
   <string name="ActionPinnedSticker">un1 bir çıkartma sabitledi</string>
   <string name="ActionPinnedVoice">un1 bir sesli ileti sabitledi</string>
   <string name="ActionPinnedContact">un1 bir kişi sabitledi</string>
+  <string name="ActionPinnedGame">un1 sabitledi: \"%1$s\"</string>
   <string name="ActionPinnedGeo">un1 bir harita sabitledi</string>
   <string name="ActionPinnedGif">un1 bir GIF sabitledi</string>
   <string name="ActionPinnedMusic">un1 bir parça sabitledi</string>
@@ -255,11 +270,14 @@
   <string name="IsRecordingAudio">%1$s sesli mesaj kaydediyor...</string>
   <string name="IsSendingAudio">%1$s ses gönderiyor...</string>
   <string name="IsSendingPhoto">%1$s fotoğraf gönderiyor...</string>
+  <string name="InstantView">HIZLI BAK</string>
+  <string name="IsSendingGame">%1$s oyun oynuyor...</string>
   <string name="IsSendingVideo">%1$s video gönderiyor...</string>
   <string name="IsSendingFile">%1$s dosya gönderiyor...</string>
   <string name="RecordingAudio">sesli mesaj kaydediyor...</string>
   <string name="SendingAudio">ses gönderiyor...</string>
   <string name="SendingPhoto">fotoğraf gönderiyor...</string>
+  <string name="SendingGame">oyun oynuyor...</string>
   <string name="SendingVideoStatus">video gönderiyor...</string>
   <string name="SendingFile">dosya gönderiyor...</string>
   <string name="GotAQuestion">Telegram ile ilgili
@@ -301,6 +319,7 @@ sorunuz mu var?</string>
   <string name="ServiceNotifications">Servis bildirimleri</string>
   <string name="GettingLinkInfo">Bağlantı bilgisi alınıyor...</string>
   <string name="OpenInBrowser">BİRLİKTE AÇ...</string>
+  <string name="OpenInExternalApp">Birlikte aç...</string>
   <string name="CopyUrl">Adresi Kopyala</string>
   <string name="SendItems">Gönder %1$s</string>
   <string name="OpenUrlAlert">%1$s? bağlantısını aç?</string>
@@ -336,6 +355,16 @@ sorunuz mu var?</string>
   <string name="TimeToEditExpired">Üzgünüz, düzenleme süresi doldu.</string>
   <string name="AddShortcut">Kısayol Ekle</string>
   <string name="ShortcutAdded">Kısayol ana ekrana eklendi</string>
+  <string name="ChatYourSelf">kendinizle sohbetiniz</string>
+  <string name="ChatYourSelfName">Sen</string>
+  <string name="ChatYourSelfDescription1">Mesajları kaydetmek için buraya iletin</string>
+  <string name="ChatYourSelfDescription2">Kaydetmek için medya ve dosyaları gönder</string>
+  <string name="ChatYourSelfDescription3">Herhangi bir cihazdan bu sohbete eriş</string>
+  <string name="ChatYourSelfDescription4">Çabucak bulmak için aramayı kullanın</string>
+  <string name="ChatYourSelfTitle">Bulut depolamanız</string>
+  <string name="JumpToDate">Güne atla</string>
+  <string name="DeleteForUser">%1$s için Sil</string>
+  <string name="DeleteForAll">Bütün üyeler için sil</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s kendini imha etme zamanlayıcısı %2$s olarak belirledi</string>
   <string name="MessageLifetimeChangedOutgoing">Kendini imha etme zamanlayıcısını %1$s olarak belirlediniz</string>
@@ -348,6 +377,7 @@ sorunuz mu var?</string>
   <string name="NotificationMessageVideo">%1$s size bir video gönderdi</string>
   <string name="NotificationMessageContact">%1$s sizinle bir kişi paylaştı</string>
   <string name="NotificationMessageMap">%1$s size bir konum gönderdi</string>
+  <string name="NotificationMessageGame">%1$s, sizi %2$s oynamak için davet etti.</string>
   <string name="NotificationMessageDocument">%1$s size bir dosya gönderdi</string>
   <string name="NotificationMessageGif">%1$s size bir GIF gönderdi</string>
   <string name="NotificationMessageAudio">%1$s size bir sesli bir mesaj gönderdi</string>
@@ -360,6 +390,7 @@ sorunuz mu var?</string>
   <string name="NotificationMessageGroupVideo">%1$s, %2$s grubuna bir video gönderdi</string>
   <string name="NotificationMessageGroupContact">%1$s, %2$s grubuna bir kişi paylaştı</string>
   <string name="NotificationMessageGroupMap">%1$s %2$s grubuna bir konum gönderdi</string>
+  <string name="NotificationMessageGroupGame">%1$s, %3$s oynamak için sizi %2$s grubuna davet etti</string>
   <string name="NotificationMessageGroupDocument">%1$s, %2$s grubuna bir dosya gönderdi</string>
   <string name="NotificationMessageGroupGif">%1$s, %2$s grubuna bir GIF gönderdi</string>
   <string name="NotificationMessageGroupAudio">%1$s, %2$s grubuna sesli bir mesaj gönderdi</string>
@@ -386,6 +417,7 @@ sorunuz mu var?</string>
   <string name="NotificationActionPinnedText">%1$s, %3$s grubunda \"%2$s\" mesajını sabitledi</string>
   <string name="NotificationActionPinnedNoText">%1$s, %2$s grubunda bir mesaj sabitledi</string>
   <string name="NotificationActionPinnedPhoto">%1$s, %2$s grubunda bir fotoğraf sabitledi</string>
+  <string name="NotificationActionPinnedGame">%1$s, %2$s grubunda bir oyun sabitledi</string>
   <string name="NotificationActionPinnedVideo">%1$s, %2$s grubunda bir video sabitledi</string>
   <string name="NotificationActionPinnedFile">%1$s, %2$s grubunda bir dosya sabitledi</string>
   <string name="NotificationActionPinnedSticker">%1$s, %2$s grubunda bir çıkartma sabitledi</string>
@@ -407,6 +439,7 @@ sorunuz mu var?</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s bir harita sabitledi</string>
   <string name="NotificationActionPinnedGifChannel">%1$s bir GIF sabitledi</string>
   <string name="NotificationActionPinnedMusicChannel">%1$s bir parça sabitledi</string>
+  <string name="NotificationActionPinnedGameChannel">%1$s bir oyun sabitledi</string>
   <!--contacts view-->
   <string name="SelectContact">Kişi Seç</string>
   <string name="NoContacts">Henüz kişi yok</string>
@@ -425,6 +458,7 @@ sorunuz mu var?</string>
   <string name="ALongTimeAgo">son görülme uzun zaman önce</string>
   <string name="NewMessageTitle">Yeni Mesaj</string>
   <!--group create view-->
+  <string name="SendMessageTo">Kişi ekle...</string>
   <string name="SoftUserLimitAlert">Grup oluşturmayı tamamlayıp bunu bir süper gruba çevirdikten sonra daha fazla kullanıcı ekleyebileceksiniz.</string>
   <string name="EnterGroupNamePlaceholder">Grup adını girin</string>
   <string name="GroupName">Grup adı</string>
@@ -438,6 +472,8 @@ sorunuz mu var?</string>
   <string name="RevokeAlertNewLink">Önceki davetiye linki artık aktif değil. Yeni bir link oluşturuldu.</string>
   <string name="RevokeButton">İptal Et</string>
   <string name="RevokeLink">Linki İptal Et</string>
+  <string name="RevokeLinkAlert"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> linkini kaldırmak istediğinizden emin misiniz?\n\n\"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" grubu gizli olacak.</string>
+  <string name="RevokeLinkAlertChannel"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> linkini kaldırmak istediğinizden emin misiniz?\n\n\"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" kanalı gizli olacak.</string>
   <string name="CopyLink">Linki Kopyala</string>
   <string name="ShareLink">Linki Paylaş</string>
   <string name="LinkInfo">Telegram kullanan herkes bu linki kullanarak grubunuza katılabilir.</string>
@@ -459,11 +495,15 @@ sorunuz mu var?</string>
   <string name="ConvertGroupMenu">Süpergruba dönüştür</string>
   <string name="ConvertGroupAlertWarning">Uyarı</string>
   <string name="ConvertGroupAlert">Bu işlem geri alınamaz. Bir süpergrubu normal gruba dönüştürmek mümkün değildir.</string>
+  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Üye sınırına ulaşıldı.<![CDATA[</b>]]>\n\nSınırı geçmek ve ek özellikler almak için süpergruba yükseltin:\n\n• Supergroups can get up to %1$s\n• Yeni üyeler bütün mesajları görebilir\n• Silinen mesajlar büyün üyeler için silinir\n• Yöneticiler önemli mesajları sabitleyebilir\n• Grup sahibi grup için genel bir bağlantı oluşturabilir</string>
+  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>Süpergruplarda:<![CDATA[</b>]]>\n\n• Yeni üyeler bütün mesaj geçmişini görebilir\n• Silinen mesajlar büyün üyeler için silinir\n• Üyeler kendi mesajlarını düzenleyebilir\n• Grup sahibi grup için genel bir bağlantı oluşturabilir</string>
   <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Not:<![CDATA[</b>]]> bu işlem geri alınamaz.</string>
   <!--contact info view-->
   <string name="ShareContact">Paylaş</string>
   <string name="AddContact">Ekle</string>
   <string name="AddContactTitle">Kişi ekle</string>
+  <string name="ContactNotRegistered">%1$s henüz Telegram\'da değil, davet etmek ister misiniz?</string>
+  <string name="Invite">Davet et</string>
   <string name="BlockContact">Engelle</string>
   <string name="EditContact">Düzenle</string>
   <string name="DeleteContact">Sil</string>
@@ -473,6 +513,9 @@ sorunuz mu var?</string>
   <string name="PhoneOther">Diğer</string>
   <string name="PhoneMain">Anasayfa</string>
   <string name="StartEncryptedChat">Gizli Sohbet Başlat</string>
+  <string name="GroupsInCommon">Ortak Gruplar</string>
+  <string name="GroupsInCommonTitle">Ortak gruplar.</string>
+  <string name="NoGroupsInCommon">Henüz ortak grup yok</string>
   <string name="CreateEncryptedChatError">Bir hata oluştu.</string>
   <string name="EncryptionKey">Şifreleme Anahtarı</string>
   <string name="MessageLifetime">Kendini imha etme zamanlayıcı</string>
@@ -492,6 +535,7 @@ sorunuz mu var?</string>
   <string name="UsernameInvalidStartNumber">Maalesef, kullanıcı adı bir sayı ile başlayamaz.</string>
   <string name="UsernameHelp"><![CDATA[<b>Telegram</b> üzerinde bir kullanıcı adı seçebilirsiniz. Eğer seçerseniz, diğer kişiler sizi numaranız olmadan bu kullanıcı adıyla bulabilir ve sizinle iletişime geçebilir. <br><br><b>a–z</b>, <b>0–9</b> ve alt çizgi kullanabilirsiniz. En az <b>5</b> karakter uzunluğunda olmalıdır.
 ]]></string>
+  <string name="UsernameHelpLink">Bu bağlantı Telegram\'da sizinle bir sohbet başlatır:\n%1$s</string>
   <string name="UsernameChecking">Kullanıcı adı kontrol ediliyor ...</string>
   <string name="UsernameAvailable">%1$s kullanılabilir.</string>
   <string name="UsernameEmpty">Yok</string>
@@ -499,15 +543,35 @@ sorunuz mu var?</string>
   <!--stickers view-->
   <string name="Stickers">Çıkartmalar</string>
   <string name="AddStickers">Çıkartma Ekle</string>
+  <string name="AddMasks">Maske Ekle</string>
   <string name="AddToStickers">Çıkartmalara Ekle</string>
+  <string name="AddToMasks">Maskelere Ekle</string>
   <string name="AddStickersNotFound">Çıkartmalar bulunamadı.</string>
   <string name="StickersRemoved">Çıkartmalar kaldırıldı</string>
+  <string name="MasksRemoved">Maskeler kaldırıldı</string>
   <string name="AddStickersInstalled">Yeni çıkartmalar eklendi</string>
+  <string name="AddMasksInstalled">Yeni maskeler eklendi</string>
+  <string name="StickersHide">Arşiv</string>
   <string name="StickersShare">Paylaş</string>
   <string name="StickersCopy">Linki kopyala</string>
   <string name="StickersRemove">Kaldır</string>
   <string name="NoStickers">Henüz çıkartma yok</string>
+  <string name="NoMasks">Henüz maske yok</string>
+  <string name="Masks">Maskeler</string>
+  <string name="MasksInfo">Gönderdiğiniz fotoğraflara maskeler ekleyebilirsiniz. Bunu yapmak için, fotoğrafları göndermeden önce fotoğraf editörünü açın.</string>
+  <string name="FeaturedStickers">Popüler Etiketler</string>
+  <string name="FeaturedStickersInfo">Bu etiketler şu anda Telegram\'da popüler. @stickers robotu ile özel etiketler ekleyebilirsiniz.</string>
+  <string name="ArchivedStickers">Arşivlenmiş Etiketler</string>
+  <string name="ArchivedMasks">Arşivlenmiş Maskeler</string>
+  <string name="ArchivedStickersEmpty">Arşivlenmiş etiket yok.</string>
+  <string name="ArchivedMasksEmpty">Arşivlenmiş maske yok.</string>
+  <string name="ArchivedStickersInfo">200 etikete kadar etiket kurabilirsiniz. Yeni etiket paketleri ekledikçe kullanmadığınız etiketler arşivlenir.</string>
+  <string name="ArchivedMasksInfo">200 maskeye kadar maske kurabilirsiniz. Yeni maske paketleri ekledikçe kullanmadığınız maskeler arşivlenir.</string>
   <string name="SendSticker">ÇIKARTMA GÖNDER</string>
+  <string name="ArchivedStickersAlertTitle">Arşivlenmiş etiketler</string>
+  <string name="ArchivedStickersAlertInfo">Bazı eski etiketleriniz arşivlendi. Etiket Ayarlarından yeniden aktif edebilirsiniz.</string>
+  <string name="ArchivedMasksAlertTitle">Arşivlenmiş maskeler</string>
+  <string name="ArchivedMasksAlertInfo">Bazı eski maskeleriniz arşivlendi. Maske Ayarlarından yeniden aktif edebilirsiniz.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Tüm bildirim ayarlarını varsayılana sıfırla</string>
   <string name="TextSize">Mesaj Yazı Boyutu</string>
@@ -530,6 +594,27 @@ sorunuz mu var?</string>
   <string name="ResetAllNotifications">Tüm Bildirimleri Sıfırla</string>
   <string name="UndoAllCustom">Tüm kişi ve gruplarınız için yapılan bildirim ayarlarını geri alın</string>
   <string name="NotificationsAndSounds">Bildirimler ve Sesler</string>
+  <string name="CustomNotifications">Özel Bildirimler</string>
+  <string name="ProfilePopupNotification">Açılır pencere bildirimleri</string>
+  <string name="ProfilePopupNotificationInfo">Bu kişiden gelen mesajlar Telegram açık olmasa bile ekranınızda görünecek.</string>
+  <string name="NotificationsLed">LED</string>
+  <string name="NotificationsLedColor">Renk</string>
+  <string name="ColorBlue">Mavi</string>
+  <string name="ColorRed">Kırmızı</string>
+  <string name="ColorYellow">Sarı</string>
+  <string name="ColorGreen">Yeşil</string>
+  <string name="ColorCyan">Cam göbeği</string>
+  <string name="ColorWhite">Beyaz</string>
+  <string name="ColorPink">Pembe</string>
+  <string name="ColorViolet">Mor</string>
+  <string name="ColorOrange">Turuncu</string>
+  <string name="NotificationsLedInfo">LED gelen mesajları bildirmek için bazı cihazlarda bulunan küçük ışıktır.</string>
+  <string name="PriorityInfo">Yüksek öncelikli bildirimler telefonunuz rahatsız etme modunda bile olsa çalışır.</string>
+  <string name="General">Genel</string>
+  <string name="NotificationsOn">Açı</string>
+  <string name="NotificationsOff">Kapalı</string>
+  <string name="NotificationsTurnOn">A</string>
+  <string name="NotificationsTurnOff">Kapat</string>
   <string name="BlockedUsers">Engellenen Kullanıcılar</string>
   <string name="LogOut">Oturumu Kapat</string>
   <string name="NoSound">Ses yok</string>
@@ -538,7 +623,7 @@ sorunuz mu var?</string>
   <string name="OnlyIfSilent">Sadece eğer sessizse</string>
   <string name="ChatBackground">Sohbet Arka Planı</string>
   <string name="MessagesSettings">Mesajlar</string>
-  <string name="SendByEnter">Giriş (Enter) Tuşu ile Gönderir</string>
+  <string name="SendByEnter">Giriş (Enter) Tuşu ile Gönder</string>
   <string name="TerminateAllSessions">Diğer tüm oturumları kapat</string>
   <string name="Events">Olaylar</string>
   <string name="ContactJoined"> Kişi Telegram\'a katıldı!</string>
@@ -580,7 +665,11 @@ sorunuz mu var?</string>
   <string name="RaiseToSpeak">Konuşmak için Kaldır</string>
   <string name="SaveToGallerySettings">Galeriye kaydet</string>
   <string name="EditName">Adı düzenle</string>
+  <string name="NotificationsCustomize">Özelleştir</string>
+  <string name="NotificationsCustom">Özel</string>
+  <string name="NotificationsEnableCustom">Özel Bildirimleri Etkinleştir</string>
   <string name="NotificationsPriority">Öncelik</string>
+  <string name="NotificationsPrioritySettings">Ayarlardaki ile Aynı</string>
   <string name="NotificationsPriorityDefault">Varsayılan</string>
   <string name="NotificationsPriorityLow">Düşük</string>
   <string name="NotificationsPriorityHigh">Yüksek</string>
@@ -598,19 +687,26 @@ sorunuz mu var?</string>
   <string name="NotificationsOther">Diğer</string>
   <string name="NotificationsDisabled">Devredışı</string>
   <string name="VibrationDisabled">Devredışı</string>
+  <string name="PopupEnabled">Etkin</string>
+  <string name="PopupDisabled">Devre dışı</string>
   <string name="LedDisabled">Devre dışı</string>
   <string name="RepeatDisabled">Kapalı</string>
   <string name="InChatSound">Mesajlaşma-içi sesleri</string>
   <string name="SoundDefault">Varsayılan</string>
   <string name="VibrationDefault">Varsayılan</string>
   <string name="SmartNotifications">Akıllı Bildirimler</string>
+  <string name="SmartNotificationsInfo">%1$d / %2$s</string>
   <string name="SmartNotificationsDisabled">Kapalı</string>
+  <string name="SmartNotificationsAlert">Sesli Bildirim Sıklığı</string>
   <string name="SecretWebPage">Bağlantı Önizlemeleri</string>
   <string name="SecretChat">Gizli sohbetler</string>
   <string name="ChromeCustomTabs">Uygulama-İçi Tarayıcı</string>
   <string name="ChromeCustomTabsInfo">Dış bağlantıları uygulama içinde aç</string>
   <string name="DirectShare">Direkt Paylaşım</string>
   <string name="DirectShareInfo">Paylaş menüsünde son konuşmaları göster</string>
+  <string name="Emoji">Emoji</string>
+  <string name="EmojiBigSize">Tek büyük emoji çiz</string>
+  <string name="EmojiUseDefault">Sistem varsayılan emojisini kullan.</string>
   <!--cache view-->
   <string name="LocalDatabase">Yerel Veritabanı</string>
   <string name="LocalDatabaseClear">Önbelleğe alınan metin mesajlarını temizle?</string>
@@ -623,6 +719,7 @@ sorunuz mu var?</string>
   <string name="LocalAudioCache">Sesli mesajlar</string>
   <string name="LocalVideoCache">Videolar</string>
   <string name="LocalMusicCache">Müzik</string>
+  <string name="LocalGifCache">GIFler</string>
   <string name="LocalCache">Diğer dosyalar</string>
   <string name="CacheEmpty">Boş</string>
   <string name="KeepMedia">Medyayı Sakla</string>
@@ -662,6 +759,8 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="FingerprintInfo">Devam etmek için parmak izinizi doğrulayın</string>
   <string name="FingerprintHelp">Dokunma sensörü</string>
   <string name="FingerprintNotRecognized">Parmak izi tanımlı değil. Tekrar deneyin</string>
+  <string name="ScreenCapture">Ekran Yakalamaya İzin Ver</string>
+  <string name="ScreenCaptureInfo">Eğer etkinleştirilirse, uygulamanın ekran görüntülerini alabilirsiniz, fakat sistem pin kodunuz açık olsa bile uygulama geçişlerinde sohbetlerinizi gösterecektir.\n\nDeğişikliklerin etkinleşmesi için uygulamayı yeniden başlatmanız gerekebilir.</string>
   <!--media view-->
   <string name="DocumentsTitle">Paylaşılan Dosyalar</string>
   <string name="SharedMediaTitle">Paylaşılan Medya</string>
@@ -738,7 +837,19 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="AddCaption">Başlık ekleyin...</string>
   <string name="PhotoCaption">Resim Başlığı</string>
   <string name="VideoCaption">Video Başlığı</string>
+  <string name="GifCaption">GIF Başlığı</string>
   <string name="Caption">Başlık</string>
+  <string name="PaintDraw">Çiz</string>
+  <string name="PaintStickers">Etiketler</string>
+  <string name="PaintText">Metin</string>
+  <string name="PaintDelete">Sil</string>
+  <string name="PaintEdit">Düzenle</string>
+  <string name="PaintDuplicate">Kopyala</string>
+  <string name="PaintOutlined">Anahat</string>
+  <string name="PaintRegular">Normal</string>
+  <string name="CropReset">Sıfırla</string>
+  <string name="CropOriginal">Orijinal</string>
+  <string name="CropSquare">Kare</string>
   <!--password view-->
   <string name="TwoStepVerification">2 Adımlı Doğrulama</string>
   <string name="SetAdditionalPassword">İlave Şifre Ayarla</string>
@@ -790,6 +901,26 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="EnabledPasswordText">2 Adımla Doğrulamayı etkinleştirdiniz.\nTelegram hesabınıza giriş yapmak için ayarladığınız şifre gerekiyor.</string>
   <string name="PendingEmailText">Kurtama e-posta adresiniz (%1$s) henüz aktif değil, doğrulama işlemini tamamlamanız gerekiyor.</string>
   <!--data settings-->
+  <string name="DataSettings">Veri ve Depolama</string>
+  <string name="DataUsage">Disk ve ağ kullanımı</string>
+  <string name="StorageUsage">Depolama Kullanımı</string>
+  <string name="MobileUsage">Mobil Veri Kullanımı</string>
+  <string name="RoamingUsage">Dolaşımdaki Veri Kullanımı</string>
+  <string name="WiFiUsage">Wi-Fi Veri Kullanımı</string>
+  <string name="MessagesDataUsage">Mesajlar ve diğer veri</string>
+  <string name="CountSent">Gönder</string>
+  <string name="CountReceived">Alınan</string>
+  <string name="BytesSent">Gönderilen bayt</string>
+  <string name="BytesReceived">Alınan bayt</string>
+  <string name="FilesDataUsage">Dosyalar</string>
+  <string name="CallsDataUsage">Aramalar</string>
+  <string name="OutgoingCalls">Giden Aramalar</string>
+  <string name="IncomingCalls">Gelen Aramalar</string>
+  <string name="CallsTotalTime">Toplam zaman</string>
+  <string name="TotalDataUsage">Toplam</string>
+  <string name="ResetStatistics">İstatistikleri Sıfırla</string>
+  <string name="NetworkUsageSince">%1$s tarihinden beri veri kullanımı</string>
+  <string name="ResetStatisticsAlert">Kullanım istatistiklerinizi sıfırlamak istiyor musunuz?</string>
   <!--privacy settings-->
   <string name="PrivacySettings">Gizlilik ve Güvenlik</string>
   <string name="PrivacyTitle">Gizlilik</string>
@@ -805,6 +936,7 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="SecurityTitle">Güvenlik</string>
   <string name="DeleteAccountTitle">Hesap kendini imha eder</string>
   <string name="DeleteAccountIfAwayFor">Şu kadar süre uzaktaysanız</string>
+  <string name="DeleteAccountHelp">Eğer bu süre içinde en az bir defa çevrim içi olmazsanız, hesabınız bütün kişileriniz, mesajlarınız ve gruplarınız ile birlikte silinecek.</string>
   <string name="DeleteAccountNowConfirmation">Hesabınız silinsin mi?</string>
   <string name="LastSeenHelp">Son Görülme zamanınızı kimin görebileceğini değiştirin.</string>
   <string name="LastSeenTitle">Son Görülme zamanınızı kim görebilir?</string>
@@ -836,6 +968,7 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <!--edit video view-->
   <string name="EditVideo">Videoyu Düzenle</string>
   <string name="SendingVideo">Video gönderiliyor ...</string>
+  <string name="SendingGif">GIF Gönderiliyor...</string>
   <!--bot-->
   <string name="Bot">robot</string>
   <string name="BotShare">Paylaş</string>
@@ -872,6 +1005,8 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="Set">Ayarla</string>
   <string name="OK">Tamam</string>
   <string name="Crop">KIRP</string>
+  <string name="Yes">Evet</string>
+  <string name="No">Hayır</string>
   <!--messages-->
   <string name="ActionInviteYou">Davetiye linkini kullanarak gruba katıldınız.</string>
   <string name="ActionInviteUser">un1 davetiye linkini kullanarak gruba katıldı.</string>
@@ -885,6 +1020,10 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="ActionYouKickUser">un2 kişisini sildiniz</string>
   <string name="ActionYouLeftUser">Gruptan ayrıldınız</string>
   <string name="ActionYouAddUser">un2 kişisini eklediniz</string>
+  <string name="ActionYouScored">Puanınız %1$s</string>
+  <string name="ActionUserScored">un1 %1$s puan yaptı</string>
+  <string name="ActionYouScoredInGame">un2 oyunuda %1$s puan yaptınız</string>
+  <string name="ActionUserScoredInGame">un1, un2 oyunuda %1$s puan yaptı</string>
   <string name="ActionYouRemovedPhoto">Grup resmini sildiniz</string>
   <string name="ActionYouChangedPhoto">Grup resmini değiştirdiniz</string>
   <string name="ActionYouChangedTitle">Grup adını un2 olarak değiştirdiniz</string>
@@ -903,15 +1042,18 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="AttachDocument">Dosya</string>
   <string name="AttachSticker">Çıkartma</string>
   <string name="AttachAudio">Sesli mesaj</string>
+  <string name="AttachGame">Oyun</string>
   <string name="FromYou">Siz</string>
   <string name="ActionTakeScreenshootYou">Ekran görüntüsü aldınız!</string>
   <string name="ActionTakeScreenshoot">un1 ekran görüntüsü aldı!</string>
   <!--Alert messages-->
   <string name="InvalidPhoneNumber">Geçersiz telefon numarası</string>
+  <string name="BannedPhoneNumber">Yasaklanan telefon numarası</string>
   <string name="CodeExpired">Kodun süresi doldu, lütfen tekrar oturum açın</string>
   <string name="FloodWait">Çok fazla giriş yaptınız, lütfen daha sonra tekrar deneyin</string>
   <string name="FloodWaitTime">Çok fazla giriş denemesi yaptınız, lütfen %1$s sonra tekrar deneyin.</string>
   <string name="InvalidCode">Geçersiz kod</string>
+  <string name="PhoneNumberFlood">Üzgünüz, son zamanlarda hesabınızı çok fazla silip yeniden oluşturdunuz. Lütfen yeniden üye olmadan önce bir kaç gün bekleyin.</string>
   <string name="InvalidFirstName">Geçersiz ad</string>
   <string name="InvalidLastName">Geçersiz soyad</string>
   <string name="Loading">Yükleniyor...</string>
@@ -926,6 +1068,7 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="UserAlreadyInGroup">Bu kişi zaten bu grupta</string>
   <string name="ForwardMessagesTo">Mesajlar %1$s kişisine iletilsin mi?</string>
   <string name="SendMessagesTo">%1$s kişisine mesajlar gönderilsin mi?</string>
+  <string name="SendGameTo">%1$s kişisine oyunu paylaş?</string>
   <string name="SendContactTo">%1$s kullanıcısına kişi göndermek istiyor musunuz?</string>
   <string name="AreYouSureLogout">Çıkmak istediğinize emin misiniz?
 
@@ -954,6 +1097,7 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="AreYouSureClearHistorySuper">Bu gruptaki tüm önbelleklenen yazı ve medyaları sil?</string>
   <string name="AreYouSureDeleteMessages">%1$s\'i silmek istediğinize emin misiniz ? </string>
   <string name="SendMessagesToGroup">%1$s kişisine mesajları gönder?</string>
+  <string name="SendGameToGroup">%1$s kişisine oyunu paylaş?</string>
   <string name="SendContactToGroup">%1$s kullanıcısına kişi gönder?</string>
   <string name="ForwardMessagesToGroup">%1$s grubuna mesajları gönder?</string>
   <string name="FeatureUnavailable">Üzgünüz, bu özellik şu anda ülkenizde kullanılabilir değil.</string>
@@ -965,14 +1109,19 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="EditMessageError">Üzgünüz, bu mesajı düzenleyemezsiniz.</string>
   <string name="AllowReadSms">Sizin yerinize kodları girebilmemiz için lütfen Telegram\'ın SMS mesajarınıza erişmesine izin verin.</string>
   <string name="AllowReadCall">Sizin yerinize kodları girebilmemiz için lütfen Telegram\'ın çağrılarınıza erişmesine izin verin.</string>
+  <string name="AllowFillNumber">Lütfen çağrılarınızın ve SMS mesajlarınızın okunması için Telegram\'a izin verin, bu sayede telefon numaranızı ve size gönderdiğimiz kodları otomatik olarak tamamlayabiliriz.</string>
   <string name="AllowReadCallAndSms">Sizin yerinize kodları girebilmemiz için lütfen Telegram\'ın SMS mesajarınıza ve çağrılarınıza erişmesine izin verin.</string>
   <string name="UserRestricted">Üzgünüz, bu işlem için izinli değilsiniz.</string>
+  <string name="JoinGroup">GRUBA KATIL</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram\'ın kişilerinize erişmesi gerekiyor, bu şekilde bütün cihazlarınızda arkadaşlarınızla bağlantıda kalabilirsiniz.</string>
   <string name="PermissionStorage">Telegram\'ın depolama biriminize erişmesi gerekiyor, bu şekilde resim, video, müzik ve diğer medyalarınızı kaydedebilir ve gönderebilirsiniz.</string>
   <string name="PermissionNoAudio">Telegram\'ın mikrofonunuza erişmesi gerekiyor, bu şekilde sesli mesajlar gönderebilirsiniz.</string>
+  <string name="PermissionNoAudioVideo">Telegram\'ın mikrofonunuza erişmesi gerekiyor, bu şekilde videolar kaydedebilirsiniz.</string>
+  <string name="PermissionNoCamera">Telegram\'ın kameranıza erişmesi gerekiyor, bu şekilde fotoğraf ve video çekebilirsiniz.</string>
   <string name="PermissionNoLocation">Telegram\'ın konumunuza erişmesi gerekiyor, bu şekilde konumunuzu arkadaşlarınızla paylaşabilirsiniz.</string>
   <string name="PermissionNoLocationPosition">Telegram\'ın konumunuza erişmesi gerekli.</string>
+  <string name="PermissionDrawAboveOtherApps">Telegram\'ın diğer uygulamaların üstünde çalışabilmeye erişmesi gerekiyor, bu şekilde Resim içinde Resim modunu kullanabilirsiniz.</string>
   <string name="PermissionOpenSettings">AYARLAR</string>
   <!--Intro view-->
   <string name="Page1Title">Telegram</string>
@@ -991,6 +1140,51 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="Page7Message"><![CDATA[<b>Telegram</b> mesajları güçlü bir şekilde şifrelenmiştir<br/> ve kendini yok edebilir.]]></string>
   <string name="StartMessaging">Mesajlaşmaya Başlayın</string>
   <!--VoIP-->
+  <string name="AccountSettings">Hesap Ayarları</string>
+  <string name="VoipUseLessData">Aramalar için daha az veri kullan</string>
+  <string name="VoipIncoming">Gelen arama</string>
+  <string name="VoipConnecting">Bağlanıyor</string>
+  <string name="VoipExchangingKeys">Şifreleme anahtarı değiştiriliyor</string>
+  <string name="VoipWaiting">Bekliyor</string>
+  <string name="VoipRequesting">İstek gönderiliyor</string>
+  <string name="VoipHangingUp">Sonlandırılıyor</string>
+  <string name="VoipCallEnded">Arama sonlandırıldı</string>
+  <string name="VoipFailed">Bağlanılamıyor</string>
+  <string name="VoipRinging">Çalıyor</string>
+  <string name="VoipBusy">Hat meşgul</string>
+  <string name="VoipInCallBranding">Telegram Araması</string>
+  <string name="VoipOutgoingCall">Devam eden Telegram Araması</string>
+  <string name="VoipEndCall">Aramayı kapat</string>
+  <string name="VoipOngoingAlertTitle">Başka bir arama işlemde</string>
+  <string name="VoipOngoingAlert"><![CDATA[<b>%1$s</b>]]> ile devam eden bir aramanız var. Bu aramayı sonlandırıp <![CDATA[<b>%2$s</b>]]> ile yeni bir arama başlatmak ister misiniz?</string>
+  <string name="VoipNotificationSettings">Sesli aramalart</string>
+  <string name="VoipSettingsRingtone">Zil sesi</string>
+  <string name="VoipRingtoneInfo">Bu kişi Telegram\'da sizi aradığında kullanılacak zil sesini değiştirebilirsiniz.</string>
+  <string name="Calls">Aramalar</string>
+  <string name="WhoCanCallMe">Beni kimler arayabilir?</string>
+  <string name="WhoCanCallMeInfo">Sizi arayacak kişileri kısıtlayabilirsiniz.</string>
+  <string name="CustomCallInfo">Bu kullanıcılar yukarıdaki ayarlar göze alınmaksızın sizi arayabilecek ya da arayamayacaklar.</string>
+  <string name="UseLessDataNever">Asla</string>
+  <string name="UseLessDataOnMobile">Sadece mobil veri kullanıldığında</string>
+  <string name="UseLessDataAlways">Her zaman</string>
+  <string name="VoipAnswerCall">Cevapla</string>
+  <string name="VoipDeclineCall">Reddet</string>
+  <string name="VoipOffline">Şu an çevrimdışısınız. Arama yapabilmek için lütfen internete bağlanın.</string>
+  <string name="VoipOfflineAirplane">Uçak modunuz etkin. Arama yapabilmek için uçak modunu kapatın ya da Wi-Fi\'ye bağlanın.</string>
+  <string name="VoipOfflineTitle">Çevrimdışı</string>
+  <string name="VoipOfflineAirplaneTitle">Uçak Modu</string>
+  <string name="VoipOfflineOpenSettings">Ayarlar</string>
+  <string name="CallMessageOutgoing">Giden Arama</string>
+  <string name="CallMessageIncoming">Gelen Arama</string>
+  <string name="CallMessageIncomingMissed">Cevapsız Arama</string>
+  <string name="CallMessageOutgoingMissed">Kapatılan Arama</string>
+  <string name="CallMessageWithDuration">%1$s (%2$s)</string>
+  <string name="CallEncryptionKeyDescription">Bu resim ve yazı <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ile yaptığınız bu arama için türetildi.<![CDATA[<br><br>]]>Eğer <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> kişisinin cihazında da aynıysa, noktadan noktaya şifreleme sağlanmış demektir.</string>
+  <string name="NoCallLog">Henüz hiç arama yapmadınız.</string>
+  <string name="VoipPeerIncompatible"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> uygulaması uyumsuz bir protokol kullanıyor. Arama yapabilmeniz için uygulamasını güncellemesi gerekiyor.</string>
+  <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> uygulaması aramaları desteklemiyor. Arama yapabilmeniz için uygulamasını güncellemesi gerekiyor.</string>
+  <string name="VoipRateCallAlert">Telegram aramanızın kalitesini değerlendirin</string>
+  <string name="VoipFeedbackAlert">Arama servisimizi daha geliştirmemiz için öneride bulunmak ister misiniz?</string>
   <!--plural-->
   <string name="Online_zero">%1$d çevrimiçi</string>
   <string name="Online_one">%1$d çevrimiçi</string>
@@ -1106,6 +1300,12 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="Photos_few">%1$d fotoğraf</string>
   <string name="Photos_many">%1$d fotoğraf</string>
   <string name="Photos_other">%1$d fotoğraf</string>
+  <string name="Points_zero">%1$d</string>
+  <string name="Points_one">%1$d</string>
+  <string name="Points_two">%1$d</string>
+  <string name="Points_few">%1$d</string>
+  <string name="Points_many">%1$d</string>
+  <string name="Points_other">%1$d</string>
   <string name="LastSeenMinutes_zero">son görülme %1$d dakika önce</string>
   <string name="LastSeenMinutes_one">son görülme %1$d dakika önce</string>
   <string name="LastSeenMinutes_two">son görülme %1$d dakika önce</string>
@@ -1118,6 +1318,30 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="LastSeenHours_few">son görülme %1$d saat önce</string>
   <string name="LastSeenHours_many">son görülme %1$d saat önce</string>
   <string name="LastSeenHours_other">son görülme %1$d saat önce</string>
+  <string name="SecondsBold_zero"><![CDATA[<b>%1$d</b>]]> saniye</string>
+  <string name="SecondsBold_one"><![CDATA[<b>%1$d</b>]]> saniye</string>
+  <string name="SecondsBold_two"><![CDATA[<b>%1$d</b>]]> saniye</string>
+  <string name="SecondsBold_few"><![CDATA[<b>%1$d</b>]]> saniye</string>
+  <string name="SecondsBold_many"><![CDATA[<b>%1$d</b>]]> saniye</string>
+  <string name="SecondsBold_other"><![CDATA[<b>%1$d</b>]]> saniye</string>
+  <string name="MinutesBold_zero"><![CDATA[<b>%1$d</b>]]> dakika</string>
+  <string name="MinutesBold_one"><![CDATA[<b>%1$d</b>]]> dakika</string>
+  <string name="MinutesBold_two"><![CDATA[<b>%1$d</b>]]> dakika</string>
+  <string name="MinutesBold_few"><![CDATA[<b>%1$d</b>]]> dakika</string>
+  <string name="MinutesBold_many"><![CDATA[<b>%1$d</b>]]> dakika</string>
+  <string name="MinutesBold_other"><![CDATA[<b>%1$d</b>]]> dakika</string>
+  <string name="HoursBold_zero"><![CDATA[<b>%1$d</b>]]> saat</string>
+  <string name="HoursBold_one"><![CDATA[<b>%1$d</b>]]> saat</string>
+  <string name="HoursBold_two"><![CDATA[<b>%1$d</b>]]> saat</string>
+  <string name="HoursBold_few"><![CDATA[<b>%1$d</b>]]> saat</string>
+  <string name="HoursBold_many"><![CDATA[<b>%1$d</b>]]> saat</string>
+  <string name="HoursBold_other"><![CDATA[<b>%1$d</b>]]> saat</string>
+  <string name="DaysBold_zero"><![CDATA[<b>%1$d</b>]]> gün</string>
+  <string name="DaysBold_one"><![CDATA[<b>%1$d</b>]]> gün</string>
+  <string name="DaysBold_two"><![CDATA[<b>%1$d</b>]]> gün</string>
+  <string name="DaysBold_few"><![CDATA[<b>%1$d</b>]]> gün</string>
+  <string name="DaysBold_many"><![CDATA[<b>%1$d</b>]]> gün</string>
+  <string name="DaysBold_other"><![CDATA[<b>%1$d</b>]]> gün</string>
   <!--forwarded messages-->
   <string name="ForwardedMessage_zero">%1$d iletilen mesaj</string>
   <string name="ForwardedMessage_one">İletilen Mesaj</string>
@@ -1180,6 +1404,8 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="AndOther_many">ve %1$d diğerleri</string>
   <string name="AndOther_other">ve %1$d diğerleri</string>
   <!--date formatters-->
+  <string name="formatterStats12H">MMM dd yyyy, h:mm a</string>
+  <string name="formatterStats24H">MMM dd yyyy, HH:mm</string>
   <string name="formatterMonthYear">MMMM yyyy</string>
   <string name="formatterMonth">dd MMM</string>
   <string name="formatterYear">dd.MM.yy</string>
