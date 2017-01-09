@@ -192,7 +192,7 @@
   <string name="ChannelAdminNotParticipant">Cet utilisateur n\'a pas encore rejoint cette chaîne. Voulez vous l\'inviter?</string>
   <string name="ChannelLinkInfo">Quelqu\'un qui à Telegram sera capable de rejoindre votre chaîne en suivant ce lien.</string>
   <string name="ChannelAdminsInfo">Vous pouvez ajouter des administrateurs pour vous aider à gérer votre chaîne. Touchez et maintenez pour retirer des administrateurs.</string>
-  <string name="ChannelJoinTo">Voulez-vous rejoindre la chaîne \'%1$s\'?</string>
+  <string name="ChannelJoinTo">Voulez-vous rejoindre la chaîne \'%1$s\' ?</string>
   <string name="ChannelCantOpenPrivate">Désolé, cette conversation n\'est plus accessible.</string>
   <string name="ChannelCantOpenBanned">Vous avez malheureusement été banni et ne pouvez pas participer à des groupes publics.</string>
   <string name="ChannelCantOpenNa">Désolé, cette conversation n\'est plus accessible.</string>
@@ -201,7 +201,7 @@
   <string name="ChannelUserCantAdd">Désolé, vous ne pouvez pas ajouter cet utilisateur dans des chaînes.</string>
   <string name="ChannelUserCantAdmin">Désolé, il y a trop d\'admins pour cette chaîne.</string>
   <string name="ChannelUserCantBot">Désolé, il y a trop de bots dans cette chaîne.</string>
-  <string name="ChannelUserAddLimit">Désolé, Vous pouvez seulement ajouter les 200 premiers membres à la chaîne. Notez qu\'un nombre illimité de personnes peuvent rejoindre la chaîne via le liens d\'invitation.</string>
+  <string name="ChannelUserAddLimit">Désolé, vous pouvez seulement ajouter les 200 premiers membres à la chaîne. Notez qu\'un nombre illimité de personnes peuvent rejoindre la chaîne via le lien d\'invitation.</string>
   <string name="ChannelAddedBy">un1 vous a ajouté à la chaîne</string>
   <string name="ChannelJoined">Vous avez rejoint cette chaîne</string>
   <string name="ChannelMegaJoined">Vous avez rejoint ce groupe</string>
@@ -411,7 +411,7 @@
   <string name="NotificationGroupKickMember">%1$s a retiré %3$s du groupe %2$s</string>
   <string name="NotificationGroupKickYou">%1$s vous a retiré du groupe %2$s</string>
   <string name="NotificationGroupLeftMember">%1$s a quitté le groupe %2$s</string>
-  <string name="NotificationContactJoined">%1$s a rejoint Telegram!</string>
+  <string name="NotificationContactJoined">%1$s a rejoint Telegram !</string>
   <string name="NotificationUnrecognizedDevice">%1$s,\nNous avons détecté une connexion à votre compte depuis un nouvel appareil le %2$s\n\nAppareil : %3$s\nPosition : %4$s\n\nSi ce n\'était pas vous, vous pouvez aller terminer cette session dans Paramètres - Vie privée et Sécurité - Sessions.\n\nSi vous pensez que quelqu\'un s\'est connecté à votre compte à votre insu, vous pouvez activer la vérification en deux étapes dans Paramètres - Vie privée et Sécurité.\n\nCordialement,\nL\'équipe Telegram</string>
   <string name="NotificationContactNewPhoto">%1$s a actualisé sa photo de profil</string>
   <string name="NotificationInvitedToGroupByLink">%1$s a rejoint le groupe %2$s avec un lien d\'invitation</string>
