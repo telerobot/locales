@@ -153,7 +153,7 @@
   <string name="ChannelAlertTitle">Coza zeło un canałe?</string>
   <string name="ChannelAlertText">I canałi i ze un strumento novo par trazmétarghe i to mesaji a un pùblego grando.</string>
   <string name="ChannelAlertCreate">CREA CANAŁE</string>
-  <string name="LinkInUse">Ne despiaze, \'sto nome el ze zà in dòparo.</string>
+  <string name="LinkInUse">Ne despiaze, \'sto nome el ze za in dòparo.</string>
   <string name="LinkInvalid">Ne despiaze, \'sto nome no\'l ze mìa vàłido.</string>
   <string name="LinkInvalidShort">I nomi de i canałi i ga da ver almanco 5 caràtari.</string>
   <string name="LinkInvalidLong">El nome no\'l ga mìa da ndar sora i 32 caràtari.</string>
@@ -178,7 +178,7 @@
   <string name="ActionChannelChangedPhoto">Foto de\'l canałe canbiada</string>
   <string name="ActionChannelRemovedPhoto">Foto de\'l canałe ełimenada</string>
   <string name="ActionChannelChangedTitle">Nome de\'l canałe canbià co un2</string>
-  <string name="ChangePublicLimitReached">Ne despiaze, A te ghè zà reservà masa nomi utente pùbleghi. Deso A te połi soło revogar el link da uno de i to grupi o canałi veci, o crear entidà privàe.</string>
+  <string name="ChangePublicLimitReached">Ne despiaze, A te ghè za reservà masa nomi utente pùbleghi. Deso A te połi soło revogar el link da uno de i to grupi o canałi veci, o crear entidà privàe.</string>
   <string name="ChannelModerator">Moderador</string>
   <string name="ChannelCreator">Creador</string>
   <string name="ChannelEditor">Aministrador</string>
@@ -469,7 +469,7 @@
   <string name="MembersCount">sełesionà %1$d de %2$d</string>
   <string name="MembersCountZero">fin a %1$s</string>
   <string name="JoinToGroup">Vutu zontarte inte ła chat \'%1$s\'?</string>
-  <string name="JoinToGroupErrorFull">Ne despiaze, \'sto grupo el ze zà pien.</string>
+  <string name="JoinToGroupErrorFull">Ne despiaze, \'sto grupo el ze za pien.</string>
   <string name="JoinToGroupErrorNotExist">Ne despiaze, \'sta chat no ła eziste mìa.</string>
   <string name="LinkCopied">Link copià inte łe note</string>
   <string name="InviteToGroupByLink">Invita inte\'l grupo co un link</string>
@@ -534,7 +534,7 @@
   <!--usernames-->
   <string name="Username">Nome utente</string>
   <string name="UsernamePlaceholder">El to nome utente</string>
-  <string name="UsernameInUse">Ne despiaze, \'sto nome utente el ze zà stà doparà.</string>
+  <string name="UsernameInUse">Ne despiaze, \'sto nome utente el ze za stà doparà.</string>
   <string name="UsernameInvalid">Ne despiaze, \'sto nome utente no\'l ze mìa vàłido.</string>
   <string name="UsernameInvalidShort">El nome utente el ga da ver almanco 5 caràtari.</string>
   <string name="UsernameInvalidLong">El nome utente no\'l ga mìa da ndar sora i 32 caràtari.</string>
@@ -582,8 +582,8 @@
   <string name="TextSize">Grandesa de\'l testo de i mesaji</string>
   <string name="AskAQuestion">Fane na dimanda</string>
   <string name="EnableAnimations">Ativa animasion</string>
-  <string name="Unblock">Desbloca</string>
-  <string name="UnblockText">Sełesiona un utente tenjéndoło strucà par desblocarlo.</string>
+  <string name="Unblock">Dezbloca</string>
+  <string name="UnblockText">Sełesiona un utente tenjéndoło strucà par dezblocarlo.</string>
   <string name="NoBlocked">Njancora njaun utente blocà</string>
   <string name="MessageNotifications">Notìfeghe mesaji</string>
   <string name="Alert">Avizo</string>
@@ -686,7 +686,7 @@
   <string name="PhoneNumberChange">CANBIA NÙMARO</string>
   <string name="ChangePhoneNewNumber">Nùmaro novo</string>
   <string name="ChangePhoneHelp">A te mandaremo un SMS co\'l còdeze de confermasion a\'l to nùmaro novo.</string>
-  <string name="ChangePhoneNumberOccupied">El nùmaro %1$s el ze zà conetesto co un account Telegram. Ełìmena chel account łà prima de móvarte so\'l to nùmaro novo.</string>
+  <string name="ChangePhoneNumberOccupied">El nùmaro %1$s el ze za conetesto co un account Telegram. Ełìmena chel account łà prima de móvarte so\'l to nùmaro novo.</string>
   <string name="NotificationsOther">Altro</string>
   <string name="NotificationsDisabled">Dezativàe</string>
   <string name="VibrationDisabled">Dezativada</string>
@@ -1067,7 +1067,7 @@
   <string name="AddToTheGroupTitle">Vutu zontar %1$s inte\'l ła chat %2$s?</string>
   <string name="AddToTheGroupForwardCount">Nùmaro de mesaji resenti da voltar:</string>
   <string name="AddToTheGroup">Vutu zontar %1$s inte\'l grupo?</string>
-  <string name="UserAlreadyInGroup">\'Sto utente el ze zà inte \'sto grupo</string>
+  <string name="UserAlreadyInGroup">\'Sto utente el ze za inte \'sto grupo</string>
   <string name="ForwardMessagesTo">Vutu voltar i mesaji a %1$s?</string>
   <string name="SendMessagesTo">Vutu mandar i mesaji a %1$s?</string>
   <string name="SendGameTo">Vutu sparpanjar el zogo co %1$s?</string>
@@ -1154,7 +1154,7 @@
   <string name="VoipOutgoingCall">Ciamada Telegram in corso</string>
   <string name="VoipEndCall">Miti zo</string>
   <string name="VoipOngoingAlertTitle">N\'antra ciamada in corso</string>
-  <string name="VoipOngoingAlert">A te ghè zà na ciamada in corso co <![CDATA[<b>%1$s</b>]]>. Vutu butarghe zo e tacar na ciamada nova co <![CDATA[<b>%2$s</b>]]>?</string>
+  <string name="VoipOngoingAlert">A te ghè za na ciamada in corso co <![CDATA[<b>%1$s</b>]]>. Vutu butarghe zo e tacar na ciamada nova co <![CDATA[<b>%2$s</b>]]>?</string>
   <string name="VoipNotificationSettings">Ciamàe vocałi</string>
   <string name="VoipSettingsRingtone">Sonarìa</string>
   <string name="VoipRingtoneInfo">A te połi parsonałizar ła sonarìa doparàda par łe ciamàe Telegram de \'sto contato.</string>
