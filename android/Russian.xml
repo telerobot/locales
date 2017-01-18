@@ -43,7 +43,7 @@
   <string name="NewConversationShortcut">Новый диалог</string>
   <string name="Settings">Настройки</string>
   <string name="Contacts">Контакты</string>
-  <string name="NewGroup">Новая группа</string>
+  <string name="NewGroup">Создать группу</string>
   <string name="Yesterday">вчера</string>
   <string name="NoResult">Нет результатов</string>
   <string name="NoChats">Чатов пока нет...</string>
@@ -51,7 +51,7 @@
   <string name="WaitingForNetwork">Ожидание сети...</string>
   <string name="Connecting">Подключение...</string>
   <string name="Updating">Обновление...</string>
-  <string name="NewSecretChat">Новый секретный чат</string>
+  <string name="NewSecretChat">Создать секретный чат</string>
   <string name="AwaitingEncryption">Ждём, когда %s появится в сети...</string>
   <string name="EncryptionRejected">Секретный чат отменён</string>
   <string name="EncryptionProcessing">Обмен ключами шифрования...</string>
@@ -86,6 +86,9 @@
   <string name="ViewPackPreview">Посмотреть весь набор</string>
   <string name="PinToTop">Закрепить</string>
   <string name="UnpinFromTop">Открепить</string>
+  <string name="Bold">Жирный</string>
+  <string name="Italic">Курсив</string>
+  <string name="Regular">Обычный</string>
   <!--channels-->
   <string name="GroupType">Тип группы</string>
   <string name="ChannelType">Тип канала</string>
@@ -278,7 +281,7 @@
   <string name="IsSendingVideo">%1$s отправляет видео...</string>
   <string name="IsSendingFile">%1$s отправляет файл...</string>
   <string name="RecordingAudio">запись голоса...</string>
-  <string name="SendingAudio">отправка аудио...</string>
+  <string name="SendingAudio">отправляет аудио...</string>
   <string name="SendingPhoto">отправка фото...</string>
   <string name="SendingGame">сейчас играет...</string>
   <string name="SendingVideoStatus">отправка видео...</string>
@@ -582,7 +585,7 @@
   <string name="ResetNotificationsText">Сброс всех настроек уведомлений на стандартные</string>
   <string name="TextSize">Размер текста сообщений</string>
   <string name="AskAQuestion">Задать вопрос</string>
-  <string name="EnableAnimations">Анимация</string>
+  <string name="EnableAnimations">Включить анимации</string>
   <string name="Unblock">Разблокировать</string>
   <string name="UnblockText">Нажмите и удерживайте имя пользователя для разблокировки</string>
   <string name="NoBlocked">Чёрный список пока пуст</string>
@@ -635,6 +638,7 @@
   <string name="ContactJoined">Контакт присоединился к Telegram</string>
   <string name="PinnedMessages">Прикреплённые сообщения</string>
   <string name="Language">Язык</string>
+  <string name="Theme">Тема</string>
   <string name="AskAQuestionInfo">Пожалуйста, имейте в виду, что поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но, возможно, придётся подождать. <![CDATA[<br><br>]]>Вы также можете прочитать <![CDATA[<a href=\"https://tlgrm.ru/faq#general\">ответы на часто задаваемые вопросы</a>]]> и <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">решения проблем</a>]]>.</string>
   <string name="AskButton">Спросить добровольца</string>
   <string name="TelegramFaq">Вопросы и ответы о Telegram</string>
@@ -712,6 +716,10 @@
   <string name="Emoji">Эмодзи</string>
   <string name="EmojiBigSize">Отобажать большие смайлы</string>
   <string name="EmojiUseDefault">Использовать системные смайлы</string>
+  <string name="TelegramVersion">Telegram для Android %1$s</string>
+  <string name="DebugMenu">Меню отладки</string>
+  <string name="DebugMenuImportContacts">Импорт контактов</string>
+  <string name="DebugMenuReloadContacts">Перезагрузить контакты</string>
   <!--cache view-->
   <string name="LocalDatabase">Локальная база данных</string>
   <string name="LocalDatabaseClear">Очистить кэш сообщений?</string>
