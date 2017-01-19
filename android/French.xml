@@ -85,6 +85,9 @@
   <string name="ViewPackPreview">Voir le pack</string>
   <string name="PinToTop">Épingler en haut</string>
   <string name="UnpinFromTop">Désépingler</string>
+  <string name="Bold">Gras</string>
+  <string name="Italic">Italique</string>
+  <string name="Regular">Normal</string>
   <!--channels-->
   <string name="GroupType">Type de groupe</string>
   <string name="ChannelType">Type de chaîne</string>
@@ -337,7 +340,7 @@
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Plus d\'infos</string>
   <string name="ShareSendTo">Envoyer vers...</string>
-  <string name="TapHereGifs">Toucher ici pour accéder aux GIF enregistrés</string>
+  <string name="TapHereGifs">Touchez ici pour accéder aux GIF enregistrés</string>
   <string name="PinMessage">Épingler</string>
   <string name="PinNotify">Notifier tous les membres</string>
   <string name="UnpinMessage">Désépingler</string>
@@ -360,12 +363,12 @@
   <string name="TimeToEditExpired">Désolé, temps de modification expiré.</string>
   <string name="AddShortcut">Ajouter raccourcis</string>
   <string name="ShortcutAdded">Raccourcis ajouté à l\'écran d\'accueil</string>
-  <string name="ChatYourSelf">discuter avec soi-même</string>
+  <string name="ChatYourSelf">conversation avec vous-même</string>
   <string name="ChatYourSelfName">Vous</string>
-  <string name="ChatYourSelfDescription1">Transférez ici vos conversations favorites pour les enregistrer</string>
-  <string name="ChatYourSelfDescription2">Envoyer les médias et les fichiers pour les stocker</string>
-  <string name="ChatYourSelfDescription3">Accéder à cette conversation depuis n\'importe quel appareil</string>
-  <string name="ChatYourSelfDescription4">Utiliser la recherche pour trouver rapidement des éléments</string>
+  <string name="ChatYourSelfDescription1">Transférez des messages ici pour les enregistrer</string>
+  <string name="ChatYourSelfDescription2">Envoyez des médias et des fichiers pour les stocker</string>
+  <string name="ChatYourSelfDescription3">Accédez à cette conversation depuis n\'importe quel appareil</string>
+  <string name="ChatYourSelfDescription4">Utilisez la recherche pour tout retrouver rapidement</string>
   <string name="ChatYourSelfTitle">Votre stockage cloud</string>
   <string name="JumpToDate">Aller à la date</string>
   <string name="DeleteForUser">Supprimer pour %1$s</string>
@@ -635,6 +638,7 @@
   <string name="ContactJoined">Un contact a rejoint Telegram</string>
   <string name="PinnedMessages">Messages épinglés</string>
   <string name="Language">Langue</string>
+  <string name="Theme">Thème</string>
   <string name="AskAQuestionInfo">Veuillez noter que le support Telegram est assuré par des bénévoles. Nous essayons de répondre aussi vite que possible, mais cela peut prendre un peu de temps. <![CDATA[<br><br>]]>Veuillez consulter la <![CDATA[<a href=\"https://telegram.org/faq#general\">FAQ Telegram</a>]]> : cela répond à la plupart des questions et donne des conseils pour les <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">problèmes</a>]]>.</string>
   <string name="AskButton">Demandez à un bénévole</string>
   <string name="TelegramFaq">FAQ de Telegram</string>
@@ -712,6 +716,10 @@
   <string name="Emoji">Emoji</string>
   <string name="EmojiBigSize">Dessiner un seul gros emoji</string>
   <string name="EmojiUseDefault">Utiliser les emojis systèmes par défaut</string>
+  <string name="TelegramVersion">Telegram pour Android %1$s</string>
+  <string name="DebugMenu">Menu Debug</string>
+  <string name="DebugMenuImportContacts">Importer des contacts</string>
+  <string name="DebugMenuReloadContacts">Recharger les contacts</string>
   <!--cache view-->
   <string name="LocalDatabase">Base de données locale</string>
   <string name="LocalDatabaseClear">Effacer les messages texte du cache ?</string>
