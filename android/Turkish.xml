@@ -84,6 +84,9 @@
   <string name="ViewPackPreview">Paketi görüntüle</string>
   <string name="PinToTop">Üste sabitle</string>
   <string name="UnpinFromTop">Üste sabitlemeyi kaldır</string>
+  <string name="Bold">Kalın</string>
+  <string name="Italic">İtalik</string>
+  <string name="Regular">Normal</string>
   <!--channels-->
   <string name="GroupType">Grup Türü</string>
   <string name="ChannelType">Kanal Türü</string>
@@ -329,6 +332,8 @@ sorunuz mu var?</string>
   <string name="ReportSpamAlert">Bu kullanıcıyı spam olarak raporlamak istediğinizden emin misiniz?</string>
   <string name="ReportSpamAlertGroup">Bu grubu spam olarak raporlamak istediğinizden emin misiniz?</string>
   <string name="ReportSpamAlertChannel">Bu kanalı spam olarak bildirmek istediğinize emin misiniz?</string>
+  <string name="NobodyLikesSpam1">Bugün kişi listenizde olmayan kullanıcılarla çokça mesajlaştınız, lütfen yarın tekrar deneyin. Eğer önce bu kullanıcı size mesaj yazarsa cevap yazabilirsiniz.</string>
+  <string name="NobodyLikesSpam2">Bugün kişi listenizde olmayan kullanıcılarla çok fazla mesajlaştığınız için bu kullanıcıyı ekleyemezsiniz. Başka bir üyeden bu kullanıcıyı gruba eklemesini isteyebilirsiniz.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Daha fazla bilgi</string>
   <string name="ShareSendTo">Buraya gönder...</string>
@@ -462,6 +467,7 @@ sorunuz mu var?</string>
   <string name="SoftUserLimitAlert">Grup oluşturmayı tamamlayıp bunu bir süper gruba çevirdikten sonra daha fazla kullanıcı ekleyebileceksiniz.</string>
   <string name="EnterGroupNamePlaceholder">Grup adını girin</string>
   <string name="GroupName">Grup adı</string>
+  <string name="MembersCount">%1$d / %2$d seçili</string>
   <string name="JoinToGroup">\'%1$s\' sohbetine katılmak istediğinizden emin misiniz?</string>
   <string name="JoinToGroupErrorFull">Üzgünüz, bu grup çoktan dolmuş.</string>
   <string name="JoinToGroupErrorNotExist">Üzgünüz, bu sohbet mevcut değil.</string>
@@ -629,6 +635,7 @@ sorunuz mu var?</string>
   <string name="ContactJoined"> Kişi Telegram\'a katıldı!</string>
   <string name="PinnedMessages">Sabitlenen Mesajlar</string>
   <string name="Language">Dil</string>
+  <string name="Theme">Tema</string>
   <string name="AskAQuestionInfo">Lütfen unutmayın ki Telegram Desteği gönüllüler tarafında yapılır. Olabildiğince hızlı cevap vermeye çalışıyoruz, ama biraz zaman alabilir.<![CDATA[<br><br>]]>Lütfen bir göz atın <![CDATA[<a href=\\"http://telegram.org/faq#general\\">Telegram SSS</a>]]>: bir çok sorunun cevapları ve önemli ipuçları için vardır <![CDATA[<a href=\\"http://telegram.org/faq#troubleshooting\\">sorun giderme</a>]]>.</string>
   <string name="AskButton">Bir gönüllüye sor</string>
   <string name="TelegramFaq">Telegram SSS</string>
@@ -707,6 +714,10 @@ sorunuz mu var?</string>
   <string name="Emoji">Emoji</string>
   <string name="EmojiBigSize">Tek büyük emoji çiz</string>
   <string name="EmojiUseDefault">Sistem varsayılan emojisini kullan.</string>
+  <string name="TelegramVersion">Android %1$s için Telegram</string>
+  <string name="DebugMenu">Hata Ayıklama Menüsü</string>
+  <string name="DebugMenuImportContacts">Kişileri İçe Aktar</string>
+  <string name="DebugMenuReloadContacts">Kişileri Yeniden Yükle</string>
   <!--cache view-->
   <string name="LocalDatabase">Yerel Veritabanı</string>
   <string name="LocalDatabaseClear">Önbelleğe alınan metin mesajlarını temizle?</string>

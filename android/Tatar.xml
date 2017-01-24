@@ -24,7 +24,9 @@
   <string name="WrongNumber">Дөрес булмаган номер?</string>
   <string name="DidNotGetTheCode">Код алмадыгызмы?</string>
   <string name="CancelAccountReset">Аккаунтны ташлауны кире кагу</string>
+  <string name="CancelAccountResetInfo">Кемнеңдер сезнең <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> номерыгызга мөмкинлеге бар һәм ул профилегезне бетерергә һәм ике адымлы авторизацияне сүндерергә тели.\n\nӘгәр сез моны эшләмәгән булсагыз, без сезгә әле генә SMS аша җибәргән кодны кертегез.</string>
   <string name="ResetAccount">Аккаунтны ташлау</string>
+  <string name="ResetAccountInfo">Сезнең <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> аккаунтыгыз актив һәм пароль белән якланган, шуңа күрә без аны бер атна үткәч кенә бетерә алабыз.\n\nБетерүне сез теләсә кайсы вакытта кире кага аласыз.</string>
   <string name="ResetAccountStatus">Аккаунтны ташлау бу вакыт үткәч мөмкин булачак:</string>
   <string name="ResetAccountCancelledAlert">Ташлап карау актив аккаунт белән кире кагылды. Зинһар, 7 көннән кабатлап карагыз.</string>
   <string name="ResetAccountButton">ТАШЛАУ</string>
@@ -81,10 +83,15 @@
   <string name="LinkPreview">Сылтамаларны алдан карау</string>
   <string name="Draft">Каралама</string>
   <string name="HistoryCleared">Тарих чистартылган булган</string>
+  <string name="ArticleByAuthor">моннан %1$s</string>
   <string name="PreviewFeedback">Алдан карау турында фикер калдыру</string>
   <string name="SendStickerPreview">Стикер җибәрү</string>
   <string name="ViewPackPreview">Җыелманы карау</string>
   <string name="PinToTop">Беркетү</string>
+  <string name="UnpinFromTop">Беркеткәннән алу</string>
+  <string name="Bold">Калын</string>
+  <string name="Italic">Курсив</string>
+  <string name="Regular">Гадәти</string>
   <!--channels-->
   <string name="GroupType">Төркем төре</string>
   <string name="ChannelType">Канал төре</string>
@@ -485,6 +492,8 @@
   <string name="RevokeAlertNewLink">Баштагы сылтама актив түгел. Яңа сылтама ясалды.</string>
   <string name="RevokeButton">Кире алу</string>
   <string name="RevokeLink">Сылтаманы кире алу</string>
+  <string name="RevokeLinkAlert">Сез <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> сылтамасын юк итәргә телисезме?\n\nСез моны эшләгәч, «<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>» төркеме шәхсигә әйләнәчәк.</string>
+  <string name="RevokeLinkAlertChannel">Сез <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> сылтамасын юк итәргә телисезме?\n\nСез моны эшләгәч, «<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>» каналы шәхсигә әйләнәчәк.</string>
   <string name="CopyLink">Сылтамадан күчермә ясау</string>
   <string name="ShareLink">Сылтама белән бүлешү</string>
   <string name="LinkInfo">Бу сылтама аша күчеп, Telegramның теләсә-кайсы кулланучысы сезнең төркемгә керә алачак.</string>
@@ -506,6 +515,8 @@
   <string name="ConvertGroupMenu">Супертөркемгә үзгәртелде</string>
   <string name="ConvertGroupAlertWarning">Кисәтү</string>
   <string name="ConvertGroupAlert">Супертөркемне гади төркемгә әйләндереп булмый.</string>
+  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Катнашучылар саны тулды.<![CDATA[</b>]]>\n\nТагын өстәр өчен бу төркемне супертөркемгә әйләндерегез:\n\n• Сез %1$s тиклем катнашучы өсти алачаксыз\n• Яңа катнашучыларга бөтен тарих күренәчәк\n• Бетерелгән хатлар бөтенесендә дә бетереләчәкләр\n• Администраторлар мөһим хатлар беркетә алачаклар\n• Ясаучы чакыру сылтамасын эшли алачак</string>
+  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>Супертөркемнәрдә:<![CDATA[</b>]]>\n\n• Яңа катнашучыларга бөтен тарих күренәчәк\n• Бетерелгән хатлар бөтенесендә дә бетерелә\n• Администраторлар мөһим хатлар беркетә алачаклар\n• Ясаучы чакыру сылтамасын эшли ала</string>
   <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Игътибар:<![CDATA[</b>]]> бу гамәлне кире кагып булмаячак.</string>
   <!--contact info view-->
   <string name="ShareContact">Бүлешү</string>
@@ -637,6 +648,7 @@
   <string name="ContactJoined">Контакт Telegramга кушылды</string>
   <string name="PinnedMessages">Беркетелгән хатлар</string>
   <string name="Language">Тел</string>
+  <string name="Theme">Тема</string>
   <string name="AskAQuestionInfo">Игътибар итегез, Telegramның ярдәме волонтерлар тарафыннан башкарыла. Без мөмкин кадәр тизрәк җавап бирергә тырышырбыз, әмма моңа вакыт таләп ителергә мөмкин.<![CDATA[<br><br>]]>Зинһар, Telegram турында сораулар һәм җаваплар белән танышып китегез: <![CDATA[<a href=\\"https://tlgrm.ru/faq\\">монда сорауларга җаваплар</a>]]> һәм <![CDATA[<a href=\\"http://telegram.org/faq#troubleshooting\\">җитешсезлекләрне бетерү өчен</a> мөһим киңәшләр бирелә.]]></string>
   <string name="AskButton">Волонтердан сорау</string>
   <string name="TelegramFaq">Telegram FAQ</string>
@@ -715,6 +727,9 @@
   <string name="Emoji">Смайликлар</string>
   <string name="EmojiBigSize">Зур смайликларны күрсәтү</string>
   <string name="EmojiUseDefault">Система смайликларын куллану</string>
+  <string name="TelegramVersion">Telegram Android %1$s өчен</string>
+  <string name="DebugMenuImportContacts">Контактларны импортлау</string>
+  <string name="DebugMenuReloadContacts">Контактларны яңадан йөкләү</string>
   <!--cache view-->
   <string name="LocalDatabase">Локаль мәгълүмат базасы</string>
   <string name="LocalDatabaseClear">Кэшланган текстлы хатларны чистартыргамы?</string>
@@ -1118,6 +1133,7 @@
   <string name="EditMessageError">Гафу итегез, сез бу хатны үзгәртә алмыйсыз.</string>
   <string name="AllowReadSms">Telegramга SMS белән эш итүне рөхсәт итсәгез, кодыгыз үзе кертеләчәк.</string>
   <string name="AllowReadCall">Telegramга килүче шалтыратулар белән эш итүне рөхсәт итсәгез, кодыгыз үзе кертеләчәк.</string>
+  <string name="AllowFillNumber">Telegramга SMS-ларыгызга мөмкинлек бирсәгез, кодыгыз автоматик рәвештә кертеләчәк.</string>
   <string name="AllowReadCallAndSms">Telegramга килүче шалтыратулар һәм SMS белән эш итүне рөхсәт итсәгез, кодыгыз үзе кертеләчәк.</string>
   <string name="UserRestricted">Гафу итегез, сезгә бу гамәл мөмкин түгел.</string>
   <string name="JoinGroup">ТӨРКЕМГӘ КУШЫЛУ</string>
@@ -1162,6 +1178,7 @@
   <string name="VoipBusy">Линия мөмкин түгел</string>
   <string name="VoipInCallBranding">Чакыру</string>
   <string name="VoipEndCall">Чакыруны тәмамлау</string>
+  <string name="VoipOngoingAlert">Әлеге вакытта сез <![CDATA[<b>%1$s</b>]]> белән сөйләшәсез. Әлеге сөйләшүне туктатырга һәм <![CDATA[<b>%2$s</b>]]> белән сөйләшә башларга телисезме?</string>
   <string name="VoipNotificationSettings">Тавышлы шалтыратулар</string>
   <string name="VoipSettingsRingtone">Рингтон</string>
   <string name="VoipRingtoneInfo">Бу контакт өчен шалтырату көен сайлый аласыз.</string>
@@ -1175,6 +1192,7 @@
   <string name="VoipAnswerCall">Җавап бирү</string>
   <string name="VoipDeclineCall">Кире кагу</string>
   <string name="VoipOffline">Сез әлеге вакытта интернетка тоташмагансыз. Шалтырату өчен интернетка тоташу кирәк.</string>
+  <string name="VoipOfflineAirplane">Әлеге вакытта сездә очу режимы кабынган. Шалтырату өчен аны сүндерегез яисә WI-FI га тоташыгыз.</string>
   <string name="VoipOfflineTitle">Оффлайн</string>
   <string name="VoipOfflineAirplaneTitle">Очу режимы</string>
   <string name="VoipOfflineOpenSettings">Көйләүләр</string>
@@ -1182,7 +1200,11 @@
   <string name="CallMessageIncoming">Керүче шалтырату</string>
   <string name="CallMessageIncomingMissed">Алынмаган шалтырату</string>
   <string name="CallMessageOutgoingMissed">Кире кагылган шалтырату</string>
+  <string name="CallMessageWithDuration">%1$s (%2$s)</string>
+  <string name="CallEncryptionKeyDescription">Бу сурәт һәм текст <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысы белән булган сөйләшүнең шифрлау ачкычын күрсәтә. Әгәр бу сурәт һәм текст <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> кулланучысының җайланмасындагы сүрәткә һәм текстка туры килсә, сезнең аралашу якланган була. <![CDATA[<br><br>]]></string>
   <string name="NoCallLog">Сез беркемгә дә шалтыратмадыгыз әле.</string>
+  <string name="VoipPeerIncompatible"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысының кушымтасы искергән һәм шалтыратулар кабул итә алмый. Бу кулланучы кушымтаны яңарткач кына сез аңа шатрырата алачаксыз. </string>
+  <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысының кушымтасы шалтыратулар кабул итә алмый. Бу кулланучы кушымтаны яңарткач кына сез аңа шатрырата алачаксыз.</string>
   <string name="VoipRateCallAlert">Зинһар, Telegram аша сөйләшүнең сыйфатын бәяләгез</string>
   <string name="VoipFeedbackAlert">Шалтыратуларны яхшыртыр өчен бәяләмә калдырырга телисезме?</string>
   <!--plural-->
