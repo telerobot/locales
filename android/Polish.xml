@@ -716,7 +716,8 @@ Wykryliśmy logowanie na Twoje konto z nowego urządzenia %2$s\n\nUrządzenie: %
   <string name="Emoji">Emoji</string>
   <string name="EmojiBigSize">Wyślij jedna dużą emotikonę</string>
   <string name="EmojiUseDefault">Używaj systemowych emotikon </string>
-  <string name="TelegramVersion">Telegram dla Androida %1$s</string>
+  <string name="TelegramVersion">Telegram dla Androida %1$s
+Tłumaczenie PL: Daniel Grochala i Mariusz Grochala</string>
   <string name="DebugMenu">Menu Debugowania</string>
   <string name="DebugMenuImportContacts">Importuj Kontakty</string>
   <string name="DebugMenuReloadContacts">Przeładuj Kontakty</string>
