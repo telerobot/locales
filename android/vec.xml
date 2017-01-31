@@ -85,6 +85,9 @@
   <string name="ViewPackPreview">Varda Pacheto</string>
   <string name="PinToTop">Pica insima</string>
   <string name="UnpinFromTop">Despica da insima</string>
+  <string name="Bold">Groseto</string>
+  <string name="Italic">Corsivo</string>
+  <string name="Regular">Normałe</string>
   <!--channels-->
   <string name="GroupType">Tipo de grupo</string>
   <string name="ChannelType">Tipo de canałe</string>
@@ -634,6 +637,7 @@
   <string name="ContactJoined">Un contato el se gà zontà so Telegram!</string>
   <string name="PinnedMessages">Mesaji picài insima</string>
   <string name="Language">Łengua</string>
+  <string name="Theme">Tema</string>
   <string name="AskAQuestionInfo">Serca de capir che el suporto de Telegram el ze portà vanti da vołontari. A sercaremo de incontentar tuti pì in presa che podemo, ma A podarìa vołerghe un fià.<![CDATA[<br><br>]]>Daghe pur na ociada inte łe <![CDATA[<a href=\"https://telegram.org/faq/it#domande-generali\">dimande frecuenti de Telegram</a>]]> par catar fora ła parte pì granda de łe resposte e conseji inportanti par <![CDATA[<a href=\"https://telegram.org/faq/it#risoluzione-dei-problemi\">resòlvar problemi</a>]]>.</string>
   <string name="AskButton">Dimanda</string>
   <string name="TelegramFaq">Dimande frecuenti de Telegram</string>
@@ -711,6 +715,10 @@
   <string name="Emoji">Emoji</string>
   <string name="EmojiBigSize">Dezenja na emoji sìngoła beła granda</string>
   <string name="EmojiUseDefault">Dòpara el sistema de emoji predefenìo</string>
+  <string name="TelegramVersion">Telegram par Android %1$s</string>
+  <string name="DebugMenu">Menù de dezbao</string>
+  <string name="DebugMenuImportContacts">Inporta contati</string>
+  <string name="DebugMenuReloadContacts">Recarga contati</string>
   <!--cache view-->
   <string name="LocalDatabase">Database Łocałe</string>
   <string name="LocalDatabaseClear">Vutu netar i mesaji inte ła cache?</string>
