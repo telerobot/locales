@@ -58,7 +58,7 @@
   <string name="EncryptedChatStartedIncoming"> A te te si zontà inte ła chat segreta.</string>
   <string name="ClearHistory">Neta cronołozìa</string>
   <string name="ClearHistoryCache">Ełìmena da ła cache</string>
-  <string name="DeleteChat">Ełìmena e sortisi</string>
+  <string name="DeleteChat">Sortisi e ełìmena</string>
   <string name="DeleteChatUser">Ełìmena chat</string>
   <string name="HiddenName">Account ełimenà</string>
   <string name="SelectChat">Sełesiona chat</string>
@@ -604,7 +604,7 @@
   <string name="NotificationsAndSounds">Notìfeghe e soni</string>
   <string name="CustomNotifications">Notìfeghe parsonałizàe</string>
   <string name="ProfilePopupNotification">Notìfeghe salta-sù</string>
-  <string name="ProfilePopupNotificationInfo">Se A no te sì drio doparar Telegram, i mesaji novi da \'sto contato i conparirà so\'l to schermo.</string>
+  <string name="ProfilePopupNotificationInfo">Se A no te sì drio doparar Telegram, i mesaji novi da \'sto contato i saltarà fora so\'l to schermo.</string>
   <string name="NotificationsLed">LED</string>
   <string name="NotificationsLedColor">Cołor</string>
   <string name="ColorBlue">Blè</string>
