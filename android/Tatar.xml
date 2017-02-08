@@ -68,7 +68,7 @@
   <string name="PhotoTip">Карар өчен басыгыз һәм көтеп торыгыз</string>
   <string name="CompatibilityChat">%1$s Telegramның иске юрамасын куллана, шуның өчен яшерен фотосурәтләр туры китерү режимында күрсәтеләчәкләр.
 
-%2$s Telegramны яңарткач, фотосурәтләр минутлы яисә әзрәк вакыт белән \'Карар өчен басыгыз һәм көтеп торыгыз\' режимында эшли башлаячаклар, шулай ук сезгә әңгәмәдәшегез экран скриншоты ясаганда һәрвакыт белгертү киләчәк.</string>
+%2$s Telegramны яңарткач, фотосурәтләр минутлы яисә азрак вакыт белән \'Карар өчен басыгыз һәм көтеп торыгыз\' режимында эшли башлаячаклар, шулай ук сезгә әңгәмәдәшегез экран скриншоты ясаганда һәрвакыт белгертү киләчәк.</string>
   <string name="SearchMessages">ХАТЛАР</string>
   <string name="Search">Эзләү</string>
   <string name="MuteNotifications">Белгертүләрне сүндерү</string>
@@ -481,6 +481,7 @@
   <string name="SoftUserLimitAlert">Сез күбрәк кулланучы өсти аласыз: төркемегезне супертөркемгә әйләндерегез.</string>
   <string name="EnterGroupNamePlaceholder">Төркем исемен кертү</string>
   <string name="GroupName">Төркем исеме</string>
+  <string name="MembersCount">Барлыгы %2$d, сайланды %1$d</string>
   <string name="MembersCountZero">%1$s тиклем</string>
   <string name="JoinToGroup">\'%1$s\' чатына кушылырга телисезме?</string>
   <string name="JoinToGroupErrorFull">Бу төркемдә максималь катнашучылар саны тулган.</string>
@@ -733,7 +734,7 @@
   <!--cache view-->
   <string name="LocalDatabase">Локаль мәгълүмат базасы</string>
   <string name="LocalDatabaseClear">Кэшланган текстлы хатларны чистартыргамы?</string>
-  <string name="LocalDatabaseInfo">Локаль мәгълүмат базасын чистарту хатлар кэшын бетерәчәк һәм ул җайланмада әзрәк урын алачак. Telegram эшләсен өчен күпмедер мәгълүмат таләп ителә, шуңа күрә локаль мәгълүмат базасының зурлыгы 0 була алмый.\n\nЧистарту бераз вакыт алырга мөмкин.</string>
+  <string name="LocalDatabaseInfo">Локаль мәгълүмат базасын чистарту хатлар кэшын бетерәчәк һәм ул җайланмада азрак урын алачак. Telegram эшләсен өчен күпмедер мәгълүмат таләп ителә, шуңа күрә локаль мәгълүмат базасының зурлыгы 0 була алмый.\n\nЧистарту бераз вакыт алырга мөмкин.</string>
   <string name="ClearMediaCache">Кэшны чистарту</string>
   <string name="CacheClear">Чистарту</string>
   <string name="CalculatingSize">Хисаплау</string>
