@@ -481,7 +481,7 @@
   <string name="SoftUserLimitAlert">Сез күбрәк кулланучы өсти аласыз: төркемегезне супертөркемгә әйләндерегез.</string>
   <string name="EnterGroupNamePlaceholder">Төркем исемен кертү</string>
   <string name="GroupName">Төркем исеме</string>
-  <string name="MembersCount">Барлыгы %2$d, сайланды %1$d</string>
+  <string name="MembersCount">Сайланды %1$d, барлыгы %2$d</string>
   <string name="MembersCountZero">%1$s тиклем</string>
   <string name="JoinToGroup">\'%1$s\' чатына кушылырга телисезме?</string>
   <string name="JoinToGroupErrorFull">Бу төркемдә максималь катнашучылар саны тулган.</string>
