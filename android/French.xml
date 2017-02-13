@@ -20,7 +20,7 @@
   <string name="SmsText">Nous vous enverrons un SMS dans %1$d:%2$02d</string>
   <string name="Calling">Appel en cours…</string>
   <string name="Code">Code</string>
-  <string name="WrongNumber">Numéro erroné ?</string>
+  <string name="WrongNumber">Mauvais numéro ?</string>
   <string name="DidNotGetTheCode">Vous n\'avez pas reçu le code ?</string>
   <string name="CancelAccountReset">Annuler la réinitialisation du compte</string>
   <string name="CancelAccountResetInfo">Une personne ayant accès à votre numéro de téléphone <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> a fait une demande pour supprimer votre compte Telegram et réinitialiser votre authentification en 2 étapes.\n\nSi vous n\'êtes pas l\'auteur de cette demande, entrer le code que nous venons de vous envoyer à votre numéro.</string>
@@ -37,7 +37,7 @@
   <!--<string name="RegisterText">Set up your name and picture</string>-->
   <string name="FirstName">Prénom (requis)</string>
   <string name="LastName">Nom (facultatif)</string>
-  <string name="CancelRegistration">Annuler l\'enregistrement</string>
+  <string name="CancelRegistration">Annuler l\'inscription</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Nouvelle conversation</string>
   <string name="Settings">Paramètres</string>
@@ -93,7 +93,7 @@
   <string name="ChannelType">Type de chaîne</string>
   <string name="ChannelTypePublic">Public</string>
   <string name="ChannelTypePrivate">Privé</string>
-  <string name="SetAsAdmin">Promouvoir administrateur</string>
+  <string name="SetAsAdmin">Promouvoir en administrateur</string>
   <string name="DescriptionInfoMega">Vous pouvez fournir une description facultative pour votre groupe.</string>
   <string name="LeaveMega">Quitter le groupe</string>
   <string name="DeleteMega">Supprimer le groupe</string>
@@ -302,8 +302,8 @@
   <string name="AddToContacts">Ajouter aux contacts</string>
   <string name="EncryptedPlaceholderTitleIncoming">%s vous a invité à rejoindre une conversation secrète.</string>
   <string name="EncryptedPlaceholderTitleOutgoing">Vous avez invité %s à rejoindre une conversation secrète.</string>
-  <string name="EncryptedDescriptionTitle">Conversations secrètes :</string>
-  <string name="EncryptedDescription1">utilisent le chiffrement bout en bout</string>
+  <string name="EncryptedDescriptionTitle">Les conversations secrètes :</string>
+  <string name="EncryptedDescription1">Utilisent le chiffrement de bout en bout</string>
   <string name="EncryptedDescription2">Ne laissent aucune trace sur nos serveurs</string>
   <string name="EncryptedDescription3">Ont un délai d\'auto-destruction des messages</string>
   <string name="EncryptedDescription4">N\'autorisent pas le transfert</string>
@@ -315,7 +315,7 @@
 </string>
   <string name="SaveToDownloads">Enregistrer dans les téléchargements</string>
   <string name="SaveToGIFs">Enregistrer vers GIFs</string>
-  <string name="DeleteGif">Supprimer GIF?</string>
+  <string name="DeleteGif">Supprimer GIF ?</string>
   <string name="SaveToMusic">Enregistrer dans musique</string>
   <string name="ShareFile">Partager</string>
   <string name="ApplyLocalizationFile">Installer la langue</string>
@@ -512,7 +512,7 @@
   <string name="ShareContact">Partager</string>
   <string name="AddContact">Ajouter</string>
   <string name="AddContactTitle">Ajouter un contact</string>
-  <string name="ContactNotRegistered">%1$s n\'est pas encore sur Telegram, voulez-vous l\'inviter à rejoindre ?</string>
+  <string name="ContactNotRegistered">%1$s n\'est pas encore sur Telegram, voulez-vous l\'inviter à s\'y rejoindre ?</string>
   <string name="Invite">Inviter</string>
   <string name="BlockContact">Bloquer</string>
   <string name="EditContact">Modifier</string>
@@ -528,7 +528,7 @@
   <string name="NoGroupsInCommon">Aucun groupe commun actuellement</string>
   <string name="CreateEncryptedChatError">Une erreur s\'est produite.</string>
   <string name="EncryptionKey">Clé de chiffrement</string>
-  <string name="MessageLifetime">Temps avant auto-destruction</string>
+  <string name="MessageLifetime">Délai d\'auto-destruction</string>
   <string name="ShortMessageLifetimeForever">Désactivé</string>
   <string name="EncryptionKeyDescription">Cette image et le texte sont une représentation de la clé de chiffrement pour cette conversation secrète avec <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Si l\'image sur l\'appareil de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> est identique, votre conversation est totalement sécurisée.<![CDATA[<br><br>]]>Plus d\'informations sur telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
@@ -544,7 +544,7 @@
   <string name="UsernameInvalidLong">Le pseudonyme ne doit pas dépasser 32 caractères.</string>
   <string name="UsernameInvalidStartNumber">Désolé, un pseudonyme ne peut pas commencer par un chiffre.</string>
   <string name="UsernameHelp">Vous pouvez choisir un pseudonyme sur <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>. Si vous le faite, les autres personnes pourront vous trouver en utilisant ce pseudonyme et vous contacter sans connaitre votre numéro de téléphone. <![CDATA[<br><br>]]>Vous pouvez utiliser <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> et soulignement. La longueur minimale est <![CDATA[<b>]]>5<![CDATA[</b>]]> caractères.</string>
-  <string name="UsernameHelpLink">Ce lien ouvre une conversation avec vous dans Telegram:\n%1$s</string>
+  <string name="UsernameHelpLink">Ce lien ouvre une conversation avec vous-même dans Telegram:\n%1$s</string>
   <string name="UsernameChecking">Vérification du pseudonyme...</string>
   <string name="UsernameAvailable">%1$s est disponible.</string>
   <string name="UsernameEmpty">Aucun</string>
@@ -573,7 +573,7 @@
   <string name="ArchivedStickers">Stickers archivés</string>
   <string name="ArchivedMasks">Masques archivés</string>
   <string name="ArchivedStickersEmpty">Pas de stickers archivés</string>
-  <string name="ArchivedMasksEmpty">Pas de masques archivés</string>
+  <string name="ArchivedMasksEmpty">Aucun masque archivé</string>
   <string name="ArchivedStickersInfo">Vous pouvez avoir jusqu\'à 200 packs de stickers installés. Les stickers inutilisés sont archivés quand vous en ajoutez de nouveaux.</string>
   <string name="ArchivedMasksInfo">Vous pouvez avoir jusqu\'à 200 packs de masques installés. Les masques inutilisés sont archivés quand vous en ajoutez de nouveaux.</string>
   <string name="SendSticker">ENVOYER STICKER</string>
@@ -645,25 +645,25 @@
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
   <string name="PrivacyPolicy">Politique de confidentialité</string>
   <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
-  <string name="DeleteLocalization">Supprimer la langue?</string>
-  <string name="IncorrectLocalization">Fichier de langue incorrect</string>
+  <string name="DeleteLocalization">Supprimer la traduction ?</string>
+  <string name="IncorrectLocalization">Fichier de traduction incorrect</string>
   <string name="Enabled">Activé</string>
   <string name="Disabled">Désactivé</string>
   <string name="NotificationsService">Service Garder-en-vie</string>
   <string name="NotificationsServiceInfo">Redémarrer l\'application lorsqu\'elle est arrêtée par un utilisateur ou par le système. Ceci garanti que l\'application affiche les notifications</string>
-  <string name="NotificationsServiceConnection">Connexion en arrière plan</string>
-  <string name="NotificationsServiceConnectionInfo">Utilise une liaison en arrière plan vers Telegram consommant peu d\'énergie pour recevoir les notification. Activer pour des notifications fiables.</string>
+  <string name="NotificationsServiceConnection">Connexion en arrière-plan</string>
+  <string name="NotificationsServiceConnectionInfo">Utilise une connexion en arrière-plan vers Telegram consommant peu d\'énergie pour recevoir les notifications. Activez pour des notifications fiables.</string>
   <string name="SortBy">Trier par</string>
   <string name="ImportContacts">Importer des contacts</string>
   <string name="SortFirstName">Prénom</string>
   <string name="SortLastName">Nom</string>
   <string name="LedColor">Couleur de la LED</string>
-  <string name="PopupNotification">Notifications popup</string>
+  <string name="PopupNotification">Popup de notifications</string>
   <string name="NoPopup">Pas de popup</string>
   <string name="OnlyWhenScreenOn">Si l\'écran est allumé</string>
   <string name="OnlyWhenScreenOff">Si l\'écran est éteint</string>
-  <string name="AlwaysShowPopup">Toujours afficher les popups</string>
-  <string name="BadgeNumber">Compteur de badge</string>
+  <string name="AlwaysShowPopup">Toujours afficher le popup</string>
+  <string name="BadgeNumber">Badge de compteur</string>
   <string name="Short">Court</string>
   <string name="Long">Long</string>
   <string name="AutomaticMediaDownload">Téléchargement auto. des médias</string>
@@ -710,7 +710,7 @@
   <string name="SecretWebPage">Aperçus des liens</string>
   <string name="SecretChat">Conversations secrètes</string>
   <string name="ChromeCustomTabs">Navigateur dans l\'app</string>
-  <string name="ChromeCustomTabsInfo">Ouvrir les lien externes à l\'intérieur de l\'app</string>
+  <string name="ChromeCustomTabsInfo">Ouvrir les liens externes à l\'intérieur de l\'app</string>
   <string name="DirectShare">Partage direct</string>
   <string name="DirectShareInfo">Afficher les conversations récentes dans le menu de partage</string>
   <string name="Emoji">Emoji</string>
@@ -722,11 +722,11 @@
   <string name="DebugMenuReloadContacts">Recharger les contacts</string>
   <!--cache view-->
   <string name="LocalDatabase">Base de données locale</string>
-  <string name="LocalDatabaseClear">Effacer les messages texte du cache ?</string>
+  <string name="LocalDatabaseClear">Effacer les messages texte en cache ?</string>
   <string name="LocalDatabaseInfo">Effacer la base de données locale supprimera les messages texte en cache et compressera la base de données pour économiser de l\'espace disque. Telegram a besoin de données pour fonctionner, la base de données n\'arrivera donc pas à zéro.\n\nCette opération peut durer plusieurs minutes.</string>
   <string name="ClearMediaCache">Effacer le cache</string>
   <string name="CacheClear">Effacer</string>
-  <string name="CalculatingSize">Opération en cours...</string>
+  <string name="CalculatingSize">Calcul en cours...</string>
   <string name="LocalDocumentCache">Documents</string>
   <string name="LocalPhotoCache">Photos</string>
   <string name="LocalAudioCache">Messages vocaux</string>
@@ -766,7 +766,7 @@
   <string name="AutoLockInfo">Code d\'accès requis en cas d\'absence</string>
   <string name="AutoLockInTime">après %1$s</string>
   <string name="AutoLockDisabled">Désactivé</string>
-  <string name="UnlockFingerprint">Déverouiller avec l\'empreinte digitale</string>
+  <string name="UnlockFingerprint">Déverrouiller avec l\'empreinte digitale</string>
   <string name="FingerprintInfo">Confirmer l\'empreinte digitale pour continuer</string>
   <string name="FingerprintHelp">Capteur de toucher</string>
   <string name="FingerprintNotRecognized">Empreinte digitale non reconnue. Essayez à nouveau</string>
@@ -794,7 +794,7 @@
   <string name="SendLocation">Envoyer votre position actuelle</string>
   <string name="SendSelectedLocation">Envoyer la position selectionnée</string>
   <string name="ShareLocation">Position</string>
-  <string name="AccurateTo">Exact à %1$s</string>
+  <string name="AccurateTo">Précision de %1$s</string>
   <string name="NearbyPlaces">OU CHOISIR UN LIEU</string>
   <!--photo gallery view-->
   <string name="ShowAllMedia">Afficher tous les médias</string>
@@ -838,9 +838,9 @@
   <string name="BlurOff">Désactivé</string>
   <string name="BlurLinear">Linéaire</string>
   <string name="BlurRadial">Radial</string>
-  <string name="AreYouSureDeletePhoto">Êtes-vous certain de vouloir supprimer cette photo?</string>
-  <string name="AreYouSureDeleteVideo">Êtes-vous certain de vouloir supprimer cette vidéo?</string>
-  <string name="DiscardChanges">Annuler les changements?</string>
+  <string name="AreYouSureDeletePhoto">Êtes-vous sûr de vouloir supprimer cette photo ?</string>
+  <string name="AreYouSureDeleteVideo">Êtes-vous sûr de vouloir supprimer cette vidéo ?</string>
+  <string name="DiscardChanges">Annuler les changements ?</string>
   <string name="ClearSearch">Effacer l\'historique de recherche ?</string>
   <string name="ClearButton">Effacer</string>
   <string name="PickerPhotos">Photos</string>
@@ -958,19 +958,19 @@
   <string name="CustomShareSettingsHelp">Ces paramètres écraseront les valeurs précédentes</string>
   <string name="AlwaysShareWithTitle">Toujours partager</string>
   <string name="AlwaysShareWithPlaceholder">Toujours partager avec les utilisateurs...</string>
-  <string name="NeverShareWithTitle">Jamais partager</string>
-  <string name="NeverShareWithPlaceholder">Jamais partager avec les personnes...</string>
-  <string name="EmpryUsersPlaceholder">Ajouter utilisateurs</string>
+  <string name="NeverShareWithTitle">Ne jamais partager</string>
+  <string name="NeverShareWithPlaceholder">Ne jamais partager avec les utilisateurs...</string>
+  <string name="EmpryUsersPlaceholder">Ajouter des utilisateurs</string>
   <string name="PrivacyFloodControlError">Désolé, demandes trop nombreuses. Impossible de modifier vos paramètres de Vie Privée pour le moment, veuillez patienter.</string>
   <string name="ClearOtherSessionsHelp">Déconnecter tous les appareils sauf celui-ci.</string>
   <string name="RemoveFromListText">Toucher et maintenir sur un utilisateur pour le supprimer.</string>
   <string name="GroupsAndChannels">Groupes</string>
   <string name="WhoCanAddMe">Qui peut m\'ajouter à des conversations de groupe?</string>
   <string name="WhoCanAddMeInfo">Vous pouvez restreindre qui peut vous ajouter aux groupes et chaînes avec précision.</string>
-  <string name="AlwaysAllow">Toujours permettre</string>
-  <string name="NeverAllow">Jamais permettre</string>
-  <string name="AlwaysAllowPlaceholder">Toujours permettre...</string>
-  <string name="NeverAllowPlaceholder">Jamais permettre...</string>
+  <string name="AlwaysAllow">Toujours autoriser</string>
+  <string name="NeverAllow">Ne jamais autoriser</string>
+  <string name="AlwaysAllowPlaceholder">Toujours autoriser...</string>
+  <string name="NeverAllowPlaceholder">Ne jamais autoriser...</string>
   <string name="CustomShareInfo">Ces utilisateurs pourront ou ne pourront pas vous ajouter aux groupes et chaînes quel que soient les paramètres ci-dessus.</string>
   <string name="GroupsAndChannelsHelp">Changer qui peut vous ajouter aux groupes et chaînes.</string>
   <string name="InviteToGroupError">Désolé, vous ne pouvez ajouter cet utilisateur aux groupes à cause de ses paramètres de confidentialité.</string>
@@ -979,7 +979,7 @@
   <!--edit video view-->
   <string name="EditVideo">Modifier la vidéo</string>
   <string name="SendingVideo">Envoi de la vidéo...</string>
-  <string name="SendingGif">Envoi de GIF...</string>
+  <string name="SendingGif">Envoi du GIF...</string>
   <!--bot-->
   <string name="Bot">bot</string>
   <string name="BotShare">Partager</string>
@@ -1140,7 +1140,7 @@
   <string name="Page7Title">Privé</string>
   <string name="Page1Message">La messagerie la plus <![CDATA[<b>rapide</b>]]> du monde. <![CDATA[<br/>]]>Elle est <![CDATA[<b>gratuite</b>]]> et <![CDATA[<b>sécurisée</b>]]>.</string>
   <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> délivre vos messages plus <![CDATA[<br/>]]> rapidement qu\'aucune autre application.</string>
-  <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> est gratuit pour toujours.<![CDATA[<br/>]]>Pas de publicité. Pas d\'inscription payante.</string>
+  <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> est gratuit pour toujours.<![CDATA[<br/>]]>Pas de publicité. Sans frais d\'inscription.</string>
   <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> protège vos messages<![CDATA[<br/>]]>des attaques de pirates.</string>
   <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> ne limite pas la taille de<![CDATA[<br/>]]>vos médias et conversations.</string>
   <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> vous permet d\'accéder à vos<![CDATA[<br/>]]>messages depuis plusieurs appareils.</string>
