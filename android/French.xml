@@ -38,6 +38,7 @@
   <string name="FirstName">Prénom (requis)</string>
   <string name="LastName">Nom (facultatif)</string>
   <string name="CancelRegistration">Annuler l\'inscription</string>
+  <!--payments view-->
   <!--chats view-->
   <string name="NewConversationShortcut">Nouvelle conversation</string>
   <string name="Settings">Paramètres</string>
@@ -335,8 +336,6 @@
   <string name="ReportSpamAlert">Êtes-vous certain de vouloir signaler cet utilisateur comme indésirable?</string>
   <string name="ReportSpamAlertGroup">Êtes-vous certain de vouloir signaler ce groupe comme indésirable?</string>
   <string name="ReportSpamAlertChannel">Êtes-vous certain de vouloir signaler cette chaîne comme indésirable?</string>
-  <string name="NobodyLikesSpam1">Vous avez contacté trop de non-contacts aujourd\'hui, réessayer demain. Vous pourrez répondre aujourd\'hui si l\'utilisateur vous envoie un message en premier.</string>
-  <string name="NobodyLikesSpam2">Vous ne pouvez pas ajouter cet utilisateur car vous avez contacté trop de non-contacts aujourd\'hui. Réessayer demain. Vous pouvez demander à un autre membre d\'ajouter cet utilisateur au groupe.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Plus d\'infos</string>
   <string name="ShareSendTo">Envoyer vers...</string>
@@ -581,6 +580,8 @@
   <string name="ArchivedStickersAlertInfo">Certains de vos anciens stickers ont été archivés. Vous pouvez les réactiver dans la rubrique de paramètres Stickers.</string>
   <string name="ArchivedMasksAlertTitle">Masques archivés</string>
   <string name="ArchivedMasksAlertInfo">Certains de vos anciens masques ont été archivés. Vous pouvez les réactiver dans la rubrique de paramètres Masques.</string>
+  <!--theme view-->
+  <string name="Theme">Thème</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Réinitialiser tous les paramètres de notification par défaut</string>
   <string name="TextSize">Taille de police des messages</string>
@@ -638,8 +639,7 @@
   <string name="ContactJoined">Un contact a rejoint Telegram</string>
   <string name="PinnedMessages">Messages épinglés</string>
   <string name="Language">Langue</string>
-  <string name="Theme">Thème</string>
-  <string name="AskAQuestionInfo">Veuillez noter que le support Telegram est assuré par des bénévoles. Nous essayons de répondre aussi vite que possible, mais cela peut prendre un peu de temps. <![CDATA[<br><br>]]>Veuillez consulter la <![CDATA[<a href=\"https://telegram.org/faq#general\">FAQ Telegram</a>]]> : cela répond à la plupart des questions et donne des conseils pour les <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">problèmes</a>]]>.</string>
+  <string name="AskAQuestionInfo">Veuillez noter que le support Telegram est assuré par des bénévoles. Nous essayons de répondre aussi vite que possible, mais cela peut prendre un peu de temps. <![CDATA[<br><br>]]>Veuillez consulter la <![CDATA[<a href="https://telegram.org/faq#general">FAQ Telegram</a>]]> : cela répond à la plupart des questions et donne des conseils pour les <![CDATA[<a href="https://telegram.org/faq#troubleshooting">problèmes</a>]]>.</string>
   <string name="AskButton">Demandez à un bénévole</string>
   <string name="TelegramFaq">FAQ de Telegram</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>

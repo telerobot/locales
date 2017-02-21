@@ -38,6 +38,7 @@
   <string name="FirstName">Імя (абавязкова)</string>
   <string name="LastName">Прозвішча (абавязкова)</string>
   <string name="CancelRegistration">Скасаваць рэгістрацыю</string>
+  <!--payments view-->
   <!--chats view-->
   <string name="NewConversationShortcut">Новая размова</string>
   <string name="Settings">Налады</string>
@@ -87,6 +88,9 @@
   <string name="ViewPackPreview">Праглядзець набор</string>
   <string name="PinToTop">Замацаваць</string>
   <string name="UnpinFromTop">Адмацаваць</string>
+  <string name="Bold">Буйны</string>
+  <string name="Italic">Курсіўны</string>
+  <string name="Regular">Звычайны</string>
   <!--channels-->
   <string name="GroupType">Тып суполкі</string>
   <string name="ChannelType">Тып канала</string>
@@ -333,8 +337,6 @@
   <string name="ReportSpamAlert">Вы ўпэўненыя, што жадаеце паскардзіцца на гэтага карыстальніка?</string>
   <string name="ReportSpamAlertGroup">Вы ўпэўненыя, што жадаеце паскардзіцца на гэтую суполку?</string>
   <string name="ReportSpamAlertChannel">Вы ўпэўненыя, што жадаеце паскардзіцца на гэты канал?</string>
-  <string name="NobodyLikesSpam1">За сёння вы зачаста кантактаваліся з карыстальнікамі не з свайго спісу кантактаў. Паспрабуйце яшчэ раз заўтра. Вы ўсё яшчэ можаце адказаць карыстальніку, калі ён напіша вам першым.</string>
-  <string name="NobodyLikesSpam2">Вы не можаце дадаць гэтага карыстальніка, бо сёння зачаста кантактаваліся з карыстальнікамі не з свайго спісу кантактаў. Паспрабуйце яшчэ раз заўтра або папрасіце іншага ўдзельніка дадаць гэтага карыстальніка ў суполку.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Больш звестак</string>
   <string name="ShareSendTo">Даслаць…</string>
@@ -582,6 +584,8 @@
   <string name="ArchivedStickersAlertInfo">Некаторыя з вашых неўжываных налепак былі перамешчаны ў архіў. Вы можаце перамясціць іх назад праз налады налепак.</string>
   <string name="ArchivedMasksAlertTitle">Маскі ў архіве</string>
   <string name="ArchivedMasksAlertInfo">Некаторыя з вашых неўжываных масак былі перамешчаны ў архіў. Вы можаце перамясціць іх назад праз налады масак.</string>
+  <!--theme view-->
+  <string name="Theme">Тэма</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Скінуць усе налады апавяшчэнняў па змаўчанні</string>
   <string name="TextSize">Памер тэксту ў паведамленнях</string>
@@ -639,7 +643,7 @@
   <string name="ContactJoined">Кантакт далучыўся да Тэлеграма</string>
   <string name="PinnedMessages">Замацаваныя паведамленні</string>
   <string name="Language">Мова</string>
-  <string name="AskAQuestionInfo">Звярніце ўвагу, што падтрымка Тэлеграма ажыццяўляецца добраахвотнікамі. Мы стараемся адказваць як мага хутчэй, але гэта можа заняць час.<![CDATA[<br><br>]]>Калі ласка, зазірніце ў <![CDATA[<a href=\"https://telegram.org/faq#general\">ЧаПы Тэлеграма</a>]]>: там ёсць адказы на большасць пытанняў і парады па выпраўленні <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">хібнасцей</a>]]>.</string>
+  <string name="AskAQuestionInfo">Звярніце ўвагу, што падтрымка Тэлеграма ажыццяўляецца добраахвотнікамі. Мы стараемся адказваць як мага хутчэй, але гэта можа заняць час.<![CDATA[<br><br>]]>Калі ласка, зазірніце ў <![CDATA[<a href="https://telegram.org/faq#general">ЧаПы Тэлеграма</a>]]>: там ёсць адказы на большасць пытанняў і парады па выпраўленні <![CDATA[<a href="https://telegram.org/faq#troubleshooting">хібнасцей</a>]]>.</string>
   <string name="AskButton">Спытацца ў добраахвотніка</string>
   <string name="TelegramFaq">ЧаПы Тэлеграма</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -716,6 +720,10 @@
   <string name="Emoji">Эмодзі</string>
   <string name="EmojiBigSize">Вялікія эмодзі</string>
   <string name="EmojiUseDefault">Выкарыстоўваць стандартныя эмодзі</string>
+  <string name="TelegramVersion">Тэлеграм для Android %1$s</string>
+  <string name="DebugMenu">Дэбаг-меню</string>
+  <string name="DebugMenuImportContacts">Імпартаваць кантакты</string>
+  <string name="DebugMenuReloadContacts">Перазагрузіць кантакты</string>
   <!--cache view-->
   <string name="LocalDatabase">Лакальная база дадзеных</string>
   <string name="LocalDatabaseClear">Выдаліць кэшаваныя паведамленні?</string>

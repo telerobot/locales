@@ -35,6 +35,7 @@
   <string name="FirstName">Adınız (gerekli)</string>
   <string name="LastName">Soyadınız (isteğe bağlı)</string>
   <string name="CancelRegistration">Kaydı iptal et</string>
+  <!--payments view-->
   <!--chats view-->
   <string name="NewConversationShortcut">Yeni konuşma</string>
   <string name="Settings">Ayarlar</string>
@@ -332,8 +333,6 @@ sorunuz mu var?</string>
   <string name="ReportSpamAlert">Bu kullanıcıyı spam olarak raporlamak istediğinizden emin misiniz?</string>
   <string name="ReportSpamAlertGroup">Bu grubu spam olarak raporlamak istediğinizden emin misiniz?</string>
   <string name="ReportSpamAlertChannel">Bu kanalı spam olarak bildirmek istediğinize emin misiniz?</string>
-  <string name="NobodyLikesSpam1">Bugün kişi listenizde olmayan kullanıcılarla çokça mesajlaştınız, lütfen yarın tekrar deneyin. Eğer önce bu kullanıcı size mesaj yazarsa cevap yazabilirsiniz.</string>
-  <string name="NobodyLikesSpam2">Bugün kişi listenizde olmayan kullanıcılarla çok fazla mesajlaştığınız için bu kullanıcıyı ekleyemezsiniz. Başka bir üyeden bu kullanıcıyı gruba eklemesini isteyebilirsiniz.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Daha fazla bilgi</string>
   <string name="ShareSendTo">Buraya gönder...</string>
@@ -578,6 +577,8 @@ sorunuz mu var?</string>
   <string name="ArchivedStickersAlertInfo">Bazı eski etiketleriniz arşivlendi. Etiket Ayarlarından yeniden aktif edebilirsiniz.</string>
   <string name="ArchivedMasksAlertTitle">Arşivlenmiş maskeler</string>
   <string name="ArchivedMasksAlertInfo">Bazı eski maskeleriniz arşivlendi. Maske Ayarlarından yeniden aktif edebilirsiniz.</string>
+  <!--theme view-->
+  <string name="Theme">Tema</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Tüm bildirim ayarlarını varsayılana sıfırla</string>
   <string name="TextSize">Mesaj Yazı Boyutu</string>
@@ -635,8 +636,7 @@ sorunuz mu var?</string>
   <string name="ContactJoined"> Kişi Telegram\'a katıldı!</string>
   <string name="PinnedMessages">Sabitlenen Mesajlar</string>
   <string name="Language">Dil</string>
-  <string name="Theme">Tema</string>
-  <string name="AskAQuestionInfo">Lütfen unutmayın ki Telegram Desteği gönüllüler tarafında yapılır. Olabildiğince hızlı cevap vermeye çalışıyoruz, ama biraz zaman alabilir.<![CDATA[<br><br>]]>Lütfen bir göz atın <![CDATA[<a href=\\"http://telegram.org/faq#general\\">Telegram SSS</a>]]>: bir çok sorunun cevapları ve önemli ipuçları için vardır <![CDATA[<a href=\\"http://telegram.org/faq#troubleshooting\\">sorun giderme</a>]]>.</string>
+  <string name="AskAQuestionInfo">Lütfen unutmayın ki Telegram Desteği gönüllüler tarafında yapılır. Olabildiğince hızlı cevap vermeye çalışıyoruz, ama biraz zaman alabilir.<![CDATA[<br><br>]]>Lütfen bir göz atın <![CDATA[<a href=\"http://telegram.org/faq#general\">Telegram SSS</a>]]>: bir çok sorunun cevapları ve önemli ipuçları için vardır <![CDATA[<a href=\"http://telegram.org/faq#troubleshooting\">sorun giderme</a>]]>.</string>
   <string name="AskButton">Bir gönüllüye sor</string>
   <string name="TelegramFaq">Telegram SSS</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>

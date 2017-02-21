@@ -38,6 +38,7 @@
   <string name="FirstName">Ismingiz (majburiy)</string>
   <string name="LastName">Familiyangiz (ixtiyoriy)</string>
   <string name="CancelRegistration">Ro‘yxatdan o‘tishni bekor qilish</string>
+  <!--payments view-->
   <!--chats view-->
   <string name="Settings">Sozlamalar</string>
   <string name="Contacts">Kontaktlar</string>
@@ -553,6 +554,7 @@
   <string name="ArchivedStickersAlertInfo">Sizning ba\'zi eski stikerlaringiz to\'plami arxivga joylashtirildi. Siz ularni Stiker Sozlamalari menyusi orqali qayta tiklashingiz mumkin. </string>
   <string name="ArchivedMasksAlertTitle">Arxivlangan niqoblar</string>
   <string name="ArchivedMasksAlertInfo">Sizning ba\'zi eski niqoblaringiz to\'plami arxivga joylashtirildi. Siz ularni Niqoblar Sozlamalari menyusi orqali qayta tiklashingiz mumkin. </string>
+  <!--theme view-->
   <!--settings view-->
   <string name="ResetNotificationsText">Barcha bilidirishnoma sozlamalari standart holatga qaytariladi</string>
   <string name="TextSize">Xabarlardagi matn kattaligi</string>
@@ -589,7 +591,7 @@
   <string name="ContactJoined">Kontakt Telegramga a’zo bo‘ldi</string>
   <string name="PinnedMessages">Qadalgan Xabarlar</string>
   <string name="Language">Til</string>
-  <string name="AskAQuestionInfo">Iltimos, unutmang, Telegramni qo\'llab-quvvatlash ko\'ngillilar tomonidan amalga oshiriladi. Biz sizga imkon darajada tezroq javob berishga harakat qilamiz, lekin bu bir oz vaqt talab qilishi mumkin.<![CDATA[<br><br>]]>Iltimos, <![CDATA[<a href=\"https://telegram.org/faq#general\">Telegram savol-javoblar</a>]]>ga qarang: unda ko\'plab savollarga javoblar va <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">muammolarni hal qilish</a>]]> uchun muhim maslahatlar bor.</string>
+  <string name="AskAQuestionInfo">Iltimos, unutmang, Telegramni qo\'llab-quvvatlash ko\'ngillilar tomonidan amalga oshiriladi. Biz sizga imkon darajada tezroq javob berishga harakat qilamiz, lekin bu bir oz vaqt talab qilishi mumkin.<![CDATA[<br><br>]]>Iltimos, <![CDATA[<a href="https://telegram.org/faq#general">Telegram savol-javoblar</a>]]>ga qarang: unda ko\'plab savollarga javoblar va <![CDATA[<a href="https://telegram.org/faq#troubleshooting">muammolarni hal qilish</a>]]> uchun muhim maslahatlar bor.</string>
   <string name="AskButton">Ko‘ngilli yordamchidan so‘rash</string>
   <string name="TelegramFaq">Telegram savol-javob</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>

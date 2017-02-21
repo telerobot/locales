@@ -12,18 +12,18 @@
   <string name="WrongCountry">Prefiso zbajà</string>
   <!--code enter view-->
   <string name="YourCode">Verìfega nùmaro</string>
-  <string name="SentSmsCode">A ghemo mandà un SMS co\'l còdeze de ativasion a\'l to nùmaro <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
-  <string name="SentAppCode">A ghemo mandà el còdeze inte l\'aplegasion <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> so cheł\'altro to dispozitivo.</string>
+  <string name="SentSmsCode">A ghemo mandà un SMS co\'l còdaze de ativasion a\'l to nùmaro <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
+  <string name="SentAppCode">A ghemo mandà el còdaze inte l\'aplegasion <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> so cheł\'altro to dispozitivo.</string>
   <string name="SentCallCode">A ghemo voltà na ciamada de ativasion a\'l to nùmaro <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\\n\\nNo stà mìa respóndar, Telegram el farà tuto par conto suo.</string>
-  <string name="SentCallOnly">A semo drio ciamar el to nùmaro <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> par detarte un còdeze.</string>
+  <string name="SentCallOnly">A semo drio ciamar el to nùmaro <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> par detarte un còdaze.</string>
   <string name="CallText">A te ciamaremo tenpo %1$d:%2$02d</string>
   <string name="SmsText">A te mandaremo un SMS tenpo %1$d:%2$02d</string>
   <string name="Calling">A semo drio ciamarte...</string>
-  <string name="Code">Còdeze</string>
+  <string name="Code">Còdaze</string>
   <string name="WrongNumber">Zeło el nùmaro zbajà?</string>
-  <string name="DidNotGetTheCode">No ghetu mìa resevesto el còdeze?</string>
+  <string name="DidNotGetTheCode">No ghetu mìa resevesto el còdaze?</string>
   <string name="CancelAccountReset">Anuła ła reinpostasion de l\'account</string>
-  <string name="CancelAccountResetInfo">Calchedun che\'l ga aceso a\'l to nùmaro de tełèfono <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> el ga dimandà de ełimenar el to account Telegram e de reinpostar ła to password de verìfega in 2 pasaji.\\n\\nSe A no te jeri ti, insarisi el còdeze che A te ghemo pena mandà par SMS a\'l to nùmaro de tełèfono.</string>
+  <string name="CancelAccountResetInfo">Calchedun che\'l ga aceso a\'l to nùmaro de tełèfono <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> el ga dimandà de ełimenar el to account Telegram e de reinpostar ła to password de verìfega in 2 pasaji.\\n\\nSe A no te jeri ti, insarisi el còdaze che A te ghemo pena mandà par SMS a\'l to nùmaro de tełèfono.</string>
   <string name="ResetAccount">Reinposta account</string>
   <string name="ResetAccountInfo">Daché el to account <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> el ze ativo e protezesto da na password, A ło ełimenaremo fra na setimana par razon de securesa.\\n\\nInte calsìase momento, A te połi anułar \'sto proseso.</string>
   <string name="ResetAccountStatus">A te podarè reinpostar el to account tenpo:</string>
@@ -38,6 +38,37 @@
   <string name="FirstName">Nome (nesesario)</string>
   <string name="LastName">Conjome (opsionałe)</string>
   <string name="CancelRegistration">Anuła rejistrasion</string>
+  <!--payments view-->
+  <string name="PaymentSuccessfullyPaid">A te ghè pena trasfarìo %1$s a %2$s par %3$s co suceso</string>
+  <string name="PaymentSuccessfullyPaidNoItem">A te ghè pena trasfarìo %1$s a %2$s co suceso</string>
+  <string name="PaymentCheckout">Cronpa</string>
+  <string name="PaymentShippingMethod">Tipi de spedision</string>
+  <string name="PaymentNoShippingMethod">Ne despiaze, A no ze mìa posìbiłe consenjar a\'l to ndariso.</string>
+  <string name="PaymentShippingInfo">Informasion de spedision</string>
+  <string name="PaymentShippingAddress">Ndariso de spedision</string>
+  <string name="PaymentShippingAddress1Placeholder">Ndariso 1 (Strada)</string>
+  <string name="PaymentShippingAddress2Placeholder">Ndariso 2 (Strada)</string>
+  <string name="PaymentShippingCityPlaceholder">Sità</string>
+  <string name="PaymentShippingStatePlaceholder">Stado</string>
+  <string name="PaymentShippingCountry">Paeze</string>
+  <string name="PaymentShippingZipPlaceholder">Còdaze postałe</string>
+  <string name="PaymentShippingReceiver">Resevidor</string>
+  <string name="PaymentShippingName">Nome intiero</string>
+  <string name="PaymentShippingPhoneNumber">Nùmaro de tełèfono</string>
+  <string name="PaymentShippingEmailPlaceholder">Mail</string>
+  <string name="PaymentShippingSave">Salva informasion de spedision</string>
+  <string name="PaymentShippingSaveInfo">A te połi salvar łe to informasion de spedision par un dòparo fuduro.</string>
+  <string name="PaymentCardInfo">Informasion de pagamento</string>
+  <string name="PaymentCardTitle">Pagamento co carta</string>
+  <string name="PaymentCardNumber">Nùmaro carta</string>
+  <string name="PaymentCardCvv">Còdaze se seguresa (CVV)</string>
+  <string name="PaymentCardExpireDateMonth">Meze</string>
+  <string name="PaymentCardExpireDateYear">Ano</string>
+  <string name="PaymentBillingAddress">Ndariso de faturasion</string>
+  <string name="PaymentCardNameTitle">Titołar de ła carta</string>
+  <string name="PaymentCardName">Nome Conjome</string>
+  <string name="PaymentCardSavePaymentInformation">Salva informasion de pagamento</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine1">A te połi salvar łe to informasion de pagamento par un dòparo fuduro.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Convarsasion nova</string>
   <string name="Settings">Inpostasion</string>
@@ -334,8 +365,6 @@
   <string name="ReportSpamAlert">Vutu davero senjałar ła resesion de scoase da \'sto utente?</string>
   <string name="ReportSpamAlertGroup">Vutu davero senjałar ła resesion de scoase da \'sto grupo?</string>
   <string name="ReportSpamAlertChannel">Vutu davero senjałar ła resesion de scoase da \'sto canałe?</string>
-  <string name="NobodyLikesSpam1">Par uncò A te ghè contatà masa zente mìa salvada in rubriga, proa danovo doman. Ma, se l\'utente el te scrive par primo, A te sarè bon de respóndar.</string>
-  <string name="NobodyLikesSpam2">No te połi mìa zontar \'sto utente parché, par uncò, A te ghè contatà masa zente mìa salvada in rubriga. Proa danovo doman. A te połi dimandar a n\'antro menbro de zontar \'sto utente inte\'l grupo.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq/it#non-posso-inviare-messaggi-a-chi-non-far-parte-dei-miei-contatti</string>
   <string name="MoreInfo">Informasion in pì</string>
   <string name="ShareSendTo">Manda a...</string>
@@ -580,6 +609,8 @@
   <string name="ArchivedStickersAlertInfo">Un fià de serie de łe to figurete pì vecie łe ze stà archivàe. A te połi reativarle inte łe inpostasion de łe figurete.</string>
   <string name="ArchivedMasksAlertTitle">Màscare archivàe</string>
   <string name="ArchivedMasksAlertInfo">Un fià de serie de łe to màscare pì vecie łe ze stà archivàe. A te połi reativarle inte łe inpostasion de łe màscare.</string>
+  <!--theme view-->
+  <string name="Theme">Tema</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Reinposta tute łe inpostasion de notìfega predefenìe</string>
   <string name="TextSize">Grandesa de\'l testo de i mesaji</string>
@@ -637,8 +668,7 @@
   <string name="ContactJoined">Un contato el se gà zontà so Telegram!</string>
   <string name="PinnedMessages">Mesaji picài insima</string>
   <string name="Language">Łengua</string>
-  <string name="Theme">Tema</string>
-  <string name="AskAQuestionInfo">Serca de capir che el suporto de Telegram el ze portà vanti da vołontari. A sercaremo de incontentar tuti pì in presa che podemo, ma A podarìa vołerghe un fià.<![CDATA[<br><br>]]>Daghe pur na ociada inte łe <![CDATA[<a href=\"https://telegram.org/faq/it#domande-generali\">dimande frecuenti de Telegram</a>]]> par catar fora ła parte pì granda de łe resposte e conseji inportanti par <![CDATA[<a href=\"https://telegram.org/faq/it#risoluzione-dei-problemi\">resòlvar problemi</a>]]>.</string>
+  <string name="AskAQuestionInfo">Serca de capir che el suporto de Telegram el ze portà vanti da vołontari. A sercaremo de incontentar tuti pì in presa che podemo, ma A podarìa vołerghe un fià.<![CDATA[<br><br>]]>Daghe pur na ociada inte łe <![CDATA[<a href="https://telegram.org/faq/it#domande-generali">dimande frecuenti de Telegram</a>]]> par catar fora ła parte pì granda de łe resposte e conseji inportanti par <![CDATA[<a href="https://telegram.org/faq/it#risoluzione-dei-problemi">resòlvar problemi</a>]]>.</string>
   <string name="AskButton">Dimanda</string>
   <string name="TelegramFaq">Dimande frecuenti de Telegram</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq/it</string>
@@ -689,7 +719,7 @@
   <string name="PhoneNumberAlert">A tuti i to contati Telegram A ghe venjarà zontà el to nùmaro novo infra i só contati, senpre che i gapie el to nùmaro vecio e che ti A no te łi ghesi blocài.</string>
   <string name="PhoneNumberChange">CANBIA NÙMARO</string>
   <string name="ChangePhoneNewNumber">Nùmaro novo</string>
-  <string name="ChangePhoneHelp">A te mandaremo un SMS co\'l còdeze de confermasion a\'l to nùmaro novo.</string>
+  <string name="ChangePhoneHelp">A te mandaremo un SMS co\'l còdaze de confermasion a\'l to nùmaro novo.</string>
   <string name="ChangePhoneNumberOccupied">El nùmaro %1$s el ze za conetesto co un account Telegram. Ełìmena chel account łà prima de móvarte so\'l to nùmaro novo.</string>
   <string name="NotificationsOther">Altro</string>
   <string name="NotificationsDisabled">Dezativàe</string>
@@ -748,18 +778,18 @@
   <string name="TerminateSessionQuestion">Vutu sarar su \'sta sesion?</string>
   <string name="UnofficialApp">App mìa ofisiałe</string>
   <!--passcode view-->
-  <string name="Passcode">Còdeze de bloco</string>
-  <string name="ChangePasscode">Canbia còdeze</string>
-  <string name="ChangePasscodeInfo">Co A te inposti un còdeze in pì, saltarà fora un łocheto inte ła pàjina de łe chat. Tócheło par blocar e dezblocar ła to app Telegram.\\n\\nStà tento: se A te te dezménteghi el còdeze, A te gavarè da ełimenar e reinstałar l\'app e tute łe chat segrete łe ndarà perdeste.</string>
-  <string name="ChangePasscodeAlert">Da deso A te vedarè un łocheto inte ła pàjina de łe chat. Tócheło par blocar l\'app Telegram co\'l to còdeze novo.</string>
+  <string name="Passcode">Còdaze de bloco</string>
+  <string name="ChangePasscode">Canbia còdaze</string>
+  <string name="ChangePasscodeInfo">Co A te inposti un còdeze in pì, saltarà fora un łocheto inte ła pàjina de łe chat. Tócheło par blocar e dezblocar ła to app Telegram.\\n\\nStà tento: se A te te dezménteghi el còdaze, A te gavarè da ełimenar e reinstałar l\'app e tute łe chat segrete łe ndarà perdeste.</string>
+  <string name="ChangePasscodeAlert">Da deso A te vedarè un łocheto inte ła pàjina de łe chat. Tócheło par blocar l\'app Telegram co\'l to còdaze novo.</string>
   <string name="PasscodePIN">Nùmaro identifegadivo</string>
   <string name="PasscodePassword">Password</string>
-  <string name="EnterCurrentPasscode">Insarisi el to còdeze in dòparo</string>
-  <string name="EnterNewFirstPasscode">Insarisi un còdeze</string>
-  <string name="EnterNewPasscode">Insarisi un còdeze novo</string>
-  <string name="EnterYourPasscode">Insarisi un còdeze</string>
-  <string name="ReEnterYourPasscode">Reinsarisi el còdeze novo</string>
-  <string name="InvalidPasscode">Còdeze mìa vàłido</string>
+  <string name="EnterCurrentPasscode">Insarisi el to còdaze in dòparo</string>
+  <string name="EnterNewFirstPasscode">Insarisi un còdaze</string>
+  <string name="EnterNewPasscode">Insarisi un còdaze novo</string>
+  <string name="EnterYourPasscode">Insarisi un còdaze</string>
+  <string name="ReEnterYourPasscode">Reinsarisi el còdaze novo</string>
+  <string name="InvalidPasscode">Còdaze mìa vàłido</string>
   <string name="PasscodeDoNotMatch">I còdezi no i se cata mìa</string>
   <string name="AutoLock">Bloco automàtego</string>
   <string name="AutoLockInfo">Ativasion de\'l bloco se A te stè via par racuanto tenpo.</string>
@@ -770,7 +800,7 @@
   <string name="FingerprintHelp">Sensor a toco</string>
   <string name="FingerprintNotRecognized">Zdeada mìa reconosesta. Proa danovo.</string>
   <string name="ScreenCapture">Parmeti de brincar screenshot</string>
-  <string name="ScreenCaptureInfo">Se ativà, A te połi brincar screenshot de l\'app, ma el sistema el mostrarà łe to chat inte\'l Scanbiador de Atividà anca co\'l còdeze de bloco ativo.\\n\\nPołe darsi che A te serva retacar l\'app parché \'sta opsion ła gabie efeto.</string>
+  <string name="ScreenCaptureInfo">Se ativà, A te połi brincar screenshot de l\'app, ma el sistema el mostrarà łe to chat inte\'l Scanbiador de Atividà anca co\'l còdaze de bloco ativo.\\n\\nPołe darsi che A te serva retacar l\'app parché \'sta opsion ła gabie efeto.</string>
   <!--media view-->
   <string name="DocumentsTitle">File sparpanjài</string>
   <string name="SharedMediaTitle">Media sparpanjài</string>
@@ -863,7 +893,7 @@
   <!--password view-->
   <string name="TwoStepVerification">Verìfega in 2 pasaji</string>
   <string name="SetAdditionalPassword">Inposta password in pì</string>
-  <string name="SetAdditionalPasswordInfo">A te połi inpostar na password in pì che ła te venjarà dimandà co te acedi so un dispozitivo novo inazonta a\'l còdeze che A te rivarà par SMS.</string>
+  <string name="SetAdditionalPasswordInfo">A te połi inpostar na password in pì che ła te venjarà dimandà co te acedi so un dispozitivo novo inazonta a\'l còdaze che A te rivarà par SMS.</string>
   <string name="YourPassword">Ła to password</string>
   <string name="PleaseEnterCurrentPassword">Insarisi ła to password</string>
   <string name="PleaseEnterFirstPassword">Insarisi na password</string>
@@ -893,8 +923,8 @@
   <string name="PasswordEmailInvalid">Mail mìa vàłida</string>
   <string name="RestorePasswordNoEmailTitle">Ne despiaze</string>
   <string name="RestorePasswordNoEmailText">Co A te ghè inpostà ła password, A no te ghè mìa prevedesto na mail de recùparo, donca łe opsion che A te resta łe ze de recordarte par forsa ła password o reinpostar el to account.</string>
-  <string name="RestoreEmailSent">A te ghemo mandà un còdeze de recùparo inte ła mail che A te ghè prevedesto:\\n\\n%1$s</string>
-  <string name="RestoreEmailSentInfo">Controła ła to mail e insarisi el còdeze de 6 nùmari che A te gavemo mandà łà.</string>
+  <string name="RestoreEmailSent">A te ghemo mandà un còdaze de recùparo inte ła mail che A te ghè prevedesto:\\n\\n%1$s</string>
+  <string name="RestoreEmailSentInfo">Controła ła to mail e insarisi el còdaze de 6 nùmari che A te gavemo mandà łà.</string>
   <string name="RestoreEmailTrouble">Ghetu problemi de aceso inte ła to mail %1$s?</string>
   <string name="RestoreEmailTroubleText">Se A no te połi repristenar l\'aceso inte ła to mail, łe opsion che A te resta łe ze de recordarte par forsa ła password o reinpostar el to account.</string>
   <string name="ResetMyAccount">REINPOSTA ACCOUNT</string>
@@ -906,7 +936,7 @@
   <string name="LoginPasswordText">A te ghè ativà ła verìfega in 2 pasaji, donca el to account el ze protezesto co na password in pì.</string>
   <string name="ForgotPassword">Password dezmentegada?</string>
   <string name="PasswordRecovery">Recùparo password</string>
-  <string name="PasswordCode">Còdeze</string>
+  <string name="PasswordCode">Còdaze</string>
   <string name="PasswordReset">Password dezativada</string>
   <string name="EnabledPasswordText">A te ghè ativà ła verìfega in 2 pasaji.\\nA te gavarè bizonjo de \'sta password cuà par ndar rento a\'l to account Telegram.</string>
   <string name="PendingEmailText">Ła to mail de recùparo %1$s no ła ze njancora ativa e ła speta ła confermasion.</string>
@@ -1059,10 +1089,10 @@
   <!--Alert messages-->
   <string name="InvalidPhoneNumber">Nùmaro de tełèfono mìa vàłido</string>
   <string name="BannedPhoneNumber">Nùmaro de tełèfono banà</string>
-  <string name="CodeExpired">El còdeze el ze scadùo, acedi danovo</string>
+  <string name="CodeExpired">El còdaze el ze scadùo, acedi danovo</string>
   <string name="FloodWait">Masa tentadivi, reprova danovo pì tardi</string>
   <string name="FloodWaitTime">Masa tentadivi, reprova danovo tenpo %1$s</string>
-  <string name="InvalidCode">Còdeze mìa vàłido</string>
+  <string name="InvalidCode">Còdaze mìa vàłido</string>
   <string name="PhoneNumberFlood">Ne despiaze, de resente A te ghè ełimenà e recreà el to account masa \'olte. Speta calche dì prima de rejistrarte n\'antra danovo.</string>
   <string name="InvalidFirstName">Nome mìa vàłido</string>
   <string name="InvalidLastName">Conjome mìa vàłido</string>
@@ -1113,10 +1143,10 @@
   <string name="SecretChatContextBotAlert">Tien conto che i bot i ze fornìi da zviłupadori estarni. Par fàrghine funsionar uno, i sìnbołi che A te scrivi dopo el nome de\'l bot i vien mandài a\'l respetivo zviłupador.</string>
   <string name="RaiseToSpeakAlert">Ghetu caro ativar el \"Łeva sù par parlar\" par i mesaji vocałi?</string>
   <string name="EditMessageError">Ne despiaze, A no te połi mìa modifegar \'sto mesajo.</string>
-  <string name="AllowReadSms">Parmétaghe a Telegram de resévar SMS, in manjera che A podemo insarir automategamente el to còdeze par ti.</string>
-  <string name="AllowReadCall">Parmétaghe a Telegram de resévar ciamàe, in manjera che A podemo insarir automategamente el to còdeze par ti.</string>
-  <string name="AllowFillNumber">Parmétaghe a Telegram de resévar ciamàe e SMS, in manjera che A podemo rejistrar el to nùmaro de tełèfono, mandarte un còdeze e insarirlo par ti.</string>
-  <string name="AllowReadCallAndSms">Parmétaghe a Telegram de resévar ciamàe e SMS, in manjera che A podemo insarir automategamente el to còdeze par ti.</string>
+  <string name="AllowReadSms">Parmétaghe a Telegram de resévar SMS, in manjera che A podemo insarir automategamente el to còdaze par ti.</string>
+  <string name="AllowReadCall">Parmétaghe a Telegram de resévar ciamàe, in manjera che A podemo insarir automategamente el to còdaze par ti.</string>
+  <string name="AllowFillNumber">Parmétaghe a Telegram de resévar ciamàe e SMS, in manjera che A podemo rejistrar el to nùmaro de tełèfono, mandarte un còdaze e insarirlo par ti.</string>
+  <string name="AllowReadCallAndSms">Parmétaghe a Telegram de resévar ciamàe e SMS, in manjera che A podemo insarir automategamente el to còdaze par ti.</string>
   <string name="UserRestricted">Ne despiaze, A no te ghe mìa el parmeso par farlo.</string>
   <string name="JoinGroup">ZÓNTATE INTE\'L GRUPO</string>
   <!--permissions-->

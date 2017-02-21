@@ -38,6 +38,7 @@
   <string name="FirstName">Imię (wymagane)</string>
   <string name="LastName"> Nazwisko (opcjonalnie)</string>
   <string name="CancelRegistration">Anuluj rejestrację</string>
+  <!--payments view-->
   <!--chats view-->
   <string name="NewConversationShortcut">Nowa konwersacja</string>
   <string name="Settings">Ustawienia</string>
@@ -334,8 +335,6 @@
   <string name="ReportSpamAlert">Czy na pewno chcesz zgłosić spam od tego użytkownika?</string>
   <string name="ReportSpamAlertGroup">Czy na pewno chcesz zgłosić spam od tej grupy?</string>
   <string name="ReportSpamAlertChannel">Czy na pewno chcesz zgłosić spam od tego kanału?</string>
-  <string name="NobodyLikesSpam1">Napisałeś do zbyt dużej ilości osób spoza kontaktów, spróbuj ponownie jutro. Będziesz mógł odpisać jeszcze dziś, jeśli taki użytkownik napisze pierwszy.</string>
-  <string name="NobodyLikesSpam2">Nie możesz dodać tego użytkownika ponieważ napisałeś do zbyt dużej ilości osób spoza kontaktów. Spróbuj ponownie jutro. Możesz poprosić innego członka, by dodał użytkownika do tej grupy.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Więcej informacji</string>
   <string name="ShareSendTo">Wyślij do...</string>
@@ -581,6 +580,8 @@ Wykryliśmy logowanie na twoje konto z nowego urządzenia %2$s\n\nUrządzenie: %
   <string name="ArchivedStickersAlertInfo">Niektóre z twoich starszych naklejek zostały zarchiwizowane. Możesz je reaktywować w ustawieniach naklejek.</string>
   <string name="ArchivedMasksAlertTitle">Zarchiwizowane maski</string>
   <string name="ArchivedMasksAlertInfo">Niektóre z twoich starszych masek zostały zarchiwizowane. Możesz je reaktywować w ustawieniach masek.</string>
+  <!--theme view-->
+  <string name="Theme">Motyw</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Przywróć wszystkie domyślne powiadomienia</string>
   <string name="TextSize">Rozmiar czcionki w wiadomościach</string>
@@ -638,8 +639,7 @@ Wykryliśmy logowanie na twoje konto z nowego urządzenia %2$s\n\nUrządzenie: %
   <string name="ContactJoined">Kontakt dołączył do Telegrama</string>
   <string name="PinnedMessages">Przypięte wiadomości</string>
   <string name="Language">Język</string>
-  <string name="Theme">Motyw</string>
-  <string name="AskAQuestionInfo">Pamiętaj, że wsparcie Telegrama to w większości ochotnicy. Staramy się odpowiadać najszybciej jak to możliwe, ale może to trochę potrwać.<![CDATA[<br><br>]]>Zajrzyj na <![CDATA[<a href=\"https://telegram.org/faq#general\">FAQ Telegramu</a>]]>: znajdziesz tam odpowiedzi na większość pytań i ważne wskazówki odnośnie różnych <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">problemów</a>]]>.</string>
+  <string name="AskAQuestionInfo">Pamiętaj, że wsparcie Telegrama to w większości ochotnicy. Staramy się odpowiadać najszybciej jak to możliwe, ale może to trochę potrwać.<![CDATA[<br><br>]]>Zajrzyj na <![CDATA[<a href="https://telegram.org/faq#general">FAQ Telegramu</a>]]>: znajdziesz tam odpowiedzi na większość pytań i ważne wskazówki odnośnie różnych <![CDATA[<a href="https://telegram.org/faq#troubleshooting">problemów</a>]]>.</string>
   <string name="AskButton">Zapytaj ochotnika</string>
   <string name="TelegramFaq">Telegram FAQ</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>

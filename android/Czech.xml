@@ -32,6 +32,7 @@
   <string name="FirstName">Jméno (požadované)</string>
   <string name="LastName">Příjmení (nepovinné)</string>
   <string name="CancelRegistration">Zrušit registraci</string>
+  <!--payments view-->
   <!--chats view-->
   <string name="Settings">Nastavení</string>
   <string name="Contacts">Kontakty</string>
@@ -452,6 +453,7 @@
   <string name="StickersCopy">Kopírovat odkaz</string>
   <string name="StickersRemove">Vymazat</string>
   <string name="NoStickers">Žádné nálepky</string>
+  <!--theme view-->
   <!--settings view-->
   <string name="ResetNotificationsText">Obnovit všechny nastavení upozornění do výchozího stavu</string>
   <string name="TextSize">Velikost textu zpráv</string>
@@ -487,7 +489,7 @@
   <string name="Events">Události</string>
   <string name="ContactJoined">Kontakt začal používat Telegram</string>
   <string name="Language">Jazyk</string>
-  <string name="AskAQuestionInfo">Mějte na paměti, že Podpora Telegramu je vykonávaná dobrovolníky. Snažíme se odpovídat co nejrychleji, přesto to může chvilku trvat.<![CDATA[<br><br>]]>Prosím navštivte <![CDATA[<a href=\"https://telegram.org/faq#general\">Telegram FAQ</a>]]>: najdete tam odpovědi na většinu otázek a důležité tipy a rady pro <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">řešení problémů</a>]]>.</string>
+  <string name="AskAQuestionInfo">Mějte na paměti, že Podpora Telegramu je vykonávaná dobrovolníky. Snažíme se odpovídat co nejrychleji, přesto to může chvilku trvat.<![CDATA[<br><br>]]>Prosím navštivte <![CDATA[<a href="https://telegram.org/faq#general">Telegram FAQ</a>]]>: najdete tam odpovědi na většinu otázek a důležité tipy a rady pro <![CDATA[<a href="https://telegram.org/faq#troubleshooting">řešení problémů</a>]]>.</string>
   <string name="AskButton">Zeptat se dobrovolníka</string>
   <string name="TelegramFaq">Telegram FAQ</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>

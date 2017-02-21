@@ -39,6 +39,7 @@
   <string name="FirstName">Исем (мәҗбүри)</string>
   <string name="LastName">Фамилия (мәҗбүри түгел)</string>
   <string name="CancelRegistration">Теркәлүне туктату</string>
+  <!--payments view-->
   <!--chats view-->
   <string name="NewConversationShortcut">Яңа әңгәмә</string>
   <string name="Settings">Көйләүләр</string>
@@ -338,8 +339,6 @@
   <string name="ReportSpamAlert">Бу кулланучыдан спам килү турында белгертергә телисезме?</string>
   <string name="ReportSpamAlertGroup">Бу төркемнән спам килү турында белгертергә телисезме?</string>
   <string name="ReportSpamAlertChannel">Бу каналдан спам килү турында хәбәр итәргә телисезме?</string>
-  <string name="NobodyLikesSpam1">Сез контактларыгызда булмаган кулланучыларга бүген бик күп хат яздыгыз. Иртәгә язып карагыз яисә кулланучыдан беренче булып язуны сорагыз.</string>
-  <string name="NobodyLikesSpam2">Бу кулланучыны өсти алмыйсыз, чөнки сез бүген контактларыгызда булмаган кешеләргә бик күп хат яздыгыз. Иртәгә өстәп карагыз яисә бүтән кешедән бу кулланучыны өстәүне сорагыз.</string>
   <string name="NobodyLikesSpamUrl">https://tlgrm.ru/faq/pochemu-ne-otpravit-soobshenie.html</string>
   <string name="MoreInfo">Тулырак</string>
   <string name="ShareSendTo">Җибәрү...</string>
@@ -592,6 +591,8 @@
   <string name="ArchivedStickersAlertInfo">Кайбер стикер җыелмаларыгыз архивлаштылар. Сез аларны көйләүләрдә активлаштыра аласыз.</string>
   <string name="ArchivedMasksAlertTitle">Архивланган битлекләр</string>
   <string name="ArchivedMasksAlertInfo">Кайбер иске битлек җыелмаларыгыз архивлашкан. Сез аларны Битлек көйләүләрендә активлаштыра аласыз.</string>
+  <!--theme view-->
+  <string name="Theme">Тема</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Бөтен белгертүләрне стандарт көйләүләргә кайтару</string>
   <string name="TextSize">Хатлар текстының зурлыгы</string>
@@ -649,8 +650,7 @@
   <string name="ContactJoined">Контакт Telegramга кушылды</string>
   <string name="PinnedMessages">Беркетелгән хатлар</string>
   <string name="Language">Тел</string>
-  <string name="Theme">Тема</string>
-  <string name="AskAQuestionInfo">Игътибар итегез, Telegramның ярдәме волонтерлар тарафыннан башкарыла. Без мөмкин кадәр тизрәк җавап бирергә тырышырбыз, әмма моңа вакыт таләп ителергә мөмкин.<![CDATA[<br><br>]]>Зинһар, Telegram турында сораулар һәм җаваплар белән танышып китегез: <![CDATA[<a href=\\"https://tlgrm.ru/faq\\">монда сорауларга җаваплар</a>]]> һәм <![CDATA[<a href=\\"http://telegram.org/faq#troubleshooting\\">җитешсезлекләрне бетерү өчен</a> мөһим киңәшләр бирелә.]]></string>
+  <string name="AskAQuestionInfo">Игътибар итегез, Telegramның ярдәме волонтерлар тарафыннан башкарыла. Без мөмкин кадәр тизрәк җавап бирергә тырышырбыз, әмма моңа вакыт таләп ителергә мөмкин.<![CDATA[<br><br>]]>Зинһар, Telegram турында сораулар һәм җаваплар белән танышып китегез: <![CDATA[<a href=\"https://tlgrm.ru/faq\">монда сорауларга җаваплар</a>]]> һәм <![CDATA[<a href=\"http://telegram.org/faq#troubleshooting\">җитешсезлекләрне бетерү өчен</a> мөһим киңәшләр бирелә.]]></string>
   <string name="AskButton">Волонтердан сорау</string>
   <string name="TelegramFaq">Telegram FAQ</string>
   <string name="TelegramFaqUrl">https://tlgrm.ru/faq</string>
