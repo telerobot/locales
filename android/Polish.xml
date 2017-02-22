@@ -39,6 +39,54 @@
   <string name="LastName"> Nazwisko (opcjonalnie)</string>
   <string name="CancelRegistration">Anuluj rejestrację</string>
   <!--payments view-->
+  <string name="PaymentSuccessfullyPaid">Dokonano płatności %1$s do %2$s za %3$s</string>
+  <string name="PaymentSuccessfullyPaidNoItem">Dokonano płatności %1$s do %2$s</string>
+  <string name="PaymentCheckout">Sprawdź</string>
+  <string name="PaymentShippingMethod">Sposób dostawy</string>
+  <string name="PaymentNoShippingMethod">Nie ma możliwości dostawy na twój adres.</string>
+  <string name="PaymentShippingInfo">Informacje o dostawie</string>
+  <string name="PaymentShippingAddress">Adres dostawy</string>
+  <string name="PaymentShippingAddress1Placeholder">Adres 1 (Ulica)</string>
+  <string name="PaymentShippingAddress2Placeholder">Adres 2 (Ulica)</string>
+  <string name="PaymentShippingCityPlaceholder">Miasto</string>
+  <string name="PaymentShippingStatePlaceholder">Województwo</string>
+  <string name="PaymentShippingCountry">Kraj</string>
+  <string name="PaymentShippingZipPlaceholder">Kod pocztowy</string>
+  <string name="PaymentShippingReceiver">Odbiorca</string>
+  <string name="PaymentShippingName">Pełna nazwa</string>
+  <string name="PaymentShippingPhoneNumber">Numer telefonu</string>
+  <string name="PaymentShippingEmailPlaceholder">E-mail</string>
+  <string name="PaymentShippingSave">Zapisz informacje o dostawie</string>
+  <string name="PaymentShippingSaveInfo">Możesz zapisać informacje o dostawie do wykorzystania w przyszłości.</string>
+  <string name="PaymentCardInfo">Informacje o płatności</string>
+  <string name="PaymentCardTitle">Karta płatnicza</string>
+  <string name="PaymentCardNumber">Numer karty</string>
+  <string name="PaymentCardCvv">Kod weryfikacyjny (CVV)</string>
+  <string name="PaymentCardExpireDateMonth">Miesiąc</string>
+  <string name="PaymentCardExpireDateYear">Rok</string>
+  <string name="PaymentBillingAddress">Adres rozliczeniowy</string>
+  <string name="PaymentCardNameTitle">Właściciel karty</string>
+  <string name="PaymentCardName">Imię i nazwisko</string>
+  <string name="PaymentCardSavePaymentInformation">Zapisz informacje o płatności</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine1">Możesz zapisać informacje o płatności do wykorzystania w przyszłości.</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine2">Włącz *Weryfikację dwustopniową*, aby to umożliwić.</string>
+  <string name="PaymentTransactionReview">Przegląd transakcji</string>
+  <string name="PaymentTransactionMessage">Czy na pewno chcesz dokonać płatności %1$s do bota %2$s za %3$s?</string>
+  <string name="PaymentTransactionTotal">Suma</string>
+  <string name="PaymentShipment">DOSTAWA</string>
+  <string name="PaymentInvoice">FAKTURA</string>
+  <string name="PaymentCheckoutPay">ZAPŁAĆ %1$s</string>
+  <string name="PaymentCheckoutMethod">Metoda płatności</string>
+  <string name="PaymentCheckoutName">Imię</string>
+  <string name="PaymentCheckoutPhoneNumber">Numer telefonu</string>
+  <string name="PaymentCheckoutEmail">Adres kontaktowy</string>
+  <string name="PaymentCheckoutShippingMethod">Sposób dostawy</string>
+  <string name="PaymentReceipt">Paragon</string>
+  <string name="PaymentConfirmationNewCard">Wybierz inną kartę</string>
+  <string name="PaymentConfirmationMessage">Karta %1$s jest zapisana. Aby płacić tą kartą wprowadź swoje hasło weryfikacji dwustopniowej.</string>
+  <string name="PaymentPrecheckoutFailed">Płatność została anulowana przez bota.</string>
+  <string name="PaymentFailed">Płatność została odrzucona.</string>
+  <string name="PaymentConnectionFailed">Nie można nawiązać połączenia z serwerem płatności. Sprawdź połączenie z internetem i spróbuj ponownie.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Nowa konwersacja</string>
   <string name="Settings">Ustawienia</string>
@@ -319,6 +367,7 @@
   <string name="SaveToMusic">Zapisz do muzyki</string>
   <string name="ShareFile">Udostępnij</string>
   <string name="ApplyLocalizationFile">Zastosuj plik lokalizacyjny</string>
+  <string name="ApplyThemeFile">Zastosuj plik motywu</string>
   <string name="UnsupportedAttachment">Nieobsługiwany załącznik</string>
   <string name="SetTimer">Licznik samozniszczenia</string>
   <string name="ServiceNotifications">Powiadomienia serwisowe</string>
@@ -335,6 +384,10 @@
   <string name="ReportSpamAlert">Czy na pewno chcesz zgłosić spam od tego użytkownika?</string>
   <string name="ReportSpamAlertGroup">Czy na pewno chcesz zgłosić spam od tej grupy?</string>
   <string name="ReportSpamAlertChannel">Czy na pewno chcesz zgłosić spam od tego kanału?</string>
+  <string name="NobodyLikesSpam1">Możesz tylko wysyłać wiadomości do kontaktów w tym momencie.</string>
+  <string name="NobodyLikesSpam2">Możesz dodawać tylko kontakty do grup w tym momencie.</string>
+  <string name="NobodyLikesSpam3">Dzisiaj zbyt dużo razy kontaktowano się z użytkownikami nie będącymi członkami grupy. Spróbuj jutro. Dzisiaj będzie możliwość odpowiedzi, jeśli ten użytkownik wyśle pierwszy wiadomość.</string>
+  <string name="NobodyLikesSpam4">Nie możesz dodać tego użytkownika ponieważ zbyt dużo razy kontaktowano się z użytkownikami nie będącymi członkami grupy. Spróbuj ponownie jutro. Możesz poprosić innego członka grupy, aby dodał tego użytkownika.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Więcej informacji</string>
   <string name="ShareSendTo">Wyślij do...</string>
@@ -371,6 +424,7 @@
   <string name="JumpToDate">Przejdź do daty</string>
   <string name="DeleteForUser">Usuń dla %1$s</string>
   <string name="DeleteForAll">Usuń dla wszystkich członków</string>
+  <string name="TextCopied">Tekst zostal skopiowany do schowka</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s ustawił licznik samozniszczenia na %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Ustawiłeś licznik samozniszczenia na %1$s</string>
@@ -582,6 +636,18 @@ Wykryliśmy logowanie na twoje konto z nowego urządzenia %2$s\n\nUrządzenie: %
   <string name="ArchivedMasksAlertInfo">Niektóre z twoich starszych masek zostały zarchiwizowane. Możesz je reaktywować w ustawieniach masek.</string>
   <!--theme view-->
   <string name="Theme">Motyw</string>
+  <string name="DeleteThemeAlert">Czy na pewno chcesz usunąć ten motyw?</string>
+  <string name="IncorrectTheme">Niepoprawny plik motywu</string>
+  <string name="EnterThemeName">Wprowadź nazwę motywu</string>
+  <string name="CloseEditor">ZAMKNIJ EDYTOR</string>
+  <string name="SaveTheme">ZAPISZ MOTYW</string>
+  <string name="NewTheme">Nowy motyw</string>
+  <string name="ApplyTheme">ZASTOSUJ</string>
+  <string name="ThemePreview">Podgląd motywu</string>
+  <string name="SelectColor">Wybierz kolor</string>
+  <string name="CreateNewTheme">Utwórz nowy motyw</string>
+  <string name="CreateNewThemeHelp">Naciśnij ikonę palety, aby wyświetlić listę elementów na każdym ekranie i edytować je.</string>
+  <string name="CreateNewThemeInfo">Możesz stworzyć swój własny motyw zmieniając kolory w aplikacji. W każdej chwili z tego miejsca możesz przywrócić domyślny motyw Telegramu.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Przywróć wszystkie domyślne powiadomienia</string>
   <string name="TextSize">Rozmiar czcionki w wiadomościach</string>
@@ -1120,6 +1186,7 @@ Wersja polska: Daniel Grochala i Mariusz Grochala</string>
   <string name="AllowFillNumber">Pozwól Telegramowi otrzymywać wiadomości SMS oraz połączenia głosowe aby automatycznie aktywować konto na tym urządzeniu i wpisać kod autoryzacji.</string>
   <string name="AllowReadCallAndSms">Pozwól Telegramowi otrzymywać SMS i połączenia głosowe by mógł automatycznie wprowadzić kod dla ciebie.</string>
   <string name="UserRestricted">Nie możesz tego zrobić.</string>
+  <string name="YouBlockedUser">Nie możesz dodać tego użytkownika lub bota do grup ponieważ jest zablokowany. Aby kontynuować musisz go odblokować.</string>
   <string name="JoinGroup">DOŁĄCZ DO GROUPY</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram potrzebuje dostępu do twoich kontaktów, by mógł połączyć cię z twoimi znajomymi na twoich urządzeniach.</string>
@@ -1193,6 +1260,12 @@ Wersja polska: Daniel Grochala i Mariusz Grochala</string>
   <string name="VoipPeerOutdated">Aplikacja <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>nie wspiera połączeń. Muszą zaktualizować swoją wersję nim będziesz mógł zadzwonić.</string>
   <string name="VoipRateCallAlert">Oceń jakość swojej rozmowy w Telegramie</string>
   <string name="VoipFeedbackAlert">Chciałbyś coś dodać by pomóc nam polepszyć usługę połączeń?</string>
+  <string name="VoipNeedMicPermission">Aby wykonywać połączenia, Telegram musi mieć dostęp do mikrofonu.</string>
+  <string name="VoipFeedbackCommentHint">Dodaj opcjonalny komentarz</string>
+  <string name="CallBack">Oddzwoń</string>
+  <string name="CallAgain">Zadzwoń ponownie</string>
+  <string name="DefaultRingtone">Domyślne</string>
+  <string name="ConfirmDeleteCallLog">Czy na pewno chcesz usunąć ten wpis z rejestru połączeń?</string>
   <!--plural-->
   <string name="Online_zero">%1$d online</string>
   <string name="Online_one">%1$d online</string>

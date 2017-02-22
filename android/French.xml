@@ -39,6 +39,53 @@
   <string name="LastName">Nom (facultatif)</string>
   <string name="CancelRegistration">Annuler l\'inscription</string>
   <!--payments view-->
+  <string name="PaymentSuccessfullyPaid">Vous venez de transférer %1$s à %2$s pour %3$s avec succès.</string>
+  <string name="PaymentSuccessfullyPaidNoItem">Vous venez de transférer %1$s à %2$s avec succès.</string>
+  <string name="PaymentCheckout">Paiement</string>
+  <string name="PaymentShippingMethod">Méthodes d\'expédition</string>
+  <string name="PaymentNoShippingMethod">La livraison est impossible à l\'adresse indiquée. Nous vous prions de nous en excuser.</string>
+  <string name="PaymentShippingInfo">Informations d\'expédition</string>
+  <string name="PaymentShippingAddress">Adresse de livraison</string>
+  <string name="PaymentShippingAddress1Placeholder">Adresse 1 (rue)</string>
+  <string name="PaymentShippingAddress2Placeholder">Adresse 2 (rue)</string>
+  <string name="PaymentShippingCityPlaceholder">Ville</string>
+  <string name="PaymentShippingStatePlaceholder">Département</string>
+  <string name="PaymentShippingCountry">Pays</string>
+  <string name="PaymentShippingZipPlaceholder">Code Postal</string>
+  <string name="PaymentShippingReceiver">Destinataire</string>
+  <string name="PaymentShippingName">Nom complet</string>
+  <string name="PaymentShippingPhoneNumber">Numéro de téléphone</string>
+  <string name="PaymentShippingEmailPlaceholder">E-Mail</string>
+  <string name="PaymentShippingSave">Enregistrer les informations de livraison</string>
+  <string name="PaymentShippingSaveInfo">Il est possible d\'enregistrer les informations de livraison pour une future utilisation.</string>
+  <string name="PaymentCardInfo">Informations de paiement</string>
+  <string name="PaymentCardTitle">Carte de paiement</string>
+  <string name="PaymentCardNumber">Numéro de carte</string>
+  <string name="PaymentCardCvv">Code de sécurité (CVV)</string>
+  <string name="PaymentCardExpireDateMonth">Mois</string>
+  <string name="PaymentCardExpireDateYear">Année</string>
+  <string name="PaymentBillingAddress">Adresse de facturation</string>
+  <string name="PaymentCardNameTitle">Nom du titulaire de la Carte</string>
+  <string name="PaymentCardName">Nom complet</string>
+  <string name="PaymentCardSavePaymentInformation">Enregistrer les informations de paiement</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine1">Il est possible d\'enregistrer les informations de paiement pour une future utilisation.</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine2">Merci d\'activer la vérification en deux étapes afin d\'activer cette option.</string>
+  <string name="PaymentTransactionMessage">Confirmez vous vouloir transférer %1$s au %2$s bot pour %3$s ?</string>
+  <string name="PaymentTransactionTotal">Total</string>
+  <string name="PaymentShipment">EXPEDITION</string>
+  <string name="PaymentInvoice">FACTURE</string>
+  <string name="PaymentCheckoutPay">PAYER %1$s</string>
+  <string name="PaymentCheckoutMethod">Methode de paiement</string>
+  <string name="PaymentCheckoutName">Nom</string>
+  <string name="PaymentCheckoutPhoneNumber">Numéro de téléphone</string>
+  <string name="PaymentCheckoutEmail">Adresse</string>
+  <string name="PaymentCheckoutShippingMethod">Methode d\'expédition</string>
+  <string name="PaymentReceipt">Reçu</string>
+  <string name="PaymentConfirmationNewCard">Choisissez une autre carte</string>
+  <string name="PaymentConfirmationMessage">Votre carte %1$s est enregistrée. Pour payer avec cette carte, veuillez insérer le mot de passe de la vérification en deux étapes.</string>
+  <string name="PaymentPrecheckoutFailed">La transaction a été refusé par le bot, nous vous prions de nous en excuser.</string>
+  <string name="PaymentFailed">Le paiement a été refusé, nous vous prions de nous en excuser.</string>
+  <string name="PaymentConnectionFailed">Impossible de se connecter au serveur de paiement. Vérifiez votre connexion internet et essayez à nouveau.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Nouvelle conversation</string>
   <string name="Settings">Paramètres</string>
@@ -320,6 +367,7 @@
   <string name="SaveToMusic">Enregistrer dans musique</string>
   <string name="ShareFile">Partager</string>
   <string name="ApplyLocalizationFile">Installer la langue</string>
+  <string name="ApplyThemeFile">Appliquer le thème</string>
   <string name="UnsupportedAttachment">Type de pièce-jointe inconnu</string>
   <string name="SetTimer">Temps avant auto-destruction</string>
   <string name="ServiceNotifications">Service de notifications</string>
@@ -336,6 +384,8 @@
   <string name="ReportSpamAlert">Êtes-vous certain de vouloir signaler cet utilisateur comme indésirable?</string>
   <string name="ReportSpamAlertGroup">Êtes-vous certain de vouloir signaler ce groupe comme indésirable?</string>
   <string name="ReportSpamAlertChannel">Êtes-vous certain de vouloir signaler cette chaîne comme indésirable?</string>
+  <string name="NobodyLikesSpam1">Vous pouvez seulement envoyer des messages aux contacts communs.</string>
+  <string name="NobodyLikesSpam2">Vous pouvez seulement ajouter des contacts communs aux groupes pour l\'instant.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Plus d\'infos</string>
   <string name="ShareSendTo">Envoyer vers...</string>
@@ -372,6 +422,7 @@
   <string name="JumpToDate">Aller à la date</string>
   <string name="DeleteForUser">Supprimer pour %1$s</string>
   <string name="DeleteForAll">Supprimer pour tous les membres</string>
+  <string name="TextCopied">Texte copié dans le presse-papier</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s a défini l\'auto-destruction des messages à %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Vous avez défini l\'auto-destruction des messages à %1$s</string>
@@ -582,6 +633,18 @@
   <string name="ArchivedMasksAlertInfo">Certains de vos anciens masques ont été archivés. Vous pouvez les réactiver dans la rubrique de paramètres Masques.</string>
   <!--theme view-->
   <string name="Theme">Thème</string>
+  <string name="DeleteThemeAlert">Êtes-vous sur de vouloir supprimer ce thème ?</string>
+  <string name="IncorrectTheme">Fichier thème incorrect </string>
+  <string name="EnterThemeName">Insérez le nom du thème</string>
+  <string name="CloseEditor">FERMER L\'EDITEUR</string>
+  <string name="SaveTheme">SAUVEGARDER LE THEME</string>
+  <string name="NewTheme">Nouveau thème</string>
+  <string name="ApplyTheme">APPLIQUER</string>
+  <string name="ThemePreview">Aperçu du thème</string>
+  <string name="SelectColor">Choisir couleur</string>
+  <string name="CreateNewTheme">Creer un nouveau thème</string>
+  <string name="CreateNewThemeHelp">Cliquez sur l\'icône palette pour voir la liste d\'éléments présent sur chaque écran - et pour les modifier.</string>
+  <string name="CreateNewThemeInfo">Vous pouvez créer votre propre thème en changeant les couleurs dans l\'application. Vous pouvez revenir aux paramètres par défaut à tout moment depuis ce menu.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Réinitialiser tous les paramètres de notification par défaut</string>
   <string name="TextSize">Taille de police des messages</string>
@@ -1119,6 +1182,7 @@
   <string name="AllowFillNumber">Veuillez autoriser Telegram à recevoir des appels et SMS pour que nous puissions remplir votre numéro de téléphone, vous envoyer un code et l\'entrer pour vous.</string>
   <string name="AllowReadCallAndSms">Veuillez autoriser Telegram à recevoir des appels et SMS pour que nous puissions automatiquement entrer votre code pour vous.</string>
   <string name="UserRestricted">Désolé, vous n\'êtes pas autorisé à faire ceci.</string>
+  <string name="YouBlockedUser">Vous ne pouvez pas ajouter cet utilisateur ou bot à un groupe car vous l\'avez bloqué. Merci de le débloquer pour continuer.</string>
   <string name="JoinGroup">REJOINDRE GROUPE</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram a besoin d\'accéder à vos contacts pour que vous puissiez être en lien avec vos amis à travers tous vos appareils.</string>
@@ -1192,6 +1256,12 @@
   <string name="VoipPeerOutdated">L\'application <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ne permet pas les appels. Ils doivent mettre à jour leur application avant de pouvoir les appeler.</string>
   <string name="VoipRateCallAlert">Évaluer la qualité de votre appel</string>
   <string name="VoipFeedbackAlert">Voudriez-vous laisser un commentaire afin de nous aider à améliorer le service d\'appel?</string>
+  <string name="VoipNeedMicPermission">Telegram nécessite l\'accès à votre micro afin de passer des appels.</string>
+  <string name="VoipFeedbackCommentHint">Ajouter un commentaire optionnel</string>
+  <string name="CallBack">Rappeler</string>
+  <string name="CallAgain">Rappeler</string>
+  <string name="DefaultRingtone">Défaut</string>
+  <string name="ConfirmDeleteCallLog">Êtes-vous sûr de vouloir supprimer cette entrée du journal d\'appel.</string>
   <!--plural-->
   <string name="Online_zero">%1$d en ligne</string>
   <string name="Online_one">%1$d en ligne</string>

@@ -39,6 +39,47 @@
   <string name="LastName">Прозвішча (абавязкова)</string>
   <string name="CancelRegistration">Скасаваць рэгістрацыю</string>
   <!--payments view-->
+  <string name="PaymentShippingMethod">Спосабы дастаўкі</string>
+  <string name="PaymentNoShippingMethod">Выбачайце, але даставіць тавар на ваш адрас немагчыма.</string>
+  <string name="PaymentShippingInfo">Звесткі для дастаўкі</string>
+  <string name="PaymentShippingAddress">Адрас дастаўкі</string>
+  <string name="PaymentShippingAddress1Placeholder">Вуліца</string>
+  <string name="PaymentShippingAddress2Placeholder">Нумар будынку і кватэры</string>
+  <string name="PaymentShippingCityPlaceholder">Горад</string>
+  <string name="PaymentShippingStatePlaceholder">Рэгіён</string>
+  <string name="PaymentShippingCountry">Краіна</string>
+  <string name="PaymentShippingZipPlaceholder">Паштовы індэкс</string>
+  <string name="PaymentShippingReceiver">Атрымальнік</string>
+  <string name="PaymentShippingName">Поўнае імя</string>
+  <string name="PaymentShippingPhoneNumber">Нумар тэлефону</string>
+  <string name="PaymentShippingEmailPlaceholder">Электронная пошта</string>
+  <string name="PaymentShippingSave">Захаваць звесткі</string>
+  <string name="PaymentShippingSaveInfo">Вы можаце захаваць свае звесткі для дастаўкі.</string>
+  <string name="PaymentCardInfo">Плацежныя звесткі</string>
+  <string name="PaymentCardTitle">Плацежная картка</string>
+  <string name="PaymentCardNumber">Нумар карткі</string>
+  <string name="PaymentCardCvv">Код бяспекі (CVV)</string>
+  <string name="PaymentCardExpireDateMonth">Месяц</string>
+  <string name="PaymentCardExpireDateYear">Год</string>
+  <string name="PaymentBillingAddress">Плацежны адрас</string>
+  <string name="PaymentCardNameTitle">Уладальнік карткі</string>
+  <string name="PaymentCardName">Імя і прозвішча</string>
+  <string name="PaymentCardSavePaymentInformation">Захаваць плацежныя звесткі</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine1">Вы можаце захаваць свае плацежныя звесткі.</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine2">Калі ласка, *уключыце двухкрокавую верыфікацыю*, каб мець доступ да гэтай функцыі.</string>
+  <string name="PaymentTransactionReview">Справаздача аб транзакцыі</string>
+  <string name="PaymentTransactionTotal">Усяго</string>
+  <string name="PaymentShipment">ДАСТАЎКА</string>
+  <string name="PaymentCheckoutPay">АПЛАЦІЦЬ %1$s</string>
+  <string name="PaymentCheckoutMethod">Метад аплаты</string>
+  <string name="PaymentCheckoutName">Імя</string>
+  <string name="PaymentCheckoutPhoneNumber">Нумар тэлефону</string>
+  <string name="PaymentCheckoutEmail">Кантактны адрас</string>
+  <string name="PaymentCheckoutShippingMethod">Спосаб дастаўкі</string>
+  <string name="PaymentConfirmationNewCard">Абярыце іншую картку</string>
+  <string name="PaymentPrecheckoutFailed">Выбачайце, але плацеж быў скасаваны ботам.</string>
+  <string name="PaymentFailed">Выбачайце, але не атрымалася выканаць плацеж.</string>
+  <string name="PaymentConnectionFailed">Немагчыма падлучыцца да сервера плацяжоў. Калі ласка, праверце вашае злучэнне з Інтэрнэтам і паспрабуйце яшчэ раз.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Новая размова</string>
   <string name="Settings">Налады</string>
@@ -321,6 +362,7 @@
   <string name="SaveToMusic">Захаваць у фонатэку</string>
   <string name="ShareFile">Падзяліцца</string>
   <string name="ApplyLocalizationFile">Ужыць файл лакалізацыі</string>
+  <string name="ApplyThemeFile">Ужыць тэму</string>
   <string name="UnsupportedAttachment">Непадтрымванае далучэнне</string>
   <string name="SetTimer">Усталяваць таймер самазнішчэння</string>
   <string name="ServiceNotifications">Службовыя апавяшчэнні</string>
@@ -337,6 +379,10 @@
   <string name="ReportSpamAlert">Вы ўпэўненыя, што жадаеце паскардзіцца на гэтага карыстальніка?</string>
   <string name="ReportSpamAlertGroup">Вы ўпэўненыя, што жадаеце паскардзіцца на гэтую суполку?</string>
   <string name="ReportSpamAlertChannel">Вы ўпэўненыя, што жадаеце паскардзіцца на гэты канал?</string>
+  <string name="NobodyLikesSpam1">Выбачайце, але на дадзены момант вы можаце дасылаць паведамленні толькі ўзаемным кантактам.</string>
+  <string name="NobodyLikesSpam2">Выбачайце, але на дадзены момант вы можаце дадаваць у суполкі толькі ўзаемныя кантакты.</string>
+  <string name="NobodyLikesSpam3">За сёння вы зачаста кантактаваліся з карыстальнікамі не з свайго спісу кантактаў. Паспрабуйце яшчэ раз заўтра. Вы ўсё яшчэ можаце адказаць карыстальніку, калі ён напіша вам першым.</string>
+  <string name="NobodyLikesSpam4">Вы не можаце дадаць гэтага карыстальніка, бо сёння зачаста кантактаваліся з карыстальнікамі не з свайго спісу кантактаў. Паспрабуйце яшчэ раз заўтра або папрасіце іншага ўдзельніка дадаць гэтага карыстальніка ў суполку.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Больш звестак</string>
   <string name="ShareSendTo">Даслаць…</string>
@@ -373,6 +419,7 @@
   <string name="JumpToDate">Перайсці да даты</string>
   <string name="DeleteForUser">Выдаліць для %1$s</string>
   <string name="DeleteForAll">Выдаліць для ўсіх</string>
+  <string name="TextCopied">Тэкст скапіяваны ў буфер</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s усталяваў таймер самазнішчэння на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы ўсталявалі таймер самазнішчэння на %1$s</string>
@@ -586,6 +633,16 @@
   <string name="ArchivedMasksAlertInfo">Некаторыя з вашых неўжываных масак былі перамешчаны ў архіў. Вы можаце перамясціць іх назад праз налады масак.</string>
   <!--theme view-->
   <string name="Theme">Тэма</string>
+  <string name="DeleteThemeAlert">Вы сапраўды хочаце выдаліць гэтую тэму?</string>
+  <string name="IncorrectTheme">Памылковы файл тэмы</string>
+  <string name="EnterThemeName">Увядзіце назву тэмы</string>
+  <string name="CloseEditor">ЗАКРЫЦЬ РЭДАКТАР</string>
+  <string name="SaveTheme">ЗАХАВАЦЬ ТЭМУ</string>
+  <string name="NewTheme">Новая тэма</string>
+  <string name="ApplyTheme">УЖЫЦЬ</string>
+  <string name="ThemePreview">Перадпрагляд тэмы</string>
+  <string name="SelectColor">Абярыце колер</string>
+  <string name="CreateNewTheme">Стварыць новую тэму</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Скінуць усе налады апавяшчэнняў па змаўчанні</string>
   <string name="TextSize">Памер тэксту ў паведамленнях</string>

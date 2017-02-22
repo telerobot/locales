@@ -69,6 +69,24 @@
   <string name="PaymentCardName">Nome Conjome</string>
   <string name="PaymentCardSavePaymentInformation">Salva informasion de pagamento</string>
   <string name="PaymentCardSavePaymentInformationInfoLine1">A te połi salvar łe to informasion de pagamento par un dòparo fuduro.</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine2">*Inposta ła verìfega in 2 pasaji* par ativar \'sta funsion.</string>
+  <string name="PaymentTransactionReview">Revizion de ła tranzasion</string>
+  <string name="PaymentTransactionMessage">Vutu davero trasfarir %1$s a\'l bot %2$s par %3$s?</string>
+  <string name="PaymentTransactionTotal">Totałe</string>
+  <string name="PaymentShipment">SPEDISION</string>
+  <string name="PaymentInvoice">FATURA</string>
+  <string name="PaymentCheckoutPay">PAGA %1$s</string>
+  <string name="PaymentCheckoutMethod">Tipo de pagamento</string>
+  <string name="PaymentCheckoutName">Nome</string>
+  <string name="PaymentCheckoutPhoneNumber">Nùmaro de tełèfono</string>
+  <string name="PaymentCheckoutEmail">Indariso de\'l contato</string>
+  <string name="PaymentCheckoutShippingMethod">Tipo de spedision</string>
+  <string name="PaymentReceipt">Resevùa</string>
+  <string name="PaymentConfirmationNewCard">Sernisi na carta difarente</string>
+  <string name="PaymentConfirmationMessage">Ła to carta %1$s ła ze in archivo. Par pagar co \'sta carta, insarisi ła password de ła to verìfega in 2 pasaji.</string>
+  <string name="PaymentPrecheckoutFailed">Ne despiaze, el pagamento el ze stà anułà da\'l bot.</string>
+  <string name="PaymentFailed">Ne despiaze, el pagamento el ze stà refudà.</string>
+  <string name="PaymentConnectionFailed">A no semo mìa boni de contatar el server par el pagamento. Controła ła to conesion internet e prova danovo.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Convarsasion nova</string>
   <string name="Settings">Inpostasion</string>
@@ -77,7 +95,7 @@
   <string name="Yesterday">jiri</string>
   <string name="NoResult">Njaun rezultà</string>
   <string name="NoChats">Njancora njauna chat...</string>
-  <string name="NoChatsHelp">Taca scrìvar strucando el boton\\n\'mesajo novo\' inte\'l canton in baso a drita\\no verzi el menù par opsion in pì.</string>
+  <string name="NoChatsHelp">Taca scrìvar strucando el boton\\n\'mesajo novo\' inte\'l canton in baso a drita\\no toca el boton de\'l menù par opsion in pì.</string>
   <string name="WaitingForNetwork">Spetando na conesion...</string>
   <string name="Connecting">Conesion...</string>
   <string name="Updating">Ajornamento...</string>
@@ -349,6 +367,7 @@
   <string name="SaveToMusic">Salva inte ła mùzega</string>
   <string name="ShareFile">Sparpanja</string>
   <string name="ApplyLocalizationFile">Àplega tradusion</string>
+  <string name="ApplyThemeFile">Àplega tema</string>
   <string name="UnsupportedAttachment">Łigo mìa suportà</string>
   <string name="SetTimer">Inposta timer de autodestrusion</string>
   <string name="ServiceNotifications">Notìfeghe de servisio</string>
@@ -365,6 +384,10 @@
   <string name="ReportSpamAlert">Vutu davero senjałar ła resesion de scoase da \'sto utente?</string>
   <string name="ReportSpamAlertGroup">Vutu davero senjałar ła resesion de scoase da \'sto grupo?</string>
   <string name="ReportSpamAlertChannel">Vutu davero senjałar ła resesion de scoase da \'sto canałe?</string>
+  <string name="NobodyLikesSpam1">Ne despiaze, par deso A te połi mandarghe mesaji soło a i contati resìproghi.</string>
+  <string name="NobodyLikesSpam2">Ne despiaze, par deso A te połi zontar inte i grupi soło contati resìproghi.</string>
+  <string name="NobodyLikesSpam3">Par uncò A te ghè contatà masa zente mìa salvada in rubriga, proa danovo doman. Ma, se l\'utente el te scrive par primo, A te sarè bon de respóndar.</string>
+  <string name="NobodyLikesSpam4">No te połi mìa zontar \'sto utente parché, par uncò, A te ghè contatà masa zente mìa salvada in rubriga. Proa danovo doman. A te połi dimandar a n\'antro menbro de zontar \'sto utente inte\'l grupo.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq/it#non-posso-inviare-messaggi-a-chi-non-far-parte-dei-miei-contatti</string>
   <string name="MoreInfo">Informasion in pì</string>
   <string name="ShareSendTo">Manda a...</string>
@@ -401,6 +424,7 @@
   <string name="JumpToDate">Và so \'sta Data</string>
   <string name="DeleteForUser">Ełìmena par %1$s</string>
   <string name="DeleteForAll">Ełìmena par tuti i menbri</string>
+  <string name="TextCopied">Testo copià inte łe note</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s L ga inpostà el timer de autodestrusion a %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">A te ghe inpostà el timer de autodestrusion a %1$s</string>
@@ -611,6 +635,19 @@
   <string name="ArchivedMasksAlertInfo">Un fià de serie de łe to màscare pì vecie łe ze stà archivàe. A te połi reativarle inte łe inpostasion de łe màscare.</string>
   <!--theme view-->
   <string name="Theme">Tema</string>
+  <string name="DeleteThemeAlert">Vutu davero ełimenar \'sta tema?</string>
+  <string name="IncorrectTheme">File tema zbajà</string>
+  <string name="EnterThemeName">Insarisi el nome de\'l tema</string>
+  <string name="CloseEditor">SARA SU MODIFEGADOR</string>
+  <string name="SaveTheme">SALVA TEMA</string>
+  <string name="NewTheme">Tema novo</string>
+  <string name="ApplyTheme">ÀPLEGA</string>
+  <string name="ThemePreview">Anteprima tema</string>
+  <string name="SelectColor">Sełesiona cołor</string>
+  <string name="CreateNewTheme">Crea tema novo</string>
+  <string name="CreateNewThemeHelp">Toca l\'icona de ła pałeta cołor par védar ła łista de i ełementi de onji schermada - e modifegarli.</string>
+  <string name="CreateNewThemeInfo">A te połi crear el to tema parsonałizà canbiando i cołori rento l\'app.
+Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Reinposta tute łe inpostasion de notìfega predefenìe</string>
   <string name="TextSize">Grandesa de\'l testo de i mesaji</string>
@@ -1148,6 +1185,7 @@
   <string name="AllowFillNumber">Parmétaghe a Telegram de resévar ciamàe e SMS, in manjera che A podemo rejistrar el to nùmaro de tełèfono, mandarte un còdaze e insarirlo par ti.</string>
   <string name="AllowReadCallAndSms">Parmétaghe a Telegram de resévar ciamàe e SMS, in manjera che A podemo insarir automategamente el to còdaze par ti.</string>
   <string name="UserRestricted">Ne despiaze, A no te ghe mìa el parmeso par farlo.</string>
+  <string name="YouBlockedUser">Ne despiaze, A no te połi mìa zontar \'sto utente/bot inte i grupi parché A te ło ghè blocà. Dezblòcheło par poderlo far.</string>
   <string name="JoinGroup">ZÓNTATE INTE\'L GRUPO</string>
   <!--permissions-->
   <string name="PermissionContacts">A Telegram A ghe serve l\'aceso a i to contati par parmétarte de conétarte co i to amighi so tuti i to dispozitivi.</string>
@@ -1221,6 +1259,12 @@
   <string name="VoipPeerOutdated">L\'app de <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> no ła suporta mìa łe ciamàe. L\'utente el ga da ajornarla prima de poderlo ciamar.</string>
   <string name="VoipRateCallAlert">Vàłuta ła cuałidà de ła ciamada Telegram</string>
   <string name="VoipFeedbackAlert">Ghetu caro łasar zo un comento par jutarne a mejorar el servisio ciamàe?</string>
+  <string name="VoipNeedMicPermission">A Telegram A ghe serve l\'aceso a\'l to micròfono par parmétarte de far ciamàe.</string>
+  <string name="VoipFeedbackCommentHint">Zonta un comento opsionałe</string>
+  <string name="CallBack">Reciama indrìo</string>
+  <string name="CallAgain">Reciama danovo</string>
+  <string name="DefaultRingtone">Predefenìo</string>
+  <string name="ConfirmDeleteCallLog">Vutu davero ełimenar \'sta voze da\'l rejistro ciamàe?</string>
   <!--plural-->
   <string name="Online_zero">%1$d in łinea</string>
   <string name="Online_one">%1$d in łinea</string>
