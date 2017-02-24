@@ -40,6 +40,54 @@
   <string name="LastName">Фамилия (мәҗбүри түгел)</string>
   <string name="CancelRegistration">Теркәлүне туктату</string>
   <!--payments view-->
+  <string name="PaymentSuccessfullyPaid">Сезнең %2$s кулланучысына %3$s өчен %1$s күчерү уңышлы тәмамланды</string>
+  <string name="PaymentSuccessfullyPaidNoItem">Сезнең %2$s кулланучысына %1$s күчерү уңышлы тәмамланды</string>
+  <string name="PaymentCheckout">Заказны рәсмиләштерү</string>
+  <string name="PaymentShippingMethod">Китерү ысуллары</string>
+  <string name="PaymentNoShippingMethod">Гафу итегез, бу адреска китерү мөмкин түгел.</string>
+  <string name="PaymentShippingInfo">Китерү турында мәгълүмат</string>
+  <string name="PaymentShippingAddress">Китерү адресы</string>
+  <string name="PaymentShippingAddress1Placeholder">1 адрес (урам)</string>
+  <string name="PaymentShippingAddress2Placeholder">2 адрес (урам)</string>
+  <string name="PaymentShippingCityPlaceholder">Шәһәр</string>
+  <string name="PaymentShippingStatePlaceholder">Штат (регион)</string>
+  <string name="PaymentShippingCountry">Ил</string>
+  <string name="PaymentShippingZipPlaceholder">Почта индексы</string>
+  <string name="PaymentShippingReceiver">Алучы</string>
+  <string name="PaymentShippingName">Тулы исеме</string>
+  <string name="PaymentShippingPhoneNumber">Телефон номеры</string>
+  <string name="PaymentShippingEmailPlaceholder">E-Mail</string>
+  <string name="PaymentShippingSave">Китерү турында мәгълүматны саклау</string>
+  <string name="PaymentShippingSaveInfo">Китерү турында мәгълүматны киләчәктә яңадан язмас өчен саклый аласыз.</string>
+  <string name="PaymentCardInfo">Түләү мәгълүматы</string>
+  <string name="PaymentCardTitle">Карта</string>
+  <string name="PaymentCardNumber">Карта номеры</string>
+  <string name="PaymentCardCvv">Иминлек коды (CVV)</string>
+  <string name="PaymentCardExpireDateMonth">Ай</string>
+  <string name="PaymentCardExpireDateYear">Ел</string>
+  <string name="PaymentBillingAddress">Түләү адресы</string>
+  <string name="PaymentCardNameTitle">Карта хуҗасы</string>
+  <string name="PaymentCardName">Исем һәм фамилия</string>
+  <string name="PaymentCardSavePaymentInformation">Түләү мәгълүматын саклау</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine1">Түләү турында мәгълүматны киләчәктә яңадан язмас өчен саклый аласыз.</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine2">Бу функцияне кулланыр өчен \"ике адымлы авторизацияне\" кабызыгыз.</string>
+  <string name="PaymentTransactionReview">Транзакцияне карау</string>
+  <string name="PaymentTransactionMessage">Сез %2$s ботына %3$s өчен %1$s күчерергә телисезме?</string>
+  <string name="PaymentTransactionTotal">Барлыгы</string>
+  <string name="PaymentShipment">КИТЕРҮ</string>
+  <string name="PaymentInvoice">ТҮЛӘҮ</string>
+  <string name="PaymentCheckoutPay">%1$s ТҮЛӘРГӘ</string>
+  <string name="PaymentCheckoutMethod">Түләү ысулы</string>
+  <string name="PaymentCheckoutName">Исем</string>
+  <string name="PaymentCheckoutPhoneNumber">Телефон номеры</string>
+  <string name="PaymentCheckoutEmail">Адрес</string>
+  <string name="PaymentCheckoutShippingMethod">Китерү ысулы</string>
+  <string name="PaymentReceipt">Квитанция</string>
+  <string name="PaymentConfirmationNewCard">Бүтән картаны сайлау</string>
+  <string name="PaymentConfirmationMessage">Сезнең %1$s картагызның көйләүләре сакланган. Бу карта белән түләү өчен ике адымлы авторизация кодын кертегез.</string>
+  <string name="PaymentPrecheckoutFailed">Гафу итегез, түләүне бот кире какты.</string>
+  <string name="PaymentFailed">Гафу итегез, түләвегез кире кагылды.</string>
+  <string name="PaymentConnectionFailed">Түләү серверы белән тоташып булмады. Зинһар, интернет белән тоташуны тикшерегез һәм кабат эшләп карагыз.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Яңа әңгәмә</string>
   <string name="Settings">Көйләүләр</string>
@@ -85,6 +133,7 @@
   <string name="Draft">Каралама</string>
   <string name="HistoryCleared">Тарих чистартылган булган</string>
   <string name="ArticleByAuthor">моннан %1$s</string>
+  <string name="ArticleDateByAuthor">%1$s • %2$s</string>
   <string name="PreviewFeedback">Алдан карау турында фикер калдыру</string>
   <string name="SendStickerPreview">Стикер җибәрү</string>
   <string name="ViewPackPreview">Җыелманы карау</string>
@@ -323,6 +372,7 @@
   <string name="SaveToMusic">Музыкада саклау</string>
   <string name="ShareFile">Бүлешү</string>
   <string name="ApplyLocalizationFile">Локализация файлын куллану</string>
+  <string name="ApplyThemeFile">Теманы куллану</string>
   <string name="UnsupportedAttachment">Кулланалмаслык салынган әйбер</string>
   <string name="SetTimer">Үз-үзен бетерү вакытын кую</string>
   <string name="ServiceNotifications">Хезмәт белгертүләре</string>
@@ -339,6 +389,10 @@
   <string name="ReportSpamAlert">Бу кулланучыдан спам килү турында белгертергә телисезме?</string>
   <string name="ReportSpamAlertGroup">Бу төркемнән спам килү турында белгертергә телисезме?</string>
   <string name="ReportSpamAlertChannel">Бу каналдан спам килү турында хәбәр итәргә телисезме?</string>
+  <string name="NobodyLikesSpam1">Гафу итегез, сез үзара булган контактларга гына хатлар җибәрә аласыз.</string>
+  <string name="NobodyLikesSpam2">Гафу итегез, сез үзара булган контактларны гына төркемнәргә өсти аласыз.</string>
+  <string name="NobodyLikesSpam3">Сез контактларыгызда булмаган кулланучыларга бүген бик күп хат яздыгыз. Иртәгә язып карагыз яисә кулланучыдан беренче булып язуны сорагыз.</string>
+  <string name="NobodyLikesSpam4">Бу кулланучыны өсти алмыйсыз, чөнки сез бүген контактларыгызда булмаган кешеләргә бик күп хат яздыгыз. Иртәгә өстәп карагыз яисә бүтән кешедән бу кулланучыны өстәүне сорагыз.</string>
   <string name="NobodyLikesSpamUrl">https://tlgrm.ru/faq/pochemu-ne-otpravit-soobshenie.html</string>
   <string name="MoreInfo">Тулырак</string>
   <string name="ShareSendTo">Җибәрү...</string>
@@ -375,6 +429,7 @@
   <string name="JumpToDate">Датага күчү</string>
   <string name="DeleteForUser">Моннан %1$s бетерү</string>
   <string name="DeleteForAll">Барсыннан да бетерү</string>
+  <string name="TextCopied">Тексттан алмашу буферына күчермә ясалды </string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s үз-үзен бетерү вакытын куйды: %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Үз-үзен бетерү вакыты: %1$s</string>
@@ -593,6 +648,18 @@
   <string name="ArchivedMasksAlertInfo">Кайбер иске битлек җыелмаларыгыз архивлашкан. Сез аларны Битлек көйләүләрендә активлаштыра аласыз.</string>
   <!--theme view-->
   <string name="Theme">Тема</string>
+  <string name="DeleteThemeAlert">Бу теманы бетерергә телисезме?</string>
+  <string name="IncorrectTheme">Дөрес булмаган тема файлы</string>
+  <string name="EnterThemeName">Темага исем бирегез</string>
+  <string name="CloseEditor">ҮЗГӘРТКЕЧНЕ ЯБУ</string>
+  <string name="SaveTheme">ТЕМАНЫ САКЛАУ</string>
+  <string name="NewTheme">Яңа тема</string>
+  <string name="ApplyTheme">КУЛЛАНУ</string>
+  <string name="ThemePreview">Теманы алдан карау</string>
+  <string name="SelectColor">Төс сайлау</string>
+  <string name="CreateNewTheme">Яңа тема ясау</string>
+  <string name="CreateNewThemeHelp">Теләсә кайсы экранда берәр төсне үзгәртергә теләсәгез, палитра билгесенә басыгыз.</string>
+  <string name="CreateNewThemeInfo">Кушымтада төсләрне үзгәртеп, шәхси тема ясарга мөмкин. Теләсә кайсы вакытта стандарт теманы яңадан куллана аласыз.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Бөтен белгертүләрне стандарт көйләүләргә кайтару</string>
   <string name="TextSize">Хатлар текстының зурлыгы</string>
@@ -719,6 +786,7 @@
   <string name="SmartNotificationsInfo">%1$d / %2$s</string>
   <string name="SmartNotificationsDisabled">Сүнгән</string>
   <string name="SmartNotificationsAlert">Тавышлы белгертүләр ешлыгы</string>
+  <string name="SmartNotificationsDetail">%1$s %2$s арасында</string>
   <string name="SecretWebPage">Сылтамаларны алдан карау</string>
   <string name="SecretChat">Яшерен чатлар</string>
   <string name="ChromeCustomTabs">Үзендәге браузер</string>
@@ -729,6 +797,7 @@
   <string name="EmojiBigSize">Зур смайликларны күрсәтү</string>
   <string name="EmojiUseDefault">Система смайликларын куллану</string>
   <string name="TelegramVersion">Telegram Android %1$s өчен</string>
+  <string name="DebugMenu">Хата төзәтү менюсы</string>
   <string name="DebugMenuImportContacts">Контактларны импортлау</string>
   <string name="DebugMenuReloadContacts">Контактларны яңадан йөкләү</string>
   <!--cache view-->
@@ -1137,6 +1206,7 @@
   <string name="AllowFillNumber">Telegramга SMS-ларыгызга мөмкинлек бирсәгез, кодыгыз автоматик рәвештә кертеләчәк.</string>
   <string name="AllowReadCallAndSms">Telegramга килүче шалтыратулар һәм SMS белән эш итүне рөхсәт итсәгез, кодыгыз үзе кертеләчәк.</string>
   <string name="UserRestricted">Гафу итегез, сезгә бу гамәл мөмкин түгел.</string>
+  <string name="YouBlockedUser">Гафу итегез, сез бу кулланучыны яисә ботны бикләгәнгә күрә өсти алмыйсыз. Башта бикне алыгыз.</string>
   <string name="JoinGroup">ТӨРКЕМГӘ КУШЫЛУ</string>
   <!--permissions-->
   <string name="PermissionContacts">Дусларыгыз белән төрле җайланмалар аша элемтәдә калу өчен Telegramга контактларыгызны күрү мөмкинчелеге кирәк.</string>
@@ -1178,7 +1248,9 @@
   <string name="VoipRinging">Чакыру</string>
   <string name="VoipBusy">Линия мөмкин түгел</string>
   <string name="VoipInCallBranding">Чакыру</string>
+  <string name="VoipOutgoingCall">Әлеге шалтырату</string>
   <string name="VoipEndCall">Чакыруны тәмамлау</string>
+  <string name="VoipOngoingAlertTitle">Сез бүтән кулланучы белән сөйләшәсез</string>
   <string name="VoipOngoingAlert">Әлеге вакытта сез <![CDATA[<b>%1$s</b>]]> белән сөйләшәсез. Әлеге сөйләшүне туктатырга һәм <![CDATA[<b>%2$s</b>]]> белән сөйләшә башларга телисезме?</string>
   <string name="VoipNotificationSettings">Тавышлы шалтыратулар</string>
   <string name="VoipSettingsRingtone">Рингтон</string>
@@ -1208,6 +1280,12 @@
   <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысының кушымтасы шалтыратулар кабул итә алмый. Бу кулланучы кушымтаны яңарткач кына сез аңа шатрырата алачаксыз.</string>
   <string name="VoipRateCallAlert">Зинһар, Telegram аша сөйләшүнең сыйфатын бәяләгез</string>
   <string name="VoipFeedbackAlert">Шалтыратуларны яхшыртыр өчен бәяләмә калдырырга телисезме?</string>
+  <string name="VoipNeedMicPermission">Шалтырату өчен Telegramга микрофоныгызны куллану рөхсәте кирәк.</string>
+  <string name="VoipFeedbackCommentHint">Фикер өстәү (мәҗбүри түгел)</string>
+  <string name="CallBack">Яңадан шалтырату</string>
+  <string name="CallAgain">Яңадан шалтырату</string>
+  <string name="DefaultRingtone">Баштагыча</string>
+  <string name="ConfirmDeleteCallLog">Бу язманы шалтыратулардан бетерергә телисезме?</string>
   <!--plural-->
   <string name="Online_zero">%1$d челтәрдә</string>
   <string name="Online_one">%1$d челтәрдә</string>
