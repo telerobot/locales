@@ -39,7 +39,7 @@
   <string name="LastName">Nom (facultatif)</string>
   <string name="CancelRegistration">Annuler l\'inscription</string>
   <!--payments view-->
-  <string name="PaymentSuccessfullyPaid">Vous venez de transférer %1$s à %2$s pour %3$s avec succès.</string>
+  <string name="PaymentSuccessfullyPaid">Vous avez transféré %1$s à %2$s pour %3$s avec succès.</string>
   <string name="PaymentSuccessfullyPaidNoItem">Vous venez de transférer %1$s à %2$s avec succès.</string>
   <string name="PaymentCheckout">Paiement</string>
   <string name="PaymentShippingMethod">Méthodes d\'expédition</string>
@@ -70,7 +70,7 @@
   <string name="PaymentCardSavePaymentInformation">Enregistrer les informations de paiement</string>
   <string name="PaymentCardSavePaymentInformationInfoLine1">Il est possible d\'enregistrer les informations de paiement pour une future utilisation.</string>
   <string name="PaymentCardSavePaymentInformationInfoLine2">Merci d\'activer la vérification en deux étapes afin d\'activer cette option.</string>
-  <string name="PaymentTransactionReview">Revue des transactions</string>
+  <string name="PaymentTransactionReview">Résumé de la transaction</string>
   <string name="PaymentTransactionMessage">Confirmez vous vouloir transférer %1$s au %2$s bot pour %3$s ?</string>
   <string name="PaymentTransactionTotal">Total</string>
   <string name="PaymentShipment">EXPEDITION</string>

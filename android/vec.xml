@@ -1097,10 +1097,10 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="ActionYouKickUser">A te ghe cavà via un2</string>
   <string name="ActionYouLeftUser">A te si ndà fora da\'l grupo</string>
   <string name="ActionYouAddUser">A te ghe zontà un2</string>
-  <string name="ActionYouScored">A te ghe ingrumà su %1$s</string>
-  <string name="ActionUserScored">un1 L ga ingrumà su %1$s</string>
-  <string name="ActionYouScoredInGame">A te ghe ingrumà su %1$s so un2</string>
-  <string name="ActionUserScoredInGame">un1 L ga ingrumà su %1$s so un2</string>
+  <string name="ActionYouScored">A te ghe ingrumà sù %1$s</string>
+  <string name="ActionUserScored">un1 L ga ingrumà sù %1$s</string>
+  <string name="ActionYouScoredInGame">A te ghe ingrumà sù %1$s so un2</string>
+  <string name="ActionUserScoredInGame">un1 L ga ingrumà sù %1$s so un2</string>
   <string name="ActionYouRemovedPhoto">A te ghè cavà via ła foto de\'l grupo</string>
   <string name="ActionYouChangedPhoto">A te ghè canbià ła foto de\'l grupo</string>
   <string name="ActionYouChangedTitle">A te ghè canbià el nome de\'l grupo co un2</string>
