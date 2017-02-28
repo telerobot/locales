@@ -3,7 +3,7 @@
   <string name="AppName">Telegram Deca</string>
   <string name="AppNameBeta">Telegram Beta</string>
   <string name="LanguageName">Veneto Deca</string>
-  <string name="LanguageNameInEnglish">Veneto Deca</string>
+  <string name="LanguageNameInEnglish">Venetian</string>
   <string name="LanguageCode">vec</string>
   <!--signin view-->
   <string name="YourPhone">El to tełèfono</string>
