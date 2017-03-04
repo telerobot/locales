@@ -40,8 +40,8 @@
   <string name="LastName">Фамилия (не обязательно)</string>
   <string name="CancelRegistration">Отменить регистрацию</string>
   <!--payments view-->
-  <string name="PaymentSuccessfullyPaid">Ваш перевод %1$s пользователю %2$s за %3$s успешно завершён</string>
-  <string name="PaymentSuccessfullyPaidNoItem">Ваш перевод %1$s пользователю %2$s успешно завершён</string>
+  <string name="PaymentSuccessfullyPaid">Ваш перевод %1$s пользователю %2$s за %3$s успешно выполнен</string>
+  <string name="PaymentSuccessfullyPaidNoItem">Ваш перевод %1$s пользователю %2$s успешно выполнен</string>
   <string name="PaymentCheckout">Оформление заказа</string>
   <string name="PaymentShippingMethod">Методы доставки</string>
   <string name="PaymentNoShippingMethod">К сожалению, доставка на этот адрес невозможна.</string>
@@ -75,7 +75,7 @@
   <string name="PaymentTransactionMessage">Уверены, что хотите перевести %1$s боту %2$s за %3$s?</string>
   <string name="PaymentTransactionTotal">Всего</string>
   <string name="PaymentShipment">ДОСТАВКА</string>
-  <string name="PaymentInvoice">ПЛАТЁЖ</string>
+  <string name="PaymentInvoice">СЧЁТ</string>
   <string name="PaymentCheckoutPay">ЗАПЛАТИТЬ %1$s</string>
   <string name="PaymentCheckoutMethod">Способ оплаты</string>
   <string name="PaymentCheckoutName">Имя</string>
@@ -837,6 +837,7 @@
   <string name="FingerprintHelp">Сканер отпечатков пальцев</string>
   <string name="FingerprintNotRecognized">Отпечаток пальца не распознан. Попробуйте снова</string>
   <string name="ScreenCapture">Разрешить захват экрана</string>
+  <string name="ScreenCaptureInfo">Если включено, то вы сможете делать скриншоты, но система будет показывать список ваших чатов в превью даже если приложение было заблокировано кодом доступа.</string>
   <!--media view-->
   <string name="DocumentsTitle">Общие файлы</string>
   <string name="SharedMediaTitle">Общие медиа</string>
