@@ -853,6 +853,7 @@
   <string name="FingerprintHelp">Бармак эзе сканеры</string>
   <string name="FingerprintNotRecognized">Бармак эзе танылмады. Кабат эшләгез</string>
   <string name="ScreenCapture">Скриншот ясауны рөхсәт итү</string>
+  <string name="ScreenCaptureInfo">Кабынган булса, сез скриншотлар ясый аласыз, әмма кушымта керү коды белән бикләнгән булса да, система алдан карауда сезнең чатларны күрсәтәчәк.\n\nҮзгәрешләр үз көченә керсен өчен, кушымтаны сүндереп кабызыгыз.</string>
   <!--media view-->
   <string name="DocumentsTitle">Уртак файллар</string>
   <string name="SharedMediaTitle">Фото һәм видео</string>

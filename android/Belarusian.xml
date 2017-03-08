@@ -39,6 +39,9 @@
   <string name="LastName">Прозвішча (абавязкова)</string>
   <string name="CancelRegistration">Скасаваць рэгістрацыю</string>
   <!--payments view-->
+  <string name="PaymentSuccessfullyPaid">Толькі што пасьпяхова перавеў(-ла) %1$s ў %2$s для %3$s</string>
+  <string name="PaymentSuccessfullyPaidNoItem">Вы толькі што паспяхова перавёў(-ла) %1$s ў %2$s</string>
+  <string name="PaymentCheckout">Праверка</string>
   <string name="PaymentShippingMethod">Спосабы дастаўкі</string>
   <string name="PaymentNoShippingMethod">Выбачайце, але даставіць тавар на ваш адрас немагчыма.</string>
   <string name="PaymentShippingInfo">Звесткі для дастаўкі</string>
@@ -68,15 +71,19 @@
   <string name="PaymentCardSavePaymentInformationInfoLine1">Вы можаце захаваць свае плацежныя звесткі.</string>
   <string name="PaymentCardSavePaymentInformationInfoLine2">Калі ласка, *уключыце двухкрокавую верыфікацыю*, каб мець доступ да гэтай функцыі.</string>
   <string name="PaymentTransactionReview">Справаздача аб транзакцыі</string>
+  <string name="PaymentTransactionMessage">Сапраўды маеш намер перавесьці %1$s ў гэты %2$s бота для %3$s?</string>
   <string name="PaymentTransactionTotal">Усяго</string>
   <string name="PaymentShipment">ДАСТАЎКА</string>
+  <string name="PaymentInvoice">КОШТ</string>
   <string name="PaymentCheckoutPay">АПЛАЦІЦЬ %1$s</string>
   <string name="PaymentCheckoutMethod">Метад аплаты</string>
   <string name="PaymentCheckoutName">Імя</string>
   <string name="PaymentCheckoutPhoneNumber">Нумар тэлефону</string>
   <string name="PaymentCheckoutEmail">Кантактны адрас</string>
   <string name="PaymentCheckoutShippingMethod">Спосаб дастаўкі</string>
+  <string name="PaymentReceipt">Разлікоўка</string>
   <string name="PaymentConfirmationNewCard">Абярыце іншую картку</string>
+  <string name="PaymentConfirmationMessage">Твая картка %1$s  на файл. Для аплаты з гэтае карткі, прайдзі 2-ух крокавую  праверку пароля.</string>
   <string name="PaymentPrecheckoutFailed">Выбачайце, але плацеж быў скасаваны ботам.</string>
   <string name="PaymentFailed">Выбачайце, але не атрымалася выканаць плацеж.</string>
   <string name="PaymentConnectionFailed">Немагчыма падлучыцца да сервера плацяжоў. Калі ласка, праверце вашае злучэнне з Інтэрнэтам і паспрабуйце яшчэ раз.</string>
@@ -643,6 +650,8 @@
   <string name="ThemePreview">Перадпрагляд тэмы</string>
   <string name="SelectColor">Абярыце колер</string>
   <string name="CreateNewTheme">Стварыць новую тэму</string>
+  <string name="CreateNewThemeHelp">Краніся абразку палітры, каб паглядзець сьпіс элементаў на кожным экране - і рэдагаваць іх.</string>
+  <string name="CreateNewThemeInfo">Ты можаш стварыць сваю ўласную тэму шляхам зьмены колеру ў дадатку. Ты заўсёды можаце вярнуцца да тэмы Telegram  па змаўчаньні тут.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Скінуць усе налады апавяшчэнняў па змаўчанні</string>
   <string name="TextSize">Памер тэксту ў паведамленнях</string>
@@ -1180,6 +1189,7 @@
   <string name="AllowFillNumber">Калі ласка, дазвольце Тэлеграму атрымліваць SMS і званкі, каб мы маглі аўтаматычна ўвесці нумар тэлефону і код за вас.</string>
   <string name="AllowReadCallAndSms">Калі ласка, дазвольце Тэлеграму атрымліваць SMS і званкі, каб мы маглі аўтаматычна ўвесці код за вас.</string>
   <string name="UserRestricted">Выбачайце, але вам не дазволена гэта рабіць.</string>
+  <string name="YouBlockedUser">На жаль, ты не можаш дадаць гэтага карыстальніка ці бота, таму што ўжо заблакаваў(-ла) іх. Разблакуй, каб працягнуць.</string>
   <string name="JoinGroup">ДАЛУЧЫЦЦА ДА СУПОЛКІ</string>
   <!--permissions-->
   <string name="PermissionContacts">Тэлеграму патрэбны доступ да вашых кантактаў, каб вы маглі звязацца з сваімі сябрамі на ўсіх сваіх устройствах.</string>
@@ -1253,6 +1263,12 @@
   <string name="VoipPeerOutdated">Праграма гэтага карыстальніка (<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>) не падтрымлівае функцыю выклікаў. Яму або ёй трэба абнавіць сваю праграму, каб мець магчымасць прымаць выклікі.</string>
   <string name="VoipRateCallAlert">Калі ласка, пастаўце адзнаку гэтаму выкліку</string>
   <string name="VoipFeedbackAlert">Жадаеце пакінуць нам паведамленне, каб мы маглі палепшыць якасць выклікаў?</string>
+  <string name="VoipNeedMicPermission">Telegram неабходны доступ да мікрафону, на выпадак здзяйсненьня выкліку.</string>
+  <string name="VoipFeedbackCommentHint">Дадаць дадатковы каментар</string>
+  <string name="CallBack">Ператэлефанаваць</string>
+  <string name="CallAgain">Выклікаць зноўку</string>
+  <string name="DefaultRingtone">Па-змаўчаньні</string>
+  <string name="ConfirmDeleteCallLog">Упэўнены, што жадаеш выдаліць гэты запіс са сьпісу выклікаў?</string>
   <!--plural-->
   <string name="Online_zero">%1$d тут</string>
   <string name="Online_one">%1$d тут</string>
