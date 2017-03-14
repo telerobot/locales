@@ -62,8 +62,6 @@
   <string name="PaymentCardTitle">Pagamento co carta</string>
   <string name="PaymentCardNumber">Nùmaro carta</string>
   <string name="PaymentCardCvv">Còdaze se seguresa (CVV)</string>
-  <string name="PaymentCardExpireDateMonth">Meze</string>
-  <string name="PaymentCardExpireDateYear">Ano</string>
   <string name="PaymentBillingAddress">Ndariso de faturasion</string>
   <string name="PaymentCardNameTitle">Titołar de ła carta</string>
   <string name="PaymentCardName">Nome Conjome</string>
@@ -73,7 +71,6 @@
   <string name="PaymentTransactionReview">Revizion de ła tranzasion</string>
   <string name="PaymentTransactionMessage">Vutu davero trasfarir %1$s a\'l bot %2$s par %3$s?</string>
   <string name="PaymentTransactionTotal">Totałe</string>
-  <string name="PaymentShipment">SPEDISION</string>
   <string name="PaymentInvoice">FATURA</string>
   <string name="PaymentCheckoutPay">PAGA %1$s</string>
   <string name="PaymentCheckoutMethod">Tipo de pagamento</string>

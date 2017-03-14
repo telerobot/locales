@@ -63,8 +63,7 @@
   <string name="PaymentCardTitle">Карта</string>
   <string name="PaymentCardNumber">Номер карты</string>
   <string name="PaymentCardCvv">Код безопасности (CVV)</string>
-  <string name="PaymentCardExpireDateMonth">Месяц</string>
-  <string name="PaymentCardExpireDateYear">Год</string>
+  <string name="PaymentCardExpireDate">MM/YY</string>
   <string name="PaymentBillingAddress">Платёжный адрес</string>
   <string name="PaymentCardNameTitle">Владелец карты</string>
   <string name="PaymentCardName">Имя и фамилия</string>
@@ -74,8 +73,8 @@
   <string name="PaymentTransactionReview">Просмотр транзакции</string>
   <string name="PaymentTransactionMessage">Уверены, что хотите перевести %1$s боту %2$s за %3$s?</string>
   <string name="PaymentTransactionTotal">Всего</string>
-  <string name="PaymentShipment">ДОСТАВКА</string>
   <string name="PaymentInvoice">СЧЁТ</string>
+  <string name="PaymentTestInvoice">ТЕСТОВЫЙ СЧЁТ</string>
   <string name="PaymentCheckoutPay">ЗАПЛАТИТЬ %1$s</string>
   <string name="PaymentCheckoutMethod">Способ оплаты</string>
   <string name="PaymentCheckoutName">Имя</string>
@@ -1256,6 +1255,7 @@
   <string name="CallMessageIncoming">Входящий вызов</string>
   <string name="CallMessageIncomingMissed">Пропущенный вызов</string>
   <string name="CallMessageOutgoingMissed">Отменённый вызов</string>
+  <string name="CallMessageIncomingDeclined">Отклонённый вызов</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <string name="CallEncryptionKeyDescription">Это изображение и текст — визуализация ключа шифрования для этого разговора c <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Если на устройстве пользователя <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> отображаются идентичные текст и изображание, то оконечное шифрование между вами безопасно.</string>
   <string name="NoCallLog">Вы пока никому не звонили.</string>
@@ -1269,6 +1269,12 @@
   <string name="CallAgain">Перезвонить</string>
   <string name="DefaultRingtone">По умолчанию</string>
   <string name="ConfirmDeleteCallLog">Уверены, что хотите удалить эту запись из истории?</string>
+  <string name="CallViaTelegram">Звонок через Telegram</string>
+  <string name="VoipAudioRoutingEarpiece">Наушник</string>
+  <string name="VoipAudioRoutingSpeaker">Громкая связь</string>
+  <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
+  <string name="ReturnToCall">ВЕРНУТЬСЯ К ЗВОНКУ</string>
+  <string name="CallNotAvailable">К сожалению, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> не принимает звонки.</string>
   <!--plural-->
   <string name="Online_zero">%1$d в сети</string>
   <string name="Online_one">%1$d в сети</string>

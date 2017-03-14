@@ -62,8 +62,6 @@
   <string name="PaymentCardTitle">Carte de paiement</string>
   <string name="PaymentCardNumber">Numéro de carte</string>
   <string name="PaymentCardCvv">Code de sécurité (CVV)</string>
-  <string name="PaymentCardExpireDateMonth">Mois</string>
-  <string name="PaymentCardExpireDateYear">Année</string>
   <string name="PaymentBillingAddress">Adresse de facturation</string>
   <string name="PaymentCardNameTitle">Nom du titulaire de la carte</string>
   <string name="PaymentCardName">Nom complet</string>
@@ -73,7 +71,6 @@
   <string name="PaymentTransactionReview">Résumé de la transaction</string>
   <string name="PaymentTransactionMessage">Souhaitez-vous vraiment transférer %1$s au %2$s bot pour %3$s ?</string>
   <string name="PaymentTransactionTotal">Total</string>
-  <string name="PaymentShipment">EXPÉDITION</string>
   <string name="PaymentInvoice">FACTURE</string>
   <string name="PaymentCheckoutPay">PAYER %1$s</string>
   <string name="PaymentCheckoutMethod">Méthode de paiement</string>

@@ -62,8 +62,6 @@
   <string name="PaymentCardTitle">Плацежная картка</string>
   <string name="PaymentCardNumber">Нумар карткі</string>
   <string name="PaymentCardCvv">Код бяспекі (CVV)</string>
-  <string name="PaymentCardExpireDateMonth">Месяц</string>
-  <string name="PaymentCardExpireDateYear">Год</string>
   <string name="PaymentBillingAddress">Плацежны адрас</string>
   <string name="PaymentCardNameTitle">Уладальнік карткі</string>
   <string name="PaymentCardName">Імя і прозвішча</string>
@@ -73,7 +71,6 @@
   <string name="PaymentTransactionReview">Справаздача аб транзакцыі</string>
   <string name="PaymentTransactionMessage">Сапраўды маеш намер перавесьці %1$s ў гэты %2$s бота для %3$s?</string>
   <string name="PaymentTransactionTotal">Усяго</string>
-  <string name="PaymentShipment">ДАСТАЎКА</string>
   <string name="PaymentInvoice">КОШТ</string>
   <string name="PaymentCheckoutPay">АПЛАЦІЦЬ %1$s</string>
   <string name="PaymentCheckoutMethod">Метад аплаты</string>

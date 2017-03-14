@@ -63,8 +63,6 @@
   <string name="PaymentCardTitle">Карта</string>
   <string name="PaymentCardNumber">Карта номеры</string>
   <string name="PaymentCardCvv">Иминлек коды (CVV)</string>
-  <string name="PaymentCardExpireDateMonth">Ай</string>
-  <string name="PaymentCardExpireDateYear">Ел</string>
   <string name="PaymentBillingAddress">Түләү адресы</string>
   <string name="PaymentCardNameTitle">Карта хуҗасы</string>
   <string name="PaymentCardName">Исем һәм фамилия</string>
@@ -74,7 +72,6 @@
   <string name="PaymentTransactionReview">Транзакцияне карау</string>
   <string name="PaymentTransactionMessage">Сез %2$s ботына %3$s өчен %1$s күчерергә телисезме?</string>
   <string name="PaymentTransactionTotal">Барлыгы</string>
-  <string name="PaymentShipment">КИТЕРҮ</string>
   <string name="PaymentInvoice">ТҮЛӘҮ</string>
   <string name="PaymentCheckoutPay">%1$s ТҮЛӘРГӘ</string>
   <string name="PaymentCheckoutMethod">Түләү ысулы</string>
