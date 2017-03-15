@@ -63,6 +63,7 @@
   <string name="PaymentCardTitle">Карта</string>
   <string name="PaymentCardNumber">Карта номеры</string>
   <string name="PaymentCardCvv">Иминлек коды (CVV)</string>
+  <string name="PaymentCardExpireDate">MM/YY</string>
   <string name="PaymentBillingAddress">Түләү адресы</string>
   <string name="PaymentCardNameTitle">Карта хуҗасы</string>
   <string name="PaymentCardName">Исем һәм фамилия</string>
@@ -73,6 +74,7 @@
   <string name="PaymentTransactionMessage">Сез %2$s ботына %3$s өчен %1$s күчерергә телисезме?</string>
   <string name="PaymentTransactionTotal">Барлыгы</string>
   <string name="PaymentInvoice">ТҮЛӘҮ</string>
+  <string name="PaymentTestInvoice">СЫНАУЛЫК ИСӘП</string>
   <string name="PaymentCheckoutPay">%1$s ТҮЛӘРГӘ</string>
   <string name="PaymentCheckoutMethod">Түләү ысулы</string>
   <string name="PaymentCheckoutName">Исем</string>
@@ -1271,6 +1273,7 @@
   <string name="CallMessageIncoming">Керүче шалтырату</string>
   <string name="CallMessageIncomingMissed">Алынмаган шалтырату</string>
   <string name="CallMessageOutgoingMissed">Кире кагылган шалтырату</string>
+  <string name="CallMessageIncomingDeclined">Кире кагылган шалтырату</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <string name="CallEncryptionKeyDescription">Бу сурәт һәм текст <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысы белән булган сөйләшүнең шифрлау ачкычын күрсәтә. Әгәр бу сурәт һәм текст <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> кулланучысының җайланмасындагы сүрәткә һәм текстка туры килсә, сезнең аралашу якланган була. <![CDATA[<br><br>]]></string>
   <string name="NoCallLog">Сез беркемгә дә шалтыратмадыгыз әле.</string>
@@ -1284,6 +1287,12 @@
   <string name="CallAgain">Яңадан шалтырату</string>
   <string name="DefaultRingtone">Баштагыча</string>
   <string name="ConfirmDeleteCallLog">Бу язманы шалтыратулардан бетерергә телисезме?</string>
+  <string name="CallViaTelegram">Telegramнан шалтырату</string>
+  <string name="VoipAudioRoutingEarpiece">Колакчын</string>
+  <string name="VoipAudioRoutingSpeaker">Яңгыравыклы сөйләшү</string>
+  <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
+  <string name="ReturnToCall">ШАЛТЫРАТУГА КАЙТУ</string>
+  <string name="CallNotAvailable">Гафу итегез, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> шалтыратулар кабул итми.</string>
   <!--plural-->
   <string name="Online_zero">%1$d челтәрдә</string>
   <string name="Online_one">%1$d челтәрдә</string>

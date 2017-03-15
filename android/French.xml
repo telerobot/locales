@@ -62,6 +62,7 @@
   <string name="PaymentCardTitle">Carte de paiement</string>
   <string name="PaymentCardNumber">Numéro de carte</string>
   <string name="PaymentCardCvv">Code de sécurité (CVV)</string>
+  <string name="PaymentCardExpireDate">MM/YY</string>
   <string name="PaymentBillingAddress">Adresse de facturation</string>
   <string name="PaymentCardNameTitle">Nom du titulaire de la carte</string>
   <string name="PaymentCardName">Nom complet</string>
@@ -72,6 +73,7 @@
   <string name="PaymentTransactionMessage">Souhaitez-vous vraiment transférer %1$s au %2$s bot pour %3$s ?</string>
   <string name="PaymentTransactionTotal">Total</string>
   <string name="PaymentInvoice">FACTURE</string>
+  <string name="PaymentTestInvoice">FACTURE DE TEST</string>
   <string name="PaymentCheckoutPay">PAYER %1$s</string>
   <string name="PaymentCheckoutMethod">Méthode de paiement</string>
   <string name="PaymentCheckoutName">Nom</string>
@@ -1249,6 +1251,7 @@
   <string name="CallMessageIncoming">Appel entrant</string>
   <string name="CallMessageIncomingMissed">Appel manqué</string>
   <string name="CallMessageOutgoingMissed">Appel annulé</string>
+  <string name="CallMessageIncomingDeclined">Appel refusé</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <string name="CallEncryptionKeyDescription">Cette image et ce texte découle de la clé d\'encryption de l\'appel avec <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>S\'il sont pareil sur l\'appareil <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]>, l\'encryption bout en bout est garantie.</string>
   <string name="NoCallLog">Vous n\'avez pas fait d\'appel.</string>
@@ -1262,6 +1265,12 @@
   <string name="CallAgain">Rappeler</string>
   <string name="DefaultRingtone">Défaut</string>
   <string name="ConfirmDeleteCallLog">Êtes-vous certain de vouloir supprimer cette entrée du journal d\'appel ?</string>
+  <string name="CallViaTelegram">Appel Telegram</string>
+  <string name="VoipAudioRoutingEarpiece">Écouteur</string>
+  <string name="VoipAudioRoutingSpeaker">Haut-parleur</string>
+  <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
+  <string name="ReturnToCall">REVENIR À L\'APPEL</string>
+  <string name="CallNotAvailable">Désolé, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> n\'accepte pas d\'appels.</string>
   <!--plural-->
   <string name="Online_zero">%1$d en ligne</string>
   <string name="Online_one">%1$d en ligne</string>
