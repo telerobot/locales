@@ -62,7 +62,7 @@
   <string name="PaymentCardTitle">Carte de paiement</string>
   <string name="PaymentCardNumber">Numéro de carte</string>
   <string name="PaymentCardCvv">Code de sécurité (CVV)</string>
-  <string name="PaymentCardExpireDate">MM/YY</string>
+  <string name="PaymentCardExpireDate">MM/AA</string>
   <string name="PaymentBillingAddress">Adresse de facturation</string>
   <string name="PaymentCardNameTitle">Nom du titulaire de la carte</string>
   <string name="PaymentCardName">Nom complet</string>
