@@ -62,6 +62,7 @@
   <string name="PaymentCardTitle">Pagamento co carta</string>
   <string name="PaymentCardNumber">Nùmaro carta</string>
   <string name="PaymentCardCvv">Còdaze se seguresa (CVV)</string>
+  <string name="PaymentCardExpireDate">MM/YY</string>
   <string name="PaymentBillingAddress">Ndariso de faturasion</string>
   <string name="PaymentCardNameTitle">Titołar de ła carta</string>
   <string name="PaymentCardName">Nome Conjome</string>
@@ -72,6 +73,7 @@
   <string name="PaymentTransactionMessage">Vutu davero trasfarir %1$s a\'l bot %2$s par %3$s?</string>
   <string name="PaymentTransactionTotal">Totałe</string>
   <string name="PaymentInvoice">FATURA</string>
+  <string name="PaymentTestInvoice">FATURA DE PROA</string>
   <string name="PaymentCheckoutPay">PAGA %1$s</string>
   <string name="PaymentCheckoutMethod">Tipo de pagamento</string>
   <string name="PaymentCheckoutName">Nome</string>
@@ -1249,6 +1251,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="CallMessageIncoming">Ciamada in entrada</string>
   <string name="CallMessageIncomingMissed">Ciamada mancada</string>
   <string name="CallMessageOutgoingMissed">Ciamada anułada</string>
+  <string name="CallMessageIncomingDeclined">Ciamada refudada</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <string name="CallEncryptionKeyDescription">\'Sta imàjine e \'sto testo i riva da ła ciave de criptasion de \'sta \'sta ciamada co <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Se i ze guałivi inte\'l dispozitivo de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, ła criptasion d\'in cao s\'in cao ła ze garantìa.</string>
   <string name="NoCallLog">A no te ghè fazesto njancora njauna ciamada.</string>
@@ -1262,6 +1265,9 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="CallAgain">Reciama danovo</string>
   <string name="DefaultRingtone">Predefenìo</string>
   <string name="ConfirmDeleteCallLog">Vutu davero ełimenar \'sta voze da\'l rejistro ciamàe?</string>
+  <string name="CallViaTelegram">Ciamada Telegram</string>
+  <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
+  <string name="ReturnToCall">TORNA A ŁA CIAMADA</string>
   <!--plural-->
   <string name="Online_zero">%1$d in łinea</string>
   <string name="Online_one">%1$d in łinea</string>
