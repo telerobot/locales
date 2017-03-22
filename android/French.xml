@@ -584,6 +584,7 @@
   <string name="ShortMessageLifetimeForever">Désactivé</string>
   <string name="EncryptionKeyDescription">Cette image et le texte sont une représentation de la clé de chiffrement pour cette conversation secrète avec <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Si l\'image sur l\'appareil de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> est identique, votre conversation est totalement sécurisée.<![CDATA[<br><br>]]>Plus d\'informations sur telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
+  <string name="TapToEmojify">Toucher pour mettre en emoji</string>
   <string name="NumberUnknown">Inconnu</string>
   <string name="Info">Info</string>
   <string name="Phone">Téléphone</string>
@@ -1271,6 +1272,7 @@
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
   <string name="ReturnToCall">REVENIR À L\'APPEL</string>
   <string name="CallNotAvailable">Désolé, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> n\'accepte pas d\'appels.</string>
+  <string name="CallEmojiKeyTooltip">Si les emoji sont identiques sur l\'écran de %1$s, cet appel est sécurisé à 100%%.</string>
   <!--plural-->
   <string name="Online_zero">%1$d en ligne</string>
   <string name="Online_one">%1$d en ligne</string>

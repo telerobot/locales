@@ -584,6 +584,7 @@
   <string name="ShortMessageLifetimeForever">Отключён</string>
   <string name="EncryptionKeyDescription">Это изображение и текст — визуализация ключа шифрования для этого секретного чата c пользователем <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Если на устройстве пользователя <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> отображаются идентичные текст и изображание, то оконечное шифрование между вами безопасно.<![CDATA[<br><br>]]>Узнайте больше на telegram.org</string>
   <string name="EncryptionKeyLink">https://tlgrm.ru/faq#secret-chats</string>
+  <string name="TapToEmojify">Отобразить в виде смайлов</string>
   <string name="NumberUnknown">Неизвестен</string>
   <string name="Info">Информация</string>
   <string name="Phone">Номер телефона</string>
@@ -1275,6 +1276,7 @@
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
   <string name="ReturnToCall">ВЕРНУТЬСЯ К ЗВОНКУ</string>
   <string name="CallNotAvailable">К сожалению, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> не принимает звонки.</string>
+  <string name="CallEmojiKeyTooltip">Если у %1$s отображаются точно такие же смайлы, то этот звонок на 100%% безопасен.</string>
   <!--plural-->
   <string name="Online_zero">%1$d в сети</string>
   <string name="Online_one">%1$d в сети</string>
