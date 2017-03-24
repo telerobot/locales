@@ -1272,6 +1272,7 @@ Wersja polska: Daniel Grochala i Mariusz Grochala</string>
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
   <string name="ReturnToCall">POWRÓT DO POŁĄCZENIA</string>
   <string name="CallNotAvailable">Użytkownik <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> nie akceptuje połączeń.</string>
+  <string name="CallEmojiKeyTooltip">Jeśli te emotikony są takie same na ekranie użytkownika %1$s, połączenie to jest w 100%% bezpieczne.</string>
   <!--plural-->
   <string name="Online_zero">%1$d online</string>
   <string name="Online_one">%1$d online</string>

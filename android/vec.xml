@@ -1269,6 +1269,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
   <string name="ReturnToCall">TORNA A ŁA CIAMADA</string>
   <string name="CallNotAvailable">Ne despiaze, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> no L vołe mìa ciapar ciamàe.</string>
+  <string name="CallEmojiKeyTooltip">Se łe emoji so\'l schermo de %1$s łe ze guałive, \'sta ciamada ła ze segura a\'l 100%%.</string>
   <!--plural-->
   <string name="Online_zero">%1$d in łinea</string>
   <string name="Online_one">%1$d in łinea</string>
