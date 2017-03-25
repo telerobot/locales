@@ -583,6 +583,7 @@
   <string name="ShortMessageLifetimeForever">Dezativà</string>
   <string name="EncryptionKeyDescription">\'Sta imàjine e \'sto testo i riva da ła ciave de criptasion de \'sta chat segreta co <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Se i ze guałivi inte\'l dispozitivo de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, ła criptasion d\'in cao s\'in cao ła ze garantìa.<![CDATA[<br><br>]]>Par savèrghine de pì va so telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq/it#chat-segrete</string>
+  <string name="TapToEmojify">Toca par emojifegar</string>
   <string name="NumberUnknown">Mìa conosùo</string>
   <string name="Info">Informasion</string>
   <string name="Phone">Tełèfono</string>
@@ -1266,6 +1267,8 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="DefaultRingtone">Predefenìo</string>
   <string name="ConfirmDeleteCallLog">Vutu davero ełimenar \'sta voze da\'l rejistro ciamàe?</string>
   <string name="CallViaTelegram">Ciamada Telegram</string>
+  <string name="VoipAudioRoutingEarpiece">Peocieto auricołar</string>
+  <string name="VoipAudioRoutingSpeaker">Vivavoze</string>
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
   <string name="ReturnToCall">TORNA A ŁA CIAMADA</string>
   <string name="CallNotAvailable">Ne despiaze, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> no L vołe mìa ciapar ciamàe.</string>
