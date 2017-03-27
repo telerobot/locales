@@ -596,6 +596,7 @@
   <string name="ShortMessageLifetimeForever">Сүнгән</string>
   <string name="EncryptionKeyDescription">Бу сурәт һәм текст <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысы белән булган яшерен чатның шифрлау ачкычын күрсәтә. Әгәр бу сурәт һәм текст <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> кулланучысының җайланмасындагы сүрәткә һәм текстка туры килсә, сезнең аралашу якланган була. <![CDATA[<br><br>]]> Тулырак: telegram.org</string>
   <string name="EncryptionKeyLink">https://tlgrm.ru/faq#secret-chats</string>
+  <string name="TapToEmojify">Смайликлар итеп күрсәтү</string>
   <string name="NumberUnknown">Билгесез</string>
   <string name="Info">Мәгълүмат</string>
   <string name="Phone">Телефон номеры</string>
@@ -1293,6 +1294,7 @@
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
   <string name="ReturnToCall">ШАЛТЫРАТУГА КАЙТУ</string>
   <string name="CallNotAvailable">Гафу итегез, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> шалтыратулар кабул итми.</string>
+  <string name="CallEmojiKeyTooltip">Әгәр %1$s кулланучысында шундый ук смайликлар күрсәтелсә, шалтырату 100%%ка якланган.</string>
   <!--plural-->
   <string name="Online_zero">%1$d челтәрдә</string>
   <string name="Online_one">%1$d челтәрдә</string>
