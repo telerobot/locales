@@ -62,6 +62,7 @@
   <string name="PaymentCardTitle">Плацежная картка</string>
   <string name="PaymentCardNumber">Нумар карткі</string>
   <string name="PaymentCardCvv">Код бяспекі (CVV)</string>
+  <string name="PaymentCardExpireDate">MM/YY</string>
   <string name="PaymentBillingAddress">Плацежны адрас</string>
   <string name="PaymentCardNameTitle">Уладальнік карткі</string>
   <string name="PaymentCardName">Імя і прозвішча</string>
@@ -584,6 +585,7 @@
   <string name="ShortMessageLifetimeForever">Выкл</string>
   <string name="EncryptionKeyDescription">Гэтыя выява і тэкст рэпрэзэнтуюць ключ шыфравання для сакрэтнай размовы з <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Калі яны выглядаюць гэтак жа на ўстройстве <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]>, то мы гарантуем вам шыфраванне з-канца-ў-канец.<![CDATA[<br><br>]]>Дазнайцеся больш на telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
+  <string name="TapToEmojify">Перавесці ў эмодзі</string>
   <string name="NumberUnknown">Невядомы</string>
   <string name="Info">Звесткі</string>
   <string name="Phone">Тэлефон</string>
@@ -1253,6 +1255,7 @@
   <string name="CallMessageIncoming">Уваходны выклік</string>
   <string name="CallMessageIncomingMissed">Прапушчаны выклік</string>
   <string name="CallMessageOutgoingMissed">Адмоўлены выклік</string>
+  <string name="CallMessageIncomingDeclined">Скінуты выклік</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <string name="CallEncryptionKeyDescription">Гэтыя выява і тэкст рэпрэзэнтуюць ключ шыфравання для сакрэтнай размовы з <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Калі яны выглядаюць гэтак жа на ўстройстве <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]>, то мы гарантуем вам шыфраванне з-канца-ў-канец.</string>
   <string name="NoCallLog">Вы пакуль што не рабілі выклікаў.</string>
@@ -1266,6 +1269,12 @@
   <string name="CallAgain">Выклікаць зноўку</string>
   <string name="DefaultRingtone">Па-змаўчаньні</string>
   <string name="ConfirmDeleteCallLog">Упэўнены, што жадаеш выдаліць гэты запіс са сьпісу выклікаў?</string>
+  <string name="CallViaTelegram">Выклік праз Тэлеграм</string>
+  <string name="VoipAudioRoutingEarpiece">Слухаўка</string>
+  <string name="VoipAudioRoutingSpeaker">Дынамік</string>
+  <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
+  <string name="CallNotAvailable">Даруйце, але <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> не прымае выклікі.</string>
+  <string name="CallEmojiKeyTooltip">Калі эмодзі на экране %1$s такія жа, то выклік абаронены на 100%%.</string>
   <!--plural-->
   <string name="Online_zero">%1$d тут</string>
   <string name="Online_one">%1$d тут</string>
