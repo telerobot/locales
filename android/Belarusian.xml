@@ -4,7 +4,7 @@
   <string name="AppNameBeta">Бэта-версія Тэлеграма</string>
   <string name="LanguageName">Беларуская</string>
   <string name="LanguageNameInEnglish">Belarusian</string>
-  <string name="LanguageCode">by</string>
+  <string name="LanguageCode">be</string>
   <!--signin view-->
   <string name="YourPhone">Ваш тэлефон</string>
   <string name="StartText">Калі ласка, пацвердзіце код вашай краіны і ўвядзіце ваш нумар тэлефона.</string>
@@ -39,8 +39,8 @@
   <string name="LastName">Прозвішча (абавязкова)</string>
   <string name="CancelRegistration">Скасаваць рэгістрацыю</string>
   <!--payments view-->
-  <string name="PaymentSuccessfullyPaid">Толькі што пасьпяхова перавеў(-ла) %1$s ў %2$s для %3$s</string>
-  <string name="PaymentSuccessfullyPaidNoItem">Вы толькі што паспяхова перавёў(-ла) %1$s ў %2$s</string>
+  <string name="PaymentSuccessfullyPaid">Вы толькі што аплацілі %3$s (кошт: %1$s, прадавец: %2$s)</string>
+  <string name="PaymentSuccessfullyPaidNoItem">Вы паспяхова перавялі %1$s да %2$s</string>
   <string name="PaymentCheckout">Праверка</string>
   <string name="PaymentShippingMethod">Спосабы дастаўкі</string>
   <string name="PaymentNoShippingMethod">Выбачайце, але даставіць тавар на ваш адрас немагчыма.</string>
@@ -70,7 +70,7 @@
   <string name="PaymentCardSavePaymentInformationInfoLine1">Вы можаце захаваць свае плацежныя звесткі.</string>
   <string name="PaymentCardSavePaymentInformationInfoLine2">Калі ласка, *уключыце двухкрокавую верыфікацыю*, каб мець доступ да гэтай функцыі.</string>
   <string name="PaymentTransactionReview">Справаздача аб транзакцыі</string>
-  <string name="PaymentTransactionMessage">Сапраўды маеш намер перавесьці %1$s ў гэты %2$s бота для %3$s?</string>
+  <string name="PaymentTransactionMessage">Вы сапраўды жадаеце аплаціць %3$s? (кошт: %1$s, атрымальнік плацяжа: бот %2$s)</string>
   <string name="PaymentTransactionTotal">Усяго</string>
   <string name="PaymentInvoice">КОШТ</string>
   <string name="PaymentCheckoutPay">АПЛАЦІЦЬ %1$s</string>
@@ -81,7 +81,7 @@
   <string name="PaymentCheckoutShippingMethod">Спосаб дастаўкі</string>
   <string name="PaymentReceipt">Разлікоўка</string>
   <string name="PaymentConfirmationNewCard">Абярыце іншую картку</string>
-  <string name="PaymentConfirmationMessage">Твая картка %1$s  на файл. Для аплаты з гэтае карткі, прайдзі 2-ух крокавую  праверку пароля.</string>
+  <string name="PaymentConfirmationMessage">Вашая картка %1$s была захавана. Каб скарыстацца ёю, калі ласка, увядзіце ваш пароль двухкрокавай верыфікацыі.</string>
   <string name="PaymentPrecheckoutFailed">Выбачайце, але плацеж быў скасаваны ботам.</string>
   <string name="PaymentFailed">Выбачайце, але не атрымалася выканаць плацеж.</string>
   <string name="PaymentConnectionFailed">Немагчыма падлучыцца да сервера плацяжоў. Калі ласка, праверце вашае злучэнне з Інтэрнэтам і паспрабуйце яшчэ раз.</string>
@@ -302,7 +302,7 @@
   <string name="AudioUnknownArtist">Невядомы выканавец</string>
   <string name="AudioUnknownTitle">Невядомая назва</string>
   <!--documents view-->
-  <string name="SelectFile">Выберыце файл</string>
+  <string name="SelectFile">Абярыце файл</string>
   <string name="FreeOfTotal">Вольна %1$s з %2$s</string>
   <string name="UnknownError">Невядомая памылка</string>
   <string name="AccessError">Памылка доступу</string>
@@ -333,7 +333,7 @@
   <string name="SendingPhoto">адпраўка выявы...</string>
   <string name="SendingGame">гуляе ў гульню</string>
   <string name="SendingVideoStatus">адпраўка відэазапіса...</string>
-  <string name="SendingFile">адпраўка файла...</string>
+  <string name="SendingFile">адпраўляе файл...</string>
   <string name="GotAQuestion">Ёсць пытанні наконт Telegram?</string>
   <string name="ChatTakePhoto">Зрабіць фота</string>
   <string name="ChatGallery">Галерэя</string>
@@ -433,7 +433,7 @@
   <string name="YouHaveNewMessage">Вы маеце новае паведамленне</string>
   <string name="NotificationMessageText">%1$s: %2$s</string>
   <string name="NotificationMessageNoText">%1$s даслаў вам паведамленне</string>
-  <string name="NotificationMessagePhoto">%1$s даслаў вам фота</string>
+  <string name="NotificationMessagePhoto">%1$s даслаў вам выяву</string>
   <string name="NotificationMessageVideo">%1$s даслаў вам відэа</string>
   <string name="NotificationMessageContact">%1$s падзяліўся кантактам з вамі</string>
   <string name="NotificationMessageMap">%1$s даслаў вам месцазнаходжанне</string>
@@ -446,7 +446,7 @@
   <string name="NotificationMessageStickerEmoji">%1$s sent you a %2$s sticker</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
   <string name="NotificationMessageGroupNoText">%1$s даслаў паведамленне ў суполку %2$s</string>
-  <string name="NotificationMessageGroupPhoto">%1$s даслаў фота ў суполку %2$s</string>
+  <string name="NotificationMessageGroupPhoto">%1$s даслаў выяву ў суполку %2$s</string>
   <string name="NotificationMessageGroupVideo">%1$s даслаў відэа ў суполку %2$s</string>
   <string name="NotificationMessageGroupContact">%1$s падзяліўся кантактам у суполцы %2$s</string>
   <string name="NotificationMessageGroupMap">%1$s даслаў месцазнаходжанне ў суполку %2$s</string>
@@ -470,7 +470,7 @@
   <string name="NotificationUnrecognizedDevice">%1$s,\nМы заўважылі, што нехта зайшоў у ваш уліковы запіс з новага ўстройства.\n\nДата і час: %2$s\nУстройства: %3$s\nМесцазнаходжанне: %4$s\n\nКалі гэта былі не вы, вы можаце зайсці ў Налады — Прыватнасць і бяспека — Сэсіі і скасаваць гэтую сэсію.\n\nКалі вы падазраеце, што нехта зайшоў у ваш уліковы запіс без вашага ведама, вы можаце ўключыць двухкрокавую верыфікацыю ў наладах прыватнасці і бяспекі.\n\nЗ павагай,\nКаманда Тэлеграма</string>
   <string name="NotificationContactNewPhoto">%1$s абнавіў фота профілю</string>
   <string name="NotificationInvitedToGroupByLink">%1$s далучыўся(-лася) да суполкі %2$s праз спасылку-запрашэнне</string>
-  <string name="Reply">Адказ</string>
+  <string name="Reply">Адказаць</string>
   <string name="ReplyToGroup">Адказаць у суполку %1$s</string>
   <string name="ReplyToUser">Адказаць карыстальніку %1$s</string>
   <string name="NotificationMessagesPeopleDisplayOrder">%1$s %2$s</string>
@@ -501,28 +501,28 @@
   <string name="NotificationActionPinnedMusicChannel">%1$s замацаваў(-ла) песню</string>
   <string name="NotificationActionPinnedGameChannel">%1$s замацаваў(-ла) гульню</string>
   <!--contacts view-->
-  <string name="SelectContact">Выбраць кантакт</string>
+  <string name="SelectContact">Абраць кантакт</string>
   <string name="NoContacts">Яшчэ няма кантактаў</string>
   <string name="InviteText">Гэй, пераходзьце на Тэлеграм: https://telegram.org/dl</string>
   <string name="TodayAt">а</string>
   <string name="YesterdayAt">учора а</string>
   <string name="Online">тут</string>
-  <string name="LastSeen">апошняя актыўнасць</string>
-  <string name="LastSeenDate">апошняя актыўнасць</string>
-  <string name="LastSeenNow">толькі што быў тут</string>
+  <string name="LastSeen">быў(-ла) тут</string>
+  <string name="LastSeenDate">быў(-ла) тут</string>
+  <string name="LastSeenNow">толькі што быў(-ла) тут</string>
   <string name="InviteFriends">Запрасіць сяброў</string>
   <string name="GlobalSearch">ГЛАБАЛЬНЫ ПОШУК
 </string>
-  <string name="Lately">быў тут зусім нядаўна</string>
-  <string name="WithinAWeek">быў тут на гэтым тыдні</string>
-  <string name="WithinAMonth">быў тут у гэтым месяцы</string>
-  <string name="ALongTimeAgo">быў тут вельмі даўно</string>
+  <string name="Lately">быў(-ла) тут зусім нядаўна</string>
+  <string name="WithinAWeek">быў(-ла) тут на гэтым тыдні</string>
+  <string name="WithinAMonth">быў(-ла) тут у гэтым месяцы</string>
+  <string name="ALongTimeAgo">быў(-ла) тут вельмі даўно</string>
   <string name="NewMessageTitle">Новае паведамленне</string>
   <!--group create view-->
   <string name="SendMessageTo">Дадаць людзей...</string>
   <string name="SoftUserLimitAlert">У вас будзе магчымасць дадаць больш удзельнікаў пасля таго, як вы скончыце ствараць сваю суполку і ператворыце яе ў суперсуполку.</string>
-  <string name="EnterGroupNamePlaceholder">Увядзіце імя суполкі</string>
-  <string name="GroupName">Імя суполкі</string>
+  <string name="EnterGroupNamePlaceholder">Увядзіце назву суполкі</string>
+  <string name="GroupName">Назва суполкі</string>
   <string name="MembersCount">%1$d з %2$d абрана</string>
   <string name="MembersCountZero">да %1$s</string>
   <string name="JoinToGroup">Жадаеце далучыцца да размовы «%1$s»?</string>
@@ -548,7 +548,7 @@
   <!--group info view-->
   <string name="SharedMedia">Агульныя медыя</string>
   <string name="SETTINGS">Налады</string>
-  <string name="AddMember">Дадаць члена</string>
+  <string name="AddMember">Дадаць удзельніка</string>
   <string name="SetAdmins">Прызначыць кіраўнікоў</string>
   <string name="DeleteAndExit">Выдаліць і выйсці з суполкі</string>
   <string name="Notifications">Апавяшчэнні</string>
@@ -649,8 +649,8 @@
   <string name="ThemePreview">Перадпрагляд тэмы</string>
   <string name="SelectColor">Абярыце колер</string>
   <string name="CreateNewTheme">Стварыць новую тэму</string>
-  <string name="CreateNewThemeHelp">Краніся абразку палітры, каб паглядзець сьпіс элементаў на кожным экране - і рэдагаваць іх.</string>
-  <string name="CreateNewThemeInfo">Ты можаш стварыць сваю ўласную тэму шляхам зьмены колеру ў дадатку. Ты заўсёды можаце вярнуцца да тэмы Telegram  па змаўчаньні тут.</string>
+  <string name="CreateNewThemeHelp">Даткніцеся да значка палітры, каб праглядзець спіс аб’ектаў на кожным экране і рэдагаваць іх.</string>
+  <string name="CreateNewThemeInfo">Вы можаце стварыць уласную тэму, змяняючы колеры ў рэдактары. Тут вы заўсёды можаце вярнуцца да стандартнай тэмы.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Скінуць усе налады апавяшчэнняў па змаўчанні</string>
   <string name="TextSize">Памер тэксту ў паведамленнях</string>
@@ -855,11 +855,11 @@
   <string name="NoSharedFilesSecret">Файлы і дакументы з гэтай размовы будуць адлюстроўвацца тут.</string>
   <string name="NoSharedLinksSecret">Спасылкі з гэтай размовы будуць адлюстроўвацца тут.</string>
   <!--map view-->
-  <string name="Map">Мапа</string>
+  <string name="Map">Карта</string>
   <string name="Satellite">Спадарожнік</string>
   <string name="Hybrid">Гібрыд</string>
-  <string name="MetersAway">м далей</string>
-  <string name="KMetersAway">км далей</string>
+  <string name="MetersAway">м ад вас</string>
+  <string name="KMetersAway">км ад вас</string>
   <string name="SendLocation">Даслаць вашае бягучае месцазнаходжанне</string>
   <string name="SendSelectedLocation">Даслаць абранае месцазнаходжанне</string>
   <string name="ShareLocation">Месцазнаходжанне</string>
@@ -870,9 +870,9 @@
   <string name="SaveToGallery">Захаваць у галерэю</string>
   <string name="Of">%1$d з %2$d</string>
   <string name="Gallery">Галерэя</string>
-  <string name="AllPhotos">Усе фота</string>
+  <string name="AllPhotos">Усе выявы</string>
   <string name="AllVideo">Усе відэа</string>
-  <string name="NoPhotos">Пакуль няма фота</string>
+  <string name="NoPhotos">Пакуль няма выяў</string>
   <string name="NoVideo">Пакуль што няма відэа</string>
   <string name="PleaseDownload">Калі ласка, спярша спампуйце медыя</string>
   <string name="NoRecentPhotos">Няма нядаўніх выяў</string>
@@ -1021,7 +1021,7 @@
   <string name="LastSeenHelp">Змена бачнасці вашай апошняй актыўнасці.</string>
   <string name="LastSeenTitle">Хто можа бачыць час вашай апошняй актыўнасці?</string>
   <string name="AddExceptions">Дадаць выключэнні</string>
-  <string name="CustomHelp">Звярніце ўвагу: вы не зможаце бачыць апошнюю актыўнасць тых людзей, ад якіх вы схавалі сваю апошнюю актыўнасць. У іх будзе адлюстроўвацца прыблізны час апошняй актыўнасці (нядаўна, на гэтым тыдні, у гэтым месяцы).</string>
+  <string name="CustomHelp">Звярніце ўвагу: вы не зможаце бачыць час апошняе актыўнасці тых людзей, ад якіх вы яго схавалі. У іх будзе паказвацца прыблізны час апошняй актыўнасці (нядаўна, на гэтым тыдні, у гэтым месяцы).</string>
   <string name="AlwaysShareWith">Заўсёды дзяліцца з</string>
   <string name="NeverShareWith">Ніколі не дзяліцца з</string>
   <string name="CustomShareSettingsHelp">Гэтыя налады маюць большы прыярытэт перад наладамі зверху.</string>
@@ -1066,7 +1066,7 @@
   <string name="Next">Наступны</string>
   <string name="Back">Папярэдні</string>
   <string name="Done">Гатова</string>
-  <string name="Open">Адчыніць</string>
+  <string name="Open">Адкрыць</string>
   <string name="Save">Захаваць</string>
   <string name="Cancel">Скасаваць</string>
   <string name="Close">Закрыць</string>
@@ -1074,14 +1074,14 @@
   <string name="Edit">Рэдагаваць</string>
   <string name="Send">Даслаць</string>
   <string name="Call">Выклік</string>
-  <string name="Copy">Капіраваць</string>
+  <string name="Copy">Капіяваць</string>
   <string name="Delete">Выдаліць</string>
   <string name="DeleteAndStop">Выдаліць і спыніць</string>
-  <string name="Forward">Наперад</string>
+  <string name="Forward">Перадаслаць</string>
   <string name="Retry">Паўтарыць</string>
   <string name="FromCamera">З камеры</string>
   <string name="FromGalley">З галерэі</string>
-  <string name="DeletePhoto">Выдаліць фота</string>
+  <string name="DeletePhoto">Выдаліць выяву</string>
   <string name="Set">Набор</string>
   <string name="OK">Добра</string>
   <string name="Crop">АБРЭЗАЦЬ</string>
@@ -1093,8 +1093,8 @@
   <string name="ActionKickUser">un1 выдаліў un2</string>
   <string name="ActionLeftUser">un1 выйшаў(-ла) з суполкі</string>
   <string name="ActionAddUser">un1 дадаў(-ла) un2</string>
-  <string name="ActionRemovedPhoto">un1 выдаліў фотаздымак суполкі</string>
-  <string name="ActionChangedPhoto">un1 змяніў фотаздымак суполкі</string>
+  <string name="ActionRemovedPhoto">un1 выдаліў выяву суполкі</string>
+  <string name="ActionChangedPhoto">un1 змяніў выяву суполкі</string>
   <string name="ActionChangedTitle">un1 змяніў імя суполкі на un2</string>
   <string name="ActionCreateGroup">un1 стварыў суполку</string>
   <string name="ActionYouKickUser"> Вы выдалілі un2</string>
@@ -1104,8 +1104,8 @@
   <string name="ActionUserScored">un1 набраў(-ла) %1$s</string>
   <string name="ActionYouScoredInGame">Вы набралі %1$s у un2</string>
   <string name="ActionUserScoredInGame">un1 набраў(-ла) %1$s у un2</string>
-  <string name="ActionYouRemovedPhoto">Вы выдалілі фотаздымак суполкі</string>
-  <string name="ActionYouChangedPhoto">Вы змянілі фотаздымак суполкі</string>
+  <string name="ActionYouRemovedPhoto">Вы выдалілі выяву суполкі</string>
+  <string name="ActionYouChangedPhoto">Вы змянілі выяву суполкі</string>
   <string name="ActionYouChangedTitle">Вы змянілі імя суполкі на un2</string>
   <string name="ActionYouCreateGroup">Вы стварылі суполку</string>
   <string name="ActionKickUserYou">un1 выдаліў вас</string>
@@ -1124,7 +1124,7 @@
   <string name="AttachAudio">Аўдыязапіс</string>
   <string name="AttachGame">Гульня</string>
   <string name="FromYou">Вы</string>
-  <string name="ActionTakeScreenshootYou">Вы зрабілі скрыншот!</string>
+  <string name="ActionTakeScreenshootYou">Вы зрабілі здымак экрана!</string>
   <string name="ActionTakeScreenshoot">un1 зрабіў здымак экрана!</string>
   <!--Alert messages-->
   <string name="InvalidPhoneNumber">Памылковы нумар тэлефона</string>
@@ -1188,13 +1188,13 @@
   <string name="AllowFillNumber">Калі ласка, дазвольце Тэлеграму атрымліваць SMS і званкі, каб мы маглі аўтаматычна ўвесці нумар тэлефону і код за вас.</string>
   <string name="AllowReadCallAndSms">Калі ласка, дазвольце Тэлеграму атрымліваць SMS і званкі, каб мы маглі аўтаматычна ўвесці код за вас.</string>
   <string name="UserRestricted">Выбачайце, але вам не дазволена гэта рабіць.</string>
-  <string name="YouBlockedUser">На жаль, ты не можаш дадаць гэтага карыстальніка ці бота, таму што ўжо заблакаваў(-ла) іх. Разблакуй, каб працягнуць.</string>
+  <string name="YouBlockedUser">Выбачайце, але вы не можаце дадаць гэтага карыстальніка ці бота, бо вы яго заблакавалі. Спярша вам трэба будзе яго разблакаваць.</string>
   <string name="JoinGroup">ДАЛУЧЫЦЦА ДА СУПОЛКІ</string>
   <!--permissions-->
   <string name="PermissionContacts">Тэлеграму патрэбны доступ да вашых кантактаў, каб вы маглі звязацца з сваімі сябрамі на ўсіх сваіх устройствах.</string>
   <string name="PermissionStorage">Тэлеграму патрэбны доступ да вашага сховішча файлаў, каб вы маглі дасылаць і захоўваць выявы, відэа, музыку і іншыя медыяфайлы.</string>
   <string name="PermissionNoAudio">Тэлеграму патрэбны доступ да вашага мікрафона, каб вы маглі рабіць аўдыязапісы і дасылаць іх.</string>
-  <string name="PermissionNoAudioVideo">Тэлеграму патрэбны доступ да вашага мікрафона, каб вы маглі рабіць вiдыёзапісы.</string>
+  <string name="PermissionNoAudioVideo">Тэлеграму патрэбны доступ да вашага мікрафона, каб вы маглі рабіць вiдэазапісы.</string>
   <string name="PermissionNoCamera">Тэлеграму патрэбны доступ да вашае камеры, каб вы маглі рабіць фотаздымкі і відэазапісы.</string>
   <string name="PermissionNoLocation">Тэлеграму патрэбны доступ да вашага месцазнаходжання, каб вы маглі падзяліцца ім з сваімі сябрамі.</string>
   <string name="PermissionNoLocationPosition">Тэлеграму патрэбны доступ да вашага месцазнаходжання.</string>
@@ -1263,12 +1263,12 @@
   <string name="VoipPeerOutdated">Праграма гэтага карыстальніка (<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>) не падтрымлівае функцыю выклікаў. Яму або ёй трэба абнавіць сваю праграму, каб мець магчымасць прымаць выклікі.</string>
   <string name="VoipRateCallAlert">Калі ласка, пастаўце адзнаку гэтаму выкліку</string>
   <string name="VoipFeedbackAlert">Жадаеце пакінуць нам паведамленне, каб мы маглі палепшыць якасць выклікаў?</string>
-  <string name="VoipNeedMicPermission">Telegram неабходны доступ да мікрафону, на выпадак здзяйсненьня выкліку.</string>
+  <string name="VoipNeedMicPermission">Тэлеграму патрэбны доступ да вашага мікрафона, каб вы маглі тэлефанаваць.</string>
   <string name="VoipFeedbackCommentHint">Дадаць дадатковы каментар</string>
   <string name="CallBack">Ператэлефанаваць</string>
   <string name="CallAgain">Выклікаць зноўку</string>
-  <string name="DefaultRingtone">Па-змаўчаньні</string>
-  <string name="ConfirmDeleteCallLog">Упэўнены, што жадаеш выдаліць гэты запіс са сьпісу выклікаў?</string>
+  <string name="DefaultRingtone">Па змаўчанні</string>
+  <string name="ConfirmDeleteCallLog">Вы ўпэўненыя, што жадаеце выдаліць гэты запіс з гісторыі выклікаў?</string>
   <string name="CallViaTelegram">Выклік праз Тэлеграм</string>
   <string name="VoipAudioRoutingEarpiece">Слухаўка</string>
   <string name="VoipAudioRoutingSpeaker">Дынамік</string>
@@ -1396,18 +1396,18 @@
   <string name="Points_few">%1$d</string>
   <string name="Points_many">%1$d</string>
   <string name="Points_other">%1$d</string>
-  <string name="LastSeenMinutes_zero">быў тут %1$d хвілін таму</string>
-  <string name="LastSeenMinutes_one">быў тут %1$d хвіліну таму</string>
-  <string name="LastSeenMinutes_two">быў тут %1$d хвіліны таму</string>
-  <string name="LastSeenMinutes_few">быў тут %1$d хвіліны таму</string>
-  <string name="LastSeenMinutes_many">быў тут %1$d хвілін таму</string>
-  <string name="LastSeenMinutes_other">быў тут %1$d хвілін таму</string>
-  <string name="LastSeenHours_zero">быў тут %1$d гадзін таму</string>
-  <string name="LastSeenHours_one">быў тут %1$d гадзіну таму</string>
-  <string name="LastSeenHours_two">быў тут %1$d гадзіны таму</string>
-  <string name="LastSeenHours_few">быў тут %1$d гадзіны таму</string>
-  <string name="LastSeenHours_many">быў тут %1$d гадзін таму</string>
-  <string name="LastSeenHours_other">быў тут %1$d гадзін таму</string>
+  <string name="LastSeenMinutes_zero">быў(-ла) тут %1$d хв таму</string>
+  <string name="LastSeenMinutes_one">быў(-ла) тут %1$d хв таму</string>
+  <string name="LastSeenMinutes_two">быў(-ла) тут %1$d хв таму</string>
+  <string name="LastSeenMinutes_few">быў(-ла) тут %1$d хв таму</string>
+  <string name="LastSeenMinutes_many">быў(-ла) тут %1$d хв таму</string>
+  <string name="LastSeenMinutes_other">быў(-ла) тут %1$d хв таму</string>
+  <string name="LastSeenHours_zero">быў(-ла) тут %1$d гдз таму</string>
+  <string name="LastSeenHours_one">быў(-ла) тут %1$d гдз таму</string>
+  <string name="LastSeenHours_two">быў(-ла) тут %1$d гдз таму</string>
+  <string name="LastSeenHours_few">быў(-ла) тут %1$d гдз таму</string>
+  <string name="LastSeenHours_many">быў(-ла) тут %1$d гдз таму</string>
+  <string name="LastSeenHours_other">быў(-ла) тут %1$d гдз таму</string>
   <string name="SecondsBold_zero"><![CDATA[<b>%1$d</b>]]> секунд</string>
   <string name="SecondsBold_one"><![CDATA[<b>%1$d</b>]]> с</string>
   <string name="SecondsBold_two"><![CDATA[<b>%1$d</b>]]> с</string>
@@ -1497,7 +1497,7 @@
   <string name="formatterStats12H">dd MMM yyyy, HH:mm</string>
   <string name="formatterStats24H">dd MMM yyyy, HH:mm</string>
   <string name="formatterMonthYear">MMMM yyyy</string>
-  <string name="formatterMonth">MMM dd</string>
+  <string name="formatterMonth">dd MMM</string>
   <string name="formatterYear">dd.MM.yy</string>
   <string name="formatterYearMax">dd.MM.yyyy</string>
   <string name="chatDate">d MMMM</string>
