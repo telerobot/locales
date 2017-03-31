@@ -1223,7 +1223,7 @@
   <string name="VoipRequesting">Demande</string>
   <string name="VoipHangingUp">Raccrocher</string>
   <string name="VoipCallEnded">Appel terminé</string>
-  <string name="VoipFailed">Connexion échoué</string>
+  <string name="VoipFailed">Échec de connexion</string>
   <string name="VoipRinging">Sonner</string>
   <string name="VoipBusy">Ligne occupée</string>
   <string name="VoipInCallBranding">Appel Telegram</string>
@@ -1257,7 +1257,7 @@
   <string name="CallEncryptionKeyDescription">Cette image et ce texte découle de la clé d\'encryption de l\'appel avec <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>S\'il sont pareil sur l\'appareil <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]>, l\'encryption bout en bout est garantie.</string>
   <string name="NoCallLog">Vous n\'avez pas fait d\'appel.</string>
   <string name="VoipPeerIncompatible">L\'application <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> utilise un protocol incompatible. Ils doivent mettre à jour leur application avant de pouvoir les appeler.</string>
-  <string name="VoipPeerOutdated">L\'application <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ne permet pas les appels. Ils doivent mettre à jour leur application avant de pouvoir les appeler.</string>
+  <string name="VoipPeerOutdated">L\'application de <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ne permet pas les appels. La mise à jour de son application est nécessaire afin que vous puissiez l\'appeler.</string>
   <string name="VoipRateCallAlert">Évaluer la qualité de votre appel</string>
   <string name="VoipFeedbackAlert">Voudriez-vous laisser un commentaire afin de nous aider à améliorer le service d\'appel?</string>
   <string name="VoipNeedMicPermission">Telegram nécessite l\'accès à votre micro afin de passer des appels.</string>

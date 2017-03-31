@@ -757,7 +757,7 @@
   <string name="PhoneNumberChange">СМЕНИТЬ НОМЕР</string>
   <string name="ChangePhoneNewNumber">Новый номер</string>
   <string name="ChangePhoneHelp">Мы отправим SMS с кодом подтверждения на ваш новый номер.</string>
-  <string name="ChangePhoneNumberOccupied">Номер %1$s уже привязан к аккаунту Telegram. Удалите этот аккаунт, прежде чем перейти на новый номер.</string>
+  <string name="ChangePhoneNumberOccupied">Номер %1$s уже привязан к аккаунту Telegram. Удалите тот аккаунт, прежде чем перейти на новый номер.</string>
   <string name="NotificationsOther">Другое</string>
   <string name="NotificationsDisabled">Отключены</string>
   <string name="VibrationDisabled">Отключена</string>
