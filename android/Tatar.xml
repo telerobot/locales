@@ -1278,8 +1278,8 @@
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <string name="CallEncryptionKeyDescription">Бу сурәт һәм текст <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысы белән булган сөйләшүнең шифрлау ачкычын күрсәтә. Әгәр бу сурәт һәм текст <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> кулланучысының җайланмасындагы сүрәткә һәм текстка туры килсә, сезнең аралашу якланган була. <![CDATA[<br><br>]]></string>
   <string name="NoCallLog">Сез беркемгә дә шалтыратмадыгыз әле.</string>
-  <string name="VoipPeerIncompatible"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысының кушымтасы искергән һәм шалтыратулар кабул итә алмый. Бу кулланучы кушымтаны яңарткач кына сез аңа шатрырата алачаксыз. </string>
-  <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысының кушымтасы шалтыратулар кабул итә алмый. Бу кулланучы кушымтаны яңарткач кына сез аңа шатрырата алачаксыз.</string>
+  <string name="VoipPeerIncompatible"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысының кушымтасы искергән һәм шалтыратулар кабул итә алмый. Бу кулланучы кушымтаны яңарткач кына сез аңа шалтырата алачаксыз. </string>
+  <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысының кушымтасы шалтыратулар кабул итә алмый. Бу кулланучы кушымтаны яңарткач кына сез аңа шалтырата алачаксыз.</string>
   <string name="VoipRateCallAlert">Зинһар, Telegram аша сөйләшүнең сыйфатын бәяләгез</string>
   <string name="VoipFeedbackAlert">Шалтыратуларны яхшыртыр өчен бәяләмә калдырырга телисезме?</string>
   <string name="VoipNeedMicPermission">Шалтырату өчен Telegramга микрофоныгызны куллану рөхсәте кирәк.</string>
