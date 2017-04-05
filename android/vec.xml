@@ -421,8 +421,8 @@
   <string name="ChatYourSelfDescription4">Par catar fora robe in presa dòpara ła reserca</string>
   <string name="ChatYourSelfTitle">Ła to memoria nùvoła</string>
   <string name="JumpToDate">Và so \'sta Data</string>
-  <string name="DeleteForUser">Ełìmena par %1$s</string>
-  <string name="DeleteForAll">Ełìmena par tuti i menbri</string>
+  <string name="DeleteForUser">Ełìmena anca par %1$s</string>
+  <string name="DeleteForAll">Ełìmena anca par tuti i menbri</string>
   <string name="TextCopied">Testo copià inte łe note</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s L ga inpostà el timer de autodestrusion a %2$s</string>

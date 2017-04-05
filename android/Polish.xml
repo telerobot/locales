@@ -108,7 +108,7 @@
   <string name="ClearHistoryCache">Usuń z pamięci podręcznej</string>
   <string name="DeleteChat">Usuń i wyjdź</string>
   <string name="DeleteChatUser">Usuń czat</string>
-  <string name="HiddenName">Usuń konto</string>
+  <string name="HiddenName">Konto usunięte</string>
   <string name="SelectChat">Wybierz czat</string>
   <string name="PhotoTip">Dotknij i przytrzymaj, aby wyświetlić</string>
   <string name="CompatibilityChat">%1$s używa starszej wersji komunikatora, tajne zdjęcia będą przekazywane w trybie zgodności. .\n\nGdy %2$s uaktualni Telegram, zdjęcia z czasem 1 minuty lub mniej będą działać w trybie \"Naciśnij i przytrzymaj, aby zobaczyć\" i będziesz powiadomiony jeśli ktoś zrobi zrzut ekranu.</string>
