@@ -25,7 +25,7 @@
   <string name="CancelAccountReset">Anuła ła reinpostasion de l\'account</string>
   <string name="CancelAccountResetInfo">Calchedun che\'l ga aceso a\'l to nùmaro de tełèfono <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> el ga dimandà de ełimenar el to account Telegram e de reinpostar ła to password de verìfega in 2 pasaji.\\n\\nSe A no te jeri ti, insarisi el còdaze che A te ghemo pena mandà par SMS a\'l to nùmaro de tełèfono.</string>
   <string name="ResetAccount">Reinposta account</string>
-  <string name="ResetAccountInfo">Daché el to account <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> el ze ativo e protezesto da na password, A ło ełimenaremo fra na setimana par razon de securesa.\\n\\nInte calsìase momento, A te połi anułar \'sto proseso.</string>
+  <string name="ResetAccountInfo">Daché el to account <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> el ze ativo e protezesto da na password, A ło ełimenaremo fra na setimana par razon de seguresa.\\n\\nInte calsìase momento, A te połi anułar \'sto proseso.</string>
   <string name="ResetAccountStatus">A te podarè reinpostar el to account tenpo:</string>
   <string name="ResetAccountCancelledAlert">Łe to prove resenti de reinpostasion de \'sto account łe ze stà anułàe da el so utente ativo. Reprova danovo uncò oto.</string>
   <string name="ResetAccountButton">REINPOSTA</string>
@@ -204,7 +204,7 @@
   <string name="ChannelAlertTitle">Coza zeło un canałe?</string>
   <string name="ChannelAlertText">I canałi i ze un strumento novo par trazmétarghe i to mesaji a un pùblego grando.</string>
   <string name="ChannelAlertCreate">CREA CANAŁE</string>
-  <string name="LinkInUse">Ne despiaze, \'sto nome el ze za in dòparo.</string>
+  <string name="LinkInUse">Ne despiaze, \'sto nome el ze za stà doparà.</string>
   <string name="LinkInvalid">Ne despiaze, \'sto nome no\'l ze mìa vàłido.</string>
   <string name="LinkInvalidShort">I nomi de i canałi i ga da ver almanco 5 caràtari.</string>
   <string name="LinkInvalidLong">El nome no\'l ga mìa da ndar sora i 32 caràtari.</string>
@@ -466,7 +466,7 @@
   <string name="NotificationGroupKickYou">%1$s L te ga cavà via da\'l grupo %2$s</string>
   <string name="NotificationGroupLeftMember">%1$s L ze ndà fora da\'l grupo %2$s</string>
   <string name="NotificationContactJoined">%1$s L se ga zontà so Telegram!</string>
-  <string name="NotificationUnrecognizedDevice">%1$s,\\nA ghemo notà un aceso inte\'l to account da un dispozitivo novo so %2$s\\n\\nDispozitivo: %3$s\\nPozision: %4$s\\n\\nSe A no te jeri mìa ti, A te połi ndar so Inpostasion - Privacy e Securesa - Sesion e sarar sù cheła sesion.\\n\\nSe A te pensi che calchedun el sia ndà rento el to account contro ła to vołontà, A te połi ativar ła verìfega in 2 pasaji inte łe inpostasion Privacy e Securesa.\\n\\nCo Creansa,\\nEl grupo de Telegram</string>
+  <string name="NotificationUnrecognizedDevice">%1$s,\\nA ghemo notà un aceso inte\'l to account da un dispozitivo novo so %2$s\\n\\nDispozitivo: %3$s\\nPozision: %4$s\\n\\nSe A no te jeri mìa ti, A te połi ndar so Inpostasion - Privacy e Seguresa - Sesion e sarar sù cheła sesion.\\n\\nSe A te pensi che calchedun el sia ndà rento el to account contro ła to vołontà, A te połi ativar ła verìfega in 2 pasaji inte łe inpostasion Privacy e Seguresa.\\n\\nCo Creansa,\\nEl grupo de Telegram</string>
   <string name="NotificationContactNewPhoto">%1$s L ga ajornà ła foto profiło</string>
   <string name="NotificationInvitedToGroupByLink">%1$s L se ga zontà inte\'l grupo %2$s co un link de invito</string>
   <string name="Reply">Respondi</string>
@@ -999,7 +999,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="NetworkUsageSince">Dòparo rete da\'l %1$s</string>
   <string name="ResetStatisticsAlert">Vutu reinpostar łe statìsteghe de\'l to dòparo?</string>
   <!--privacy settings-->
-  <string name="PrivacySettings">Privacy e Securesa</string>
+  <string name="PrivacySettings">Privacy e Seguresa</string>
   <string name="PrivacyTitle">Privacy</string>
   <string name="PrivacyLastSeen">Ùltemo aceso</string>
   <string name="LastSeenEverybody">Tuti</string>
@@ -1009,8 +1009,8 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="LastSeenContactsPlus">I me contati (+%1$d)</string>
   <string name="LastSeenContactsMinus">I me contati (-%1$d)</string>
   <string name="LastSeenContactsMinusPlus">I me contati (-%1$d, +%2$d)</string>
-  <string name="LastSeenNobodyPlus">Njaun (+%1$d)</string>
-  <string name="SecurityTitle">Securesa</string>
+  <string name="LastSeenNobodyPlus">Nesun (+%1$d)</string>
+  <string name="SecurityTitle">Seguresa</string>
   <string name="DeleteAccountTitle">Autodestrusion de l\'account</string>
   <string name="DeleteAccountIfAwayFor">Se A te stè via par</string>
   <string name="DeleteAccountHelp">Se A no te te coneti almanco na \'olta inte \'sto parìodo, el to account el venjarà ełimenà co tuti i to grupi, mesaji e contati.</string>
