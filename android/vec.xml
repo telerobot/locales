@@ -30,7 +30,7 @@
   <string name="ResetAccountCancelledAlert">Łe to prove resenti de reinpostasion de \'sto account łe ze stà anułàe da el so utente ativo. Reprova danovo uncò oto.</string>
   <string name="ResetAccountButton">REINPOSTA</string>
   <string name="CancelLinkExpired">El link el ze scadùo o no\'l ze mìa vàłido.</string>
-  <string name="CancelLinkSuccess">El proceso de ełimenasion par l\'account %1$s el ze stà anułà. Deso A te połi sarar su \'sta fenestra.</string>
+  <string name="CancelLinkSuccess">El proceso de ełimenasion par l\'account %1$s el ze stà anułà. Deso A te połi sarar sù \'sta fenestra.</string>
   <!--signup view-->
   <string name="YourName">El to nome</string>
   <string name="RegisterText">Inposta el to nome e conjome</string>
@@ -752,8 +752,8 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="NotificationsPriorityMax">Màsema</string>
   <string name="RepeatNotificationsNever">Mai</string>
   <string name="RepeatNotifications">Repeti notìfeghe</string>
-  <string name="PhoneNumberHelp">Cuà A te połi canbiar el to nùmaro Telegram. El to account e tuti i to dati de ła nùvoła - mesaji, media, contati, evc. - i venjarà movesti so\'l nùmaro novo.\\n\\n<![CDATA[<b>Inportante:</b>]]> a tuti i to contati Telegram A ghe venjarà zontà el to <![CDATA[<b>nùmaro novo</b>]]> infra i só contati, senpre che i gapie el to nùmaro vecio e che ti A no te łi ghesi blocài.</string>
-  <string name="PhoneNumberAlert">A tuti i to contati Telegram A ghe venjarà zontà el to nùmaro novo infra i só contati, senpre che i gapie el to nùmaro vecio e che ti A no te łi ghesi blocài.</string>
+  <string name="PhoneNumberHelp">Cuà A te połi canbiar el to nùmaro Telegram. El to account e tuti i to dati de ła nùvoła - mesaji, media, contati, evc. - i venjarà movesti so\'l nùmaro novo.\\n\\n<![CDATA[<b>Inportante:</b>]]> a tuti i to contati Telegram A ghe venjarà zontà el to <![CDATA[<b>nùmaro novo</b>]]> infra i so contati, senpre che i gapie el to nùmaro vecio e che ti A no te łi ghesi blocài.</string>
+  <string name="PhoneNumberAlert">A tuti i to contati Telegram A ghe venjarà zontà el to nùmaro novo infra i so contati, senpre che i gapie el to nùmaro vecio e che ti A no te łi ghesi blocài.</string>
   <string name="PhoneNumberChange">CANBIA NÙMARO</string>
   <string name="ChangePhoneNewNumber">Nùmaro novo</string>
   <string name="ChangePhoneHelp">A te mandaremo un SMS co\'l còdaze de confermasion a\'l to nùmaro novo.</string>
@@ -787,7 +787,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="DebugMenuImportContacts">Inporta contati</string>
   <string name="DebugMenuReloadContacts">Recarga contati</string>
   <!--cache view-->
-  <string name="LocalDatabase">Database Łocałe</string>
+  <string name="LocalDatabase">Database łocałe</string>
   <string name="LocalDatabaseClear">Vutu netar i mesaji inte ła cache?</string>
   <string name="LocalDatabaseInfo">Netando el database łocałe A te ełimenarè i mesaji inte ła cache e A te conpresarè i dati par salvar spasio inte\'l disco. A Telegram A ghe serve senpre un fià de dati par funsionar, donca ła dimension de\'l database no ła ndarà mìa mai a zero.\\n\\n\'Sta oparasion ła połe portarte via calche menuto.</string>
   <string name="ClearMediaCache">Neta cache</string>
@@ -817,15 +817,15 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <!--passcode view-->
   <string name="Passcode">Còdaze de bloco</string>
   <string name="ChangePasscode">Canbia còdaze</string>
-  <string name="ChangePasscodeInfo">Co A te inposti un còdeze in pì, saltarà fora un łocheto inte ła pàjina de łe chat. Tócheło par blocar e dezblocar ła to app Telegram.\\n\\nStà tento: se A te te dezménteghi el còdaze, A te gavarè da ełimenar e reinstałar l\'app e tute łe chat segrete łe ndarà perdeste.</string>
+  <string name="ChangePasscodeInfo">Co A te inposti un còdaze in pì, saltarà fora un łocheto inte ła pàjina de łe chat. Tócheło par blocar e dezblocar ła to app Telegram.\\n\\nStà tento: se A te te dezménteghi el còdaze, A te gavarè da ełimenar e reinstałar l\'app e tute łe chat segrete łe ndarà perdeste.</string>
   <string name="ChangePasscodeAlert">Da deso A te vedarè un łocheto inte ła pàjina de łe chat. Tócheło par blocar l\'app Telegram co\'l to còdaze novo.</string>
   <string name="PasscodePIN">Nùmaro identifegadivo</string>
   <string name="PasscodePassword">Password</string>
   <string name="EnterCurrentPasscode">Insarisi el to còdaze in dòparo</string>
   <string name="EnterNewFirstPasscode">Insarisi un còdaze</string>
-  <string name="EnterNewPasscode">Insarisi un còdaze novo</string>
+  <string name="EnterNewPasscode">Insarisi el to còdaze novo</string>
   <string name="EnterYourPasscode">Insarisi un còdaze</string>
-  <string name="ReEnterYourPasscode">Reinsarisi el còdaze novo</string>
+  <string name="ReEnterYourPasscode">Reinsarisi el to còdaze novo</string>
   <string name="InvalidPasscode">Còdaze mìa vàłido</string>
   <string name="PasscodeDoNotMatch">I còdezi no i se cata mìa</string>
   <string name="AutoLock">Bloco automàtego</string>
@@ -842,7 +842,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="DocumentsTitle">File sparpanjài</string>
   <string name="SharedMediaTitle">Media sparpanjài</string>
   <string name="LinksTitle">Link sparpanjài</string>
-  <string name="AudioTitle">Mùzega sparpanjàda</string>
+  <string name="AudioTitle">Mùzega sparpanjada</string>
   <string name="NoMedia">Sparpanja foto e video inte \'sta chat e acédaghe da calsìase to dispozitivo.</string>
   <string name="NoSharedAudio">Sparpanja mùzega inte \'sta chat e acédaghe da calsìase to dispozitivo.</string>
   <string name="NoSharedFiles">Sparpanja file e documenti inte \'sta chat e acédaghe da calsìase to dispozitivo.</string>
@@ -925,7 +925,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="PaintOutlined">Contornà</string>
   <string name="PaintRegular">Normałe</string>
   <string name="CropReset">Reinposta</string>
-  <string name="CropOriginal">Orizenałe</string>
+  <string name="CropOriginal">Orijinałe</string>
   <string name="CropSquare">Cuadrà</string>
   <!--password view-->
   <string name="TwoStepVerification">Verìfega in 2 pasaji</string>
@@ -1066,7 +1066,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="Open">Verzi</string>
   <string name="Save">Salva</string>
   <string name="Cancel">Anuła</string>
-  <string name="Close">Sara su</string>
+  <string name="Close">Sara sù</string>
   <string name="Add">Zonta</string>
   <string name="Edit">Modìfega</string>
   <string name="Send">Manda</string>
@@ -1152,7 +1152,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="AreYouSureDeleteAndExit">Vutu davero ndar fora e ełimenar el grupo?</string>
   <string name="AreYouSureDeleteThisChat">Vutu davero ełimenar \'sta chat?</string>
   <string name="ShareYouLocationTitle">Vutu sparpanjar ła to pozision?</string>
-  <string name="ShareYouLocationInfo">A te mandarè ła to pozision atuałe a\'l bot.</string>
+  <string name="ShareYouLocationInfo">A te ghe mandarè ła to pozision a\'l bot.</string>
   <string name="ShareYouLocationUnable">L\'app no ła ze mìa stà bona de detarminar ła to pozision</string>
   <string name="ShareYouLocationUnableManually">Sernisi manualmente</string>
   <string name="ShareYouLocationInline">\'Sto bot el vurìa saver ła to pozision tute łe \'olte che A te ghe dimandi calcoza. \'Sta informasion ła połe èsar doparada par ver rezultài geospesìfeghi.</string>
@@ -1267,7 +1267,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="DefaultRingtone">Predefenìo</string>
   <string name="ConfirmDeleteCallLog">Vutu davero ełimenar \'sta voze da\'l rejistro ciamade?</string>
   <string name="CallViaTelegram">Ciamada Telegram</string>
-  <string name="VoipAudioRoutingEarpiece">Peocieto auricołar</string>
+  <string name="VoipAudioRoutingEarpiece">Peocieto auregołar</string>
   <string name="VoipAudioRoutingSpeaker">Vivavoze</string>
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
   <string name="ReturnToCall">TORNA A ŁA CIAMADA</string>
