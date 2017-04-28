@@ -457,8 +457,6 @@
   <string name="NotificationMessageGroupSticker">%1$s wysłał naklejkę w grupie %2$s</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s wysłał %3$s naklejkę w grupie %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s zaprosił cię do grupy %2$s</string>
-  <string name="NotificationEditedGroupName">%1$s zmienił nazwę grupy na %2$s</string>
-  <string name="NotificationEditedGroupPhoto">%1$s zmienił zdjęcie grupy %2$s</string>
   <string name="NotificationGroupAddMember">%1$s zaprosił %3$s do grupy %2$s</string>
   <string name="NotificationGroupAddSelf">%1$s wrócił do grupy %2$s</string>
   <string name="NotificationGroupAddSelfMega">%1$s dołączył do grupy %2$s</string>
@@ -795,7 +793,6 @@ Wersja polska: Daniel Grochala i Mariusz Grochala</string>
   <string name="CalculatingSize">Obliczanie...</string>
   <string name="LocalDocumentCache">Dokumenty</string>
   <string name="LocalPhotoCache">Zdjęcia</string>
-  <string name="LocalAudioCache">Wiadomości głosowe</string>
   <string name="LocalVideoCache">Filmy</string>
   <string name="LocalMusicCache">Muzyka</string>
   <string name="LocalGifCache">GIFy</string>

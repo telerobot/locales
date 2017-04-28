@@ -402,8 +402,6 @@ sorunuz mu var?</string>
   <string name="NotificationMessageGroupSticker">%1$s, %2$s grubuna bir çıkartma gönderdi</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s, %2$s grubuna bir %3$s çıkartması gönderdi</string>
   <string name="NotificationInvitedToGroup">%1$s, sizi %2$s grubuna davet etti</string>
-  <string name="NotificationEditedGroupName">%1$s grubun adını %2$s olarak değiştirdi</string>
-  <string name="NotificationEditedGroupPhoto">%1$s grubun fotoğrafını %2$s olarak değiştirdi</string>
   <string name="NotificationGroupAddMember">%1$s, %3$s kişisini %2$s grubuna davet etti</string>
   <string name="NotificationGroupAddSelf">%1$s, %2$s grubuna geri döndü</string>
   <string name="NotificationGroupAddSelfMega">%1$s, %2$s grubuna katıldı</string>
@@ -727,7 +725,6 @@ sorunuz mu var?</string>
   <string name="CalculatingSize">Hesaplanıyor...</string>
   <string name="LocalDocumentCache">Dökümanlar</string>
   <string name="LocalPhotoCache">Photos</string>
-  <string name="LocalAudioCache">Sesli mesajlar</string>
   <string name="LocalVideoCache">Videolar</string>
   <string name="LocalMusicCache">Müzik</string>
   <string name="LocalGifCache">GIFler</string>

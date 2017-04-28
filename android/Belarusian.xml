@@ -458,8 +458,6 @@
   <string name="NotificationMessageGroupSticker">%1$s даслаў налепку ў суполку %2$s</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s sent a %3$s sticker to the group %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s запрасіў вас у суполку %2$s</string>
-  <string name="NotificationEditedGroupName">%1$s адрэдагаваў імя суполкі %2$s</string>
-  <string name="NotificationEditedGroupPhoto">%1$s адрэдагаваў фотаздымак суполкі %2$s</string>
   <string name="NotificationGroupAddMember">%1$s запрасіў %3$s у суполку %2$s</string>
   <string name="NotificationGroupAddSelf">%1$s вярнуўся ў суполку %2$s</string>
   <string name="NotificationGroupAddSelfMega">%1$s далучыўся(-лася) да суполкі %2$s</string>
@@ -798,7 +796,6 @@
   <string name="CalculatingSize">Падлік...</string>
   <string name="LocalDocumentCache">Файлы</string>
   <string name="LocalPhotoCache">Выявы</string>
-  <string name="LocalAudioCache">Аўдыязапісы</string>
   <string name="LocalVideoCache">Відэазапісы</string>
   <string name="LocalMusicCache">Музыка</string>
   <string name="LocalGifCache">Анімацыі</string>

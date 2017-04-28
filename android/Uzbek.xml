@@ -386,8 +386,6 @@
   <string name="NotificationMessageGroupSticker">%1$s %2$s guruhiga stiker yubordi</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s %2$s guruhiga %3$s stikerini yubordi</string>
   <string name="NotificationInvitedToGroup">%1$s sizni “%2$s” guruhiga taklif qildi</string>
-  <string name="NotificationEditedGroupName">%1$s “%2$s” guruhi nomini o‘zgartirdi</string>
-  <string name="NotificationEditedGroupPhoto">%1$s “%2$s” guruhi rasmini o‘zgartirdi</string>
   <string name="NotificationGroupAddMember">%1$s %3$sni “%2$s” guruhiga taklif qildi</string>
   <string name="NotificationGroupAddSelf">%1$s %2$s guruhiga qaytib keldi</string>
   <string name="NotificationGroupAddSelfMega">%1$s %2$s guruhiga qo\'shildi</string>
@@ -665,7 +663,6 @@
   <string name="CalculatingSize">Hisoblash...</string>
   <string name="LocalDocumentCache">Hujjatlar</string>
   <string name="LocalPhotoCache">Rasmlar</string>
-  <string name="LocalAudioCache">Ovozli xabarlar</string>
   <string name="LocalVideoCache">Videolar</string>
   <string name="LocalMusicCache">Musiqa</string>
   <string name="LocalCache">Boshqa fayllar</string>

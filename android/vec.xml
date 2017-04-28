@@ -457,8 +457,6 @@
   <string name="NotificationMessageGroupSticker">%1$s L ga mandà na figureta inte\'l grupo %2$s</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s L ga mandà na figureta %3$s inte\'l grupo %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s L te ga invità inte\'l grupo %2$s</string>
-  <string name="NotificationEditedGroupName">%1$s L ga modifegà el nome de\'l grupo %2$s</string>
-  <string name="NotificationEditedGroupPhoto">%1$s L ga modifegà ła foto de\'l grupo %2$s</string>
   <string name="NotificationGroupAddMember">%1$s L ga invità %3$s inte\'l grupo %2$s</string>
   <string name="NotificationGroupAddSelf">%1$s L ze tornà inte\'l grupo %2$s</string>
   <string name="NotificationGroupAddSelfMega">%1$s L se ga zontà inte\'l grupo %2$s</string>
@@ -795,7 +793,6 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="CalculatingSize">Calcołando...</string>
   <string name="LocalDocumentCache">Documenti</string>
   <string name="LocalPhotoCache">Foto</string>
-  <string name="LocalAudioCache">Mesaji vocałi</string>
   <string name="LocalVideoCache">Video</string>
   <string name="LocalMusicCache">Mùzega</string>
   <string name="LocalGifCache">GIF</string>

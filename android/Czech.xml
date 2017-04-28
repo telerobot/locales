@@ -337,8 +337,6 @@
   <string name="NotificationMessageGroupGif">\"%1$s\" poslal/a GIF skupině \"%2$s\"</string>
   <string name="NotificationMessageGroupSticker">%1$s poslal/a nálepku skupině %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s Vás zve do skupiny %2$s</string>
-  <string name="NotificationEditedGroupName">%1$s změnil/a název skupiny %2$s</string>
-  <string name="NotificationEditedGroupPhoto">%1$s změnil/a obrázek skupiny %2$s</string>
   <string name="NotificationGroupAddMember">%1$s pozval/a %3$s do skupiny %2$s</string>
   <string name="NotificationGroupAddSelf">%1$s sa vrátil/a do skupiny %2$s</string>
   <string name="NotificationGroupKickMember">%1$s odstranil/a %3$s ze skupiny %2$s</string>
@@ -552,7 +550,6 @@
   <string name="CalculatingSize">Kalkulace...</string>
   <string name="LocalDocumentCache">Dokumenty</string>
   <string name="LocalPhotoCache">Obrázky</string>
-  <string name="LocalAudioCache">Hlasové zprávy</string>
   <string name="LocalVideoCache">Videa</string>
   <string name="LocalMusicCache">Hudba</string>
   <string name="LocalCache">Jiné soubory</string>

@@ -462,8 +462,6 @@
   <string name="NotificationMessageGroupSticker">%1$s %2$s төркеменә стикер җибәрде</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s %2$s төркеменә %3$s стикерын җибәрде</string>
   <string name="NotificationInvitedToGroup">%1$s сезне %2$s төркеменә чакырды</string>
-  <string name="NotificationEditedGroupName">%1$s %2$s төркеменең исемен үзгәртте</string>
-  <string name="NotificationEditedGroupPhoto">%1$s %2$s төркеменең фотосын үзгәртте</string>
   <string name="NotificationGroupAddMember">%1$s %3$s кулланучысын %2$s төркеменә чакырды</string>
   <string name="NotificationGroupAddSelf">%1$s кулланучысы %2$s төркеменә кайтты</string>
   <string name="NotificationGroupAddSelfMega">%1$s %2$s төркеменә кушылды</string>
@@ -809,7 +807,6 @@
   <string name="CalculatingSize">Хисаплау</string>
   <string name="LocalDocumentCache">Документлар</string>
   <string name="LocalPhotoCache">Фотолар</string>
-  <string name="LocalAudioCache">Тавышлы хатлар</string>
   <string name="LocalVideoCache">Видео</string>
   <string name="LocalMusicCache">Музыка</string>
   <string name="LocalGifCache">GIFлар</string>

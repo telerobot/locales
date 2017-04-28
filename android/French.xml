@@ -86,6 +86,8 @@
   <string name="PaymentPrecheckoutFailed">Désolé, le paiement a été annulé par le bot.</string>
   <string name="PaymentFailed">Désolé, le paiement a été refusé.</string>
   <string name="PaymentConnectionFailed">Impossible de se connecter au serveur de paiement. Veuillez vérifier votre connexion internet et réessayer.</string>
+  <string name="PaymentWarning">Attention</string>
+  <string name="PaymentWarningText">Les paiements iront directement au développeur de %1$s. Telegram ne fournit aucune garantie, vous procédez donc à vos risques et périls. En cas de problème, veuillez contacter le développeur de %2$s ou votre banque.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Nouvelle conversation</string>
   <string name="Settings">Paramètres</string>
@@ -165,6 +167,7 @@
   <string name="ActionPinnedFile">un1 a épinglé un fichier</string>
   <string name="ActionPinnedSticker">un1 a épinglé un sticker</string>
   <string name="ActionPinnedVoice">un1 a épinglé un message vocal</string>
+  <string name="ActionPinnedRound">un1 a épinglé un message vidéo</string>
   <string name="ActionPinnedContact">un1 a épinglé un contact</string>
   <string name="ActionPinnedGame">un1 a épinglé \"%1$s\"</string>
   <string name="ActionPinnedGeo">un1 a épinglé un plan</string>
@@ -268,6 +271,7 @@
   <string name="ChannelMessageGroupDocument">%1$s a envoyé un fichier à la chaîne %2$s</string>
   <string name="ChannelMessageGroupGif">%1$s a envoyé un GIF à la chaîne %2$s</string>
   <string name="ChannelMessageGroupAudio">%1$s a envoyé un message vocal à la chaîne %2$s</string>
+  <string name="ChannelMessageGroupRound">%1$s a envoyé un message vidéo à la chaîne %2$s</string>
   <string name="ChannelMessageGroupMusic">%1$s a envoyé une piste à la chaîne %2$s</string>
   <string name="ChannelMessageGroupSticker">%1$s a envoyé un sticker à la chaîne %2$s</string>
   <string name="ChannelMessageGroupStickerEmoji">%1$s a envoyé un sticker %3$s à la chaîne %2$s</string>
@@ -278,7 +282,8 @@
   <string name="ChannelMessageMap">%1$s a envoyé une position</string>
   <string name="ChannelMessageDocument">%1$s a envoyé un fichier</string>
   <string name="ChannelMessageGIF">%1$s a envoyé un GIF</string>
-  <string name="ChannelMessageAudio">%1$s a envoyé un message vocal</string>
+  <string name="ChannelMessageAudio">%1$s a publié un message vocal</string>
+  <string name="ChannelMessageRound">%1$s a envoyé un message vidéo</string>
   <string name="ChannelMessageMusic">%1$s a envoyé une piste</string>
   <string name="ChannelMessageSticker">%1$s a envoyé un sticker</string>
   <string name="ChannelMessageStickerEmoji">%1$s a envoyé un sticker %2$s</string>
@@ -321,6 +326,7 @@
   <string name="IsTyping">écrit…</string>
   <string name="AreTyping">écrivent…</string>
   <string name="IsRecordingAudio">%1$s enregistre un message vocal...</string>
+  <string name="IsRecordingRound">%1$s enregistre un message vidéo...</string>
   <string name="IsSendingAudio">%1$s envoie de l\'audio...</string>
   <string name="IsSendingPhoto">%1$s envoie une photo...</string>
   <string name="InstantView">VUE INSTANTANÉE</string>
@@ -328,6 +334,7 @@
   <string name="IsSendingVideo">%1$s envoie une vidéo...</string>
   <string name="IsSendingFile">%1$s envoie un fichier...</string>
   <string name="RecordingAudio">enregistrement de message vocal...</string>
+  <string name="RecordingRound">enregistre un message vidéo...</string>
   <string name="SendingAudio">envoi l\'audio...</string>
   <string name="SendingPhoto">envoi de photo...</string>
   <string name="SendingGame">joue à un jeu...</string>
@@ -425,6 +432,11 @@
   <string name="DeleteForUser">Supprimer pour %1$s</string>
   <string name="DeleteForAll">Supprimer pour tous les membres</string>
   <string name="TextCopied">Texte copié dans le presse-papier</string>
+  <string name="HoldToAudio">Maintenir pour un enregistrement audio. Toucher pour basculer en vidéo.</string>
+  <string name="HoldToVideo">Maintenir pour un enregistrement vidéo. Toucher pour basculer en audio.</string>
+  <string name="DiscardVoiceMessageTitle">Annuler le message vocal</string>
+  <string name="DiscardVoiceMessageDescription">Êtes-vous sûr de vouloir arrêter cet enregistrement et annuler votre message vocal ?</string>
+  <string name="DiscardVoiceMessageAction">Annuler</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s a défini l\'auto-destruction des messages à %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Vous avez défini l\'auto-destruction des messages à %1$s</string>
@@ -440,7 +452,8 @@
   <string name="NotificationMessageGame">%1$s vous a invité à jouer à %2$s</string>
   <string name="NotificationMessageDocument">%1$s vous a envoyé un fichier</string>
   <string name="NotificationMessageGif">%1$s vous a envoyé un GIF</string>
-  <string name="NotificationMessageAudio">%1$s a envoyé une message vocal</string>
+  <string name="NotificationMessageAudio">%1$s vous a envoyé un message vocal</string>
+  <string name="NotificationMessageRound">%1$s vous a envoyé un message vidéo</string>
   <string name="NotificationMessageMusic">%1$s vous a envoyé une piste</string>
   <string name="NotificationMessageSticker">%1$s vous a envoyé un sticker</string>
   <string name="NotificationMessageStickerEmoji">%1$s vous a envoyé un sticker %2$s</string>
@@ -454,11 +467,12 @@
   <string name="NotificationMessageGroupDocument">%1$s a envoyé un fichier au groupe %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s a envoyé un GIF au groupe %2$s</string>
   <string name="NotificationMessageGroupAudio">%1$s a envoyé un message vocal au groupe %2$s</string>
+  <string name="NotificationMessageGroupRound">%1$s a envoyé un message vidéo au groupe %2$s</string>
   <string name="NotificationMessageGroupMusic">%1$s a envoyé une piste au groupe %2$s</string>
   <string name="NotificationMessageGroupSticker">%1$s a envoyé un sticker au groupe %2$s</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s a envoyé un sicker %3$s au groupe %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s vous a invité dans le groupe %2$s</string>
-  <string name="NotificationEditedGroupName">%1$s a modifié le groupe %2$s</string>
+  <string name="NotificationEditedGroupName">%1$s a renommé le groupe %2$s</string>
   <string name="NotificationEditedGroupPhoto">%1$s a modifié la photo du groupe %2$s</string>
   <string name="NotificationGroupAddMember">%1$s a invité %3$s dans le groupe %2$s</string>
   <string name="NotificationGroupAddSelf">%1$s est revenu dans le groupe %2$s</string>
@@ -483,6 +497,7 @@
   <string name="NotificationActionPinnedSticker">%1$s a épinglé un sticker dans le groupe %2$s</string>
   <string name="NotificationActionPinnedStickerEmoji">%1$s a épinglé un sticker %3$s dans le groupe %2$s</string>
   <string name="NotificationActionPinnedVoice">%1$s a épinglé un message vocal dans le groupe %2$s</string>
+  <string name="NotificationActionPinnedRound">%1$s a épinglé un message vidéo dans le groupe %2$s</string>
   <string name="NotificationActionPinnedContact">%1$s a épinglé un contact dans le groupe %2$s</string>
   <string name="NotificationActionPinnedGeo">%1$s a épinglé un plan dans le groupe %2$s</string>
   <string name="NotificationActionPinnedGif">%1$s a épinglé un GIF dans le groupe %2$s</string>
@@ -495,6 +510,7 @@
   <string name="NotificationActionPinnedStickerChannel">%1$s a épinglé un sticker</string>
   <string name="NotificationActionPinnedStickerEmojiChannel">%1$s a épinglé un sticker %2$s</string>
   <string name="NotificationActionPinnedVoiceChannel">%1$s a épinglé un message vocal</string>
+  <string name="NotificationActionPinnedRoundChannel">%1$s a épinglé un message vidéo</string>
   <string name="NotificationActionPinnedContactChannel">%1$s a épinglé un contact</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s a épinglé un plan</string>
   <string name="NotificationActionPinnedGifChannel">%1$s a épinglé un GIF</string>
@@ -795,7 +811,7 @@
   <string name="CalculatingSize">Calcul en cours...</string>
   <string name="LocalDocumentCache">Documents</string>
   <string name="LocalPhotoCache">Photos</string>
-  <string name="LocalAudioCache">Messages vocaux</string>
+  <string name="LocalAudioCache">Messages vocaux/vidéo</string>
   <string name="LocalVideoCache">Vidéos</string>
   <string name="LocalMusicCache">Musique</string>
   <string name="LocalGifCache">GIFs</string>
@@ -1119,6 +1135,7 @@
   <string name="AttachDocument">Fichier</string>
   <string name="AttachSticker">Stickers</string>
   <string name="AttachAudio">Message vocal</string>
+  <string name="AttachRound">Message vidéo</string>
   <string name="AttachGame">Jeu</string>
   <string name="FromYou">Vous</string>
   <string name="ActionTakeScreenshootYou">Capture d\'écran effectuée!</string>
@@ -1178,7 +1195,7 @@
   <string name="BotCantJoinGroups">Ce bot ne peut pas rejoindre des groupes.</string>
   <string name="SecretLinkPreviewAlert">Voulez-vous activer les aperçus étendus des liens dans les Conversations Secrètes ? Notez que les aperçus sont générés sur les serveurs de Telegram.</string>
   <string name="SecretChatContextBotAlert">Notez que les bots inséré sont fournis par des développeurs indépendants. Pour que le bot fonctionne, les caractères entrés après le nom du bot sont envoyés au développeur respectif.</string>
-  <string name="RaiseToSpeakAlert">Voulez vous activer \"Lever pour parler\" pour les messages vocaux?</string>
+  <string name="RaiseToSpeakAlert">Voulez-vous activer \"Lever pour parler\" pour les messages vocaux ?</string>
   <string name="EditMessageError">Désolé, vous ne pouvez pas modifier ce message.</string>
   <string name="AllowReadSms">Veuillez autoriser Telegram à recevoir des SMS pour que nous puissions automatiquement entrer votre code pour vous.</string>
   <string name="AllowReadCall">Veuillez autoriser Telegram à recevoir des appels pour que nous puissions automatiquement entrer votre code pour vous.</string>
@@ -1467,6 +1484,12 @@
   <string name="ForwardedAudio_few">%1$d messages vocaux transférés</string>
   <string name="ForwardedAudio_many">%1$d messages vocaux transférés</string>
   <string name="ForwardedAudio_other">%1$d messages vocaux transférés</string>
+  <string name="ForwardedRound_zero">%1$d messages vidéo transférés</string>
+  <string name="ForwardedRound_one">Message vidéo transféré</string>
+  <string name="ForwardedRound_two">%1$d messages vidéo transférés</string>
+  <string name="ForwardedRound_few">%1$d messages vidéo transférés</string>
+  <string name="ForwardedRound_many">%1$d messages vidéo transférés</string>
+  <string name="ForwardedRound_other">%1$d messages vidéo transférés</string>
   <string name="ForwardedLocation_zero">%1$d positions transférées</string>
   <string name="ForwardedLocation_one">Position transférée</string>
   <string name="ForwardedLocation_two">%1$d positions transférées</string>

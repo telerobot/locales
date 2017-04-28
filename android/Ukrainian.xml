@@ -370,8 +370,6 @@
   <string name="NotificationMessageGroupSticker">%1$s надіслав/ла наліпку групі %2$s</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s надіслав/ла %3$s наліпку групі %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s запросив/ла вас до групи %2$s</string>
-  <string name="NotificationEditedGroupName">%1$s змінив/ла ім\'я групи %2$s</string>
-  <string name="NotificationEditedGroupPhoto">%1$s змінив/ла фото групи %2$s</string>
   <string name="NotificationGroupAddMember">%1$s запросив/ла користувача %3$s до групи %2$s</string>
   <string name="NotificationGroupAddSelf">%1$s повернувся/лась до групи %2$s</string>
   <string name="NotificationGroupAddSelfMega">%1$s приєднався/лась до групи %2$s</string>
@@ -624,7 +622,6 @@
   <string name="CalculatingSize">Обчислення...</string>
   <string name="LocalDocumentCache">Документи</string>
   <string name="LocalPhotoCache">Фотографії</string>
-  <string name="LocalAudioCache">Голосові повідомлення</string>
   <string name="LocalVideoCache">Відео</string>
   <string name="LocalMusicCache">Музика</string>
   <string name="LocalCache">Інші файли</string>
