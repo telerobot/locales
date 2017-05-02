@@ -78,7 +78,7 @@
   <string name="PaymentCheckoutMethod">Tipo de pagamento</string>
   <string name="PaymentCheckoutName">Nome</string>
   <string name="PaymentCheckoutPhoneNumber">Nùmaro de tełèfono</string>
-  <string name="PaymentCheckoutEmail">Indariso de\'l contato</string>
+  <string name="PaymentCheckoutEmail">Indariso de\\'l contato</string>
   <string name="PaymentCheckoutShippingMethod">Tipo de spedision</string>
   <string name="PaymentReceipt">Resevuda</string>
   <string name="PaymentConfirmationNewCard">Sernisi na carta difarente</string>
@@ -86,6 +86,8 @@
   <string name="PaymentPrecheckoutFailed">Ne despiaze, el pagamento el ze stà anułà da\'l bot.</string>
   <string name="PaymentFailed">Ne despiaze, el pagamento el ze stà refudà.</string>
   <string name="PaymentConnectionFailed">A no semo mìa boni de contatar el server par el pagamento. Controła ła to conesion internet e prova danovo.</string>
+  <string name="PaymentWarning">Avertensa</string>
+  <string name="PaymentWarningText">I pagamenti i ghe ndarà diretamente a\\'l zviłupador de %1$s. Telegram no ła fornise njauna garansia, donca i trasferiminti i sarà a to riscio e perìgoło. In cazo de problemi, contata el zviłupador de %2$s o ła to banca.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Convarsasion nova</string>
   <string name="Settings">Inpostasion</string>
@@ -165,6 +167,7 @@
   <string name="ActionPinnedFile">un1 L ga picà insima un file</string>
   <string name="ActionPinnedSticker">un1 L ga picà insima na figureta</string>
   <string name="ActionPinnedVoice">un1 L ga picà insima un mesajo vocałe</string>
+  <string name="ActionPinnedRound">un1 L ga picà insima un mesajo video</string>
   <string name="ActionPinnedContact">un1 L ga picà insima un contato</string>
   <string name="ActionPinnedGame">un1 L ga picà insima %1$s</string>
   <string name="ActionPinnedGeo">un1 L ga picà insima na pozision</string>
@@ -268,6 +271,7 @@
   <string name="ChannelMessageGroupDocument">%1$s L ga mandà un file so\'l canałe %2$s</string>
   <string name="ChannelMessageGroupGif">%1$s L ga mandà na GIF so\'l canałe %2$s</string>
   <string name="ChannelMessageGroupAudio">%1$s L ga mandà un mesajo vocałe so\'l canałe %2$s</string>
+  <string name="ChannelMessageGroupRound">%1$s L ga mandà un mesajo video so\\'l canałe %2$s</string>
   <string name="ChannelMessageGroupMusic">%1$s L ga mandà un àudio so\'l canałe %2$s</string>
   <string name="ChannelMessageGroupSticker">%1$s L ga mandà na figureta so\'l canałe %2$s</string>
   <string name="ChannelMessageGroupStickerEmoji">%1$s L ga mandà na figureta %3$s so\'l canałe %2$s</string>
@@ -279,6 +283,7 @@
   <string name="ChannelMessageDocument">%1$s L ga publegà un file</string>
   <string name="ChannelMessageGIF">%1$s L ga publegà na GIF</string>
   <string name="ChannelMessageAudio">%1$s L ga publegà un mesajo vocałe</string>
+  <string name="ChannelMessageRound">%1$s L ga publegà un mesajo video</string>
   <string name="ChannelMessageMusic">%1$s L ga publegà un àudio</string>
   <string name="ChannelMessageSticker">%1$s L ga publegà na figureta</string>
   <string name="ChannelMessageStickerEmoji">%1$s L ga publegà na figureta %2$s</string>
@@ -321,6 +326,7 @@
   <string name="IsTyping">L ze drio scrìvar...</string>
   <string name="AreTyping">L ze drio scrìvar...</string>
   <string name="IsRecordingAudio">%1$s L ze drio rejistrar un mesajo vocałe...</string>
+  <string name="IsRecordingRound">%1$s L ze drio rejistrar un mesajo video...</string>
   <string name="IsSendingAudio">%1$s L ze drio mandar un àudio...</string>
   <string name="IsSendingPhoto">%1$s L ze drio mandar na foto...</string>
   <string name="InstantView">VIZION IMEDIÀ</string>
@@ -328,6 +334,7 @@
   <string name="IsSendingVideo">%1$s L ze drio mandar un video...</string>
   <string name="IsSendingFile">%1$s L ze drio mandar un file...</string>
   <string name="RecordingAudio">L ze drio rejistrar un mesajo vocałe...</string>
+  <string name="RecordingRound">L ze drio rejistrar un mesajo video...</string>
   <string name="SendingAudio">L ze drio mandar un àudio...</string>
   <string name="SendingPhoto">L ze drio mandar na foto...</string>
   <string name="SendingGame">zogando a un zogo...</string>
@@ -424,6 +431,11 @@
   <string name="DeleteForUser">Ełìmena anca par %1$s</string>
   <string name="DeleteForAll">Ełìmena anca par tuti i menbri</string>
   <string name="TextCopied">Testo copià inte łe note</string>
+  <string name="HoldToAudio">Tien strucà par rejistrar un àudio. Toca par poder rejistrar un video.</string>
+  <string name="HoldToVideo">Tien strucà par rejistrar un video. Toca par poder rejistrar un àudio.</string>
+  <string name="DiscardVoiceMessageTitle">Scarta mesajo vocałe</string>
+  <string name="DiscardVoiceMessageDescription">Vutu davero blocar ła rejistrasion e scartar el to mesajo vocałe?</string>
+  <string name="DiscardVoiceMessageAction">Scarta</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s L ga inpostà el timer de autodestrusion a %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">A te ghe inpostà el timer de autodestrusion a %1$s</string>
@@ -440,6 +452,7 @@
   <string name="NotificationMessageDocument">%1$s L te ga mandà un file</string>
   <string name="NotificationMessageGif">%1$s L te ga mandà na GIF</string>
   <string name="NotificationMessageAudio">%1$s L te ga mandà un mesajo vocałe</string>
+  <string name="NotificationMessageRound">%1$s L te ga mandà un mesajo video</string>
   <string name="NotificationMessageMusic">%1$s L te ga mandà un àudio</string>
   <string name="NotificationMessageSticker">%1$s L te ga mandà na figureta</string>
   <string name="NotificationMessageStickerEmoji">%1$s L te ga mandà na figureta %2$s</string>
@@ -453,10 +466,13 @@
   <string name="NotificationMessageGroupDocument">%1$s L ga mandà un file inte\'l grupo %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s L ga mandà na GIF inte\'l grupo %2$s</string>
   <string name="NotificationMessageGroupAudio">%1$s L ga mandà un mesajo vocałe inte\'l grupo %2$s</string>
+  <string name="NotificationMessageGroupRound">%1$s L ga mandà un mesajo video inte\\'l grupo %2$s</string>
   <string name="NotificationMessageGroupMusic">%1$s L ga mandà un àudio inte\'l grupo %2$s</string>
   <string name="NotificationMessageGroupSticker">%1$s L ga mandà na figureta inte\'l grupo %2$s</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s L ga mandà na figureta %3$s inte\'l grupo %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s L te ga invità inte\'l grupo %2$s</string>
+  <string name="NotificationEditedGroupName">%1$s L ga renomenà el grupo %2$s</string>
+  <string name="NotificationEditedGroupPhoto">%1$s L ga canbià ła foto de\\'l grupo par %2$s</string>
   <string name="NotificationGroupAddMember">%1$s L ga invità %3$s inte\'l grupo %2$s</string>
   <string name="NotificationGroupAddSelf">%1$s L ze tornà inte\'l grupo %2$s</string>
   <string name="NotificationGroupAddSelfMega">%1$s L se ga zontà inte\'l grupo %2$s</string>
@@ -480,6 +496,7 @@
   <string name="NotificationActionPinnedSticker">%1$s L ga picà insima na figureta inte\'l grupo %2$s</string>
   <string name="NotificationActionPinnedStickerEmoji">%1$s L ga picà insima na figureta %3$s inte\'l grupo %2$s</string>
   <string name="NotificationActionPinnedVoice">%1$s L ga picà insima un mesajo vocałe inte\'l grupo %2$s</string>
+  <string name="NotificationActionPinnedRound">%1$s L ga picà insima un mesajo video inte\\'l grupo %2$s</string>
   <string name="NotificationActionPinnedContact">%1$s L ga picà insima un contato inte\'l grupo %2$s</string>
   <string name="NotificationActionPinnedGeo">%1$s L ga picà insima na pozision inte\'l grupo %2$s</string>
   <string name="NotificationActionPinnedGif">%1$s L ga picà insima na GIF inte\'l grupo %2$s</string>
@@ -492,6 +509,7 @@
   <string name="NotificationActionPinnedStickerChannel">%1$s L ga picà insima na figureta</string>
   <string name="NotificationActionPinnedStickerEmojiChannel">%1$s L ga picà insima na figureta %2$s</string>
   <string name="NotificationActionPinnedVoiceChannel">%1$s L ga picà insima un mesajo vocałe</string>
+  <string name="NotificationActionPinnedRoundChannel">%1$s L ga picà insima un mesajo video</string>
   <string name="NotificationActionPinnedContactChannel">%1$s L ga picà insima un contato</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s L ga picà insima na pozision</string>
   <string name="NotificationActionPinnedGifChannel">%1$s L ga picà insima na GIF</string>
@@ -793,6 +811,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="CalculatingSize">Calcołando...</string>
   <string name="LocalDocumentCache">Documenti</string>
   <string name="LocalPhotoCache">Foto</string>
+  <string name="LocalAudioCache">Mesaji vocałi/video</string>
   <string name="LocalVideoCache">Video</string>
   <string name="LocalMusicCache">Mùzega</string>
   <string name="LocalGifCache">GIF</string>
@@ -1116,6 +1135,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="AttachDocument">File</string>
   <string name="AttachSticker">Figureta</string>
   <string name="AttachAudio">Mesajo vocałe</string>
+  <string name="AttachRound">Mesajo video</string>
   <string name="AttachGame">Zogo</string>
   <string name="FromYou">Ti</string>
   <string name="ActionTakeScreenshootYou">A te ghè brincà un screenshot!</string>
@@ -1464,6 +1484,12 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="ForwardedAudio_few">%1$d mesaji vocałi voltài</string>
   <string name="ForwardedAudio_many">%1$d mesaji vocałi voltài</string>
   <string name="ForwardedAudio_other">%1$d mesaji vocałi voltài</string>
+  <string name="ForwardedRound_zero">%1$d mesaji video voltài</string>
+  <string name="ForwardedRound_one">Mesajo video voltà</string>
+  <string name="ForwardedRound_two">%1$d mesaji video voltài</string>
+  <string name="ForwardedRound_few">%1$d mesaji video voltài</string>
+  <string name="ForwardedRound_many">%1$d mesaji video voltài</string>
+  <string name="ForwardedRound_other">%1$d mesaji video voltài</string>
   <string name="ForwardedLocation_zero">%1$d pozision voltàe</string>
   <string name="ForwardedLocation_one">Pozision voltada</string>
   <string name="ForwardedLocation_two">%1$d pozision voltàe</string>
