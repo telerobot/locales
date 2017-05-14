@@ -25,6 +25,7 @@
   <string name="CancelAccountReset">Zrušit reset účtu</string>
   <string name="ResetAccount">Reset účtu</string>
   <string name="ResetAccountButton">RESET</string>
+  <string name="CancelLinkExpired">Odkaz je neplatný nebo vypršel.</string>
   <!--signup view-->
   <string name="YourName">Vaše jméno</string>
   <string name="RegisterText">Zadejte jméno a příjmení</string>
@@ -33,6 +34,11 @@
   <string name="LastName">Příjmení (nepovinné)</string>
   <string name="CancelRegistration">Zrušit registraci</string>
   <!--payments view-->
+  <string name="PaymentShippingZipPlaceholder">PSČ</string>
+  <string name="PaymentShippingName">Celé jméno</string>
+  <string name="PaymentShippingEmailPlaceholder">E-Mail</string>
+  <string name="PaymentTransactionTotal">Celkem</string>
+  <string name="PaymentCheckoutName">Jméno</string>
   <!--chats view-->
   <string name="Settings">Nastavení</string>
   <string name="Contacts">Kontakty</string>
@@ -452,6 +458,7 @@
   <string name="StickersRemove">Vymazat</string>
   <string name="NoStickers">Žádné nálepky</string>
   <!--theme view-->
+  <string name="Theme">Vzhled</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Obnovit všechny nastavení upozornění do výchozího stavu</string>
   <string name="TextSize">Velikost textu zpráv</string>
@@ -474,6 +481,7 @@
   <string name="ResetAllNotifications">Resetovat všechna upozornění</string>
   <string name="UndoAllCustom">Vymazat speciální nastavení upozornění pro všechny kontakty a skupiny</string>
   <string name="NotificationsAndSounds">Upozornění a zvuky</string>
+  <string name="NotificationsLedColor">Barva</string>
   <string name="BlockedUsers">Blokovaní uživatelé</string>
   <string name="LogOut">Odhlásit</string>
   <string name="NoSound">Vypnout zvuk</string>
@@ -707,6 +715,9 @@
   <string name="EnabledPasswordText">Máte nastavené ověřování ve dvou krocích.\nBudete potřebovat heslo, které jste si nastavili pro přihlášení do svého účtu v Telegramu.</string>
   <string name="PendingEmailText">Vaše e-mailová adresa %1$s zatím není aktivní a požaduje potvrzení.</string>
   <!--data settings-->
+  <string name="CallsDataUsage">Volání</string>
+  <string name="OutgoingCalls">Odchozí hovory</string>
+  <string name="IncomingCalls">Příchozí hovory</string>
   <!--privacy settings-->
   <string name="PrivacySettings">Soukromí a bezpečnost</string>
   <string name="PrivacyTitle">Bezpečnost</string>
@@ -875,6 +886,9 @@ Smazat a zastavit</string>
   <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> zprávy důkladně šifruje<![CDATA[<br/>]]>a umožňuje jejich sebedestrukci.</string>
   <string name="StartMessaging">Začít komunikovat</string>
   <!--VoIP-->
+  <string name="VoipUseLessData">Používejte méně dat pro hovory</string>
+  <string name="VoipNotificationSettings">Hlasové hovory</string>
+  <string name="Calls">Volání</string>
   <!--plural-->
   <string name="Online_zero">%1$d online</string>
   <string name="Online_one">%1$d online</string>
