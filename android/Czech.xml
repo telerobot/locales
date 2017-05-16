@@ -23,6 +23,7 @@
   <string name="WrongNumber">Nesprávně zadané číslo?</string>
   <string name="DidNotGetTheCode">Nedostali jste kód?</string>
   <string name="CancelAccountReset">Zrušit reset účtu</string>
+  <string name="CancelAccountResetInfo">Někdo s přístupem k vašemu telefonnímu číslu <![CDATA[<b>]]>%1$s<![CDATA[</ b>]]> požádal o smazání účtu Telegram a obnovení hesla ve 2 krocích.\n\nlf Pokud jste to neudělali, zadejte kód, který jsme vám právě poslali na vaše číslo.</string>
   <string name="ResetAccount">Reset účtu</string>
   <string name="ResetAccountButton">RESET</string>
   <string name="CancelLinkExpired">Odkaz je neplatný nebo vypršel.</string>
@@ -753,6 +754,7 @@
   <!--edit video view-->
   <string name="EditVideo">Upravit video</string>
   <string name="SendingVideo">Posílá video...</string>
+  <string name="SendingGif">Odeslání GIF...</string>
   <!--bot-->
   <string name="Bot">robot</string>
   <string name="BotShare">Sdílet</string>
@@ -790,6 +792,8 @@ Smazat a zastavit</string>
   <string name="Set">Nastavit</string>
   <string name="OK">OK</string>
   <string name="Crop">OŘEZAT</string>
+  <string name="Yes">Ano</string>
+  <string name="No">Ne</string>
   <!--messages-->
   <string name="ActionInviteYou">Připojil jste se ke skupině pomocí pozvánky</string>
   <string name="ActionInviteUser">un1 se připojil ke skupině pomocí pozvánky</string>
@@ -889,6 +893,10 @@ Smazat a zastavit</string>
   <string name="VoipUseLessData">Používejte méně dat pro hovory</string>
   <string name="VoipNotificationSettings">Hlasové hovory</string>
   <string name="Calls">Volání</string>
+  <string name="UseLessDataNever">Nikdy</string>
+  <string name="UseLessDataAlways">Vždy</string>
+  <string name="VoipAnswerCall">Odpovědět</string>
+  <string name="VoipOfflineOpenSettings">Nastavení</string>
   <!--plural-->
   <string name="Online_zero">%1$d online</string>
   <string name="Online_one">%1$d online</string>
