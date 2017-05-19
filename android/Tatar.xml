@@ -387,6 +387,7 @@
   <string name="OpenInExternalApp">Кулланып ачу...</string>
   <string name="CopyUrl">Сылтамадан күчермә ясау</string>
   <string name="SendItems">%1$s җибәрү </string>
+  <string name="SendAsFiles">Файллар кебек җибәрү</string>
   <string name="OpenUrlAlert">Сылтамыны %1$s ачаргамы?</string>
   <string name="BotPermissionGameAlert">Бу ботны кулланып ачкан веб-битләргә %1$s өчен исемегезне һәм ID-ны (телефон номеры түгел) җибәрүне рөхсәт итәргәме?</string>
   <string name="ReportSpam">СПАМ ТУРЫНДА БЕЛДЕРҮ</string>
@@ -402,6 +403,7 @@
   <string name="NobodyLikesSpamUrl">https://tlgrm.ru/faq/pochemu-ne-otpravit-soobshenie.html</string>
   <string name="MoreInfo">Тулырак</string>
   <string name="ShareSendTo">Җибәрү...</string>
+  <string name="ShareComment">Фикер язу...</string>
   <string name="TapHereGifs">Сакланган GIFларны карар өчен басыгыз</string>
   <string name="PinMessage">Беркетү</string>
   <string name="PinNotify">Бөтен катнашучыларны белгертү</string>
@@ -436,6 +438,13 @@
   <string name="DeleteForUser">Моннан %1$s бетерү</string>
   <string name="DeleteForAll">Барсыннан да бетерү</string>
   <string name="TextCopied">Тексттан алмашу буферына күчермә ясалды </string>
+  <string name="HoldToAudio">Аудио яздырыр өчен басып торыгыз. Видеога күчү өчен басыгыз.</string>
+  <string name="HoldToVideo">Видео яздырыр өчен басып торыгыз. Аудиога күчү өчен басыгыз.</string>
+  <string name="DiscardVoiceMessageTitle">Тавышлы хатны кире кагу</string>
+  <string name="DiscardVoiceMessageDescription">Яздыруны туктатырга һәм тавышлы хатыгызны бетерергә телисезме?</string>
+  <string name="DiscardVideoMessageTitle"> Видеохатны кире кагу</string>
+  <string name="DiscardVideoMessageDescription">Яздыруны туктатырга һәм видеохатыгызны бетерергә телисезме?</string>
+  <string name="DiscardVoiceMessageAction">Бетерү</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s үз-үзен бетерү вакытын куйды: %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Үз-үзен бетерү вакыты: %1$s</string>
@@ -466,6 +475,7 @@
   <string name="NotificationMessageGroupDocument">%1$s %2$s төркеменә файл җибәрде</string>
   <string name="NotificationMessageGroupGif">%1$s %2$s төркеменә GIF җибәрде</string>
   <string name="NotificationMessageGroupAudio">%1$s %2$s төркеменә тавышлы хат җибәрде</string>
+  <string name="NotificationMessageGroupRound">%1$s %2$s төркеменә видеохат җибәрде</string>
   <string name="NotificationMessageGroupMusic">%1$s %2$s төркеменә трек җибәрде</string>
   <string name="NotificationMessageGroupSticker">%1$s %2$s төркеменә стикер җибәрде</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s %2$s төркеменә %3$s стикерын җибәрде</string>
@@ -700,7 +710,10 @@
   <string name="ColorGreen">Яшел</string>
   <string name="ColorCyan">Зәңгәр</string>
   <string name="ColorWhite">Ак</string>
+  <string name="ColorSepia">Сепия</string>
+  <string name="ColorDark">Карачкыл</string>
   <string name="ColorPink">Алсу</string>
+  <string name="FontSize">Шрифт зурлыгы</string>
   <string name="ColorViolet">Шәмәхә</string>
   <string name="ColorOrange">Кызгылт сары</string>
   <string name="NotificationsLedInfo">Диодлы ут - ул кайбер җайланмаларда яңа хат килгәндә җемелдәүче ут.</string>

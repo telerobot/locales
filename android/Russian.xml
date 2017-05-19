@@ -77,6 +77,7 @@
   <string name="PaymentTestInvoice">ТЕСТОВЫЙ СЧЁТ</string>
   <string name="PaymentCheckoutPay">ЗАПЛАТИТЬ %1$s</string>
   <string name="PaymentCheckoutMethod">Способ оплаты</string>
+  <string name="PaymentCheckoutProvider">Платёжный сервис</string>
   <string name="PaymentCheckoutName">Имя</string>
   <string name="PaymentCheckoutPhoneNumber">Номер телефона</string>
   <string name="PaymentCheckoutEmail">Адрес</string>
@@ -399,6 +400,7 @@
   <string name="NobodyLikesSpamUrl">https://tlgrm.ru/faq/pochemu-ne-otpravit-soobshenie.html</string>
   <string name="MoreInfo">Подробнее</string>
   <string name="ShareSendTo">Выберите получателей...</string>
+  <string name="ShareComment">Комментировать...</string>
   <string name="TapHereGifs">Нажмите, чтобы посмотреть сохранённые GIF</string>
   <string name="PinMessage">Прикрепить</string>
   <string name="PinNotify">Уведомить всех участников</string>
@@ -470,10 +472,13 @@
   <string name="NotificationMessageGroupDocument">%1$s отправил(а) файл в группу %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s отправил(а) GIF в группу %2$s</string>
   <string name="NotificationMessageGroupAudio">%1$s отправил(а) аудиозапись в группу %2$s</string>
+  <string name="NotificationMessageGroupRound">%1$s прислал(а) видеосообщение в группу %2$s</string>
   <string name="NotificationMessageGroupMusic">%1$s отправил(а) аудиозапись в группу %2$s</string>
   <string name="NotificationMessageGroupSticker">%1$s отправил(а) стикер в группу %2$s</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s отправил(а) стикер %3$s в группу %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s пригласил(а) вас в группу %2$s</string>
+  <string name="NotificationEditedGroupName">%1$s переименовал(а) группу %2$s</string>
+  <string name="NotificationEditedGroupPhoto">%1$s сменил(а) фото у группы %2$s</string>
   <string name="NotificationGroupAddMember">%1$s пригласил(а) пользователя %3$s в группу %2$s</string>
   <string name="NotificationGroupAddSelf">%1$s вернулся(-лась) в группу %2$s</string>
   <string name="NotificationGroupAddSelfMega">%1$s присоединился к группе %2$s</string>
@@ -697,7 +702,10 @@
   <string name="ColorGreen">Зелёный</string>
   <string name="ColorCyan">Голубой</string>
   <string name="ColorWhite">Белый</string>
+  <string name="ColorSepia">Сепия</string>
+  <string name="ColorDark">Тёмный</string>
   <string name="ColorPink">Розовый</string>
+  <string name="FontSize">Размер шрифта</string>
   <string name="ColorViolet">Фиолетовый</string>
   <string name="ColorOrange">Оранжевый</string>
   <string name="NotificationsLedInfo">Индикатор – маленькая лампочка на некоторых устройствах. Она загорается при получении сообщения.</string>
@@ -811,6 +819,7 @@
   <string name="CalculatingSize">Вычисление...</string>
   <string name="LocalDocumentCache">Документы</string>
   <string name="LocalPhotoCache">Фото</string>
+  <string name="LocalAudioCache">Голосовые/Видео сообщения</string>
   <string name="LocalVideoCache">Видео</string>
   <string name="LocalMusicCache">Музыка</string>
   <string name="LocalGifCache">Анимации</string>
@@ -1017,6 +1026,11 @@
   <string name="PrivacySettings">Приватность и безопасность</string>
   <string name="PrivacyTitle">Приватность</string>
   <string name="PrivacyLastSeen">Последняя активность</string>
+  <string name="PrivacyPayments">Платежи</string>
+  <string name="PrivacyPaymentsClear">Очистить платёжную информацию и адреса</string>
+  <string name="PrivacyPaymentsClearInfo">Вы можете удалить свою платёжную информацию и адреса с устройства и у ботов. Обратите внимание, что Telegram не хранит эти данные.</string>
+  <string name="PrivacyClearShipping">Информация о доставке</string>
+  <string name="PrivacyClearPayment">Платёжная информация</string>
   <string name="LastSeenEverybody">Все</string>
   <string name="LastSeenContacts">Мои контакты</string>
   <string name="LastSeenNobody">Никто</string>
@@ -1487,6 +1501,12 @@
   <string name="ForwardedAudio_few">Аудиозаписей: %1$d</string>
   <string name="ForwardedAudio_many">Аудиозаписей: %1$d</string>
   <string name="ForwardedAudio_other">Аудиозаписей: %1$d</string>
+  <string name="ForwardedRound_zero">Видеосообщений: %1$d</string>
+  <string name="ForwardedRound_one">Видеосообщение</string>
+  <string name="ForwardedRound_two">Видеосообщений: %1$d</string>
+  <string name="ForwardedRound_few">Видеосообщений: %1$d</string>
+  <string name="ForwardedRound_many">Видеосообщений: %1$d</string>
+  <string name="ForwardedRound_other">Видеосообщений: %1$d</string>
   <string name="ForwardedLocation_zero">%1$d местоположений</string>
   <string name="ForwardedLocation_one">Местоположение</string>
   <string name="ForwardedLocation_two">%1$d местоположения</string>

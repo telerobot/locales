@@ -716,6 +716,11 @@
   <string name="EnabledPasswordText">Máte nastavené ověřování ve dvou krocích.\nBudete potřebovat heslo, které jste si nastavili pro přihlášení do svého účtu v Telegramu.</string>
   <string name="PendingEmailText">Vaše e-mailová adresa %1$s zatím není aktivní a požaduje potvrzení.</string>
   <!--data settings-->
+  <string name="DataSettings">Data a úložiště</string>
+  <string name="DataUsage">Disk a využití sítě</string>
+  <string name="StorageUsage">Využití uložiště</string>
+  <string name="MobileUsage">Používání mobilních dat</string>
+  <string name="RoamingUsage">Použití dat roamingu</string>
   <string name="CallsDataUsage">Volání</string>
   <string name="OutgoingCalls">Odchozí hovory</string>
   <string name="IncomingCalls">Příchozí hovory</string>

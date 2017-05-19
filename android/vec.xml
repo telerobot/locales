@@ -382,6 +382,7 @@
   <string name="OpenInExternalApp">Verzi so...</string>
   <string name="CopyUrl">Copia URL</string>
   <string name="SendItems">Manda %1$s</string>
+  <string name="SendAsFiles">Manda cofà file</string>
   <string name="OpenUrlAlert">Vèrzar url %1$s?</string>
   <string name="BotPermissionGameAlert">Vutu parmétarghe a %1$s de pasarghe el to nome e id Telegram (ma mìa el to nùmaro de tełèfono) a łe pàjine che A te verzi co \'sto bot?</string>
   <string name="ReportSpam">SENJAŁA SCOASE</string>
@@ -397,6 +398,7 @@
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq/it#non-posso-inviare-messaggi-a-chi-non-far-parte-dei-miei-contatti</string>
   <string name="MoreInfo">Informasion in pì</string>
   <string name="ShareSendTo">Manda a...</string>
+  <string name="ShareComment">Scrivi zó un comento...</string>
   <string name="TapHereGifs">Toca cuà par ver aceso a łe GIF salvàe</string>
   <string name="PinMessage">Pica insima</string>
   <string name="PinNotify">Notìfega a tutti i menbri</string>
@@ -435,6 +437,8 @@
   <string name="HoldToVideo">Tien strucà par rejistrar un video. Toca par poder rejistrar un àudio.</string>
   <string name="DiscardVoiceMessageTitle">Scarta mesajo vocałe</string>
   <string name="DiscardVoiceMessageDescription">Vutu davero blocar ła rejistrasion e scartar el to mesajo vocałe?</string>
+  <string name="DiscardVideoMessageTitle">Scarta mesajo video</string>
+  <string name="DiscardVideoMessageDescription">Vutu davero blocar ła rejistrasion e scartar el to mesajo video?</string>
   <string name="DiscardVoiceMessageAction">Scarta</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s L ga inpostà el timer de autodestrusion a %2$s</string>
@@ -698,6 +702,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="ColorCyan">Veneto</string>
   <string name="ColorWhite">Bianco</string>
   <string name="ColorPink">Roza</string>
+  <string name="FontSize">Grandesa de\'l caràtare</string>
   <string name="ColorViolet">Vioła</string>
   <string name="ColorOrange">Naranson</string>
   <string name="NotificationsLedInfo">El LED el ze na łuze ceła łanpejante che so calche dispozitivo ła ze doparada par indegar mesaji novi.</string>

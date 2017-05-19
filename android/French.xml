@@ -1027,6 +1027,7 @@
   <string name="PrivacyTitle">Vie privée</string>
   <string name="PrivacyLastSeen">Dernière visite</string>
   <string name="PrivacyPayments">Paiements</string>
+  <string name="PrivacyPaymentsClear">Effacer les infos de paiement et d\'expédition</string>
   <string name="PrivacyPaymentsClearInfo">Vous pouvez supprimer vos infos d\'expédition et demander à tous les fournisseurs de paiement de supprimer vos cartes de crédit enregistrées. Veuillez noter que Telegram ne stocke jamais vos données de carte de crédit.</string>
   <string name="PrivacyClearShipping">Infos d\'expédition</string>
   <string name="PrivacyClearPayment">Infos de paiement</string>
