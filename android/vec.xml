@@ -41,7 +41,7 @@
   <!--payments view-->
   <string name="PaymentSuccessfullyPaid">A te ghè pena trasfarìo %1$s a %2$s par %3$s co suceso</string>
   <string name="PaymentSuccessfullyPaidNoItem">A te ghè pena trasfarìo %1$s a %2$s co suceso</string>
-  <string name="PaymentCheckout">Cronpa</string>
+  <string name="PaymentCheckout">Pagamento</string>
   <string name="PaymentShippingMethod">Tipi de spedision</string>
   <string name="PaymentNoShippingMethod">Ne despiaze, A no ze mìa posìbiłe consenjar roba a\'l to ndariso.</string>
   <string name="PaymentShippingInfo">Informasion de spedision</string>
@@ -69,16 +69,17 @@
   <string name="PaymentCardSavePaymentInformation">Salva informasion de pagamento</string>
   <string name="PaymentCardSavePaymentInformationInfoLine1">A te połi salvar łe to informasion de pagamento par un dòparo fuduro.</string>
   <string name="PaymentCardSavePaymentInformationInfoLine2">*Inposta ła verìfega in 2 pasaji* par ativar \'sta funsion.</string>
-  <string name="PaymentTransactionReview">Revizion de ła tranzasion</string>
+  <string name="PaymentTransactionReview">Conferma ła tranzasion</string>
   <string name="PaymentTransactionMessage">Vutu davero trasfarir %1$s a\'l bot %2$s par %3$s?</string>
   <string name="PaymentTransactionTotal">Totałe</string>
   <string name="PaymentInvoice">FATURA</string>
   <string name="PaymentTestInvoice">FATURA DE PROA</string>
   <string name="PaymentCheckoutPay">PAGA %1$s</string>
   <string name="PaymentCheckoutMethod">Tipo de pagamento</string>
+  <string name="PaymentCheckoutProvider">Fornidor de\'l servisio de pagamento</string>
   <string name="PaymentCheckoutName">Nome</string>
   <string name="PaymentCheckoutPhoneNumber">Nùmaro de tełèfono</string>
-  <string name="PaymentCheckoutEmail">Indariso de\\'l contato</string>
+  <string name="PaymentCheckoutEmail">Ndariso de\\'l contato</string>
   <string name="PaymentCheckoutShippingMethod">Tipo de spedision</string>
   <string name="PaymentReceipt">Resevuda</string>
   <string name="PaymentConfirmationNewCard">Sernisi na carta difarente</string>
@@ -204,7 +205,7 @@
   <string name="ChannelJoin">ZÓNTATE</string>
   <string name="ChannelBroadcast">Trazmision</string>
   <string name="ChannelSilentBroadcast">Trazmision siłensioza</string>
-  <string name="ChannelAlertTitle">Coza zeło un canałe?</string>
+  <string name="ChannelAlertTitle">Cosa zeło un canałe?</string>
   <string name="ChannelAlertText">I canałi i ze un strumento novo par trazmétarghe i to mesaji a un pùblego grando.</string>
   <string name="ChannelAlertCreate">CREA CANAŁE</string>
   <string name="LinkInUse">Ne despiaze, \'sto nome el ze za stà doparà.</string>
@@ -701,6 +702,8 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="ColorGreen">Verde</string>
   <string name="ColorCyan">Veneto</string>
   <string name="ColorWhite">Bianco</string>
+  <string name="ColorSepia">Sepa</string>
+  <string name="ColorDark">Moro</string>
   <string name="ColorPink">Roza</string>
   <string name="FontSize">Grandesa de\'l caràtare</string>
   <string name="ColorViolet">Vioła</string>
@@ -1023,6 +1026,11 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="PrivacySettings">Privacy e Seguresa</string>
   <string name="PrivacyTitle">Privacy</string>
   <string name="PrivacyLastSeen">Ùltemo aceso</string>
+  <string name="PrivacyPayments">Pagaminti</string>
+  <string name="PrivacyPaymentsClear">Neta pagaminti &amp; informasion de spedision</string>
+  <string name="PrivacyPaymentsClearInfo">A te połi ełimenar łe to informasion de spedision e/o darghe istrusion a tuti i fornidori de servisi de pagamento de cavar via ła to carta de crèdito salvada. Tien conto che Telegram no\'l archiva miga mai i dati de ła to carta de crèdito.</string>
+  <string name="PrivacyClearShipping">Informasion de spedision</string>
+  <string name="PrivacyClearPayment">Informasion de pagamento</string>
   <string name="LastSeenEverybody">Tuti</string>
   <string name="LastSeenContacts">I me contati</string>
   <string name="LastSeenNobody">Nesun</string>
@@ -1075,7 +1083,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="BotHelp">Juto</string>
   <string name="BotStatusRead">el ga aceso a i mesaji</string>
   <string name="BotStatusCantRead">no\'l ga mìa aceso a i mesaji</string>
-  <string name="BotInfoTitle">Coza póseło far \'sto bot?</string>
+  <string name="BotInfoTitle">Cosa pòseło far \'sto bot?</string>
   <string name="BotStart">TACA</string>
   <string name="BotUnblock">RETACA</string>
   <string name="BotStop">Ferma bot</string>
@@ -1177,7 +1185,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="ShareYouLocationInfo">A te ghe mandarè ła to pozision a\'l bot.</string>
   <string name="ShareYouLocationUnable">L\'app no ła ze mìa stà bona de detarminar ła to pozision</string>
   <string name="ShareYouLocationUnableManually">Sernisi manualmente</string>
-  <string name="ShareYouLocationInline">\'Sto bot el vurìa saver ła to pozision tute łe \'olte che A te ghe dimandi calcoza. \'Sta informasion ła połe èsar doparada par ver rezultài geospesìfeghi.</string>
+  <string name="ShareYouLocationInline">\'Sto bot el vurìa saver ła to pozision tute łe \'olte che A te ghe dimandi calcosa. \'Sta informasion ła połe èsar doparada par ver rezultài geospesìfeghi.</string>
   <string name="ShareYouPhoneNumberTitle">Vutu sparpanjar el to nùmaro de tełèfono?</string>
   <string name="AreYouSureShareMyContactInfoBot">\'Sto bot el venjarà a saver el to nùmaro de tełèfono. \'Sta informasion ła połe tornar ùtiłe par l\'integrasion co altri servisi.</string>
   <string name="AreYouSureShareMyContactInfoUser">Vutu davero sparpanjar el to nùmaro de tełèfono %1$s co <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>?</string>
