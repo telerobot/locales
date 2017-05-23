@@ -23,6 +23,8 @@
   <string name="Code">Код</string>
   <string name="WrongNumber">Неправильний номер?</string>
   <string name="DidNotGetTheCode">Не отримали код?</string>
+  <string name="CancelAccountReset">Відмінити скидання облікового запису</string>
+  <string name="ResetAccount">Скинути обліковий запис</string>
   <string name="ResetAccountButton">СКИНУТИ</string>
   <!--signup view-->
   <string name="YourName">Ваше ім\'я</string>
@@ -32,6 +34,18 @@
   <string name="LastName">Прізвище (необов\'язково)</string>
   <string name="CancelRegistration">Скасувати реєстрацію</string>
   <!--payments view-->
+  <string name="PaymentShippingCityPlaceholder">Місто</string>
+  <string name="PaymentShippingCountry">Країна</string>
+  <string name="PaymentShippingZipPlaceholder">Поштовий індекс</string>
+  <string name="PaymentShippingReceiver">Отримувач</string>
+  <string name="PaymentShippingName">Повне ім\'я</string>
+  <string name="PaymentShippingPhoneNumber">Номер телефону</string>
+  <string name="PaymentShippingEmailPlaceholder">E-Mail</string>
+  <string name="PaymentCardNumber">Номер картки</string>
+  <string name="PaymentCardCvv">Код безпеки (CVV)</string>
+  <string name="PaymentCardNameTitle">Власник картки</string>
+  <string name="PaymentCardName">Ім\'я та прізвище</string>
+  <string name="PaymentWarning">Увага</string>
   <!--chats view-->
   <string name="Settings">Налаштування</string>
   <string name="Contacts">Контакти</string>
@@ -71,6 +85,11 @@
   <string name="ChatHints">ЧАТИ</string>
   <string name="ChatHintsDelete">Видалити %1$s з пропозицій?</string>
   <string name="LinkPreview">Попередній перегляд посилання</string>
+  <string name="PinToTop">Закріпити</string>
+  <string name="UnpinFromTop">Відкріпити</string>
+  <string name="Bold">Жирний</string>
+  <string name="Italic">Курсив</string>
+  <string name="Regular">Звичайний</string>
   <!--channels-->
   <string name="GroupType">Тип групи</string>
   <string name="ChannelType">Тип каналу</string>
@@ -314,6 +333,7 @@
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Докладніше</string>
   <string name="ShareSendTo">Надіслати до...</string>
+  <string name="ShareComment">Коментувати...</string>
   <string name="TapHereGifs">Торкніться тут для доступу до збережених GIF</string>
   <string name="PinMessage">Прикріпити</string>
   <string name="PinNotify">Сповістити всіх учасників</string>
@@ -532,6 +552,20 @@
   <string name="ResetAllNotifications">Скинути всі сповіщення</string>
   <string name="UndoAllCustom">Скасувати всі власні налаштування сповіщень для всіх контактів і груп</string>
   <string name="NotificationsAndSounds">Сповіщення та звук</string>
+  <string name="ColorBlue">Синій</string>
+  <string name="ColorRed">Червоний</string>
+  <string name="ColorYellow">Жовтий</string>
+  <string name="ColorGreen">Зелений</string>
+  <string name="ColorCyan">Блакитний</string>
+  <string name="ColorWhite">Білий</string>
+  <string name="ColorSepia">Сепія</string>
+  <string name="ColorDark">Темний</string>
+  <string name="ColorPink">Розовий</string>
+  <string name="FontSize">Розмір шрифту</string>
+  <string name="ColorViolet">Фіолетовий</string>
+  <string name="ColorOrange">Оранжевий</string>
+  <string name="NotificationsLedInfo">Індикатор - маленька лампочка на деяких пристроях. Вона загоряється при отримуванні повідомлення.</string>
+  <string name="NotificationsOn">Вкл.</string>
   <string name="BlockedUsers">Заблоковані користувачі</string>
   <string name="LogOut">Вийти</string>
   <string name="NoSound">Без звуку</string>
@@ -613,6 +647,7 @@
   <string name="ChromeCustomTabsInfo">Відкривати зовнішні посилання всередині програми</string>
   <string name="DirectShare">Пряме поширення</string>
   <string name="DirectShareInfo">Показувати останні чати в меню поширення</string>
+  <string name="TelegramVersion">Telegram для Android %1$s</string>
   <!--cache view-->
   <string name="LocalDatabase">Локальна база даних</string>
   <string name="LocalDatabaseClear">Стерти кешовані текстові повідомлення?</string>
@@ -624,6 +659,7 @@
   <string name="LocalPhotoCache">Фотографії</string>
   <string name="LocalVideoCache">Відео</string>
   <string name="LocalMusicCache">Музика</string>
+  <string name="LocalGifCache">Анімації</string>
   <string name="LocalCache">Інші файли</string>
   <string name="CacheEmpty">Порожньо</string>
   <string name="KeepMedia">Залишити медіа</string>
