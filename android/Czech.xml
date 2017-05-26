@@ -770,6 +770,7 @@
   <string name="SecretChat">Tajné chaty</string>
   <string name="ChromeCustomTabs">In-App prohlížeč</string>
   <string name="DirectShare">Přímé sdílení</string>
+  <string name="DebugMenuImportContacts">Import Kontaktů</string>
   <!--cache view-->
   <string name="LocalDatabase">Lokální Databaze</string>
   <string name="LocalDatabaseClear">Opravdu chcete smazat uložené zprávy?</string>
@@ -891,6 +892,7 @@
   <string name="Caption">Titulek</string>
   <string name="PaintStickers">Nálepky</string>
   <string name="PaintText">Text</string>
+  <string name="CropReset">Reset</string>
   <!--password view-->
   <string name="TwoStepVerification">Ověření ve dvou krocích</string>
   <string name="SetAdditionalPassword">Nastavit dodatečné heslo</string>

@@ -77,6 +77,7 @@
   <string name="PaymentTestInvoice">СЫНАУЛЫК ИСӘП</string>
   <string name="PaymentCheckoutPay">%1$s ТҮЛӘРГӘ</string>
   <string name="PaymentCheckoutMethod">Түләү ысулы</string>
+  <string name="PaymentCheckoutProvider">Түләү сервисы</string>
   <string name="PaymentCheckoutName">Исем</string>
   <string name="PaymentCheckoutPhoneNumber">Телефон номеры</string>
   <string name="PaymentCheckoutEmail">Адрес</string>
@@ -480,6 +481,8 @@
   <string name="NotificationMessageGroupSticker">%1$s %2$s төркеменә стикер җибәрде</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s %2$s төркеменә %3$s стикерын җибәрде</string>
   <string name="NotificationInvitedToGroup">%1$s сезне %2$s төркеменә чакырды</string>
+  <string name="NotificationEditedGroupName">%1$s %2$s төркеменең исемен үзгәртте</string>
+  <string name="NotificationEditedGroupPhoto">%1$s %2$s төркеменең фотосын алмаштырды</string>
   <string name="NotificationGroupAddMember">%1$s %3$s кулланучысын %2$s төркеменә чакырды</string>
   <string name="NotificationGroupAddSelf">%1$s кулланучысы %2$s төркеменә кайтты</string>
   <string name="NotificationGroupAddSelfMega">%1$s %2$s төркеменә кушылды</string>
@@ -511,6 +514,7 @@
   <string name="NotificationActionPinnedSticker">%1$s %2$s төркемендә стикер беркетте</string>
   <string name="NotificationActionPinnedStickerEmoji">%1$s %2$s төркемендә %3$s стикерын беркетте</string>
   <string name="NotificationActionPinnedVoice">%1$s %2$s төркемендә тавышлы хат беркетте</string>
+  <string name="NotificationActionPinnedRound">%1$s %2$s төркемендә видеохат беркетте</string>
   <string name="NotificationActionPinnedContact">%1$s %2$s төркемендә контакт беркетте</string>
   <string name="NotificationActionPinnedGeo">%1$s %2$s төркемендә карта беркетте</string>
   <string name="NotificationActionPinnedGif">%1$s %2$s төркемендә GIF беркетте</string>
@@ -1044,6 +1048,11 @@
   <string name="PrivacySettings">Шәхсилек һәм иминлек</string>
   <string name="PrivacyTitle">Шәхсилек</string>
   <string name="PrivacyLastSeen">Соңгы активлык</string>
+  <string name="PrivacyPayments">Түләүләр</string>
+  <string name="PrivacyPaymentsClear">Түләү мәгълүматен һәм адресны чистарту</string>
+  <string name="PrivacyPaymentsClearInfo">Сез түләү мәгълүматегезне һәм җайланмадан һәм ботлардан адресны бетерә аласыз. Игътибар итегез, Telegram бу мәгълүматләрне сакламый.</string>
+  <string name="PrivacyClearShipping">Китерү турында мәгълүмат</string>
+  <string name="PrivacyClearPayment">Түләү турында мәгълүмат</string>
   <string name="LastSeenEverybody">Бөтенесе</string>
   <string name="LastSeenContacts">Контактларым</string>
   <string name="LastSeenNobody">Беркем</string>
@@ -1510,6 +1519,12 @@
   <string name="ForwardedAudio_few">%1$d яңа адресланган тавыш хаты</string>
   <string name="ForwardedAudio_many">%1$d яңа адресланган тавыш хаты</string>
   <string name="ForwardedAudio_other">%1$d яңа адресланган тавыш хаты</string>
+  <string name="ForwardedRound_zero">%1$d видеохат</string>
+  <string name="ForwardedRound_one">Видеохат</string>
+  <string name="ForwardedRound_two">%1$d видеохат</string>
+  <string name="ForwardedRound_few">%1$d видеохат</string>
+  <string name="ForwardedRound_many">%1$d видеохат</string>
+  <string name="ForwardedRound_other">%1$d видеохат</string>
   <string name="ForwardedLocation_zero">%1$d урнашу урыны</string>
   <string name="ForwardedLocation_one">Урнашу урыны</string>
   <string name="ForwardedLocation_two">%1$d урнашу урыны</string>
