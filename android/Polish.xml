@@ -320,14 +320,12 @@
   <string name="Typing">pisze...</string>
   <string name="IsTyping">pisze...</string>
   <string name="AreTyping">piszą...</string>
-  <string name="IsRecordingAudio">%1$s nagrywa wiadomość głosową...</string>
   <string name="IsSendingAudio">%1$s wysyła audio...</string>
   <string name="IsSendingPhoto">%1$s wysyła zdjęcie</string>
   <string name="InstantView">WYŚWIETL</string>
   <string name="IsSendingGame">%1$s gra w grę...</string>
   <string name="IsSendingVideo">%1$s wysyła wideo</string>
   <string name="IsSendingFile">%1$s wysyła plik</string>
-  <string name="RecordingAudio">nagrywa wiadomość głosową...</string>
   <string name="SendingAudio">wysyła audio...</string>
   <string name="SendingPhoto">wysyła zdjęcie...</string>
   <string name="SendingGame">gra w grę...</string>

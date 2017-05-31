@@ -326,16 +326,12 @@
   <string name="Typing">écrit…</string>
   <string name="IsTyping">écrit…</string>
   <string name="AreTyping">écrivent…</string>
-  <string name="IsRecordingAudio">%1$s enregistre un message vocal...</string>
-  <string name="IsRecordingRound">%1$s enregistre un message vidéo...</string>
   <string name="IsSendingAudio">%1$s envoie de l\'audio...</string>
   <string name="IsSendingPhoto">%1$s envoie une photo...</string>
   <string name="InstantView">VUE INSTANTANÉE</string>
   <string name="IsSendingGame">%1$s joue à un jeu...</string>
   <string name="IsSendingVideo">%1$s envoie une vidéo...</string>
   <string name="IsSendingFile">%1$s envoie un fichier...</string>
-  <string name="RecordingAudio">enregistrement de message vocal...</string>
-  <string name="RecordingRound">enregistre un message vidéo...</string>
   <string name="SendingAudio">envoi l\'audio...</string>
   <string name="SendingPhoto">envoi de photo...</string>
   <string name="SendingGame">joue à un jeu...</string>

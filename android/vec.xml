@@ -331,6 +331,7 @@
   <string name="IsSendingAudio">%1$s L ze drio mandar un àudio...</string>
   <string name="IsSendingPhoto">%1$s L ze drio mandar na foto...</string>
   <string name="InstantView">VIZION IMEDIÀ</string>
+  <string name="InstantViewNightMode">De note el tema moro el se inpostarà automategamente.</string>
   <string name="IsSendingGame">%1$s L ze drio zogar a un zogo...</string>
   <string name="IsSendingVideo">%1$s L ze drio mandar un video...</string>
   <string name="IsSendingFile">%1$s L ze drio mandar un file...</string>
@@ -828,6 +829,8 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="KeepMedia">Tien media</string>
   <string name="KeepMediaInfo">Foto, video e file vari inte łe chat nùvoła che, inte \'sto parìodo, A no te ghè <![CDATA[<b>mìa pì verto</b>]]>, i venjarà cavài via da \'sto dispozitivo par sparanjar spasio inte\'l disco.\\n\\nItim tuti i media i restarà inte ła nùvoła de Telegram e i podarà èsar descargài n\'antra \'olta se A te dovesi vèrghene bizonjo danovo.</string>
   <string name="KeepMediaForever">Par senpre</string>
+  <string name="AudioAutodownload">Mesaji vocałi</string>
+  <string name="VideoMessagesAutodownload">Mesaji video</string>
   <!--sessions view-->
   <string name="SessionsTitle">Sesion ative</string>
   <string name="CurrentSession">Sesion in dòparo</string>

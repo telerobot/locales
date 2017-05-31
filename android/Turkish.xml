@@ -271,14 +271,12 @@
   <string name="Typing">yazıyor...</string>
   <string name="IsTyping">yazıyor...</string>
   <string name="AreTyping">yazıyor...</string>
-  <string name="IsRecordingAudio">%1$s sesli mesaj kaydediyor...</string>
   <string name="IsSendingAudio">%1$s ses gönderiyor...</string>
   <string name="IsSendingPhoto">%1$s fotoğraf gönderiyor...</string>
   <string name="InstantView">HIZLI BAK</string>
   <string name="IsSendingGame">%1$s oyun oynuyor...</string>
   <string name="IsSendingVideo">%1$s video gönderiyor...</string>
   <string name="IsSendingFile">%1$s dosya gönderiyor...</string>
-  <string name="RecordingAudio">sesli mesaj kaydediyor...</string>
   <string name="SendingAudio">ses gönderiyor...</string>
   <string name="SendingPhoto">fotoğraf gönderiyor...</string>
   <string name="SendingGame">oyun oynuyor...</string>

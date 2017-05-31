@@ -327,16 +327,12 @@
   <string name="Typing">піша...</string>
   <string name="IsTyping">піша...</string>
   <string name="AreTyping">пішуць...</string>
-  <string name="IsRecordingAudio">%1$s робіць аўдыязапіс...</string>
-  <string name="IsRecordingRound">%1$s робіць відэазапіс...</string>
   <string name="IsSendingAudio">%1$s адпраўляе аўдыязапіс...</string>
   <string name="IsSendingPhoto">%1$s адпраўляе выяву...</string>
   <string name="InstantView">Хуткi прагляд</string>
   <string name="IsSendingGame">%1$s гуляе ў гульню</string>
   <string name="IsSendingVideo">%1$s адпраўляе відэазапіс...</string>
   <string name="IsSendingFile">%1$s адпраўляе файл...</string>
-  <string name="RecordingAudio">робіць аўдыязапіс...</string>
-  <string name="RecordingRound">робіць відэазапіс...</string>
   <string name="SendingAudio">адпраўляе аўдыязапіс...</string>
   <string name="SendingPhoto">адпраўка выявы...</string>
   <string name="SendingGame">гуляе ў гульню</string>

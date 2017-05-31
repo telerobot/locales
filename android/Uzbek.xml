@@ -261,12 +261,10 @@
   <string name="Typing">yozmoqda...</string>
   <string name="IsTyping">yozmoqda...</string>
   <string name="AreTyping">yozmoqda...</string>
-  <string name="IsRecordingAudio">%1$s ovozli xabar yozmoqda...</string>
   <string name="IsSendingAudio">%1$s audio yubormoqda…</string>
   <string name="IsSendingPhoto">%1$s rasm yuboryapti…</string>
   <string name="IsSendingVideo">%1$s video yuboryapti…</string>
   <string name="IsSendingFile">%1$s fayl yuboryapti…</string>
-  <string name="RecordingAudio">Ovozli xabar yozilmoqda...</string>
   <string name="SendingAudio">audio yuborilmoqda…</string>
   <string name="SendingPhoto">rasm yuborilmoqda…</string>
   <string name="SendingVideoStatus">video yuborilmoqda…</string>

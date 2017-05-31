@@ -326,16 +326,12 @@
   <string name="Typing">píše...</string>
   <string name="IsTyping">píše...</string>
   <string name="AreTyping">píší...</string>
-  <string name="IsRecordingAudio">%1$s nahrává hlasovou zprávu...</string>
-  <string name="IsRecordingRound">%1$s nahrává video zprávu...</string>
   <string name="IsSendingAudio">%1$s posílá audio...</string>
   <string name="IsSendingPhoto">%1$s Vám posílá fotku...</string>
   <string name="InstantView">NÁHLED</string>
   <string name="IsSendingGame">%1$s hraje hru...</string>
   <string name="IsSendingVideo">%1$s Vám posílá video...</string>
   <string name="IsSendingFile">%1$s Vám posílá soubor...</string>
-  <string name="RecordingAudio">nahrávání hlasové zprávy...</string>
-  <string name="RecordingRound">nahrávání video zprávy...</string>
   <string name="SendingAudio">odesílání audia...</string>
   <string name="SendingPhoto">posílá fotku...</string>
   <string name="SendingGame">hraje hru...</string>
