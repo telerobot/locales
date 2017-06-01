@@ -2,9 +2,9 @@
 <resources>
   <string name="AppName">Telegram</string>
   <string name="AppNameBeta">Telegram Beta</string>
-  <string name="LanguageName">Français</string>
-  <string name="LanguageNameInEnglish">French</string>
-  <string name="LanguageCode">fr</string>
+  <string name="LanguageName">Anglais</string>
+  <string name="LanguageNameInEnglish">Anglais</string>
+  <string name="LanguageCode">en</string>
   <!--signin view-->
   <string name="YourPhone">Votre téléphone</string>
   <string name="StartText">Confirmez votre indicatif national et entrez votre numéro de téléphone</string>
@@ -326,12 +326,17 @@
   <string name="Typing">écrit…</string>
   <string name="IsTyping">écrit…</string>
   <string name="AreTyping">écrivent…</string>
+  <string name="IsRecordingAudio">%1$s enregistre un message vocal...</string>
+  <string name="IsRecordingRound">%1$s enregistre un message vidéo...</string>
   <string name="IsSendingAudio">%1$s envoie de l\'audio...</string>
   <string name="IsSendingPhoto">%1$s envoie une photo...</string>
   <string name="InstantView">VUE INSTANTANÉE</string>
+  <string name="InstantViewNightMode">Le thème sombre s\'activera automatiquement à la tombée de la nuit</string>
   <string name="IsSendingGame">%1$s joue à un jeu...</string>
   <string name="IsSendingVideo">%1$s envoie une vidéo...</string>
   <string name="IsSendingFile">%1$s envoie un fichier...</string>
+  <string name="RecordingAudio">enregistre un message vocal...</string>
+  <string name="RecordingRound">enregistre un message vidéo...</string>
   <string name="SendingAudio">envoi l\'audio...</string>
   <string name="SendingPhoto">envoi de photo...</string>
   <string name="SendingGame">joue à un jeu...</string>
@@ -365,10 +370,10 @@
   <string name="DeleteThisChat">Supprimer cette conversation.</string>
   <string name="SlideToCancel">GLISSER POUR ANNULER
 </string>
-  <string name="SaveToDownloads">Enregistrer dans les téléchargements</string>
+  <string name="SaveToDownloads">Enregistrer dans Téléchargements</string>
   <string name="SaveToGIFs">Enregistrer vers GIFs</string>
   <string name="DeleteGif">Supprimer GIF ?</string>
-  <string name="SaveToMusic">Enregistrer dans musique</string>
+  <string name="SaveToMusic">Enregistrer dans Musique</string>
   <string name="ShareFile">Partager</string>
   <string name="ApplyLocalizationFile">Appliquer la traduction</string>
   <string name="ApplyThemeFile">Appliquer le thème</string>
@@ -599,7 +604,7 @@
   <string name="EncryptionKey">Clé de chiffrement</string>
   <string name="MessageLifetime">Délai d\'auto-destruction</string>
   <string name="ShortMessageLifetimeForever">Désactivé</string>
-  <string name="EncryptionKeyDescription">Cette image et le texte sont une représentation de la clé de chiffrement pour cette conversation secrète avec <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Si l\'image sur l\'appareil de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> est identique, votre conversation est totalement sécurisée.<![CDATA[<br><br>]]>Plus d\'informations sur telegram.org</string>
+  <string name="EncryptionKeyDescription">Cette image et ce texte sont dérivés de la clé de chiffrement pour cette conversation secrète avec <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>S\'ils sont identiques sur l\'appareil de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, le chiffrement de bout en bout est garanti.<![CDATA[<br><br>]]>Plus d\'informations sur telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="TapToEmojify">Toucher pour emojifier</string>
   <string name="NumberUnknown">Inconnu</string>
@@ -736,7 +741,7 @@
   <string name="Enabled">Activé</string>
   <string name="Disabled">Désactivé</string>
   <string name="NotificationsService">Service Garder-en-vie</string>
-  <string name="NotificationsServiceInfo">Redémarrer l\'application lorsqu\'elle est arrêtée par un utilisateur ou par le système. Ceci garanti que l\'application affiche les notifications</string>
+  <string name="NotificationsServiceInfo">Redémarrer l\'application lorsqu\'elle est arrêtée par un utilisateur ou par le système. Cela garantit que l\'application puisse afficher les notifications.</string>
   <string name="NotificationsServiceConnection">Connexion en arrière-plan</string>
   <string name="NotificationsServiceConnectionInfo">Utilise une connexion en arrière-plan vers Telegram consommant peu d\'énergie pour recevoir les notifications. Activez pour des notifications fiables.</string>
   <string name="SortBy">Trier par</string>
@@ -824,6 +829,8 @@
   <string name="KeepMedia">Conserver les médias</string>
   <string name="KeepMediaInfo">Les photos, vidéos et autres fichiers provenant de conversations sur le cloud auxquels vous n\'avez <![CDATA[<b>pas accédé</b>]]> pendant cette période seront supprimés de cet appareil pour économiser de l\'espace de stockage.\n\nTous les médias resteront sur le cloud Telegram et peuvent être re-téléchargés si vous en avez de nouveau besoin.</string>
   <string name="KeepMediaForever">Pour toujours</string>
+  <string name="AudioAutodownload">Messages vocaux</string>
+  <string name="VideoMessagesAutodownload">Messages vidéo</string>
   <!--sessions view-->
   <string name="SessionsTitle">Sessions actives</string>
   <string name="CurrentSession">Session actuelle</string>
@@ -1280,7 +1287,7 @@
   <string name="CallMessageOutgoingMissed">Appel annulé</string>
   <string name="CallMessageIncomingDeclined">Appel refusé</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
-  <string name="CallEncryptionKeyDescription">Cette image et ce texte découle de la clé d\'encryption de l\'appel avec <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>S\'il sont pareil sur l\'appareil <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]>, l\'encryption bout en bout est garantie.</string>
+  <string name="CallEncryptionKeyDescription">Cette image et ce texte sont dérivés de la clé de chiffrement pour cet appel avec <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>S\'ils sont identiques sur l\'appareil de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, alors le chiffrement de bout en bout est garanti.</string>
   <string name="NoCallLog">Vous n\'avez passé aucun appel pour l\'instant.</string>
   <string name="VoipPeerIncompatible">L\'application <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> utilise un protocol incompatible. Ils doivent mettre à jour leur application avant de pouvoir les appeler.</string>
   <string name="VoipPeerOutdated">L\'application de <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ne permet pas les appels. La mise à jour de son application est nécessaire afin que vous puissiez l\'appeler.</string>

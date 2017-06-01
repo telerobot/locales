@@ -25,7 +25,10 @@
   <string name="DidNotGetTheCode">Не отримали код?</string>
   <string name="CancelAccountReset">Відмінити скидання облікового запису</string>
   <string name="ResetAccount">Скинути обліковий запис</string>
+  <string name="ResetAccountStatus">Ви зможете відновити свій обліковий запис об:</string>
   <string name="ResetAccountButton">СКИНУТИ</string>
+  <string name="CancelLinkExpired">Посилання не є дійсним, або строк його дії скінчився</string>
+  <string name="CancelLinkSuccess">Процес видалення був скасований для вашого облікового запису %1$s. Ви можете закрити це вікно прямо зараз.</string>
   <!--signup view-->
   <string name="YourName">Ваше ім\'я</string>
   <string name="RegisterText">Вкажіть ваше ім\'я та прізвище</string>
@@ -34,17 +37,48 @@
   <string name="LastName">Прізвище (необов\'язково)</string>
   <string name="CancelRegistration">Скасувати реєстрацію</string>
   <!--payments view-->
+  <string name="PaymentSuccessfullyPaid">Ви тільки що успішно перевели %1$s до %2$s для %3$s</string>
+  <string name="PaymentSuccessfullyPaidNoItem">Ви тільки що успішно перевели %1$s до %2$s</string>
+  <string name="PaymentShippingMethod">Способи доставки</string>
+  <string name="PaymentNoShippingMethod">Вибачте, неможливо здійснити доставку за Вашою адресою</string>
+  <string name="PaymentShippingInfo">Інформація про доставку</string>
+  <string name="PaymentShippingAddress">Адреса доставки</string>
+  <string name="PaymentShippingAddress1Placeholder">Адреса 1 (вулиця)</string>
+  <string name="PaymentShippingAddress2Placeholder">Адреса 2 (вулиця)</string>
   <string name="PaymentShippingCityPlaceholder">Місто</string>
+  <string name="PaymentShippingStatePlaceholder">Область</string>
   <string name="PaymentShippingCountry">Країна</string>
   <string name="PaymentShippingZipPlaceholder">Поштовий індекс</string>
   <string name="PaymentShippingReceiver">Отримувач</string>
   <string name="PaymentShippingName">Повне ім\'я</string>
   <string name="PaymentShippingPhoneNumber">Номер телефону</string>
   <string name="PaymentShippingEmailPlaceholder">E-Mail</string>
+  <string name="PaymentShippingSave">Зберегти інформацію про доставку</string>
+  <string name="PaymentShippingSaveInfo">Ви можете зберегти Вашу інформацію про доставку для подальшого використання.</string>
+  <string name="PaymentCardInfo">Платіжна інформація</string>
+  <string name="PaymentCardTitle">Платіжна картка</string>
   <string name="PaymentCardNumber">Номер картки</string>
   <string name="PaymentCardCvv">Код безпеки (CVV)</string>
+  <string name="PaymentCardExpireDate">ДД/РР</string>
+  <string name="PaymentBillingAddress">Адреса для виставлення рахунків</string>
   <string name="PaymentCardNameTitle">Власник картки</string>
   <string name="PaymentCardName">Ім\'я та прізвище</string>
+  <string name="PaymentCardSavePaymentInformation">Зберегти платіжну інформацію</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine1">Ви можете зберегти Вашу платіжну інформацію для подальшого використання.</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine2">Будь ласка, *увімкніть двофакторну перевірку*, щоб дозволити це.</string>
+  <string name="PaymentTransactionReview">Огляд транзакцій</string>
+  <string name="PaymentTransactionTotal">Усього</string>
+  <string name="PaymentInvoice">РАХУНОК</string>
+  <string name="PaymentTestInvoice">ТЕСТОВИЙ РАХУНОК</string>
+  <string name="PaymentCheckoutMethod">Спосіб оплати</string>
+  <string name="PaymentCheckoutProvider">Платіжний провайдер</string>
+  <string name="PaymentCheckoutName">Ім\'я</string>
+  <string name="PaymentCheckoutPhoneNumber">Номер телефону</string>
+  <string name="PaymentCheckoutEmail">Контактна адреса</string>
+  <string name="PaymentCheckoutShippingMethod">Спосіб доставки</string>
+  <string name="PaymentReceipt">Квитанція</string>
+  <string name="PaymentConfirmationNewCard">Оберіть іншу картку</string>
+  <string name="PaymentFailed">Вибачте, платіж був відхилений.</string>
   <string name="PaymentWarning">Увага</string>
   <!--chats view-->
   <string name="Settings">Налаштування</string>
@@ -85,6 +119,8 @@
   <string name="ChatHints">ЧАТИ</string>
   <string name="ChatHintsDelete">Видалити %1$s з пропозицій?</string>
   <string name="LinkPreview">Попередній перегляд посилання</string>
+  <string name="Draft">Чернетка</string>
+  <string name="HistoryCleared">Історія була очищена</string>
   <string name="PinToTop">Закріпити</string>
   <string name="UnpinFromTop">Відкріпити</string>
   <string name="Bold">Жирний</string>
@@ -220,6 +256,7 @@
   <string name="ChannelMessageGroupDocument">%1$s надіслав/ла файл до каналу %2$s</string>
   <string name="ChannelMessageGroupGif">%1$s надіслав/ла GIF до каналу %2$s</string>
   <string name="ChannelMessageGroupAudio">%1$s надіслав/ла голосове повідомлення на канал %2$s</string>
+  <string name="ChannelMessageGroupRound">%1$s надіслав відео-повідомлення на канал %2$s</string>
   <string name="ChannelMessageGroupMusic">%1$s надіслав/ла композицію до каналу %2$s</string>
   <string name="ChannelMessageGroupSticker">%1$s надіслав/ла наліпку до каналу %2$s</string>
   <string name="ChannelMessageGroupStickerEmoji">%1$s надіслав/ла %3$s наліпку на каналі %2$s</string>
@@ -231,6 +268,7 @@
   <string name="ChannelMessageDocument">%1$s опублікував/ла файл</string>
   <string name="ChannelMessageGIF">%1$s розмістив/ла GIF</string>
   <string name="ChannelMessageAudio">%1$s опублікував/ла голосове повідомлення</string>
+  <string name="ChannelMessageRound">%1$s опублікував відео-повідомлення</string>
   <string name="ChannelMessageMusic">%1$s опублікував/ла композицію</string>
   <string name="ChannelMessageSticker">%1$s опублікував/ла наліпку</string>
   <string name="ChannelMessageStickerEmoji">%1$s опублікував/ла %2$s наліпку</string>
@@ -272,12 +310,17 @@
   <string name="Typing">пише...</string>
   <string name="IsTyping">пише...</string>
   <string name="AreTyping">пишуть...</string>
+  <string name="IsRecordingAudio">%1$s записує голосове повідомлення...</string>
+  <string name="IsRecordingRound">%1$s записує відео-повідомлення...</string>
   <string name="IsSendingAudio">%1$s надсилає аудіо...</string>
   <string name="IsSendingPhoto">%1$s надсилає фото...</string>
   <string name="IsSendingVideo">%1$s надсилає відео...</string>
   <string name="IsSendingFile">%1$s надсилає файл...</string>
+  <string name="RecordingAudio">запис голосового повідомлення...</string>
+  <string name="RecordingRound">запис відео-повідомлення...</string>
   <string name="SendingAudio">надсилання аудіо...</string>
   <string name="SendingPhoto">надсилання фото...</string>
+  <string name="SendingGame">грати в гру...</string>
   <string name="SendingVideoStatus">надсилання відео...</string>
   <string name="SendingFile">надсилання файлу</string>
   <string name="GotAQuestion">Є питання щодо Telegram?</string>
@@ -321,6 +364,7 @@
   <string name="OpenInExternalApp">Відкрити через...</string>
   <string name="CopyUrl">Копіювати URL</string>
   <string name="SendItems">Надіслати %1$s</string>
+  <string name="SendAsFiles">Надіслати як файли</string>
   <string name="OpenUrlAlert">Відкрити url %1$s?</string>
   <string name="ReportSpam">ПОВІДОМИТИ ПРО СПАМ</string>
   <string name="ReportSpamAndLeave">ПОВІДОМИТИ ПРО СПАМ І ПОКИНУТИ</string>
@@ -355,8 +399,19 @@
   <string name="TimeToEditExpired">На жаль, час для редагування минув.</string>
   <string name="AddShortcut">Додати ярлик</string>
   <string name="ShortcutAdded">Ярлик доданий на робочий стіл</string>
+  <string name="ChatYourSelf">спілкуватися з самим собою</string>
   <string name="ChatYourSelfName">Ви</string>
   <string name="ChatYourSelfTitle">Ваше хмарне сховище</string>
+  <string name="DeleteForUser">Видалити для %1$s</string>
+  <string name="DeleteForAll">Видалити для всіх учасників</string>
+  <string name="TextCopied">Текст скопійовано в буфер обміну</string>
+  <string name="HoldToAudio">Утримуйте, щоб записати аудіо. Натисніть, щоб переключитися на відео.</string>
+  <string name="HoldToVideo">Утримуйте, щоб записати відео. Натисніть, щоб переключитися на аудіо.</string>
+  <string name="DiscardVoiceMessageTitle">Відхилити голосове повідомлення</string>
+  <string name="DiscardVoiceMessageDescription">Ви впевнені, що ви хочете зупинити запис і відмовитися від голосового повідомлення?</string>
+  <string name="DiscardVideoMessageTitle">Відхилити відео-повідомлення</string>
+  <string name="DiscardVideoMessageDescription">Ви впевнені, що ви хочете зупинити запис і відмовитися від відео-повідомлення?</string>
+  <string name="DiscardVoiceMessageAction">Відхилити</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s встановив/ла таймер самознищення на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Ви встановили таймер самознищення на %1$s</string>
@@ -369,9 +424,11 @@
   <string name="NotificationMessageVideo">%1$s відправив/ла вам відео</string>
   <string name="NotificationMessageContact">%1$s поділився/лась з вами контактом</string>
   <string name="NotificationMessageMap">%1$s відправив/ла вам розташування</string>
+  <string name="NotificationMessageGame">%1$s запросив вас до гри %2$s</string>
   <string name="NotificationMessageDocument">%1$s відправив/ла вам файл</string>
   <string name="NotificationMessageGif">%1$s надіслав/ла вам GIF</string>
   <string name="NotificationMessageAudio">%1$s надіслав/ла вам голосове повідомлення</string>
+  <string name="NotificationMessageRound">%1$s надіслав Вам відео-повідомлення</string>
   <string name="NotificationMessageMusic">%1$s надіслав/ла вам композицію</string>
   <string name="NotificationMessageSticker">%1$s надіслав/ла вам наліпку</string>
   <string name="NotificationMessageStickerEmoji">%1$s надіслав(-ла) вам наліпку %2$s</string>
@@ -381,13 +438,17 @@
   <string name="NotificationMessageGroupVideo">%1$s надіслав/ла відео групі %2$s</string>
   <string name="NotificationMessageGroupContact">%1$s поділився/лась контактом з групою %2$s</string>
   <string name="NotificationMessageGroupMap">%1$s надіслав/ла розташування групі %2$s</string>
+  <string name="NotificationMessageGroupGame">%1$s запросив групу %2$s до гри %3$s</string>
   <string name="NotificationMessageGroupDocument">%1$s надіслав/ла файл групі %2$s</string>
   <string name="NotificationMessageGroupGif">%1$s надіслав/ла GIF групі %2$s</string>
   <string name="NotificationMessageGroupAudio">%1$s надіслав/ла голосове повідомлення групі %2$s</string>
+  <string name="NotificationMessageGroupRound">%1$s надіслав відео-повідомлення до групи %2$s</string>
   <string name="NotificationMessageGroupMusic">%1$s надіслав/ла композицію до групи %2$s</string>
   <string name="NotificationMessageGroupSticker">%1$s надіслав/ла наліпку групі %2$s</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s надіслав/ла %3$s наліпку групі %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s запросив/ла вас до групи %2$s</string>
+  <string name="NotificationEditedGroupName">%1$s змінив назву групи %2$s</string>
+  <string name="NotificationEditedGroupPhoto">%1$s змінив фото групи на %2$s</string>
   <string name="NotificationGroupAddMember">%1$s запросив/ла користувача %3$s до групи %2$s</string>
   <string name="NotificationGroupAddSelf">%1$s повернувся/лась до групи %2$s</string>
   <string name="NotificationGroupAddSelfMega">%1$s приєднався/лась до групи %2$s</string>
@@ -444,9 +505,11 @@
   <string name="ALongTimeAgo">заходив/ла давно</string>
   <string name="NewMessageTitle">Нове повідомлення</string>
   <!--group create view-->
+  <string name="SendMessageTo">Додати людину...</string>
   <string name="SoftUserLimitAlert">Після створення групи ви зможете додавати більше учасників, а також перетворювати її на супергрупу.</string>
   <string name="EnterGroupNamePlaceholder">Введіть назву групи</string>
   <string name="GroupName">Назва групи</string>
+  <string name="MembersCount">%1$d з %2$d обрано</string>
   <string name="JoinToGroup">Ви хочете приєднатися до чату \'%1$s\'?</string>
   <string name="JoinToGroupErrorFull">Вибачте, ця група вже заповнена.</string>
   <string name="JoinToGroupErrorNotExist">Шкода, але цей чат, здається, не існує.</string>
@@ -483,6 +546,7 @@
   <string name="ShareContact">Поділитися</string>
   <string name="AddContact">Додати</string>
   <string name="AddContactTitle">Додати контакт</string>
+  <string name="Invite">Запрошення</string>
   <string name="BlockContact">Заблокувати</string>
   <string name="EditContact">Редагувати</string>
   <string name="DeleteContact">Видалити</string>
@@ -528,6 +592,17 @@
   <string name="NoStickers">Поки немає наліпок</string>
   <string name="SendSticker">НАДІСЛАТИ НАЛІПКУ</string>
   <!--theme view-->
+  <string name="Theme">Тема</string>
+  <string name="DeleteThemeAlert">Ви впевнені, що хочете видалити цю тему?</string>
+  <string name="IncorrectTheme">Некоректний файл теми</string>
+  <string name="EnterThemeName">Введіть ім\'я теми</string>
+  <string name="CloseEditor">ЗАКРИТИ РЕДАКТОР</string>
+  <string name="SaveTheme">ЗБЕРЕГТИ ТЕМУ</string>
+  <string name="NewTheme">Нова тема</string>
+  <string name="ApplyTheme">ЗАСТОСУВАТИ</string>
+  <string name="ThemePreview">Попередній перегляд теми</string>
+  <string name="SelectColor">Оберіть колір</string>
+  <string name="CreateNewTheme">Створити нову тему</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Відновити типові налаштування сповіщень</string>
   <string name="TextSize">Розмір тексту повідомлень</string>
@@ -550,6 +625,7 @@
   <string name="ResetAllNotifications">Скинути всі сповіщення</string>
   <string name="UndoAllCustom">Скасувати всі власні налаштування сповіщень для всіх контактів і груп</string>
   <string name="NotificationsAndSounds">Сповіщення та звук</string>
+  <string name="NotificationsLedColor">Колір</string>
   <string name="ColorBlue">Синій</string>
   <string name="ColorRed">Червоний</string>
   <string name="ColorYellow">Жовтий</string>
@@ -564,6 +640,9 @@
   <string name="ColorOrange">Оранжевий</string>
   <string name="NotificationsLedInfo">Індикатор - маленька лампочка на деяких пристроях. Вона загоряється при отримуванні повідомлення.</string>
   <string name="NotificationsOn">Вкл.</string>
+  <string name="NotificationsOff">Вимкнути</string>
+  <string name="NotificationsTurnOn">Увімкнути</string>
+  <string name="NotificationsTurnOff">Вимкнути</string>
   <string name="BlockedUsers">Заблоковані користувачі</string>
   <string name="LogOut">Вийти</string>
   <string name="NoSound">Без звуку</string>
@@ -615,6 +694,7 @@
   <string name="SaveToGallerySettings">Зберегти в галереї</string>
   <string name="EditName">Змінити ім\'я</string>
   <string name="NotificationsPriority">Пріоритет</string>
+  <string name="NotificationsPrioritySettings">Так само, як в налаштуваннях</string>
   <string name="NotificationsPriorityDefault">Типово</string>
   <string name="NotificationsPriorityLow">Низький</string>
   <string name="NotificationsPriorityHigh">Високий</string>
@@ -632,6 +712,8 @@
   <string name="NotificationsOther">Інше</string>
   <string name="NotificationsDisabled">Вимкнено</string>
   <string name="VibrationDisabled">Вимкнено</string>
+  <string name="PopupEnabled">Увімкнено</string>
+  <string name="PopupDisabled">Вимкнено</string>
   <string name="LedDisabled">Вимкнено</string>
   <string name="RepeatDisabled">Вимк</string>
   <string name="InChatSound">Звуки в чаті</string>
@@ -646,6 +728,8 @@
   <string name="DirectShare">Пряме поширення</string>
   <string name="DirectShareInfo">Показувати останні чати в меню поширення</string>
   <string name="TelegramVersion">Telegram для Android %1$s</string>
+  <string name="DebugMenuImportContacts">Імпортувати контакти</string>
+  <string name="DebugMenuReloadContacts">Перезавантажити контакти</string>
   <!--cache view-->
   <string name="LocalDatabase">Локальна база даних</string>
   <string name="LocalDatabaseClear">Стерти кешовані текстові повідомлення?</string>
@@ -655,6 +739,7 @@
   <string name="CalculatingSize">Обчислення...</string>
   <string name="LocalDocumentCache">Документи</string>
   <string name="LocalPhotoCache">Фотографії</string>
+  <string name="LocalAudioCache">Голосові/Відео повідомлення</string>
   <string name="LocalVideoCache">Відео</string>
   <string name="LocalMusicCache">Музика</string>
   <string name="LocalGifCache">Анімації</string>
@@ -663,6 +748,8 @@
   <string name="KeepMedia">Залишити медіа</string>
   <string name="KeepMediaInfo">Ваші фото, відео й інші файли з чатів <![CDATA[<b>недоступні</b>]]> під час цього періоду, будуть вилучені з цього пристрою для збереження дискового простору.\n\nВсі медіа залишаться в хмарному сховищі Telegram і можуть за потреби бути повторно завантажені.</string>
   <string name="KeepMediaForever">Назавжди</string>
+  <string name="AudioAutodownload">Голосові повідомлення</string>
+  <string name="VideoMessagesAutodownload">Відео повідомлення</string>
   <!--sessions view-->
   <string name="SessionsTitle">Активні сеанси</string>
   <string name="CurrentSession">Поточний сеанс</string>
@@ -697,6 +784,7 @@
   <string name="FingerprintInfo">Підтвердіть відбитки пальців для продовження</string>
   <string name="FingerprintHelp">Датчик дотику</string>
   <string name="FingerprintNotRecognized">Відбитки пальців не розпізнані. Спробуйте знову.</string>
+  <string name="ScreenCapture">Дозволити захват екрану</string>
   <!--media view-->
   <string name="DocumentsTitle">Спільні файли</string>
   <string name="SharedMediaTitle">Спільні медіаресурси</string>
@@ -774,6 +862,9 @@
   <string name="PhotoCaption">Заголовок фото</string>
   <string name="VideoCaption">Заголовок відео</string>
   <string name="Caption">Заголовок</string>
+  <string name="PaintText">Текст</string>
+  <string name="PaintDelete">Видалити</string>
+  <string name="PaintEdit">Редагувати</string>
   <!--password view-->
   <string name="TwoStepVerification">Двоетапна перевірка</string>
   <string name="SetAdditionalPassword">Встановити додатковий пароль</string>
@@ -825,10 +916,25 @@
   <string name="EnabledPasswordText">Ви увімкнули двоетапну перевірку.\nДля входу в свій обліковий запис Telegram вам знадобиться пароль, який ви встановили тут.</string>
   <string name="PendingEmailText">Ваша адреса електронної пошти для відновлення %1$s ще не активна й очікує підтвердження.</string>
   <!--data settings-->
+  <string name="CountSent">Надіслано</string>
+  <string name="CountReceived">Отримано</string>
+  <string name="BytesSent">Байт надіслано</string>
+  <string name="BytesReceived">Байт отримано</string>
+  <string name="FilesDataUsage">Файлів</string>
+  <string name="CallsDataUsage">Викликів</string>
+  <string name="OutgoingCalls">Вихідних дзвінків</string>
+  <string name="IncomingCalls">Вхідних дзвінків</string>
+  <string name="CallsTotalTime">Усього часу</string>
+  <string name="TotalDataUsage">Усього</string>
+  <string name="ResetStatistics">Скинути статистику</string>
+  <string name="NetworkUsageSince">Використання мережи з %1$s</string>
+  <string name="ResetStatisticsAlert">Ви хочете скинути Вашу статистику використання?</string>
   <!--privacy settings-->
   <string name="PrivacySettings">Приватність і Безпека</string>
   <string name="PrivacyTitle">Приватність</string>
   <string name="PrivacyLastSeen">Остання активність</string>
+  <string name="PrivacyClearShipping">Інформація про доставку</string>
+  <string name="PrivacyClearPayment">Платіжна інформація</string>
   <string name="LastSeenEverybody">Всі</string>
   <string name="LastSeenContacts">Мої контакти</string>
   <string name="LastSeenNobody">Ніхто</string>
@@ -907,6 +1013,8 @@
   <string name="Set">Встановити</string>
   <string name="OK">OK</string>
   <string name="Crop">КАДРУВАННЯ</string>
+  <string name="Yes">Так</string>
+  <string name="No">Ні</string>
   <!--messages-->
   <string name="ActionInviteYou">Ви приєдналися до групи через запрошувальне посилання</string>
   <string name="ActionInviteUser">un1 приєднався/лась до групи через запрошувальне посилання</string>
@@ -938,6 +1046,8 @@
   <string name="AttachDocument">Файл</string>
   <string name="AttachSticker">Наліпка</string>
   <string name="AttachAudio">Голосове повідомлення</string>
+  <string name="AttachRound">Відео-повідомлення</string>
+  <string name="AttachGame">Гра</string>
   <string name="FromYou">Ви</string>
   <string name="ActionTakeScreenshootYou">Ви зробили знімок екрану!</string>
   <string name="ActionTakeScreenshoot">un1 зробив/ла знімок екрану!</string>
@@ -1023,6 +1133,33 @@
   <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> повідомлення надійно зашифровані<![CDATA[<br/>]]>і можуть самознищуватися.</string>
   <string name="StartMessaging">Почати спілкування</string>
   <!--VoIP-->
+  <string name="AccountSettings">Налаштування облікового запису</string>
+  <string name="VoipIncoming">Вхідний дзвінок</string>
+  <string name="VoipConnecting">З\'єднання</string>
+  <string name="VoipWaiting">Очікування</string>
+  <string name="VoipCallEnded">Виклик завершений</string>
+  <string name="VoipFailed">Помилка з\'єднання</string>
+  <string name="VoipRinging">Дзвінок</string>
+  <string name="VoipBusy">Лінія зайнята</string>
+  <string name="VoipEndCall">Завершити виклик</string>
+  <string name="VoipOngoingAlertTitle">Здійснюється інший виклик</string>
+  <string name="VoipNotificationSettings">Голосові виклики</string>
+  <string name="Calls">Виклики</string>
+  <string name="WhoCanCallMe">Хто може викликати мене?</string>
+  <string name="UseLessDataNever">Ніколи</string>
+  <string name="UseLessDataAlways">Завжди</string>
+  <string name="VoipAnswerCall">Відповісти</string>
+  <string name="VoipDeclineCall">Відхилити</string>
+  <string name="VoipOfflineTitle">Автономний режим</string>
+  <string name="VoipOfflineAirplaneTitle">Режим польоту</string>
+  <string name="VoipOfflineOpenSettings">Налаштування</string>
+  <string name="CallMessageOutgoing">Вихідний дзвінок</string>
+  <string name="CallMessageIncoming">Вхідний дзвінок</string>
+  <string name="CallMessageIncomingMissed">Пропущений виклик</string>
+  <string name="CallMessageOutgoingMissed">Скасований виклик</string>
+  <string name="CallMessageIncomingDeclined">Відхилений виклик</string>
+  <string name="CallAgain">Зателефонувати знову</string>
+  <string name="ReturnToCall">ПОВЕРНУТИСЯ ДО ВИКЛИКУ</string>
   <!--plural-->
   <string name="Online_zero">%1$d в мережі</string>
   <string name="Online_one">%1$d в мережі</string>
@@ -1138,6 +1275,12 @@
   <string name="Photos_few">%1$d фотографії</string>
   <string name="Photos_many">%1$d фотографій</string>
   <string name="Photos_other">%1$d фотографій</string>
+  <string name="Points_zero">%1$d</string>
+  <string name="Points_one">%1$d</string>
+  <string name="Points_two">%1$d</string>
+  <string name="Points_few">%1$d</string>
+  <string name="Points_many">%1$d</string>
+  <string name="Points_other">%1$d</string>
   <string name="LastSeenMinutes_zero">останній перегляд %1$d хвилин тому</string>
   <string name="LastSeenMinutes_one">останній перегляд %1$d хвилину тому</string>
   <string name="LastSeenMinutes_two">останній перегляд %1$d хвилини тому</string>
@@ -1150,6 +1293,30 @@
   <string name="LastSeenHours_few">останній перегляд %1$d години тому</string>
   <string name="LastSeenHours_many">останній перегляд %1$d годин тому</string>
   <string name="LastSeenHours_other">останній перегляд %1$d годин тому</string>
+  <string name="SecondsBold_zero"><![CDATA[<b>%1$d</b>]]> секунд</string>
+  <string name="SecondsBold_one"><![CDATA[<b>%1$d</b>]]> секунда</string>
+  <string name="SecondsBold_two"><![CDATA[<b>%1$d</b>]]> секунди</string>
+  <string name="SecondsBold_few"><![CDATA[<b>%1$d</b>]]> секунд</string>
+  <string name="SecondsBold_many"><![CDATA[<b>%1$d</b>]]> секунд</string>
+  <string name="SecondsBold_other"><![CDATA[<b>%1$d</b>]]> секунд</string>
+  <string name="MinutesBold_zero"><![CDATA[<b>%1$d</b>]]> хвилин</string>
+  <string name="MinutesBold_one"><![CDATA[<b>%1$d</b>]]> хвилина</string>
+  <string name="MinutesBold_two"><![CDATA[<b>%1$d</b>]]> хвилини</string>
+  <string name="MinutesBold_few"><![CDATA[<b>%1$d</b>]]> хвилин</string>
+  <string name="MinutesBold_many"><![CDATA[<b>%1$d</b>]]> хвилин</string>
+  <string name="MinutesBold_other"><![CDATA[<b>%1$d</b>]]> хвилин</string>
+  <string name="HoursBold_zero"><![CDATA[<b>%1$d</b>]]> годин</string>
+  <string name="HoursBold_one"><![CDATA[<b>%1$d</b>]]> година</string>
+  <string name="HoursBold_two"><![CDATA[<b>%1$d</b>]]> години</string>
+  <string name="HoursBold_few"><![CDATA[<b>%1$d</b>]]> годин</string>
+  <string name="HoursBold_many"><![CDATA[<b>%1$d</b>]]> годин</string>
+  <string name="HoursBold_other"><![CDATA[<b>%1$d</b>]]> годин</string>
+  <string name="DaysBold_zero"><![CDATA[<b>%1$d</b>]]> днів</string>
+  <string name="DaysBold_one"><![CDATA[<b>%1$d</b>]]> день</string>
+  <string name="DaysBold_two"><![CDATA[<b>%1$d</b>]]> дні</string>
+  <string name="DaysBold_few"><![CDATA[<b>%1$d</b>]]> днів</string>
+  <string name="DaysBold_many"><![CDATA[<b>%1$d</b>]]> днів</string>
+  <string name="DaysBold_other"><![CDATA[<b>%1$d</b>]]> днів</string>
   <!--forwarded messages-->
   <string name="ForwardedMessage_zero">%1$d пересланих повідомлень</string>
   <string name="ForwardedMessage_one">Переслане повідомлення</string>
@@ -1187,6 +1354,12 @@
   <string name="ForwardedAudio_few">%1$d переслані голосові повідомлення</string>
   <string name="ForwardedAudio_many">%1$d пересланих голосових повідомлень</string>
   <string name="ForwardedAudio_other">%1$d пересланих голосових повідомлень</string>
+  <string name="ForwardedRound_zero">%1$d пересланих відео-повідомлень</string>
+  <string name="ForwardedRound_one">Переслане відео-повідомлення</string>
+  <string name="ForwardedRound_two">%1$d пересланих відео-повідомлень</string>
+  <string name="ForwardedRound_few">%1$d пересланих відео-повідомлень</string>
+  <string name="ForwardedRound_many">%1$d пересланих відео-повідомлень</string>
+  <string name="ForwardedRound_other">%1$d пересланих відео-повідомлень</string>
   <string name="ForwardedLocation_zero">%1$d пересланих розташувань</string>
   <string name="ForwardedLocation_one">Переслане розташування</string>
   <string name="ForwardedLocation_two">%1$d переслані розташування</string>
@@ -1212,6 +1385,7 @@
   <string name="AndOther_many">й %1$d інших</string>
   <string name="AndOther_other">й %1$d інших</string>
   <!--date formatters-->
+  <string name="formatterStats24H">МММ дд рррр, ГГ:хх</string>
   <string name="formatterMonthYear">MMMM yyyy</string>
   <string name="formatterMonth">dd MMM</string>
   <string name="formatterYear">dd.MM.yy</string>
