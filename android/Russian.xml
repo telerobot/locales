@@ -327,6 +327,8 @@
   <string name="Typing">печатает…</string>
   <string name="IsTyping">печатает…</string>
   <string name="AreTyping">печатают…</string>
+  <string name="IsRecordingAudio">%1$s записывает голосовое сообщение...</string>
+  <string name="IsRecordingRound">%1$s записывает видеосообщение...</string>
   <string name="IsSendingAudio">%1$s отправляет аудио...</string>
   <string name="IsSendingPhoto">%1$s отправляет фото...</string>
   <string name="InstantView">ЧИТАТЬ ДАЛЬШЕ</string>

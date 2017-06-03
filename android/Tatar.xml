@@ -331,12 +331,17 @@
   <string name="Typing">яза...</string>
   <string name="IsTyping">яза...</string>
   <string name="AreTyping">яза...</string>
+  <string name="IsRecordingAudio">%1$s тавышлы хат яздыра...</string>
+  <string name="IsRecordingRound">%1$s видеохат яздыра...</string>
   <string name="IsSendingAudio">%1$s аудио җибәрә...</string>
   <string name="IsSendingPhoto">%1$s фото җибәрә...</string>
   <string name="InstantView">ТУЛЫСЫНЧА УКУ</string>
+  <string name="InstantViewNightMode">Төңге вакытта караңгы тема үзе куелачак</string>
   <string name="IsSendingGame">%1$s уен уйный...</string>
   <string name="IsSendingVideo">%1$s видео җибәрә...</string>
   <string name="IsSendingFile">%1$s файл җибәрә...</string>
+  <string name="RecordingAudio">тавышлы хат яздыра...</string>
+  <string name="RecordingRound">видеохат яздыра...</string>
   <string name="SendingAudio">аудио җибәрә...</string>
   <string name="SendingPhoto">фото җибәрү...</string>
   <string name="SendingGame">уен уйный...</string>
@@ -838,6 +843,8 @@
   <string name="KeepMedia">Медианы саклау вакыт арасы</string>
   <string name="KeepMediaInfo">Бу вакыт арасында <![CDATA[<b>мөрәҗәгать ителмәгән</b>]]> фото, видео һәм бүтән файллар җайланмагызда хәтерне алмасын өчен бетереләчәкләр.\n\nБөтен файллар Telegram серверларында сакланачаклар һәм кирәклек булганда йөкләнә алачаклар.</string>
   <string name="KeepMediaForever">Гел</string>
+  <string name="AudioAutodownload">Тавышлы хатлар</string>
+  <string name="VideoMessagesAutodownload">Видеохатлар</string>
   <!--sessions view-->
   <string name="SessionsTitle">Актив сессияләр</string>
   <string name="CurrentSession">Әлеге сеанс</string>
