@@ -335,6 +335,7 @@
   <string name="IsSendingGame">%1$s сейчас играет...</string>
   <string name="IsSendingVideo">%1$s отправляет видео...</string>
   <string name="IsSendingFile">%1$s отправляет файл...</string>
+  <string name="RecordingRound">записывает видеосообщение...</string>
   <string name="SendingAudio">отправляет аудио...</string>
   <string name="SendingPhoto">отправка фото...</string>
   <string name="SendingGame">сейчас играет...</string>
