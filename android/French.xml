@@ -741,7 +741,7 @@
   <string name="Enabled">Activé</string>
   <string name="Disabled">Désactivé</string>
   <string name="NotificationsService">Service Garder-en-vie</string>
-  <string name="NotificationsServiceInfo">Redémarrer l\'application lorsqu\'elle est arrêtée par un utilisateur ou par le système. Cela garantit que l\'application puisse afficher les notifications.</string>
+  <string name="NotificationsServiceInfo">Relancer l\'application lorsqu\'elle est arrêtée par un utilisateur ou par le système. Cela garantit que l\'application puisse afficher les notifications.</string>
   <string name="NotificationsServiceConnection">Connexion en arrière-plan</string>
   <string name="NotificationsServiceConnectionInfo">Utilise une connexion en arrière-plan vers Telegram consommant peu d\'énergie pour recevoir les notifications. Activez pour des notifications fiables.</string>
   <string name="SortBy">Trier par</string>
