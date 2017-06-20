@@ -2,9 +2,9 @@
 <resources>
   <string name="AppName">Telegram</string>
   <string name="AppNameBeta">Telegram Beta</string>
-  <string name="LanguageName">Anglais</string>
-  <string name="LanguageNameInEnglish">Anglais</string>
-  <string name="LanguageCode">en</string>
+  <string name="LanguageName">Français</string>
+  <string name="LanguageNameInEnglish">English</string>
+  <string name="LanguageCode">fr</string>
   <!--signin view-->
   <string name="YourPhone">Votre téléphone</string>
   <string name="StartText">Confirmez votre indicatif national et entrez votre numéro de téléphone</string>
