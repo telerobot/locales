@@ -3,7 +3,7 @@
   <string name="AppName">Telegram</string>
   <string name="AppNameBeta">Telegram Beta</string>
   <string name="LanguageName">Français</string>
-  <string name="LanguageNameInEnglish">English</string>
+  <string name="LanguageNameInEnglish">Français</string>
   <string name="LanguageCode">fr</string>
   <!--signin view-->
   <string name="YourPhone">Votre téléphone</string>

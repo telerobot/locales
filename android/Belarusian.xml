@@ -76,6 +76,7 @@
   <string name="PaymentTestInvoice">ТЭСТАВЫ ЧЭК</string>
   <string name="PaymentCheckoutPay">АПЛАЦІЦЬ %1$s</string>
   <string name="PaymentCheckoutMethod">Метад аплаты</string>
+  <string name="PaymentCheckoutProvider">Варыянты аплаты</string>
   <string name="PaymentCheckoutName">Імя</string>
   <string name="PaymentCheckoutPhoneNumber">Нумар тэлефону</string>
   <string name="PaymentCheckoutEmail">Кантактны адрас</string>
@@ -327,12 +328,17 @@
   <string name="Typing">піша...</string>
   <string name="IsTyping">піша...</string>
   <string name="AreTyping">пішуць...</string>
+  <string name="IsRecordingAudio">%1$sзапісвае галасавое паведамленне...</string>
+  <string name="IsRecordingRound">%1$s запісвае відэа паведамленне...</string>
   <string name="IsSendingAudio">%1$s адпраўляе аўдыязапіс...</string>
   <string name="IsSendingPhoto">%1$s адпраўляе выяву...</string>
   <string name="InstantView">Хуткi прагляд</string>
+  <string name="InstantViewNightMode">Цёмная тэма зменіцца аўтаматычна ў начны час</string>
   <string name="IsSendingGame">%1$s гуляе ў гульню</string>
   <string name="IsSendingVideo">%1$s адпраўляе відэазапіс...</string>
   <string name="IsSendingFile">%1$s адпраўляе файл...</string>
+  <string name="RecordingAudio">запісвае галасавое паведамленне...</string>
+  <string name="RecordingRound">запісвае відэа паведамленне...</string>
   <string name="SendingAudio">адпраўляе аўдыязапіс...</string>
   <string name="SendingPhoto">адпраўка выявы...</string>
   <string name="SendingGame">гуляе ў гульню</string>
@@ -380,6 +386,7 @@
   <string name="OpenInExternalApp">Адкрыць праз...</string>
   <string name="CopyUrl">Скапіяваць спасылку</string>
   <string name="SendItems">Даслаць %1$s</string>
+  <string name="SendAsFiles">Даслаць як файл</string>
   <string name="OpenUrlAlert">Адкрыць спасылку «%1$s»?</string>
   <string name="BotPermissionGameAlert">Вы сапраўды дазваляеце %1$s перадаваць вашае імя і мянушку ў Тэлеграме (нумар тэлефона не перадаецца) на старонкі Сеціва, якія вы адкрываеце з дапамогай гэтага бота?</string>
   <string name="ReportSpam">ПАСКАРДЗІЦЦА НА СПАМ</string>
@@ -395,6 +402,7 @@
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Больш звестак</string>
   <string name="ShareSendTo">Даслаць…</string>
+  <string name="ShareComment">Напішы свой водгук...</string>
   <string name="TapHereGifs">Даткніцеся, каб адкрыць тэчку з схаванымі анімацыямі</string>
   <string name="PinMessage">Замацаваць</string>
   <string name="PinNotify">Паведаміць усіх удзельнікаў</string>
@@ -433,6 +441,8 @@
   <string name="HoldToVideo">Утрымлівайце, каб зрабіць відэазапіс. Даткніцеся, каб пераключыцца на аўдыязапіс.</string>
   <string name="DiscardVoiceMessageTitle">Скінуць відэазапіс</string>
   <string name="DiscardVoiceMessageDescription">Вы сапраўды жадаеце скончыць і скінуць відэазапіс?</string>
+  <string name="DiscardVideoMessageTitle">Выдаліць  відэа паведамленне</string>
+  <string name="DiscardVideoMessageDescription">Ты сапраўды жадаеш спыніць запіс відэа паведамлення?</string>
   <string name="DiscardVoiceMessageAction">Скінуць</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s усталяваў таймер самазнішчэння на %2$s</string>
@@ -697,7 +707,10 @@
   <string name="ColorGreen">Зялёны</string>
   <string name="ColorCyan">Бірузовы</string>
   <string name="ColorWhite">Белы</string>
+  <string name="ColorSepia">Сепія</string>
+  <string name="ColorDark">Цёмная</string>
   <string name="ColorPink">Ружовы</string>
+  <string name="FontSize">Памер шрыфту</string>
   <string name="ColorViolet">Фіялетавы</string>
   <string name="ColorOrange">Аранжавы</string>
   <string name="NotificationsLedInfo">LED – невялічкая лямпачка на некаторых устройствах, якую можна скарыстаць для апавяшчэнняў аб новых паведамленнях.</string>
@@ -820,6 +833,8 @@
   <string name="KeepMedia">Пакінуць медыя</string>
   <string name="KeepMediaInfo">Выявы, відэа і іншыя файлы з «воблачных» размоў, у якія вы <![CDATA[<b>не заходзілі</b>]]> апошнім часам, будуць выдаленыя з гэтага ўстройства, каб захаваць дыскавую прастору.\n\nУсё медыя застанецца на «воблаку» Тэлеграма і можа быць перапампаванае, калі вам гэта спатрэбіцца.</string>
   <string name="KeepMediaForever">Назаўсёды</string>
+  <string name="AudioAutodownload">Галасавыя паведамленні</string>
+  <string name="VideoMessagesAutodownload">Відэа паведамленні</string>
   <!--sessions view-->
   <string name="SessionsTitle">Актыўныя сэсіі</string>
   <string name="CurrentSession">Бягучая сэсія</string>
@@ -1018,6 +1033,11 @@
   <string name="PrivacySettings">Прыватнасць і бяспека</string>
   <string name="PrivacyTitle">Прыватнасць</string>
   <string name="PrivacyLastSeen">Бачнасць апошняй актыўнасці</string>
+  <string name="PrivacyPayments">Аплата</string>
+  <string name="PrivacyPaymentsClear">Выдаліць інфармацыю аб выплаце &amp;amp</string>
+  <string name="PrivacyPaymentsClearInfo">Ты можаш выдаліць дадзеныя даставы, выдаліць захаваныя крэдытныя карты. Звярні ўвагу на тое, што Telegram ніколі не захоўвае дадзеныя крэдытнае карткі.</string>
+  <string name="PrivacyClearShipping">Звесткі для даставы</string>
+  <string name="PrivacyClearPayment">Плацежныя звесткі</string>
   <string name="LastSeenEverybody">Усе</string>
   <string name="LastSeenContacts">Мае кантакты</string>
   <string name="LastSeenNobody">Ніхто</string>
