@@ -88,7 +88,6 @@
   <string name="PaymentFailed">Выбачайце, але не атрымалася выканаць плацеж.</string>
   <string name="PaymentConnectionFailed">Немагчыма падлучыцца да сервера плацяжоў. Калі ласка, праверце вашае злучэнне з Інтэрнэтам і паспрабуйце яшчэ раз.</string>
   <string name="PaymentWarning">Увага</string>
-  <string name="PaymentWarningText">Плацяжы ідуць напрамую да распрацоўніка %1$s, таму Тэлеграм не можа іх забяспечыць і не дае ніякіх гарантый. Працягваючы, вы бераце на сябе ўсю адказнасць. У выпадку ўзнікнення праблем звяжыцеся з распрацоўнікам %2$s ці вашым банкам.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Новая размова</string>
   <string name="Settings">Налады</string>
@@ -142,8 +141,6 @@
   <string name="Italic">Курсіўны</string>
   <string name="Regular">Звычайны</string>
   <!--channels-->
-  <string name="GroupType">Тып суполкі</string>
-  <string name="ChannelType">Тып канала</string>
   <string name="ChannelTypePublic">Публічны</string>
   <string name="ChannelTypePrivate">Прыватны</string>
   <string name="SetAsAdmin">Прызначыць кіраўніком</string>
@@ -178,7 +175,6 @@
   <string name="ActionPinnedMusic">un1 замацаваў(-ла) песню</string>
   <string name="ActionMigrateFromGroup">Гэтая суполка была ператворана ў суперсуполку</string>
   <string name="ActionMigrateFromGroupNotify">%1$s была ператворана ў суперсуполку</string>
-  <string name="NoBlockedGroup">Заблакаваныя карыстальнікі выдаляюцца з суполкі і могуць вярнуцца толькі ў тым выпадку, калі іх запросіць кіраўнік. Спасылкі-запрашэнні для іх не працуюць.</string>
   <string name="NewChannel">Новы канал</string>
   <string name="EnterChannelName">Назва канала</string>
   <string name="AddMutual">Дадаць кантакты ў канал</string>
@@ -220,7 +216,6 @@
   <string name="LinkChecking">Праверка назвы... </string>
   <string name="LinkAvailable">Назва «%1$s» даступная. </string>
   <string name="ChannelMembers">Удзельнікі </string>
-  <string name="ChannelBlockedUsers">Заблакаваныя карыстальнікі</string>
   <string name="ChannelAdministrators">Кіраўнікі</string>
   <string name="ChannelDelete">Выдаліць канал</string>
   <string name="ChannelDeleteMenu">Выдаліць канал</string>
@@ -236,7 +231,6 @@
   <string name="ActionChannelRemovedPhoto">Выява канала выдалена</string>
   <string name="ActionChannelChangedTitle">Назва канала была зменена на un2</string>
   <string name="ChangePublicLimitReached">Выбачайце, але вы занялі зашмат публічных мянушак. Вы можаце абнуліць адну з мянушак з вашых старых суполак ці каналаў.</string>
-  <string name="ChannelModerator">Мадэратар</string>
   <string name="ChannelCreator">Стваральнік</string>
   <string name="ChannelEditor">Кіраўнік</string>
   <string name="ChannelMute">ВЫКЛЮЧЫЦЬ АПАВЯШЧЭННІ</string>
@@ -244,7 +238,6 @@
   <string name="ChannelAddAdmin">Дадаць кіраўніка</string>
   <string name="ChannelInviteViaLink">Запрасіць праз спасылку</string>
   <string name="ChannelAddUserAdminAlert">Вы сапраўды жадаеце прызначыць %1$s кіраўніком?</string>
-  <string name="ChannelRemoveUserAdmin">Разжалаваць</string>
   <string name="ChannelMembersInfo">Толькі кіраўнікі канала могуць бачыць гэты спіс.</string>
   <string name="ChannelAdminNotParticipant">Гэты карыстальнік яшчэ не далучыўся да канала. Жадаеце запрасіць яго?</string>
   <string name="ChannelLinkInfo">Кожны карыстальнік Тэлеграма зможа далучыцца да вашага канала, перайшоўшы па гэтай спасылцы. </string>
@@ -297,6 +290,7 @@
   <string name="ChannelNotifyMembersInfoOff">Удзельнікі не будуць апавешчаныя аб новых паведамленнях</string>
   <string name="ChannelSignMessages">Падпісваць паведамленні</string>
   <string name="ChannelSignMessagesInfo">Пазначаць імя кіраўніка пад дасланымі ім паведамленнямі.</string>
+  <!--event log-->
   <!--broadcasts-->
   <string name="NewBroadcastList">Новы спіс рассылкі</string>
   <string name="EnterListName">Увядзіце імя спіса</string>
@@ -606,7 +600,6 @@
   <string name="EncryptionKey">Ключ шыфравання</string>
   <string name="MessageLifetime">Таймер самазнішчэння</string>
   <string name="ShortMessageLifetimeForever">Выкл</string>
-  <string name="EncryptionKeyDescription">Гэтыя выява і тэкст рэпрэзэнтуюць ключ шыфравання для сакрэтнай размовы з <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Калі яны выглядаюць гэтак жа на ўстройстве <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]>, то мы гарантуем вам шыфраванне з-канца-ў-канец.<![CDATA[<br><br>]]>Дазнайцеся больш на telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="TapToEmojify">Перавесці ў эмодзі</string>
   <string name="NumberUnknown">Невядомы</string>
@@ -620,14 +613,12 @@
   <string name="UsernameInvalidShort">Мянушка павінна складацца сама менш з 5 сімвалаў.</string>
   <string name="UsernameInvalidLong">Мянушка не павінна быць даўжэйшай за 32 сімвалы.</string>
   <string name="UsernameInvalidStartNumber">Выбачайце, але мянушка не можа пачынацца з лічбы.</string>
-  <string name="UsernameHelp">Вы можаце абраць мянушку ў <![CDATA[<b>]]>Тэлеграме<![CDATA[</b>]]>. Калі вы зробіце гэтак, іншыя карыстальнікі змогуць знайсці вас па гэтай мянушцы і звязацца з вамі, не выкарыстоўваючы ваш нумар тэлефону.<![CDATA[<br><br>]]>Вы можаце выкарыстоўваць <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> і ніжняе падкрэсліванне. Мінімальная даўжыня — <![CDATA[<b>]]>5<![CDATA[</b>]]> сімвалаў.</string>
   <string name="UsernameHelpLink">Гэтая спасылка адкрые размову з вамі ў Тэлеграме:\n%1$s</string>
   <string name="UsernameChecking">Праверка мянушкі…</string>
   <string name="UsernameAvailable">«%1$s» даступная. </string>
   <string name="UsernameEmpty">Няма</string>
   <string name="ErrorOccurred">Адбылася памылка.</string>
   <!--stickers view-->
-  <string name="Stickers">Налепкі</string>
   <string name="AddStickers">Дадаць налепкі</string>
   <string name="AddMasks">Дадаць маскі</string>
   <string name="AddToStickers">Дадаць у налепкі</string>
@@ -734,7 +725,6 @@
   <string name="ContactJoined">Кантакт далучыўся да Тэлеграма</string>
   <string name="PinnedMessages">Замацаваныя паведамленні</string>
   <string name="Language">Мова</string>
-  <string name="AskAQuestionInfo">Звярніце ўвагу, што падтрымка Тэлеграма ажыццяўляецца добраахвотнікамі. Мы стараемся адказваць як мага хутчэй, але гэта можа заняць час.<![CDATA[<br><br>]]>Калі ласка, зазірніце ў <![CDATA[<a href="https://telegram.org/faq#general">ЧаПы Тэлеграма</a>]]>: там ёсць адказы на большасць пытанняў і парады па выпраўленні <![CDATA[<a href="https://telegram.org/faq#troubleshooting">хібнасцей</a>]]>.</string>
   <string name="AskButton">Спытацца ў добраахвотніка</string>
   <string name="TelegramFaq">ЧаПы Тэлеграма</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -898,8 +888,6 @@
   <string name="SaveToGallery">Захаваць у галерэю</string>
   <string name="Of">%1$d з %2$d</string>
   <string name="Gallery">Галерэя</string>
-  <string name="AllPhotos">Усе выявы</string>
-  <string name="AllVideo">Усе відэа</string>
   <string name="NoPhotos">Пакуль няма выяў</string>
   <string name="NoVideo">Пакуль што няма відэа</string>
   <string name="PleaseDownload">Калі ласка, спярша спампуйце медыя</string>
@@ -1242,13 +1230,6 @@
   <string name="Page5Title">Моцны</string>
   <string name="Page6Title">Воблачны</string>
   <string name="Page7Title">Прыватны</string>
-  <string name="Page1Message"><![CDATA[<b>Найхутчэйшы</b> месенджар у свеце.<br/><b>Бясплатны</b> і <b>бяспечны</b>.]]></string>
-  <string name="Page2Message"><![CDATA[<b>Тэлеграм</b> дастаўляе паведамленні<br/>хутчэй за любую іншую праграму.]]></string>
-  <string name="Page3Message"><![CDATA[<b>Тэлеграм</b> бясплатны назаўсёды.<br/>Без рэкламы і платы за падпіску.]]></string>
-  <string name="Page4Message"><![CDATA[<b>Тэлеграм</b>]]> засцерагае паведамленні<![CDATA[<br/>]]>ад хакерскіх атак.</string>
-  <string name="Page5Message"><![CDATA[<b>Тэлеграм</b>]]> не мае абмежаванняў на памер<![CDATA[<br/>]]>медыя-файлаў і размоў.</string>
-  <string name="Page6Message"><![CDATA[<b>Тэлеграм</b> дазваляе даступацца<br/>да паведамленняў з некалькіх прылад.]]></string>
-  <string name="Page7Message"><![CDATA[Паведамленні <b>Тэлеграма</b> грунтоўна<br/>зашыфраваныя і могуць сама-знішчацца.]]></string>
   <string name="StartMessaging">Пачаць абменьвацца паведамленнямі</string>
   <!--VoIP-->
   <string name="AccountSettings">Налады ўліковага запіса</string>
@@ -1291,7 +1272,6 @@
   <string name="CallMessageOutgoingMissed">Адмоўлены выклік</string>
   <string name="CallMessageIncomingDeclined">Скінуты выклік</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
-  <string name="CallEncryptionKeyDescription">Гэтыя выява і тэкст рэпрэзэнтуюць ключ шыфравання для сакрэтнай размовы з <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Калі яны выглядаюць гэтак жа на ўстройстве <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]>, то мы гарантуем вам шыфраванне з-канца-ў-канец.</string>
   <string name="NoCallLog">Вы пакуль што не рабілі выклікаў.</string>
   <string name="VoipPeerIncompatible">Праграма гэтага карыстальніка (<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>) ужывае несумяшчальны пратакол. Яму або ёй трэба абнавіць сваю праграму, каб мець магчымасць прымаць выклікі.</string>
   <string name="VoipPeerOutdated">Праграма гэтага карыстальніка (<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>) не падтрымлівае функцыю выклікаў. Яму або ёй трэба абнавіць сваю праграму, каб мець магчымасць прымаць выклікі.</string>
@@ -1311,12 +1291,6 @@
   <string name="CallNotAvailable">Даруйце, але <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> не прымае выклікі.</string>
   <string name="CallEmojiKeyTooltip">Калі эмодзі на экране %1$s такія жа, то выклік абаронены на 100%%.</string>
   <!--plural-->
-  <string name="Online_zero">%1$d тут</string>
-  <string name="Online_one">%1$d тут</string>
-  <string name="Online_two">%1$d тут</string>
-  <string name="Online_few">%1$d тут</string>
-  <string name="Online_many">%1$d тут</string>
-  <string name="Online_other">%1$d тут</string>
   <string name="Members_zero">%1$d удзельнікаў</string>
   <string name="Members_one">%1$d удзельнік</string>
   <string name="Members_two">%1$d удзельнікі</string>

@@ -79,8 +79,6 @@
   <string name="Draft">Qoralama</string>
   <string name="HistoryCleared">Suhbat tozalandi</string>
   <!--channels-->
-  <string name="GroupType">Guruh turi</string>
-  <string name="ChannelType">Kanal turi</string>
   <string name="ChannelTypePublic">Umumiy</string>
   <string name="ChannelTypePrivate">Shaxsiy</string>
   <string name="SetAsAdmin">Administrator etib tayinlash</string>
@@ -113,7 +111,6 @@
   <string name="ActionPinnedMusic">un1 audio yozuvni qadab qoydi</string>
   <string name="ActionMigrateFromGroup">Ushbu guruh super guruh darajasiga oshirildi</string>
   <string name="ActionMigrateFromGroupNotify">%1$s super guruh darajasiga oshirildi</string>
-  <string name="NoBlockedGroup">Qora ro\'yxatga kiritilgan foydalanuvchilar guruhdan chiqarib yuboriladi va ular faqatgina administrator taklifi bilan guruhga qayta oladilar. Taklif qiluvhi havolalar bunday foydalanuvchilar uchun ishlamaydi.</string>
   <string name="NewChannel">Kanal yaratish</string>
   <string name="EnterChannelName">Kanal nomi</string>
   <string name="AddMutual">Kontaktlarni o\'z kanalingizga qo\'shish</string>
@@ -155,7 +152,6 @@
   <string name="LinkChecking">Gurug nomi tekshirilmoqda...</string>
   <string name="LinkAvailable">%1$s mavjud.</string>
   <string name="ChannelMembers">A\'zolar</string>
-  <string name="ChannelBlockedUsers">Bloklangan foydalanuvchilar</string>
   <string name="ChannelAdministrators">Administratorlar</string>
   <string name="ChannelDelete">Kanalni o\'chirish</string>
   <string name="ChannelDeleteMenu">Kanalni o\'chirish</string>
@@ -171,7 +167,6 @@
   <string name="ActionChannelRemovedPhoto">Kanal rasmi o\'chirildi</string>
   <string name="ActionChannelChangedTitle">Kanal nomi un2 ga o\'zgartirildi</string>
   <string name="ChangePublicLimitReached">Kechirasiz, siz juda ko\'p ommaviy havolalar yaratdingiz. Ulardan birini o\'chirishga yoki guruhingiz yoki kanalingizni shaxsiyga aylantirishga urinib ko\'ring.</string>
-  <string name="ChannelModerator">Moderator</string>
   <string name="ChannelCreator">Muallif</string>
   <string name="ChannelEditor">Administrator</string>
   <string name="ChannelMute">OVOZSIZ</string>
@@ -179,7 +174,6 @@
   <string name="ChannelAddAdmin">Administratorni qo\'shish</string>
   <string name="ChannelInviteViaLink">Havola orqali taklif qilish</string>
   <string name="ChannelAddUserAdminAlert"> %1$sni administrator qilib tayinlamoqchi ekaningizga ishonchingiz komilmi?</string>
-  <string name="ChannelRemoveUserAdmin">O‘chirib tashlash</string>
   <string name="ChannelMembersInfo">Ushbu ro\'yxatni faqatgina kanal administratorlari ko\'rishlari mumkin.</string>
   <string name="ChannelAdminNotParticipant">Ushbu foydalanuvshi hali kanalga obuna bo\'lmagan. Uni kanalga taklif etishni istaysizmi?</string>
   <string name="ChannelLinkInfo">Telegram tarmog\'ida mavjud bo\'lgan istalgan kishi ushbu havola orqali sizning kanalingizga obuna bo\'lishi mumkin.</string>
@@ -230,6 +224,7 @@
   <string name="ChannelNotifyMembersInfoOff">Foydalanuvchilar yangi xabarlar haqida xabardor qilinmaydi</string>
   <string name="ChannelSignMessages">Xabarlarni imzolamoq</string>
   <string name="ChannelSignMessagesInfo">Xabarlarga ularni yuborayotgan administratorlar ismini qo\'shmoq.</string>
+  <!--event log-->
   <!--broadcasts-->
   <string name="NewBroadcastList">Yangi xabar tarqatish</string>
   <string name="EnterListName">Ro‘yxat nomini kiriting</string>
@@ -500,7 +495,6 @@
   <string name="EncryptionKey">Shifrlash kaliti</string>
   <string name="MessageLifetime">O‘z-o‘zini yo‘q qilish vaqti</string>
   <string name="ShortMessageLifetimeForever">O‘chirilgan</string>
-  <string name="EncryptionKeyDescription">Bu tasvir va matn — <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> bilan maxfiy suhbat uchun shifrlangan kalitning vizual ko\'rinishidir.<![CDATA[<br><br>]]>Agar <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> ning qurilmasida xuddi shunday tasvir va matn ko\'rinayotgan bo\'lsa, suhbatning himoyalanganligi kafolatlanadi.<![CDATA[<br><br>]]>Batafsil ma’lumot telegram.org saytida</string>
   <string name="EncryptionKeyLink">https://tlgrm.ru/faq#secret-chats</string>
   <string name="NumberUnknown">Noma\'lum</string>
   <string name="Info">Ma\'lumot</string>
@@ -513,13 +507,11 @@
   <string name="UsernameInvalidShort">Login kamida 5 ta belgidan iborat bo\'lishi shart.</string>
   <string name="UsernameInvalidLong">Login 32 ta belgidan oshmasligi shart.</string>
   <string name="UsernameInvalidStartNumber">Uzr, login raqam bilan boshlanmasligi kerak.</string>
-  <string name="UsernameHelp">Siz <![CDATA[<b>]]>Telegramda<![CDATA[</b>]]> o\'zingiz uchun yagona bo\'lgan foydalanuvchi nomi tanlashingiz mumkin. Shunda boshqa insonlar sizning telefon raqamingizni bilmasa ham, sizni shu foydalanuvchi nomi orqali topa olishi va siz bilan aloqa qilishi mumkin bo\'ladi.<![CDATA[<br><br>]]>Siz <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> va tagiga chizilgan belgilarni ishlatishingiz mumkin. Minimal uzunligi <![CDATA[<b>]]>5<![CDATA[</b>]]> ta belgi.</string>
   <string name="UsernameChecking">Login tekshirilmoqdau2026</string>
   <string name="UsernameAvailable">%1$s mavjud.</string>
   <string name="UsernameEmpty">Hech narsa</string>
   <string name="ErrorOccurred">Xatolik yuz berdi.</string>
   <!--stickers view-->
-  <string name="Stickers">Stikerlar</string>
   <string name="AddStickers">Stikerlarni qo‘shis</string>
   <string name="AddMasks">Niqoblash</string>
   <string name="AddToStickers">Stikerlarga qo‘shish</string>
@@ -587,7 +579,6 @@
   <string name="ContactJoined">Kontakt Telegramga a’zo bo‘ldi</string>
   <string name="PinnedMessages">Qadalgan Xabarlar</string>
   <string name="Language">Til</string>
-  <string name="AskAQuestionInfo">Iltimos, unutmang, Telegramni qo\'llab-quvvatlash ko\'ngillilar tomonidan amalga oshiriladi. Biz sizga imkon darajada tezroq javob berishga harakat qilamiz, lekin bu bir oz vaqt talab qilishi mumkin.<![CDATA[<br><br>]]>Iltimos, <![CDATA[<a href="https://telegram.org/faq#general">Telegram savol-javoblar</a>]]>ga qarang: unda ko\'plab savollarga javoblar va <![CDATA[<a href="https://telegram.org/faq#troubleshooting">muammolarni hal qilish</a>]]> uchun muhim maslahatlar bor.</string>
   <string name="AskButton">Ko‘ngilli yordamchidan so‘rash</string>
   <string name="TelegramFaq">Telegram savol-javob</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -729,8 +720,6 @@
   <string name="SaveToGallery">Galereyaga saqlash</string>
   <string name="Of">%1$d / %2$d</string>
   <string name="Gallery">Galereya</string>
-  <string name="AllPhotos">Barcha rasmlar</string>
-  <string name="AllVideo">Barcha videolar</string>
   <string name="NoPhotos">Hozircha rasmlar yo‘q</string>
   <string name="NoVideo">Videolar yo‘q</string>
   <string name="PleaseDownload">Iltimos, avval mediafaylni ko‘chiring</string>
@@ -1034,22 +1023,9 @@
   <string name="Page5Title">Kuchli</string>
   <string name="Page6Title">Bulutga asoslangan</string>
   <string name="Page7Title">Maxfiy</string>
-  <string name="Page1Message">Dunyodagi <![CDATA[<b>eng tezkor</b>]]> xabar almashinuv ilovasi.<![CDATA[<br/>]]>U <![CDATA[<b>bepul</b>]]> va <![CDATA[<b>xavfsizdir</b>]]>.</string>
-  <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> xabarlarni boshqa har qanday<![CDATA[<br/>]]> ilovadan ko‘ra tezroq yetkazadi.</string>
-  <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> har doim bepul. Hech qanday reklamalarsiz.<![CDATA[<br/>]]>Hech qanday obuna to‘lovlarisiz.</string>
-  <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> xabarlaringizni xakerlar hujumidan<![CDATA[<br/>]]>xavfsiz saqlaydi.</string>
-  <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> media fayllar va suhbatlar<![CDATA[<br/>]]>hajmini cheklamaydi.</string>
-  <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> xabarlarga bir nechta qurilmadan<![CDATA[<br/>]]>kirish imkonini beradi.</string>
-  <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> xabarlari kuchli shifrlanadi<![CDATA[<br/>]]> va o‘zini o‘zi yo‘q qila oladi.</string>
   <string name="StartMessaging">Muloqotni boshlash</string>
   <!--VoIP-->
   <!--plural-->
-  <string name="Online_zero">%1$d onlayn</string>
-  <string name="Online_one">%1$d onlayn</string>
-  <string name="Online_two">%1$d onlayn</string>
-  <string name="Online_few">%1$d onlayn</string>
-  <string name="Online_many">%1$d onlayn</string>
-  <string name="Online_other">%1$d onlayn</string>
   <string name="Members_zero">%1$d ta a’zo</string>
   <string name="Members_one">%1$d ta a’zo</string>
   <string name="Members_two">%1$d ta a’zo</string>

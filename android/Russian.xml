@@ -89,7 +89,6 @@
   <string name="PaymentFailed">К сожалению, ваш платёж был отклонён.</string>
   <string name="PaymentConnectionFailed">Не удалось связаться с платёжным сервером. Пожалуйста, проверьте соединение с интернетом и повторите попытку.</string>
   <string name="PaymentWarning">Внимание</string>
-  <string name="PaymentWarningText">Все платежи будут отправлены напрямую разработчику %1$s. Telegram не предоставляет никаких гарантий: продолжайте на свой страх и риск. В случае возникновения проблем, пожалуйста, обратитесь к разработчику %2$s или в свой банк.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Новый диалог</string>
   <string name="Settings">Настройки</string>
@@ -141,8 +140,6 @@
   <string name="Italic">Курсив</string>
   <string name="Regular">Обычный</string>
   <!--channels-->
-  <string name="GroupType">Тип группы</string>
-  <string name="ChannelType">Тип канала</string>
   <string name="ChannelTypePublic">Публичный</string>
   <string name="ChannelTypePrivate">Приватный</string>
   <string name="SetAsAdmin">Назначить администратором</string>
@@ -177,7 +174,6 @@
   <string name="ActionPinnedMusic">un1 прикрепил аудиозапись</string>
   <string name="ActionMigrateFromGroup">Эта группа была преобразована в супергруппу</string>
   <string name="ActionMigrateFromGroupNotify">%1$s преобразована в супергруппу</string>
-  <string name="NoBlockedGroup">Пользователи, занесённые в чёрный список, будут удалены из группы и смогут вернуться только по приглашению администратора. Пригласительные ссылки для них не работают.</string>
   <string name="NewChannel">Создать канал</string>
   <string name="EnterChannelName">Название</string>
   <string name="AddMutual">Добавить ваши контакты на канал</string>
@@ -219,7 +215,6 @@
   <string name="LinkChecking">Проверка доступности…</string>
   <string name="LinkAvailable">имя %1$s доступно</string>
   <string name="ChannelMembers">Участники</string>
-  <string name="ChannelBlockedUsers">Чёрный список</string>
   <string name="ChannelAdministrators">Администраторы</string>
   <string name="ChannelDelete">Удалить канал</string>
   <string name="ChannelDeleteMenu">Удалить канал</string>
@@ -235,7 +230,6 @@
   <string name="ActionChannelRemovedPhoto">Фото канала удалено</string>
   <string name="ActionChannelChangedTitle">Имя канала изменено на un2</string>
   <string name="ChangePublicLimitReached">К сожалению, вы создали слишком много публичных ссылок. Вам нужно удалить одну из ссылок в вашем канале или группе.</string>
-  <string name="ChannelModerator">Модератор</string>
   <string name="ChannelCreator">Создатель</string>
   <string name="ChannelEditor">Администратор</string>
   <string name="ChannelMute">ОТКЛЮЧИТЬ УВЕДОМЛЕНИЯ</string>
@@ -243,7 +237,6 @@
   <string name="ChannelAddAdmin">Добавить администратора</string>
   <string name="ChannelInviteViaLink">Пригласить по ссылке</string>
   <string name="ChannelAddUserAdminAlert">Уверены, что хотите назначить %1$s администратором?</string>
-  <string name="ChannelRemoveUserAdmin">Удалить</string>
   <string name="ChannelMembersInfo">Только администраторы канала могут видеть этот список.</string>
   <string name="ChannelAdminNotParticipant">Этот пользователь пока ещё не подписан на этот канал. Пригласить его?</string>
   <string name="ChannelLinkInfo">Любой пользователь Telegram сможет присоединиться к вашему каналу, проследовав по этой ссылке.</string>
@@ -296,6 +289,7 @@
   <string name="ChannelNotifyMembersInfoOff">Подписчикам не придёт уведомление о новом сообщении</string>
   <string name="ChannelSignMessages">Подписывать сообщения</string>
   <string name="ChannelSignMessagesInfo">Добавлять к сообщениям имя администратора, который их опубликовал.</string>
+  <!--event log-->
   <!--broadcasts-->
   <string name="NewBroadcastList">Новая рассылка</string>
   <string name="EnterListName">Введите название рассылки</string>
@@ -602,7 +596,6 @@
   <string name="EncryptionKey">Ключ шифрования</string>
   <string name="MessageLifetime">Таймер самоуничтожения</string>
   <string name="ShortMessageLifetimeForever">Отключён</string>
-  <string name="EncryptionKeyDescription">Это изображение и текст — визуализация ключа шифрования для этого секретного чата c пользователем <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Если на устройстве пользователя <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> отображаются идентичные текст и изображание, то оконечное шифрование между вами безопасно.<![CDATA[<br><br>]]>Узнайте больше на telegram.org</string>
   <string name="EncryptionKeyLink">https://tlgrm.ru/faq#secret-chats</string>
   <string name="TapToEmojify">Отобразить в виде смайлов</string>
   <string name="NumberUnknown">Неизвестен</string>
@@ -616,14 +609,12 @@
   <string name="UsernameInvalidShort">Имя пользователя должно содержать минимум 5 символов.</string>
   <string name="UsernameInvalidLong">Имя пользователя не должно содержать более 32 символов.</string>
   <string name="UsernameInvalidStartNumber">К сожалению, имя пользователя не может начинаться с цифры.</string>
-  <string name="UsernameHelp">Вы можете задать себе уникальное <![CDATA[<b>]]>имя пользователя<![CDATA[</b>]]> – тогда другие люди смогут находить вас по нему и связываться с вами, <![CDATA[<b>]]>не зная<![CDATA[</b>]]> номера вашего телефона.<![CDATA[<br><br>]]>Разрешены <![CDATA[<b>]]>цифры<![CDATA[</b>]]>, символы <![CDATA[<b>]]>a-z<![CDATA[</b>]]> и <![CDATA[<b>]]>подчёркивания<![CDATA[</b>]]>. Минимальная длина: 5 символов.</string>
   <string name="UsernameHelpLink">Эта ссылка откроет чат с вами в Telegram:\n%1$s</string>
   <string name="UsernameChecking">Проверка имени пользователя…</string>
   <string name="UsernameAvailable">Имя пользователя %1$s доступно.</string>
   <string name="UsernameEmpty">Не задано</string>
   <string name="ErrorOccurred">Произошла ошибка.</string>
   <!--stickers view-->
-  <string name="Stickers">Стикеры</string>
   <string name="AddStickers">Добавить стикеры</string>
   <string name="AddMasks">Добавить маски</string>
   <string name="AddToStickers">Добавить в стикеры</string>
@@ -728,7 +719,6 @@
   <string name="ContactJoined">Контакт присоединился к Telegram</string>
   <string name="PinnedMessages">Прикреплённые сообщения</string>
   <string name="Language">Язык</string>
-  <string name="AskAQuestionInfo">Пожалуйста, имейте в виду, что поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но, возможно, придётся подождать. <![CDATA[<br><br>]]>Вы также можете прочитать <![CDATA[<a href="https://tlgrm.ru/faq#general">ответы на часто задаваемые вопросы</a>]]> и <![CDATA[<a href="https://telegram.org/faq#troubleshooting">решения проблем</a>]]>.</string>
   <string name="AskButton">Спросить добровольца</string>
   <string name="TelegramFaq">Вопросы и ответы о Telegram</string>
   <string name="TelegramFaqUrl">https://tlgrm.ru/faq</string>
@@ -890,8 +880,6 @@
   <string name="SaveToGallery">Сохранить в галерею</string>
   <string name="Of">%1$d из %2$d</string>
   <string name="Gallery">Галерея</string>
-  <string name="AllPhotos">Все фото</string>
-  <string name="AllVideo">Все видео</string>
   <string name="NoPhotos">Фото пока нет</string>
   <string name="NoVideo">Нет видео</string>
   <string name="PleaseDownload">Сначала загрузите медиа</string>
@@ -1238,13 +1226,6 @@
   <string name="Page5Title">Мощный</string>
   <string name="Page6Title">Облачный</string>
   <string name="Page7Title">Приватный</string>
-  <string name="Page1Message"><![CDATA[Самый <b>быстрый</b> мессенджер в мире.<br/>А ещё <b>бесплатный</b> и <b>безопасный</b>.]]></string>
-  <string name="Page2Message"><![CDATA[<b>Telegram</b> доставляет сообщения быстрее, чем<br/>любое другое приложение.]]></string>
-  <string name="Page3Message"><![CDATA[<b>Telegram</b> бесплатный навсегда. Без рекламы.<br/>Без абонентской платы.]]></string>
-  <string name="Page4Message"><![CDATA[<b>Telegram</b> хранит ваши сообщения в безопасности<br/>от хакерских атак.]]></string>
-  <string name="Page5Message"><![CDATA[<b>Telegram</b> не имеет ограничений на размер<br/>ваших файлов и чатов.]]></string>
-  <string name="Page6Message"><![CDATA[<b>Telegram</b> позволяет вам получать доступ к вашим сообщениям<br/>на множестве устройств.]]></string>
-  <string name="Page7Message"><![CDATA[Все сообщения в <b>Telegram</b> надёжно зашифрованы<br/>и могут самоуничтожаться.]]></string>
   <string name="StartMessaging">Начать общение</string>
   <!--VoIP-->
   <string name="AccountSettings">Настройки профиля</string>
@@ -1287,7 +1268,6 @@
   <string name="CallMessageOutgoingMissed">Отменённый вызов</string>
   <string name="CallMessageIncomingDeclined">Отклонённый вызов</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
-  <string name="CallEncryptionKeyDescription">Это изображение и текст — визуализация ключа шифрования для этого разговора c <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Если на устройстве пользователя <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> отображаются идентичные текст и изображание, то оконечное шифрование между вами безопасно.</string>
   <string name="NoCallLog">Вы пока никому не звонили.</string>
   <string name="VoipPeerIncompatible">К сожалению, приложение у <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> устарело и не может принимать звонки.</string>
   <string name="VoipPeerOutdated">К сожалению, приложение у <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> не поддерживает звонки. Этому пользователю нужно обновить приложение, чтобы вы смогли ему позвонить.</string>
@@ -1307,12 +1287,6 @@
   <string name="CallNotAvailable">К сожалению, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> не принимает звонки.</string>
   <string name="CallEmojiKeyTooltip">Если у %1$s отображаются точно такие же смайлы, то этот звонок на 100%% безопасен.</string>
   <!--plural-->
-  <string name="Online_zero">%1$d в сети</string>
-  <string name="Online_one">%1$d в сети</string>
-  <string name="Online_two">%1$d в сети</string>
-  <string name="Online_few">%1$d в сети</string>
-  <string name="Online_many">%1$d в сети</string>
-  <string name="Online_other">%1$d в сети</string>
   <string name="Members_zero">%1$d участников</string>
   <string name="Members_one">%1$d участник</string>
   <string name="Members_two">%1$d участника</string>

@@ -5,6 +5,7 @@
   <string name="LanguageName">Veneto Deca</string>
   <string name="LanguageNameInEnglish">Venetian</string>
   <string name="LanguageCode">vec</string>
+  <string name="ContinueOnThisLanguage">Continua in Veneto</string>
   <!--signin view-->
   <string name="YourPhone">El to tełèfono</string>
   <string name="StartText">Conferma el prefiso nasionałe e insarisi el to nùmaro de tełèfono.</string>
@@ -88,7 +89,6 @@
   <string name="PaymentFailed">Ne despiaze, el pagamento el ze stà refudà.</string>
   <string name="PaymentConnectionFailed">A no semo mìa boni de contatar el server par el pagamento. Controła ła to conesion internet e prova danovo.</string>
   <string name="PaymentWarning">Avertensa</string>
-  <string name="PaymentWarningText">I pagamenti i ghe ndarà diretamente a\\'l zviłupador de %1$s. Telegram no ła fornise njauna garansia, donca i trasferiminti i sarà a to riscio e perìgoło. In cazo de problemi, contata el zviłupador de %2$s o ła to banca.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Convarsasion nova</string>
   <string name="Settings">Inpostasion</string>
@@ -140,8 +140,6 @@
   <string name="Italic">Corsivo</string>
   <string name="Regular">Normałe</string>
   <!--channels-->
-  <string name="GroupType">Tipo de grupo</string>
-  <string name="ChannelType">Tipo de canałe</string>
   <string name="ChannelTypePublic">Pùblego</string>
   <string name="ChannelTypePrivate">Privà</string>
   <string name="SetAsAdmin">Promovi aministrador</string>
@@ -176,7 +174,6 @@
   <string name="ActionPinnedMusic">un1 L ga picà insima un àudio</string>
   <string name="ActionMigrateFromGroup">\'Sto grupo el ze stà mejorà in supargrupo</string>
   <string name="ActionMigrateFromGroupNotify">%1$s L ze stà mejorà in supargrupo</string>
-  <string name="NoBlockedGroup">I utenti blocài i vien cavài via da\'l grupo e l\'ùnega manjera che A se ga par farli tornar rento danovo, ła ze co l\'invito direto de un aministrador. I link de invito no łi funsiona mìa pì co łuri.</string>
   <string name="NewChannel">Canałe novo</string>
   <string name="EnterChannelName">Nome de\'l canałe</string>
   <string name="AddMutual">Zonta contati so\'l to canałe</string>
@@ -218,7 +215,6 @@
   <string name="LinkChecking">Verìfega de\'l nome...</string>
   <string name="LinkAvailable">%1$s el ze disponìbiłe.</string>
   <string name="ChannelMembers">Menbri</string>
-  <string name="ChannelBlockedUsers">Utenti blocài</string>
   <string name="ChannelAdministrators">Aministradori</string>
   <string name="ChannelDelete">Ełìmena canałe</string>
   <string name="ChannelDeleteMenu">Ełìmena canałe</string>
@@ -234,7 +230,6 @@
   <string name="ActionChannelRemovedPhoto">Foto de\'l canałe ełimenada</string>
   <string name="ActionChannelChangedTitle">Nome de\'l canałe canbià co un2</string>
   <string name="ChangePublicLimitReached">Ne despiaze, A te ghè za reservà masa nomi utente pùbleghi. Deso A te połi soło revogar el link da uno de i to grupi o canałi veci, o crear entidà privàe.</string>
-  <string name="ChannelModerator">Moderador</string>
   <string name="ChannelCreator">Creador</string>
   <string name="ChannelEditor">Aministrador</string>
   <string name="ChannelMute">SIŁENSIA</string>
@@ -242,7 +237,6 @@
   <string name="ChannelAddAdmin">Zonta aministrador</string>
   <string name="ChannelInviteViaLink">Invita co un link</string>
   <string name="ChannelAddUserAdminAlert">Vutu davero promóvar %1$s cofà aministrador?</string>
-  <string name="ChannelRemoveUserAdmin">Cava via</string>
   <string name="ChannelMembersInfo">Soło i aministradori de\'l canałe i połe védar \'sta łista.</string>
   <string name="ChannelAdminNotParticipant">\'Sto utente no\'l se ga njancora zontà inte\'l canałe. Vutu invitarlo?</string>
   <string name="ChannelLinkInfo">Tute łe parsone che łe ga Telegram instałà łe sarà bone de zontarse inte\'l to canałe ndàndoghe drio a \'sto link.</string>
@@ -295,6 +289,7 @@
   <string name="ChannelNotifyMembersInfoOff">Łe to publegasion no łe venjarà notifegàe a nesuni</string>
   <string name="ChannelSignMessages">Firma mesaji</string>
   <string name="ChannelSignMessagesInfo">Zonta i nomi de i aministradori so i mesaji che i pùblega.</string>
+  <!--event log-->
   <!--broadcasts-->
   <string name="NewBroadcastList">Łista de trazmision nova</string>
   <string name="EnterListName">Insarisi el nome de ła łista</string>
@@ -603,7 +598,6 @@
   <string name="EncryptionKey">Ciave de criptasion</string>
   <string name="MessageLifetime">Timer de autodestrusion</string>
   <string name="ShortMessageLifetimeForever">Dezativà</string>
-  <string name="EncryptionKeyDescription">\'Sta imàjine e \'sto testo i riva da ła ciave de criptasion de \'sta chat segreta co <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Se i ze guałivi inte\'l dispozitivo de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, ła criptasion d\'in cao s\'in cao ła ze garantìa.<![CDATA[<br><br>]]>Par savèrghine de pì va so telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq/it#chat-segrete</string>
   <string name="TapToEmojify">Toca par emojifegar</string>
   <string name="NumberUnknown">Mìa conosùo</string>
@@ -617,14 +611,12 @@
   <string name="UsernameInvalidShort">El nome utente el ga da ver almanco 5 caràtari.</string>
   <string name="UsernameInvalidLong">El nome utente no\'l ga mìa da ndar sora i 32 caràtari.</string>
   <string name="UsernameInvalidStartNumber">Ne despiaze, el nome utente no\'l połe mìa tacar co un nùmaro.</string>
-  <string name="UsernameHelp">A te połi sernir un nome utente so <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>. Se A te ło fè, cheł\'altre parsone łe sarà bone de catarte co \'sto nome utente e contatarte sensa saver el to nùmaro de tełèfono.<![CDATA[<br><br>]]>A te połi doparar <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> e _. Ła łonghesa mìnema ła ze de <![CDATA[<b>]]>5<![CDATA[</b>]]> caràtari.</string>
   <string name="UsernameHelpLink">\'Sto link el verze na chat co ti so Telegram:\\n%1$s</string>
   <string name="UsernameChecking">Verìfega de\'l nome utente...</string>
   <string name="UsernameAvailable">%1$s el ze disponìbiłe.</string>
   <string name="UsernameEmpty">Njaun</string>
   <string name="ErrorOccurred">A se ga verifegà un eror.</string>
   <!--stickers view-->
-  <string name="Stickers">Figurete</string>
   <string name="AddStickers">Zonta figurete</string>
   <string name="AddMasks">Zonta màscare</string>
   <string name="AddToStickers">Zonta infra łe figurete</string>
@@ -730,7 +722,6 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="ContactJoined">Un contato el se gà zontà so Telegram!</string>
   <string name="PinnedMessages">Mesaji picài insima</string>
   <string name="Language">Łengua</string>
-  <string name="AskAQuestionInfo">Serca de capir che el suporto de Telegram el ze portà vanti da vołontari. A sercaremo de incontentar tuti pì in presa che podemo, ma A podarìa vołerghe un fià.<![CDATA[<br><br>]]>Daghe pur na ociada inte łe <![CDATA[<a href="https://telegram.org/faq/it#domande-generali">dimande frecuenti de Telegram</a>]]> par catar fora ła parte pì granda de łe resposte e conseji inportanti par <![CDATA[<a href="https://telegram.org/faq/it#risoluzione-dei-problemi">resòlvar problemi</a>]]>.</string>
   <string name="AskButton">Dimanda</string>
   <string name="TelegramFaq">Dimande frecuenti de Telegram</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq/it</string>
@@ -894,8 +885,6 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="SaveToGallery">Salva inte ła gałerìa</string>
   <string name="Of">%1$d de %2$d</string>
   <string name="Gallery">Gałerìa</string>
-  <string name="AllPhotos">Tute łe foto</string>
-  <string name="AllVideo">Tuti i video</string>
   <string name="NoPhotos">Njancora njauna foto</string>
   <string name="NoVideo">Njancora njaun video</string>
   <string name="PleaseDownload">Prima de tuto descarga un media</string>
@@ -1238,13 +1227,6 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="Page5Title">Potente</string>
   <string name="Page6Title">Co ła nùvoła</string>
   <string name="Page7Title">Privà</string>
-  <string name="Page1Message">L\'app de mesaji <![CDATA[<b>pì ràpida</b>]]> de\'l mondo.<![CDATA[<br/>]]>Ła ze <![CDATA[<b>agratis</b>]]> e <![CDATA[<b>segura</b>]]>.<![CDATA[<br/>]]>Tradusion: Academia Łengua Veneta</string>
-  <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> el consenja i mesaji pì<![CDATA[<br/>]]>rapidamente de calsìase altra aplegasion.</string>
-  <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> el ze agratis par senpre.<![CDATA[<br/>]]>Njauna publisidà. Njaun costo de abonamento.</string>
-  <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> el tien a\'l seguro i to mesaji <![CDATA[<br/>]]>da atachi hacker.</string>
-  <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> no\'l te dà łìmiti de ła grandesa<![CDATA[<br/>]]>par łe to chat e i to media.</string>
-  <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> el te parmete l\'aceso<![CDATA[<br/>]]>a i to mesaji da pì dispozitivi.</string>
-  <string name="Page7Message">I mesaji de <![CDATA[<b>Telegram</b>]]> i ze criptài de bruto<![CDATA[<br/>]]>e i połe autodestrùzarse.</string>
   <string name="StartMessaging">Taca mesajar</string>
   <!--VoIP-->
   <string name="AccountSettings">Inpostasion account</string>
@@ -1287,7 +1269,6 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="CallMessageOutgoingMissed">Ciamada anułà</string>
   <string name="CallMessageIncomingDeclined">Ciamada refudà</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
-  <string name="CallEncryptionKeyDescription">\'Sta imàjine e \'sto testo i riva da ła ciave de criptasion de \'sta \'sta ciamada co <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Se i ze guałivi inte\'l dispozitivo de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, ła criptasion d\'in cao s\'in cao ła ze garantìa.</string>
   <string name="NoCallLog">A no te ghè fazesto njancora njauna ciamada.</string>
   <string name="VoipPeerIncompatible">L\'app de <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ła ze drio doparar un protocoło mìa conpatìbiłe. L\'utente el ga da ajornarla prima de poderlo ciamar.</string>
   <string name="VoipPeerOutdated">L\'app de <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> no ła suporta mìa łe ciamàe. L\'utente el ga da ajornarla prima de poderlo ciamar.</string>
@@ -1307,12 +1288,6 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="CallNotAvailable">Ne despiaze, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> no L vołe mìa ciapar ciamade.</string>
   <string name="CallEmojiKeyTooltip">Se i dizenjeti so\'l schermo de %1$s i ze guałivi, \'sta ciamada ła ze segura a\'l 100%%.</string>
   <!--plural-->
-  <string name="Online_zero">%1$d in łinea</string>
-  <string name="Online_one">%1$d in łinea</string>
-  <string name="Online_two">%1$d in łinea</string>
-  <string name="Online_few">%1$d in łinea</string>
-  <string name="Online_many">%1$d in łinea</string>
-  <string name="Online_other">%1$d in łinea</string>
   <string name="Members_zero">%1$d menbri</string>
   <string name="Members_one">%1$d menbro</string>
   <string name="Members_two">%1$d menbri</string>

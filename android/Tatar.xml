@@ -89,7 +89,6 @@
   <string name="PaymentFailed">Гафу итегез, түләвегез кире кагылды.</string>
   <string name="PaymentConnectionFailed">Түләү серверы белән тоташып булмады. Зинһар, интернет белән тоташуны тикшерегез һәм кабат эшләп карагыз.</string>
   <string name="PaymentWarning">Игътибар</string>
-  <string name="PaymentWarningText">Бөтен түләүләр турыга %1$s ясаучысына җибәреләчәкләр. Telegram бернинди дә гарантия бирми: үзегез теләгәнчә эшләгез. Проблемалар барлыкка килсә %2$s ясаучысына яисә үзегезнең банкка мөрәҗәгать итегез.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Яңа әңгәмә</string>
   <string name="Settings">Көйләүләр</string>
@@ -145,8 +144,6 @@
   <string name="Italic">Курсив</string>
   <string name="Regular">Гадәти</string>
   <!--channels-->
-  <string name="GroupType">Төркем төре</string>
-  <string name="ChannelType">Канал төре</string>
   <string name="ChannelTypePublic">Ачык</string>
   <string name="ChannelTypePrivate">Шәхси</string>
   <string name="SetAsAdmin">Администраторга тәкъдим итү</string>
@@ -181,7 +178,6 @@
   <string name="ActionPinnedMusic">un1 трек беркетте</string>
   <string name="ActionMigrateFromGroup">Бу төркем супертөркемгә әйләндерелде</string>
   <string name="ActionMigrateFromGroupNotify">%1$s супертөркемгә әйләндерелде</string>
-  <string name="NoBlockedGroup">Бикләнгән кулланучылар төркемнән чыгарылдылар һәм администратор чакыруы буенча гына кире кайта алачаклар. Чакыручы сылтамалар алар өчен эшләмиләр.</string>
   <string name="NewChannel">Яңа канал</string>
   <string name="EnterChannelName">Канал исеме</string>
   <string name="AddMutual">Каналыгызга контактлар өстәү</string>
@@ -223,7 +219,6 @@
   <string name="LinkChecking">Исемне тикшерү...</string>
   <string name="LinkAvailable">%1$s мөмкин.</string>
   <string name="ChannelMembers">Катнашучылар</string>
-  <string name="ChannelBlockedUsers">Бикләнгән кулланучылар</string>
   <string name="ChannelAdministrators">Администраторлар</string>
   <string name="ChannelDelete">Каналны бетерү</string>
   <string name="ChannelDeleteMenu">Каналны бетерү</string>
@@ -239,7 +234,6 @@
   <string name="ActionChannelRemovedPhoto">Канал фотосы бетерелде</string>
   <string name="ActionChannelChangedTitle">Канал исеме un2 үзгәртелде</string>
   <string name="ChangePublicLimitReached">Гафу итегез, сез бик күп ачык сылтамалар ясадыгыз. Сез булган каналларны һәм төркемнәрне бетерә яисә аларны шәхси ясый аласыз.</string>
-  <string name="ChannelModerator">Модератор</string>
   <string name="ChannelCreator">Ясаучы</string>
   <string name="ChannelEditor">Администратор</string>
   <string name="ChannelMute">СҮНДЕРҮ</string>
@@ -247,7 +241,6 @@
   <string name="ChannelAddAdmin">Администратор өстәү</string>
   <string name="ChannelInviteViaLink">Сылтама аша өстәү</string>
   <string name="ChannelAddUserAdminAlert">Сез %1$s администратор итеп билгеләргә телисезме?</string>
-  <string name="ChannelRemoveUserAdmin">Бетерү</string>
   <string name="ChannelMembersInfo">Бу исемлекне администраторлар гына карый ала.</string>
   <string name="ChannelAdminNotParticipant">Бу кулланучы бу каналга язылмаган әле. Аны чакырыргамы?</string>
   <string name="ChannelLinkInfo">Telegram урнаштырган һәркем бу сылтама аша каналыгызга кушыла ала.</string>
@@ -300,6 +293,7 @@
   <string name="ChannelNotifyMembersInfoOff">Язылучыларга яңа хат турында белгертү килмәячәк</string>
   <string name="ChannelSignMessages">Хатларны имзалау</string>
   <string name="ChannelSignMessagesInfo">Җибәрелгән хатларга җибәрүче администратор исемен өстәү</string>
+  <!--event log-->
   <!--broadcasts-->
   <string name="NewBroadcastList">Яңа хатлар тарату</string>
   <string name="EnterListName">Хатлар таратуның исемен кертегез</string>
@@ -616,7 +610,6 @@
   <string name="EncryptionKey">Шифрлау ачкычы</string>
   <string name="MessageLifetime">Үз-үзен бетерү вакыты</string>
   <string name="ShortMessageLifetimeForever">Сүнгән</string>
-  <string name="EncryptionKeyDescription">Бу сурәт һәм текст <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысы белән булган яшерен чатның шифрлау ачкычын күрсәтә. Әгәр бу сурәт һәм текст <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> кулланучысының җайланмасындагы сүрәткә һәм текстка туры килсә, сезнең аралашу якланган була. <![CDATA[<br><br>]]> Тулырак: telegram.org</string>
   <string name="EncryptionKeyLink">https://tlgrm.ru/faq#secret-chats</string>
   <string name="TapToEmojify">Смайликлар итеп күрсәтү</string>
   <string name="NumberUnknown">Билгесез</string>
@@ -630,14 +623,12 @@
   <string name="UsernameInvalidShort">Кулланучы исеме минимум 5 билгедән торырга тиеш.</string>
   <string name="UsernameInvalidLong">Кулланучының исеме 32 билгедән артык булырга тиеш түгел.</string>
   <string name="UsernameInvalidStartNumber">Кызганычка каршы, кулланучының исеме саннан башлана алмый.</string>
-  <string name="UsernameHelp"><![CDATA[Сез үзегезгә <b>Telegramда</b> кулланучы исемен сайлый аласыз. Моны эшләгәч, башка кешеләр, телефон номерыгызны белмичә дә, сезне эзләп табып, сезнең белән бәйләнешкә керә алачак.<br><br>Кулланучы исеме латин хәрефләреннән генә <b>(a–z)</b>, саннар <b>(0–9)</b> һәм ассызык билгеләреннән генә тора ала. Минималь булган озынлык — <b>5</b> билге.]]></string>
   <string name="UsernameHelpLink">Бу сылтама сезнең белән Telegramда чат ача:\n%1$s</string>
   <string name="UsernameChecking">Кулланучы исемен тикшерү...</string>
   <string name="UsernameAvailable">%1$s кулланучы исеме буш.</string>
   <string name="UsernameEmpty">Бирелмәгән</string>
   <string name="ErrorOccurred">Хата булды.</string>
   <!--stickers view-->
-  <string name="Stickers">Стикерлар</string>
   <string name="AddStickers">Стикерлар өстәү</string>
   <string name="AddMasks">Битлекләр өстәү</string>
   <string name="AddToStickers">Стикерларга өстәү</string>
@@ -742,7 +733,6 @@
   <string name="ContactJoined">Контакт Telegramга кушылды</string>
   <string name="PinnedMessages">Беркетелгән хатлар</string>
   <string name="Language">Тел</string>
-  <string name="AskAQuestionInfo">Игътибар итегез, Telegramның ярдәме волонтерлар тарафыннан башкарыла. Без мөмкин кадәр тизрәк җавап бирергә тырышырбыз, әмма моңа вакыт таләп ителергә мөмкин.<![CDATA[<br><br>]]>Зинһар, Telegram турында сораулар һәм җаваплар белән танышып китегез: <![CDATA[<a href=\"https://tlgrm.ru/faq\">монда сорауларга җаваплар</a>]]> һәм <![CDATA[<a href=\"http://telegram.org/faq#troubleshooting\">җитешсезлекләрне бетерү өчен</a> мөһим киңәшләр бирелә.]]></string>
   <string name="AskButton">Волонтердан сорау</string>
   <string name="TelegramFaq">Telegram FAQ</string>
   <string name="TelegramFaqUrl">https://tlgrm.ru/faq</string>
@@ -910,8 +900,6 @@
   <string name="SaveToGallery">Галереяда саклау</string>
   <string name="Of">%1$d дән %2$d</string>
   <string name="Gallery">Галерея</string>
-  <string name="AllPhotos">Бөтен фото</string>
-  <string name="AllVideo">Бөтен видео</string>
   <string name="NoPhotos">Фото әлегә юк</string>
   <string name="NoVideo">Видео юк</string>
   <string name="PleaseDownload">Башта медианы йөкләгез</string>
@@ -1260,13 +1248,6 @@
   <string name="Page5Title">Көчле</string>
   <string name="Page6Title">Болытлы</string>
   <string name="Page7Title">Шәхсилек</string>
-  <string name="Page1Message"><![CDATA[Дөньяда <b>иң тиз</b> мессенджер.<br/>Ә тагын <b>түләүсез</b> һәм <b>куркынычсыз</b>.]]></string>
-  <string name="Page2Message"><![CDATA[<b>Telegram башка кушымталарга караганда</b> хатларны тизрәк тапшыра<br/>.]]></string>
-  <string name="Page3Message"><![CDATA[<b>Telegram</b> бөтенләйгә бушка. Рекламасыз.<br/>Абонент түләүләре юк.]]></string>
-  <string name="Page4Message"><![CDATA[<b>Telegram</b> Хатларыгызны хакерлар һөҗүменнән яхшылап саклый<br/>.]]></string>
-  <string name="Page5Message"><![CDATA[<b>Telegramда сезнең файлларның һәм чатларның</b> зурлыгына чикләү юк<br/>.]]></string>
-  <string name="Page6Message"><![CDATA[<b>Telegram күп җайланмаларда</b> хатларыгызга керү мөмкинлеге бирә<br/>.]]></string>
-  <string name="Page7Message"><![CDATA[Бөтен хатлар <b>Telegramда</b> яхшы шифрланганнар<br/>һәм үз-үзләрен бетерә алалар.]]></string>
   <string name="StartMessaging">Хатны башлау</string>
   <!--VoIP-->
   <string name="AccountSettings">Аккаунт көйләүләре</string>
@@ -1309,7 +1290,6 @@
   <string name="CallMessageOutgoingMissed">Кире кагылган шалтырату</string>
   <string name="CallMessageIncomingDeclined">Кире кагылган шалтырату</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
-  <string name="CallEncryptionKeyDescription">Бу сурәт һәм текст <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысы белән булган сөйләшүнең шифрлау ачкычын күрсәтә. Әгәр бу сурәт һәм текст <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> кулланучысының җайланмасындагы сүрәткә һәм текстка туры килсә, сезнең аралашу якланган була. <![CDATA[<br><br>]]></string>
   <string name="NoCallLog">Сез беркемгә дә шалтыратмадыгыз әле.</string>
   <string name="VoipPeerIncompatible"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысының кушымтасы искергән һәм шалтыратулар кабул итә алмый. Бу кулланучы кушымтаны яңарткач кына сез аңа шалтырата алачаксыз. </string>
   <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысының кушымтасы шалтыратулар кабул итә алмый. Бу кулланучы кушымтаны яңарткач кына сез аңа шалтырата алачаксыз.</string>
@@ -1329,12 +1309,6 @@
   <string name="CallNotAvailable">Гафу итегез, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> шалтыратулар кабул итми.</string>
   <string name="CallEmojiKeyTooltip">Әгәр %1$s кулланучысында шундый ук смайликлар күрсәтелсә, шалтырату 100%%ка якланган.</string>
   <!--plural-->
-  <string name="Online_zero">%1$d челтәрдә</string>
-  <string name="Online_one">%1$d челтәрдә</string>
-  <string name="Online_two">%1$d челтәрдә</string>
-  <string name="Online_few">%1$d челтәрдә</string>
-  <string name="Online_many">%1$d челтәрдә</string>
-  <string name="Online_other">%1$d челтәрдә</string>
   <string name="Members_zero">%1$d катнашучы</string>
   <string name="Members_one">%1$d катнашучы</string>
   <string name="Members_two">%1$d катнашучы</string>

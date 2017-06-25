@@ -94,7 +94,6 @@ Możesz anulować ten proces w każdej chwili.</string>
   <string name="PaymentFailed">Płatność została odrzucona.</string>
   <string name="PaymentConnectionFailed">Nie można nawiązać połączenia z serwerem płatności. Sprawdź połączenie z internetem i spróbuj ponownie.</string>
   <string name="PaymentWarning">Ostrzeżenie</string>
-  <string name="PaymentWarningText">Płatności trafią bezpośrednio do twórcy bota %1$s. Telegram nie może zapewnić żadnych gwarancji, więc kontynuujesz na własne ryzyko. W razie problemów skontaktuj się z twórcą bota %2$s lub ze swoim bankiem.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Nowa konwersacja</string>
   <string name="Settings">Ustawienia</string>
@@ -150,8 +149,6 @@ Gdy użytkownik %2$s zaktualizuje Telegram, zdjęcia z czasem wyświetlania poni
   <string name="Italic">Kursywa</string>
   <string name="Regular">Regularny</string>
   <!--channels-->
-  <string name="GroupType">Typ grupy</string>
-  <string name="ChannelType">Typ kanału</string>
   <string name="ChannelTypePublic">Publiczny</string>
   <string name="ChannelTypePrivate">Prywatny</string>
   <string name="SetAsAdmin">Promuj na administratora</string>
@@ -186,7 +183,6 @@ Gdy użytkownik %2$s zaktualizuje Telegram, zdjęcia z czasem wyświetlania poni
   <string name="ActionPinnedMusic">Użytkownik un1 przypiął nagranie</string>
   <string name="ActionMigrateFromGroup">Grupa ta została zmieniona na super grupę</string>
   <string name="ActionMigrateFromGroupNotify">Grupa %1$s została zmieniona na super grupę</string>
-  <string name="NoBlockedGroup">Zablokowani użytkownicy zostali usunięci z grupy i mogą do niej powrócić tylko po zaproszeniu przez administratora. Zaproszenia w formie linku nie działają dla nich.</string>
   <string name="NewChannel">Nowy kanał</string>
   <string name="EnterChannelName">Nazwa kanału</string>
   <string name="AddMutual">Dodaj kontakty do kanału</string>
@@ -228,7 +224,6 @@ Gdy użytkownik %2$s zaktualizuje Telegram, zdjęcia z czasem wyświetlania poni
   <string name="LinkChecking">Sprawdzam nazwę…</string>
   <string name="LinkAvailable">Użytkownik %1$s jest dostępny.</string>
   <string name="ChannelMembers">Członkowie</string>
-  <string name="ChannelBlockedUsers">Zablokowani użytkownicy</string>
   <string name="ChannelAdministrators">Administratorzy</string>
   <string name="ChannelDelete">Usuń kanał</string>
   <string name="ChannelDeleteMenu">Usuń kanał</string>
@@ -250,7 +245,6 @@ Jeśli cię to nie interesuje, proponujemy utworzenie prywatnego kanału.</strin
   <string name="ActionChannelRemovedPhoto">Usunięto zdjęcie kanału</string>
   <string name="ActionChannelChangedTitle">Zmieniono nazwę kanału na un2</string>
   <string name="ChangePublicLimitReached">Masz zarezerwowanych zbyt wiele publicznych nazw użytkownika. Możesz unieważnić link jednej ze swoich starszych grup lub kanałów, lub utworzyć prywatny byt.</string>
-  <string name="ChannelModerator">Moderator</string>
   <string name="ChannelCreator">Twórca</string>
   <string name="ChannelEditor">Administrator</string>
   <string name="ChannelMute">WYŁĄCZ POWIADOMIENIA</string>
@@ -258,7 +252,6 @@ Jeśli cię to nie interesuje, proponujemy utworzenie prywatnego kanału.</strin
   <string name="ChannelAddAdmin">Dodaj administratora</string>
   <string name="ChannelInviteViaLink">Zaproś poprzez link</string>
   <string name="ChannelAddUserAdminAlert">Czy na pewno chcesz ustanowić %1$s administratorem?</string>
-  <string name="ChannelRemoveUserAdmin">Usuń</string>
   <string name="ChannelMembersInfo">Tylko administratorzy kanału widzą tę listę.</string>
   <string name="ChannelAdminNotParticipant">Ten użytkownik nie dołączył jeszcze do kanału. Czy chcesz go zaprosić?</string>
   <string name="ChannelLinkInfo">Każdy kto ma zainstalowany Telegram będzie mógł dołączyć do twojego kanału za pomocą tego linku.</string>
@@ -311,6 +304,7 @@ Jeśli cię to nie interesuje, proponujemy utworzenie prywatnego kanału.</strin
   <string name="ChannelNotifyMembersInfoOff">Członkowie nie będą powiadamiani, gdy piszesz</string>
   <string name="ChannelSignMessages">Podpisuj wiadomości</string>
   <string name="ChannelSignMessagesInfo">Dodaje nazwy administratorów do wiadomości, które oni publikują.</string>
+  <!--event log-->
   <!--broadcasts-->
   <string name="NewBroadcastList">Nowa lista odbiorców</string>
   <string name="EnterListName">Wprowadź nazwę listy</string>
@@ -648,7 +642,6 @@ Aby zwiększyć limit i mieć dostęp do dodatkowych funkcji, należy zmienić g
   <string name="EncryptionKey">Klucz szyfrujący</string>
   <string name="MessageLifetime">Timer autodestrukcji</string>
   <string name="ShortMessageLifetimeForever">Wyłączone</string>
-  <string name="EncryptionKeyDescription">Obrazek i tekst pochodzą z klucza szyfrującego dla tego szyfrowanego czatu z &lt;b&gt;%1$s&lt;/b&gt;.&lt;br&gt;&lt;br&gt;Jeśli wyglądają tak samo na urządzeniu &lt;b&gt;%2$s&lt;/b&gt;, szyfrowanie jest zapewnione.&lt;br&gt;&lt;br&gt;Dowiedz się więcej na stronie telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="NumberUnknown">Nieznany</string>
   <string name="Info">Informacje</string>
@@ -661,7 +654,6 @@ Aby zwiększyć limit i mieć dostęp do dodatkowych funkcji, należy zmienić g
   <string name="UsernameInvalidShort">Nazwa musi mieć co najmniej 5 znaków.</string>
   <string name="UsernameInvalidLong">Nazwa nie może przekroczyć 32 znaków.</string>
   <string name="UsernameInvalidStartNumber">Nazwa nie może zaczynać się od numeru.</string>
-  <string name="UsernameHelp">Możesz wybrać nazwę użytkownika w &lt;b&gt;Telegramie&lt;/b&gt;. Jeśli to zrobisz, inni będą mogli znaleźć cię przez tę nazwę i kontaktować się z tobą nie znając twojego numeru telefonu.&lt;br&gt;&lt;br&gt;Możesz użyć &lt;b&gt;a–z&lt;/b&gt;, &lt;b&gt;0–9&lt;/b&gt; i podkreśleń. Minimalna długość nazwy to &lt;b&gt;5&lt;/b&gt; znaków.</string>
   <string name="UsernameHelpLink">Ten link otwiera czat z tobą w Telegramie:
 %1$s</string>
   <string name="UsernameChecking">Sprawdzanie nazwy użytkownika…</string>
@@ -669,7 +661,6 @@ Aby zwiększyć limit i mieć dostęp do dodatkowych funkcji, należy zmienić g
   <string name="UsernameEmpty">Brak</string>
   <string name="ErrorOccurred">Wystąpił błąd</string>
   <!--stickers view-->
-  <string name="Stickers">Naklejki</string>
   <string name="AddStickers">Dodaj naklejki</string>
   <string name="AddMasks">Dodaj maskę</string>
   <string name="AddToStickers">Dodaj do naklejek</string>
@@ -774,7 +765,6 @@ Aby zwiększyć limit i mieć dostęp do dodatkowych funkcji, należy zmienić g
   <string name="ContactJoined">Kontakt dołączył do Telegramu</string>
   <string name="PinnedMessages">Przypięto wiadomości</string>
   <string name="Language">Język</string>
-  <string name="AskAQuestionInfo">Pomoc dla Telegramu jest udzielana przez wolontariuszy. Postaramy się jak najszybciej odpowiedzieć, ale może to trochę potrwać.&lt;br&gt;&lt;br&gt;Przejdź do &lt;a href=\"https://telegram.org/faq#general\"&gt;często zadawanych pytań&lt;/a&gt;, by sprawdzić czy nie ma odpowiedzi na większość pytań i ważnych wskazówek dotyczących &lt;a href=\"https://telegram.org/faq#troubleshooting\"&gt;rozwiązywania problemów&lt;/a&gt;.</string>
   <string name="AskButton">Zapytaj wolontariusza</string>
   <string name="TelegramFaq">Telegram FAQ</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -948,8 +938,6 @@ Aby funkcja zadziałała, może być konieczność ponownego uruchomienia aplika
   <string name="SaveToGallery">Zapisz w galerii</string>
   <string name="Of">%1$d z %2$d</string>
   <string name="Gallery">Galeria</string>
-  <string name="AllPhotos">Wszystkie zdjęcia</string>
-  <string name="AllVideo">Wszystkie wideo</string>
   <string name="NoPhotos">Nie ma zdjęć</string>
   <string name="NoVideo">Nie ma wideo</string>
   <string name="PleaseDownload">Pobierz najpierw multimedia</string>
@@ -1308,13 +1296,6 @@ Wylogowanie kończy natychmiast wszystkie twoje szyfrowane czaty.</string>
   <string name="Page5Title">Potężny</string>
   <string name="Page6Title">Działający w chmurze</string>
   <string name="Page7Title">Prywatny</string>
-  <string name="Page1Message">&lt;b&gt;Najszybszy&lt;/b&gt; na świecie komunikator.&lt;br/&gt;Jest &lt;b&gt;darmowy&lt;/b&gt; i &lt;b&gt;bezpieczny&lt;/b&gt;.</string>
-  <string name="Page2Message">&lt;b&gt;Telegram&lt;/b&gt; dostarcza wiadomości szybciej niż&lt;br/&gt;jakakolwiek inna aplikacja.</string>
-  <string name="Page3Message">&lt;b&gt;Telegram&lt;/b&gt; jest zawsze darmowy. Bez reklam.&lt;br/&gt;Nie ma opłat abonamentowych.</string>
-  <string name="Page4Message">&lt;b&gt;Telegram&lt;/b&gt; zachowuje twoje wiadomości zabezpieczone&lt;br/&gt;przed atakami hakerów.</string>
-  <string name="Page5Message">&lt;b&gt;Telegram&lt;/b&gt; nie ma ograniczeń rozmiaru&lt;br/&gt;twoich multimediów i czatów.</string>
-  <string name="Page6Message">&lt;b&gt;Telegram&lt;/b&gt; umożliwia dostęp do wiadomości&lt;br/&gt;z wielu urządzeń.</string>
-  <string name="Page7Message">Wiadomości &lt;b&gt;Telegramu&lt;/b&gt; są silnie szyfrowane&lt;br/&gt;i mogą ulegać autodestrukcji.</string>
   <string name="StartMessaging">Uruchom komunikator</string>
   <!--VoIP-->
   <string name="AccountSettings">Ustawienia konta</string>
@@ -1357,7 +1338,6 @@ Wylogowanie kończy natychmiast wszystkie twoje szyfrowane czaty.</string>
   <string name="CallMessageOutgoingMissed">Połączenie anulowane</string>
   <string name="CallMessageIncomingDeclined">Połączenie odrzucone</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
-  <string name="CallEncryptionKeyDescription">Ten obrazek i tekst pochodzą z klucza szyfrującego dla tego połączenia z &lt;b&gt;%1$s&lt;/b&gt;.&lt;br&gt;&lt;br&gt;Jeśli wyglądają tak samo na urządzeniu &lt;b&gt;%2$s&lt;/b&gt;, pełne szyfrowanie jest gwarantowane.</string>
   <string name="NoCallLog">Nie wykonano jeszcze żadnych połączeń.</string>
   <string name="VoipPeerIncompatible">Użytkownik &lt;b&gt;%1$s&lt;/b&gt; korzysta z aplikacji z niekompatybilnym protokołem. Aby móc nawiązywać połączenia, należy zaktualizować tę aplikację.</string>
   <string name="VoipPeerOutdated">Użytkownik &lt;b&gt;%1$s&lt;/b&gt; korzysta z aplikacji nieobsługującej rozmów. Aby móc nawiązywać rozmowy, należy zaktualizować tę aplikację.</string>
@@ -1377,12 +1357,6 @@ Wylogowanie kończy natychmiast wszystkie twoje szyfrowane czaty.</string>
   <string name="CallNotAvailable">Użytkownik &lt;b&gt;%1$s&lt;/b&gt; nie akceptuje połączeń.</string>
   <string name="CallEmojiKeyTooltip">Jeśli te emotikony są takie same na ekranie użytkownika %1$s, połączenie to jest w 100%% bezpieczne.</string>
   <!--plural-->
-  <string name="Online_zero">%1$d online</string>
-  <string name="Online_one">%1$d online</string>
-  <string name="Online_two">%1$d online</string>
-  <string name="Online_few">%1$d online</string>
-  <string name="Online_many">%1$d online</string>
-  <string name="Online_other">%1$d online</string>
   <string name="Members_zero">%1$d członków</string>
   <string name="Members_one">%1$d członek</string>
   <string name="Members_two">%1$d członków</string>

@@ -89,8 +89,6 @@
   <string name="Italic">İtalik</string>
   <string name="Regular">Normal</string>
   <!--channels-->
-  <string name="GroupType">Grup Türü</string>
-  <string name="ChannelType">Kanal Türü</string>
   <string name="ChannelTypePublic">Genel</string>
   <string name="ChannelTypePrivate">Özel</string>
   <string name="SetAsAdmin">Yöneticiliğe yükselt</string>
@@ -124,7 +122,6 @@
   <string name="ActionPinnedMusic">un1 bir parça sabitledi</string>
   <string name="ActionMigrateFromGroup">Bu grup süpergruba yükseltildi</string>
   <string name="ActionMigrateFromGroupNotify">%1$s süpergruba yükseltildi</string>
-  <string name="NoBlockedGroup">Engellenen kullanıcılar gruptan silinirler ve sadece bir yönetici tarafından davet edildiklerinde geri dönebilirler. Davet bağlantıları onlar için çalışmaz.</string>
   <string name="NewChannel">Yeni Kanal</string>
   <string name="EnterChannelName">Kanal adı</string>
   <string name="AddMutual">Kişileri kanalınıza ekleyin</string>
@@ -166,7 +163,6 @@
   <string name="LinkChecking">Ad kontrol ediliyor...</string>
   <string name="LinkAvailable">%1$s uygun.</string>
   <string name="ChannelMembers">Üyeler</string>
-  <string name="ChannelBlockedUsers">Engellenen kullanıcılar</string>
   <string name="ChannelAdministrators">Yöneticiler</string>
   <string name="ChannelDelete">Kanalı Sil</string>
   <string name="ChannelDeleteMenu">Kanalı sil</string>
@@ -181,7 +177,6 @@
   <string name="ActionChannelChangedPhoto">Kanal resmi değiştirildi</string>
   <string name="ActionChannelRemovedPhoto">Kanal resmi kaldırıldı</string>
   <string name="ActionChannelChangedTitle">Kanal ismi un2 olarak değiştirildi.</string>
-  <string name="ChannelModerator">Moderatör</string>
   <string name="ChannelCreator">Sahip</string>
   <string name="ChannelEditor">Yönetici</string>
   <string name="ChannelMute">SESSİZ</string>
@@ -189,7 +184,6 @@
   <string name="ChannelAddAdmin">Yönetici Ekle</string>
   <string name="ChannelInviteViaLink">Link ile davet et.</string>
   <string name="ChannelAddUserAdminAlert">%1$s kullanıcısını yönetici yapmak istediğinİZden emin misinİZ?</string>
-  <string name="ChannelRemoveUserAdmin">Kaldır</string>
   <string name="ChannelMembersInfo">Sadece kanal yöneticileri bu listeyi görebilir.</string>
   <string name="ChannelAdminNotParticipant">Bu kullanıcı henüz bu kanala katılmadı. Davet etmek ister misiniz?</string>
   <string name="ChannelLinkInfo">Telegram kullanan herkes bu linki kullanarak kanalınıza katılabilir.</string>
@@ -240,6 +234,7 @@
   <string name="ChannelNotifyMembersInfoOff">İleti yayınladığınızda üyeler bilgilendirilmeyecek</string>
   <string name="ChannelSignMessages">Giriş Mesajları</string>
   <string name="ChannelSignMessagesInfo">Yöneticilerin isimlerini yayınladıkları mesajlara ekle.</string>
+  <!--event log-->
   <!--broadcasts-->
   <string name="NewBroadcastList">Yeni Yayın Listesi</string>
   <string name="EnterListName">Liste adı girin</string>
@@ -521,7 +516,6 @@ sorunuz mu var?</string>
   <string name="EncryptionKey">Şifreleme Anahtarı</string>
   <string name="MessageLifetime">Kendini imha etme zamanlayıcı</string>
   <string name="ShortMessageLifetimeForever">Kapalı</string>
-  <string name="EncryptionKeyDescription">Bu resim ve yazı <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ile yaptığınız bu gizli sohbet için türetildi.<![CDATA[<br><br>]]>Eğer <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> kişisinin cihazında da aynıysa, noktadan noktaya şifreleme sağlanmış demektir.<![CDATA[<br><br>]]>telegram.org\'da daha fazlasını öğrenin.</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="NumberUnknown">Bilinmeyen</string>
   <string name="Info">Bilgi</string>
@@ -534,15 +528,12 @@ sorunuz mu var?</string>
   <string name="UsernameInvalidShort">Kullanıcı adı en az 5 karakter olmalıdır.</string>
   <string name="UsernameInvalidLong">Kullanıcı adı 32 karakteri geçmemelidir.</string>
   <string name="UsernameInvalidStartNumber">Maalesef, kullanıcı adı bir sayı ile başlayamaz.</string>
-  <string name="UsernameHelp"><![CDATA[<b>Telegram</b> üzerinde bir kullanıcı adı seçebilirsiniz. Eğer seçerseniz, diğer kişiler sizi numaranız olmadan bu kullanıcı adıyla bulabilir ve sizinle iletişime geçebilir. <br><br><b>a–z</b>, <b>0–9</b> ve alt çizgi kullanabilirsiniz. En az <b>5</b> karakter uzunluğunda olmalıdır.
-]]></string>
   <string name="UsernameHelpLink">Bu bağlantı Telegram\'da sizinle bir sohbet başlatır:\n%1$s</string>
   <string name="UsernameChecking">Kullanıcı adı kontrol ediliyor ...</string>
   <string name="UsernameAvailable">%1$s kullanılabilir.</string>
   <string name="UsernameEmpty">Yok</string>
   <string name="ErrorOccurred">Bir hata oluştu.</string>
   <!--stickers view-->
-  <string name="Stickers">Çıkartmalar</string>
   <string name="AddStickers">Çıkartma Ekle</string>
   <string name="AddMasks">Maske Ekle</string>
   <string name="AddToStickers">Çıkartmalara Ekle</string>
@@ -632,7 +623,6 @@ sorunuz mu var?</string>
   <string name="ContactJoined"> Kişi Telegram\'a katıldı!</string>
   <string name="PinnedMessages">Sabitlenen Mesajlar</string>
   <string name="Language">Dil</string>
-  <string name="AskAQuestionInfo">Lütfen unutmayın ki Telegram Desteği gönüllüler tarafında yapılır. Olabildiğince hızlı cevap vermeye çalışıyoruz, ama biraz zaman alabilir.<![CDATA[<br><br>]]>Lütfen bir göz atın <![CDATA[<a href=\"http://telegram.org/faq#general\">Telegram SSS</a>]]>: bir çok sorunun cevapları ve önemli ipuçları için vardır <![CDATA[<a href=\"http://telegram.org/faq#troubleshooting\">sorun giderme</a>]]>.</string>
   <string name="AskButton">Bir gönüllüye sor</string>
   <string name="TelegramFaq">Telegram SSS</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -796,8 +786,6 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="SaveToGallery">Galeriye kaydet</string>
   <string name="Of">%1$d - %2$d</string>
   <string name="Gallery">Galeri</string>
-  <string name="AllPhotos">Tüm Fotoğraflar</string>
-  <string name="AllVideo">Tüm Videolar</string>
   <string name="NoPhotos">Henüz fotoğraf yok</string>
   <string name="NoVideo">Henüz video yok</string>
   <string name="PleaseDownload">Lütfen önce medyayı indirin</string>
@@ -1137,13 +1125,6 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="Page5Title">Güçlü</string>
   <string name="Page6Title">Bulut Tabanlı</string>
   <string name="Page7Title">Özel</string>
-  <string name="Page1Message"><![CDATA[Dünya\'nın <b>en hızlı</b> mesajlaşma uygulaması.<br/><b>Ücretsiz</b> ve <b>güvenlidir</b>.]]></string>
-  <string name="Page2Message"><![CDATA[<b>Telegram</b> mesajları diğer uygulamalardan<br/>daha hızlı ulaştırır.]]></string>
-  <string name="Page3Message"><![CDATA[<b>Telegram</b> her zaman ücretsizdir.<br/>Abonelik ücreti yoktur.]]></string>
-  <string name="Page4Message"><![CDATA[<b>Telegram</b> mesajlarınızı hacker saldırılarından<br/> güvenle saklar.]]></string>
-  <string name="Page5Message"><![CDATA[<b>Telegram</b> medya ve sohbetleriniz için<br/> limit koymaz.]]></string>
-  <string name="Page6Message"><![CDATA[<b>Telegram<b> mesajlarınıza birden çok cihazdan<br/>ulaşmanıza imkan tanır.]]></string>
-  <string name="Page7Message"><![CDATA[<b>Telegram</b> mesajları güçlü bir şekilde şifrelenmiştir<br/> ve kendini yok edebilir.]]></string>
   <string name="StartMessaging">Mesajlaşmaya Başlayın</string>
   <!--VoIP-->
   <string name="AccountSettings">Hesap Ayarları</string>
@@ -1185,19 +1166,12 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="CallMessageIncomingMissed">Cevapsız Arama</string>
   <string name="CallMessageOutgoingMissed">Kapatılan Arama</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
-  <string name="CallEncryptionKeyDescription">Bu resim ve yazı <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ile yaptığınız bu arama için türetildi.<![CDATA[<br><br>]]>Eğer <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> kişisinin cihazında da aynıysa, noktadan noktaya şifreleme sağlanmış demektir.</string>
   <string name="NoCallLog">Henüz hiç arama yapmadınız.</string>
   <string name="VoipPeerIncompatible"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> uygulaması uyumsuz bir protokol kullanıyor. Arama yapabilmeniz için uygulamasını güncellemesi gerekiyor.</string>
   <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> uygulaması aramaları desteklemiyor. Arama yapabilmeniz için uygulamasını güncellemesi gerekiyor.</string>
   <string name="VoipRateCallAlert">Telegram aramanızın kalitesini değerlendirin</string>
   <string name="VoipFeedbackAlert">Arama servisimizi daha geliştirmemiz için öneride bulunmak ister misiniz?</string>
   <!--plural-->
-  <string name="Online_zero">%1$d çevrimiçi</string>
-  <string name="Online_one">%1$d çevrimiçi</string>
-  <string name="Online_two">%1$d çevrimiçi</string>
-  <string name="Online_few">%1$d çevrimiçi</string>
-  <string name="Online_many">%1$d çevrimiçi</string>
-  <string name="Online_other">%1$d çevrimiçi</string>
   <string name="Members_zero">%1$d üye</string>
   <string name="Members_one">%1$d üye</string>
   <string name="Members_two">%1$d üye</string>

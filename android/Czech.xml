@@ -88,7 +88,6 @@
   <string name="PaymentFailed">Je nám líto, ale platba byla zamítnuta.</string>
   <string name="PaymentConnectionFailed">Nelze se připojit k platebnímu serveru. Zkontrolujte prosím připojení k internetu a zkuste to znovu.</string>
   <string name="PaymentWarning">Varování</string>
-  <string name="PaymentWarningText">Platby půjdou přímo vývojářům %1$s. Telegram neposkytuje žádné záruky, proto postupujete na vlastní nebezpečí. V případě problémů kontaktujte vývojáře %2$s nebo svojí banku.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Nová konverzace</string>
   <string name="Settings">Nastavení</string>
@@ -140,8 +139,6 @@
   <string name="Italic">Kurzíva</string>
   <string name="Regular">Normal</string>
   <!--channels-->
-  <string name="GroupType">Typ Skupiny</string>
-  <string name="ChannelType">Typ Kanálu</string>
   <string name="ChannelTypePublic">Veřejné</string>
   <string name="ChannelTypePrivate">Soukromé</string>
   <string name="SetAsAdmin">Promote to admin</string>
@@ -176,7 +173,6 @@
   <string name="ActionPinnedMusic">un1 připnul/a polohu</string>
   <string name="ActionMigrateFromGroup">Tato skupina byla povýšena na Superskupinu</string>
   <string name="ActionMigrateFromGroupNotify">Skupina \"%1$s\" byla povýšena na Superskupinu.</string>
-  <string name="NoBlockedGroup">Blokovaní uživatelé jsou vyčleněni z této skupiny a může je přidat zpět pouze správce. Odkazy na pozvání pro ně nebudou funkční.</string>
   <string name="NewChannel">Nový kanál</string>
   <string name="EnterChannelName">Název kanálu</string>
   <string name="AddMutual">Přidát kontakt do vašeho kanálu</string>
@@ -218,7 +214,6 @@
   <string name="LinkChecking">Kontrola uživatelského jména...</string>
   <string name="LinkAvailable">%1$s je dostupné.</string>
   <string name="ChannelMembers">Členové</string>
-  <string name="ChannelBlockedUsers">Blokovaní uživatelé</string>
   <string name="ChannelAdministrators">Administrátoři</string>
   <string name="ChannelDelete">Odstranit Kanál</string>
   <string name="ChannelDeleteMenu">Odstranit kanál</string>
@@ -234,7 +229,6 @@
   <string name="ActionChannelRemovedPhoto">Obrázek kanálu odstraněn</string>
   <string name="ActionChannelChangedTitle">Název kanálu změněn na un2</string>
   <string name="ChangePublicLimitReached">Je nám líto, zarezervovali jste příliš mnoho veřejných uživatelských jmen. Odkaz můžete zrušit z jedné ze starších skupin nebo kanálů nebo vytvořit místo toho soukromou entitu.</string>
-  <string name="ChannelModerator">Moderátor</string>
   <string name="ChannelCreator">Tvůrce</string>
   <string name="ChannelEditor">Administrátor</string>
   <string name="ChannelMute">Vypnout upozornění</string>
@@ -242,7 +236,6 @@
   <string name="ChannelAddAdmin">Přidat Administrátora</string>
   <string name="ChannelInviteViaLink">Odkaz na pozvánku</string>
   <string name="ChannelAddUserAdminAlert">Jste si jistý, že chcete přidat %1$s jako administrátora?</string>
-  <string name="ChannelRemoveUserAdmin">Vyjmout</string>
   <string name="ChannelMembersInfo">Pouze administrátoři kanálu vidí tento seznam.</string>
   <string name="ChannelAdminNotParticipant">Tnto uživatel není nyní připojen do kanál. Chcete mu zaslat pozvánkut?</string>
   <string name="ChannelLinkInfo">Každý, kdo má nainstalovaný Telegram bude moci připojit váš kanál pomocí následujícího odkazu.</string>
@@ -295,6 +288,7 @@
   <string name="ChannelNotifyMembersInfoOff">Členové nebudou upozorněni při přidání příspěvku</string>
   <string name="ChannelSignMessages">Označené zprávy</string>
   <string name="ChannelSignMessagesInfo">Přidejte jména adminů do zpráv, které zveřejňují.</string>
+  <!--event log-->
   <!--broadcasts-->
   <string name="NewBroadcastList">Nové vysílání</string>
   <string name="EnterListName">Zadejte název vysílání</string>
@@ -326,12 +320,17 @@
   <string name="Typing">píše...</string>
   <string name="IsTyping">píše...</string>
   <string name="AreTyping">píší...</string>
+  <string name="IsRecordingAudio">%1$s nahrává hlasovou zprávu ...</string>
+  <string name="IsRecordingRound">%1$s nahrává video zprávu ... </string>
   <string name="IsSendingAudio">%1$s posílá audio...</string>
   <string name="IsSendingPhoto">%1$s Vám posílá fotku...</string>
   <string name="InstantView">NÁHLED</string>
+  <string name="InstantViewNightMode">Tmavý motiv se v noci automaticky zapne</string>
   <string name="IsSendingGame">%1$s hraje hru...</string>
   <string name="IsSendingVideo">%1$s Vám posílá video...</string>
   <string name="IsSendingFile">%1$s Vám posílá soubor...</string>
+  <string name="RecordingAudio">nahrávání hlasové zprávy ...</string>
+  <string name="RecordingRound">nahrávání videozáznamu ...</string>
   <string name="SendingAudio">odesílání audia...</string>
   <string name="SendingPhoto">posílá fotku...</string>
   <string name="SendingGame">hraje hru...</string>
@@ -596,7 +595,6 @@
   <string name="EncryptionKey">Šifrovací klíč</string>
   <string name="MessageLifetime">Sebedestrukce</string>
   <string name="ShortMessageLifetimeForever">Vypnuto</string>
-  <string name="EncryptionKeyDescription">Tento obrázek a text byly odvozeny z šifrovacího klíče pro tento tajný chat s <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Pokud vypadají stejně na zařízení <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> je zaručeno šifrování typu end-to-end.<![CDATA[<br><br>]]>Další informace na telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="TapToEmojify">Klepněte na emojify</string>
   <string name="NumberUnknown">Neznáme</string>
@@ -610,14 +608,12 @@
   <string name="UsernameInvalidShort">Uživatelské jméno musí mít nejméně 5 znaků.</string>
   <string name="UsernameInvalidLong">Uživatelské jméno nemůže mít více než 32 znaků.</string>
   <string name="UsernameInvalidStartNumber">Promiňte, uživatelské jméno nemůže začínat číslem.</string>
-  <string name="UsernameHelp">Na <![CDATA[<b>]]>Telegramu<![CDATA[</b>]]> si můžete zvolit své uživatelské jméno. Pokud to uděláte, ostatní lidé Vás budou moci najít podle tohoto jména i bez toho, aby znali Vaše telefonní číslo.<![CDATA[<br><br>]]>Můžete použit <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> a podtržítka. Minimální délka je <![CDATA[<b>]]>5<![CDATA[</b>]]> znaků.</string>
   <string name="UsernameHelpLink">Tento odkaz otevře chat s vámi na Telegramu:\n%1$s</string>
   <string name="UsernameChecking">Kontroluji uživatelské jméno...</string>
   <string name="UsernameAvailable">%1$s je dostupné.</string>
   <string name="UsernameEmpty">Žádné</string>
   <string name="ErrorOccurred">Došlo k chybě.</string>
   <!--stickers view-->
-  <string name="Stickers">Nálepky</string>
   <string name="AddStickers">Přidat nálepky</string>
   <string name="AddMasks">Přidat masky</string>
   <string name="AddToStickers">Přidat k nálepkám</string>
@@ -641,12 +637,27 @@
   <string name="ArchivedMasks">Archivované masky</string>
   <string name="ArchivedStickersEmpty">Žádné archivované nálepky</string>
   <string name="ArchivedMasksEmpty">Žádné archivované masky</string>
+  <string name="ArchivedStickersInfo">Můžete instalovat až 200 sad samolepek. Nepoužité samolepky jsou archivovány při instalaci nových sad.</string>
+  <string name="ArchivedMasksInfo">Můžete nainstalovat až 200 sad masek. Nepoužité masky jsou archivovány při instalaci nových sad.</string>
   <string name="SendSticker">POSLAT NÁLEPKU</string>
+  <string name="ArchivedStickersAlertTitle">Archivované samolepky</string>
+  <string name="ArchivedStickersAlertInfo">Některé starší sady samolepek byly archivovány. Můžete je znovu aktivovat v nastavení.</string>
+  <string name="ArchivedMasksAlertTitle">Archivované masky</string>
+  <string name="ArchivedMasksAlertInfo">Některé starší sady masek byly archivovány. Můžete je znovu aktivovat v nastavení.</string>
   <!--theme view-->
   <string name="Theme">Vzhled</string>
+  <string name="DeleteThemeAlert">Opravdu chcete smazat tento motiv?</string>
+  <string name="IncorrectTheme">Nesprávný soubor motivu</string>
+  <string name="EnterThemeName">Zadejte název motivu</string>
+  <string name="CloseEditor">ZAVŘÍT EDITOR</string>
+  <string name="SaveTheme">ULOŽIT MOTIV</string>
   <string name="NewTheme">Nové téma</string>
+  <string name="ApplyTheme">POUŽÍT</string>
+  <string name="ThemePreview">Náhled motivů</string>
   <string name="SelectColor">Vyberte barvu</string>
   <string name="CreateNewTheme">Vytvořit nové téma</string>
+  <string name="CreateNewThemeHelp">Klepnutím na ikonu palety zobrazíte seznam prvků na každé obrazovce a upravíte je.</string>
+  <string name="CreateNewThemeInfo">Můžete vytvořit vlastní motiv změnou barvy v aplikaci. Vždy se můžete vrátit zpět k výchozímu motivu Telegram.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Obnovit všechny nastavení upozornění do výchozího stavu</string>
   <string name="TextSize">Velikost textu zpráv</string>
@@ -707,7 +718,6 @@
   <string name="ContactJoined">Kontakt začal používat Telegram</string>
   <string name="PinnedMessages">Připnuté zprávy</string>
   <string name="Language">Jazyk</string>
-  <string name="AskAQuestionInfo">Mějte na paměti, že Podpora Telegramu je vykonávaná dobrovolníky. Snažíme se odpovídat co nejrychleji, přesto to může chvilku trvat.<![CDATA[<br><br>]]>Prosím navštivte <![CDATA[<a href="https://telegram.org/faq#general">Telegram FAQ</a>]]>: najdete tam odpovědi na většinu otázek a důležité tipy a rady pro <![CDATA[<a href="https://telegram.org/faq#troubleshooting">řešení problémů</a>]]>.</string>
   <string name="AskButton">Zeptat se dobrovolníka</string>
   <string name="TelegramFaq">Telegram FAQ</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -717,6 +727,8 @@
   <string name="IncorrectLocalization">Neplatný soubor překladu</string>
   <string name="Enabled">Povoleno</string>
   <string name="Disabled">Zakázáno</string>
+  <string name="NotificationsService">Služba Keep-Alive</string>
+  <string name="NotificationsServiceInfo">Aplikace se znovu spustí po vypnutí uživatelem nebo systémem. To zajistí, že aplikace může zobrazovat oznámení.</string>
   <string name="NotificationsServiceConnection">Připojení na pozadí</string>
   <string name="SortBy">Řadit podle</string>
   <string name="ImportContacts">Importovat kontakty</string>
@@ -739,7 +751,11 @@
   <string name="AutoplayGifs">Autoplay GIFy</string>
   <string name="SaveToGallerySettings">Uložit do galerie</string>
   <string name="EditName">Upravit jméno</string>
+  <string name="NotificationsCustomize">Přizpůsobit</string>
+  <string name="NotificationsCustom">Vlastní</string>
+  <string name="NotificationsEnableCustom">Povolit vlastní oznámení</string>
   <string name="NotificationsPriority">Priorita</string>
+  <string name="NotificationsPrioritySettings">Stejné jako v nastavení</string>
   <string name="NotificationsPriorityDefault">Výchozí</string>
   <string name="NotificationsPriorityLow">Nízká</string>
   <string name="NotificationsPriorityHigh">Vysoká</string>
@@ -755,6 +771,8 @@
   <string name="NotificationsOther">Jiné</string>
   <string name="NotificationsDisabled">Vypnout</string>
   <string name="VibrationDisabled">Vypnout</string>
+  <string name="PopupEnabled">Povolit</string>
+  <string name="PopupDisabled">Zakázat</string>
   <string name="LedDisabled">Vypnout</string>
   <string name="RepeatDisabled">Vypnuto</string>
   <string name="InChatSound">Zvuky v rámci konverzace</string>
@@ -763,10 +781,13 @@
   <string name="SmartNotifications">Inteligentní upozornění</string>
   <string name="SmartNotificationsInfo">%1$d / %2$s</string>
   <string name="SmartNotificationsDisabled">Vypnuté</string>
+  <string name="SmartNotificationsAlert">Frekvence zvukového upozornění</string>
   <string name="SecretChat">Tajné chaty</string>
   <string name="ChromeCustomTabs">In-App prohlížeč</string>
   <string name="DirectShare">Přímé sdílení</string>
+  <string name="TelegramVersion">Telegram pro Android %1$s</string>
   <string name="DebugMenuImportContacts">Import Kontaktů</string>
+  <string name="DebugMenuReloadContacts">Znovu načíst kontakty</string>
   <!--cache view-->
   <string name="LocalDatabase">Lokální Databaze</string>
   <string name="LocalDatabaseClear">Opravdu chcete smazat uložené zprávy?</string>
@@ -785,6 +806,8 @@
   <string name="KeepMedia">Zachovat Média</string>
   <string name="KeepMediaInfo">Fotky, videa a další soubory z cloudu  <![CDATA[<b>not accessed</b>]]> during this period will be removed from this device to save disk space.\n\nAll media will stay in the Telegram cloud and can be re-downloaded if you need it again.</string>
   <string name="KeepMediaForever">Navždy</string>
+  <string name="AudioAutodownload">Hlasové zprávy</string>
+  <string name="VideoMessagesAutodownload">Video zprávy</string>
   <!--sessions view-->
   <string name="SessionsTitle">Aktivní připojení</string>
   <string name="CurrentSession">Aktuální připojení</string>
@@ -817,6 +840,8 @@
   <string name="FingerprintInfo">Potvrďte otisk prstu pro pokračování</string>
   <string name="FingerprintHelp">Dotykový senzor</string>
   <string name="FingerprintNotRecognized">Otisk prstu nebyl rozpoznán. Zkuste to znovu</string>
+  <string name="ScreenCapture">Povolit zachycení obrazovky</string>
+  <string name="ScreenCaptureInfo">Pokud je povoleno, můžete provést snímky obrazovky aplikace, ale systém zobrazí chaty v přepínači úkolů i při zapnutém přístupovém kódu.\n\nPokud budete potřebovat restartovat aplikaci, bude pravděpodobně nutné provést tuto akci.</string>
   <!--media view-->
   <string name="DocumentsTitle">Sdílené Soubory</string>
   <string name="SharedMediaTitle">Sdílené média</string>
@@ -826,6 +851,10 @@
   <string name="NoSharedAudio">Podělte se o hudbu v tomto chatu a přistupujte k ni z kteréhokoliv vašeho zařízení.</string>
   <string name="NoSharedFiles">Sdílejte soubory a dokumenty v teto konverzaci a přistupujte k nim ze kteréhokoliv Vašeho zařízenía.</string>
   <string name="NoSharedLinks">Sdílet odkazy v tomto chatu a přistupovat k nim na kterémkoli ze svých zařízení.</string>
+  <string name="NoMediaSecret">Fotky a videa z tohoto chatu se zobrazí zde.</string>
+  <string name="NoSharedAudioSecret">Hudba z tohoto chatu se zobrazí zde.</string>
+  <string name="NoSharedFilesSecret">Soubory a dokumenty z tohoto chatu se zobrazí zde.</string>
+  <string name="NoSharedLinksSecret">Sdílené odkazy z tohoto chatu se zobrazí zde.</string>
   <!--map view-->
   <string name="Map">Mapa</string>
   <string name="Satellite">Satelitní</string>
@@ -842,8 +871,6 @@
   <string name="SaveToGallery">Uložit do galerie</string>
   <string name="Of">%1$d z %2$d</string>
   <string name="Gallery">Galerie</string>
-  <string name="AllPhotos">Všechny fotky</string>
-  <string name="AllVideo">Všechny videa</string>
   <string name="NoPhotos">Žádné fotky</string>
   <string name="NoVideo">Žádné videa</string>
   <string name="PleaseDownload">Prosím, stáhněte média</string>
@@ -1118,13 +1145,6 @@ Smazat a zastavit</string>
   <string name="Page5Title">Výkonný</string>
   <string name="Page6Title">V cloudu</string>
   <string name="Page7Title">Soukromý</string>
-  <string name="Page1Message"><![CDATA[<b>Nejrychlejší</b>]]> komunikační aplikace. <![CDATA[<br/>]]>Je <![CDATA[<b>zdarma</b>]]> a <![CDATA[<b>bezpečná</b>]]>.</string>
-  <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> doručuje zprávy rychleji než<![CDATA[<br/>]]>kterákoliv jiná aplikace.</string>
-  <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> je a vždy bude zadarmo. <![CDATA[<br/>]]>Žádné reklamy. Žádné poplatky.</string>
-  <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> chrání Vaše zprávy<![CDATA[<br/>]]>před útoky hackerů.</string>
-  <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> nemá limit pro velikost<![CDATA[<br/>]]>Vašich médií a konverzací.</string>
-  <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> Vám umožňuje přístup k zprávám<![CDATA[<br/>]]>z více zařízení.</string>
-  <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> zprávy důkladně šifruje<![CDATA[<br/>]]>a umožňuje jejich sebedestrukci.</string>
   <string name="StartMessaging">Začít komunikovat</string>
   <!--VoIP-->
   <string name="AccountSettings">Nastavení účtu</string>
@@ -1149,12 +1169,6 @@ Smazat a zastavit</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
   <!--plural-->
-  <string name="Online_zero">%1$d online</string>
-  <string name="Online_one">%1$d online</string>
-  <string name="Online_two">%1$d online</string>
-  <string name="Online_few">%1$d online</string>
-  <string name="Online_many">%1$d online</string>
-  <string name="Online_other">%1$d online</string>
   <string name="Members_zero">%1$d členů</string>
   <string name="Members_one">%1$d člen</string>
   <string name="Members_two">%1$d členové</string>

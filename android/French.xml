@@ -88,7 +88,6 @@
   <string name="PaymentFailed">Désolé, le paiement a été refusé.</string>
   <string name="PaymentConnectionFailed">Impossible de se connecter au serveur de paiement. Veuillez vérifier votre connexion internet et réessayer.</string>
   <string name="PaymentWarning">Attention</string>
-  <string name="PaymentWarningText">Les paiements iront directement au développeur de %1$s. Telegram ne fournit aucune garantie, vous procédez donc à vos risques et périls. En cas de problème, veuillez contacter le développeur de %2$s ou votre banque.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Nouvelle conversation</string>
   <string name="Settings">Paramètres</string>
@@ -140,8 +139,6 @@
   <string name="Italic">Italique</string>
   <string name="Regular">Normal</string>
   <!--channels-->
-  <string name="GroupType">Type de groupe</string>
-  <string name="ChannelType">Type de chaîne</string>
   <string name="ChannelTypePublic">Public</string>
   <string name="ChannelTypePrivate">Privé</string>
   <string name="SetAsAdmin">Promouvoir en administrateur</string>
@@ -176,7 +173,6 @@
   <string name="ActionPinnedMusic">un1 a épinglé une piste</string>
   <string name="ActionMigrateFromGroup">Ce groupe a été changé en super-groupe</string>
   <string name="ActionMigrateFromGroupNotify">%1$s a été changé en super-groupe</string>
-  <string name="NoBlockedGroup">Les utilisateurs bloqués sont retirés du groupe et peuvent seulement être réinvités par un administrateur. Les liens d\'invitation ne fonctionneront plus pour eux.</string>
   <string name="NewChannel">Nouvelle chaîne</string>
   <string name="EnterChannelName">Nom de la chaîne</string>
   <string name="AddMutual">Ajouter des contacts à votre chaîne</string>
@@ -218,7 +214,6 @@
   <string name="LinkChecking">Vérifier le nom...</string>
   <string name="LinkAvailable">%1$s est disponible.</string>
   <string name="ChannelMembers">Membres</string>
-  <string name="ChannelBlockedUsers">Utilisateurs bloqués</string>
   <string name="ChannelAdministrators">Administrateurs</string>
   <string name="ChannelDelete">Supprimer la chaîne</string>
   <string name="ChannelDeleteMenu">Supprimer la chaîne</string>
@@ -234,7 +229,6 @@
   <string name="ActionChannelRemovedPhoto">Photo de la chaîne supprimée</string>
   <string name="ActionChannelChangedTitle">Nom de la chaîne renommée en un2</string>
   <string name="ChangePublicLimitReached">Désolé, vous avez réservé trop de pseudonymes publics. Vous pouvez abolir le lien d\'un de vos groupes ou chaînes les plus vieux, ou créez une entité privée à la place.</string>
-  <string name="ChannelModerator">Modérateur</string>
   <string name="ChannelCreator">Créateur</string>
   <string name="ChannelEditor">Administrateur</string>
   <string name="ChannelMute">MUET</string>
@@ -242,7 +236,6 @@
   <string name="ChannelAddAdmin">Ajouter un administrateur</string>
   <string name="ChannelInviteViaLink">Lien d\'invitation</string>
   <string name="ChannelAddUserAdminAlert">Êtes-vous certain de vouloir rendre %1$s administrateur ?</string>
-  <string name="ChannelRemoveUserAdmin">Retirer</string>
   <string name="ChannelMembersInfo">Seuls les administrateurs de la chaîne peuvent voir cette liste.</string>
   <string name="ChannelAdminNotParticipant">Cet utilisateur n\'a pas encore rejoint cette chaîne. Voulez vous l\'inviter?</string>
   <string name="ChannelLinkInfo">Quelqu\'un qui à Telegram sera capable de rejoindre votre chaîne en suivant ce lien.</string>
@@ -295,6 +288,7 @@
   <string name="ChannelNotifyMembersInfoOff">Les membres ne seront pas notifiés quand vous publierez</string>
   <string name="ChannelSignMessages">Signer les messages</string>
   <string name="ChannelSignMessagesInfo">Ajouter les noms des administrateurs aux messages qu\'ils publient.</string>
+  <!--event log-->
   <!--broadcasts-->
   <string name="NewBroadcastList">Nouv. liste de diffusion</string>
   <string name="EnterListName">Saisissez le nom de la liste</string>
@@ -604,7 +598,6 @@
   <string name="EncryptionKey">Clé de chiffrement</string>
   <string name="MessageLifetime">Délai d\'auto-destruction</string>
   <string name="ShortMessageLifetimeForever">Désactivé</string>
-  <string name="EncryptionKeyDescription">Cette image et ce texte sont dérivés de la clé de chiffrement pour cette conversation secrète avec <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>S\'ils sont identiques sur l\'appareil de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, le chiffrement de bout en bout est garanti.<![CDATA[<br><br>]]>Plus d\'informations sur telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="TapToEmojify">Toucher pour emojifier</string>
   <string name="NumberUnknown">Inconnu</string>
@@ -618,14 +611,12 @@
   <string name="UsernameInvalidShort">Un pseudonyme doit contenir 5 caractères minimum.</string>
   <string name="UsernameInvalidLong">Le pseudonyme ne doit pas dépasser 32 caractères.</string>
   <string name="UsernameInvalidStartNumber">Désolé, un pseudonyme ne peut pas commencer par un chiffre.</string>
-  <string name="UsernameHelp">Vous pouvez choisir un pseudonyme sur <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>. Si vous le faite, les autres personnes pourront vous trouver en utilisant ce pseudonyme et vous contacter sans connaitre votre numéro de téléphone. <![CDATA[<br><br>]]>Vous pouvez utiliser <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> et soulignement. La longueur minimale est <![CDATA[<b>]]>5<![CDATA[</b>]]> caractères.</string>
   <string name="UsernameHelpLink">Ce lien ouvre une conversation avec vous-même dans Telegram:\n%1$s</string>
   <string name="UsernameChecking">Vérification du pseudonyme...</string>
   <string name="UsernameAvailable">%1$s est disponible.</string>
   <string name="UsernameEmpty">Aucun</string>
   <string name="ErrorOccurred">Une erreur est survenue.</string>
   <!--stickers view-->
-  <string name="Stickers">Stickers</string>
   <string name="AddStickers">Ajouter des stickers</string>
   <string name="AddMasks">Ajouter des masques</string>
   <string name="AddToStickers">Ajouter aux stickers</string>
@@ -730,7 +721,6 @@
   <string name="ContactJoined">Un contact a rejoint Telegram</string>
   <string name="PinnedMessages">Messages épinglés</string>
   <string name="Language">Langue</string>
-  <string name="AskAQuestionInfo">Veuillez noter que le support Telegram est assuré par des bénévoles. Nous essayons de répondre aussi vite que possible, mais cela peut prendre un peu de temps. <![CDATA[<br><br>]]>Veuillez consulter la <![CDATA[<a href="https://telegram.org/faq#general">FAQ Telegram</a>]]> : cela répond à la plupart des questions et donne des conseils pour les <![CDATA[<a href="https://telegram.org/faq#troubleshooting">problèmes</a>]]>.</string>
   <string name="AskButton">Demandez à un bénévole</string>
   <string name="TelegramFaq">FAQ de Telegram</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -894,8 +884,6 @@
   <string name="SaveToGallery">Enregistrer dans la galerie</string>
   <string name="Of">%1$d de %2$d</string>
   <string name="Gallery">Galerie</string>
-  <string name="AllPhotos">Toutes les photos</string>
-  <string name="AllVideo">Toutes les vidéos</string>
   <string name="NoPhotos">Aucune photo pour l\'instant</string>
   <string name="NoVideo">Aucune vidéo actuellement</string>
   <string name="PleaseDownload">Commencez par télécharger le média</string>
@@ -1238,13 +1226,6 @@
   <string name="Page5Title">Puissant</string>
   <string name="Page6Title">Basé sur le cloud</string>
   <string name="Page7Title">Privé</string>
-  <string name="Page1Message">La messagerie la plus <![CDATA[<b>rapide</b>]]> du monde. <![CDATA[<br/>]]>Elle est <![CDATA[<b>gratuite</b>]]> et <![CDATA[<b>sécurisée</b>]]>.</string>
-  <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> délivre vos messages plus <![CDATA[<br/>]]> rapidement qu\'aucune autre application.</string>
-  <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> est gratuit pour toujours.<![CDATA[<br/>]]>Pas de publicité. Sans frais d\'inscription.</string>
-  <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> protège vos messages<![CDATA[<br/>]]>des attaques de pirates.</string>
-  <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> ne limite pas la taille de<![CDATA[<br/>]]>vos médias et conversations.</string>
-  <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> vous permet d\'accéder à vos<![CDATA[<br/>]]>messages depuis plusieurs appareils.</string>
-  <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> vous permet de chiffrer vos<![CDATA[<br/>]]>messages et de les détruire automatiquement.</string>
   <string name="StartMessaging">Démarrer une conversation</string>
   <!--VoIP-->
   <string name="AccountSettings">Paramètres du compte</string>
@@ -1287,7 +1268,6 @@
   <string name="CallMessageOutgoingMissed">Appel annulé</string>
   <string name="CallMessageIncomingDeclined">Appel refusé</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
-  <string name="CallEncryptionKeyDescription">Cette image et ce texte sont dérivés de la clé de chiffrement pour cet appel avec <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>S\'ils sont identiques sur l\'appareil de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, alors le chiffrement de bout en bout est garanti.</string>
   <string name="NoCallLog">Vous n\'avez passé aucun appel pour l\'instant.</string>
   <string name="VoipPeerIncompatible">L\'application <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> utilise un protocol incompatible. Ils doivent mettre à jour leur application avant de pouvoir les appeler.</string>
   <string name="VoipPeerOutdated">L\'application de <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ne permet pas les appels. La mise à jour de son application est nécessaire afin que vous puissiez l\'appeler.</string>
@@ -1307,12 +1287,6 @@
   <string name="CallNotAvailable">Désolé, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> n\'accepte pas d\'appels.</string>
   <string name="CallEmojiKeyTooltip">Si les emoji sont identiques sur l\'écran de %1$s, cet appel est sécurisé à 100%%.</string>
   <!--plural-->
-  <string name="Online_zero">%1$d en ligne</string>
-  <string name="Online_one">%1$d en ligne</string>
-  <string name="Online_two">%1$d en ligne</string>
-  <string name="Online_few">%1$d en ligne</string>
-  <string name="Online_many">%1$d en ligne</string>
-  <string name="Online_other">%1$d en ligne</string>
   <string name="Members_zero">%1$d membres</string>
   <string name="Members_one">%1$d membre</string>
   <string name="Members_two">%1$d membres</string>

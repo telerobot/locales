@@ -127,8 +127,6 @@
   <string name="Italic">Курсив</string>
   <string name="Regular">Звичайний</string>
   <!--channels-->
-  <string name="GroupType">Тип групи</string>
-  <string name="ChannelType">Тип каналу</string>
   <string name="ChannelTypePublic">Публічний</string>
   <string name="ChannelTypePrivate">Приватний</string>
   <string name="SetAsAdmin">Підняти до адміна</string>
@@ -161,7 +159,6 @@
   <string name="ActionPinnedMusic">un1 прикріпив/ла композицію</string>
   <string name="ActionMigrateFromGroup">Ця група була оновлена до супергрупи</string>
   <string name="ActionMigrateFromGroupNotify">%1$s була оновлена до супергрупи</string>
-  <string name="NoBlockedGroup">Заблоковані користувачі вилучаються з групи і можуть повернутися лише за запрошенням адміністратора. Посилання для запрошення для них не працюють.</string>
   <string name="NewChannel">Новий канал</string>
   <string name="EnterChannelName">Назва каналу</string>
   <string name="AddMutual">Додати контакти до свого каналу</string>
@@ -203,7 +200,6 @@
   <string name="LinkChecking">Перевірка назви...</string>
   <string name="LinkAvailable">%1$s доступне.</string>
   <string name="ChannelMembers">Учасники</string>
-  <string name="ChannelBlockedUsers">Заблоковані користувачі</string>
   <string name="ChannelAdministrators">Адміністратори</string>
   <string name="ChannelDelete">Видалити канал</string>
   <string name="ChannelDeleteMenu">Видалити канал</string>
@@ -218,7 +214,6 @@
   <string name="ActionChannelChangedPhoto">Фото каналу змінено</string>
   <string name="ActionChannelRemovedPhoto">Фото каналу вилучено</string>
   <string name="ActionChannelChangedTitle">Назва каналу змінена на un2</string>
-  <string name="ChannelModerator">Модератор</string>
   <string name="ChannelCreator">Власник</string>
   <string name="ChannelEditor">Адміністратор</string>
   <string name="ChannelMute">ВИМКНУТИ</string>
@@ -226,7 +221,6 @@
   <string name="ChannelAddAdmin">Додати адміністратора</string>
   <string name="ChannelInviteViaLink">Запросити посиланням</string>
   <string name="ChannelAddUserAdminAlert">Ви дійсно хочете зробити %1$s адміністратором?</string>
-  <string name="ChannelRemoveUserAdmin">Вилучити</string>
   <string name="ChannelMembersInfo">Лише адміністратори каналу можуть бачити цей список.</string>
   <string name="ChannelAdminNotParticipant">Цей користувач досі не приєднався до каналу. Хочете запросити?</string>
   <string name="ChannelLinkInfo">Будь-хто з встановленим Telegram зможе приєднатися до вашого каналу, перейшовши за цим посиланням.</string>
@@ -279,6 +273,7 @@
   <string name="ChannelNotifyMembersInfoOff">Учасники не будуть сповіщені про ваш допис</string>
   <string name="ChannelSignMessages">Підписати повідомлення</string>
   <string name="ChannelSignMessagesInfo">Додавати імена адміністраторів до їхніх повідомлень.</string>
+  <!--event log-->
   <!--broadcasts-->
   <string name="NewBroadcastList">Новий список розсилки</string>
   <string name="EnterListName">Введіть назву списку</string>
@@ -560,7 +555,6 @@
   <string name="EncryptionKey">Ключ шифрування</string>
   <string name="MessageLifetime">Таймер самознищення</string>
   <string name="ShortMessageLifetimeForever">Вимкнути</string>
-  <string name="EncryptionKeyDescription">Це зображення і текст були отримані з використанням ключа шифрування для цього секретного чату з <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Якщо вони виглядають однаково на <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> пристрої, в такому разі шифрування гарантоване.<![CDATA[<br><br>]]>Дізнайтеся більше на telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="NumberUnknown">Невідомо</string>
   <string name="Info">Інформація</string>
@@ -573,13 +567,11 @@
   <string name="UsernameInvalidShort">Ім\'я користувача повинно містити щонайменше 5 символів.</string>
   <string name="UsernameInvalidLong">Ім\'я користувача не повинно перевищувати 32 символів.</string>
   <string name="UsernameInvalidStartNumber">Вибачте, але ім\'я користувача не може починатися з цифри.</string>
-  <string name="UsernameHelp"><![CDATA[Ви можете вибрати собі ім\'я користувача в <b>Telegram</b>. Якщо ви зробите це, інші люди зможуть знайти вас по ньому і зв\'язатися з вами, не знаючи ваш номер телефону.<br><br>Ви можете використовувати символи <b>a–z</b>, <b>0–9</b> та підкреслення. Мінімальна довжина становить <b>5</b> символів.]]></string>
   <string name="UsernameChecking">Перевірка імені користувача...</string>
   <string name="UsernameAvailable">Ім\'я користувача %1$s доступне.</string>
   <string name="UsernameEmpty">Немає</string>
   <string name="ErrorOccurred">Сталася помилка.</string>
   <!--stickers view-->
-  <string name="Stickers">Наліпки</string>
   <string name="AddStickers">Додати наліпки</string>
   <string name="AddToStickers">Додати до наліпок</string>
   <string name="AddStickersNotFound">Наліпок не знайдено</string>
@@ -657,7 +649,6 @@
   <string name="ContactJoined">Контакт приєднався до Telegram</string>
   <string name="PinnedMessages">Прикріплені повідомлення</string>
   <string name="Language">Мова</string>
-  <string name="AskAQuestionInfo">Зверніть увагу, що  підтримка Telegram здійснюється волонтерами. Ми намагаємося відповідати якомога швидше, але на це може знадобитись деякий час.<![CDATA[<br><br>]]>Будь ласка, ознайомтеся з <![CDATA[<a href="https://telegram.org/faq#general">Telegram FAQ</a>]]>: там є відповіді на більшість питань і важливі поради щодо <![CDATA[<a href="https://telegram.org/faq#troubleshooting">усунення несправностей</a>]]>.</string>
   <string name="AskButton">Запитати волонтера</string>
   <string name="TelegramFaq">Telegram FAQ</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -814,8 +805,6 @@
   <string name="SaveToGallery">Зберегти до галереї</string>
   <string name="Of">%1$d з %2$d</string>
   <string name="Gallery">Галерея</string>
-  <string name="AllPhotos">Всі фотографії</string>
-  <string name="AllVideo">Все відео</string>
   <string name="NoPhotos">Фотографій наразі немає</string>
   <string name="NoVideo">Поки немає відео</string>
   <string name="PleaseDownload">Спочатку завантажте медіа</string>
@@ -1124,13 +1113,6 @@
   <string name="Page5Title">Потужний</string>
   <string name="Page6Title">Хмарний</string>
   <string name="Page7Title">Приватний</string>
-  <string name="Page1Message"><![CDATA[<b>Найшвидша</b>]]> програма для обміну повідомленнями.<![CDATA[<br/>]]>Вона <![CDATA[<b>безкоштовна</b>]]> і <![CDATA[<b>захищена</b>]]>.</string>
-  <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> доставляє повідомлення швидше, ніж<![CDATA[<br/>]]>будь-яка інша програма.</string>
-  <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> безкоштовний назавжди. Без реклами.<![CDATA[<br/>]]>Без передплати.</string>
-  <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> зберігає ваші повідомлення у безпеці<![CDATA[<br/>]]>від хакерських атак.</string>
-  <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> не має обмежень розміру<![CDATA[<br/>]]>ваших медіа і чатів.</string>
-  <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> дозволяє вам отримувати доступ до повідомлень<![CDATA[<br/>]]>на багатьох пристроях.</string>
-  <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> повідомлення надійно зашифровані<![CDATA[<br/>]]>і можуть самознищуватися.</string>
   <string name="StartMessaging">Почати спілкування</string>
   <!--VoIP-->
   <string name="AccountSettings">Налаштування облікового запису</string>
@@ -1161,12 +1143,6 @@
   <string name="CallAgain">Зателефонувати знову</string>
   <string name="ReturnToCall">ПОВЕРНУТИСЯ ДО ВИКЛИКУ</string>
   <!--plural-->
-  <string name="Online_zero">%1$d в мережі</string>
-  <string name="Online_one">%1$d в мережі</string>
-  <string name="Online_two">%1$d в мережі</string>
-  <string name="Online_few">%1$d в мережі</string>
-  <string name="Online_many">%1$d в мережі</string>
-  <string name="Online_other">%1$d в мережі</string>
   <string name="Members_zero">%1$d учасників</string>
   <string name="Members_one">%1$d учасник</string>
   <string name="Members_two">%1$d учасника</string>
