@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="AppName">Telegram Deca</string>
+  <string name="AppName">Telegram Deca
+
+difarensa bana/bloca
+tradusion banned = banàu
+until = fin a łe / fin a\'l ???</string>
   <string name="AppNameBeta">Telegram Beta</string>
   <string name="LanguageName">Veneto Deca</string>
   <string name="LanguageNameInEnglish">Venetian</string>
@@ -89,6 +93,7 @@
   <string name="PaymentFailed">Ne despiaze, el pagamento el ze stà refudà.</string>
   <string name="PaymentConnectionFailed">A no semo mìa boni de contatar el server par el pagamento. Controła ła to conesion internet e prova danovo.</string>
   <string name="PaymentWarning">Avertensa</string>
+  <string name="PaymentWarningText">Telegram e %1$s no i gavarà mìa aceso a łe informasion de ła to carta de crèdito. I detaji de ła carta de crèdito i venjarà manejài soło da\'l sistema de pagamento %2$s.\n\nI pagaminti i ghe ndarà diretamente a\'l zviłupador de %1$s. Telegram no ła fornise njauna garansia, donca i trasferiminti i sarà a to riscio e perìgoło. In cazo de problemi, contata el zviłupador de %1$s o ła to banca.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Convarsasion nova</string>
   <string name="Settings">Inpostasion</string>
@@ -100,6 +105,13 @@
   <string name="NoChatsHelp">Taca scrìvar strucando el boton\\n\'mesajo novo\' inte\'l canton in baso a drita\\no toca el boton de\'l menù par opsion in pì.</string>
   <string name="WaitingForNetwork">Spetando na conesion...</string>
   <string name="Connecting">Conesion...</string>
+  <string name="ConnectingToProxy">Conesion a\'l proxy...</string>
+  <string name="ConnectingToProxyTapToDisable">Toca chive par dezativar el proxy...</string>
+  <string name="ConnectingToProxyDisable">Dezativa</string>
+  <string name="ConnectingToProxyEnable">Ativa</string>
+  <string name="EnableProxyAlert">Vutu davero ativar \'sto proxy?</string>
+  <string name="EnableProxyAlert2">A te połi canbiar el to server proxy anca pì tardi, ndando so Inpostasion (Dati e memoria).</string>
+  <string name="ConnectingToProxyDisableAlert">Situ seguro de vołer dezativar el server proxy %1$s? Pì tardi A te połi anca reativarlo ndando so Inpostasion (Dati e memoria).</string>
   <string name="Updating">Ajornamento...</string>
   <string name="NewSecretChat">Chat segreta nova</string>
   <string name="AwaitingEncryption">Spetando che %s L se cołeghe...</string>
@@ -131,7 +143,7 @@
   <string name="HistoryCleared">Cronołozìa netada</string>
   <string name="ArticleByAuthor">da %1$s</string>
   <string name="ArticleDateByAuthor">%1$s da %2$s</string>
-  <string name="PreviewFeedback">Łasa zo un comento so \'sta anteprima</string>
+  <string name="PreviewFeedback">Łasa zó un comento so \'sta anteprima</string>
   <string name="SendStickerPreview">Manda Figureta</string>
   <string name="ViewPackPreview">Varda Pacheto</string>
   <string name="PinToTop">Pica insima</string>
@@ -139,10 +151,14 @@
   <string name="Bold">Groseto</string>
   <string name="Italic">Corsivo</string>
   <string name="Regular">Normałe</string>
+  <string name="ContactsPermissionAlert">Par conétarte sensa problemi co tuti i to conosenti, parmétaghe a <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> de ver aceso a i to contati.</string>
+  <string name="ContactsPermissionAlertNotNow">MÌA DESO</string>
+  <string name="ContactsPermissionAlertContinue">CONTINUA</string>
   <!--channels-->
   <string name="ChannelTypePublic">Pùblego</string>
   <string name="ChannelTypePrivate">Privà</string>
   <string name="SetAsAdmin">Promovi aministrador</string>
+  <string name="NoBlockedUsers">Njaun utente banà</string>
   <string name="DescriptionInfoMega">A te połi zontar na descrision opsionałe pa\'l to grupo.</string>
   <string name="LeaveMega">Va fora da\'l grupo</string>
   <string name="DeleteMega">Ełìmena grupo</string>
@@ -174,6 +190,8 @@
   <string name="ActionPinnedMusic">un1 L ga picà insima un àudio</string>
   <string name="ActionMigrateFromGroup">\'Sto grupo el ze stà mejorà in supargrupo</string>
   <string name="ActionMigrateFromGroupNotify">%1$s L ze stà mejorà in supargrupo</string>
+  <string name="NoBlockedGroup">I utenti banài i vien ełimenài da\'l grupo e i połe tornarghe rento soło se invitài da un aministrador. I link de invito no i funsiona mìa par łuri.</string>
+  <string name="NoBlockedChannel">I utenti banài i vien ełimenài da\'l canałe e i połe tornarghe rento soło se invitài da un aministrador. I link de invito no i funsiona mìa par łuri.</string>
   <string name="NewChannel">Canałe novo</string>
   <string name="EnterChannelName">Nome de\'l canałe</string>
   <string name="AddMutual">Zonta contati so\'l to canałe</string>
@@ -215,6 +233,9 @@
   <string name="LinkChecking">Verìfega de\'l nome...</string>
   <string name="LinkAvailable">%1$s el ze disponìbiłe.</string>
   <string name="ChannelMembers">Menbri</string>
+  <string name="ChannelBlacklist">Łista mora</string>
+  <string name="ChannelBlockedUsers">Utenti banài</string>
+  <string name="ChannelRestrictedUsers">Utenti co restrision</string>
   <string name="ChannelAdministrators">Aministradori</string>
   <string name="ChannelDelete">Ełìmena canałe</string>
   <string name="ChannelDeleteMenu">Ełìmena canałe</string>
@@ -235,8 +256,12 @@
   <string name="ChannelMute">SIŁENSIA</string>
   <string name="ChannelUnmute">SONA</string>
   <string name="ChannelAddAdmin">Zonta aministrador</string>
+  <string name="ChannelBlockUser">Bana utente</string>
+  <string name="Unban">Dezbana</string>
+  <string name="UnbanText">Sełesiona un utente tenjéndoło strucà par dezbanarlo.</string>
   <string name="ChannelInviteViaLink">Invita co un link</string>
   <string name="ChannelAddUserAdminAlert">Vutu davero promóvar %1$s cofà aministrador?</string>
+  <string name="ChannelRemoveUserAdmin">Cava via aministradori</string>
   <string name="ChannelMembersInfo">Soło i aministradori de\'l canałe i połe védar \'sta łista.</string>
   <string name="ChannelAdminNotParticipant">\'Sto utente no\'l se ga njancora zontà inte\'l canałe. Vutu invitarlo?</string>
   <string name="ChannelLinkInfo">Tute łe parsone che łe ga Telegram instałà łe sarà bone de zontarse inte\'l to canałe ndàndoghe drio a \'sto link.</string>
@@ -289,7 +314,108 @@
   <string name="ChannelNotifyMembersInfoOff">Łe to publegasion no łe venjarà notifegàe a nesuni</string>
   <string name="ChannelSignMessages">Firma mesaji</string>
   <string name="ChannelSignMessagesInfo">Zonta i nomi de i aministradori so i mesaji che i pùblega.</string>
+  <string name="EditAdmin">Modìfega aministradori</string>
+  <string name="EditAdminWhatCanDo">Coza póseło far \'sto aministrador?</string>
+  <string name="EditAdminChangeChannelInfo">Canbia informasion canałe</string>
+  <string name="EditAdminChangeGroupInfo">Canbia informasion grupo</string>
+  <string name="EditAdminPostMessages">Pùblega mesaji</string>
+  <string name="EditAdminEditMessages">Modìfega mesaji de altri</string>
+  <string name="EditAdminDeleteMessages">Ełìmena mesaji de altri</string>
+  <string name="EditAdminGroupDeleteMessages">Ełìmena mesaji</string>
+  <string name="EditAdminAddAdmins">Zonta aministradori novi</string>
+  <string name="EditAdminRemoveAdmin">Cava via aministradori</string>
+  <string name="EditAdminBanUsers">Bana utenti</string>
+  <string name="EditAdminAddUsers">Zonta utenti</string>
+  <string name="EditAdminPinMessages">Pica insima mesaji</string>
+  <string name="EditAdminPromotedBy">Zontà da %1$s</string>
+  <string name="EditAdminCantEdit">A no te połi mìa modifegar i deriti de \'sto aministrador.</string>
+  <string name="UserRestrictionsBy">Restrision de %1$s</string>
+  <string name="UserRestrictions">Restrision utente</string>
+  <string name="UserRestrictionsRead">Łedi mesaji</string>
+  <string name="UserRestrictionsCanDo">Coza póseło far \'sto utente?</string>
+  <string name="UserRestrictionsSend">Manda mesaji</string>
+  <string name="UserRestrictionsSendMedia">Manda media</string>
+  <string name="UserRestrictionsEmbedLinks">Incalma link</string>
+  <string name="UserRestrictionsUntil">Banà fin a
+(&amp;1$s)</string>
+  <string name="UserRestrictionsUntilForever">Par senpre</string>
+  <string name="UserRestrictionsUntilRemove">Cava via</string>
+  <string name="UserRestrictionsBlock">Bana e cava via da\'l grupo</string>
+  <string name="ManageGroup">Jestisi grupo</string>
+  <string name="ManageChannel">Jestisi canałe</string>
+  <string name="ManageGroupMenu">Jestisi grupo</string>
+  <string name="ManageChannelMenu">Jestisi canałe</string>
   <!--event log-->
+  <string name="EventLog">Rejistro eventi</string>
+  <string name="EventLogAllEvents">Tuti i eventi</string>
+  <string name="EventLogSelectedEvents">Eventi sełesionài</string>
+  <string name="EventLogAllAdmins">Tuti i aministradori</string>
+  <string name="EventLogEmpty"><![CDATA[<b>]]>Njancora njaun evento<![CDATA[</b>]]>\n\nI menbri e i aministradori de\'l grupo\nno i ga fazesto njauna asion de servisio\ninte łe 48 ore ùlteme.</string>
+  <string name="EventLogEmptyChannel"><![CDATA[1]]>Njancora njaun evento<![CDATA[1]]>\n\nI aministradori de\'l canałe\nno i ga fazesto njauna asion de servisio\ninte łe 48 ore ùlteme.</string>
+  <string name="EventLogEmptySearch"><![CDATA[<b>]]>Njaun evento catà<![CDATA[</b>]]>\n\nNjaun evento resente el coresponde a ła to reserca.</string>
+  <string name="EventLogEmptyTextSearch">A no ze stà catà njaun evento resente che\'l ga rento \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\'.</string>
+  <string name="EventLogInfoTitle">Coza zeło el rejistro eventi?</string>
+  <string name="EventLogInfoDetail">\'Sta cuà ła ze na łista de tute łe asion de servisio fazeste da i menbri e i aministradori de\'l grupo inte łe 48 ore ùlteme.</string>
+  <string name="EventLogInfoDetailChannel">\'Sta cuà ła ze na łista de tute łe asion de servisio fazeste da i aministradori de\'l canałe inte łe 48 ore ùlteme.</string>
+  <string name="EventLogEditedGroupTitle">un1 L ga renomenà el grupo \"%1$s\"</string>
+  <string name="EventLogEditedChannelTitle">un1 L ga renomenà el canałe \"%1$s\"</string>
+  <string name="EventLogLeftGroup">un1 L ze ndà fora da\'l grupo</string>
+  <string name="EventLogLeftChannel">un1 L ze ndà fora da\'l canałe</string>
+  <string name="EventLogAdded">un1 L ga zontà un2</string>
+  <string name="EventLogGroupJoined">un1 L se ga zontà inte\'l grupo</string>
+  <string name="EventLogChannelRestricted">banà %1$s</string>
+  <string name="EventLogChannelUnrestricted">dezbanà %1$s</string>
+  <string name="EventLogChannelJoined">un1 L se ga zontà inte\'l canałe</string>
+  <string name="EventLogEditedGroupPhoto">un1 L ga inpostà na foto de\'l grupo nova</string>
+  <string name="EventLogEditedChannelPhoto">un1 L ga inpostà na foto de\'l canałe nova</string>
+  <string name="EventLogRemovedWGroupPhoto">un1 L ga cavà via ła foto de\'l grupo</string>
+  <string name="EventLogRemovedChannelPhoto">un1 L ga cavà via ła foto de\'l canałe</string>
+  <string name="EventLogEditedMessages">un1 L ga modifegà \'sto mesajo:</string>
+  <string name="EventLogEditedCaption">un1 L ga modifegà el comento:</string>
+  <string name="EventLogOriginalMessages">Mesajo orijinałe</string>
+  <string name="EventLogOriginalCaption">Comento orijinałe</string>
+  <string name="EventLogOriginalCaptionEmpty">Vodo</string>
+  <string name="EventLogPinnedMessages">un1 L ga picà insima \'sto mesajo:</string>
+  <string name="EventLogUnpinnedMessages">un1 L ga despicà via un mesajo</string>
+  <string name="EventLogDeletedMessages">un1 L ga ełimenà \'sto mesajo:</string>
+  <string name="EventLogChangedGroupLink">un1 L ga canbià el link de\'l grupo:</string>
+  <string name="EventLogChangedChannelLink">un1 L ga canbià el link de\'l canałe:</string>
+  <string name="EventLogRemovedGroupLink">un1 L ga cavà via el link de\'l grupo</string>
+  <string name="EventLogRemovedChannelLink">un1 L ga cavà via el link de\'l canałe</string>
+  <string name="EventLogPreviousLink">Link presedente</string>
+  <string name="EventLogEditedGroupDescription">un1 L ga modifegà ła descrision de\'l grupo:</string>
+  <string name="EventLogEditedChannelDescription">un1 L ga modifegà ła descrision de\'l canałe:</string>
+  <string name="EventLogPreviousGroupDescription">Descrision presedente</string>
+  <string name="EventLogToggledInvitesOn">un1 L ga ativà i inviti par el grupo</string>
+  <string name="EventLogToggledInvitesOff">un1 L ga dezativà i inviti par el grupo</string>
+  <string name="EventLogToggledSignaturesOn">un1 L ga ativà łe firme</string>
+  <string name="EventLogToggledSignaturesOff">un1 L ga dezativà łe firme</string>
+  <string name="EventLogRestrictedUntil">Restrision par %1$scanbiàe\n\nDurada: %2$s</string>
+  <string name="EventLogRestrictedSendMedia">Manda media</string>
+  <string name="EventLogRestrictedSendMessages">Manda mesaji</string>
+  <string name="EventLogRestrictedSendEmbed">Incalma link</string>
+  <string name="EventLogRestrictedReadMessages">Łedi mesaji</string>
+  <string name="EventLogPromoted">Proviłeji de %1$s canbiài</string>
+  <string name="EventLogPromotedChangeChannelInfo">Canbia informasion canałe</string>
+  <string name="EventLogPromotedChangeGroupInfo">Canbia informasion grupo</string>
+  <string name="EventLogPromotedPostMessages">Pùblega mesaji</string>
+  <string name="EventLogPromotedEditMessages">Modìfega mesaji</string>
+  <string name="EventLogPromotedDeleteMessages">Ełìmena mesaji</string>
+  <string name="EventLogPromotedAddAdmins">Zonta aministradori</string>
+  <string name="EventLogPromotedBanUsers">Bana utenti</string>
+  <string name="EventLogPromotedAddUsers">Zonta utenti</string>
+  <string name="EventLogPromotedPinMessages">Pica insima mesaji</string>
+  <string name="EventLogFilterAll">Tuti i eventi</string>
+  <string name="EventLogFilterNewRestrictions">Restrision nove</string>
+  <string name="EventLogFilterNewAdmins">Aministradori novi</string>
+  <string name="EventLogFilterNewMembers">Menbri novi</string>
+  <string name="EventLogFilterGroupInfo">Informasion grupo</string>
+  <string name="EventLogFilterChannelInfo">Informasion canałe</string>
+  <string name="EventLogFilterGroupSettings">Inpostasion grupo</string>
+  <string name="EventLogFilterDeletedMessages">Mesaji ełimenài</string>
+  <string name="EventLogFilterEditedMessages">Mesaji modifegài</string>
+  <string name="EventLogFilterPinnedMessages">Mesaji picài insima</string>
+  <string name="EventLogFilterLeavingMembers">Menbri ndài fora</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Łista de trazmision nova</string>
   <string name="EnterListName">Insarisi el nome de ła łista</string>
@@ -379,6 +505,7 @@
   <string name="OpenInExternalApp">Verzi so...</string>
   <string name="CopyUrl">Copia URL</string>
   <string name="SendItems">Manda %1$s</string>
+  <string name="SendAsFile">Manda cofà file</string>
   <string name="SendAsFiles">Manda cofà file</string>
   <string name="OpenUrlAlert">Vèrzar url %1$s?</string>
   <string name="BotPermissionGameAlert">Vutu parmétarghe a %1$s de pasarghe el to nome e id Telegram (ma mìa el to nùmaro de tełèfono) a łe pàjine che A te verzi co \'sto bot?</string>
@@ -418,6 +545,7 @@
   <string name="TimeToEdit">%1$s</string>
   <string name="TimeToEditExpired">Ne despiaze, el tenpo de modìfega el ze pasà.</string>
   <string name="AddShortcut">Zonta scurtaroła</string>
+  <string name="SearchMembers">Serca menbri</string>
   <string name="ShortcutAdded">Scurtaroła zontà inte ła schermada inisiałe</string>
   <string name="ChatYourSelf">ciàcoła da ti ti soło</string>
   <string name="ChatYourSelfName">Ti</string>
@@ -437,6 +565,12 @@
   <string name="DiscardVideoMessageTitle">Scarta mesajo video</string>
   <string name="DiscardVideoMessageDescription">Vutu davero blocar ła rejistrasion e scartar el to mesajo video?</string>
   <string name="DiscardVoiceMessageAction">Scarta</string>
+  <string name="AttachMediaRestricted">I aministradori de \'sto grupo i te ga meso na restrision so\'l mandar media fin a %1$s</string>
+  <string name="AttachStickersRestricted">I aministradori de \'sto grupo i te ga meso na restrision so\'l mandar figurete fin a %1$s</string>
+  <string name="SendMessageRestricted">I aministradori de \'sto grupo i te ga meso na restrision so\'l scrìvar fin a %1$s</string>
+  <string name="AttachMediaRestrictedForever">I aministradori de \'sto grupo i te ga meso na restrision so\'l mandar media</string>
+  <string name="AttachStickersRestrictedForever">I aministradori de \'sto grupo i te ga meso na restrision so\'l mandar figurete</string>
+  <string name="SendMessageRestrictedForever">I aministradori de \'sto grupo i te ga meso na restrision so\'l scrìvar</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s L ga inpostà el timer de autodestrusion a %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">A te ghe inpostà el timer de autodestrusion a %1$s</string>
@@ -565,8 +699,10 @@
   <string name="SETTINGS">Inpostasion</string>
   <string name="AddMember">Zonta menbro</string>
   <string name="SetAdmins">Inposta aministradori</string>
+  <string name="BanFromTheGroup">BANA DA\'L GRUPO</string>
   <string name="DeleteAndExit">Va fora e ełìmena grupo</string>
   <string name="Notifications">Notìfeghe</string>
+  <string name="KickFromSupergroup">Restrisiona utente</string>
   <string name="KickFromGroup">Cava via da\'l grupo</string>
   <string name="UpgradeGroup">Mejora in supargrupo</string>
   <string name="ConvertGroup">Converti in supargrupo</string>
@@ -598,6 +734,7 @@
   <string name="EncryptionKey">Ciave de criptasion</string>
   <string name="MessageLifetime">Timer de autodestrusion</string>
   <string name="ShortMessageLifetimeForever">Dezativà</string>
+  <string name="EncryptionKeyDescription">\'Sta imàjine e \'sto testo i riva da ła ciave de criptasion de \'sta chat segreta co <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nSe i ze guałivi inte\'l dispozitivo de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, ła criptasion d\'in cao s\'in cao ła ze garantìa.\n\nPar savèrghine de pì va so telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq/it#chat-segrete</string>
   <string name="TapToEmojify">Toca par emojifegar</string>
   <string name="NumberUnknown">Mìa conosùo</string>
@@ -611,12 +748,14 @@
   <string name="UsernameInvalidShort">El nome utente el ga da ver almanco 5 caràtari.</string>
   <string name="UsernameInvalidLong">El nome utente no\'l ga mìa da ndar sora i 32 caràtari.</string>
   <string name="UsernameInvalidStartNumber">Ne despiaze, el nome utente no\'l połe mìa tacar co un nùmaro.</string>
+  <string name="UsernameHelp">A te połi sernir un nome utente so <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>. Se A te ło fè, cheł\'altre parsone łe sarà bone de catarte co \'sto nome utente e contatarte sensa saver el to nùmaro de tełèfono.\n\nA te połi doparar <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> e i _. Ła łonghesa mìnema ła ze de <![CDATA[<b>]]>5<![CDATA[</b>]]> caràtari.</string>
   <string name="UsernameHelpLink">\'Sto link el verze na chat co ti so Telegram:\\n%1$s</string>
   <string name="UsernameChecking">Verìfega de\'l nome utente...</string>
   <string name="UsernameAvailable">%1$s el ze disponìbiłe.</string>
   <string name="UsernameEmpty">Njaun</string>
   <string name="ErrorOccurred">A se ga verifegà un eror.</string>
   <!--stickers view-->
+  <string name="StickersName">Figurete</string>
   <string name="AddStickers">Zonta figurete</string>
   <string name="AddMasks">Zonta màscare</string>
   <string name="AddToStickers">Zonta infra łe figurete</string>
@@ -722,6 +861,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="ContactJoined">Un contato el se gà zontà so Telegram!</string>
   <string name="PinnedMessages">Mesaji picài insima</string>
   <string name="Language">Łengua</string>
+  <string name="AskAQuestionInfo">Serca de capir che el suporto de Telegram el ze portà vanti da vołontari. A sercaremo de incontentar tuti pì in presa che podemo, ma A podarìa vołerghe un fià.\n\nDaghe pur na ociada inte łe <![CDATA[<a href="https://telegram.org/faq#general">dimande frecuenti</a>]]> de Telegram par catar fora ła parte pì granda de łe resposte e conseji inportanti par <![CDATA[<a href="https://telegram.org/faq#troubleshooting">resòlvar problemi</a>]]>.</string>
   <string name="AskButton">Dimanda</string>
   <string name="TelegramFaq">Dimande frecuenti de Telegram</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq/it</string>
@@ -802,6 +942,16 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="DebugMenu">Menù de dezbao</string>
   <string name="DebugMenuImportContacts">Inporta contati</string>
   <string name="DebugMenuReloadContacts">Recarga contati</string>
+  <string name="ChangeLanguageLater">A te połi canbiar ła to łengua anca pì tardi, ndando so Inpostasion.</string>
+  <string name="ChooseYourLanguage">Sernisi ła to łengua</string>
+  <string name="ProxySettings">Inpostasion de\'l proxy</string>
+  <string name="Proxy">Proxy</string>
+  <string name="UseProxySettings">Dopara łe inpostasion de\'l proxy</string>
+  <string name="UseProxyAddress">Server</string>
+  <string name="UseProxyPassword">Password</string>
+  <string name="UseProxyPort">Porta</string>
+  <string name="UseProxyUsername">Nome utente</string>
+  <string name="UseProxyInfo">Inpostasion de\'l proxy SOCKS5</string>
   <!--cache view-->
   <string name="LocalDatabase">Database łocałe</string>
   <string name="LocalDatabaseClear">Vutu netar i mesaji inte ła cache?</string>
@@ -885,6 +1035,8 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="SaveToGallery">Salva inte ła gałerìa</string>
   <string name="Of">%1$d de %2$d</string>
   <string name="Gallery">Gałerìa</string>
+  <string name="AllPhotos">Tute łe foto</string>
+  <string name="AllMedia">Tuti i media</string>
   <string name="NoPhotos">Njancora njauna foto</string>
   <string name="NoVideo">Njancora njaun video</string>
   <string name="PleaseDownload">Prima de tuto descarga un media</string>
@@ -922,7 +1074,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="BlurRadial">Radiałe</string>
   <string name="AreYouSureDeletePhoto">Vutu davero ełimenar \'sta foto?</string>
   <string name="AreYouSureDeleteVideo">Vutu davero ełimenar \'sto video?</string>
-  <string name="DiscardChanges">Vutu scartar łe modìfeghe?</string>
+  <string name="DiscardChanges">Vutu scartar i canbiaminti?</string>
   <string name="ClearSearch">Vutu netar ła cronołozìa reserche?</string>
   <string name="ClearButton">Neta</string>
   <string name="PickerPhotos">Foto</string>
@@ -1053,7 +1205,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="RemoveFromListText">Sełesiona un utente tenjéndoło strucà par ełimenarlo.</string>
   <string name="GroupsAndChannels">Grupi</string>
   <string name="WhoCanAddMe">Chi pòseło zontarme inte i grupi?</string>
-  <string name="WhoCanAddMeInfo">A te połi desìdar chi che połe zontarte inte i grupi o inte i canałi co presizion.</string>
+  <string name="WhoCanAddMeInfo">A te połi desìdar chi che\'l połe zontarte inte i grupi o inte i canałi co presizion.</string>
   <string name="AlwaysAllow">Parmeti senpre</string>
   <string name="NeverAllow">Mai parmétar</string>
   <string name="AlwaysAllowPlaceholder">Parmeti senpre...</string>
@@ -1063,6 +1215,8 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="InviteToGroupError">Ne despiaze, A no te połi mìa zontar \'sto utente inte i grupi par colpa de łe so inpostasion de privacy.</string>
   <string name="InviteToChannelError">Ne despiaze, A no te połi mìa zontar \'sto utente inte i canałi par colpa de łe so inpostasion de privacy.</string>
   <string name="CreateGroupError">Ne despiaze, A no te połi mìa crear un grupo co \'sti utenti par colpa de łe so inpostasion de privacy.</string>
+  <string name="PrivacyCallsP2PTitle">Pata-a-Pata</string>
+  <string name="PrivacyCallsP2PHelp">Dezativando el pata-a-pata tute łe ciamade łe pasarà par i server de Telegram par tenjer sconto el to indariso IP, ma \'sta oparasion ła podarìa całàrghine un peło ła cuałidà de l\'àudio.</string>
   <!--edit video view-->
   <string name="EditVideo">Modìfega video</string>
   <string name="SendingVideo">Mandando el video...</string>
@@ -1209,6 +1363,11 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="UserRestricted">Ne despiaze, A no te ghe mìa el parmeso par farlo.</string>
   <string name="YouBlockedUser">Ne despiaze, A no te połi mìa zontar \'sto utente/bot inte i grupi parché A te ło ghè blocà. Dezblòcheło par poderlo far.</string>
   <string name="JoinGroup">ZÓNTATE INTE\'L GRUPO</string>
+  <string name="AddAdminErrorNotAMember">Ne despiaze, A no te połi mìa zontar \'sto utente cofà aministrador parché no\'l ze un menbro de \'sto grupo e ti A no te si autorizà a invitarlo.</string>
+  <string name="AddAdminErrorBlacklisted">Ne despiaze, A no te połi mìa zontar \'sto utente cofà aministrador parché el ze inte ła łista mora e ti A no te połi dezbanarlo.</string>
+  <string name="AddBannedErrorAdmin">Ne despiaze, A no te połi mìa banar \'sto utente parché el ze un aministrador de \'sto grupo e ti A no te si autorizà a zbasarlo de grado.</string>
+  <string name="ErrorSendRestrictedStickers">I aministradori de \'sto grupo i te ga meso na restrision so\'l mandar figurete.</string>
+  <string name="ErrorSendRestrictedMedia">I aministradori de \'sto grupo i te ga meso na restrision so\'l mandar media.</string>
   <!--permissions-->
   <string name="PermissionContacts">A Telegram A ghe serve l\'aceso a i to contati par parmétarte de conétarte co i to amighi so tuti i to dispozitivi.</string>
   <string name="PermissionStorage">A Telegram A ghe serve l\'aceso a ła to memoria par parmétarte de mandar e salvar foto, video, mùzega e media vari.</string>
@@ -1227,6 +1386,13 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="Page5Title">Potente</string>
   <string name="Page6Title">Co ła nùvoła</string>
   <string name="Page7Title">Privà</string>
+  <string name="Page1Message">L\'app de mesaji <![CDATA[<b>pì ràpida</b>]]> de\'l mondo.\nŁa ze <![CDATA[<b>agratis</b>]]> e <![CDATA[<b>segura</b>]]>. Tradusion: Academia Łengua Veneta</string>
+  <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> ła consenja i mesaji pì\nrapidamente de calsìase altra aplegasion.</string>
+  <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> ła ze agratis par senpre. Njauna\npublisidà. Njaun costo de abonamento.</string>
+  <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> ła tien a\'l seguro\ni to mesaji da atachi hacker.</string>
+  <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> no ła te dà łìmiti de\ngrandesa par i to media e łe to chat.</string>
+  <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> ła te parmete l\'aceso\na i to mesaji da pì dispozitivi.</string>
+  <string name="Page7Message">I mesaji de <![CDATA[<b>Telegram</b>]]> i ze criptài de bruto\ne i połe autodestrùzarse.</string>
   <string name="StartMessaging">Taca mesajar</string>
   <!--VoIP-->
   <string name="AccountSettings">Inpostasion account</string>
@@ -1251,7 +1417,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="VoipRingtoneInfo">A te połi parsonałizar ła sonarìa doparàda par łe ciamade Telegram de \'sto contato.</string>
   <string name="Calls">Ciamade</string>
   <string name="WhoCanCallMe">Chi pòseło ciamarme?</string>
-  <string name="WhoCanCallMeInfo">A te połi desìdar chi che połe ciamarte.</string>
+  <string name="WhoCanCallMeInfo">A te połi desìdar chi che\'l połe ciamarte.</string>
   <string name="CustomCallInfo">\'Sti utenti i sarà boni o manco de ciamarte indipendentemente da łe inpostasion desora.</string>
   <string name="UseLessDataNever">Mai</string>
   <string name="UseLessDataOnMobile">Soło par i dati mòbiłi</string>
@@ -1269,9 +1435,10 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="CallMessageOutgoingMissed">Ciamada anułà</string>
   <string name="CallMessageIncomingDeclined">Ciamada refudà</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
+  <string name="CallEncryptionKeyDescription">\'Sta imàjine e \'sto testo i riva da ła ciave de criptasion de \'sta ciamada co <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nSe i ze guałivi inte\'l dispozitivo de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, ła criptasion d\'in cao s\'in cao ła ze garantìa.</string>
   <string name="NoCallLog">A no te ghè fazesto njancora njauna ciamada.</string>
   <string name="VoipPeerIncompatible">L\'app de <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ła ze drio doparar un protocoło mìa conpatìbiłe. L\'utente el ga da ajornarla prima de poderlo ciamar.</string>
-  <string name="VoipPeerOutdated">L\'app de <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> no ła suporta mìa łe ciamàe. L\'utente el ga da ajornarla prima de poderlo ciamar.</string>
+  <string name="VoipPeerOutdated">L\'app de <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> no ła suporta mìa łe ciamade. L\'utente el ga da ajornarla prima de poderlo ciamar.</string>
   <string name="VoipRateCallAlert">Vàłuta ła cuałidà de ła ciamada Telegram</string>
   <string name="VoipFeedbackAlert">Ghetu caro łasar zó un comento par jutarne a mejorar el servisio ciamade?</string>
   <string name="VoipNeedMicPermission">A Telegram A ghe serve l\'aceso a\'l to micròfono par parmétarte de far ciamade.</string>
@@ -1287,6 +1454,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="ReturnToCall">TORNA A ŁA CIAMADA</string>
   <string name="CallNotAvailable">Ne despiaze, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> no L vołe mìa ciapar ciamade.</string>
   <string name="CallEmojiKeyTooltip">Se i dizenjeti so\'l schermo de %1$s i ze guałivi, \'sta ciamada ła ze segura a\'l 100%%.</string>
+  <string name="CallMessageReportProblem">Vàłuta ła ciamada</string>
   <!--plural-->
   <string name="Members_zero">%1$d menbri</string>
   <string name="Members_one">%1$d menbro</string>
