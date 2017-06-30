@@ -3,8 +3,8 @@
   <string name="AppName">Telegram</string>
   <string name="AppNameBeta">Telegram Beta</string>
   <string name="LanguageName">Français</string>
-  <string name="English">English</string>
-  <string name="LanguageNameInEnglish">Français</string>
+  <string name="English">Anglais</string>
+  <string name="LanguageNameInEnglish">French</string>
   <string name="LanguageCode">fr</string>
   <string name="ContinueOnThisLanguage">Continue in English</string>
   <!--signin view-->
@@ -107,6 +107,7 @@
   <string name="ConnectingToProxyDisable">Désactiver</string>
   <string name="ConnectingToProxyEnable">Activer</string>
   <string name="EnableProxyAlert">Êtes-vous sûr de vouloir activer ce proxy ?</string>
+  <string name="EnableProxyAlert2">Vous pourrez modifier votre serveur proxy plus tard dans les Paramètres (Données et Stockage).</string>
   <string name="ConnectingToProxyDisableAlert">Êtes-vous sûr de vouloir désactiver le serveur proxy %1$s ? VOus pourrez le réactiver plus tard dans les Paramètres (Données et Stockage).</string>
   <string name="Updating">Mise à jour…</string>
   <string name="NewSecretChat">Nouvelle conversation secrète</string>
@@ -251,6 +252,8 @@
   <string name="ChannelEditor">Administrateur</string>
   <string name="ChannelMute">MUET</string>
   <string name="ChannelUnmute">DÉSACTIVER MUET</string>
+  <string name="ChannelAddAdmin">Ajouter un administrateur</string>
+  <string name="ChannelBlockUser">Bannir l\'utilisateur</string>
   <string name="Unban">Débannir</string>
   <string name="UnbanText">Toucher et maintenir un utilisateur pour le débannir.</string>
   <string name="ChannelInviteViaLink">Lien d\'invitation</string>
@@ -340,8 +343,12 @@
   <string name="ManageGroupMenu">Gérer le groupe</string>
   <string name="ManageChannelMenu">Gérer la chaîne</string>
   <!--event log-->
+  <string name="EventLog">Actions Récentes</string>
+  <string name="EventLogAllEvents">Toutes les actions</string>
+  <string name="EventLogSelectedEvents">Actions sélectionnées</string>
   <string name="EventLogAllAdmins">Tous les administrateurs</string>
-  <string name="EventLogEmptyChannel"><![CDATA[<b>]]>Aucun évènement<![CDATA[</b>]]>\n\nLes administrateurs de la chaîne\nn\'ont entamé aucune action de service\ndans les dernières 48 heures.</string>
+  <string name="EventLogEmpty"><![CDATA[<b>]]>Aucun évènement<![CDATA[</b>]]>\n\nLes membres et administrateurs du groupe\nn\'ont entrepris aucune action de service\ndans les dernières 48 heures.</string>
+  <string name="EventLogEmptyChannel"><![CDATA[<b>]]>Aucun évènement<![CDATA[</b>]]>\n\nLes administrateurs de la chaîne\nn\'ont entrepris aucune action de service\ndans les dernières 48 heures.</string>
   <string name="EventLogEmptySearch"><![CDATA[<b>]]>Aucune action trouvée<![CDATA[</b>]]>\n\nAucune action récente répondant à votre requête\nn\'a été trouvée.</string>
   <string name="EventLogEmptyTextSearch">Aucune action récente contenant \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\' n\'a été trouvée.</string>
   <string name="EventLogInfoTitle">Qu\'est-ce que les Actions Récentes ?</string>
@@ -396,6 +403,7 @@
   <string name="EventLogPromotedBanUsers">Bannir les utilisateurs</string>
   <string name="EventLogPromotedAddUsers">Ajouter des utilisateurs</string>
   <string name="EventLogPromotedPinMessages">Épingler messages</string>
+  <string name="EventLogFilterAll">Toutes les actions</string>
   <string name="EventLogFilterNewRestrictions">Nouvelles restrictions</string>
   <string name="EventLogFilterNewAdmins">Nouveaux admins</string>
   <string name="EventLogFilterNewMembers">Nouveaux membres</string>
@@ -564,6 +572,8 @@
   <string name="SendMessageRestricted">Les administrateurs de ce groupe vous ont restreint l\'envoi de messages ici jusqu\'au %1$s</string>
   <string name="AttachMediaRestrictedForever">Les administrateurs de ce groupe vous ont restreint l\'envoi de médias ici</string>
   <string name="AttachInlineRestrictedForever">Les administrateurs de ce groupe vous ont restreint l\'envoi de contenu inséré ici</string>
+  <string name="AttachStickersRestrictedForever">Les administrateurs de ce groupe vous ont restreint l\'envoi de stickers ici</string>
+  <string name="SendMessageRestrictedForever">Les administrateurs de ce groupe vous ont restreint l\'envoi de messages ici</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s a défini l\'auto-destruction des messages à %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Vous avez défini l\'auto-destruction des messages à %1$s</string>
@@ -692,8 +702,10 @@
   <string name="SETTINGS">Paramètres</string>
   <string name="AddMember">Ajouter un membre</string>
   <string name="SetAdmins">Définir les admins</string>
+  <string name="BanFromTheGroup">BANNIR DU GROUPE</string>
   <string name="DeleteAndExit">Supprimer et quitter le groupe</string>
   <string name="Notifications">Notifications</string>
+  <string name="KickFromSupergroup">Restreindre l\'utilisateur</string>
   <string name="KickFromGroup">Retirer du groupe</string>
   <string name="UpgradeGroup">Surclasser en super-groupe</string>
   <string name="ConvertGroup">Convertir en super-groupe</string>
@@ -725,6 +737,7 @@
   <string name="EncryptionKey">Clé de chiffrement</string>
   <string name="MessageLifetime">Délai d\'auto-destruction</string>
   <string name="ShortMessageLifetimeForever">Désactivé</string>
+  <string name="EncryptionKeyDescription">Cette image et ce texte sont dérivés de la clé de chiffrement pour cette conversation secrète avec <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nS\'ils sont identiques sur l\'appareil de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, alors le chiffrement de bout en bout est garanti.\n\nEn savoir plus sur telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="TapToEmojify">Toucher pour emojifier</string>
   <string name="NumberUnknown">Inconnu</string>
@@ -738,6 +751,7 @@
   <string name="UsernameInvalidShort">Un pseudonyme doit contenir 5 caractères minimum.</string>
   <string name="UsernameInvalidLong">Le pseudonyme ne doit pas dépasser 32 caractères.</string>
   <string name="UsernameInvalidStartNumber">Désolé, un pseudonyme ne peut pas commencer par un chiffre.</string>
+  <string name="UsernameHelp">Vous pouvez choisir un pseudonyme sur <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>. Dans ce cas, les autres utilisateurs pourront vous trouver par ce pseudonyme et vous contacter sans connaître votre numéro de téléphone.\n\nVous pouvez utiliser <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> et underscores. La longueur minimale est de <![CDATA[<b>]]>5<![CDATA[</b>]]> caractères.</string>
   <string name="UsernameHelpLink">Ce lien ouvre une conversation avec vous-même dans Telegram:\n%1$s</string>
   <string name="UsernameChecking">Vérification du pseudonyme...</string>
   <string name="UsernameAvailable">%1$s est disponible.</string>
@@ -850,6 +864,7 @@
   <string name="PinnedMessages">Messages épinglés</string>
   <string name="Language">Langue</string>
   <string name="LanguageCustom">Personnalisé</string>
+  <string name="AskAQuestionInfo">Prenez note que le support de Telegram est assuré par des bénévoles. Nous essayons de répondre le plus rapidement possible, mais cela peut prendre un peu de temps.\n\nVeuillez consulter la <![CDATA[<a href="https://telegram.org/faq#general">FAQ Telegram</a>]]>: elle contient les réponses aux questions les plus fréquentes et d\'importantes astuces pour le <![CDATA[<a href="https://telegram.org/faq#troubleshooting">dépannage</a>]]>.</string>
   <string name="AskButton">Demandez à un bénévole</string>
   <string name="TelegramFaq">FAQ de Telegram</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -930,12 +945,17 @@
   <string name="DebugMenu">Menu Debug</string>
   <string name="DebugMenuImportContacts">Importer des contacts</string>
   <string name="DebugMenuReloadContacts">Recharger les contacts</string>
+  <string name="ChangeLanguageLater">Vous pourrez modifier votre langue plus tard dans les Paramètres.</string>
   <string name="ChooseYourLanguage">Choisir votre langue</string>
   <string name="ChooseYourLanguageOther">Autre</string>
+  <string name="ProxySettings">Paramètres du proxy</string>
+  <string name="Proxy">Proxy</string>
+  <string name="UseProxySettings">Utiliser les paramètres du proxy</string>
   <string name="UseProxyAddress">Serveur</string>
   <string name="UseProxyPassword">Mot de passe</string>
   <string name="UseProxyPort">Port</string>
   <string name="UseProxyUsername">Pseudonyme</string>
+  <string name="UseProxyInfo">Paramètres de proxy SOCKS5</string>
   <!--cache view-->
   <string name="LocalDatabase">Base de données locale</string>
   <string name="LocalDatabaseClear">Effacer les messages texte en cache ?</string>
@@ -1199,6 +1219,8 @@
   <string name="InviteToGroupError">Désolé, vous ne pouvez ajouter cet utilisateur aux groupes à cause de ses paramètres de confidentialité.</string>
   <string name="InviteToChannelError">Désolé, vous ne pouvez ajouter cet utilisateur aux chaînes à cause de ses paramètres de confidentialité.</string>
   <string name="CreateGroupError">Désolé, vous ne pouvez pas créer un groupe avec ces utilisateurs à cause de leurs paramètres de confidentialité.</string>
+  <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
+  <string name="PrivacyCallsP2PHelp">La désactivation des connexions peer-to-peer va rediriger tous les appels vers les serveurs Telegram afin d\'empêcher la visibilité de votre adresse IP, mais cela peut légèrement réduire la qualité audio.</string>
   <!--edit video view-->
   <string name="EditVideo">Modifier la vidéo</string>
   <string name="SendingVideo">Envoi de la vidéo...</string>
@@ -1345,6 +1367,11 @@
   <string name="UserRestricted">Désolé, vous n\'êtes pas autorisé à faire ceci.</string>
   <string name="YouBlockedUser">Vous ne pouvez pas ajouter cet utilisateur ou bot à un groupe car vous l\'avez bloqué. Merci de le débloquer pour continuer.</string>
   <string name="JoinGroup">REJOINDRE GROUPE</string>
+  <string name="AddAdminErrorNotAMember">Désolé, vous ne pouvez pas ajouter cet utilisateur aux administrateurs car il n\'est pas membre de ce groupe et vous n\'êtes pas autorisé à l\'inviter.</string>
+  <string name="AddAdminErrorBlacklisted">Désolé, vous ne pouvez pas ajouter cet utilisateur aux administrateurs car il est dans la liste noire et vous ne pouvez pas lever son exclusion.</string>
+  <string name="AddBannedErrorAdmin">Désolé, vous ne pouvez pas bannir cet utilisateur car il est administrateur de ce groupe et vous n\'êtes pas autorisé à le rétrograder.</string>
+  <string name="ErrorSendRestrictedStickers">Désolé, les administrateurs de ce groupe ont décidé de vous restreindre l\'envoi de stickers.</string>
+  <string name="ErrorSendRestrictedMedia">Désolé, les administrateurs de ce groupe ont décidé de vous restreindre l\'envoi de médias.</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram a besoin d\'accéder à vos contacts pour que vous puissiez être en lien avec vos amis à travers tous vos appareils.</string>
   <string name="PermissionStorage">Telegram a besoin d\'accéder à votre espace de stockage pour que vous puissiez envoyer et enregistrer des photos, vidéos, musiques et autres médias.</string>
@@ -1363,6 +1390,13 @@
   <string name="Page5Title">Puissant</string>
   <string name="Page6Title">Basé sur le cloud</string>
   <string name="Page7Title">Privé</string>
+  <string name="Page1Message">La messagerie instantanée la plus <![CDATA[<b>rapide</b>]]> au monde.\n<![CDATA[<b>Gratuite</b>]]> and <![CDATA[<b>sécurisée</b>]]>.</string>
+  <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> distribue les messages plus vite que \nn\'importe quelle autre application.</string>
+  <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> est gratuit pour toujours. Sans pub.\nSans frais d\'inscription.</string>
+  <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> garde vos messages à l\'abri \ndes attaques de hackers.</string>
+  <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> n\'a aucune limite sur la taille de\nvos médias et conversations.</string>
+  <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> vous permet d\'accéder à vos messages\ndepuis plusieurs appareils.</string>
+  <string name="Page7Message">Les messages <![CDATA[<b>Telegram</b>]]> sont lourdement chiffrés\net peuvent s\'auto-détruire.</string>
   <string name="StartMessaging">Démarrer une conversation</string>
   <!--VoIP-->
   <string name="AccountSettings">Paramètres du compte</string>
@@ -1405,6 +1439,7 @@
   <string name="CallMessageOutgoingMissed">Appel annulé</string>
   <string name="CallMessageIncomingDeclined">Appel refusé</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
+  <string name="CallEncryptionKeyDescription">Cette image et ce texte sont dérivés de la clé de chiffrement pour cet appel avec <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nS\'ils sont identiques sur l\'appareil de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, alors le chiffrement de bout en bout est garanti.\n\nEn savoir plus sur telegram.org</string>
   <string name="NoCallLog">Vous n\'avez passé aucun appel pour l\'instant.</string>
   <string name="VoipPeerIncompatible">L\'application <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> utilise un protocol incompatible. Ils doivent mettre à jour leur application avant de pouvoir les appeler.</string>
   <string name="VoipPeerOutdated">L\'application de <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ne permet pas les appels. La mise à jour de son application est nécessaire afin que vous puissiez l\'appeler.</string>
@@ -1423,6 +1458,11 @@
   <string name="ReturnToCall">REVENIR À L\'APPEL</string>
   <string name="CallNotAvailable">Désolé, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> n\'accepte pas d\'appels.</string>
   <string name="CallEmojiKeyTooltip">Si les emoji sont identiques sur l\'écran de %1$s, cet appel est sécurisé à 100%%.</string>
+  <string name="CallMessageReportProblem">Évaluer l\'appel</string>
+  <string name="CallReportHint">Qu\'est-ce qui n\'allait pas ?</string>
+  <string name="CallReportIncludeLogs">Inclure les informations techniques</string>
+  <string name="CallReportLogsExplain">Ceci ne révélera pas le contenu de votre conversion, mais nous aidera à corriger le problème plus rapidement.</string>
+  <string name="CallReportSent">Merci pour votre aide à améliorer les appels Telegram.</string>
   <!--plural-->
   <string name="OnlineCount_zero">%1$d en ligne</string>
   <string name="OnlineCount_one">%1$d en ligne</string>

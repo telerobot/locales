@@ -337,11 +337,16 @@
   <string name="UserRestrictionsUntilForever">Навсегда</string>
   <string name="UserRestrictionsUntilRemove">Убрать</string>
   <string name="UserRestrictionsBlock">Забанить и исключить из группы</string>
+  <string name="ManageGroup">Управление группой</string>
+  <string name="ManageChannel">Управление каналом</string>
+  <string name="ManageGroupMenu">Управление группой</string>
+  <string name="ManageChannelMenu">Управление каналом</string>
   <!--event log-->
   <string name="EventLog">Недавние действия</string>
   <string name="EventLogAllEvents">Все действия</string>
   <string name="EventLogSelectedEvents">Выбранные действия</string>
   <string name="EventLogAllAdmins">Все администраторы</string>
+  <string name="EventLogEmpty"><![CDATA[<b>]]>Пока ничего не произошло<![CDATA[</b>]]>\n\nЗа последние 48 часов администраторами\nи пользователями не было совершено ни\nодного действия.</string>
   <string name="EventLogInfoTitle">Что такое недавние действия?</string>
   <string name="EventLogInfoDetail">Это список всех действий, совершённых участниками и администраторами группы за последние 48 часов.</string>
   <string name="EventLogInfoDetailChannel">Это список всех действий, совершённых администраторами канала за последние 48 часов.</string>
@@ -1188,7 +1193,7 @@
   <string name="InviteToChannelError">К сожалению, этот пользователь запретил приглашать его на каналы.</string>
   <string name="CreateGroupError">К сожалению, эти пользователи запретили создавать группы с их участием.</string>
   <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
-  <string name="PrivacyCallsP2PHelp">При отключение p2p ваши звонки будут проходить через сервера Telegram, что позволит скрыть ваш IP адрес. Однако качество звонка может немного снизиться.</string>
+  <string name="PrivacyCallsP2PHelp">При отключении Peer-to-Peer ваши звонки будут проходить через сервера Telegram, что позволит скрыть ваш IP адрес. Однако качество звонка может немного снизиться.</string>
   <!--edit video view-->
   <string name="EditVideo">Редактировать видео</string>
   <string name="SendingVideo">Отправка видео...</string>
@@ -1421,7 +1426,7 @@
   <string name="CallEmojiKeyTooltip">Если у %1$s отображаются точно такие же смайлы, то этот звонок на 100%% безопасен.</string>
   <string name="CallMessageReportProblem">Оцените звонок</string>
   <string name="CallReportHint">Что пошло не так?</string>
-  <string name="CallReportIncludeLogs">Добавить техническую информацию</string>
+  <string name="CallReportIncludeLogs">Отправить техническую информацию</string>
   <string name="CallReportLogsExplain">В ней нет никакой личной информации, но она очень поможет нам улучшить звонки.</string>
   <string name="CallReportSent">Спасибо, что помогаете нам сделать звонки лучше.</string>
   <!--plural-->
