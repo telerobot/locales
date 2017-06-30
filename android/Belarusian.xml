@@ -235,7 +235,6 @@
   <string name="ChannelEditor">Кіраўнік</string>
   <string name="ChannelMute">ВЫКЛЮЧЫЦЬ АПАВЯШЧЭННІ</string>
   <string name="ChannelUnmute">УКЛЮЧЫЦЬ АПАВЯШЧЭННІ</string>
-  <string name="ChannelAddAdmin">Дадаць кіраўніка</string>
   <string name="ChannelInviteViaLink">Запрасіць праз спасылку</string>
   <string name="ChannelAddUserAdminAlert">Вы сапраўды жадаеце прызначыць %1$s кіраўніком?</string>
   <string name="ChannelMembersInfo">Толькі кіраўнікі канала могуць бачыць гэты спіс.</string>

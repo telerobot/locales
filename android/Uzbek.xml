@@ -171,7 +171,6 @@
   <string name="ChannelEditor">Administrator</string>
   <string name="ChannelMute">OVOZSIZ</string>
   <string name="ChannelUnmute">OVOZLI</string>
-  <string name="ChannelAddAdmin">Administratorni qo\'shish</string>
   <string name="ChannelInviteViaLink">Havola orqali taklif qilish</string>
   <string name="ChannelAddUserAdminAlert"> %1$sni administrator qilib tayinlamoqchi ekaningizga ishonchingiz komilmi?</string>
   <string name="ChannelMembersInfo">Ushbu ro\'yxatni faqatgina kanal administratorlari ko\'rishlari mumkin.</string>

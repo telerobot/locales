@@ -249,7 +249,6 @@ Jeśli cię to nie interesuje, proponujemy utworzenie prywatnego kanału.</strin
   <string name="ChannelEditor">Administrator</string>
   <string name="ChannelMute">WYŁĄCZ POWIADOMIENIA</string>
   <string name="ChannelUnmute">WŁĄCZ POWIADOMIENIA</string>
-  <string name="ChannelAddAdmin">Dodaj administratora</string>
   <string name="ChannelInviteViaLink">Zaproś poprzez link</string>
   <string name="ChannelAddUserAdminAlert">Czy na pewno chcesz ustanowić %1$s administratorem?</string>
   <string name="ChannelMembersInfo">Tylko administratorzy kanału widzą tę listę.</string>

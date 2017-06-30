@@ -181,7 +181,6 @@
   <string name="ChannelEditor">Yönetici</string>
   <string name="ChannelMute">SESSİZ</string>
   <string name="ChannelUnmute">SESİ AÇ</string>
-  <string name="ChannelAddAdmin">Yönetici Ekle</string>
   <string name="ChannelInviteViaLink">Link ile davet et.</string>
   <string name="ChannelAddUserAdminAlert">%1$s kullanıcısını yönetici yapmak istediğinİZden emin misinİZ?</string>
   <string name="ChannelMembersInfo">Sadece kanal yöneticileri bu listeyi görebilir.</string>

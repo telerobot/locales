@@ -218,7 +218,6 @@
   <string name="ChannelEditor">Адміністратор</string>
   <string name="ChannelMute">ВИМКНУТИ</string>
   <string name="ChannelUnmute">УВІМКНУТИ</string>
-  <string name="ChannelAddAdmin">Додати адміністратора</string>
   <string name="ChannelInviteViaLink">Запросити посиланням</string>
   <string name="ChannelAddUserAdminAlert">Ви дійсно хочете зробити %1$s адміністратором?</string>
   <string name="ChannelMembersInfo">Лише адміністратори каналу можуть бачити цей список.</string>

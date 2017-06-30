@@ -3,8 +3,10 @@
   <string name="AppName">Telegram</string>
   <string name="AppNameBeta">Telegram Beta</string>
   <string name="LanguageName">Français</string>
+  <string name="English">English</string>
   <string name="LanguageNameInEnglish">Français</string>
   <string name="LanguageCode">fr</string>
+  <string name="ContinueOnThisLanguage">Continue in English</string>
   <!--signin view-->
   <string name="YourPhone">Votre téléphone</string>
   <string name="StartText">Confirmez votre indicatif national et entrez votre numéro de téléphone</string>
@@ -88,6 +90,7 @@
   <string name="PaymentFailed">Désolé, le paiement a été refusé.</string>
   <string name="PaymentConnectionFailed">Impossible de se connecter au serveur de paiement. Veuillez vérifier votre connexion internet et réessayer.</string>
   <string name="PaymentWarning">Attention</string>
+  <string name="PaymentWarningText">Ni Telegram, ni %1$s n\'auront accès à vos informations de carte de crédit. Ces détails seront traités uniquement par le système de paiement, %2$s. \n\nLes paiements iront directement au développeur de %1$s. Telegram n\'offrant aucune garantie, vous procédez donc à vos risques et périls. En cas de problème, veuillez contacter le développeur de %1$s ou votre banque.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Nouvelle conversation</string>
   <string name="Settings">Paramètres</string>
@@ -99,6 +102,12 @@
   <string name="NoChatsHelp">Démarrez une conversation avec le bouton\nNouveau Message en bas à droite ou \ntoucher le menu pour plus d\'options.</string>
   <string name="WaitingForNetwork">En attente du réseau…</string>
   <string name="Connecting">Connexion…</string>
+  <string name="ConnectingToProxy">Connexion au proxy...</string>
+  <string name="ConnectingToProxyTapToDisable">Toucher pour désactiver le proxy...</string>
+  <string name="ConnectingToProxyDisable">Désactiver</string>
+  <string name="ConnectingToProxyEnable">Activer</string>
+  <string name="EnableProxyAlert">Êtes-vous sûr de vouloir activer ce proxy ?</string>
+  <string name="ConnectingToProxyDisableAlert">Êtes-vous sûr de vouloir désactiver le serveur proxy %1$s ? VOus pourrez le réactiver plus tard dans les Paramètres (Données et Stockage).</string>
   <string name="Updating">Mise à jour…</string>
   <string name="NewSecretChat">Nouvelle conversation secrète</string>
   <string name="AwaitingEncryption">En attente de la connexion de %s…</string>
@@ -138,10 +147,14 @@
   <string name="Bold">Gras</string>
   <string name="Italic">Italique</string>
   <string name="Regular">Normal</string>
+  <string name="ContactsPermissionAlert">Pour vous connecter à tous ceux que vous connaissez, autorisez <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> à accéder à vos contacts.</string>
+  <string name="ContactsPermissionAlertNotNow">PAS MAINTENANT</string>
+  <string name="ContactsPermissionAlertContinue">CONTINUER</string>
   <!--channels-->
   <string name="ChannelTypePublic">Public</string>
   <string name="ChannelTypePrivate">Privé</string>
   <string name="SetAsAdmin">Promouvoir en administrateur</string>
+  <string name="NoBlockedUsers">Aucun utilisateur banni</string>
   <string name="DescriptionInfoMega">Vous pouvez fournir une description facultative pour votre groupe.</string>
   <string name="LeaveMega">Quitter le groupe</string>
   <string name="DeleteMega">Supprimer le groupe</string>
@@ -173,6 +186,8 @@
   <string name="ActionPinnedMusic">un1 a épinglé une piste</string>
   <string name="ActionMigrateFromGroup">Ce groupe a été changé en super-groupe</string>
   <string name="ActionMigrateFromGroupNotify">%1$s a été changé en super-groupe</string>
+  <string name="NoBlockedGroup">Les utilisateurs bannis sont retirés du groupe et peuvent revenir seulement s\'ils sont invités par un administrateur. Les liens d\'invitation ne fonctionneront plus pour eux.</string>
+  <string name="NoBlockedChannel">Les utilisateurs bannis sont retirés de la chaîne et peuvent revenir seulement s\'ils sont invités par un administrateur. Les liens d\'invitation ne fonctionneront plus pour eux.</string>
   <string name="NewChannel">Nouvelle chaîne</string>
   <string name="EnterChannelName">Nom de la chaîne</string>
   <string name="AddMutual">Ajouter des contacts à votre chaîne</string>
@@ -214,6 +229,9 @@
   <string name="LinkChecking">Vérifier le nom...</string>
   <string name="LinkAvailable">%1$s est disponible.</string>
   <string name="ChannelMembers">Membres</string>
+  <string name="ChannelBlacklist">Liste noire</string>
+  <string name="ChannelBlockedUsers">Utilisateurs bannis</string>
+  <string name="ChannelRestrictedUsers">Utilisateurs restreints</string>
   <string name="ChannelAdministrators">Administrateurs</string>
   <string name="ChannelDelete">Supprimer la chaîne</string>
   <string name="ChannelDeleteMenu">Supprimer la chaîne</string>
@@ -233,9 +251,11 @@
   <string name="ChannelEditor">Administrateur</string>
   <string name="ChannelMute">MUET</string>
   <string name="ChannelUnmute">DÉSACTIVER MUET</string>
-  <string name="ChannelAddAdmin">Ajouter un administrateur</string>
+  <string name="Unban">Débannir</string>
+  <string name="UnbanText">Toucher et maintenir un utilisateur pour le débannir.</string>
   <string name="ChannelInviteViaLink">Lien d\'invitation</string>
   <string name="ChannelAddUserAdminAlert">Êtes-vous certain de vouloir rendre %1$s administrateur ?</string>
+  <string name="ChannelRemoveUserAdmin">Retirer l\'administrateur</string>
   <string name="ChannelMembersInfo">Seuls les administrateurs de la chaîne peuvent voir cette liste.</string>
   <string name="ChannelAdminNotParticipant">Cet utilisateur n\'a pas encore rejoint cette chaîne. Voulez vous l\'inviter?</string>
   <string name="ChannelLinkInfo">Quelqu\'un qui à Telegram sera capable de rejoindre votre chaîne en suivant ce lien.</string>
@@ -288,7 +308,104 @@
   <string name="ChannelNotifyMembersInfoOff">Les membres ne seront pas notifiés quand vous publierez</string>
   <string name="ChannelSignMessages">Signer les messages</string>
   <string name="ChannelSignMessagesInfo">Ajouter les noms des administrateurs aux messages qu\'ils publient.</string>
+  <string name="EditAdmin">Modifier l\'administrateur</string>
+  <string name="EditAdminWhatCanDo">Que peut faire cet administrateur ?</string>
+  <string name="EditAdminChangeChannelInfo">Modifier info chaîne</string>
+  <string name="EditAdminChangeGroupInfo">Modifier info groupe</string>
+  <string name="EditAdminPostMessages">Publier des messages</string>
+  <string name="EditAdminEditMessages">Modifier les messages d\'autrui</string>
+  <string name="EditAdminDeleteMessages">Supprimer les messages d\'autrui</string>
+  <string name="EditAdminGroupDeleteMessages">Supprimer des messages</string>
+  <string name="EditAdminAddAdmins">Ajouter des administrateurs</string>
+  <string name="EditAdminRemoveAdmin">Retirer l\'administrateur</string>
+  <string name="EditAdminBanUsers">Bannir des utilisateurs</string>
+  <string name="EditAdminAddUsers">Ajouter des utilisateurs</string>
+  <string name="EditAdminPinMessages">Épingler des messages</string>
+  <string name="EditAdminPromotedBy">Ajouté par %1$s</string>
+  <string name="EditAdminCantEdit">Vous ne pouvez pas modifier les droits de cet administrateur.</string>
+  <string name="UserRestrictionsBy">Restreint par %1$s</string>
+  <string name="UserRestrictions">Restrictions de l\'utilisateur</string>
+  <string name="UserRestrictionsRead">Lire des messages</string>
+  <string name="UserRestrictionsCanDo">Que peut faire cet utilisateur ?</string>
+  <string name="UserRestrictionsSend">Envoyer des messages</string>
+  <string name="UserRestrictionsSendMedia">Envoyer des médias</string>
+  <string name="UserRestrictionsSendStickers">Envoyer des Stickers &amp; GIFs</string>
+  <string name="UserRestrictionsEmbedLinks">Intégrer des liens</string>
+  <string name="UserRestrictionsUntil">Banni jusqu\'au</string>
+  <string name="UserRestrictionsUntilForever">Pour toujours</string>
+  <string name="UserRestrictionsUntilRemove">Supprimer</string>
+  <string name="UserRestrictionsBlock">Bannir et retirer du groupe</string>
+  <string name="ManageGroup">Gérer le groupe</string>
+  <string name="ManageChannel">Gérer la chaîne</string>
+  <string name="ManageGroupMenu">Gérer le groupe</string>
+  <string name="ManageChannelMenu">Gérer la chaîne</string>
   <!--event log-->
+  <string name="EventLogAllAdmins">Tous les administrateurs</string>
+  <string name="EventLogEmptyChannel"><![CDATA[<b>]]>Aucun évènement<![CDATA[</b>]]>\n\nLes administrateurs de la chaîne\nn\'ont entamé aucune action de service\ndans les dernières 48 heures.</string>
+  <string name="EventLogEmptySearch"><![CDATA[<b>]]>Aucune action trouvée<![CDATA[</b>]]>\n\nAucune action récente répondant à votre requête\nn\'a été trouvée.</string>
+  <string name="EventLogEmptyTextSearch">Aucune action récente contenant \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\' n\'a été trouvée.</string>
+  <string name="EventLogInfoTitle">Qu\'est-ce que les Actions Récentes ?</string>
+  <string name="EventLogInfoDetail">Il s\'agit d\'une liste de toutes les actions de service prises par les membres et administrateurs du groupe dans les dernières 48 heures.</string>
+  <string name="EventLogInfoDetailChannel">Il s\'agit d\'une liste de toutes les actions de service prises par les administrateurs de la chaîne dans les dernières 48 heures.</string>
+  <string name="EventLogEditedGroupTitle">un1 a renommé le groupe en \"%1$s\"</string>
+  <string name="EventLogEditedChannelTitle">un1 a renommé la chaîne en \"%1$s\"</string>
+  <string name="EventLogLeftGroup">un1 a quitté le groupe</string>
+  <string name="EventLogLeftChannel">un1 a quitté la chaîne</string>
+  <string name="EventLogAdded">un1 a ajouté un2</string>
+  <string name="EventLogGroupJoined">un1 a rejoint le groupe</string>
+  <string name="EventLogChannelRestricted">a banni %1$s</string>
+  <string name="EventLogChannelUnrestricted">a débanni %1$s</string>
+  <string name="EventLogChannelJoined">un1 a rejoint la chaîne</string>
+  <string name="EventLogEditedGroupPhoto">un1 a défini une nouvelle photo de groupe</string>
+  <string name="EventLogEditedChannelPhoto">un1 a défini une nouvelle photo de chaîne</string>
+  <string name="EventLogRemovedWGroupPhoto">un1 a supprimé la photo du groupe</string>
+  <string name="EventLogRemovedChannelPhoto">un1 a supprimé la photo de la chaîne</string>
+  <string name="EventLogEditedMessages">un1 a modifié ce message :</string>
+  <string name="EventLogEditedCaption">un1 a modifié la légende :</string>
+  <string name="EventLogOriginalMessages">Message original</string>
+  <string name="EventLogOriginalCaption">Légende originale</string>
+  <string name="EventLogOriginalCaptionEmpty">Vide</string>
+  <string name="EventLogPinnedMessages">un1 a épinglé ce message :</string>
+  <string name="EventLogUnpinnedMessages">un1 a désépinglé un message</string>
+  <string name="EventLogDeletedMessages">un1 a supprimé ce message :</string>
+  <string name="EventLogChangedGroupLink">un1 a changé le lien du groupe :</string>
+  <string name="EventLogChangedChannelLink">un1 a changé le lien de la chaîne :</string>
+  <string name="EventLogRemovedGroupLink">un1 a supprimé le lien du groupe</string>
+  <string name="EventLogRemovedChannelLink">un1 a supprimé le lien de la chaîne</string>
+  <string name="EventLogPreviousLink">Lien précédent</string>
+  <string name="EventLogEditedGroupDescription">un1 a modifié la description du groupe :</string>
+  <string name="EventLogEditedChannelDescription">un1 a modifié la description de la chaîne :</string>
+  <string name="EventLogPreviousGroupDescription">Description précédente</string>
+  <string name="EventLogToggledInvitesOn">un1 a activé les invitations au groupe</string>
+  <string name="EventLogToggledInvitesOff">un1 a désactivé les invitations au groupe</string>
+  <string name="EventLogToggledSignaturesOn">un1 a activé les signatures</string>
+  <string name="EventLogToggledSignaturesOff">un1 a désactivé les signatures</string>
+  <string name="EventLogRestrictedUntil">a modifié les restrictions pour %1$s\n\nDurée : %2$s</string>
+  <string name="EventLogRestrictedSendStickers">Envoyer des Stickers &amp; GIFs</string>
+  <string name="EventLogRestrictedSendMedia">Envoyer des médias</string>
+  <string name="EventLogRestrictedSendMessages">Envoyer des messages</string>
+  <string name="EventLogRestrictedSendEmbed">Intégrer des liens</string>
+  <string name="EventLogRestrictedReadMessages">Lire des messages</string>
+  <string name="EventLogPromoted">a modifié les privilèges de %1$s</string>
+  <string name="EventLogPromotedChangeChannelInfo">Modifier info chaîne</string>
+  <string name="EventLogPromotedChangeGroupInfo">Modifier info groupe</string>
+  <string name="EventLogPromotedPostMessages">Publier des messages</string>
+  <string name="EventLogPromotedEditMessages">Modifier les messages</string>
+  <string name="EventLogPromotedDeleteMessages">Supprimer les messages</string>
+  <string name="EventLogPromotedAddAdmins">Ajouter des administrateurs</string>
+  <string name="EventLogPromotedBanUsers">Bannir les utilisateurs</string>
+  <string name="EventLogPromotedAddUsers">Ajouter des utilisateurs</string>
+  <string name="EventLogPromotedPinMessages">Épingler messages</string>
+  <string name="EventLogFilterNewRestrictions">Nouvelles restrictions</string>
+  <string name="EventLogFilterNewAdmins">Nouveaux admins</string>
+  <string name="EventLogFilterNewMembers">Nouveaux membres</string>
+  <string name="EventLogFilterGroupInfo">Groupe</string>
+  <string name="EventLogFilterChannelInfo">Chaîne</string>
+  <string name="EventLogFilterGroupSettings">Paramètres du groupe</string>
+  <string name="EventLogFilterDeletedMessages">Messages supprimés</string>
+  <string name="EventLogFilterEditedMessages">Messages modifiés</string>
+  <string name="EventLogFilterPinnedMessages">Messages épinglés</string>
+  <string name="EventLogFilterLeavingMembers">Membres sur le départ</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Nouv. liste de diffusion</string>
   <string name="EnterListName">Saisissez le nom de la liste</string>
@@ -325,6 +442,8 @@
   <string name="IsSendingAudio">%1$s envoie de l\'audio...</string>
   <string name="IsSendingPhoto">%1$s envoie une photo...</string>
   <string name="InstantView">VUE INSTANTANÉE</string>
+  <string name="OpenGroup">OUVRIR UN GROUPE</string>
+  <string name="OpenChannel">OUVRIR UNE CHAÎNE</string>
   <string name="InstantViewNightMode">Le thème sombre s\'activera automatiquement à la tombée de la nuit</string>
   <string name="IsSendingGame">%1$s joue à un jeu...</string>
   <string name="IsSendingVideo">%1$s envoie une vidéo...</string>
@@ -379,6 +498,7 @@
   <string name="OpenInExternalApp">Ouvrir dans ...</string>
   <string name="CopyUrl">Copier l\'URL</string>
   <string name="SendItems">Envoyer %1$s</string>
+  <string name="SendAsFile">Envoyer comme fichier</string>
   <string name="SendAsFiles">Envoyer comme fichiers</string>
   <string name="OpenUrlAlert">Ouvrir l\'url %1$s?</string>
   <string name="BotPermissionGameAlert">Est-ce que vous autorisez %1$s a envoyer votre nom Telegram et votre id (pas votre numéro de téléphone) aux pages ouvertes par ce bot?</string>
@@ -418,6 +538,7 @@
   <string name="TimeToEdit">%1$s</string>
   <string name="TimeToEditExpired">Désolé, temps de modification expiré.</string>
   <string name="AddShortcut">Ajouter raccourcis</string>
+  <string name="SearchMembers">Recherche de membres</string>
   <string name="ShortcutAdded">Raccourcis ajouté à l\'écran d\'accueil</string>
   <string name="ChatYourSelf">conversation avec vous-même</string>
   <string name="ChatYourSelfName">Vous</string>
@@ -437,6 +558,12 @@
   <string name="DiscardVideoMessageTitle">Annuler le message vidéo</string>
   <string name="DiscardVideoMessageDescription">Êtes-vous sûr de vouloir arrêter l\'enregistrement et annuler votre message vidéo ?</string>
   <string name="DiscardVoiceMessageAction">Annuler</string>
+  <string name="AttachMediaRestricted">Les administrateurs de ce groupe vous ont restreint l\'envoi de médias ici jusqu\'au %1$s</string>
+  <string name="AttachInlineRestricted">Les administrateurs de ce groupe vous ont restreint l\'envoi de contenu inséré ici jusqu\'au %1$s</string>
+  <string name="AttachStickersRestricted">Les administrateurs de ce groupe vous ont restreint l\'envoi de stickers ici jusqu\'au %1$s</string>
+  <string name="SendMessageRestricted">Les administrateurs de ce groupe vous ont restreint l\'envoi de messages ici jusqu\'au %1$s</string>
+  <string name="AttachMediaRestrictedForever">Les administrateurs de ce groupe vous ont restreint l\'envoi de médias ici</string>
+  <string name="AttachInlineRestrictedForever">Les administrateurs de ce groupe vous ont restreint l\'envoi de contenu inséré ici</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s a défini l\'auto-destruction des messages à %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Vous avez défini l\'auto-destruction des messages à %1$s</string>
@@ -617,6 +744,7 @@
   <string name="UsernameEmpty">Aucun</string>
   <string name="ErrorOccurred">Une erreur est survenue.</string>
   <!--stickers view-->
+  <string name="StickersName">Stickers</string>
   <string name="AddStickers">Ajouter des stickers</string>
   <string name="AddMasks">Ajouter des masques</string>
   <string name="AddToStickers">Ajouter aux stickers</string>
@@ -721,6 +849,7 @@
   <string name="ContactJoined">Un contact a rejoint Telegram</string>
   <string name="PinnedMessages">Messages épinglés</string>
   <string name="Language">Langue</string>
+  <string name="LanguageCustom">Personnalisé</string>
   <string name="AskButton">Demandez à un bénévole</string>
   <string name="TelegramFaq">FAQ de Telegram</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -801,6 +930,12 @@
   <string name="DebugMenu">Menu Debug</string>
   <string name="DebugMenuImportContacts">Importer des contacts</string>
   <string name="DebugMenuReloadContacts">Recharger les contacts</string>
+  <string name="ChooseYourLanguage">Choisir votre langue</string>
+  <string name="ChooseYourLanguageOther">Autre</string>
+  <string name="UseProxyAddress">Serveur</string>
+  <string name="UseProxyPassword">Mot de passe</string>
+  <string name="UseProxyPort">Port</string>
+  <string name="UseProxyUsername">Pseudonyme</string>
   <!--cache view-->
   <string name="LocalDatabase">Base de données locale</string>
   <string name="LocalDatabaseClear">Effacer les messages texte en cache ?</string>
@@ -884,6 +1019,8 @@
   <string name="SaveToGallery">Enregistrer dans la galerie</string>
   <string name="Of">%1$d de %2$d</string>
   <string name="Gallery">Galerie</string>
+  <string name="AllPhotos">Toutes les photos</string>
+  <string name="AllMedia">Tous les médias</string>
   <string name="NoPhotos">Aucune photo pour l\'instant</string>
   <string name="NoVideo">Aucune vidéo actuellement</string>
   <string name="PleaseDownload">Commencez par télécharger le média</string>
@@ -1074,7 +1211,7 @@
   <string name="BotHelp">Aide</string>
   <string name="BotStatusRead">a accès aux messages</string>
   <string name="BotStatusCantRead">n\'a pas accès aux messages</string>
-  <string name="BotInfoTitle">Que peux faire ce bot ?</string>
+  <string name="BotInfoTitle">Que peut faire ce bot ?</string>
   <string name="BotStart">DÉMARRER</string>
   <string name="BotUnblock">REDÉMARRER</string>
   <string name="BotStop">Arrêter le bot</string>
@@ -1287,6 +1424,12 @@
   <string name="CallNotAvailable">Désolé, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> n\'accepte pas d\'appels.</string>
   <string name="CallEmojiKeyTooltip">Si les emoji sont identiques sur l\'écran de %1$s, cet appel est sécurisé à 100%%.</string>
   <!--plural-->
+  <string name="OnlineCount_zero">%1$d en ligne</string>
+  <string name="OnlineCount_one">%1$d en ligne</string>
+  <string name="OnlineCount_two">%1$d en ligne</string>
+  <string name="OnlineCount_few">%1$d en ligne</string>
+  <string name="OnlineCount_many">%1$d en ligne</string>
+  <string name="OnlineCount_other">%1$d en ligne</string>
   <string name="Members_zero">%1$d membres</string>
   <string name="Members_one">%1$d membre</string>
   <string name="Members_two">%1$d membres</string>
@@ -1507,6 +1650,10 @@
   <!--date formatters-->
   <string name="formatterStats12H">MMM dd yyyy, h:mm a</string>
   <string name="formatterStats24H">MMM dd yyyy, HH:mm</string>
+  <string name="formatterBannedUntil12H">MMM dd yyyy, h:mm a</string>
+  <string name="formatterBannedUntil24H">MMM dd yyyy, HH:mm</string>
+  <string name="formatterBannedUntilThisYear12H">MMM dd, h:mm a</string>
+  <string name="formatterBannedUntilThisYear24H">MMM dd, HH:mm</string>
   <string name="formatterMonthYear">MMMM yyyy</string>
   <string name="formatterMonth">dd MMM</string>
   <string name="formatterYear">dd.MM.yy</string>

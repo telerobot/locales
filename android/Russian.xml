@@ -2,9 +2,11 @@
 <resources>
   <string name="AppName">Telegram</string>
   <string name="AppNameBeta">Telegram Beta</string>
-  <string name="LanguageName">Русский</string>
-  <string name="LanguageNameInEnglish">Russian</string>
+  <string name="LanguageName">Правильный русский</string>
+  <string name="English">English</string>
+  <string name="LanguageNameInEnglish">Correct Russian</string>
   <string name="LanguageCode">ru</string>
+  <string name="ContinueOnThisLanguage">Continue in English</string>
   <!--signin view-->
   <string name="YourPhone">Ваш телефон</string>
   <string name="StartText">Подтвердите код вашей страны
@@ -100,6 +102,13 @@
   <string name="NoChatsHelp">Нажмите кнопку создания нового чата\nв нижнем правом углу или кнопку меню\nдля дополнительных опций.</string>
   <string name="WaitingForNetwork">Ожидание сети...</string>
   <string name="Connecting">Подключение...</string>
+  <string name="ConnectingToProxy">Подключение к прокси...</string>
+  <string name="ConnectingToProxyTapToDisable">Нажмите, чтобы отключить прокси...</string>
+  <string name="ConnectingToProxyDisable">Отключить</string>
+  <string name="ConnectingToProxyEnable">Включить</string>
+  <string name="EnableProxyAlert">Уверены, что хотите включить прокси?</string>
+  <string name="EnableProxyAlert2">Вы сможете изменить настройки прокси позже (в разделе «Трафик и Хранилище»).</string>
+  <string name="ConnectingToProxyDisableAlert">Уверены, что хотите отключить прокси-сервер %1$s? Вы сможете включить его позднее в настройках (в разделе Трафик и Хранилище).</string>
   <string name="Updating">Обновление...</string>
   <string name="NewSecretChat">Создать секретный чат</string>
   <string name="AwaitingEncryption">Ждём, когда %s появится в сети...</string>
@@ -139,10 +148,13 @@
   <string name="Bold">Жирный</string>
   <string name="Italic">Курсив</string>
   <string name="Regular">Обычный</string>
+  <string name="ContactsPermissionAlertNotNow">НЕ СЕЙЧАС</string>
+  <string name="ContactsPermissionAlertContinue">ПРОДОЛЖИТЬ</string>
   <!--channels-->
   <string name="ChannelTypePublic">Публичный</string>
   <string name="ChannelTypePrivate">Приватный</string>
   <string name="SetAsAdmin">Назначить администратором</string>
+  <string name="NoBlockedUsers">Нет забаненных пользователей</string>
   <string name="DescriptionInfoMega">Можно указать описание вашей группы (необязательно).</string>
   <string name="LeaveMega">Покинуть группу</string>
   <string name="DeleteMega">Удалить группу</string>
@@ -174,6 +186,8 @@
   <string name="ActionPinnedMusic">un1 прикрепил аудиозапись</string>
   <string name="ActionMigrateFromGroup">Эта группа была преобразована в супергруппу</string>
   <string name="ActionMigrateFromGroupNotify">%1$s преобразована в супергруппу</string>
+  <string name="NoBlockedGroup">Забаненные пользователи будут удалены из группы и смогут вернуться только по приглашению администратора. Пригласительные ссылки для них не работают.</string>
+  <string name="NoBlockedChannel">Забаненные пользователи будут удалены из канала и смогут вернуться только по приглашению администратора. Пригласительные ссылки для них не работают.</string>
   <string name="NewChannel">Создать канал</string>
   <string name="EnterChannelName">Название</string>
   <string name="AddMutual">Добавить ваши контакты на канал</string>
@@ -215,6 +229,9 @@
   <string name="LinkChecking">Проверка доступности…</string>
   <string name="LinkAvailable">имя %1$s доступно</string>
   <string name="ChannelMembers">Участники</string>
+  <string name="ChannelBlacklist">Чёрный список</string>
+  <string name="ChannelBlockedUsers">Заблокированные пользователи</string>
+  <string name="ChannelRestrictedUsers">Ограничения прав</string>
   <string name="ChannelAdministrators">Администраторы</string>
   <string name="ChannelDelete">Удалить канал</string>
   <string name="ChannelDeleteMenu">Удалить канал</string>
@@ -235,8 +252,12 @@
   <string name="ChannelMute">ОТКЛЮЧИТЬ УВЕДОМЛЕНИЯ</string>
   <string name="ChannelUnmute">ВКЛЮЧИТЬ УВЕДОМЛЕНИЯ</string>
   <string name="ChannelAddAdmin">Добавить администратора</string>
+  <string name="ChannelBlockUser">Забанить пользователя</string>
+  <string name="Unban">Разбанить</string>
+  <string name="UnbanText">Нажмите и удерживайте, чтобы разбанить.</string>
   <string name="ChannelInviteViaLink">Пригласить по ссылке</string>
   <string name="ChannelAddUserAdminAlert">Уверены, что хотите назначить %1$s администратором?</string>
+  <string name="ChannelRemoveUserAdmin">Разжаловать администратора</string>
   <string name="ChannelMembersInfo">Только администраторы канала могут видеть этот список.</string>
   <string name="ChannelAdminNotParticipant">Этот пользователь пока ещё не подписан на этот канал. Пригласить его?</string>
   <string name="ChannelLinkInfo">Любой пользователь Telegram сможет присоединиться к вашему каналу, проследовав по этой ссылке.</string>
@@ -289,7 +310,75 @@
   <string name="ChannelNotifyMembersInfoOff">Подписчикам не придёт уведомление о новом сообщении</string>
   <string name="ChannelSignMessages">Подписывать сообщения</string>
   <string name="ChannelSignMessagesInfo">Добавлять к сообщениям имя администратора, который их опубликовал.</string>
+  <string name="EditAdmin">Редактировать</string>
+  <string name="EditAdminWhatCanDo">Что может делать этот администратор?</string>
+  <string name="EditAdminChangeChannelInfo">Изменять информацию о канале</string>
+  <string name="EditAdminChangeGroupInfo">Изменять информацию о группе</string>
+  <string name="EditAdminPostMessages">Публиковать сообщения</string>
+  <string name="EditAdminEditMessages">Редактировать чужие сообщения</string>
+  <string name="EditAdminDeleteMessages">Удалять чужие сообщения</string>
+  <string name="EditAdminGroupDeleteMessages">Удалять сообщения</string>
+  <string name="EditAdminAddAdmins">Добавлять новых администраторов</string>
+  <string name="EditAdminRemoveAdmin">Удалять администраторов</string>
+  <string name="EditAdminBanUsers">Банить пользователей</string>
+  <string name="EditAdminAddUsers">Добавлять пользователей</string>
+  <string name="EditAdminPinMessages">Прикреплять сообщения</string>
+  <string name="EditAdminPromotedBy">Добавил: %1$s</string>
+  <string name="EditAdminCantEdit">Вы не можете изменять права этого администратора.</string>
+  <string name="UserRestrictionsBy">Забанил: %1$s</string>
+  <string name="UserRestrictions">Ограничения</string>
+  <string name="UserRestrictionsRead">Читать сообщения</string>
+  <string name="UserRestrictionsCanDo">Что разрешено этому пользователю?</string>
+  <string name="UserRestrictionsSend">Отправлять сообщения</string>
+  <string name="UserRestrictionsSendMedia">Отправлять файлы</string>
+  <string name="UserRestrictionsSendStickers">Отправлять стикеры и GIF</string>
+  <string name="UserRestrictionsEmbedLinks">Отправлять ссылки</string>
+  <string name="UserRestrictionsUntil">Забанен до...</string>
+  <string name="UserRestrictionsUntilForever">Навсегда</string>
+  <string name="UserRestrictionsUntilRemove">Убрать</string>
+  <string name="UserRestrictionsBlock">Забанить и исключить из группы</string>
   <!--event log-->
+  <string name="EventLog">Недавние действия</string>
+  <string name="EventLogAllEvents">Все действия</string>
+  <string name="EventLogSelectedEvents">Выбранные действия</string>
+  <string name="EventLogAllAdmins">Все администраторы</string>
+  <string name="EventLogInfoTitle">Что такое недавние действия?</string>
+  <string name="EventLogInfoDetail">Это список всех действий, совершённых участниками и администраторами группы за последние 48 часов.</string>
+  <string name="EventLogInfoDetailChannel">Это список всех действий, совершённых администраторами канала за последние 48 часов.</string>
+  <string name="EventLogEditedGroupTitle">un1 переименовал(а) группу в «%1$s»</string>
+  <string name="EventLogEditedChannelTitle">un1 переименовал(а) канал в «%1$s»</string>
+  <string name="EventLogLeftGroup">un1 покинул(а) группу</string>
+  <string name="EventLogLeftChannel">un1 покинул(а) канал</string>
+  <string name="EventLogChannelRestricted">забанил(а) %1$s</string>
+  <string name="EventLogOriginalMessages">Исходное сообщение</string>
+  <string name="EventLogOriginalCaption">Исходная подпись</string>
+  <string name="EventLogPreviousLink">Предыдущая ссылка</string>
+  <string name="EventLogRestrictedSendStickers">Отправлять стикеры и GIF</string>
+  <string name="EventLogRestrictedSendMedia">Отправлять файлы</string>
+  <string name="EventLogRestrictedSendMessages">Отправлять сообщения</string>
+  <string name="EventLogRestrictedSendEmbed">Отправлять ссылки</string>
+  <string name="EventLogRestrictedReadMessages">Читать сообщения</string>
+  <string name="EventLogPromoted">изменил(а) привелегии %1$s</string>
+  <string name="EventLogPromotedChangeChannelInfo">Изменять информацию о канале</string>
+  <string name="EventLogPromotedChangeGroupInfo">Изменять информацию о группе</string>
+  <string name="EventLogPromotedPostMessages">Публиковать сообщения</string>
+  <string name="EventLogPromotedEditMessages">Редактировать сообщения</string>
+  <string name="EventLogPromotedDeleteMessages">Удалять сообщения</string>
+  <string name="EventLogPromotedAddAdmins">Добавлять администраторов</string>
+  <string name="EventLogPromotedBanUsers">Банить пользователей</string>
+  <string name="EventLogPromotedAddUsers">Добавлять пользователей</string>
+  <string name="EventLogPromotedPinMessages">Прикреплять сообщения</string>
+  <string name="EventLogFilterAll">Все действия</string>
+  <string name="EventLogFilterNewRestrictions">Новые ограничения</string>
+  <string name="EventLogFilterNewAdmins">Новые администраторы</string>
+  <string name="EventLogFilterNewMembers">Новые участники</string>
+  <string name="EventLogFilterGroupInfo">Информация о группе</string>
+  <string name="EventLogFilterChannelInfo">Информация о канале</string>
+  <string name="EventLogFilterGroupSettings">Настройки группы</string>
+  <string name="EventLogFilterDeletedMessages">Удалённые сообщения</string>
+  <string name="EventLogFilterEditedMessages">Изменённые сообщения</string>
+  <string name="EventLogFilterPinnedMessages">Прикреплённые сообщения</string>
+  <string name="EventLogFilterLeavingMembers">Вышедшие участники</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Новая рассылка</string>
   <string name="EnterListName">Введите название рассылки</string>
@@ -326,6 +415,9 @@
   <string name="IsSendingAudio">%1$s отправляет аудио...</string>
   <string name="IsSendingPhoto">%1$s отправляет фото...</string>
   <string name="InstantView">ЧИТАТЬ ДАЛЬШЕ</string>
+  <string name="OpenGroup">ОТКРЫТЬ ГРУППУ</string>
+  <string name="OpenChannel">ОТКРЫТЬ КАНАЛ</string>
+  <string name="InstantViewNightMode">Тёмная тема автоматически включится в ночное время</string>
   <string name="IsSendingGame">%1$s сейчас играет...</string>
   <string name="IsSendingVideo">%1$s отправляет видео...</string>
   <string name="IsSendingFile">%1$s отправляет файл...</string>
@@ -377,6 +469,7 @@
   <string name="OpenInExternalApp">Открыть в...</string>
   <string name="CopyUrl">Копировать ссылку</string>
   <string name="SendItems">Отправить %1$s</string>
+  <string name="SendAsFile">Отправить как файл</string>
   <string name="SendAsFiles">Отправить как файлы</string>
   <string name="OpenUrlAlert">Открыть ссылку в %1$s?</string>
   <string name="BotPermissionGameAlert">Разрешить %1$s отправлять ваше имя и ID (НЕ номер телефона) веб-страницам, которые вы открываете с помощью этого бота?</string>
@@ -416,6 +509,7 @@
   <string name="TimeToEdit">%1$s</string>
   <string name="TimeToEditExpired">К сожалению, время для редактирования истекло.</string>
   <string name="AddShortcut">Добавить ярлык</string>
+  <string name="SearchMembers">Поиск участников</string>
   <string name="ShortcutAdded">Ярлык добавлен на рабочий стол</string>
   <string name="ChatYourSelf">чат с самим собой</string>
   <string name="ChatYourSelfName">Вы</string>
@@ -435,6 +529,14 @@
   <string name="DiscardVideoMessageTitle">Удалить видеосообщение</string>
   <string name="DiscardVideoMessageDescription">Уверены, что хотите остановить запись и удалить ваше видеосообщение?</string>
   <string name="DiscardVoiceMessageAction">Удалить</string>
+  <string name="AttachMediaRestricted">Администраторы этой группы запретили вам отправлять медиафайлы до %1$s</string>
+  <string name="AttachInlineRestricted">Администраторы этой группы запретили вам отправлять инлайн-контент до %1$s</string>
+  <string name="AttachStickersRestricted">Администраторы этой группы запретили вам отправлять стикеры до %1$s</string>
+  <string name="SendMessageRestricted">Администраторы этой группы запретили вам писать здесь до %1$s</string>
+  <string name="AttachMediaRestrictedForever">Администраторы этой группы запретили вам отправлять медиафайлы</string>
+  <string name="AttachInlineRestrictedForever">Администраторы этой группы запретили вам отправлять инлайн-контент</string>
+  <string name="AttachStickersRestrictedForever">Администраторы этой группы запретили вам отправлять стикеры</string>
+  <string name="SendMessageRestrictedForever">Администраторы этой группы запретили вам писать здесь</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s поставил(а) таймер самоуничтожения на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы поставили таймер самоуничтожения на %1$s</string>
@@ -563,8 +665,10 @@
   <string name="SETTINGS">Настройки</string>
   <string name="AddMember">Добавить участника</string>
   <string name="SetAdmins">Назначить администраторов</string>
+  <string name="BanFromTheGroup">ЗАБАНИТЬ</string>
   <string name="DeleteAndExit">Удалить и покинуть группу</string>
   <string name="Notifications">Уведомления</string>
+  <string name="KickFromSupergroup">Ограничить права</string>
   <string name="KickFromGroup">Исключить из группы</string>
   <string name="UpgradeGroup">Преобразовать в супергруппу</string>
   <string name="ConvertGroup">Преобразовать в супергруппу</string>
@@ -615,6 +719,7 @@
   <string name="UsernameEmpty">Не задано</string>
   <string name="ErrorOccurred">Произошла ошибка.</string>
   <!--stickers view-->
+  <string name="StickersName">Стикеры</string>
   <string name="AddStickers">Добавить стикеры</string>
   <string name="AddMasks">Добавить маски</string>
   <string name="AddToStickers">Добавить в стикеры</string>
@@ -719,6 +824,10 @@
   <string name="ContactJoined">Контакт присоединился к Telegram</string>
   <string name="PinnedMessages">Прикреплённые сообщения</string>
   <string name="Language">Язык</string>
+  <string name="LanguageCustom">Неофициальный</string>
+  <string name="AskAQuestionInfo">Обратите внимание, что техническая поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но это может занять некоторое время.
+
+Пожалуйста, сначала обратитесь к <![CDATA[<a href="https://tlgrm.ru/faq">часто задаваемым вопросам</a>]]>: там имеются наиболее важные советы по устранению проблем.</string>
   <string name="AskButton">Спросить добровольца</string>
   <string name="TelegramFaq">Вопросы и ответы о Telegram</string>
   <string name="TelegramFaqUrl">https://tlgrm.ru/faq</string>
@@ -799,6 +908,22 @@
   <string name="DebugMenu">Меню отладки</string>
   <string name="DebugMenuImportContacts">Импорт контактов</string>
   <string name="DebugMenuReloadContacts">Перезагрузить контакты</string>
+  <string name="ChangeLanguageLater">Вы сможете изменить свой язык в настройках.</string>
+  <string name="ChooseYourLanguage">Выберите язык</string>
+  <string name="ChooseYourLanguageOther">Другой</string>
+  <string name="ProxySettings">Настройки прокси</string>
+  <string name="Proxy">Прокси</string>
+  <string name="UseProxySettings">Подключаться через прокси</string>
+  <string name="UseProxyAddress">Хост</string>
+  <string name="UseProxyPassword">Пароль</string>
+  <string name="UseProxyPort">Порт</string>
+  <string name="UseProxyUsername">Логин</string>
+  <string name="UseProxyInfo">Настройки SOCKS5-прокси.
+
+Хост: teleproxy.me
+Порт: 1080
+
+Подробнее: https://telegramproxy.org</string>
   <!--cache view-->
   <string name="LocalDatabase">Локальная база данных</string>
   <string name="LocalDatabaseClear">Очистить кэш сообщений?</string>
@@ -817,6 +942,8 @@
   <string name="KeepMedia">Срок хранения файлов</string>
   <string name="KeepMediaInfo">Фото, видео и другие файлы, к которым вы <![CDATA[<b>не обращались</b>]]> в течение этого периода, будут удалены с этого устройства для экономии места на вашем устройстве.\n\nВсе файлы останутся на серверах Telegram и при необходимости могут быть загружены снова.</string>
   <string name="KeepMediaForever">Всегда</string>
+  <string name="AudioAutodownload">Голосовые сообщения</string>
+  <string name="VideoMessagesAutodownload">Видеосообщения</string>
   <!--sessions view-->
   <string name="SessionsTitle">Активные сессии</string>
   <string name="CurrentSession">Текущий сеанс</string>
@@ -880,6 +1007,8 @@
   <string name="SaveToGallery">Сохранить в галерею</string>
   <string name="Of">%1$d из %2$d</string>
   <string name="Gallery">Галерея</string>
+  <string name="AllPhotos">Все фото</string>
+  <string name="AllMedia">Все файлы</string>
   <string name="NoPhotos">Фото пока нет</string>
   <string name="NoVideo">Нет видео</string>
   <string name="PleaseDownload">Сначала загрузите медиа</string>
@@ -1058,6 +1187,8 @@
   <string name="InviteToGroupError">К сожалению, этот пользователь запретил добавлять его в группы.</string>
   <string name="InviteToChannelError">К сожалению, этот пользователь запретил приглашать его на каналы.</string>
   <string name="CreateGroupError">К сожалению, эти пользователи запретили создавать группы с их участием.</string>
+  <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
+  <string name="PrivacyCallsP2PHelp">При отключение p2p ваши звонки будут проходить через сервера Telegram, что позволит скрыть ваш IP адрес. Однако качество звонка может немного снизиться.</string>
   <!--edit video view-->
   <string name="EditVideo">Редактировать видео</string>
   <string name="SendingVideo">Отправка видео...</string>
@@ -1208,6 +1339,8 @@
   <string name="UserRestricted">К сожалению, вам запрещено это действие.</string>
   <string name="YouBlockedUser">К сожалению, вы не можете добавить этого пользователя или бота, потому что вы его заблокировали. Сначала разблокируйте его.</string>
   <string name="JoinGroup">ПРИСОЕДИНИТЬСЯ К ГРУППЕ</string>
+  <string name="ErrorSendRestrictedStickers">К сожалению, администраторы этой группы запретили вам отправлять стикеры.</string>
+  <string name="ErrorSendRestrictedMedia">К сожалению, администраторы этой группы запретили вам отправлять файлы.</string>
   <!--permissions-->
   <string name="PermissionContacts">Чтобы вы могли оставаться на связи с вашими друзьями с любого устройства, необходим доступ к контактам.</string>
   <string name="PermissionStorage">Для сохранения и отправки фото, видео и других файлов необходим доступ к памяти вашего устройства.</string>
@@ -1286,7 +1419,18 @@
   <string name="ReturnToCall">ВЕРНУТЬСЯ К РАЗГОВОРУ</string>
   <string name="CallNotAvailable">К сожалению, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> не принимает звонки.</string>
   <string name="CallEmojiKeyTooltip">Если у %1$s отображаются точно такие же смайлы, то этот звонок на 100%% безопасен.</string>
+  <string name="CallMessageReportProblem">Оцените звонок</string>
+  <string name="CallReportHint">Что пошло не так?</string>
+  <string name="CallReportIncludeLogs">Добавить техническую информацию</string>
+  <string name="CallReportLogsExplain">В ней нет никакой личной информации, но она очень поможет нам улучшить звонки.</string>
+  <string name="CallReportSent">Спасибо, что помогаете нам сделать звонки лучше.</string>
   <!--plural-->
+  <string name="OnlineCount_zero">%1$d в сети</string>
+  <string name="OnlineCount_one">%1$d в сети</string>
+  <string name="OnlineCount_two">%1$d в сети</string>
+  <string name="OnlineCount_few">в сети: %1$d</string>
+  <string name="OnlineCount_many">в сети: %1$d</string>
+  <string name="OnlineCount_other">в сети: %1$d</string>
   <string name="Members_zero">%1$d участников</string>
   <string name="Members_one">%1$d участник</string>
   <string name="Members_two">%1$d участника</string>
@@ -1507,6 +1651,10 @@
   <!--date formatters-->
   <string name="formatterStats12H">dd MMM yyyy, h:mm a</string>
   <string name="formatterStats24H">dd MMM yyyy, HH:mm</string>
+  <string name="formatterBannedUntil12H">dd MMM yyyy, h:mm a</string>
+  <string name="formatterBannedUntil24H">dd MMM yyyy, HH:mm</string>
+  <string name="formatterBannedUntilThisYear12H">dd MMM yyyy, h:mm a</string>
+  <string name="formatterBannedUntilThisYear24H">dd MMM yyyy, HH:mm</string>
   <string name="formatterMonthYear">MMMM yyyy</string>
   <string name="formatterMonth">dd MMM</string>
   <string name="formatterYear">dd.MM.yy</string>

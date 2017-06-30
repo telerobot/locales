@@ -91,7 +91,7 @@ until = fin a łe / fin a\'l ???</string>
   <string name="PaymentConfirmationMessage">Ła to carta %1$s ła ze in archivo. Par pagar co \'sta carta, insarisi ła password de ła to verìfega in 2 pasaji.</string>
   <string name="PaymentPrecheckoutFailed">Ne despiaze, el pagamento el ze stà anułà da\'l bot.</string>
   <string name="PaymentFailed">Ne despiaze, el pagamento el ze stà refudà.</string>
-  <string name="PaymentConnectionFailed">A no semo mìa boni de contatar el server par el pagamento. Controła ła to conesion internet e prova danovo.</string>
+  <string name="PaymentConnectionFailed">A no ze mìa posìbiłe contatar el server par el pagamento. Controła ła to conesion internet e prova danovo.</string>
   <string name="PaymentWarning">Avertensa</string>
   <string name="PaymentWarningText">Telegram e %1$s no i gavarà mìa aceso a łe informasion de ła to carta de crèdito. I detaji de ła carta de crèdito i venjarà manejài soło da\'l sistema de pagamento %2$s.\n\nI pagaminti i ghe ndarà diretamente a\'l zviłupador de %1$s. Telegram no ła fornise njauna garansia, donca i trasferiminti i sarà a to riscio e perìgoło. In cazo de problemi, contata el zviłupador de %1$s o ła to banca.</string>
   <!--chats view-->
@@ -110,7 +110,6 @@ until = fin a łe / fin a\'l ???</string>
   <string name="ConnectingToProxyDisable">Dezativa</string>
   <string name="ConnectingToProxyEnable">Ativa</string>
   <string name="EnableProxyAlert">Vutu davero ativar \'sto proxy?</string>
-  <string name="EnableProxyAlert2">A te połi canbiar el to server proxy anca pì tardi, ndando so Inpostasion (Dati e memoria).</string>
   <string name="ConnectingToProxyDisableAlert">Situ seguro de vołer dezativar el server proxy %1$s? Pì tardi A te połi anca reativarlo ndando so Inpostasion (Dati e memoria).</string>
   <string name="Updating">Ajornamento...</string>
   <string name="NewSecretChat">Chat segreta nova</string>
@@ -255,8 +254,6 @@ until = fin a łe / fin a\'l ???</string>
   <string name="ChannelEditor">Aministrador</string>
   <string name="ChannelMute">SIŁENSIA</string>
   <string name="ChannelUnmute">SONA</string>
-  <string name="ChannelAddAdmin">Zonta aministrador</string>
-  <string name="ChannelBlockUser">Bana utente</string>
   <string name="Unban">Dezbana</string>
   <string name="UnbanText">Sełesiona un utente tenjéndoło strucà par dezbanarlo.</string>
   <string name="ChannelInviteViaLink">Invita co un link</string>
@@ -337,7 +334,8 @@ until = fin a łe / fin a\'l ???</string>
   <string name="UserRestrictionsSendMedia">Manda media</string>
   <string name="UserRestrictionsEmbedLinks">Incalma link</string>
   <string name="UserRestrictionsUntil">Banà fin a
-(&amp;1$s)</string>
+(&amp;1$s)
+sercar "until"</string>
   <string name="UserRestrictionsUntilForever">Par senpre</string>
   <string name="UserRestrictionsUntilRemove">Cava via</string>
   <string name="UserRestrictionsBlock">Bana e cava via da\'l grupo</string>
@@ -346,15 +344,7 @@ until = fin a łe / fin a\'l ???</string>
   <string name="ManageGroupMenu">Jestisi grupo</string>
   <string name="ManageChannelMenu">Jestisi canałe</string>
   <!--event log-->
-  <string name="EventLog">Rejistro eventi</string>
-  <string name="EventLogAllEvents">Tuti i eventi</string>
-  <string name="EventLogSelectedEvents">Eventi sełesionài</string>
   <string name="EventLogAllAdmins">Tuti i aministradori</string>
-  <string name="EventLogEmpty"><![CDATA[<b>]]>Njancora njaun evento<![CDATA[</b>]]>\n\nI menbri e i aministradori de\'l grupo\nno i ga fazesto njauna asion de servisio\ninte łe 48 ore ùlteme.</string>
-  <string name="EventLogEmptyChannel"><![CDATA[1]]>Njancora njaun evento<![CDATA[1]]>\n\nI aministradori de\'l canałe\nno i ga fazesto njauna asion de servisio\ninte łe 48 ore ùlteme.</string>
-  <string name="EventLogEmptySearch"><![CDATA[<b>]]>Njaun evento catà<![CDATA[</b>]]>\n\nNjaun evento resente el coresponde a ła to reserca.</string>
-  <string name="EventLogEmptyTextSearch">A no ze stà catà njaun evento resente che\'l ga rento \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\'.</string>
-  <string name="EventLogInfoTitle">Coza zeło el rejistro eventi?</string>
   <string name="EventLogInfoDetail">\'Sta cuà ła ze na łista de tute łe asion de servisio fazeste da i menbri e i aministradori de\'l grupo inte łe 48 ore ùlteme.</string>
   <string name="EventLogInfoDetailChannel">\'Sta cuà ła ze na łista de tute łe asion de servisio fazeste da i aministradori de\'l canałe inte łe 48 ore ùlteme.</string>
   <string name="EventLogEditedGroupTitle">un1 L ga renomenà el grupo \"%1$s\"</string>
@@ -405,7 +395,6 @@ until = fin a łe / fin a\'l ???</string>
   <string name="EventLogPromotedBanUsers">Bana utenti</string>
   <string name="EventLogPromotedAddUsers">Zonta utenti</string>
   <string name="EventLogPromotedPinMessages">Pica insima mesaji</string>
-  <string name="EventLogFilterAll">Tuti i eventi</string>
   <string name="EventLogFilterNewRestrictions">Restrision nove</string>
   <string name="EventLogFilterNewAdmins">Aministradori novi</string>
   <string name="EventLogFilterNewMembers">Menbri novi</string>
@@ -748,7 +737,7 @@ until = fin a łe / fin a\'l ???</string>
   <string name="UsernameInvalidShort">El nome utente el ga da ver almanco 5 caràtari.</string>
   <string name="UsernameInvalidLong">El nome utente no\'l ga mìa da ndar sora i 32 caràtari.</string>
   <string name="UsernameInvalidStartNumber">Ne despiaze, el nome utente no\'l połe mìa tacar co un nùmaro.</string>
-  <string name="UsernameHelp">A te połi sernir un nome utente so <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>. Se A te ło fè, cheł\'altre parsone łe sarà bone de catarte co \'sto nome utente e contatarte sensa saver el to nùmaro de tełèfono.\n\nA te połi doparar <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> e i _. Ła łonghesa mìnema ła ze de <![CDATA[<b>]]>5<![CDATA[</b>]]> caràtari.</string>
+  <string name="UsernameHelp">So <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> A te połi sernir un nome utente. Se A te ło fè, cheł\'altre parsone łe sarà bone de catarte co \'sto nome utente e contatarte sensa saver el to nùmaro de tełèfono.\n\nA te połi doparar <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> e i _. Ła łonghesa mìnema ła ze de <![CDATA[<b>]]>5<![CDATA[</b>]]> caràtari.</string>
   <string name="UsernameHelpLink">\'Sto link el verze na chat co ti so Telegram:\\n%1$s</string>
   <string name="UsernameChecking">Verìfega de\'l nome utente...</string>
   <string name="UsernameAvailable">%1$s el ze disponìbiłe.</string>
@@ -975,7 +964,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <!--sessions view-->
   <string name="SessionsTitle">Sesion ative</string>
   <string name="CurrentSession">Sesion in dòparo</string>
-  <string name="NoOtherSessions">Nesun\'altra sesion ativa</string>
+  <string name="NoOtherSessions">Njaun\'antra sesion ativa</string>
   <string name="NoOtherSessionsInfo">Doparando el steso nùmaro de tełèfono, A te połi ndar rento a Telegram da racuanti mòbiłi, tablet e varsion desktop. Tuti i to dati i venjarà sincronizài suito.</string>
   <string name="OtherSessions">Sesion ative</string>
   <string name="SessionsInfo">Controła łe to sesion inte cheł\'altri dispozitivi.</string>
@@ -1455,7 +1444,17 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="CallNotAvailable">Ne despiaze, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> no L vołe mìa ciapar ciamade.</string>
   <string name="CallEmojiKeyTooltip">Se i dizenjeti so\'l schermo de %1$s i ze guałivi, \'sta ciamada ła ze segura a\'l 100%%.</string>
   <string name="CallMessageReportProblem">Vàłuta ła ciamada</string>
+  <string name="CallReportHint">Che problema ghe zeło stà?</string>
+  <string name="CallReportIncludeLogs">Co rento informasion tècneghe</string>
+  <string name="CallReportLogsExplain">\'Sta roba no ła dezvełarà mìa i contenjùi de ła to convarsasion, ma ła ne jutarà a sistemar prima posìbiłi problemi.</string>
+  <string name="CallReportSent">Grasie de verne dà na man a mejorar łe ciamade Telegram.</string>
   <!--plural-->
+  <string name="OnlineCount_zero">%1$d in łinea</string>
+  <string name="OnlineCount_one">%1$d in łinea</string>
+  <string name="OnlineCount_two">%1$d in łinea</string>
+  <string name="OnlineCount_few">%1$d in łinea</string>
+  <string name="OnlineCount_many">%1$d in łinea</string>
+  <string name="OnlineCount_other">%1$d in łinea</string>
   <string name="Members_zero">%1$d menbri</string>
   <string name="Members_one">%1$d menbro</string>
   <string name="Members_two">%1$d menbri</string>
@@ -1676,6 +1675,10 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <!--date formatters-->
   <string name="formatterStats12H">dd/MM/yyyy, mm:h a</string>
   <string name="formatterStats24H">dd/MM/yyyy, mm:HH</string>
+  <string name="formatterBannedUntil12H">dd/MM/yyyy, mm:h a</string>
+  <string name="formatterBannedUntil24H">dd/MM/yyyy, mm:HH</string>
+  <string name="formatterBannedUntilThisYear12H">dd/MM, mm:h a</string>
+  <string name="formatterBannedUntilThisYear24H">dd/MM, mm:HH</string>
   <string name="formatterMonthYear">MM/yyyy</string>
   <string name="formatterMonth">dd/MM</string>
   <string name="formatterYear">dd.MM.yy</string>

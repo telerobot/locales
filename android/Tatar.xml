@@ -238,7 +238,6 @@
   <string name="ChannelEditor">Администратор</string>
   <string name="ChannelMute">СҮНДЕРҮ</string>
   <string name="ChannelUnmute">КАБЫЗУ</string>
-  <string name="ChannelAddAdmin">Администратор өстәү</string>
   <string name="ChannelInviteViaLink">Сылтама аша өстәү</string>
   <string name="ChannelAddUserAdminAlert">Сез %1$s администратор итеп билгеләргә телисезме?</string>
   <string name="ChannelMembersInfo">Бу исемлекне администраторлар гына карый ала.</string>

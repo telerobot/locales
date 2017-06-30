@@ -233,7 +233,6 @@
   <string name="ChannelEditor">Administrátor</string>
   <string name="ChannelMute">Vypnout upozornění</string>
   <string name="ChannelUnmute">Zapnout upozornění</string>
-  <string name="ChannelAddAdmin">Přidat Administrátora</string>
   <string name="ChannelInviteViaLink">Odkaz na pozvánku</string>
   <string name="ChannelAddUserAdminAlert">Jste si jistý, že chcete přidat %1$s jako administrátora?</string>
   <string name="ChannelMembersInfo">Pouze administrátoři kanálu vidí tento seznam.</string>
