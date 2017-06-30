@@ -2,7 +2,7 @@
 <resources>
   <string name="AppName">Telegram</string>
   <string name="AppNameBeta">Telegram Beta</string>
-  <string name="LanguageName">Правильный русский</string>
+  <string name="LanguageName">Русский</string>
   <string name="English">English</string>
   <string name="LanguageNameInEnglish">Correct Russian</string>
   <string name="LanguageCode">ru</string>
@@ -347,6 +347,9 @@
   <string name="EventLogSelectedEvents">Выбранные действия</string>
   <string name="EventLogAllAdmins">Все администраторы</string>
   <string name="EventLogEmpty"><![CDATA[<b>]]>Пока ничего не произошло<![CDATA[</b>]]>\n\nЗа последние 48 часов администраторами\nи пользователями не было совершено ни\nодного действия.</string>
+  <string name="EventLogEmptyChannel"><![CDATA[<b>]]>Пока ничего не произошло<![CDATA[</b>]]>\n\nЗа последние 48 часов\nадминистраторы канала не совершали\nникаких действий.</string>
+  <string name="EventLogEmptySearch"><![CDATA[<b>]]>Ничего не найдено<![CDATA[</b>]]>\n\nНе найдено ни одного события,\nудовлетворяющего вашему запросу.</string>
+  <string name="EventLogEmptyTextSearch">Не найдено ни одного события, содержащего «<![CDATA[1]]>%1$s<![CDATA[1]]>».</string>
   <string name="EventLogInfoTitle">Что такое недавние действия?</string>
   <string name="EventLogInfoDetail">Это список всех действий, совершённых участниками и администраторами группы за последние 48 часов.</string>
   <string name="EventLogInfoDetailChannel">Это список всех действий, совершённых администраторами канала за последние 48 часов.</string>
@@ -354,10 +357,36 @@
   <string name="EventLogEditedChannelTitle">un1 переименовал(а) канал в «%1$s»</string>
   <string name="EventLogLeftGroup">un1 покинул(а) группу</string>
   <string name="EventLogLeftChannel">un1 покинул(а) канал</string>
+  <string name="EventLogAdded">un1 добавил(а) un2</string>
+  <string name="EventLogGroupJoined">un1 вступил(а) в группу</string>
   <string name="EventLogChannelRestricted">забанил(а) %1$s</string>
+  <string name="EventLogChannelUnrestricted">разбанил(а) %1$s</string>
+  <string name="EventLogChannelJoined">un1 подписался(-ась) на канал</string>
+  <string name="EventLogEditedGroupPhoto">un1 обновил(а) фото группы</string>
+  <string name="EventLogEditedChannelPhoto">un1 обновил(а) фото канал</string>
+  <string name="EventLogRemovedWGroupPhoto">un1 удалил(а) фото группы</string>
+  <string name="EventLogRemovedChannelPhoto">un1 удалил(а) фото канала</string>
+  <string name="EventLogEditedMessages">un1 изменил(а) это сообщение:</string>
+  <string name="EventLogEditedCaption">un1 изменил(а) подпись:</string>
   <string name="EventLogOriginalMessages">Исходное сообщение</string>
   <string name="EventLogOriginalCaption">Исходная подпись</string>
+  <string name="EventLogOriginalCaptionEmpty">Пусто</string>
+  <string name="EventLogPinnedMessages">un1 прикрепил(а) это сообщение:</string>
+  <string name="EventLogUnpinnedMessages">un1 открепил(а) сообщение</string>
+  <string name="EventLogDeletedMessages">un1 удалил(а) это сообщение:</string>
+  <string name="EventLogChangedGroupLink">un1 изменил(а) ссылку на группу:</string>
+  <string name="EventLogChangedChannelLink">un1 изменил(а) ссылку на канал:</string>
+  <string name="EventLogRemovedGroupLink">un1 удалил(а) ссылку на группу</string>
+  <string name="EventLogRemovedChannelLink">un1 удалил(а) ссылку на канал</string>
   <string name="EventLogPreviousLink">Предыдущая ссылка</string>
+  <string name="EventLogEditedGroupDescription">un1 изменил(а) описание группы:</string>
+  <string name="EventLogEditedChannelDescription">un1 изменил(а) описание канала:</string>
+  <string name="EventLogPreviousGroupDescription">Исходное описание:</string>
+  <string name="EventLogToggledInvitesOn">un1 включил(а) пригласительные ссылки для группы</string>
+  <string name="EventLogToggledInvitesOff">un1 отключил(а) пригласительные ссылки для группы</string>
+  <string name="EventLogToggledSignaturesOn">un1 включил(а) подписи</string>
+  <string name="EventLogToggledSignaturesOff">un1 отключил(а) подписи</string>
+  <string name="EventLogRestrictedUntil">изменил(а) привилегии %1$s\n\nСрок: %2$s</string>
   <string name="EventLogRestrictedSendStickers">Отправлять стикеры и GIF</string>
   <string name="EventLogRestrictedSendMedia">Отправлять файлы</string>
   <string name="EventLogRestrictedSendMessages">Отправлять сообщения</string>
@@ -426,6 +455,7 @@
   <string name="IsSendingGame">%1$s сейчас играет...</string>
   <string name="IsSendingVideo">%1$s отправляет видео...</string>
   <string name="IsSendingFile">%1$s отправляет файл...</string>
+  <string name="RecordingAudio">записывает голосовое сообщение...</string>
   <string name="RecordingRound">записывает видеосообщение...</string>
   <string name="SendingAudio">отправляет аудио...</string>
   <string name="SendingPhoto">отправка фото...</string>
@@ -923,12 +953,7 @@
   <string name="UseProxyPassword">Пароль</string>
   <string name="UseProxyPort">Порт</string>
   <string name="UseProxyUsername">Логин</string>
-  <string name="UseProxyInfo">Настройки SOCKS5-прокси.
-
-Хост: teleproxy.me
-Порт: 1080
-
-Подробнее: https://telegramproxy.org</string>
+  <string name="UseProxyInfo">Настройки SOCKS5-прокси.</string>
   <!--cache view-->
   <string name="LocalDatabase">Локальная база данных</string>
   <string name="LocalDatabaseClear">Очистить кэш сообщений?</string>
@@ -1433,9 +1458,9 @@
   <string name="OnlineCount_zero">%1$d в сети</string>
   <string name="OnlineCount_one">%1$d в сети</string>
   <string name="OnlineCount_two">%1$d в сети</string>
-  <string name="OnlineCount_few">в сети: %1$d</string>
-  <string name="OnlineCount_many">в сети: %1$d</string>
-  <string name="OnlineCount_other">в сети: %1$d</string>
+  <string name="OnlineCount_few">%1$d в сети</string>
+  <string name="OnlineCount_many">%1$d в сети</string>
+  <string name="OnlineCount_other">%1$d в сети</string>
   <string name="Members_zero">%1$d участников</string>
   <string name="Members_one">%1$d участник</string>
   <string name="Members_two">%1$d участника</string>

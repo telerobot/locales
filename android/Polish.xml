@@ -3,8 +3,10 @@
   <string name="AppName">Telegram</string>
   <string name="AppNameBeta">Telegram Beta</string>
   <string name="LanguageName">Polski</string>
+  <string name="English">Angielski</string>
   <string name="LanguageNameInEnglish">Polish</string>
   <string name="LanguageCode">pl</string>
+  <string name="ContinueOnThisLanguage">Kontynuuj po angielsku</string>
   <!--signin view-->
   <string name="YourPhone">Twój numer</string>
   <string name="StartText">Potwierdź kod kraju i podaj swój numer telefonu.</string>
@@ -94,6 +96,7 @@ Możesz anulować ten proces w każdej chwili.</string>
   <string name="PaymentFailed">Płatność została odrzucona.</string>
   <string name="PaymentConnectionFailed">Nie można nawiązać połączenia z serwerem płatności. Sprawdź połączenie z internetem i spróbuj ponownie.</string>
   <string name="PaymentWarning">Ostrzeżenie</string>
+  <string name="PaymentWarningText">Ani Telegram, ani %1$s nie będą mieli dostępu do danych twojej karty kredytowej. Szczegóły karty kredytowej będą obsłużone tylko przez system płatniczy, %2$s.\n\nOpłaty trafią bezpośrednio do dewelopera %1$s. Telegram niczego nie może tu zagwarantować, więc kontynuujesz na swoje własne ryzyko. W przypadku problemów, skontaktuj się z deweloperem %1$s lub twoim bankiem.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Nowa konwersacja</string>
   <string name="Settings">Ustawienia</string>
@@ -107,6 +110,13 @@ naciskając przycisk nowej wiadomości w prawym dolnym rogu
 lub naciśnij przycisk menu, aby uzyskać więcej opcji.</string>
   <string name="WaitingForNetwork">Czekam na sieć…</string>
   <string name="Connecting">Łączenie…</string>
+  <string name="ConnectingToProxy">Łączę z proxy...</string>
+  <string name="ConnectingToProxyTapToDisable">Stuknij tu by wyłączyć proxy...</string>
+  <string name="ConnectingToProxyDisable">Wyłącz</string>
+  <string name="ConnectingToProxyEnable">Włącz</string>
+  <string name="EnableProxyAlert">Jesteś pewien, że chcesz włączyć to proxy?</string>
+  <string name="EnableProxyAlert2">Można zmienić serwer proxy w ustawieniach (Dane i przechowywanie).</string>
+  <string name="ConnectingToProxyDisableAlert">Czy na pewno chcesz wyłączyć serwer proxy %1$s? Można go włączyć ponownie w ustawieniach (Dane i przechowywanie).</string>
   <string name="Updating">Aktualizowanie…</string>
   <string name="NewSecretChat">Nowy szyfrowany czat</string>
   <string name="AwaitingEncryption">Czekam aż %s będzie online…</string>
@@ -148,10 +158,14 @@ Gdy użytkownik %2$s zaktualizuje Telegram, zdjęcia z czasem wyświetlania poni
   <string name="Bold">Pogrubienie</string>
   <string name="Italic">Kursywa</string>
   <string name="Regular">Regularny</string>
+  <string name="ContactsPermissionAlert">By bezproblemowo łączyć się ze wszystkimi, których znasz, pozwól  by <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> miał dostęp do twoich kontaktów.</string>
+  <string name="ContactsPermissionAlertNotNow">NIE TERAZ</string>
+  <string name="ContactsPermissionAlertContinue">KONTYNUUJ</string>
   <!--channels-->
   <string name="ChannelTypePublic">Publiczny</string>
   <string name="ChannelTypePrivate">Prywatny</string>
   <string name="SetAsAdmin">Promuj na administratora</string>
+  <string name="NoBlockedUsers">Nie ma zbanowanych użytkowników</string>
   <string name="DescriptionInfoMega">Opcjonalnie możesz podać opis dla tej grupy.</string>
   <string name="LeaveMega">Opuść grupę</string>
   <string name="DeleteMega">Usuń grupę</string>
