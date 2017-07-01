@@ -3,6 +3,7 @@
   <string name="AppName">Telegram</string>
   <string name="AppNameBeta">Telegram Beta</string>
   <string name="LanguageName">Татарча</string>
+  <string name="English">English</string>
   <string name="LanguageNameInEnglish">Tatar</string>
   <string name="LanguageCode">tt</string>
   <!--signin view-->
@@ -102,6 +103,11 @@
 меню төймәсенә басыгыз.</string>
   <string name="WaitingForNetwork">Челтәрне көтү...</string>
   <string name="Connecting">Тоташу...</string>
+  <string name="ConnectingToProxy">Проксига тоташу...</string>
+  <string name="ConnectingToProxyTapToDisable">Проксины сүндерер өчен басыгыз...</string>
+  <string name="ConnectingToProxyDisable">Сүндерү</string>
+  <string name="ConnectingToProxyEnable">Кабызу</string>
+  <string name="EnableProxyAlert">Проксины кабызырга телисезме?</string>
   <string name="Updating">Яңарту...</string>
   <string name="NewSecretChat">Яңа яшерен чат</string>
   <string name="AwaitingEncryption">%s челтәргә кергәнен көтәбез... </string>
@@ -143,10 +149,13 @@
   <string name="Bold">Калын</string>
   <string name="Italic">Курсив</string>
   <string name="Regular">Гадәти</string>
+  <string name="ContactsPermissionAlertNotNow">ӘЛЕ ТҮГЕЛ</string>
+  <string name="ContactsPermissionAlertContinue">ДӘВАМ ИТҮ</string>
   <!--channels-->
   <string name="ChannelTypePublic">Ачык</string>
   <string name="ChannelTypePrivate">Шәхси</string>
   <string name="SetAsAdmin">Администраторга тәкъдим итү</string>
+  <string name="NoBlockedUsers">Бикләнгән кулланучылар юк</string>
   <string name="DescriptionInfoMega">Төркемегезгә өстәмә тасвирлама калдыра аласыз. </string>
   <string name="LeaveMega">Төркемнән чыгу</string>
   <string name="DeleteMega">Төркемне бетерү</string>
@@ -219,6 +228,9 @@
   <string name="LinkChecking">Исемне тикшерү...</string>
   <string name="LinkAvailable">%1$s мөмкин.</string>
   <string name="ChannelMembers">Катнашучылар</string>
+  <string name="ChannelBlacklist">Кара исемлек</string>
+  <string name="ChannelBlockedUsers">Бикләнгән кулланучылар</string>
+  <string name="ChannelRestrictedUsers">Хокукларны чикләү</string>
   <string name="ChannelAdministrators">Администраторлар</string>
   <string name="ChannelDelete">Каналны бетерү</string>
   <string name="ChannelDeleteMenu">Каналны бетерү</string>
@@ -238,6 +250,10 @@
   <string name="ChannelEditor">Администратор</string>
   <string name="ChannelMute">СҮНДЕРҮ</string>
   <string name="ChannelUnmute">КАБЫЗУ</string>
+  <string name="ChannelAddAdmin">Администратор өстәү</string>
+  <string name="ChannelBlockUser">Кулланучыны бикләү</string>
+  <string name="Unban">Биктән алу</string>
+  <string name="UnbanText">Биктән алыр өчен озак басып торыгыз.</string>
   <string name="ChannelInviteViaLink">Сылтама аша өстәү</string>
   <string name="ChannelAddUserAdminAlert">Сез %1$s администратор итеп билгеләргә телисезме?</string>
   <string name="ChannelMembersInfo">Бу исемлекне администраторлар гына карый ала.</string>
@@ -899,6 +915,7 @@
   <string name="SaveToGallery">Галереяда саклау</string>
   <string name="Of">%1$d дән %2$d</string>
   <string name="Gallery">Галерея</string>
+  <string name="AllPhotos">Бөтен фотолар </string>
   <string name="NoPhotos">Фото әлегә юк</string>
   <string name="NoVideo">Видео юк</string>
   <string name="PleaseDownload">Башта медианы йөкләгез</string>
