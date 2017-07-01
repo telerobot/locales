@@ -409,9 +409,9 @@
   <string name="EventLogFilterGroupInfo">Информация о группе</string>
   <string name="EventLogFilterChannelInfo">Информация о канале</string>
   <string name="EventLogFilterGroupSettings">Настройки группы</string>
-  <string name="EventLogFilterDeletedMessages">Удалённые сообщения</string>
-  <string name="EventLogFilterEditedMessages">Изменённые сообщения</string>
-  <string name="EventLogFilterPinnedMessages">Прикреплённые сообщения</string>
+  <string name="EventLogFilterDeletedMessages">Удаления сообщений</string>
+  <string name="EventLogFilterEditedMessages">Изменения сообщений</string>
+  <string name="EventLogFilterPinnedMessages">Прикрепления сообщений</string>
   <string name="EventLogFilterLeavingMembers">Вышедшие участники</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Новая рассылка</string>
