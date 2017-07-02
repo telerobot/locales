@@ -359,15 +359,15 @@ Jeśli cię to nie interesuje, proponujemy utworzenie prywatnego kanału.</strin
   <string name="ManageGroupMenu">Zarządzaj grupą</string>
   <string name="ManageChannelMenu">Zarządzaj kanałem</string>
   <!--event log-->
-  <string name="EventLog">Ostatnie akcje</string>
-  <string name="EventLogAllEvents">Wszystkie akcje</string>
-  <string name="EventLogSelectedEvents">Wybrane akcje</string>
+  <string name="EventLog">Rejestr działań</string>
+  <string name="EventLogAllEvents">Wszystkie działania</string>
+  <string name="EventLogSelectedEvents">Wybrane działania</string>
   <string name="EventLogAllAdmins">Wszyscy administratorzy</string>
-  <string name="EventLogEmpty"><![CDATA[<b>]]>Nie ma żadnych działań<![CDATA[</b>]]>\n\nCzłonkowie i administratorzy grupy\nnie wykonali żadnych działań serwisowych\nw ciągu ostatnich 48 godzin.</string>
-  <string name="EventLogEmptyChannel"><![CDATA[1]]>Nie ma żadnych działań<![CDATA[1]]>\n\nAdministratorzy kanału\nnie wykonali żadnych działań serwisowych\nw ciągu ostatnich 48 godzin.</string>
-  <string name="EventLogEmptySearch"><![CDATA[<b>]]>Nie znaleziono działań<![CDATA[</b>]]>\n\nNie znaleziono ostatnich działań odpowiadających twojemu zapytaniu</string>
-  <string name="EventLogEmptyTextSearch">Nie znaleziono ostatnich działań zawierających \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\' .</string>
-  <string name="EventLogInfoTitle">Czym są ostatnie działania?</string>
+  <string name="EventLogEmpty"><![CDATA[<b>]]>Nic nie znaleziono<![CDATA[</b>]]>\n\nCzłonkowie i administratorzy grupy\nnie wykonali żadnych działań serwisowych\nw ciągu ostatnich 48 godzin.</string>
+  <string name="EventLogEmptyChannel"><![CDATA[1]]>Nic nie znaleziono<![CDATA[1]]>\n\nAdministratorzy kanału\nnie wykonali żadnych działań serwisowych\nw ciągu ostatnich 48 godzin.</string>
+  <string name="EventLogEmptySearch"><![CDATA[<b>]]>Nic nie znaleziono<![CDATA[</b>]]>\n\nNie znaleziono działań odpowiadających twojemu zapytaniu</string>
+  <string name="EventLogEmptyTextSearch">Nie znaleziono działań zawierających \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\' .</string>
+  <string name="EventLogInfoTitle">Czym jest rejestr działań?</string>
   <string name="EventLogInfoDetail">To jest lista wszystkich serwisowych działań członków i administratorów grupy w ciągu ostatnich 48 godzin.</string>
   <string name="EventLogInfoDetailChannel">To jest lista wszystkich serwisowych działań administratorów kanału w ciągu ostatnich 48 godzin.</string>
   <string name="EventLogEditedGroupTitle">un1 zmienił nazwę grupy na \"%1$s\"</string>

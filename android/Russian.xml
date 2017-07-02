@@ -319,11 +319,11 @@
   <string name="EditAdminDeleteMessages">Удалять чужие сообщения</string>
   <string name="EditAdminGroupDeleteMessages">Удалять сообщения</string>
   <string name="EditAdminAddAdmins">Добавлять новых администраторов</string>
-  <string name="EditAdminRemoveAdmin">Удалять администраторов</string>
+  <string name="EditAdminRemoveAdmin">Удалить из администраторов</string>
   <string name="EditAdminBanUsers">Банить пользователей</string>
   <string name="EditAdminAddUsers">Добавлять пользователей</string>
   <string name="EditAdminPinMessages">Прикреплять сообщения</string>
-  <string name="EditAdminPromotedBy">Добавил: %1$s</string>
+  <string name="EditAdminPromotedBy">Назначил(а): %1$s</string>
   <string name="EditAdminCantEdit">Вы не можете изменять права этого администратора.</string>
   <string name="UserRestrictionsBy">Забанил: %1$s</string>
   <string name="UserRestrictions">Ограничения</string>
@@ -986,16 +986,16 @@
   <string name="UnofficialApp">неофициальное приложение</string>
   <!--passcode view-->
   <string name="Passcode">Код доступа</string>
-  <string name="ChangePasscode">Изменить код доступа</string>
+  <string name="ChangePasscode">Сменить код доступа</string>
   <string name="ChangePasscodeInfo">После установки дополнительного кода доступа на странице чатов появится значок замка. Нажимайте на него для блокировки и разблокировки приложения Telegram.\n\nОбратите внимание: если вы забудете код доступа, вам нужно будет удалить и заново установить это приложение. Все секретные чаты будут утрачены.</string>
   <string name="ChangePasscodeAlert">Теперь вы будете видеть значок замка на странице чатов. Нажмите на него, чтобы заблокировать приложение Telegram с помощью вашего нового кода доступа.</string>
   <string name="PasscodePIN">ПИН-код</string>
   <string name="PasscodePassword">Пароль</string>
-  <string name="EnterCurrentPasscode">Введите ваш текущий код доступа</string>
-  <string name="EnterNewFirstPasscode">Придумайте код доступа</string>
+  <string name="EnterCurrentPasscode">Введите текущий код доступа</string>
+  <string name="EnterNewFirstPasscode">Введите код доступа</string>
   <string name="EnterNewPasscode">Введите новый код доступа</string>
-  <string name="EnterYourPasscode">Введите ваш код доступа</string>
-  <string name="ReEnterYourPasscode">Повторите ваш новый код доступа</string>
+  <string name="EnterYourPasscode">Введите код доступа</string>
+  <string name="ReEnterYourPasscode">Повторите ввод кода доступа</string>
   <string name="InvalidPasscode">Неверный код доступа</string>
   <string name="PasscodeDoNotMatch">Коды доступа не совпадают</string>
   <string name="AutoLock">Автоблокировка</string>
@@ -1181,19 +1181,21 @@
   <string name="LastSeenContacts">Мои контакты</string>
   <string name="LastSeenNobody">Никто</string>
   <string name="LastSeenEverybodyMinus">Все (-%1$d)</string>
-  <string name="LastSeenContactsPlus">Мои контакты (+%1$d)</string>
-  <string name="LastSeenContactsMinus">Мои контакты (-%1$d)</string>
-  <string name="LastSeenContactsMinusPlus">Мои контакты (-%1$d, +%2$d)</string>
+  <string name="LastSeenContactsPlus">Только контакты (+%1$d)</string>
+  <string name="LastSeenContactsMinus">Только контакты (-%1$d)</string>
+  <string name="LastSeenContactsMinusPlus">Только контакты (-%1$d, +%2$d)</string>
   <string name="LastSeenNobodyPlus">Никто (+%1$d)</string>
   <string name="SecurityTitle">Безопасность</string>
   <string name="DeleteAccountTitle">Самоуничтожение аккаунта</string>
   <string name="DeleteAccountIfAwayFor">Если вас не было</string>
-  <string name="DeleteAccountHelp">Если вы хотя бы раз не зайдёте в свой аккаунт в течение этого периода, он будет удалён со всеми группами, сообщениями и контактами.</string>
+  <string name="DeleteAccountHelp">Если в течение этого периода вы ни разу не появитесь в сети, то ваш аккаунт будет удалён вместе со всеми группами, сообщениями и контактами.</string>
   <string name="DeleteAccountNowConfirmation">Удалить ваш аккаунт?</string>
   <string name="LastSeenHelp">Изменить список тех, кто может видеть время вашей последней активности.</string>
   <string name="LastSeenTitle">Кто видит время моей последней активности?</string>
   <string name="AddExceptions">Добавить исключения</string>
-  <string name="CustomHelp">Важно: вы не сможете увидеть время последней активности людей, с которыми вы не поделились своим временем последней активности. Вместо этого будет отображаться приблизительное время последней активности (недавно, в течение недели, в течение месяца).</string>
+  <string name="CustomHelp">Важно: вы не сможете увидеть время последней активности людей, с которыми вы не поделились своим временем последней активности.
+
+Вместо этого будет отображаться приблизительное время (недавно, в течение недели, в течение месяца).</string>
   <string name="AlwaysShareWith">Всегда показывать для</string>
   <string name="NeverShareWith">Всегда скрывать от</string>
   <string name="CustomShareSettingsHelp">Эти настройки переопределят значения выше.</string>
@@ -1207,11 +1209,11 @@
   <string name="RemoveFromListText">Нажмите и удерживайте на пользователя для удаления.</string>
   <string name="GroupsAndChannels">Групповые чаты</string>
   <string name="WhoCanAddMe">Кто может добавлять меня в группы?</string>
-  <string name="WhoCanAddMeInfo">Укажите, кто может добавлять вас в группы и каналы, а кто не может.</string>
+  <string name="WhoCanAddMeInfo">Укажите, кто может добавлять вас в группы и каналы, а кто – не может.</string>
   <string name="AlwaysAllow">Всегда разрешать</string>
-  <string name="NeverAllow">Никогда не разрешать</string>
+  <string name="NeverAllow">Всегда запрещать</string>
   <string name="AlwaysAllowPlaceholder">Всегда разрешать...</string>
-  <string name="NeverAllowPlaceholder">Никогда не разрешать...</string>
+  <string name="NeverAllowPlaceholder">Всегда запрещать...</string>
   <string name="CustomShareInfo">Эти пользователи смогут (или не смогут) добавлять вас в группы или каналы, несмотря на настройки выше.</string>
   <string name="GroupsAndChannelsHelp">Укажите, кто может добавлять вас в группы и каналы.</string>
   <string name="InviteToGroupError">К сожалению, этот пользователь запретил добавлять его в группы.</string>
@@ -1408,7 +1410,7 @@
   <string name="VoipEndCall">Завершить звонок</string>
   <string name="VoipOngoingAlertTitle">Вы уже говорите с другим пользователем</string>
   <string name="VoipOngoingAlert">В данный момент вы уже разговариваете с <![CDATA[<b>%1$s</b>]]>. Желаете прекратить разговор и начать новый с <![CDATA[<b>%2$s</b>]]>?</string>
-  <string name="VoipNotificationSettings">Аудиовызовы и звонки</string>
+  <string name="VoipNotificationSettings">Голосовые вызовы</string>
   <string name="VoipSettingsRingtone">Сигнал вызова</string>
   <string name="VoipRingtoneInfo">Вы можете выбрать рингтон для этого контакта.</string>
   <string name="Calls">Звонки</string>

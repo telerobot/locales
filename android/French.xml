@@ -108,7 +108,7 @@
   <string name="ConnectingToProxyEnable">Activer</string>
   <string name="EnableProxyAlert">Êtes-vous sûr de vouloir activer ce proxy ?</string>
   <string name="EnableProxyAlert2">Vous pourrez modifier votre serveur proxy plus tard dans les Paramètres (Données et Stockage).</string>
-  <string name="ConnectingToProxyDisableAlert">Êtes-vous sûr de vouloir désactiver le serveur proxy %1$s ? VOus pourrez le réactiver plus tard dans les Paramètres (Données et Stockage).</string>
+  <string name="ConnectingToProxyDisableAlert">Êtes-vous sûr de vouloir désactiver le serveur proxy %1$s ? Vous pourrez le réactiver plus tard dans les Paramètres (Données et Stockage).</string>
   <string name="Updating">Mise à jour…</string>
   <string name="NewSecretChat">Nouvelle conversation secrète</string>
   <string name="AwaitingEncryption">En attente de la connexion de %s…</string>
@@ -270,7 +270,7 @@
   <string name="ChannelAddTo">Ajouter %1$s à la chaîne ?</string>
   <string name="ChannelUserLeftError">Désolé, cet utilisateur a décidé de quitter cette chaîne, vous ne pouvez donc plus l\'inviter ici.</string>
   <string name="ChannelUserCantAdd">Désolé, vous ne pouvez pas ajouter cet utilisateur dans des chaînes.</string>
-  <string name="ChannelUserCantAdmin">Désolé, il y a trop d\'admins pour cette chaîne.</string>
+  <string name="ChannelUserCantAdmin">Désolé, il y a trop d\'administrateurs pour cette chaîne.</string>
   <string name="ChannelUserCantBot">Désolé, il y a trop de bots dans cette chaîne.</string>
   <string name="ChannelUserAddLimit">Désolé, vous pouvez seulement ajouter les 200 premiers membres à la chaîne. Notez qu\'un nombre illimité de personnes peuvent rejoindre la chaîne via le lien d\'invitation.</string>
   <string name="ChannelAddedBy">un1 vous a ajouté à la chaîne</string>
@@ -306,7 +306,7 @@
   <string name="ChannelMessageStickerEmoji">%1$s a envoyé un sticker %2$s</string>
   <string name="WhoCanAddMembers">Qui peut ajouter de nouveaux membres ?</string>
   <string name="WhoCanAddMembersAllMembers">Tous les membres</string>
-  <string name="WhoCanAddMembersAdmins">Seulement les admins</string>
+  <string name="WhoCanAddMembersAdmins">Seulement les administrateurs</string>
   <string name="ChannelNotifyMembersInfoOn">Les membres seront notifiés quand vous publierez</string>
   <string name="ChannelNotifyMembersInfoOff">Les membres ne seront pas notifiés quand vous publierez</string>
   <string name="ChannelSignMessages">Signer les messages</string>
@@ -400,12 +400,12 @@
   <string name="EventLogPromotedEditMessages">Modifier les messages</string>
   <string name="EventLogPromotedDeleteMessages">Supprimer les messages</string>
   <string name="EventLogPromotedAddAdmins">Ajouter des administrateurs</string>
-  <string name="EventLogPromotedBanUsers">Bannir les utilisateurs</string>
+  <string name="EventLogPromotedBanUsers">Bannir des utilisateurs</string>
   <string name="EventLogPromotedAddUsers">Ajouter des utilisateurs</string>
-  <string name="EventLogPromotedPinMessages">Épingler messages</string>
+  <string name="EventLogPromotedPinMessages">Épingler des messages</string>
   <string name="EventLogFilterAll">Toutes les actions</string>
   <string name="EventLogFilterNewRestrictions">Nouvelles restrictions</string>
-  <string name="EventLogFilterNewAdmins">Nouveaux admins</string>
+  <string name="EventLogFilterNewAdmins">Nouveaux administrateurs</string>
   <string name="EventLogFilterNewMembers">Nouveaux membres</string>
   <string name="EventLogFilterGroupInfo">Groupe</string>
   <string name="EventLogFilterChannelInfo">Chaîne</string>
@@ -693,7 +693,7 @@
   <string name="ShareLink">Partager le lien</string>
   <string name="LinkInfo">N\'importe quelle personne utilisant l\'application Telegram pourra rejoindre votre groupe en suivant ce lien.</string>
   <!--set admins view-->
-  <string name="SetAdminsTitle">Admins de conversations</string>
+  <string name="SetAdminsTitle">Administrateurs de la conversation</string>
   <string name="SetAdminsAll">Tous les membres sont administrateurs</string>
   <string name="SetAdminsAllInfo">Tous les membres peuvent ajouter des nouveaux membres et modifier le nom et la photo du groupe.</string>
   <string name="SetAdminsNotAllInfo">Seuls les administrateurs peuvent ajouter et retirer des membres, et modifier le nom et la photo du groupe.</string>
@@ -701,7 +701,7 @@
   <string name="SharedMedia">Médias partagés</string>
   <string name="SETTINGS">Paramètres</string>
   <string name="AddMember">Ajouter un membre</string>
-  <string name="SetAdmins">Définir les admins</string>
+  <string name="SetAdmins">Définir les administrateurs</string>
   <string name="BanFromTheGroup">BANNIR DU GROUPE</string>
   <string name="DeleteAndExit">Supprimer et quitter le groupe</string>
   <string name="Notifications">Notifications</string>
