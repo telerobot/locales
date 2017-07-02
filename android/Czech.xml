@@ -5,6 +5,7 @@
   <string name="LanguageName">Čeština</string>
   <string name="LanguageNameInEnglish">Czech</string>
   <string name="LanguageCode">cs</string>
+  <string name="ContinueOnThisLanguage">Pokračujte v angličtině</string>
   <!--signin view-->
   <string name="YourPhone">Vaše telefonní číslo</string>
   <string name="StartText">Zkontrolujte předvolbu Vaší země a zadejte telefonní číslo.</string>
@@ -214,6 +215,7 @@
   <string name="LinkChecking">Kontrola uživatelského jména...</string>
   <string name="LinkAvailable">%1$s je dostupné.</string>
   <string name="ChannelMembers">Členové</string>
+  <string name="ChannelBlacklist">Černá listina</string>
   <string name="ChannelAdministrators">Administrátoři</string>
   <string name="ChannelDelete">Odstranit Kanál</string>
   <string name="ChannelDeleteMenu">Odstranit kanál</string>
@@ -1008,6 +1010,7 @@
   <string name="ClearOtherSessionsHelp">Odhlásí všechny zařízení kromě tohoto.</string>
   <string name="RemoveFromListText">Stiskněte a držte uživatele pro odstranění.</string>
   <string name="GroupsAndChannels">Skupiny</string>
+  <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
   <!--edit video view-->
   <string name="EditVideo">Upravit video</string>
   <string name="SendingVideo">Posílá video...</string>
@@ -1151,6 +1154,7 @@ Smazat a zastavit</string>
   <string name="VoipIncoming">Příchozí hovor</string>
   <string name="VoipConnecting">Připojení</string>
   <string name="VoipWaiting">Čekání</string>
+  <string name="VoipCallEnded">Hovor byl ukončen</string>
   <string name="VoipNotificationSettings">Hlasové hovory</string>
   <string name="VoipSettingsRingtone">Vyzváněcí tón</string>
   <string name="Calls">Volání</string>

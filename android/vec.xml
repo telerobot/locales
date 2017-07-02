@@ -185,8 +185,8 @@
   <string name="ActionPinnedGeo">un1 L ga picà insima na pozision</string>
   <string name="ActionPinnedGif">un1 L ga picà insima na GIFa</string>
   <string name="ActionPinnedMusic">un1 L ga picà insima un àudio</string>
-  <string name="ActionMigrateFromGroup">\'Sto grupo el ze stà mejorà in supargrupo</string>
-  <string name="ActionMigrateFromGroupNotify">%1$s L ze stà mejorà in supargrupo</string>
+  <string name="ActionMigrateFromGroup">\'Sto grupo el ze stà ajornà in supargrupo</string>
+  <string name="ActionMigrateFromGroupNotify">%1$s L ze stà ajornà in supargrupo</string>
   <string name="NoBlockedGroup">I utenti blocài i vien ełimenài da\'l grupo e i połe tornarghe rento soło se invitài da un aministrador. I link de invito no i funsiona mìa par łuri.</string>
   <string name="NoBlockedChannel">I utenti blocài i vien ełimenài da\'l canałe e i połe tornarghe rento soło se invitài da un aministrador. I link de invito no i funsiona mìa par łuri.</string>
   <string name="NewChannel">Canałe novo</string>
@@ -242,7 +242,7 @@
   <string name="ChannelEdit">Modìfega</string>
   <string name="MegaWasPrivateAlert">Tien conto che se A te ghe sernìo un link pùblego par el to grupo, co na reserca tuti i sarà boni de catarlo fora e de zontarse rento.\\n\\nNo stà mìa crear \'sto link se te vołi che el to supargrupo el stae privà.</string>
   <string name="ChannelWasPrivateAlert">Tien conto che se A te ghe sernìo un link pùblego par el to canałe, co na reserca tuti i sarà boni de catarlo fora e de zontarse rento.\\n\\nNo stà mìa crear \'sto link se te vołi che el to canałe el stae privà.</string>
-  <string name="ChannelPublicEmptyUsername">Sernisi un link in manjera che, co na reserca, łe parsone łe posa catar fora el to canałe pùblego e sparpanjarlo co cheł\'altri.\\n\\nSe, invese, A no te ghe mìa intarese par \'sta funsion, A te sujerimo de crear un canałe privà.</string>
+  <string name="ChannelPublicEmptyUsername">Sernisi un link in manjera che, co na reserca, łe parsone łe posa catar fora el to canałe pùblego e sparpanjarlo co cheł\'altri.\\n\\nSe, invese, A no te ghè mìa intarese par \'sta funsion, A te sujerimo de crear un canałe privà.</string>
   <string name="ActionCreateChannel">Canałe creà</string>
   <string name="ActionChannelChangedPhoto">Foto de\'l canałe canbiada</string>
   <string name="ActionChannelRemovedPhoto">Foto de\'l canałe ełimenada</string>
@@ -387,11 +387,11 @@
   <string name="EventLogToggledInvitesOff">un1 L ga dezativà i inviti par el grupo</string>
   <string name="EventLogToggledSignaturesOn">un1 L ga ativà łe firme</string>
   <string name="EventLogToggledSignaturesOff">un1 L ga dezativà łe firme</string>
-  <string name="EventLogRestrictedUntil">Restrision par %1$scanbiàe\n\nDurada: %2$s</string>
+  <string name="EventLogRestrictedUntil">Restrision par %1$s canbiàe\n\nDurada: %2$s</string>
   <string name="EventLogRestrictedSendStickers">Mandar figurete e GIF</string>
   <string name="EventLogRestrictedSendMedia">Manda media</string>
   <string name="EventLogRestrictedSendMessages">Manda mesaji</string>
-  <string name="EventLogRestrictedSendEmbed">Incalma link</string>
+  <string name="EventLogRestrictedSendEmbed">Link co l\'anteprima</string>
   <string name="EventLogRestrictedReadMessages">Łedi mesaji</string>
   <string name="EventLogPromoted">Proviłeji de %1$s canbiài</string>
   <string name="EventLogPromotedChangeChannelInfo">Canbia informasion canałe</string>
@@ -706,12 +706,12 @@
   <string name="Notifications">Notìfeghe</string>
   <string name="KickFromSupergroup">Restrisiona utente</string>
   <string name="KickFromGroup">Cava via da\'l grupo</string>
-  <string name="UpgradeGroup">Mejora in supargrupo</string>
+  <string name="UpgradeGroup">Ajorna in supargrupo</string>
   <string name="ConvertGroup">Converti in supargrupo</string>
   <string name="ConvertGroupMenu">Converti in supargrupo</string>
   <string name="ConvertGroupAlertWarning">Avertensa</string>
   <string name="ConvertGroupAlert">Da \'sta asion A no se połe mìa pì tornar indrìo. A no ze mìa posìbiłe trasformar un supargrupo inte un grupo normałe.</string>
-  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Łìmite màsemo menbri.<![CDATA[</b>]]>\\n\\nPar suparar el łìmite e ver funsion in pì, mejora a supargrupo:\\n\\n• I supargrupi i połe tenjer fin a %1$s menbri\\n• I menbri novi i połe védar tuta ła cronołozìa de i mesaji\\n• I mesaji ełimenài i desconparise par tuti i menbri\\n• I aministradori i połe picar insima i mesaji inportanti\\n• El creador el połe inpostar un link pùblego par el grupo</string>
+  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Łìmite màsemo menbri.<![CDATA[</b>]]>\\n\\nPar ndarghe sora a\'l łìmite e ver funsion in pì, ajorna a supargrupo:\\n\\n• I supargrupi i połe tenjer fin a %1$s menbri\\n• I menbri novi i połe védar tuta ła cronołozìa de i mesaji\\n• I mesaji ełimenài i desconparise par tuti i menbri\\n• I aministradori i połe picar insima i mesaji inportanti\\n• El creador el połe inpostar un link pùblego par el grupo</string>
   <string name="ConvertGroupInfo2"><![CDATA[<b>]]>Inte i supargrupi:<![CDATA[</b>]]>\\n\\n• I menbri novi i połe védar tuta ła cronołozìa de i mesaji\\n• I mesaji ełimenài i desconparise par tuti i menbri\\n• I aministradori i połe picar insima i mesaji inportanti\\n• El creador el połe inpostar un link pùblego par el grupo</string>
   <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Stà tento:<![CDATA[</b>]]> \'sta asion no ła połe mìa èsar anułà.</string>
   <!--contact info view-->
