@@ -1325,7 +1325,7 @@
   <string name="UserAlreadyInGroup">Пользователь уже состоит в указанной группе.</string>
   <string name="ForwardMessagesTo">Переслать сообщения пользователю %1$s?</string>
   <string name="SendMessagesTo">Отправить сообщения %1$s?</string>
-  <string name="SendGameTo">Поделиться игрой с %1$s?</string>
+  <string name="SendGameTo">Отправить игру пользователю %1$s?</string>
   <string name="SendContactTo">Отправить контакт пользователю %1$s?</string>
   <string name="AreYouSureLogout">Уверены, что хотите выйти?
 
@@ -1354,7 +1354,7 @@
   <string name="AreYouSureClearHistorySuper">Удалить все кэшированные сообщения и файлы из этой группы?</string>
   <string name="AreYouSureDeleteMessages">Уверены, что хотите удалить %1$s?</string>
   <string name="SendMessagesToGroup">Отправить сообщения %1$s?</string>
-  <string name="SendGameToGroup">Поделиться игрой с %1$s?</string>
+  <string name="SendGameToGroup">Отправить игру в группу «%1$s»?</string>
   <string name="SendContactToGroup">Отправить контакт в группу %1$s?</string>
   <string name="ForwardMessagesToGroup">Переслать сообщения %1$s?</string>
   <string name="FeatureUnavailable">Извините, эта возможность пока не доступна в вашей стране.</string>
