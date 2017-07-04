@@ -89,6 +89,7 @@
   <string name="PaymentFailed">Je nám líto, ale platba byla zamítnuta.</string>
   <string name="PaymentConnectionFailed">Nelze se připojit k platebnímu serveru. Zkontrolujte prosím připojení k internetu a zkuste to znovu.</string>
   <string name="PaymentWarning">Varování</string>
+  <string name="PaymentWarningText">Telegram ani %1$s nebudou mít přístup k informacím vaší platební karty. Údaje o platební kartě budou zpracovány pouze prostřednictvím platebního systému, %2$s.\n\nPlatby půjdou přímo vývojářům %1$s. Telegram nemůže poskytovat žádné záruky, proto postupujete na vlastní nebezpečí. V případě problémů kontaktujte vývojáře %1$s nebo svou banku.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Nová konverzace</string>
   <string name="Settings">Nastavení</string>
@@ -100,6 +101,13 @@
   <string name="NoChatsHelp">Novou konverzaci začněte kliknutím\nna tlačítko v pravém dolním rohu nebo\nklikněte na Menu pro více možností.</string>
   <string name="WaitingForNetwork">Čekám na připojení...</string>
   <string name="Connecting">Připojuji...</string>
+  <string name="ConnectingToProxy">Připojování k proxy...</string>
+  <string name="ConnectingToProxyTapToDisable">Klepnutím sem deaktivujete server proxy...</string>
+  <string name="ConnectingToProxyDisable">Zakázat</string>
+  <string name="ConnectingToProxyEnable">Povolit</string>
+  <string name="EnableProxyAlert">Opravdu chcete povolit tento proxy server?</string>
+  <string name="EnableProxyAlert2">Proxy server můžete později změnit v Nastavení (Data a úložiště).</string>
+  <string name="ConnectingToProxyDisableAlert">Opravdu chcete zakázat proxy server %1$s? Můžete je znovu povolit v Nastavení (Data a úložiště).</string>
   <string name="Updating">Aktualizuji...</string>
   <string name="NewSecretChat">Nová soukromá konverzace</string>
   <string name="AwaitingEncryption">Čekám až bude %s online...</string>
@@ -139,10 +147,14 @@
   <string name="Bold">Tučně</string>
   <string name="Italic">Kurzíva</string>
   <string name="Regular">Normal</string>
+  <string name="ContactsPermissionAlert">Pro bezproblémové spojení se všemi, které znáte, povolte <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> přístup ke svým kontaktům.</string>
+  <string name="ContactsPermissionAlertNotNow">TEĎ NE</string>
+  <string name="ContactsPermissionAlertContinue">POKRAČOVAT</string>
   <!--channels-->
   <string name="ChannelTypePublic">Veřejné</string>
   <string name="ChannelTypePrivate">Soukromé</string>
   <string name="SetAsAdmin">Promote to admin</string>
+  <string name="NoBlockedUsers">Žádní zakázaný uživatelé</string>
   <string name="DescriptionInfoMega">Můžete poskytnout volitelný popis pro vaši skupinu.</string>
   <string name="LeaveMega">Opustit skupinu</string>
   <string name="DeleteMega">Odstranit skupinu</string>
@@ -174,6 +186,8 @@
   <string name="ActionPinnedMusic">un1 připnul/a polohu</string>
   <string name="ActionMigrateFromGroup">Tato skupina byla povýšena na Superskupinu</string>
   <string name="ActionMigrateFromGroupNotify">Skupina \"%1$s\" byla povýšena na Superskupinu.</string>
+  <string name="NoBlockedGroup">Uživatelé s banem jsou ze skupiny odebráni a mohou se vrátit pouze v případě, že jsou pozváni administrátorem. Pozvánky pomocí linku jim nefungují.</string>
+  <string name="NoBlockedChannel">Uživatelé s banem jsou z kanálu odebráni a mohou se vrátit pouze v případě, že jsou pozváni administrátorem. Pozvánky pomocí linku jim nefungují.</string>
   <string name="NewChannel">Nový kanál</string>
   <string name="EnterChannelName">Název kanálu</string>
   <string name="AddMutual">Přidát kontakt do vašeho kanálu</string>
@@ -216,6 +230,8 @@
   <string name="LinkAvailable">%1$s je dostupné.</string>
   <string name="ChannelMembers">Členové</string>
   <string name="ChannelBlacklist">Černá listina</string>
+  <string name="ChannelBlockedUsers">Zakázaní uživatelé</string>
+  <string name="ChannelRestrictedUsers">Uživatelé s omezeným přístupem</string>
   <string name="ChannelAdministrators">Administrátoři</string>
   <string name="ChannelDelete">Odstranit Kanál</string>
   <string name="ChannelDeleteMenu">Odstranit kanál</string>
@@ -235,8 +251,13 @@
   <string name="ChannelEditor">Administrátor</string>
   <string name="ChannelMute">Vypnout upozornění</string>
   <string name="ChannelUnmute">Zapnout upozornění</string>
+  <string name="ChannelAddAdmin">Přidat administrátora</string>
+  <string name="ChannelBlockUser">Zakázat uživatele</string>
+  <string name="Unban">Povolit uživatele</string>
+  <string name="UnbanText">Klepněte a podržte na uživateli k povolení.</string>
   <string name="ChannelInviteViaLink">Odkaz na pozvánku</string>
   <string name="ChannelAddUserAdminAlert">Jste si jistý, že chcete přidat %1$s jako administrátora?</string>
+  <string name="ChannelRemoveUserAdmin">Odmítnout administrátora</string>
   <string name="ChannelMembersInfo">Pouze administrátoři kanálu vidí tento seznam.</string>
   <string name="ChannelAdminNotParticipant">Tnto uživatel není nyní připojen do kanál. Chcete mu zaslat pozvánkut?</string>
   <string name="ChannelLinkInfo">Každý, kdo má nainstalovaný Telegram bude moci připojit váš kanál pomocí následujícího odkazu.</string>
@@ -326,6 +347,8 @@
   <string name="IsSendingAudio">%1$s posílá audio...</string>
   <string name="IsSendingPhoto">%1$s Vám posílá fotku...</string>
   <string name="InstantView">NÁHLED</string>
+  <string name="OpenGroup">OTEVŘÍT SKUPINU</string>
+  <string name="OpenChannel">OTEVŘÍT KANÁL</string>
   <string name="InstantViewNightMode">Tmavý motiv se v noci automaticky zapne</string>
   <string name="IsSendingGame">%1$s hraje hru...</string>
   <string name="IsSendingVideo">%1$s Vám posílá video...</string>
@@ -379,6 +402,7 @@
   <string name="OpenInExternalApp">Otevřít v...</string>
   <string name="CopyUrl">Kopírovat odkaz</string>
   <string name="SendItems">Odeslat %1$s</string>
+  <string name="SendAsFile">Odeslat jako soubor</string>
   <string name="SendAsFiles">Odeslat jako soubory</string>
   <string name="OpenUrlAlert">Otevřít url %1$s?</string>
   <string name="BotPermissionGameAlert">Povolit %1$s předat vaše Telegram jméno a ID (ne vaše telefonní číslo) na stránky které jste otevřeli s tímto botem?</string>
@@ -418,6 +442,7 @@
   <string name="TimeToEdit">%1$s</string>
   <string name="TimeToEditExpired">Je nám líto, čas na úpravu vypršel.</string>
   <string name="AddShortcut">Přidat zkratku</string>
+  <string name="SearchMembers">Hledat členy</string>
   <string name="ShortcutAdded">Zkratka byla přidána na domovskou obrazovku.</string>
   <string name="ChatYourSelf">chat sám se sebou</string>
   <string name="ChatYourSelfName">Vy</string>
@@ -563,8 +588,10 @@
   <string name="SETTINGS">Nastavení</string>
   <string name="AddMember">Přidat účastnika</string>
   <string name="SetAdmins">Nastavit správce</string>
+  <string name="BanFromTheGroup">BAN ZE SKUPINY</string>
   <string name="DeleteAndExit">Opustit a odstranit skupinu</string>
   <string name="Notifications">Upozornění</string>
+  <string name="KickFromSupergroup">Omezit uživatele</string>
   <string name="KickFromGroup">Odstranit ze skupiny</string>
   <string name="UpgradeGroup">Povýšit na Superskupinu</string>
   <string name="ConvertGroup">Převést do Superskupiny</string>
@@ -719,6 +746,7 @@
   <string name="ContactJoined">Kontakt začal používat Telegram</string>
   <string name="PinnedMessages">Připnuté zprávy</string>
   <string name="Language">Jazyk</string>
+  <string name="LanguageCustom">Vlastní</string>
   <string name="AskButton">Zeptat se dobrovolníka</string>
   <string name="TelegramFaq">Telegram FAQ</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -750,6 +778,7 @@
   <string name="WhenRoaming">Během roamingu</string>
   <string name="NoMediaAutoDownload">Žádné média</string>
   <string name="AutoplayGifs">Autoplay GIFy</string>
+  <string name="RaiseToSpeak">Přijmout a mluvit</string>
   <string name="SaveToGallerySettings">Uložit do galerie</string>
   <string name="EditName">Upravit jméno</string>
   <string name="NotificationsCustomize">Přizpůsobit</string>
@@ -785,10 +814,26 @@
   <string name="SmartNotificationsAlert">Frekvence zvukového upozornění</string>
   <string name="SecretChat">Tajné chaty</string>
   <string name="ChromeCustomTabs">In-App prohlížeč</string>
+  <string name="ChromeCustomTabsInfo">Otevírat externí odkazy v aplikaci</string>
   <string name="DirectShare">Přímé sdílení</string>
+  <string name="Emoji">Smajlíci</string>
+  <string name="EmojiBigSize">Nakreslete velkého smajlíka</string>
+  <string name="EmojiUseDefault">Použít výchozí smajlíky systému</string>
   <string name="TelegramVersion">Telegram pro Android %1$s</string>
+  <string name="DebugMenu">Menu ladění</string>
   <string name="DebugMenuImportContacts">Import Kontaktů</string>
   <string name="DebugMenuReloadContacts">Znovu načíst kontakty</string>
+  <string name="ChangeLanguageLater">Jazyk můžete změnit později v Nastavení.</string>
+  <string name="ChooseYourLanguage">Zvolte svůj jazyk</string>
+  <string name="ChooseYourLanguageOther">Ostatní</string>
+  <string name="ProxySettings">Nastavení proxy</string>
+  <string name="Proxy">Proxy</string>
+  <string name="UseProxySettings">Použít nastavení proxy</string>
+  <string name="UseProxyAddress">Server</string>
+  <string name="UseProxyPassword">Heslo</string>
+  <string name="UseProxyPort">Port</string>
+  <string name="UseProxyUsername">Uživatelské jméno</string>
+  <string name="UseProxyInfo">Nastavení proxy SOCKS5</string>
   <!--cache view-->
   <string name="LocalDatabase">Lokální Databaze</string>
   <string name="LocalDatabaseClear">Opravdu chcete smazat uložené zprávy?</string>
@@ -872,6 +917,8 @@
   <string name="SaveToGallery">Uložit do galerie</string>
   <string name="Of">%1$d z %2$d</string>
   <string name="Gallery">Galerie</string>
+  <string name="AllPhotos">Všechny fotky</string>
+  <string name="AllMedia">Všechny media</string>
   <string name="NoPhotos">Žádné fotky</string>
   <string name="NoVideo">Žádné videa</string>
   <string name="PleaseDownload">Prosím, stáhněte média</string>
@@ -916,6 +963,8 @@
   <string name="Caption">Titulek</string>
   <string name="PaintStickers">Nálepky</string>
   <string name="PaintText">Text</string>
+  <string name="PaintDelete">Odstranit</string>
+  <string name="PaintEdit">Upravit</string>
   <string name="CropReset">Reset</string>
   <!--password view-->
   <string name="TwoStepVerification">Ověření ve dvou krocích</string>
@@ -972,6 +1021,7 @@
   <string name="StorageUsage">Využití uložiště</string>
   <string name="MobileUsage">Používání mobilních dat</string>
   <string name="RoamingUsage">Použití dat roamingu</string>
+  <string name="FilesDataUsage">Soubory</string>
   <string name="CallsDataUsage">Volání</string>
   <string name="OutgoingCalls">Odchozí hovory</string>
   <string name="IncomingCalls">Příchozí hovory</string>
