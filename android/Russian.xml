@@ -921,7 +921,7 @@
   <string name="VibrationDisabled">Отключена</string>
   <string name="PopupEnabled">Показывать</string>
   <string name="PopupDisabled">Не показывать</string>
-  <string name="LedDisabled">Отключить</string>
+  <string name="LedDisabled">Откл.</string>
   <string name="RepeatDisabled">Выкл</string>
   <string name="InChatSound">Звук в чате</string>
   <string name="SoundDefault">По умолчанию</string>
@@ -1259,7 +1259,7 @@
   <string name="FromCamera">С камеры</string>
   <string name="FromGalley">Из галереи</string>
   <string name="DeletePhoto">Удалить фото</string>
-  <string name="Set">Установить</string>
+  <string name="Set">OK</string>
   <string name="OK">OK</string>
   <string name="Crop">КАДРИРОВАТЬ</string>
   <string name="Yes">Да</string>
