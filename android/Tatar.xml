@@ -6,6 +6,7 @@
   <string name="English">English</string>
   <string name="LanguageNameInEnglish">Tatar</string>
   <string name="LanguageCode">tt</string>
+  <string name="ContinueOnThisLanguage">Татарча дәвам итү</string>
   <!--signin view-->
   <string name="YourPhone">Телефоныгыз</string>
   <string name="StartText">Үзегезнең ил кодын раслагыз һәм
@@ -108,6 +109,8 @@
   <string name="ConnectingToProxyDisable">Сүндерү</string>
   <string name="ConnectingToProxyEnable">Кабызу</string>
   <string name="EnableProxyAlert">Проксины кабызырга телисезме?</string>
+  <string name="EnableProxyAlert2">Сез прокси көйләүләрен соңрак үзгәртә аласыз (\"Трафик һәм саклау урыны\" бүлегендә).</string>
+  <string name="ConnectingToProxyDisableAlert">%1$s прокси серверын сүндерергә телисезме? Сез аны соңрак көйләүләрдә кабыза аласыз (\"Трафик һәм саклау урыны\" бүлегендә).</string>
   <string name="Updating">Яңарту...</string>
   <string name="NewSecretChat">Яңа яшерен чат</string>
   <string name="AwaitingEncryption">%s челтәргә кергәнен көтәбез... </string>
@@ -149,6 +152,7 @@
   <string name="Bold">Калын</string>
   <string name="Italic">Курсив</string>
   <string name="Regular">Гадәти</string>
+  <string name="ContactsPermissionAlert">Танышларыгыз белән аралаша башлау өчен <![CDATA[1]]>Telegramга<![CDATA[1]]> контактларыгызны күрү мөмкинлеге кирәк.</string>
   <string name="ContactsPermissionAlertNotNow">ӘЛЕ ТҮГЕЛ</string>
   <string name="ContactsPermissionAlertContinue">ДӘВАМ ИТҮ</string>
   <!--channels-->
@@ -187,6 +191,8 @@
   <string name="ActionPinnedMusic">un1 трек беркетте</string>
   <string name="ActionMigrateFromGroup">Бу төркем супертөркемгә әйләндерелде</string>
   <string name="ActionMigrateFromGroupNotify">%1$s супертөркемгә әйләндерелде</string>
+  <string name="NoBlockedGroup">Бикләнгән кулланучылар төркемнән чыгарылачаклар һәм администратор чакыруы буенча гына кире кайта алачаклар. Чакыру сылтамалары алар өчен эшләми.</string>
+  <string name="NoBlockedChannel">Бикләнгән кулланучылар каналдан чыгарылачаклар һәм администратор чакыруы буенча гына кире кайта алачаклар. Чакыру сылтамалары алар өчен эшләми.</string>
   <string name="NewChannel">Яңа канал</string>
   <string name="EnterChannelName">Канал исеме</string>
   <string name="AddMutual">Каналыгызга контактлар өстәү</string>
@@ -313,6 +319,7 @@
   <string name="EditAdminWhatCanDo">Бу администратор ни эшли ала?</string>
   <string name="EditAdminChangeChannelInfo">Канал турында мәгълүматне үзгәртү</string>
   <string name="EditAdminChangeGroupInfo">Төркем турында мәгълүматне үзгәртү</string>
+  <string name="EditAdminPostMessages">Хатларны бастыру</string>
   <string name="EditAdminEditMessages">Чит хатларны үзгәртү</string>
   <string name="EditAdminDeleteMessages">Чит хатларны бетерү</string>
   <string name="EditAdminGroupDeleteMessages">Хатларны бетерү</string>
@@ -344,6 +351,10 @@
   <string name="EventLogAllEvents">Бөтен вакыйгалар</string>
   <string name="EventLogSelectedEvents">Сайланган вакыйгалар</string>
   <string name="EventLogAllAdmins">Бөтен администраторлар</string>
+  <string name="EventLogEmpty"><![CDATA[1]]>Әлегә берни дә булмады<![CDATA[1]]>\n\nСоңгы 48 сәгать эчендә администраторлар\nһәм катнашучылар берни дә эшләмәделәр.</string>
+  <string name="EventLogEmptyChannel"><![CDATA[1]]>Әлегә берни дә булмады<![CDATA[1]]>\n\nСоңгы 48 сәгать эчендә канал администраторлары\nберни дә эшләмәделәр.</string>
+  <string name="EventLogEmptySearch"><![CDATA[1]]>Берни дә табылмады<![CDATA[1]]>\n\nСезнең эзләүгә туры килгән\nвакыйга табылмады. </string>
+  <string name="EventLogEmptyTextSearch">\'<![CDATA[1]]>%1$s<![CDATA[1]]>\' эчтәлекле вакыйга табылмады.</string>
   <string name="EventLogInfoTitle">Соңгы вакыйгалар нәрсә ул?</string>
   <string name="EventLogInfoDetail">Төркем администраторлары һәм катнашучылары белән соңгы 48 сәгать эчендә башкарылган гамәлләр.</string>
   <string name="EventLogInfoDetailChannel">Канал администраторлары белән соңгы 48 сәгать эчендә башкарылган гамәлләр.</string>
@@ -380,6 +391,7 @@
   <string name="EventLogToggledInvitesOff">un1 төркемгә чакыру сылтамаларын сүндерде</string>
   <string name="EventLogToggledSignaturesOn">un1 имзаларны кабызды</string>
   <string name="EventLogToggledSignaturesOff">un1 имзаларны сүндерде</string>
+  <string name="EventLogRestrictedUntil">өстенлекләрне үзгәртте %1$s\n\nВакыт арасы: %2$s</string>
   <string name="EventLogRestrictedSendStickers">GIF һәм стикерлар җибәрү</string>
   <string name="EventLogRestrictedSendMedia">Файллар җибәрү </string>
   <string name="EventLogRestrictedSendMessages">Хатлар җибәрү</string>
