@@ -319,7 +319,7 @@
   <string name="EditAdminWhatCanDo">Бу администратор ни эшли ала?</string>
   <string name="EditAdminChangeChannelInfo">Канал турында мәгълүматне үзгәртү</string>
   <string name="EditAdminChangeGroupInfo">Төркем турында мәгълүматне үзгәртү</string>
-  <string name="EditAdminPostMessages">Хатларны бастыру</string>
+  <string name="EditAdminPostMessages">Хатлар язу</string>
   <string name="EditAdminEditMessages">Чит хатларны үзгәртү</string>
   <string name="EditAdminDeleteMessages">Чит хатларны бетерү</string>
   <string name="EditAdminGroupDeleteMessages">Хатларны бетерү</string>
@@ -391,14 +391,16 @@
   <string name="EventLogToggledInvitesOff">un1 төркемгә чакыру сылтамаларын сүндерде</string>
   <string name="EventLogToggledSignaturesOn">un1 имзаларны кабызды</string>
   <string name="EventLogToggledSignaturesOff">un1 имзаларны сүндерде</string>
-  <string name="EventLogRestrictedUntil">өстенлекләрне үзгәртте %1$s\n\nВакыт арасы: %2$s</string>
+  <string name="EventLogRestrictedUntil"> %1$s өчен өстенлекләр үзгәрелде\n\nВакыт арасы: %2$s</string>
   <string name="EventLogRestrictedSendStickers">GIF һәм стикерлар җибәрү</string>
   <string name="EventLogRestrictedSendMedia">Файллар җибәрү </string>
   <string name="EventLogRestrictedSendMessages">Хатлар җибәрү</string>
   <string name="EventLogRestrictedSendEmbed">Сылтамалар җибәрү</string>
   <string name="EventLogRestrictedReadMessages">Хатларны уку</string>
+  <string name="EventLogPromoted">%1$s өчен өстенлекләрне үзгәртте</string>
   <string name="EventLogPromotedChangeChannelInfo">Канал турында мәгълүматне үзгәртү</string>
   <string name="EventLogPromotedChangeGroupInfo">Төркем турында мәгълүматне үзгәртү</string>
+  <string name="EventLogPromotedPostMessages">Хатлар язу</string>
   <string name="EventLogPromotedEditMessages">Хатларны үзгәртү</string>
   <string name="EventLogPromotedDeleteMessages">Хатларны бетерү</string>
   <string name="EventLogPromotedAddAdmins">Администраторлар өстәү</string>
@@ -565,6 +567,7 @@
   <string name="DiscardVideoMessageTitle"> Видеохатны кире кагу</string>
   <string name="DiscardVideoMessageDescription">Яздыруны туктатырга һәм видеохатыгызны бетерергә телисезме?</string>
   <string name="DiscardVoiceMessageAction">Бетерү</string>
+  <string name="AttachMediaRestrictedForever">Администраторлар чикләве буенча сез бу төркемгә файллар җибәрә алмыйсыз</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s үз-үзен бетерү вакытын куйды: %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Үз-үзен бетерү вакыты: %1$s</string>
@@ -940,6 +943,7 @@
   <string name="DebugMenu">Хата төзәтү менюсы</string>
   <string name="DebugMenuImportContacts">Контактларны импортлау</string>
   <string name="DebugMenuReloadContacts">Контактларны яңадан йөкләү</string>
+  <string name="ChangeLanguageLater">Сез телне көйләүләрдә соңрак үзгәртә аласыз.</string>
   <string name="ChooseYourLanguage">Тел сайлау</string>
   <string name="ChooseYourLanguageOther">Бүтән</string>
   <string name="ProxySettings">Прокси көйләүләре</string>
