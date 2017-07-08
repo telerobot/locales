@@ -154,7 +154,7 @@
   <string name="ChannelTypePublic">Veřejné</string>
   <string name="ChannelTypePrivate">Soukromé</string>
   <string name="SetAsAdmin">Promote to admin</string>
-  <string name="NoBlockedUsers">Žádní zakázaný uživatelé</string>
+  <string name="NoBlockedUsers">Žádní zakázaní uživatelé</string>
   <string name="DescriptionInfoMega">Můžete poskytnout volitelný popis pro vaši skupinu.</string>
   <string name="LeaveMega">Opustit skupinu</string>
   <string name="DeleteMega">Odstranit skupinu</string>
@@ -186,8 +186,8 @@
   <string name="ActionPinnedMusic">un1 připnul/a polohu</string>
   <string name="ActionMigrateFromGroup">Tato skupina byla povýšena na Superskupinu</string>
   <string name="ActionMigrateFromGroupNotify">Skupina \"%1$s\" byla povýšena na Superskupinu.</string>
-  <string name="NoBlockedGroup">Uživatelé s banem jsou ze skupiny odebráni a mohou se vrátit pouze v případě, že jsou pozváni administrátorem. Pozvánky pomocí linku jim nefungují.</string>
-  <string name="NoBlockedChannel">Uživatelé s banem jsou z kanálu odebráni a mohou se vrátit pouze v případě, že jsou pozváni administrátorem. Pozvánky pomocí linku jim nefungují.</string>
+  <string name="NoBlockedGroup">Zakázaní uživatelé jsou ze skupiny odebráni a mohou se vrátit pouze v případě, že jsou pozváni administrátorem. Pozvánky pomocí linku jim nefungují.</string>
+  <string name="NoBlockedChannel">Zakázaní uživatelé jsou z kanálu odebráni a mohou se vrátit pouze v případě, že jsou pozváni administrátorem. Pozvánky pomocí linku jim nefungují.</string>
   <string name="NewChannel">Nový kanál</string>
   <string name="EnterChannelName">Název kanálu</string>
   <string name="AddMutual">Přidát kontakt do vašeho kanálu</string>
@@ -1025,6 +1025,8 @@
   <string name="CallsDataUsage">Volání</string>
   <string name="OutgoingCalls">Odchozí hovory</string>
   <string name="IncomingCalls">Příchozí hovory</string>
+  <string name="CallsTotalTime">Celkový čas</string>
+  <string name="TotalDataUsage">Celkem</string>
   <!--privacy settings-->
   <string name="PrivacySettings">Soukromí a bezpečnost</string>
   <string name="PrivacyTitle">Bezpečnost</string>
@@ -1205,6 +1207,7 @@ Smazat a zastavit</string>
   <string name="VoipConnecting">Připojení</string>
   <string name="VoipWaiting">Čekání</string>
   <string name="VoipCallEnded">Hovor byl ukončen</string>
+  <string name="VoipEndCall">Ukončit hovor</string>
   <string name="VoipNotificationSettings">Hlasové hovory</string>
   <string name="VoipSettingsRingtone">Vyzváněcí tón</string>
   <string name="Calls">Volání</string>
@@ -1324,6 +1327,12 @@ Smazat a zastavit</string>
   <string name="Photos_few">%1$d fotky</string>
   <string name="Photos_many">%1$d fotek</string>
   <string name="Photos_other">%1$d fotek</string>
+  <string name="Points_zero">%1$d</string>
+  <string name="Points_one">%1$d</string>
+  <string name="Points_two">%1$d</string>
+  <string name="Points_few">%1$d</string>
+  <string name="Points_many">%1$d</string>
+  <string name="Points_other">%1$d</string>
   <string name="LastSeenMinutes_zero">naposledy viděn před %1$d minutami</string>
   <string name="LastSeenMinutes_one">naposledy viděn před %1$d minutami</string>
   <string name="LastSeenMinutes_two">naposledy viděn před %1$d minutami</string>
