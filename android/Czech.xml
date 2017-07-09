@@ -154,7 +154,7 @@
   <string name="ChannelTypePublic">Veřejné</string>
   <string name="ChannelTypePrivate">Soukromé</string>
   <string name="SetAsAdmin">Promote to admin</string>
-  <string name="NoBlockedUsers">Žádní zakázaní uživatelé</string>
+  <string name="NoBlockedUsers">Žádní blokování uživatelé</string>
   <string name="DescriptionInfoMega">Můžete poskytnout volitelný popis pro vaši skupinu.</string>
   <string name="LeaveMega">Opustit skupinu</string>
   <string name="DeleteMega">Odstranit skupinu</string>
@@ -186,8 +186,8 @@
   <string name="ActionPinnedMusic">un1 připnul/a polohu</string>
   <string name="ActionMigrateFromGroup">Tato skupina byla povýšena na Superskupinu</string>
   <string name="ActionMigrateFromGroupNotify">Skupina \"%1$s\" byla povýšena na Superskupinu.</string>
-  <string name="NoBlockedGroup">Zakázaní uživatelé jsou ze skupiny odebráni a mohou se vrátit pouze v případě, že jsou pozváni administrátorem. Pozvánky pomocí linku jim nefungují.</string>
-  <string name="NoBlockedChannel">Zakázaní uživatelé jsou z kanálu odebráni a mohou se vrátit pouze v případě, že jsou pozváni administrátorem. Pozvánky pomocí linku jim nefungují.</string>
+  <string name="NoBlockedGroup">Blokování uživatelé jsou ze skupiny odebráni a mohou se vrátit pouze v případě, že jsou pozváni administrátorem. Pozvánky pomocí linku jim nefungují.</string>
+  <string name="NoBlockedChannel">Blokování uživatelé jsou z kanálu odebráni a mohou se vrátit pouze v případě, že jsou pozváni administrátorem. Pozvánky pomocí linku jim nefungují.</string>
   <string name="NewChannel">Nový kanál</string>
   <string name="EnterChannelName">Název kanálu</string>
   <string name="AddMutual">Přidát kontakt do vašeho kanálu</string>
@@ -230,7 +230,7 @@
   <string name="LinkAvailable">%1$s je dostupné.</string>
   <string name="ChannelMembers">Členové</string>
   <string name="ChannelBlacklist">Černá listina</string>
-  <string name="ChannelBlockedUsers">Zakázaní uživatelé</string>
+  <string name="ChannelBlockedUsers">Blokování uživatelé</string>
   <string name="ChannelRestrictedUsers">Uživatelé s omezeným přístupem</string>
   <string name="ChannelAdministrators">Administrátoři</string>
   <string name="ChannelDelete">Odstranit Kanál</string>
@@ -252,9 +252,9 @@
   <string name="ChannelMute">Vypnout upozornění</string>
   <string name="ChannelUnmute">Zapnout upozornění</string>
   <string name="ChannelAddAdmin">Přidat administrátora</string>
-  <string name="ChannelBlockUser">Zakázat uživatele</string>
-  <string name="Unban">Povolit uživatele</string>
-  <string name="UnbanText">Klepněte a podržte na uživateli k povolení.</string>
+  <string name="ChannelBlockUser">Blokovat uživatele</string>
+  <string name="Unban">Odblokovat uživatele</string>
+  <string name="UnbanText">Klepněte a podržte na uživateli k odblokování.</string>
   <string name="ChannelInviteViaLink">Odkaz na pozvánku</string>
   <string name="ChannelAddUserAdminAlert">Jste si jistý, že chcete přidat %1$s jako administrátora?</string>
   <string name="ChannelRemoveUserAdmin">Odmítnout administrátora</string>
@@ -310,7 +310,9 @@
   <string name="ChannelNotifyMembersInfoOff">Členové nebudou upozorněni při přidání příspěvku</string>
   <string name="ChannelSignMessages">Označené zprávy</string>
   <string name="ChannelSignMessagesInfo">Přidejte jména adminů do zpráv, které zveřejňují.</string>
+  <string name="EditAdminBanUsers">Blokování uživatelé</string>
   <!--event log-->
+  <string name="EventLogPromotedBanUsers">Zablokovat uživatelé</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Nové vysílání</string>
   <string name="EnterListName">Zadejte název vysílání</string>
@@ -1143,6 +1145,7 @@ Smazat a zastavit</string>
   <string name="ActionTakeScreenshoot">un1 zachytil snímek obrazovky!</string>
   <!--Alert messages-->
   <string name="InvalidPhoneNumber">Neplatné telefonní číslo</string>
+  <string name="BannedPhoneNumber">Blokované telefonní číslo</string>
   <string name="CodeExpired">Platnost kódu vypršela, prosím přihlaste se znovu</string>
   <string name="FloodWait">Příliš mnoho pokusů, zkuste to znovu později</string>
   <string name="FloodWaitTime">Příliš mnoho pokusů, prosím zkuste opět za %1$s</string>
