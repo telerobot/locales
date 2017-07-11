@@ -310,9 +310,50 @@
   <string name="ChannelNotifyMembersInfoOff">Členové nebudou upozorněni při přidání příspěvku</string>
   <string name="ChannelSignMessages">Označené zprávy</string>
   <string name="ChannelSignMessagesInfo">Přidejte jména adminů do zpráv, které zveřejňují.</string>
+  <string name="EditAdminAddAdmins">Přidat nové administrátory</string>
   <string name="EditAdminBanUsers">Blokování uživatelé</string>
+  <string name="EditAdminAddUsers">Přidat uživatelé</string>
+  <string name="UserRestrictionsRead">Čtení zpráv</string>
+  <string name="UserRestrictionsSend">Odeslat zprávy</string>
+  <string name="UserRestrictionsSendMedia">Odeslat média</string>
+  <string name="UserRestrictionsUntilForever">Navždy</string>
   <!--event log-->
+  <string name="EventLogAllEvents">Všechny akce</string>
+  <string name="EventLogAllAdmins">Všichni administrátoři</string>
+  <string name="EventLogEditedGroupTitle">un1 přejmenoval skupinu na \"%1$s\"</string>
+  <string name="EventLogEditedChannelTitle">un1 přejmenoval kanal na \"%1$s\"</string>
+  <string name="EventLogLeftGroup">un1 opustil skupinu</string>
+  <string name="EventLogLeftChannel">un1 opustil kanál</string>
+  <string name="EventLogAdded">un1 přidal un2</string>
+  <string name="EventLogEditedGroupPhoto">un1 nastavil nový obrázek skupiny</string>
+  <string name="EventLogEditedChannelPhoto">un1 nastavil nový obrázek kanálu</string>
+  <string name="EventLogRemovedWGroupPhoto">un1 odstranil obrázek skupiny</string>
+  <string name="EventLogRemovedChannelPhoto">un1 odstranil obrázek kanálu</string>
+  <string name="EventLogEditedMessages">un1 upravil tuto zprávu:</string>
+  <string name="EventLogPreviousLink">Předchozí odkaz</string>
+  <string name="EventLogPreviousGroupDescription">Předchozí popis</string>
+  <string name="EventLogRestrictedSendMedia">Odeslat média</string>
+  <string name="EventLogRestrictedSendMessages">Odeslat zprávy</string>
+  <string name="EventLogRestrictedReadMessages">Čtení zpráv</string>
+  <string name="EventLogPromotedChangeChannelInfo">Změnit informace kanálu</string>
+  <string name="EventLogPromotedChangeGroupInfo">Změňte informace o skupině</string>
+  <string name="EventLogPromotedPostMessages">Odeslat zprávy</string>
+  <string name="EventLogPromotedEditMessages">Upravit zprávy</string>
+  <string name="EventLogPromotedDeleteMessages">Smazat zprávy</string>
+  <string name="EventLogPromotedAddAdmins">Přidat administrátory</string>
   <string name="EventLogPromotedBanUsers">Zablokovat uživatelé</string>
+  <string name="EventLogPromotedAddUsers">Přidat uživatele</string>
+  <string name="EventLogPromotedPinMessages">Připnout zprávy</string>
+  <string name="EventLogFilterAll">Všechny akce</string>
+  <string name="EventLogFilterNewRestrictions">Nové omezení</string>
+  <string name="EventLogFilterNewAdmins">Noví administrátoři</string>
+  <string name="EventLogFilterNewMembers">Noví členové</string>
+  <string name="EventLogFilterGroupInfo">Informace o skupině</string>
+  <string name="EventLogFilterChannelInfo">Informace o kanálu</string>
+  <string name="EventLogFilterGroupSettings">Nastavení skupiny</string>
+  <string name="EventLogFilterDeletedMessages">Smazané zprávy</string>
+  <string name="EventLogFilterEditedMessages">Upravené zprávy</string>
+  <string name="EventLogFilterPinnedMessages">Připnuté zprávy</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Nové vysílání</string>
   <string name="EnterListName">Zadejte název vysílání</string>
@@ -464,6 +505,14 @@
   <string name="DiscardVideoMessageTitle">Zrušit video zrpávu</string>
   <string name="DiscardVideoMessageDescription">Opravdu chcete zastavit nahrávání a zrušit video zprávu?</string>
   <string name="DiscardVoiceMessageAction">Zrušit</string>
+  <string name="AttachMediaRestricted">Administrátoři této skupiny vás omezili v odesílání médií až do %1$s</string>
+  <string name="AttachInlineRestricted">Administrátoři této skupiny vás omezili v zasílání vloženého obsahu až do %1$s</string>
+  <string name="AttachStickersRestricted">Administrátoři této skupiny vás omezili v odesílání samolepek až do %1$s</string>
+  <string name="SendMessageRestricted">Administrátoři této skupiny vás omezili ve psaní až do %1$s</string>
+  <string name="AttachMediaRestrictedForever">Administrátoři této skupiny vás omezili v odesílání médií</string>
+  <string name="AttachInlineRestrictedForever">Administrátoři této skupiny vás omezili v zasílání vloženého obsahu</string>
+  <string name="AttachStickersRestrictedForever">Administrátoři této skupiny vás omezili v odesílání samolepek</string>
+  <string name="SendMessageRestrictedForever">Administrátoři této skupiny vás omezili ve psaní</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s nastavil/a čas k sebedestrukci na %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Čas k sebedestrukci nastaven na %1$s</string>
@@ -644,6 +693,7 @@
   <string name="UsernameEmpty">Žádné</string>
   <string name="ErrorOccurred">Došlo k chybě.</string>
   <!--stickers view-->
+  <string name="StickersName">Samolepky</string>
   <string name="AddStickers">Přidat nálepky</string>
   <string name="AddMasks">Přidat masky</string>
   <string name="AddToStickers">Přidat k nálepkám</string>
@@ -963,6 +1013,7 @@
   <string name="VideoCaption">Popis videa</string>
   <string name="GifCaption">Popis GIFu</string>
   <string name="Caption">Titulek</string>
+  <string name="PaintDraw">Koncept</string>
   <string name="PaintStickers">Nálepky</string>
   <string name="PaintText">Text</string>
   <string name="PaintDelete">Odstranit</string>
@@ -1021,14 +1072,23 @@
   <string name="DataSettings">Data a úložiště</string>
   <string name="DataUsage">Disk a využití sítě</string>
   <string name="StorageUsage">Využití uložiště</string>
-  <string name="MobileUsage">Používání mobilních dat</string>
-  <string name="RoamingUsage">Použití dat roamingu</string>
+  <string name="MobileUsage">Využití mobilních dat</string>
+  <string name="RoamingUsage">Využití dat roamingu</string>
+  <string name="WiFiUsage">Využití dat Wi-Fi</string>
+  <string name="MessagesDataUsage">Zprávy a jiné data</string>
+  <string name="CountSent">Odesláno</string>
+  <string name="CountReceived">Přijato</string>
+  <string name="BytesSent">Odesláno bajtů</string>
+  <string name="BytesReceived">Přijato bajtů</string>
   <string name="FilesDataUsage">Soubory</string>
   <string name="CallsDataUsage">Volání</string>
   <string name="OutgoingCalls">Odchozí hovory</string>
   <string name="IncomingCalls">Příchozí hovory</string>
   <string name="CallsTotalTime">Celkový čas</string>
   <string name="TotalDataUsage">Celkem</string>
+  <string name="ResetStatistics">Resetovat statistiku</string>
+  <string name="NetworkUsageSince">Využití sítě od %1$s</string>
+  <string name="ResetStatisticsAlert">Opravdu chcete resetovat statistiky využití?</string>
   <!--privacy settings-->
   <string name="PrivacySettings">Soukromí a bezpečnost</string>
   <string name="PrivacyTitle">Bezpečnost</string>
@@ -1064,6 +1124,10 @@
   <string name="ClearOtherSessionsHelp">Odhlásí všechny zařízení kromě tohoto.</string>
   <string name="RemoveFromListText">Stiskněte a držte uživatele pro odstranění.</string>
   <string name="GroupsAndChannels">Skupiny</string>
+  <string name="AlwaysAllow">Vždy Povolit</string>
+  <string name="NeverAllow">Nikdy Nepovolit</string>
+  <string name="AlwaysAllowPlaceholder">Vždy povolit...</string>
+  <string name="NeverAllowPlaceholder">Nikdy nepovolit...</string>
   <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
   <!--edit video view-->
   <string name="EditVideo">Upravit video</string>
@@ -1208,13 +1272,23 @@ Smazat a zastavit</string>
   <string name="VoipUseLessData">Používejte méně dat pro hovory</string>
   <string name="VoipIncoming">Příchozí hovor</string>
   <string name="VoipConnecting">Připojení</string>
+  <string name="VoipExchangingKeys">Výměna šifrovacích klíčů</string>
   <string name="VoipWaiting">Čekání</string>
+  <string name="VoipRequesting">Žádost</string>
+  <string name="VoipHangingUp">Zavěšení</string>
   <string name="VoipCallEnded">Hovor byl ukončen</string>
+  <string name="VoipFailed">Nepodařilo se připojit</string>
+  <string name="VoipRinging">Vyzvánění</string>
+  <string name="VoipBusy">Linka obsazena</string>
+  <string name="VoipInCallBranding">Volání Telegram</string>
+  <string name="VoipOutgoingCall">Odchozí volání Telegram</string>
   <string name="VoipEndCall">Ukončit hovor</string>
+  <string name="VoipOngoingAlertTitle">Další probíhající hovor</string>
   <string name="VoipNotificationSettings">Hlasové hovory</string>
   <string name="VoipSettingsRingtone">Vyzváněcí tón</string>
   <string name="Calls">Volání</string>
   <string name="UseLessDataNever">Nikdy</string>
+  <string name="UseLessDataOnMobile">Pouze na mobilních datech</string>
   <string name="UseLessDataAlways">Vždy</string>
   <string name="VoipAnswerCall">Odpovědět</string>
   <string name="VoipOfflineTitle">Offline</string>
@@ -1228,6 +1302,12 @@ Smazat a zastavit</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
   <!--plural-->
+  <string name="OnlineCount_zero">%1$d online </string>
+  <string name="OnlineCount_one">%1$d online </string>
+  <string name="OnlineCount_two">%1$d online </string>
+  <string name="OnlineCount_few">%1$d online </string>
+  <string name="OnlineCount_many">%1$d online </string>
+  <string name="OnlineCount_other">%1$d online </string>
   <string name="Members_zero">%1$d členů</string>
   <string name="Members_one">%1$d člen</string>
   <string name="Members_two">%1$d členové</string>
@@ -1397,6 +1477,8 @@ Smazat a zastavit</string>
   <string name="ForwardedVideo_few">%1$d přeposlané videa</string>
   <string name="ForwardedVideo_many">%1$d přeposlaných videí</string>
   <string name="ForwardedVideo_other">%1$d přeposlaných videí</string>
+  <string name="ForwardedAudio_one">Předána hlasová zpráva</string>
+  <string name="ForwardedRound_one">Předána video zpráva</string>
   <string name="ForwardedLocation_zero">%1$d přeposlaných poloh</string>
   <string name="ForwardedLocation_one">Přeposlaná poloha</string>
   <string name="ForwardedLocation_two">%1$d přeposlané polohy</string>
@@ -1424,6 +1506,10 @@ Smazat a zastavit</string>
   <!--date formatters-->
   <string name="formatterStats12H">MMM dd yyyy, h:mm a</string>
   <string name="formatterStats24H">MMM dd yyyy, HH:mm</string>
+  <string name="formatterBannedUntil12H">MMM dd yyyy, h:mm a</string>
+  <string name="formatterBannedUntil24H">MMM dd yyyy, HH:mm</string>
+  <string name="formatterBannedUntilThisYear12H">MMM dd, h:mm a</string>
+  <string name="formatterBannedUntilThisYear24H">MMM dd, HH:mm</string>
   <string name="formatterMonthYear">MMMM yyyy</string>
   <string name="formatterMonth">dd\'.\' MMM</string>
   <string name="formatterYear">dd.MM.yy</string>
