@@ -3,8 +3,10 @@
   <string name="AppName">Telegram</string>
   <string name="AppNameBeta">Telegram Beta</string>
   <string name="LanguageName">Türkçe</string>
+  <string name="English">Türkçe</string>
   <string name="LanguageNameInEnglish">Turkish</string>
   <string name="LanguageCode">tr</string>
+  <string name="ContinueOnThisLanguage">Türkçe ile devam et</string>
   <!--signin view-->
   <string name="YourPhone">Telefonunuz</string>
   <string name="StartText">Lütfen ülke kodunuzu onaylayıp numaranızı giriniz</string>
