@@ -3,8 +3,10 @@
   <string name="AppName">Тэлеграм</string>
   <string name="AppNameBeta">Бэта-версія Тэлеграма</string>
   <string name="LanguageName">Беларуская</string>
+  <string name="English">Беларуская</string>
   <string name="LanguageNameInEnglish">Belarusian</string>
   <string name="LanguageCode">be</string>
+  <string name="ContinueOnThisLanguage">Працягнуць па-беларуску</string>
   <!--signin view-->
   <string name="YourPhone">Ваш тэлефон</string>
   <string name="StartText">Калі ласка, пацвердзіце код вашай краіны і ўвядзіце ваш нумар тэлефона.</string>
@@ -88,6 +90,7 @@
   <string name="PaymentFailed">Выбачайце, але не атрымалася выканаць плацеж.</string>
   <string name="PaymentConnectionFailed">Немагчыма падлучыцца да сервера плацяжоў. Калі ласка, праверце вашае злучэнне з Інтэрнэтам і паспрабуйце яшчэ раз.</string>
   <string name="PaymentWarning">Увага</string>
+  <string name="PaymentWarningText">Звярніце ўвагу, што ні Тэлеграм, ні %1$s не будуць мець доступу да звестак аб вашае крэдытнай картцы. Яны будуць апрацоўвацца плацежнай сістэмай, %2$s.\n\nПлацяжы будуць накіраваныя напрамую да распрацоўніка %1$s. Тэлеграм не можа даць ніякіх гарантыяў датычна гэтай транзакцыі, таму, працягваючы, вы даеце згоду на тое, што не маеце да нас прэтэнзій. Калі ўзнікне складаная сітуацыя, калі ласка, звяртайцеся да распрацоўніка %1$s або вашага банка.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Новая размова</string>
   <string name="Settings">Налады</string>
@@ -99,6 +102,13 @@
   <string name="NoChatsHelp">Націсніце кнопку стварэння новай размовы ў ніжнім правым кутку або кнопку меню для дадатковых опцый.</string>
   <string name="WaitingForNetwork">Чаканне сеткі...</string>
   <string name="Connecting">Злучэнне...</string>
+  <string name="ConnectingToProxy">Злучэнне з проксі-серверам...</string>
+  <string name="ConnectingToProxyTapToDisable">Даткніцеся тут, каб адключыць проксі...</string>
+  <string name="ConnectingToProxyDisable">Адключыць</string>
+  <string name="ConnectingToProxyEnable">Уключыць</string>
+  <string name="EnableProxyAlert">Вы сапраўды хочаце ўключыць гэты проксі?</string>
+  <string name="EnableProxyAlert2">Вы можаце змяніць налады проксі-сервера ў Наладах (Звесткі і сховішча).</string>
+  <string name="ConnectingToProxyDisableAlert">Вы сапраўды хочаце адключыць проксі-сервер %1$s? Вы можаце ўключыць яго нанава ў наладах (Звесткі і сховішча).</string>
   <string name="Updating">Абнаўленне...</string>
   <string name="NewSecretChat">Новая сакрэтная размова...</string>
   <string name="AwaitingEncryption">Чакаем, калі %s з’явіцца ў сетцы...</string>
@@ -140,10 +150,14 @@
   <string name="Bold">Буйны</string>
   <string name="Italic">Курсіўны</string>
   <string name="Regular">Звычайны</string>
+  <string name="ContactsPermissionAlert">Каб мець магчымасць кантактаваць з усімі, каго вы ведаеце, дайце <![CDATA[1]]>Тэлеграму<![CDATA[1]]> доступ да вашых кантактаў.</string>
+  <string name="ContactsPermissionAlertNotNow">НЕ ЦЯПЕР</string>
+  <string name="ContactsPermissionAlertContinue">ПРАЦЯГНУЦЬ</string>
   <!--channels-->
   <string name="ChannelTypePublic">Публічны</string>
   <string name="ChannelTypePrivate">Прыватны</string>
   <string name="SetAsAdmin">Прызначыць кіраўніком</string>
+  <string name="NoBlockedUsers">Няма заблакаваных карыстальнікаў</string>
   <string name="DescriptionInfoMega">Вы можаце пакінуць дадатковае апісанне сваёй суполкі.</string>
   <string name="LeaveMega">Выйсці з суполкі</string>
   <string name="DeleteMega">Выдаліць суполку</string>
@@ -175,6 +189,8 @@
   <string name="ActionPinnedMusic">un1 замацаваў(-ла) песню</string>
   <string name="ActionMigrateFromGroup">Гэтая суполка была ператворана ў суперсуполку</string>
   <string name="ActionMigrateFromGroupNotify">%1$s была ператворана ў суперсуполку</string>
+  <string name="NoBlockedGroup">Заблакаваныя карыстальнікі выдаляюцца з суполкі і могуць вярнуцца толькі ў тым выпадку, калі іх запрашае кіраўнік. Спасылкі-запрашэнні для іх не працуюць.</string>
+  <string name="NoBlockedChannel">Заблакаваныя карыстальнікі выдаляюцца з каналу і могуць вярнуцца толькі ў тым выпадку, калі іх запрашае кіраўнік. Спасылкі-запрашэнні для іх не працуюць.</string>
   <string name="NewChannel">Новы канал</string>
   <string name="EnterChannelName">Назва канала</string>
   <string name="AddMutual">Дадаць кантакты ў канал</string>
@@ -216,6 +232,8 @@
   <string name="LinkChecking">Праверка назвы... </string>
   <string name="LinkAvailable">Назва «%1$s» даступная. </string>
   <string name="ChannelMembers">Удзельнікі </string>
+  <string name="ChannelBlacklist">Чорны спіс</string>
+  <string name="ChannelBlockedUsers">Заблакаваныя карыстальнікі</string>
   <string name="ChannelAdministrators">Кіраўнікі</string>
   <string name="ChannelDelete">Выдаліць канал</string>
   <string name="ChannelDeleteMenu">Выдаліць канал</string>
@@ -235,8 +253,13 @@
   <string name="ChannelEditor">Кіраўнік</string>
   <string name="ChannelMute">ВЫКЛЮЧЫЦЬ АПАВЯШЧЭННІ</string>
   <string name="ChannelUnmute">УКЛЮЧЫЦЬ АПАВЯШЧЭННІ</string>
+  <string name="ChannelAddAdmin">Дадаць кіраўніка</string>
+  <string name="ChannelBlockUser">Заблакаваць карыстальніка</string>
+  <string name="Unban">Разблакаваць</string>
+  <string name="UnbanText">Даткніцеся і ўтрымлівайце, каб разблакаваць</string>
   <string name="ChannelInviteViaLink">Запрасіць праз спасылку</string>
   <string name="ChannelAddUserAdminAlert">Вы сапраўды жадаеце прызначыць %1$s кіраўніком?</string>
+  <string name="ChannelRemoveUserAdmin">Разжалаваць кіраўніка</string>
   <string name="ChannelMembersInfo">Толькі кіраўнікі канала могуць бачыць гэты спіс.</string>
   <string name="ChannelAdminNotParticipant">Гэты карыстальнік яшчэ не далучыўся да канала. Жадаеце запрасіць яго?</string>
   <string name="ChannelLinkInfo">Кожны карыстальнік Тэлеграма зможа далучыцца да вашага канала, перайшоўшы па гэтай спасылцы. </string>
@@ -289,7 +312,41 @@
   <string name="ChannelNotifyMembersInfoOff">Удзельнікі не будуць апавешчаныя аб новых паведамленнях</string>
   <string name="ChannelSignMessages">Падпісваць паведамленні</string>
   <string name="ChannelSignMessagesInfo">Пазначаць імя кіраўніка пад дасланымі ім паведамленнямі.</string>
+  <string name="EditAdmin">Наладзіць паўнамоцтвы</string>
+  <string name="EditAdminWhatCanDo">Што можа рабіць гэты кіраўнік?</string>
+  <string name="EditAdminChangeChannelInfo">Змяніць звесткі аб канале</string>
+  <string name="EditAdminChangeGroupInfo">Змяніць звесткі аб суполцы</string>
+  <string name="EditAdminPostMessages">Размяшчаць паведамленні</string>
+  <string name="EditAdminEditMessages">Рэдагаваць паведамленні і інш.</string>
+  <string name="EditAdminDeleteMessages">Выдаляць паведамленні і інш.</string>
+  <string name="EditAdminGroupDeleteMessages">Выдаляць паведамленні</string>
+  <string name="EditAdminAddAdmins">Дадаваць новых кіраўнікоў</string>
+  <string name="EditAdminRemoveAdmin">Разжалаваць кіраўнікоў</string>
+  <string name="EditAdminBanUsers">Блакаваць карыстальнікаў</string>
+  <string name="EditAdminAddUsers">Дадаваць карыстальнікаў</string>
+  <string name="EditAdminPinMessages">Замацоўваць паведамленні</string>
+  <string name="EditAdminPromotedBy">дадаў(-ла) %1$s</string>
+  <string name="EditAdminCantEdit">Вы не можаце змяняць паўнамоцтвы гэтага кіраўніка.</string>
+  <string name="UserRestrictionsBy">%1$s забараніў(-ла)</string>
+  <string name="UserRestrictions">Забароны карыстальніка</string>
+  <string name="UserRestrictionsRead">Чытаць паведамленні</string>
+  <string name="UserRestrictionsCanDo">Што можа рабіць гэты карыстальнік?</string>
+  <string name="UserRestrictionsSend">Дасылаць паведамленні</string>
+  <string name="UserRestrictionsSendMedia">Дасылаць файлы</string>
+  <string name="UserRestrictionsSendStickers">Дасылаць налепкі і анімацыі</string>
+  <string name="UserRestrictionsUntil">Срок блакавання</string>
+  <string name="UserRestrictionsUntilForever">Назаўсёды</string>
+  <string name="UserRestrictionsUntilRemove">Выдаліць</string>
+  <string name="UserRestrictionsBlock">Заблакаваць і выдаліць з суполкі</string>
+  <string name="ManageGroup">Налады суполкі</string>
+  <string name="ManageChannel">Налады канала</string>
+  <string name="ManageGroupMenu">Налады суполкі</string>
+  <string name="ManageChannelMenu">Налады канала</string>
   <!--event log-->
+  <string name="EventLog">Нядаўнія дзеянні</string>
+  <string name="EventLogAllEvents">Усе дзеянні</string>
+  <string name="EventLogSelectedEvents">Абраныя дзеянні</string>
+  <string name="EventLogAllAdmins">Усе кіраўнікі</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Новы спіс рассылкі</string>
   <string name="EnterListName">Увядзіце імя спіса</string>
