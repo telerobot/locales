@@ -91,6 +91,7 @@
   <string name="PaymentFailed">Гафу итегез, түләвегез кире кагылды.</string>
   <string name="PaymentConnectionFailed">Түләү серверы белән тоташып булмады. Зинһар, интернет белән тоташуны тикшерегез һәм кабат эшләп карагыз.</string>
   <string name="PaymentWarning">Игътибар</string>
+  <string name="PaymentWarningText">Telegram да, %1$s да түләү мәгълүматегезне карый алмыйлар. Карта мәгълүмате түләү системасы белән генә эшкәртелә, %2$s.\n\nКүчерү турыга %1$s ясаучысына җибәрелә. Telegram бернинди дә гарантия бирә алмый. Авырлыклар булса, %1$s ясаучысына яисә банкка мөрәҗәгать итегез.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Яңа әңгәмә</string>
   <string name="Settings">Көйләүләр</string>
@@ -567,7 +568,14 @@
   <string name="DiscardVideoMessageTitle"> Видеохатны кире кагу</string>
   <string name="DiscardVideoMessageDescription">Яздыруны туктатырга һәм видеохатыгызны бетерергә телисезме?</string>
   <string name="DiscardVoiceMessageAction">Бетерү</string>
+  <string name="AttachMediaRestricted">Бу төркем администраторлары сезгә монда бу вакытка тиклем %1$s медиафайллар җибәрүне тыйдылар.</string>
+  <string name="AttachInlineRestricted">Бу төркем администраторлары сезгә монда бу вакытка тиклем %1$s инлайн-контент җибәрүне тыйдылар.</string>
+  <string name="AttachStickersRestricted">Бу төркем администраторлары сезгә монда бу вакытка тиклем %1$s стикерлар җибәрүне тыйдылар</string>
+  <string name="SendMessageRestricted">Бу төркем администраторлары сезгә монда бу вакытка тиклем %1$s язуны тыйдылар</string>
   <string name="AttachMediaRestrictedForever">Администраторлар чикләве буенча сез бу төркемгә файллар җибәрә алмыйсыз</string>
+  <string name="AttachInlineRestrictedForever">Бу төркем администраторлары сезгә монда инлайн-контент җибәрүне тыйдылар</string>
+  <string name="AttachStickersRestrictedForever">Бу төркем администраторлары сезгә монда стикерлар җибәрүне тыйдылар</string>
+  <string name="SendMessageRestrictedForever">Бу төркем администраторлары сезгә монда язуны тыйдылар</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s үз-үзен бетерү вакытын куйды: %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Үз-үзен бетерү вакыты: %1$s</string>
@@ -706,6 +714,7 @@
   <string name="SetAdmins">Администраторлар итеп билгеләү</string>
   <string name="DeleteAndExit">Төркемне бетерү һәм чыгу</string>
   <string name="Notifications">Белгертүләр</string>
+  <string name="KickFromSupergroup">Хокукларны чикләү</string>
   <string name="KickFromGroup">Төркемнән чыгу</string>
   <string name="UpgradeGroup">Супертөркемгә әйләндерелде</string>
   <string name="ConvertGroup">Супертөркемгә үзгәртелде</string>
@@ -861,6 +870,7 @@
   <string name="ContactJoined">Контакт Telegramга кушылды</string>
   <string name="PinnedMessages">Беркетелгән хатлар</string>
   <string name="Language">Тел</string>
+  <string name="LanguageCustom">Рәсми түгел</string>
   <string name="AskButton">Волонтердан сорау</string>
   <string name="TelegramFaq">Telegram FAQ</string>
   <string name="TelegramFaqUrl">https://tlgrm.ru/faq</string>
@@ -1453,6 +1463,7 @@
   <string name="CallMessageReportProblem">Шалтыратуны бәяләү</string>
   <string name="CallReportHint">Нәрсә дөрес булмады?</string>
   <string name="CallReportIncludeLogs">Техник мәгълүматне җибәрү</string>
+  <string name="CallReportLogsExplain">Монда бернинди дә шәхси мәгълүмат ачылмый, әмма бу безгә шалтыратуларны яхшыртырга ярдәм итә.</string>
   <string name="CallReportSent">Шалтыратуларны яхшыртырга ярдәм иткәнегез өчен рәхмәт.</string>
   <!--plural-->
   <string name="OnlineCount_zero">%1$d челтәрдә</string>
