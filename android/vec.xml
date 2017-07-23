@@ -1209,15 +1209,15 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="RemoveFromListText">Sełesiona un utente tenjéndoło strucà par ełimenarlo.</string>
   <string name="GroupsAndChannels">Grupi</string>
   <string name="WhoCanAddMe">Chi pòseło zontarme inte i grupi?</string>
-  <string name="WhoCanAddMeInfo">A te połi desìdar chi che\'l połe zontarte inte i grupi o inte i canałi co presizion.</string>
+  <string name="WhoCanAddMeInfo">A te połi desìdar co presizion chi che\'l połe zontarte inte i grupi o inte i canałi.</string>
   <string name="AlwaysAllow">Parmeti senpre</string>
   <string name="NeverAllow">Mai parmétar</string>
   <string name="AlwaysAllowPlaceholder">Parmeti senpre...</string>
   <string name="NeverAllowPlaceholder">Mai parmétar...</string>
   <string name="CustomShareInfo">\'Sti utenti i sarà boni o manco de zontarte inte i grupi o inte i canałi indipendentemente da łe inpostasion desora.</string>
   <string name="GroupsAndChannelsHelp">Canbia chi che połe zontarte inte i grupi o inte i canałi.</string>
-  <string name="InviteToGroupError">Ne despiaze, A no te połi mìa zontar \'sto utente inte i grupi par colpa de łe so inpostasion de privacy.</string>
-  <string name="InviteToChannelError">Ne despiaze, A no te połi mìa zontar \'sto utente inte i canałi par colpa de łe so inpostasion de privacy.</string>
+  <string name="InviteToGroupError">Ne despiaze, A no te połi mìa zontar \'sto utente inte i grupi par colpa de łe só inpostasion de privacy.</string>
+  <string name="InviteToChannelError">Ne despiaze, A no te połi mìa zontar \'sto utente inte i canałi par colpa de łe só inpostasion de privacy.</string>
   <string name="CreateGroupError">Ne despiaze, A no te połi mìa crear un grupo co \'sti utenti par colpa de łe so inpostasion de privacy.</string>
   <string name="PrivacyCallsP2PTitle">Pata-a-Pata</string>
   <string name="PrivacyCallsP2PHelp">Dezativando el pata-a-pata tute łe ciamade łe pasarà par i server de Telegram par tenjer sconto el to indariso IP, ma \'sta oparasion ła podarìa zbasàrghine un peło ła cuałidà de l\'àudio.</string>
@@ -1259,7 +1259,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="FromGalley">Da ła gałerìa</string>
   <string name="DeletePhoto">Ełìmena foto</string>
   <string name="Set">Inposta</string>
-  <string name="OK">ORO</string>
+  <string name="OK">SÌ</string>
   <string name="Crop">TAJA FORA</string>
   <string name="Yes">Sì</string>
   <string name="No">Nò</string>

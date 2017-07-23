@@ -123,6 +123,8 @@
   <string name="HiddenName">Удалённый аккаунт</string>
   <string name="SelectChat">Выберите чат</string>
   <string name="PhotoTip">Нажмите и удерживайте для просмотра</string>
+  <string name="DisappearingPhoto">Секретное фото</string>
+  <string name="DisappearingVideo">Секретное видео</string>
   <string name="CompatibilityChat">%1$s использует устаревшую версию Telegram, поэтому секретные фотографии будут отображаться в режиме совместимости.\n\nПосле того, как %2$s обновит Telegram, фотографии с минутным или менее таймером самоуничтожения начнут работать в режиме «Нажмите и удерживайте для просмотра». Кроме того, вы получите уведомление, если ваш собеседник сделает снимок экрана.</string>
   <string name="SearchMessages">СООБЩЕНИЯ</string>
   <string name="Search">Поиск</string>
@@ -459,10 +461,10 @@
   <string name="RecordingAudio">записывает голосовое сообщение...</string>
   <string name="RecordingRound">записывает видеосообщение...</string>
   <string name="SendingAudio">отправляет аудио...</string>
-  <string name="SendingPhoto">отправка фото...</string>
+  <string name="SendingPhoto">отправляет фото...</string>
   <string name="SendingGame">сейчас играет...</string>
-  <string name="SendingVideoStatus">отправка видео...</string>
-  <string name="SendingFile">отправка файла...</string>
+  <string name="SendingVideoStatus">отправляет видео...</string>
+  <string name="SendingFile">отправляет файл...</string>
   <string name="GotAQuestion">Есть вопрос по\nработе Telegram?</string>
   <string name="ChatTakePhoto">Сделать снимок</string>
   <string name="ChatGallery">Галерея</string>
@@ -583,6 +585,8 @@
   <string name="NotificationMessageNoText">%1$s отправил(а) вам сообщение</string>
   <string name="NotificationMessagePhoto">%1$s отправил(а) вам фото</string>
   <string name="NotificationMessageVideo">%1$s отправил(а) вам видео</string>
+  <string name="NotificationMessageSDPhoto">%1$s отправил(а) вам самоуничтожающееся фото</string>
+  <string name="NotificationMessageSDVideo">%1$s отправил(а) вам самоуничтожающееся видео</string>
   <string name="NotificationMessageContact">%1$s поделился(-лась) с вами контактом</string>
   <string name="NotificationMessageMap">%1$s отправил(а) вам своё местоположение</string>
   <string name="NotificationMessageGame">%1$s пригласил(а) вас в игру %2$s</string>
@@ -728,6 +732,9 @@
   <string name="PhoneWork">Рабочий</string>
   <string name="PhoneOther">Другое</string>
   <string name="PhoneMain">Основной</string>
+  <string name="UserBio">О себе</string>
+  <string name="UserBioEmpty">Не заполнено</string>
+  <string name="UserBioInfo">Вы можете написать пару строк о себе. Любой, кто откроет ваш профиль, сможет его прочитать.</string>
   <string name="StartEncryptedChat">Начать секретный чат</string>
   <string name="GroupsInCommon">Общие группы</string>
   <string name="GroupsInCommonTitle">Общие группы</string>
@@ -749,6 +756,7 @@
   <string name="UsernameInvalidShort">Имя пользователя должно содержать минимум 5 символов.</string>
   <string name="UsernameInvalidLong">Имя пользователя не должно содержать более 32 символов.</string>
   <string name="UsernameInvalidStartNumber">К сожалению, имя пользователя не может начинаться с цифры.</string>
+  <string name="UsernameHelp">Вы можете задать себе уникальное <![CDATA[<b>]]>имя пользователя<![CDATA[</b>]]> – тогда другие люди смогут находить вас по нему и связываться с вами, <![CDATA[<b>]]>не зная<![CDATA[</b>]]> номера вашего телефона.\n\nРазрешены <![CDATA[<b>]]>цифры<![CDATA[</b>]]>, <![CDATA[<b>]]>символы a-z<![CDATA[</b>]]> и подчёркивания. Минимальная длина: <![CDATA[<b>]]>5<![CDATA[</b>]]> символов.</string>
   <string name="UsernameHelpLink">Эта ссылка откроет чат с вами в Telegram:\n%1$s</string>
   <string name="UsernameChecking">Проверка имени пользователя…</string>
   <string name="UsernameAvailable">Имя пользователя %1$s доступно.</string>
@@ -788,6 +796,8 @@
   <string name="ArchivedMasksAlertInfo">Некоторые из ваших старых наборов были заархивированы, чтобы освободить место для новых. Вы можете восстановить их в настройках масок.</string>
   <!--theme view-->
   <string name="Theme">Тема</string>
+  <string name="ThemeDark">Тёмная</string>
+  <string name="ThemeBlue">Синяя</string>
   <string name="DeleteThemeAlert">Уверены, что хотите удалить эту тему?</string>
   <string name="IncorrectTheme">Некорректный файл темы</string>
   <string name="EnterThemeName">Введите название темы</string>
@@ -955,6 +965,8 @@
   <string name="UseProxyPort">Порт</string>
   <string name="UseProxyUsername">Логин</string>
   <string name="UseProxyInfo">Настройки SOCKS5-прокси.</string>
+  <string name="UseProxyForCalls">Использовать прокси для звонков</string>
+  <string name="UseProxyForCallsInfo">Использование прокси может ухудшить качество звонков.</string>
   <!--cache view-->
   <string name="LocalDatabase">Локальная база данных</string>
   <string name="LocalDatabaseClear">Очистить кэш сообщений?</string>
@@ -1293,6 +1305,8 @@
   <string name="UnsupportedMedia">Это сообщение не поддерживается в вашей версии Telegram. Обновите приложение для просмотра: https://telegram.org/update</string>
   <string name="AttachPhoto">Фото</string>
   <string name="AttachVideo">Видео</string>
+  <string name="AttachPhotoExpired">Срок фото истёк</string>
+  <string name="AttachVideoExpired">Срок видео истёк</string>
   <string name="AttachGif">GIF</string>
   <string name="AttachLocation">Местоположение</string>
   <string name="AttachContact">Контакт</string>
@@ -1372,6 +1386,9 @@
   <string name="UserRestricted">К сожалению, вам запрещено это действие.</string>
   <string name="YouBlockedUser">К сожалению, вы не можете добавить этого пользователя или бота, потому что вы его заблокировали. Сначала разблокируйте его.</string>
   <string name="JoinGroup">ПРИСОЕДИНИТЬСЯ К ГРУППЕ</string>
+  <string name="AddAdminErrorNotAMember">К сожалению, вы не можете добавить этого пользователя в качестве администратора, потому что он не является участником этой группы и вы не можете его пригласить.</string>
+  <string name="AddAdminErrorBlacklisted">К сожалению, вы не можете добавить этого пользователя в качестве администратора, потому что он в чёрном списке и вы не можете его разблокировать.</string>
+  <string name="AddBannedErrorAdmin">К сожалению, вы не можете заблокировать этого пользователя, потому что он является администратором этой группы.</string>
   <string name="ErrorSendRestrictedStickers">К сожалению, администраторы этой группы запретили вам отправлять стикеры.</string>
   <string name="ErrorSendRestrictedMedia">К сожалению, администраторы этой группы запретили вам отправлять файлы.</string>
   <!--permissions-->
@@ -1392,6 +1409,13 @@
   <string name="Page5Title">Мощный</string>
   <string name="Page6Title">Облачный</string>
   <string name="Page7Title">Приватный</string>
+  <string name="Page1Message">Самый <![CDATA[<b>быстрый</b>]]> мессенджер в мире.\nА также <![CDATA[<b>бесплатный</b>]]> и <![CDATA[<b>безопасный</b>]]>.</string>
+  <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> доставляет сообщения быстрее,\nчем любое другое приложение.</string>
+  <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> бесплатный навсегда.\nНикакой рекламы. Никаких подписок.</string>
+  <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> хранит ваши сообщения в безопасности\nот хакерских атак.</string>
+  <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> не имеет ограничений на размер\nваших медиа и чатов.</string>
+  <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> позволяет вам иметь доступ к вашим сообщениям\nсо множества устройств.</string>
+  <string name="Page7Message">Все сообщения в <![CDATA[<b>Telegram</b>]]> надёжно зашифрованы и могут самоуничтожаться.</string>
   <string name="StartMessaging">Начать общение</string>
   <!--VoIP-->
   <string name="AccountSettings">Настройки профиля</string>
@@ -1434,6 +1458,7 @@
   <string name="CallMessageOutgoingMissed">Отменённый вызов</string>
   <string name="CallMessageIncomingDeclined">Отклонённый вызов</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
+  <string name="CallEncryptionKeyDescription">Это изображение и текст — визуализация ключа шифрования этого звонка пользователю <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nЕсли они выглядят так же, как на устройстве пользователя <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, оконечное шифрование гарантировано.</string>
   <string name="NoCallLog">Вы пока никому не звонили.</string>
   <string name="VoipPeerIncompatible">К сожалению, приложение у <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> устарело и не может принимать звонки.</string>
   <string name="VoipPeerOutdated">К сожалению, приложение у <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> не поддерживает звонки. Этому пользователю нужно обновить приложение, чтобы вы смогли ему позвонить.</string>
@@ -1494,7 +1519,7 @@
   <string name="items_few">%1$d элементов</string>
   <string name="items_many">%1$d элементов</string>
   <string name="items_other">%1$d элементов</string>
-  <string name="FromChats_zero">нет чатов</string>
+  <string name="FromChats_zero">из 0 чатов</string>
   <string name="FromChats_one">из %1$d чата</string>
   <string name="FromChats_two">из %1$d чатов</string>
   <string name="FromChats_few">из %1$d чатов</string>
