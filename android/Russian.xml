@@ -325,6 +325,7 @@
   <string name="EditAdminRemoveAdmin">Удалить из администраторов</string>
   <string name="EditAdminBanUsers">Банить пользователей</string>
   <string name="EditAdminAddUsers">Добавлять пользователей</string>
+  <string name="EditAdminAddUsersViaLink">Добавлять пользователей по ссылке</string>
   <string name="EditAdminPinMessages">Прикреплять сообщения</string>
   <string name="EditAdminPromotedBy">Назначил(а): %1$s</string>
   <string name="EditAdminCantEdit">Вы не можете изменять права этого администратора.</string>
@@ -734,7 +735,7 @@
   <string name="PhoneMain">Основной</string>
   <string name="UserBio">О себе</string>
   <string name="UserBioEmpty">Не заполнено</string>
-  <string name="UserBioInfo">Вы можете написать пару строк о себе. Любой, кто откроет ваш профиль, сможет его прочитать.</string>
+  <string name="UserBioInfo">Вы можете написать пару строк о себе. Любой, кто откроет ваш профиль, увидит этот текст.</string>
   <string name="StartEncryptedChat">Начать секретный чат</string>
   <string name="GroupsInCommon">Общие группы</string>
   <string name="GroupsInCommonTitle">Общие группы</string>
@@ -742,7 +743,10 @@
   <string name="CreateEncryptedChatError">Произошла ошибка.</string>
   <string name="EncryptionKey">Ключ шифрования</string>
   <string name="MessageLifetime">Таймер самоуничтожения</string>
+  <string name="MessageLifetimePhoto">Если вы установите таймер, фото самоуничтожится после того, как будет просмотрено.</string>
+  <string name="MessageLifetimeVideo">Если вы установите таймер, видео самоуничтожится после того, как будет просмотрено.</string>
   <string name="ShortMessageLifetimeForever">Отключён</string>
+  <string name="EncryptionKeyDescription">Это изображение и текст — визуализация ключа шифрования этого чата с пользователем <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nЕсли они выглядят так же, как на устройстве пользователя <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, оконечное шифрование гарантировано.\n\nУзнать больше на telegram.org</string>
   <string name="EncryptionKeyLink">https://tlgrm.ru/faq#secret-chats</string>
   <string name="TapToEmojify">Отобразить в виде смайлов</string>
   <string name="NumberUnknown">Неизвестен</string>
@@ -871,9 +875,7 @@
   <string name="PinnedMessages">Прикреплённые сообщения</string>
   <string name="Language">Язык</string>
   <string name="LanguageCustom">Неофициальный</string>
-  <string name="AskAQuestionInfo">Обратите внимание, что техническая поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но это может занять некоторое время.
-
-Пожалуйста, сначала обратитесь к <![CDATA[<a href="https://tlgrm.ru/faq">часто задаваемым вопросам</a>]]>: там имеются наиболее важные советы по устранению проблем.</string>
+  <string name="AskAQuestionInfo">Обратите внимание, что техническая поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но это может занять некоторое время.\n\nПожалуйста, сначала обратитесь к <![CDATA[<a href="https://tlgrm.ru/faq">часто задаваемым вопросам</a>]]>: там имеются наиболее важные советы по устранению проблем.</string>
   <string name="AskButton">Спросить добровольца</string>
   <string name="TelegramFaq">Вопросы и ответы о Telegram</string>
   <string name="TelegramFaqUrl">https://tlgrm.ru/faq</string>
@@ -965,7 +967,7 @@
   <string name="UseProxyPort">Порт</string>
   <string name="UseProxyUsername">Логин</string>
   <string name="UseProxyInfo">Настройки SOCKS5-прокси.</string>
-  <string name="UseProxyForCalls">Использовать прокси для звонков</string>
+  <string name="UseProxyForCalls">Использовать для звонков</string>
   <string name="UseProxyForCallsInfo">Использование прокси может ухудшить качество звонков.</string>
   <!--cache view-->
   <string name="LocalDatabase">Локальная база данных</string>
@@ -1206,9 +1208,7 @@
   <string name="LastSeenHelp">Изменить список тех, кто может видеть время вашей последней активности.</string>
   <string name="LastSeenTitle">Кто видит время моей последней активности?</string>
   <string name="AddExceptions">Добавить исключения</string>
-  <string name="CustomHelp">Важно: вы не сможете увидеть время последней активности людей, с которыми вы не поделились своим временем последней активности.
-
-Вместо этого будет отображаться приблизительное время (недавно, в течение недели, в течение месяца).</string>
+  <string name="CustomHelp">Важно: вы не сможете увидеть время последней активности людей, с которыми вы не поделились своим временем последней активности.\n\nВместо этого будет отображаться приблизительное время (недавно, в течение недели, в течение месяца).</string>
   <string name="AlwaysShareWith">Всегда показывать для</string>
   <string name="NeverShareWith">Всегда скрывать от</string>
   <string name="CustomShareSettingsHelp">Эти настройки переопределят значения выше.</string>
@@ -1342,11 +1342,7 @@
   <string name="SendMessagesTo">Отправить сообщения %1$s?</string>
   <string name="SendGameTo">Отправить игру пользователю %1$s?</string>
   <string name="SendContactTo">Отправить контакт пользователю %1$s?</string>
-  <string name="AreYouSureLogout">Уверены, что хотите выйти?
-
-Обратите внимание на то, что вы можете с лёгкостью пользоваться Telegram на всех ваших устройствах одновременно.
-
-Помните, выход уничтожает все ваши секретные чаты.</string>
+  <string name="AreYouSureLogout">Уверены, что хотите выйти?\n\nОбратите внимание на то, что вы можете с лёгкостью пользоваться Telegram на всех ваших устройствах одновременно.\n\nПомните, выход уничтожает все ваши секретные чаты.</string>
   <string name="AreYouSureSessions">Уверены, что хотите завершить все другие сеансы?</string>
   <string name="AreYouSureDeleteAndExit">Уверены, что хотите удалить и покинуть эту группу?</string>
   <string name="AreYouSureDeleteThisChat">Уверены, что хотите удалить этот чат?</string>
