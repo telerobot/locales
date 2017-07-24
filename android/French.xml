@@ -123,6 +123,8 @@
   <string name="HiddenName">Compte supprimé</string>
   <string name="SelectChat">Sélectionnez une conversation</string>
   <string name="PhotoTip">Touchez et maintenez pour voir</string>
+  <string name="DisappearingPhoto">Photo éphémère</string>
+  <string name="DisappearingVideo">Vidéo éphémère</string>
   <string name="CompatibilityChat">%1$s utilise une version plus ancienne de Telegram, par conséquent les photos secrètes seront affichées en mode compatibilité.\n\Une fois que %2$s aura mis à jour son application, les photos avec compte-à-rebours de 1 minute ou moins seront visibles en mode \"toucher-pour-voir\" et vous serez averti si votre interlocuteur fait une capture d\'écran.</string>
   <string name="SearchMessages">MESSAGES</string>
   <string name="Search">Recherche</string>
@@ -323,6 +325,7 @@
   <string name="EditAdminRemoveAdmin">Retirer l\'administrateur</string>
   <string name="EditAdminBanUsers">Bannir des utilisateurs</string>
   <string name="EditAdminAddUsers">Ajouter des utilisateurs</string>
+  <string name="EditAdminAddUsersViaLink">Ajouter des utilisateurs via un lien d\'invitation</string>
   <string name="EditAdminPinMessages">Épingler des messages</string>
   <string name="EditAdminPromotedBy">Ajouté par %1$s</string>
   <string name="EditAdminCantEdit">Vous ne pouvez pas modifier les droits de cet administrateur.</string>
@@ -584,6 +587,8 @@
   <string name="NotificationMessageNoText">%1$s vous a envoyé un message</string>
   <string name="NotificationMessagePhoto">%1$s vous a envoyé une photo</string>
   <string name="NotificationMessageVideo">%1$s vous a envoyé une vidéo</string>
+  <string name="NotificationMessageSDPhoto">%1$s vous a envoyé une photo éphémère</string>
+  <string name="NotificationMessageSDVideo">%1$s vous a envoyé une vidéo éphémère</string>
   <string name="NotificationMessageContact">%1$s a partagé un contact avec vous</string>
   <string name="NotificationMessageMap">%1$s vous a envoyé une position</string>
   <string name="NotificationMessageGame">%1$s vous a invité à jouer à %2$s</string>
@@ -618,7 +623,7 @@
   <string name="NotificationGroupKickYou">%1$s vous a retiré du groupe %2$s</string>
   <string name="NotificationGroupLeftMember">%1$s a quitté le groupe %2$s</string>
   <string name="NotificationContactJoined">%1$s a rejoint Telegram !</string>
-  <string name="NotificationUnrecognizedDevice">%1$s,\nNous avons détecté une connexion à votre compte depuis un nouvel appareil le %2$s\n\nAppareil : %3$s\nPosition : %4$s\n\nSi ce n\'était pas vous, vous pouvez aller terminer cette session dans Paramètres - Vie privée et Sécurité - Sessions.\n\nSi vous pensez que quelqu\'un s\'est connecté à votre compte à votre insu, vous pouvez activer la vérification en deux étapes dans Paramètres - Vie privée et Sécurité.\n\nCordialement,\nL\'équipe Telegram</string>
+  <string name="NotificationUnrecognizedDevice">%1$s,\nNous avons détecté une connexion à votre compte depuis un nouvel appareil le %2$s\n\nAppareil : %3$s\nPosition : %4$s\n\nSi ce n\'était pas vous, vous pouvez aller terminer cette session dans Paramètres - Confidentialité et Sécurité - Sessions.\n\nSi vous pensez que quelqu\'un s\'est connecté à votre compte à votre insu, vous pouvez activer la vérification en deux étapes dans Paramètres - Confidentialité et Sécurité.\n\nCordialement,\nL\'équipe Telegram</string>
   <string name="NotificationContactNewPhoto">%1$s a actualisé sa photo de profil</string>
   <string name="NotificationInvitedToGroupByLink">%1$s a rejoint le groupe %2$s avec un lien d\'invitation</string>
   <string name="Reply">Répondre</string>
@@ -729,6 +734,9 @@
   <string name="PhoneWork">Travail</string>
   <string name="PhoneOther">Autre</string>
   <string name="PhoneMain">Principal</string>
+  <string name="UserBio">Bio</string>
+  <string name="UserBioEmpty">Non défini</string>
+  <string name="UserBioInfo">Vous pouvez ajouter quelques lignes à propos de vous. Les utilisateurs qui consulteront votre profil verront ce texte.</string>
   <string name="StartEncryptedChat">Démarrer une conversation secrète</string>
   <string name="GroupsInCommon">Groupes en commun</string>
   <string name="GroupsInCommonTitle">Groupes en commun</string>
@@ -736,6 +744,8 @@
   <string name="CreateEncryptedChatError">Une erreur s\'est produite.</string>
   <string name="EncryptionKey">Clé de chiffrement</string>
   <string name="MessageLifetime">Délai d\'auto-destruction</string>
+  <string name="MessageLifetimePhoto">Si vous ajoutez un minuteur, la photo s\'auto-détruira après avoir été visionnée.</string>
+  <string name="MessageLifetimeVideo">Si vous ajoutez un minuteur, la vidéo s\'auto-détruira après avoir été visionnée.</string>
   <string name="ShortMessageLifetimeForever">Désactivé</string>
   <string name="EncryptionKeyDescription">Cette image et ce texte sont dérivés de la clé de chiffrement pour cette conversation secrète avec <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nS\'ils sont identiques sur l\'appareil de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, alors le chiffrement de bout en bout est garanti.\n\nEn savoir plus sur telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
@@ -791,6 +801,8 @@
   <string name="ArchivedMasksAlertInfo">Certains de vos anciens masques ont été archivés. Vous pouvez les réactiver dans la rubrique de paramètres Masques.</string>
   <!--theme view-->
   <string name="Theme">Thème</string>
+  <string name="ThemeDark">Sombre</string>
+  <string name="ThemeBlue">Bleu</string>
   <string name="DeleteThemeAlert">Êtes-vous certain de vouloir supprimer ce thème ?</string>
   <string name="IncorrectTheme">Fichier thème incorrect </string>
   <string name="EnterThemeName">Saisir le nom du thème</string>
@@ -956,6 +968,8 @@
   <string name="UseProxyPort">Port</string>
   <string name="UseProxyUsername">Pseudonyme</string>
   <string name="UseProxyInfo">Paramètres de proxy SOCKS5</string>
+  <string name="UseProxyForCalls">Utiliser le proxy pour les appels</string>
+  <string name="UseProxyForCallsInfo">Les serveurs proxy peuvent dégrader la qualité de vos appels.</string>
   <!--cache view-->
   <string name="LocalDatabase">Base de données locale</string>
   <string name="LocalDatabaseClear">Effacer les messages texte en cache ?</string>
@@ -1171,8 +1185,8 @@
   <string name="NetworkUsageSince">Utilisation du réseau depuis %1$s</string>
   <string name="ResetStatisticsAlert">Voulez-vous réinitialiser vos statistiques d\'utilisation?</string>
   <!--privacy settings-->
-  <string name="PrivacySettings">Vie privée et sécurité</string>
-  <string name="PrivacyTitle">Vie privée</string>
+  <string name="PrivacySettings">Confidentialité et Sécurité</string>
+  <string name="PrivacyTitle">Confidentialité</string>
   <string name="PrivacyLastSeen">Dernière visite</string>
   <string name="PrivacyPayments">Paiements</string>
   <string name="PrivacyPaymentsClear">Effacer les infos de paiement et d\'expédition</string>
@@ -1204,7 +1218,7 @@
   <string name="NeverShareWithTitle">Ne jamais partager</string>
   <string name="NeverShareWithPlaceholder">Ne jamais partager avec les utilisateurs...</string>
   <string name="EmpryUsersPlaceholder">Ajouter des utilisateurs</string>
-  <string name="PrivacyFloodControlError">Désolé, demandes trop nombreuses. Impossible de modifier vos paramètres de Vie Privée pour le moment, veuillez patienter.</string>
+  <string name="PrivacyFloodControlError">Désolé, requêtes trop nombreuses. Impossible de modifier vos paramètres de Vie Privée pour le moment, veuillez patienter.</string>
   <string name="ClearOtherSessionsHelp">Déconnecter tous les appareils sauf celui-ci.</string>
   <string name="RemoveFromListText">Toucher et maintenir sur un utilisateur pour le supprimer.</string>
   <string name="GroupsAndChannels">Groupes</string>
@@ -1216,9 +1230,9 @@
   <string name="NeverAllowPlaceholder">Ne jamais autoriser...</string>
   <string name="CustomShareInfo">Ces utilisateurs pourront ou ne pourront pas vous ajouter aux groupes et chaînes quel que soient les paramètres ci-dessus.</string>
   <string name="GroupsAndChannelsHelp">Changer qui peut vous ajouter aux groupes et chaînes.</string>
-  <string name="InviteToGroupError">Désolé, vous ne pouvez ajouter cet utilisateur aux groupes à cause de ses paramètres de confidentialité.</string>
-  <string name="InviteToChannelError">Désolé, vous ne pouvez ajouter cet utilisateur aux chaînes à cause de ses paramètres de confidentialité.</string>
-  <string name="CreateGroupError">Désolé, vous ne pouvez pas créer un groupe avec ces utilisateurs à cause de leurs paramètres de confidentialité.</string>
+  <string name="InviteToGroupError">Désolé, vous ne pouvez pas ajouter cet utilisateur à des groupes compte tenu de ses paramètres de confidentialité.</string>
+  <string name="InviteToChannelError">Désolé, vous ne pouvez pas ajouter cet utilisateur à des chaînes compte tenu de ses paramètres de confidentialité.</string>
+  <string name="CreateGroupError">Désolé, vous ne pouvez pas créer un groupe avec ces utilisateurs compte tenu de leurs paramètres de confidentialité.</string>
   <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
   <string name="PrivacyCallsP2PHelp">La désactivation des connexions peer-to-peer va rediriger tous les appels vers les serveurs Telegram afin d\'empêcher la visibilité de votre adresse IP, mais cela peut légèrement réduire la qualité audio.</string>
   <!--edit video view-->
@@ -1292,6 +1306,8 @@
   <string name="UnsupportedMedia">Ce message n\'est pas supporté dans votre version de Telegram. Veuillez mettre à jour l\'app pour le voir: https://telegram.org/update</string>
   <string name="AttachPhoto">Photo</string>
   <string name="AttachVideo">Vidéo</string>
+  <string name="AttachPhotoExpired">La photo a expiré</string>
+  <string name="AttachVideoExpired">La vidéo a expiré</string>
   <string name="AttachGif">GIF</string>
   <string name="AttachLocation">Position</string>
   <string name="AttachContact">Contact</string>

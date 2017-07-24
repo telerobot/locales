@@ -26,6 +26,7 @@
   <string name="CancelAccountReset">Відмінити скидання облікового запису</string>
   <string name="ResetAccount">Скинути обліковий запис</string>
   <string name="ResetAccountStatus">Ви зможете відновити свій обліковий запис об:</string>
+  <string name="ResetAccountCancelledAlert">Ваші недавні спроби скинути цей обліковий запис відмінено його активним користувачем. Будь ласка, спробуйте ще раз через 7 днів.</string>
   <string name="ResetAccountButton">СКИНУТИ</string>
   <string name="CancelLinkExpired">Посилання не є дійсним, або строк його дії скінчився</string>
   <string name="CancelLinkSuccess">Процес видалення був скасований для вашого облікового запису %1$s. Ви можете закрити це вікно прямо зараз.</string>
@@ -39,6 +40,7 @@
   <!--payments view-->
   <string name="PaymentSuccessfullyPaid">Ви тільки що успішно перевели %1$s до %2$s для %3$s</string>
   <string name="PaymentSuccessfullyPaidNoItem">Ви тільки що успішно перевели %1$s до %2$s</string>
+  <string name="PaymentCheckout">Перевірити</string>
   <string name="PaymentShippingMethod">Способи доставки</string>
   <string name="PaymentNoShippingMethod">Вибачте, неможливо здійснити доставку за Вашою адресою</string>
   <string name="PaymentShippingInfo">Інформація про доставку</string>
@@ -67,9 +69,11 @@
   <string name="PaymentCardSavePaymentInformationInfoLine1">Ви можете зберегти Вашу платіжну інформацію для подальшого використання.</string>
   <string name="PaymentCardSavePaymentInformationInfoLine2">Будь ласка, *увімкніть двофакторну перевірку*, щоб дозволити це.</string>
   <string name="PaymentTransactionReview">Огляд транзакцій</string>
+  <string name="PaymentTransactionMessage">Ви справді хочете передати %1$sдо %2$s бот для %3$s?</string>
   <string name="PaymentTransactionTotal">Усього</string>
   <string name="PaymentInvoice">РАХУНОК</string>
   <string name="PaymentTestInvoice">ТЕСТОВИЙ РАХУНОК</string>
+  <string name="PaymentCheckoutPay">Оплатити %1$s</string>
   <string name="PaymentCheckoutMethod">Спосіб оплати</string>
   <string name="PaymentCheckoutProvider">Платіжний провайдер</string>
   <string name="PaymentCheckoutName">Ім\'я</string>
@@ -78,9 +82,13 @@
   <string name="PaymentCheckoutShippingMethod">Спосіб доставки</string>
   <string name="PaymentReceipt">Квитанція</string>
   <string name="PaymentConfirmationNewCard">Оберіть іншу картку</string>
+  <string name="PaymentPrecheckoutFailed">На жаль, бот скасував оплату</string>
   <string name="PaymentFailed">Вибачте, платіж був відхилений.</string>
+  <string name="PaymentConnectionFailed">Не вдалося дістатись до сервера платежів. Будь ласка перевірте ваше підключення до інтернету та спробуйте знову</string>
   <string name="PaymentWarning">Увага</string>
+  <string name="PaymentWarningText">Ні Телеграм, ні %1$s матиме доступу до інформації про вашу кредитну картку. Дані кредитної карти оброблятимуться лише платіжною системою %2$s.\n\nПлатежі надійдуть безпосередньо до розробника %1$s. Телеграм не може надати жодних гарантій, тому продовжуйте на свій страх і ризик. У разі виникнення проблем, будь ласка, зв’яжіться з розробником %1$s або вашим банком.</string>
   <!--chats view-->
+  <string name="NewConversationShortcut">Нова розмова</string>
   <string name="Settings">Налаштування</string>
   <string name="Contacts">Контакти</string>
   <string name="NewGroup">Нова група</string>
@@ -92,6 +100,13 @@
  або кнопку меню для додаткових опцій.</string>
   <string name="WaitingForNetwork">Очікування мережі ...</string>
   <string name="Connecting">З\'єднання...</string>
+  <string name="ConnectingToProxy">Підключення до проксі...</string>
+  <string name="ConnectingToProxyTapToDisable">Торкніться тут, щоб вимкнути проксі...</string>
+  <string name="ConnectingToProxyDisable">Вимкнено</string>
+  <string name="ConnectingToProxyEnable">Увімкнено</string>
+  <string name="EnableProxyAlert">Ви впевнені, що хочете включити цей проксі?</string>
+  <string name="EnableProxyAlert2">Ви можете змінити свій проксі-сервер пізніше в Налаштування (Дані та Сховище).</string>
+  <string name="ConnectingToProxyDisableAlert">Ви впевнені, що хочете вимкнути проксі-сервер %1$s? Ви можете повторно увімкнути його пізніше  в Налаштування (Дані та Сховище).</string>
   <string name="Updating">Оновлення...</string>
   <string name="NewSecretChat">Новий секретний чат</string>
   <string name="AwaitingEncryption">Очікування користувача %s в мережі...</string>
@@ -106,6 +121,8 @@
   <string name="HiddenName">Видалений обліковий запис</string>
   <string name="SelectChat">Оберіть чат</string>
   <string name="PhotoTip">Натисніть і утримуйте для перегляду</string>
+  <string name="DisappearingPhoto">Зникне Фотографія, Фото, Знімок</string>
+  <string name="DisappearingVideo">Зникне Відео</string>
   <string name="CompatibilityChat">%1$s використовує стару версію Telegram, тому секретні фото будуть відображатися в режимі сумісності.\n\nЯк тільки %2$s оновить Telegram, фото з таймером на 1 хвилину чи менше почнуть відображатися в режимі «Для перегляду натиснути й утримувати». Ви будете повідомлені, коли інша сторона приймає знімок екрану.</string>
   <string name="SearchMessages">ПОВІДОМЛЕННЯ</string>
   <string name="Search">Пошук</string>
@@ -121,15 +138,22 @@
   <string name="LinkPreview">Попередній перегляд посилання</string>
   <string name="Draft">Чернетка</string>
   <string name="HistoryCleared">Історія була очищена</string>
+  <string name="PreviewFeedback">Залишити відгук про цей попередній перегляд</string>
+  <string name="SendStickerPreview">Надіслати Наліпку</string>
+  <string name="ViewPackPreview">Переглянути Пакунок</string>
   <string name="PinToTop">Закріпити</string>
   <string name="UnpinFromTop">Відкріпити</string>
   <string name="Bold">Жирний</string>
   <string name="Italic">Курсив</string>
   <string name="Regular">Звичайний</string>
+  <string name="ContactsPermissionAlert">Щоб забезпечити бездоганний зв\'язок із усіма, кого ви знаєте, дозвольте <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> доступ до своїх контактів.</string>
+  <string name="ContactsPermissionAlertNotNow">НЕ ЗАРАЗ</string>
+  <string name="ContactsPermissionAlertContinue">ПРОДОВЖИТИ</string>
   <!--channels-->
   <string name="ChannelTypePublic">Публічний</string>
   <string name="ChannelTypePrivate">Приватний</string>
   <string name="SetAsAdmin">Підняти до адміна</string>
+  <string name="NoBlockedUsers">Немає заборонених користувачів</string>
   <string name="DescriptionInfoMega">Ви можете вказати необов\'язковий опис для своєї групи.</string>
   <string name="LeaveMega">Покинути групу</string>
   <string name="DeleteMega">Видалити групу</string>
@@ -153,12 +177,16 @@
   <string name="ActionPinnedFile">un1 прикріпив/ла файл</string>
   <string name="ActionPinnedSticker">un1 прикріпив/ла наліпку</string>
   <string name="ActionPinnedVoice">un1 прикріпив/ла голосове повідомлення</string>
+  <string name="ActionPinnedRound">un1 прикріпив відео повідомлення</string>
   <string name="ActionPinnedContact">un1 прикріпив/ла контакт</string>
+  <string name="ActionPinnedGame">un1 прикріпив %1$s</string>
   <string name="ActionPinnedGeo">un1 прикріпив/ла карту</string>
   <string name="ActionPinnedGif">un1 прикріпив/ла GIF</string>
   <string name="ActionPinnedMusic">un1 прикріпив/ла композицію</string>
   <string name="ActionMigrateFromGroup">Ця група була оновлена до супергрупи</string>
   <string name="ActionMigrateFromGroupNotify">%1$s була оновлена до супергрупи</string>
+  <string name="NoBlockedGroup">Заборонені користувачі видаляються з групи, і вони можуть повернутися лише за запрошення адміністратора. Запрошення не працюють для них.</string>
+  <string name="NoBlockedChannel">Заборонені користувачі видаляються з каналу, і вони можуть повернутися лише за запрошенням адміністратора. Запрошення не працюють для них.</string>
   <string name="NewChannel">Новий канал</string>
   <string name="EnterChannelName">Назва каналу</string>
   <string name="AddMutual">Додати контакти до свого каналу</string>
@@ -200,6 +228,9 @@
   <string name="LinkChecking">Перевірка назви...</string>
   <string name="LinkAvailable">%1$s доступне.</string>
   <string name="ChannelMembers">Учасники</string>
+  <string name="ChannelBlacklist">Чорний список</string>
+  <string name="ChannelBlockedUsers">Заборонені користувачі</string>
+  <string name="ChannelRestrictedUsers">Обмежені користувачі</string>
   <string name="ChannelAdministrators">Адміністратори</string>
   <string name="ChannelDelete">Видалити канал</string>
   <string name="ChannelDeleteMenu">Видалити канал</string>
@@ -214,12 +245,18 @@
   <string name="ActionChannelChangedPhoto">Фото каналу змінено</string>
   <string name="ActionChannelRemovedPhoto">Фото каналу вилучено</string>
   <string name="ActionChannelChangedTitle">Назва каналу змінена на un2</string>
+  <string name="ChangePublicLimitReached">Вибачте, ви зарезервували забагато публічних імен користувачів. Ви можете відкликати посилання з однієї зі своїх старих груп або каналів або створити приватний об\'єкт.</string>
   <string name="ChannelCreator">Власник</string>
   <string name="ChannelEditor">Адміністратор</string>
   <string name="ChannelMute">ВИМКНУТИ</string>
   <string name="ChannelUnmute">УВІМКНУТИ</string>
+  <string name="ChannelAddAdmin">Додати адміністратора</string>
+  <string name="ChannelBlockUser">Заборонити користувача</string>
+  <string name="Unban">Зняти заборону</string>
+  <string name="UnbanText">Торкніться та утримуйте для зняття заборони користувачу</string>
   <string name="ChannelInviteViaLink">Запросити посиланням</string>
   <string name="ChannelAddUserAdminAlert">Ви дійсно хочете зробити %1$s адміністратором?</string>
+  <string name="ChannelRemoveUserAdmin">Звільнити адміністратора</string>
   <string name="ChannelMembersInfo">Лише адміністратори каналу можуть бачити цей список.</string>
   <string name="ChannelAdminNotParticipant">Цей користувач досі не приєднався до каналу. Хочете запросити?</string>
   <string name="ChannelLinkInfo">Будь-хто з встановленим Telegram зможе приєднатися до вашого каналу, перейшовши за цим посиланням.</string>
@@ -272,7 +309,42 @@
   <string name="ChannelNotifyMembersInfoOff">Учасники не будуть сповіщені про ваш допис</string>
   <string name="ChannelSignMessages">Підписати повідомлення</string>
   <string name="ChannelSignMessagesInfo">Додавати імена адміністраторів до їхніх повідомлень.</string>
+  <string name="EditAdmin">Редагувати Адміністратора</string>
+  <string name="EditAdminWhatCanDo">Що може зробити цей адміністратор?</string>
+  <string name="EditAdminChangeChannelInfo">Змінити Інформацію про Канал</string>
+  <string name="EditAdminChangeGroupInfo">Змінити інформацію про Групу</string>
+  <string name="EditAdminPostMessages">Опублікувати Повідомлення</string>
+  <string name="EditAdminEditMessages">Редагувати Повідомлення Інших</string>
+  <string name="EditAdminDeleteMessages">Видаляти Повідомлення Інших</string>
+  <string name="EditAdminGroupDeleteMessages">Видалити Повідомлення</string>
+  <string name="EditAdminAddAdmins">Додати Нових Адміністраторів</string>
+  <string name="EditAdminRemoveAdmin">Звільнити Адміністратора</string>
+  <string name="EditAdminBanUsers">Заборонити Користувачів</string>
+  <string name="EditAdminAddUsers">Додати Користувачів</string>
+  <string name="EditAdminAddUsersViaLink">Додати Користувачів за запрошенням</string>
+  <string name="EditAdminPinMessages">Закріпити Повідомлення</string>
+  <string name="EditAdminCantEdit">Ви не можете редагувати права цього адміністратора.</string>
+  <string name="UserRestrictionsBy">Обмежено %1$s</string>
+  <string name="UserRestrictions">Обмеження Користувачів</string>
+  <string name="UserRestrictionsRead">Читати Повідомлення</string>
+  <string name="UserRestrictionsCanDo">Що може зробити цей користувач?</string>
+  <string name="UserRestrictionsSend">Надіслати Повідомлення</string>
+  <string name="UserRestrictionsSendMedia">Надіслати медіа файли</string>
+  <string name="UserRestrictionsSendStickers">Надіслати Наліпки &amp; GIFs</string>
+  <string name="UserRestrictionsEmbedLinks">Вкласти посилання</string>
+  <string name="UserRestrictionsUntil">Заборонено до</string>
+  <string name="UserRestrictionsUntilForever">Назавжди</string>
+  <string name="UserRestrictionsUntilRemove">Видалити</string>
+  <string name="UserRestrictionsBlock">Заборонити і видалити з групи</string>
+  <string name="ManageGroup">Керувати Групою</string>
+  <string name="ManageChannel">Керувати Каналом</string>
+  <string name="ManageGroupMenu">Керувати групою</string>
+  <string name="ManageChannelMenu">Керувати групою</string>
   <!--event log-->
+  <string name="EventLog">Останні Дії</string>
+  <string name="EventLogAllEvents">Всі дії</string>
+  <string name="EventLogSelectedEvents">Вибрати дії</string>
+  <string name="EventLogAllAdmins">Всі адміністратори</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Новий список розсилки</string>
   <string name="EnterListName">Введіть назву списку</string>

@@ -123,7 +123,9 @@
   <string name="HiddenName">Account ełimenà</string>
   <string name="SelectChat">Sełesiona chat</string>
   <string name="PhotoTip">Sełesióneła tenjéndoła strucà par védar</string>
-  <string name="CompatibilityChat">%1$s L ze drio doparar na varsion de Telegram pì vecia, donca łe foto segrete łe venjarà mostràe co ła modałità de conpatibiłidà.\\n\\nNa \'olta che %2$s L ga ajornà Telegram, łe foto co\'l timer de 1 menuto o de manco łe tacarà a funsionar inte ła modałità \'Sełesióneła tenjéndoła strucà par védar\', e A te venjarè notifegà onji \'olta che A venjarà brincà un screenshot.</string>
+  <string name="DisappearingPhoto">Foto segreta</string>
+  <string name="DisappearingVideo">Video segreto</string>
+  <string name="CompatibilityChat">%1$s L ze drio doparar na varsion de Telegram pì vecia, donca łe foto segrete łe venjarà mostràe co ła modałità de conpatibiłidà.\\n\\nNa \'olta che %2$s L ga ajornà Telegram, łe foto co\'l contador de 1 menuto o de manco łe tacarà a funsionar inte ła modałità \'Sełesióneła tenjéndoła strucà par védar\', e A te venjarè notifegà onji \'olta che A venjarà brincà un screenshot.</string>
   <string name="SearchMessages">MESAJI</string>
   <string name="Search">Serca</string>
   <string name="MuteNotifications">Siłensia notìfeghe</string>
@@ -323,6 +325,7 @@
   <string name="EditAdminRemoveAdmin">Cava via aministradori</string>
   <string name="EditAdminBanUsers">Bloca utenti</string>
   <string name="EditAdminAddUsers">Zonta utenti</string>
+  <string name="EditAdminAddUsersViaLink">Zonta utenti co un link de invito</string>
   <string name="EditAdminPinMessages">Pica insima mesaji</string>
   <string name="EditAdminPromotedBy">Zontà da %1$s</string>
   <string name="EditAdminCantEdit">A no te połi mìa modifegar i deriti de \'sto aministrador.</string>
@@ -483,7 +486,7 @@
   <string name="EncryptedDescriptionTitle">Łe chat segrete:</string>
   <string name="EncryptedDescription1">Łe dòpara ła criptasion d\'in cao s\'in cao</string>
   <string name="EncryptedDescription2">No łe łasa njauna tracia inte i server nostri</string>
-  <string name="EncryptedDescription3">Łe ga el timer de autodestrusion</string>
+  <string name="EncryptedDescription3">Łe ga el contador de autodestrusion</string>
   <string name="EncryptedDescription4">Łe bloca ła volta de i mesaji</string>
   <string name="YouWereKicked">A te si stà cavà via da \'sto grupo</string>
   <string name="YouLeft">A te si ndà fora da \'sto grupo</string>
@@ -498,7 +501,7 @@
   <string name="ApplyLocalizationFile">Àplega tradusion</string>
   <string name="ApplyThemeFile">Àplega tema</string>
   <string name="UnsupportedAttachment">Łigo mìa suportà</string>
-  <string name="SetTimer">Inposta timer de autodestrusion</string>
+  <string name="SetTimer">Inposta contador de autodestrusion</string>
   <string name="ServiceNotifications">Notìfeghe de servisio</string>
   <string name="GettingLinkInfo">Otien info de\'l link...</string>
   <string name="OpenInBrowser">VERZI SO...</string>
@@ -574,15 +577,17 @@
   <string name="AttachStickersRestrictedForever">I aministradori de \'sto grupo i te ga meso na restrision so\'l mandar figurete</string>
   <string name="SendMessageRestrictedForever">I aministradori de \'sto grupo i te ga meso na restrision so\'l scrìvar</string>
   <!--notification-->
-  <string name="MessageLifetimeChanged">%1$s L ga inpostà el timer de autodestrusion a %2$s</string>
-  <string name="MessageLifetimeChangedOutgoing">A te ghe inpostà el timer de autodestrusion a %1$s</string>
-  <string name="MessageLifetimeRemoved">%1$s L ga dezativà el timer de autodestrusion</string>
-  <string name="MessageLifetimeYouRemoved">A te ghe dezativà el timer de autodestrusion</string>
+  <string name="MessageLifetimeChanged">%1$s L ga inpostà el contador de autodestrusion a %2$s</string>
+  <string name="MessageLifetimeChangedOutgoing">A te ghe inpostà el contador de autodestrusion a %1$s</string>
+  <string name="MessageLifetimeRemoved">%1$s L ga dezativà el contador de autodestrusion</string>
+  <string name="MessageLifetimeYouRemoved">A te ghe dezativà el contador de autodestrusion</string>
   <string name="YouHaveNewMessage">A te ghè un mesajo novo</string>
   <string name="NotificationMessageText">%1$s: %2$s</string>
   <string name="NotificationMessageNoText">%1$s L te ga mandà un mesajo</string>
   <string name="NotificationMessagePhoto">%1$s L te ga mandà na foto</string>
   <string name="NotificationMessageVideo">%1$s L te ga mandà un video</string>
+  <string name="NotificationMessageSDPhoto">%1$s L te ga mandà na foto che ła se autodestruzarà</string>
+  <string name="NotificationMessageSDVideo">%1$s L te ga mandà un video che\'l se autodestruzarà</string>
   <string name="NotificationMessageContact">%1$s L te ga mandà na pozision</string>
   <string name="NotificationMessageMap">%1$s L te ga mandà na pozision</string>
   <string name="NotificationMessageGame">%1$s L te ga invità a zogar a %2$s</string>
@@ -728,13 +733,18 @@
   <string name="PhoneWork">Łaoro</string>
   <string name="PhoneOther">Altro</string>
   <string name="PhoneMain">Tełèfono prensipałe</string>
+  <string name="UserBio">Biografìa</string>
+  <string name="UserBioEmpty">Njancora scrivesta</string>
+  <string name="UserBioInfo">A te połi zontar calche riga par descrìvarte. \'Sto testo el podarà èsar visto da tuti cuełi che A verzarà el to profiło.</string>
   <string name="StartEncryptedChat">Taca chat segreta</string>
   <string name="GroupsInCommon">Grupi in comun</string>
   <string name="GroupsInCommonTitle">Grupi in comun</string>
   <string name="NoGroupsInCommon">Njancora njaun grupo in comun</string>
   <string name="CreateEncryptedChatError">A se ga verifegà un eror.</string>
   <string name="EncryptionKey">Ciave de criptasion</string>
-  <string name="MessageLifetime">Timer de autodestrusion</string>
+  <string name="MessageLifetime">Contador de autodestrusion</string>
+  <string name="MessageLifetimePhoto">Se A te inposti un contador, ła foto ła se autodestruzarà dopo che ła ze sta vardada.</string>
+  <string name="MessageLifetimeVideo">Se A te inposti un contador, el video el se autodestruzarà dopo che el ze sta vardà.</string>
   <string name="ShortMessageLifetimeForever">Dezativà</string>
   <string name="EncryptionKeyDescription">\'Sta imàjine e \'sto testo i riva da ła ciave de criptasion de \'sta chat segreta co <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nSe i ze guałivi inte\'l dispozitivo de <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, ła criptasion d\'in cao s\'in cao ła ze garantìa.\n\nPar savèrghine de pì va so telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq/it#chat-segrete</string>
@@ -790,6 +800,8 @@
   <string name="ArchivedMasksAlertInfo">Un fià de serie de łe to màscare pì vecie łe ze stà archivàe. A te połi reativarle inte łe inpostasion de łe màscare.</string>
   <!--theme view-->
   <string name="Theme">Tema</string>
+  <string name="ThemeDark">Moro</string>
+  <string name="ThemeBlue">Blè</string>
   <string name="DeleteThemeAlert">Vutu davero ełimenar \'sto tema?</string>
   <string name="IncorrectTheme">File tema zbajà</string>
   <string name="EnterThemeName">Insarisi el nome de\'l tema</string>
@@ -956,6 +968,8 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="UseProxyPort">Porta</string>
   <string name="UseProxyUsername">Nome utente</string>
   <string name="UseProxyInfo">Inpostasion de\'l proxy SOCKS5</string>
+  <string name="UseProxyForCalls">Dòpara el proxy par łe ciamade</string>
+  <string name="UseProxyForCallsInfo">I server proxy i podarìa zbasar ła cuałidà de łe to ciamade.</string>
   <!--cache view-->
   <string name="LocalDatabase">Database łocałe</string>
   <string name="LocalDatabaseClear">Vutu netar i mesaji inte ła cache?</string>
@@ -1292,6 +1306,8 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="UnsupportedMedia">\'Sto mesajo no\'l ze mìa suportà so ła to varsion de Telegram. Ajorna l\'app par védarlo: https://telegram.org/update</string>
   <string name="AttachPhoto">Foto</string>
   <string name="AttachVideo">Video</string>
+  <string name="AttachPhotoExpired">Ła foto ła se ga autodestruzesto</string>
+  <string name="AttachVideoExpired">El video el se ga autodestruzesto</string>
   <string name="AttachGif">GIF</string>
   <string name="AttachLocation">Pozision</string>
   <string name="AttachContact">Contato</string>

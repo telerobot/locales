@@ -123,6 +123,8 @@
   <string name="HiddenName">Odstranit účet</string>
   <string name="SelectChat">Vyberte konverzaci</string>
   <string name="PhotoTip">Stiskněte a držte pro zobrazení</string>
+  <string name="DisappearingPhoto">Vyexpirovaný obrázek</string>
+  <string name="DisappearingVideo">Vyexpirované Video</string>
   <string name="CompatibilityChat">%1$s používá starší verzi Telegramu, takže soukromé fotky se zobrazi v režimu kompatibility.\n\nKdyž si %2$s aktualizuje Telegram, fotky s časovačem nastaveným na 1 minutu nebo méně, začnou fungovat v módu \"Stlačte a držte pro zobrazení\" a Vy budete informováni kdykoliv, když druhá strana udělá obrázek obrazovky.</string>
   <string name="SearchMessages">ZPRÁVY</string>
   <string name="Search">Vyhledávání</string>
@@ -323,6 +325,7 @@
   <string name="EditAdminRemoveAdmin">Odmítnout Administrátora</string>
   <string name="EditAdminBanUsers">Blokování uživatelé</string>
   <string name="EditAdminAddUsers">Přidat uživatelé</string>
+  <string name="EditAdminAddUsersViaLink">Přidat uživatele pomocí odkazu Pozvánka</string>
   <string name="EditAdminPinMessages">Připnout zprávy</string>
   <string name="EditAdminPromotedBy">Přidáno %1$s</string>
   <string name="EditAdminCantEdit">Nemůžete upravovat práva tohoto administrátora.</string>
@@ -583,6 +586,8 @@
   <string name="NotificationMessageNoText">%1$s Vám poslal/a zprávu</string>
   <string name="NotificationMessagePhoto">%1$s Vám poslal/a obrázek</string>
   <string name="NotificationMessageVideo">%1$s Vám poslal/a video</string>
+  <string name="NotificationMessageSDPhoto">%1$svám poslal/a sebezničující fotografii</string>
+  <string name="NotificationMessageSDVideo">%1$s vám poslal/a sebezničující video</string>
   <string name="NotificationMessageContact">%1$s s Vámi sdílí kontakt</string>
   <string name="NotificationMessageMap">%1$s Vám poslal/a polohu</string>
   <string name="NotificationMessageGame">%1$s Vám poslal/a pozvánku k hraní %2$s</string>
@@ -728,6 +733,9 @@
   <string name="PhoneWork">Práce</string>
   <string name="PhoneOther">Jiný</string>
   <string name="PhoneMain">Hlavní</string>
+  <string name="UserBio">Bio</string>
+  <string name="UserBioEmpty">Nenastaveno</string>
+  <string name="UserBioInfo">Můžete přidat několik řádků o sobě. Každému, kdo otevře váš profil, se zobrazí tento text.</string>
   <string name="StartEncryptedChat">Zahájit soukromou konverzaci</string>
   <string name="GroupsInCommon">Společné skupiny</string>
   <string name="GroupsInCommonTitle">Společné skupiny</string>
@@ -735,6 +743,8 @@
   <string name="CreateEncryptedChatError">Došlo k chybě.</string>
   <string name="EncryptionKey">Šifrovací klíč</string>
   <string name="MessageLifetime">Sebedestrukce</string>
+  <string name="MessageLifetimePhoto">Nastavíte-li časovač, fotografie se po jejím prohlížení sama zničí.</string>
+  <string name="MessageLifetimeVideo">Nastavíte-li časovač, video se po jeho přehrání sama zničí.</string>
   <string name="ShortMessageLifetimeForever">Vypnuto</string>
   <string name="EncryptionKeyDescription">Tento obrázek a text byly odvozeny z šifrovacího klíče pro tuto tajnou konverzaci s <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nPokud vypadají stejně na zařízení <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, end-to-end šifrování je garantováno.\n\nVíce informací na telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
@@ -790,6 +800,8 @@
   <string name="ArchivedMasksAlertInfo">Některé starší sady masek byly archivovány. Můžete je znovu aktivovat v nastavení.</string>
   <!--theme view-->
   <string name="Theme">Vzhled</string>
+  <string name="ThemeDark">Tmavý</string>
+  <string name="ThemeBlue">Modrý</string>
   <string name="DeleteThemeAlert">Opravdu chcete smazat tento motiv?</string>
   <string name="IncorrectTheme">Nesprávný soubor motivu</string>
   <string name="EnterThemeName">Zadejte název motivu</string>
@@ -955,6 +967,8 @@
   <string name="UseProxyPort">Port</string>
   <string name="UseProxyUsername">Uživatelské jméno</string>
   <string name="UseProxyInfo">Nastavení proxy SOCKS5</string>
+  <string name="UseProxyForCalls">Použijte proxy pro volání</string>
+  <string name="UseProxyForCallsInfo">Proxy servery mohou snížit kvalitu vašich hovorů.</string>
   <!--cache view-->
   <string name="LocalDatabase">Lokální Databaze</string>
   <string name="LocalDatabaseClear">Opravdu chcete smazat uložené zprávy?</string>
@@ -1292,6 +1306,8 @@ Smazat a zastavit</string>
   <string name="UnsupportedMedia">Tato zpráva není podporována ve vaší verzi Telegramu. Aktualizujte aplikaci na: https://telegram.org/update</string>
   <string name="AttachPhoto">Obrázek</string>
   <string name="AttachVideo">Video</string>
+  <string name="AttachPhotoExpired">Fotografie expirovala</string>
+  <string name="AttachVideoExpired">Video expirovalo</string>
   <string name="AttachGif">GIF</string>
   <string name="AttachLocation">Poloha</string>
   <string name="AttachContact">Kontakt</string>
