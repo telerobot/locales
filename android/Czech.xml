@@ -733,7 +733,7 @@
   <string name="PhoneWork">Práce</string>
   <string name="PhoneOther">Jiný</string>
   <string name="PhoneMain">Hlavní</string>
-  <string name="UserBio">Bio</string>
+  <string name="UserBio">O mně</string>
   <string name="UserBioEmpty">Nenastaveno</string>
   <string name="UserBioInfo">Můžete přidat několik řádků o sobě. Každému, kdo otevře váš profil, se zobrazí tento text.</string>
   <string name="StartEncryptedChat">Zahájit soukromou konverzaci</string>
