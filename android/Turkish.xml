@@ -38,8 +38,11 @@
   <string name="LastName">Soyadınız (isteğe bağlı)</string>
   <string name="CancelRegistration">Kaydı iptal et</string>
   <!--payments view-->
+  <string name="PaymentSuccessfullyPaid">%3$s için %2$s kişisine başarıyla %1$s gönderdiniz.</string>
+  <string name="PaymentSuccessfullyPaidNoItem">%2$s kişisine başarıyla %1$s gönderdiniz.</string>
   <string name="PaymentCheckout">Kasa</string>
   <string name="PaymentShippingMethod">Teslimat yöntemleri</string>
+  <string name="PaymentNoShippingMethod">Üzgünüz, adresinize ulaştırılmasının imkanı yok.</string>
   <string name="PaymentShippingInfo">Teslimat bilgisi</string>
   <string name="PaymentShippingAddress">Teslimat adresi</string>
   <string name="PaymentShippingAddress1Placeholder">Adres 1 (Sokak)</string>
@@ -66,6 +69,7 @@
   <string name="PaymentCardSavePaymentInformationInfoLine1">Daha sonra kullanmak için ödeme bilgisini kaydedebilirsiniz.</string>
   <string name="PaymentCardSavePaymentInformationInfoLine2">Bunu kullanmak için lütfen *2 Adımlı Doğrumayı açın*.</string>
   <string name="PaymentTransactionReview">İşlem Özeti</string>
+  <string name="PaymentTransactionMessage">%3$s için %2$s robotuna %1$s göndermek istediğinizden emin misiniz?</string>
   <string name="PaymentTransactionTotal">Toplam</string>
   <string name="PaymentInvoice">FATURA</string>
   <string name="PaymentTestInvoice">TEST FATURASI</string>
@@ -510,6 +514,8 @@ sorunuz mu var?</string>
   <string name="ReportSpamAlert">Bu kullanıcıyı spam olarak raporlamak istediğinizden emin misiniz?</string>
   <string name="ReportSpamAlertGroup">Bu grubu spam olarak raporlamak istediğinizden emin misiniz?</string>
   <string name="ReportSpamAlertChannel">Bu kanalı spam olarak bildirmek istediğinize emin misiniz?</string>
+  <string name="NobodyLikesSpam1">Üzgünüz, şu anda sadece ortak kişilerinize mesaj gönderebilirsiniz.</string>
+  <string name="NobodyLikesSpam2">Üzgünüz, şu anda sadece ortak kişilerinizi gruplara ekleyebilirsiniz.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Daha fazla bilgi</string>
   <string name="ShareSendTo">Buraya gönder...</string>
@@ -746,12 +752,14 @@ sorunuz mu var?</string>
   <string name="UsernameInvalidShort">Kullanıcı adı en az 5 karakter olmalıdır.</string>
   <string name="UsernameInvalidLong">Kullanıcı adı 32 karakteri geçmemelidir.</string>
   <string name="UsernameInvalidStartNumber">Maalesef, kullanıcı adı bir sayı ile başlayamaz.</string>
+  <string name="UsernameHelp"><![CDATA[<b>]]>Telegram<![CDATA[</b>]]>da kullanıcı adı seçebilirsiniz. Eğer bunu yaparsanız, insanlar telefon numaranızı bilmeden sizi bulabilir ve sizinle iletişim kurabilirler.\n\n<![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> ve alt çizgiler kullanabilirsiniz. Kullanıcı adınız en az <![CDATA[<b>]]>5<![CDATA[</b>]]> karakter olmalı.</string>
   <string name="UsernameHelpLink">Bu bağlantı Telegram\'da sizinle bir sohbet başlatır:\n%1$s</string>
   <string name="UsernameChecking">Kullanıcı adı kontrol ediliyor ...</string>
   <string name="UsernameAvailable">%1$s kullanılabilir.</string>
   <string name="UsernameEmpty">Yok</string>
   <string name="ErrorOccurred">Bir hata oluştu.</string>
   <!--stickers view-->
+  <string name="StickersName">Etiketler</string>
   <string name="AddStickers">Çıkartma Ekle</string>
   <string name="AddMasks">Maske Ekle</string>
   <string name="AddToStickers">Çıkartmalara Ekle</string>
@@ -784,6 +792,20 @@ sorunuz mu var?</string>
   <string name="ArchivedMasksAlertInfo">Bazı eski maskeleriniz arşivlendi. Maske Ayarlarından yeniden aktif edebilirsiniz.</string>
   <!--theme view-->
   <string name="Theme">Tema</string>
+  <string name="ThemeDark">Koyu</string>
+  <string name="ThemeBlue">Mavi</string>
+  <string name="DeleteThemeAlert">Bu temayı silmek istediğinizden emin misiniz?</string>
+  <string name="IncorrectTheme">Geçersiz tema dosyası</string>
+  <string name="EnterThemeName">Tema adı gir</string>
+  <string name="CloseEditor">EDİTÖRÜ KAPAT</string>
+  <string name="SaveTheme">TEMAYI KAYDET</string>
+  <string name="NewTheme">Yeni Tema</string>
+  <string name="ApplyTheme">ONAYLA</string>
+  <string name="ThemePreview">Tema Önizlemesi</string>
+  <string name="SelectColor">Renk seç</string>
+  <string name="CreateNewTheme">Yeni Tema Oluştur</string>
+  <string name="CreateNewThemeHelp">Her bir ekrandaki bütün elementleri görüntülemek ve düzenlemek için palet ikonuna dokunun.</string>
+  <string name="CreateNewThemeInfo">Uygulama içindeki renkleri değiştirerek kendi temanızı oluşturabilirsiniz. Buradan her zaman varsayılan Telegram temasına geri dönebilirsiniz.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Tüm bildirim ayarlarını varsayılana sıfırla</string>
   <string name="TextSize">Mesaj Yazı Boyutu</string>
@@ -817,7 +839,10 @@ sorunuz mu var?</string>
   <string name="ColorGreen">Yeşil</string>
   <string name="ColorCyan">Cam göbeği</string>
   <string name="ColorWhite">Beyaz</string>
+  <string name="ColorSepia">Sepya</string>
+  <string name="ColorDark">Koyu</string>
   <string name="ColorPink">Pembe</string>
+  <string name="FontSize">Font Büyüklüğü</string>
   <string name="ColorViolet">Mor</string>
   <string name="ColorOrange">Turuncu</string>
   <string name="NotificationsLedInfo">LED gelen mesajları bildirmek için bazı cihazlarda bulunan küçük ışıktır.</string>
@@ -841,6 +866,8 @@ sorunuz mu var?</string>
   <string name="ContactJoined"> Kişi Telegram\'a katıldı!</string>
   <string name="PinnedMessages">Sabitlenen Mesajlar</string>
   <string name="Language">Dil</string>
+  <string name="LanguageCustom">Özel</string>
+  <string name="AskAQuestionInfo">Telegram desteğin gönüllüler tarafından sunulduğunu unutmayın. Sorularınızı mümkün olduğunca çabuk yanıtlamaya çalışıyoruz, fakat bu zaman alabiliyor.\n\nLütffen <![CDATA[<a href="https://telegram.org/faq#general">Telegram SSS</a>]]>\'e bir göz atın: <![CDATA[<a href="https://telegram.org/faq#troubleshooting">sorun çözme</a>]]> konusunda önemli ipuçları ve sık sorulan sorunların cevapları var.</string>
   <string name="AskButton">Bir gönüllüye sor</string>
   <string name="TelegramFaq">Telegram SSS</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -922,6 +949,19 @@ sorunuz mu var?</string>
   <string name="DebugMenu">Hata Ayıklama Menüsü</string>
   <string name="DebugMenuImportContacts">Kişileri İçe Aktar</string>
   <string name="DebugMenuReloadContacts">Kişileri Yeniden Yükle</string>
+  <string name="ChangeLanguageLater">Dilinizi daha sonra Ayarlar menüsünden değiştirebilirsiniz.</string>
+  <string name="ChooseYourLanguage">Dilinizi seçin</string>
+  <string name="ChooseYourLanguageOther">Diğer</string>
+  <string name="ProxySettings">Vekil Sunucu Ayarları</string>
+  <string name="Proxy">Vekil Sunucu</string>
+  <string name="UseProxySettings">Vekil sunucu ayarlarını kullan</string>
+  <string name="UseProxyAddress">Sunucu</string>
+  <string name="UseProxyPassword">Şifre</string>
+  <string name="UseProxyPort">Port</string>
+  <string name="UseProxyUsername">Kullanıcı adı</string>
+  <string name="UseProxyInfo">SOCKS5 vekil sunucu ayarları</string>
+  <string name="UseProxyForCalls">Aramalar için vekil sunucu kullan</string>
+  <string name="UseProxyForCallsInfo">Vekil sunucular aramanızın kalitesini düşürebilir.</string>
   <!--cache view-->
   <string name="LocalDatabase">Yerel Veritabanı</string>
   <string name="LocalDatabaseClear">Önbelleğe alınan metin mesajlarını temizle?</string>
@@ -931,6 +971,7 @@ sorunuz mu var?</string>
   <string name="CalculatingSize">Hesaplanıyor...</string>
   <string name="LocalDocumentCache">Dökümanlar</string>
   <string name="LocalPhotoCache">Photos</string>
+  <string name="LocalAudioCache">Sesli/Vidyo Mesajlar</string>
   <string name="LocalVideoCache">Videolar</string>
   <string name="LocalMusicCache">Müzik</string>
   <string name="LocalGifCache">GIFler</string>
@@ -939,6 +980,8 @@ sorunuz mu var?</string>
   <string name="KeepMedia">Medyayı Sakla</string>
   <string name="KeepMediaInfo">Bulut sohbetlerinizdeki <![CDATA[<b>bu süre içerisinde bakmadığınız</b>]]> fotoğraflar, videolar ve diğer dosyalar, disk alanı kazanmak için bu cihazdan silinecek.\n\nTüm medya dosyalarınız, Telegram bulut hafızası içinde kalacak ve tekrar ihtiyacınız tekrar indirebilecek.</string>
   <string name="KeepMediaForever">Sürekli</string>
+  <string name="AudioAutodownload">Sesli mesajlar</string>
+  <string name="VideoMessagesAutodownload">Vidyo mesajlar</string>
   <!--sessions view-->
   <string name="SessionsTitle">Aktif Oturumlar</string>
   <string name="CurrentSession">Geçerli Oturum</string>
@@ -1004,6 +1047,8 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="SaveToGallery">Galeriye kaydet</string>
   <string name="Of">%1$d - %2$d</string>
   <string name="Gallery">Galeri</string>
+  <string name="AllPhotos">Bütün resimler</string>
+  <string name="AllMedia">Bütün medya</string>
   <string name="NoPhotos">Henüz fotoğraf yok</string>
   <string name="NoVideo">Henüz video yok</string>
   <string name="PleaseDownload">Lütfen önce medyayı indirin</string>
@@ -1137,6 +1182,11 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="PrivacySettings">Gizlilik ve Güvenlik</string>
   <string name="PrivacyTitle">Gizlilik</string>
   <string name="PrivacyLastSeen">Son Görülme</string>
+  <string name="PrivacyPayments">Ödemeler</string>
+  <string name="PrivacyPaymentsClear">Ödeme &amp; teslimat bilgisini temizle</string>
+  <string name="PrivacyPaymentsClearInfo">Teslimat bilgilerinizi silebilir ve ödeme sağlayıcılara kayıtlı kredi kartı bilgileriniz silmelerini isteyebilirsiniz. Telegram\'ın hiç bir zaman kredi kartı bilgilerinizi saklamadığını unutmayın.</string>
+  <string name="PrivacyClearShipping">Teslimat bilgisi</string>
+  <string name="PrivacyClearPayment">Ödeme bilgisi</string>
   <string name="LastSeenEverybody">Herkes</string>
   <string name="LastSeenContacts">Kişilerim</string>
   <string name="LastSeenNobody">Hiç kimse</string>
@@ -1177,6 +1227,7 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="InviteToGroupError">Üzgünüz, kullanıcının gizlilik ayarlarından dolayı kullanıcıyı gruplara ekleyemezsiniz.</string>
   <string name="InviteToChannelError">Üzgünüz, kullanıcının gizlilik ayarlarından dolayı kullanıcıyı kanallara ekleyemezsiniz.</string>
   <string name="CreateGroupError">Üzgünüz, kullanıcıların gizlilik ayarlarından dolayı bu kullanıcılarla bir grup oluşturamazsınız.</string>
+  <string name="PrivacyCallsP2PTitle">Noktadan Noktaya</string>
   <!--edit video view-->
   <string name="EditVideo">Videoyu Düzenle</string>
   <string name="SendingVideo">Video gönderiliyor ...</string>
@@ -1248,12 +1299,15 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="UnsupportedMedia">Telegram sürümünüz bu mesajı desteklemiyor. Uygulamayı güncelleyin: https://telegram.org/update</string>
   <string name="AttachPhoto">Fotoğraf</string>
   <string name="AttachVideo">Video</string>
+  <string name="AttachPhotoExpired">Fotoğrafın süresi doldu</string>
+  <string name="AttachVideoExpired">Vidyonun süresi doldu</string>
   <string name="AttachGif">GIF</string>
   <string name="AttachLocation">Konum</string>
   <string name="AttachContact">Kişi</string>
   <string name="AttachDocument">Dosya</string>
   <string name="AttachSticker">Çıkartma</string>
   <string name="AttachAudio">Sesli mesaj</string>
+  <string name="AttachRound">Vidyo mesaj</string>
   <string name="AttachGame">Oyun</string>
   <string name="FromYou">Siz</string>
   <string name="ActionTakeScreenshootYou">Ekran görüntüsü aldınız!</string>
@@ -1324,7 +1378,13 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="AllowFillNumber">Lütfen çağrılarınızın ve SMS mesajlarınızın okunması için Telegram\'a izin verin, bu sayede telefon numaranızı ve size gönderdiğimiz kodları otomatik olarak tamamlayabiliriz.</string>
   <string name="AllowReadCallAndSms">Sizin yerinize kodları girebilmemiz için lütfen Telegram\'ın SMS mesajarınıza ve çağrılarınıza erişmesine izin verin.</string>
   <string name="UserRestricted">Üzgünüz, bu işlem için izinli değilsiniz.</string>
+  <string name="YouBlockedUser">Üzgünüz, bu robotu ya da kullanıcıyı gruplara ekleyemezsiniz çünkü engellediniz. Lütfen devam etmek için engeli kaldırın.</string>
   <string name="JoinGroup">GRUBA KATIL</string>
+  <string name="AddAdminErrorNotAMember">Üzgünüz, bu kullanıcıyı gruba yönetici olarak ekleyemezsiniz çünkü kullanıcı grubun bir üyesi değil ve sizin de davet etme yetkiniz yok.</string>
+  <string name="AddAdminErrorBlacklisted">Üzgünüz, bu kullanıcıyı yönetici olarak ekleyemezsiniz çünkü kullanıcı engellenmiş ve sizin de engeli kaldırma yetkiniz yok.</string>
+  <string name="AddBannedErrorAdmin">Üzgünüz, bu kullanıcıyı engelleyemezsiniz çünkü kullanıcı grubun yöneticisi ve sizin de rütbesini düşürme yetkiniz yok.</string>
+  <string name="ErrorSendRestrictedStickers">Üzgünüz, bu grubun yöneticileri etiket göndermenizi kısıtladı.</string>
+  <string name="ErrorSendRestrictedMedia">Üzgünüz, bu grubun yöneticileri medya göndermenizi kısıtladı.</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram\'ın kişilerinize erişmesi gerekiyor, bu şekilde bütün cihazlarınızda arkadaşlarınızla bağlantıda kalabilirsiniz.</string>
   <string name="PermissionStorage">Telegram\'ın depolama biriminize erişmesi gerekiyor, bu şekilde resim, video, müzik ve diğer medyalarınızı kaydedebilir ve gönderebilirsiniz.</string>
@@ -1343,6 +1403,13 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="Page5Title">Güçlü</string>
   <string name="Page6Title">Bulut Tabanlı</string>
   <string name="Page7Title">Özel</string>
+  <string name="Page1Message">Dünyanın <![CDATA[<b>en hızlı</b>]]> mesajlaşma uygulaması.\n<![CDATA[<b>Ücretsiz</b>]]> ve <![CDATA[<b>güvenli</b>]]>.</string>
+  <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> mesajlarınızı diğer\nuygulamalardan daha hızlı gönderir.</string>
+  <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> sonsuza kadar ücretsiz. Reklam yok.\nKayıt ücreti yok.</string>
+  <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> mesajlarınızı\nsaldırganlara karşı korur.</string>
+  <string name="Page5Message"><![CDATA[<b>Telegram</b>]]>da sohbet ve medya\niçeriği için sınır yoktur.</string>
+  <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> mesajlarıza birden fazla\ncihazdan ulaşabilmenizi sağlar.</string>
+  <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> mesajları güçlü bir şekilde şifrelernmiştir\n ve mesajlar kendilerini yok edebilirler.</string>
   <string name="StartMessaging">Mesajlaşmaya Başlayın</string>
   <!--VoIP-->
   <string name="AccountSettings">Hesap Ayarları</string>
@@ -1385,12 +1452,14 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="CallMessageOutgoingMissed">Kapatılan Arama</string>
   <string name="CallMessageIncomingDeclined">Reddedilen Çağrı</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
+  <string name="CallEncryptionKeyDescription">Bu resim ve yazı <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ile yaptığınız arama için şifreleme anahtarından türetilmiştir.\n\nEğer <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> kişisinin cihazında da aynıysa, noktadan noktaya şifreleme sağlanmış demektir.</string>
   <string name="NoCallLog">Henüz hiç arama yapmadınız.</string>
   <string name="VoipPeerIncompatible"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> uygulaması uyumsuz bir protokol kullanıyor. Arama yapabilmeniz için uygulamasını güncellemesi gerekiyor.</string>
   <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> uygulaması aramaları desteklemiyor. Arama yapabilmeniz için uygulamasını güncellemesi gerekiyor.</string>
   <string name="VoipRateCallAlert">Telegram aramanızın kalitesini değerlendirin</string>
   <string name="VoipFeedbackAlert">Arama servisimizi daha geliştirmemiz için öneride bulunmak ister misiniz?</string>
   <string name="VoipNeedMicPermission">Telegram\'ın mikrofonunuza erişmesi gerekiyor, bu şekilde arama yapabilirsiniz.</string>
+  <string name="VoipFeedbackCommentHint">İsteğe bağlı bir yorum ekle</string>
   <string name="CallBack">Geri Ara</string>
   <string name="CallAgain">Tekrar Ara</string>
   <string name="DefaultRingtone">Varsayılan</string>
