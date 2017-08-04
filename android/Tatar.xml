@@ -126,6 +126,8 @@
   <string name="HiddenName">Бетерелгән аккаунт</string>
   <string name="SelectChat">Чатны сайлагыз</string>
   <string name="PhotoTip">Карар өчен басыгыз һәм көтеп торыгыз</string>
+  <string name="DisappearingPhoto">Югалучы фото</string>
+  <string name="DisappearingVideo">Югалучы видео</string>
   <string name="CompatibilityChat">%1$s Telegramның иске юрамасын куллана, шуның өчен яшерен фотосурәтләр туры китерү режимында күрсәтеләчәкләр.
 
 %2$s Telegramны яңарткач, фотосурәтләр минутлы яисә азрак вакыт белән \'Карар өчен басыгыз һәм көтеп торыгыз\' режимында эшли башлаячаклар, шулай ук сезгә әңгәмәдәшегез экран скриншоты ясаганда һәрвакыт белгертү киләчәк.</string>
@@ -328,6 +330,7 @@
   <string name="EditAdminRemoveAdmin">Администраторлыктан алу</string>
   <string name="EditAdminBanUsers">Кулланучыларны бикләү</string>
   <string name="EditAdminAddUsers">Кулланучылар өстәү</string>
+  <string name="EditAdminAddUsersViaLink">Чакыручы сылтамалар аша кулланучылар өстәү</string>
   <string name="EditAdminPinMessages">Хатлар беркетү</string>
   <string name="EditAdminPromotedBy">Өстәде: %1$s</string>
   <string name="EditAdminCantEdit">Сез бу администратор хокукларын үзгәртә алмыйсыз.</string>
@@ -455,6 +458,8 @@
   <string name="IsSendingAudio">%1$s аудио җибәрә...</string>
   <string name="IsSendingPhoto">%1$s фото җибәрә...</string>
   <string name="InstantView">ТУЛЫСЫНЧА УКУ</string>
+  <string name="OpenGroup">ТӨРКЕМ АЧУ</string>
+  <string name="OpenChannel">КАНАЛ АЧУ</string>
   <string name="InstantViewNightMode">Төңге вакытта караңгы тема үзе куелачак</string>
   <string name="IsSendingGame">%1$s уен уйный...</string>
   <string name="IsSendingVideo">%1$s видео җибәрә...</string>
@@ -586,6 +591,8 @@
   <string name="NotificationMessageNoText">%1$s сезгә хат җибәрде</string>
   <string name="NotificationMessagePhoto">%1$s сезгә фото җибәрде</string>
   <string name="NotificationMessageVideo">%1$s сезгә видео җибәрде</string>
+  <string name="NotificationMessageSDPhoto">%1$s сезгә югалучы фото җибәрде</string>
+  <string name="NotificationMessageSDVideo">%1$s сезгә югалучы видео җибәрде</string>
   <string name="NotificationMessageContact">%1$s сезнең белән контакт бүлеште</string>
   <string name="NotificationMessageMap">%1$s сезгә урнашу урынын җибәрде</string>
   <string name="NotificationMessageGame">%1$s сезне %2$s уйнарга чакырды</string>
@@ -738,6 +745,9 @@
   <string name="PhoneWork">Эшнеке</string>
   <string name="PhoneOther">Башка</string>
   <string name="PhoneMain">Төп</string>
+  <string name="UserBio">Үзем турында</string>
+  <string name="UserBioEmpty">Тутырылмаган</string>
+  <string name="UserBioInfo">Сез үзегез турында берничә юл яза аласыз. Профилегезне ачкан һәр кеше бу текстны күрә алачак.</string>
   <string name="StartEncryptedChat">Яшерен чатны башлау</string>
   <string name="GroupsInCommon">Уртак төркемнәр</string>
   <string name="GroupsInCommonTitle">Уртак төркемнәр</string>
@@ -745,6 +755,8 @@
   <string name="CreateEncryptedChatError">Хата булды.</string>
   <string name="EncryptionKey">Шифрлау ачкычы</string>
   <string name="MessageLifetime">Үз-үзен бетерү вакыты</string>
+  <string name="MessageLifetimePhoto">Әгәр сез таймер куйсагыз, фото каралгач бетәчәк.</string>
+  <string name="MessageLifetimeVideo">Әгәр сез таймер куйсагыз, видео каралгач бетәчәк.</string>
   <string name="ShortMessageLifetimeForever">Сүнгән</string>
   <string name="EncryptionKeyLink">https://tlgrm.ru/faq#secret-chats</string>
   <string name="TapToEmojify">Смайликлар итеп күрсәтү</string>
@@ -798,6 +810,8 @@
   <string name="ArchivedMasksAlertInfo">Кайбер иске битлек җыелмаларыгыз архивлашкан. Сез аларны Битлек көйләүләрендә активлаштыра аласыз.</string>
   <!--theme view-->
   <string name="Theme">Тема</string>
+  <string name="ThemeDark">Карачкыл</string>
+  <string name="ThemeBlue">Зәңгәр</string>
   <string name="DeleteThemeAlert">Бу теманы бетерергә телисезме?</string>
   <string name="IncorrectTheme">Дөрес булмаган тема файлы</string>
   <string name="EnterThemeName">Темага исем бирегез</string>
@@ -964,6 +978,8 @@
   <string name="UseProxyPort">Порт</string>
   <string name="UseProxyUsername">Логин</string>
   <string name="UseProxyInfo">SOCKS5 прокси көйләүләре</string>
+  <string name="UseProxyForCalls">Шалтыратулар өчен прокси куллану</string>
+  <string name="UseProxyForCallsInfo">Прокси куллану шалтыратулар сыйфатын түбәнәйтергә мөмкин.</string>
   <!--cache view-->
   <string name="LocalDatabase">Локаль мәгълүмат базасы</string>
   <string name="LocalDatabaseClear">Кэшланган текстлы хатларны чистартыргамы?</string>
@@ -1236,6 +1252,7 @@
   <string name="InviteToChannelError">Гафу итегез, бу кулланучы үзен каналларга кушуны тыйды.</string>
   <string name="CreateGroupError">Гафу итегез, бу кулланучылар үзләре катнашлыгында төркем төзүне тыйдылар.</string>
   <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
+  <string name="PrivacyCallsP2PHelp">Peer-to-peer сүндерелгән очракта шалтыратуларыгыз Telegram серверлары аша үтәчәкләр, бу сезгә IP-адресыгызны яшерергә мөмкинлек бирәчәк, әмма шалтыратулар сыйфаты түбәнәергә мөмкин.</string>
   <!--edit video view-->
   <string name="EditVideo">Видеоны үзгәртү</string>
   <string name="SendingVideo">Видео җибәрү...</string>
@@ -1307,6 +1324,8 @@
   <string name="UnsupportedMedia">Бу хат сезнең Telegram юрамасында укылмый. Карар өчен кушымтаны яңартыгыз: https://telegram.org/update</string>
   <string name="AttachPhoto">Фото</string>
   <string name="AttachVideo">Видео</string>
+  <string name="AttachPhotoExpired">Фото яраклыгы бетте</string>
+  <string name="AttachVideoExpired">Видео яраклыгы бетте</string>
   <string name="AttachGif">GIF</string>
   <string name="AttachLocation">Урнашу урыны</string>
   <string name="AttachContact">Контакт</string>
@@ -1382,6 +1401,11 @@
   <string name="UserRestricted">Гафу итегез, сезгә бу гамәл мөмкин түгел.</string>
   <string name="YouBlockedUser">Гафу итегез, сез бу кулланучыны яисә ботны бикләгәнгә күрә өсти алмыйсыз. Башта бикне алыгыз.</string>
   <string name="JoinGroup">ТӨРКЕМГӘ КУШЫЛУ</string>
+  <string name="AddAdminErrorNotAMember">Гафу итегез, сез бу кулланучыны администратор итеп куя алмыйсыз, чөнки ул бу төркем катнашучысы түгел һәм сез аны чакыра алмыйсыз.</string>
+  <string name="AddAdminErrorBlacklisted">Гафу итегез, сез бу кулланучыны администратор итеп куя алмыйсыз, чөнки ул кара исемлектә һәм сез аны бу исемлектән чыгара алмыйсыз.</string>
+  <string name="AddBannedErrorAdmin">Гафу итегез, сез бу кулланучыны бикли алмыйсыз, чөнки ул бу төркем администраторы.</string>
+  <string name="ErrorSendRestrictedStickers">Гафу итегез, бу төркем администраторлары сезгә төркемгә ситкерлар җибәрүне чикләделәр.</string>
+  <string name="ErrorSendRestrictedMedia">Гафу итегез, бу төркем администраторлары сезгә төркемгә файллар җибәрүне чикләделәр.</string>
   <!--permissions-->
   <string name="PermissionContacts">Дусларыгыз белән төрле җайланмалар аша элемтәдә калу өчен Telegramга контактларыгызны күрү мөмкинчелеге кирәк.</string>
   <string name="PermissionStorage">Фото, видео, һәм башка медиа файлларны җибәрү һәм саклау өчен Telegramга файллар саклау урыныгызга керү мөмкинчелеге кирәк.</string>
