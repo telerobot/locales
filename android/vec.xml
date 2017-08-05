@@ -27,7 +27,7 @@
   <string name="CancelAccountReset">Anuła ła reinpostasion de l\'account</string>
   <string name="CancelAccountResetInfo">Calchedun che\'l ga aceso a\'l to nùmaro de tełèfono <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> el ga dimandà de ełimenar el to account Telegram e de reinpostar ła to password de verìfega in 2 pasaji.\\n\\nSe A no te jeri ti, insarisi el còdaze che A te ghemo pena mandà par SMS a\'l to nùmaro de tełèfono.</string>
   <string name="ResetAccount">Reinposta account</string>
-  <string name="ResetAccountInfo">Daché el to account <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> el ze ativo e protezesto da na password, A ło ełimenaremo fra na setimana par razon de seguresa.\\n\\nInte calsìase momento, A te połi anułar \'sto proseso.</string>
+  <string name="ResetAccountInfo">Daché el to account <![CDATA[1]]>%1$s<![CDATA[1]]> el ze ativo e protezesto da na password, A ło ełimenaremo fra 1 setimana par razon de securesa.\n\nIn calsìase momento, A te połi anułar \'sto proseso.</string>
   <string name="ResetAccountStatus">A te podarè reinpostar el to account tenpo:</string>
   <string name="ResetAccountCancelledAlert">Łe to prove resenti de reinpostasion de \'sto account łe ze stà anułàe da el so utente ativo. Reprova danovo uncò oto.</string>
   <string name="ResetAccountButton">REINPOSTA</string>
@@ -122,10 +122,10 @@
   <string name="DeleteChatUser">Ełìmena chat</string>
   <string name="HiddenName">Account ełimenà</string>
   <string name="SelectChat">Sełesiona chat</string>
-  <string name="PhotoTip">Sełesióneła tenjéndoła strucà par védar</string>
+  <string name="PhotoTip">Sełesióneła tenjéndoła strucà par védarla</string>
   <string name="DisappearingPhoto">Foto segreta</string>
   <string name="DisappearingVideo">Video segreto</string>
-  <string name="CompatibilityChat">%1$s L ze drio doparar na varsion de Telegram pì vecia, donca łe foto segrete łe venjarà mostràe co ła modałità de conpatibiłidà.\\n\\nNa \'olta che %2$s L ga ajornà Telegram, łe foto co\'l contador de 1 menuto o de manco łe tacarà a funsionar inte ła modałità \'Sełesióneła tenjéndoła strucà par védar\', e A te venjarè notifegà onji \'olta che A venjarà brincà un screenshot.</string>
+  <string name="CompatibilityChat">%1$s L ze drio doparar na varsion de Telegram pì vecia, donca łe foto segrete łe venjarà mostràe co ła modałità de conpatibiłidà.\\n\\nNa \'olta che %2$s L ga ajornà Telegram, łe foto co\'l contador de 1 menuto o de manco łe tacarà a funsionar inte ła modałità \'Sełesióneła tenjéndoła strucà par védarla\', e A te venjarè notifegà onji \'olta che A venjarà brincà un screenshot.</string>
   <string name="SearchMessages">MESAJI</string>
   <string name="Search">Serca</string>
   <string name="MuteNotifications">Siłensia notìfeghe</string>
@@ -143,7 +143,7 @@
   <string name="ArticleByAuthor">da %1$s</string>
   <string name="ArticleDateByAuthor">%1$s da %2$s</string>
   <string name="PreviewFeedback">Łasa zó un comento so \'sta anteprima</string>
-  <string name="SendStickerPreview">Manda Figureta</string>
+  <string name="SendStickerPreview">Manda figureta</string>
   <string name="ViewPackPreview">Varda Pacheto</string>
   <string name="PinToTop">Pica insima</string>
   <string name="UnpinFromTop">Despica da insima</string>
@@ -463,7 +463,7 @@
   <string name="RecordingRound">L ze drio rejistrar un mesajo video...</string>
   <string name="SendingAudio">L ze drio mandar un àudio...</string>
   <string name="SendingPhoto">L ze drio mandar na foto...</string>
-  <string name="SendingGame">zogando a un zogo...</string>
+  <string name="SendingGame">L ze drio zogar a un zogo...</string>
   <string name="SendingVideoStatus">L ze drio mandar un video...</string>
   <string name="SendingFile">L ze drio mandar un file...</string>
   <string name="GotAQuestion">Ghetu na dimanda\\nso Telegram?</string>
@@ -510,7 +510,7 @@
   <string name="SendItems">Manda %1$s</string>
   <string name="SendAsFile">Manda cofà file</string>
   <string name="SendAsFiles">Manda cofà file</string>
-  <string name="OpenUrlAlert">Vèrzar url %1$s?</string>
+  <string name="OpenUrlAlert">Vutu vèrzar l\'url %1$s?</string>
   <string name="BotPermissionGameAlert">Vutu parmétarghe a %1$s de pasarghe el to nome e id Telegram (ma mìa el to nùmaro de tełèfono) a łe pàjine che A te verzi co \'sto bot?</string>
   <string name="ReportSpam">SENJAŁA SCOASE</string>
   <string name="ReportSpamAndLeave">SENJAŁA SCOASE E VA FORA</string>
@@ -555,7 +555,7 @@
   <string name="ChatYourSelfDescription1">Volta cuà i mesaji par salvarli</string>
   <string name="ChatYourSelfDescription2">Manda media e file par archivarli</string>
   <string name="ChatYourSelfDescription3">Acedi a \'sta chat da calsìase dispozitivo</string>
-  <string name="ChatYourSelfDescription4">Par catar fora robe in presa dòpara ła reserca</string>
+  <string name="ChatYourSelfDescription4">Dòpara ła reserca par catar fora robe in presa </string>
   <string name="ChatYourSelfTitle">Ła to memoria nùvoła</string>
   <string name="JumpToDate">Và so \'sta Data</string>
   <string name="DeleteForUser">Ełìmena anca par %1$s</string>
@@ -791,8 +791,8 @@
   <string name="ArchivedMasks">Màscare archivàe</string>
   <string name="ArchivedStickersEmpty">Njauna figureta archivada</string>
   <string name="ArchivedMasksEmpty">Njauna màscara archivada</string>
-  <string name="ArchivedStickersInfo">A te połi ver fin a 200 serie de figurete instałàe. Łe figurete doparàe manco łe venjarà archivàe co A te instałi serie nove.</string>
-  <string name="ArchivedMasksInfo">A te połi ver fin a 200 serie de màscare instałàe. Łe màscare doparàe manco łe venjarà archivàe co A te instałi serie nove.</string>
+  <string name="ArchivedStickersInfo">A te połi ver fin a 200 serie de figurete instałàe. Łe figurete doparàe de manco łe venjarà archivàe co A te instałi serie nove.</string>
+  <string name="ArchivedMasksInfo">A te połi ver fin a 200 serie de màscare instałàe. Łe màscare doparàe de manco łe venjarà archivàe co A te instałi serie nove.</string>
   <string name="SendSticker">MANDA FIGURETA</string>
   <string name="ArchivedStickersAlertTitle">Figurete archivàe</string>
   <string name="ArchivedStickersAlertInfo">Un fià de serie de łe to figurete pì vecie łe ze stà archivàe. A te połi reativarle inte łe inpostasion de łe figurete.</string>
@@ -994,7 +994,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="SessionsTitle">Sesion ative</string>
   <string name="CurrentSession">Sesion in dòparo</string>
   <string name="NoOtherSessions">Njaun\'antra sesion ativa</string>
-  <string name="NoOtherSessionsInfo">Doparando el steso nùmaro de tełèfono, A te połi ndar rento a Telegram da racuanti mòbiłi, tablet e varsion desktop. Tuti i to dati i venjarà sincronizài suito.</string>
+  <string name="NoOtherSessionsInfo">Doparando el steso nùmaro de tełèfono, A te połi ndar rento so Telegram da racuanti mòbiłi, tablet e varsion desktop. Tuti i to dati i venjarà sincronizài suito.</string>
   <string name="OtherSessions">Sesion ative</string>
   <string name="SessionsInfo">Controła łe to sesion inte cheł\'altri dispozitivi.</string>
   <string name="TerminateSessionInfo">Sełesiona na sesion par sararla su.</string>
@@ -1116,7 +1116,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <!--password view-->
   <string name="TwoStepVerification">Verìfega in 2 pasaji</string>
   <string name="SetAdditionalPassword">Inposta password in pì</string>
-  <string name="SetAdditionalPasswordInfo">A te połi inpostar na password in pì che ła te venjarà dimandà co te acedi so un dispozitivo novo inazonta a\'l còdaze che A te rivarà par SMS.</string>
+  <string name="SetAdditionalPasswordInfo">A te połi inpostar na password in pì inazonta a\'l còdaze che A te rivarà par SMS che ła te venjarà dimandà co te ndarè rento co un dispozitivo novo.</string>
   <string name="YourPassword">Ła to password</string>
   <string name="PleaseEnterCurrentPassword">Insarisi ła to password</string>
   <string name="PleaseEnterFirstPassword">Insarisi na password</string>

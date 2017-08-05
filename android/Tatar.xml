@@ -758,6 +758,7 @@
   <string name="MessageLifetimePhoto">Әгәр сез таймер куйсагыз, фото каралгач бетәчәк.</string>
   <string name="MessageLifetimeVideo">Әгәр сез таймер куйсагыз, видео каралгач бетәчәк.</string>
   <string name="ShortMessageLifetimeForever">Сүнгән</string>
+  <string name="EncryptionKeyDescription">Бу сурәт һәм текст <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысы белән булган аралашуның шифрлау ачкычын күрсәтә. Әгәр бу сурәт һәм текст <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> кулланучысының җайланмасындагы сүрәткә һәм текстка туры килсә, сезнең аралашу якланган була. Тулырак: telegram.org</string>
   <string name="EncryptionKeyLink">https://tlgrm.ru/faq#secret-chats</string>
   <string name="TapToEmojify">Смайликлар итеп күрсәтү</string>
   <string name="NumberUnknown">Билгесез</string>
@@ -1424,6 +1425,13 @@
   <string name="Page5Title">Көчле</string>
   <string name="Page6Title">Болытлы</string>
   <string name="Page7Title">Шәхсилек</string>
+  <string name="Page1Message">Дөньядагы <![CDATA[<b>иң тиз</b>]]> мессенджер.\nӘ тагын <![CDATA[<b>түләүсез</b>]]> һәм <![CDATA[<b>куркынычсыз</b>]]>.</string>
+  <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> бүтән кушымталарга караганда хатларны тизрәк тапшыра.</string>
+  <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> бөтенләйгә түләүсез. Рекламасыз.\nЯзылуларсыз.</string>
+  <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> хатларыгызны хакерлар һөҗүменнән\nкуркынычсызлыкта саклый.</string>
+  <string name="Page5Message"><![CDATA[<b>Telegramда</b>]]> файллар һәм чатларыгыз өчен\nзурлык чикләүләре юк.</string>
+  <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> төрле җайланмалардан\nхатларыгызны карау мөмкинлеген бирә.</string>
+  <string name="Page7Message"><![CDATA[<b>Telegramда</b>]]> бөтен хатлар шифрланганнар\nһәм үз-үзләрен бетерә алалар.</string>
   <string name="StartMessaging">Хатны башлау</string>
   <!--VoIP-->
   <string name="AccountSettings">Аккаунт көйләүләре</string>
