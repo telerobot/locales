@@ -32,7 +32,7 @@
   <string name="ResetAccountCancelledAlert">Łe to prove resenti de reinpostasion de \'sto account łe ze stà anułàe da el so utente ativo. Reprova danovo uncò oto.</string>
   <string name="ResetAccountButton">REINPOSTA</string>
   <string name="CancelLinkExpired">El link el ze scadùo o no\'l ze mìa vàłido.</string>
-  <string name="CancelLinkSuccess">El proceso de ełimenasion par l\'account %1$s el ze stà anułà. Deso A te połi sarar sù \'sta fenestra.</string>
+  <string name="CancelLinkSuccess">El proseso de ełimenasion par l\'account %1$s el ze stà anułà. Deso A te połi sarar sù \'sta fenestra.</string>
   <!--signup view-->
   <string name="YourName">El to nome</string>
   <string name="RegisterText">Inposta el to nome e conjome</string>
@@ -1326,7 +1326,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="FloodWait">Masa tentadivi, reprova danovo pì tardi</string>
   <string name="FloodWaitTime">Masa tentadivi, reprova danovo tenpo %1$s</string>
   <string name="InvalidCode">Còdaze mìa vàłido</string>
-  <string name="PhoneNumberFlood">Ne despiaze, de resente A te ghè ełimenà e recreà el to account masa \'olte. Speta calche dì prima de rejistrarte n\'antra danovo.</string>
+  <string name="PhoneNumberFlood">Ne despiaze, de resente A te ghè ełimenà e recreà el to account masa \'olte. Speta calche dì prima de rejistrarte n\'antra \'olta.</string>
   <string name="InvalidFirstName">Nome mìa vàłido</string>
   <string name="InvalidLastName">Conjome mìa vàłido</string>
   <string name="Loading">Cargando...</string>
