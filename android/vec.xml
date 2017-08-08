@@ -10,13 +10,13 @@
   <!--signin view-->
   <string name="YourPhone">El to tełèfono</string>
   <string name="StartText">Conferma el prefiso nasionałe e insarisi el to nùmaro de tełèfono.</string>
-  <string name="ChooseCountry">Sernisi na nasion</string>
+  <string name="ChooseCountry">Sernisi un Stado</string>
   <string name="WrongCountry">Prefiso zbajà</string>
   <!--code enter view-->
   <string name="YourCode">Verìfega nùmaro</string>
   <string name="SentSmsCode">A ghemo mandà un SMS co\'l còdaze de ativasion a\'l to nùmaro <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
   <string name="SentAppCode">A ghemo mandà el còdaze inte l\'aplegasion <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> so cheł\'altro to dispozitivo.</string>
-  <string name="SentCallCode">A ghemo voltà na ciamada de ativasion a\'l to nùmaro <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\\n\\nNo stà mìa respóndar, Telegram el farà tuto par conto suo.</string>
+  <string name="SentCallCode">A ghemo voltà na ciamada de ativasion a\'l to nùmaro <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\\n\\nNo sta mìa respóndar, Telegram el farà tuto par conto suo.</string>
   <string name="SentCallOnly">A semo drio ciamar el to nùmaro <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> par detarte un còdaze.</string>
   <string name="CallText">A te ciamaremo tenpo %1$d:%2$02d</string>
   <string name="SmsText">A te mandaremo un SMS tenpo %1$d:%2$02d</string>
@@ -29,10 +29,10 @@
   <string name="ResetAccount">Reinposta account</string>
   <string name="ResetAccountInfo">Daché el to account <![CDATA[1]]>%1$s<![CDATA[1]]> el ze ativo e protezesto da na password, A ło ełimenaremo fra 1 setimana par razon de securesa.\n\nIn calsìase momento, A te połi anułar \'sto proseso.</string>
   <string name="ResetAccountStatus">A te podarè reinpostar el to account tenpo:</string>
-  <string name="ResetAccountCancelledAlert">Łe to prove resenti de reinpostasion de \'sto account łe ze stà anułàe da el so utente ativo. Reprova danovo uncò oto.</string>
+  <string name="ResetAccountCancelledAlert">Łe to prove resenti de reinpostasion de \'sto account łe ze sta anułàe da el so utente ativo. Reprova danovo uncò oto.</string>
   <string name="ResetAccountButton">REINPOSTA</string>
   <string name="CancelLinkExpired">El link el ze scadùo o no\'l ze mìa vàłido.</string>
-  <string name="CancelLinkSuccess">El proseso de ełimenasion par l\'account %1$s el ze stà anułà. Deso A te połi sarar sù \'sta fenestra.</string>
+  <string name="CancelLinkSuccess">El proseso de ełimenasion par l\'account %1$s el ze sta anułà. Deso A te połi sarar su \'sta fenestra.</string>
   <!--signup view-->
   <string name="YourName">El to nome</string>
   <string name="RegisterText">Inposta el to nome e conjome</string>
@@ -51,8 +51,8 @@
   <string name="PaymentShippingAddress1Placeholder">Ndariso 1 (Strada)</string>
   <string name="PaymentShippingAddress2Placeholder">Ndariso 2 (Strada)</string>
   <string name="PaymentShippingCityPlaceholder">Sità</string>
-  <string name="PaymentShippingStatePlaceholder">Stado</string>
-  <string name="PaymentShippingCountry">Paeze</string>
+  <string name="PaymentShippingStatePlaceholder">Provinsia</string>
+  <string name="PaymentShippingCountry">Stado</string>
   <string name="PaymentShippingZipPlaceholder">Còdaze postałe</string>
   <string name="PaymentShippingReceiver">Resevidor</string>
   <string name="PaymentShippingName">Nome intiero</string>
@@ -67,7 +67,7 @@
   <string name="PaymentCardExpireDate">MM/YY</string>
   <string name="PaymentBillingAddress">Ndariso de faturasion</string>
   <string name="PaymentCardNameTitle">Titołar de ła carta</string>
-  <string name="PaymentCardName">Nome Conjome</string>
+  <string name="PaymentCardName">Conjome</string>
   <string name="PaymentCardSavePaymentInformation">Salva informasion de pagamento</string>
   <string name="PaymentCardSavePaymentInformationInfoLine1">A te połi salvar łe to informasion de pagamento par un dòparo fuduro.</string>
   <string name="PaymentCardSavePaymentInformationInfoLine2">*Inposta ła verìfega in 2 pasaji* par ativar \'sta funsion.</string>
@@ -86,8 +86,8 @@
   <string name="PaymentReceipt">Resevuda</string>
   <string name="PaymentConfirmationNewCard">Sernisi na carta difarente</string>
   <string name="PaymentConfirmationMessage">Ła to carta %1$s ła ze in archivo. Par pagar co \'sta carta, insarisi ła password de ła to verìfega in 2 pasaji.</string>
-  <string name="PaymentPrecheckoutFailed">Ne despiaze, el pagamento el ze stà anułà da\'l bot.</string>
-  <string name="PaymentFailed">Ne despiaze, el pagamento el ze stà refudà.</string>
+  <string name="PaymentPrecheckoutFailed">Ne despiaze, el pagamento el ze sta anułà da\'l bot.</string>
+  <string name="PaymentFailed">Ne despiaze, el pagamento el ze sta refudà.</string>
   <string name="PaymentConnectionFailed">A no ze mìa posìbiłe contatar el server par el pagamento. Controła ła to conesion internet e prova danovo.</string>
   <string name="PaymentWarning">Avertensa</string>
   <string name="PaymentWarningText">Telegram e %1$s no i gavarà mìa aceso a łe informasion de ła to carta de crèdito. I detaji de ła carta de crèdito i venjarà manejài soło da\'l sistema de pagamento %2$s.\n\nI pagaminti i ghe ndarà diretamente a\'l zviłupador de %1$s. Telegram no ła fornise njauna garansia, donca i trasferiminti i sarà a to riscio e perìgoło. In cazo de problemi, contata el zviłupador de %1$s o ła to banca.</string>
@@ -187,10 +187,10 @@
   <string name="ActionPinnedGeo">un1 L ga picà insima na pozision</string>
   <string name="ActionPinnedGif">un1 L ga picà insima na GIFa</string>
   <string name="ActionPinnedMusic">un1 L ga picà insima un àudio</string>
-  <string name="ActionMigrateFromGroup">\'Sto grupo el ze stà ajornà in supargrupo</string>
-  <string name="ActionMigrateFromGroupNotify">%1$s L ze stà ajornà in supargrupo</string>
-  <string name="NoBlockedGroup">I utenti blocài i vien ełimenài da\'l grupo e i połe tornarghe rento soło se invitài da un aministrador. I link de invito no i funsiona mìa par łuri.</string>
-  <string name="NoBlockedChannel">I utenti blocài i vien ełimenài da\'l canałe e i połe tornarghe rento soło se invitài da un aministrador. I link de invito no i funsiona mìa par łuri.</string>
+  <string name="ActionMigrateFromGroup">\'Sto grupo el ze sta ajornà in supargrupo</string>
+  <string name="ActionMigrateFromGroupNotify">%1$s L ze sta ajornà in supargrupo</string>
+  <string name="NoBlockedGroup">I utenti blocài i vien cavài via da\'l grupo e i połe tornarghe rento soło se invitài da un aministrador. El link de invito no\'l funsiona mìa par łuri.</string>
+  <string name="NoBlockedChannel">I utenti blocài i vien cavài via da\'l canałe e i połe tornarghe rento soło se invitài da un aministrador. El link de invito no\'l funsiona mìa par łuri.</string>
   <string name="NewChannel">Canałe novo</string>
   <string name="EnterChannelName">Nome de\'l canałe</string>
   <string name="AddMutual">Zonta contati so\'l to canałe</string>
@@ -209,7 +209,7 @@
   <string name="ChannelPrivate">Canałe privà</string>
   <string name="MegaPrivate">Grupo privà</string>
   <string name="ChannelPrivateInfo">Se połe zontarse rento i canałi privài soło co\'l link de invito.</string>
-  <string name="MegaPrivateInfo">Se połe zontarse rento i grupi privài soło se A te si stà invità o se A te ghe un link de invito.</string>
+  <string name="MegaPrivateInfo">Se połe zontarse rento i grupi privài soło co un invito direto o co\'l link de invito.</string>
   <string name="ChannelLinkTitle">Link</string>
   <string name="ChannelInviteLinkTitle">Link de invito</string>
   <string name="ChannelAddMembers">Zonta menbri</string>
@@ -222,7 +222,7 @@
   <string name="ChannelAlertTitle">Cosa zeło un canałe?</string>
   <string name="ChannelAlertText">I canałi i ze un strumento novo par trazmétarghe i to mesaji a un pùblego grando.</string>
   <string name="ChannelAlertCreate">CREA CANAŁE</string>
-  <string name="LinkInUse">Ne despiaze, \'sto nome el ze za stà doparà.</string>
+  <string name="LinkInUse">Ne despiaze, \'sto nome el ze za sta doparà.</string>
   <string name="LinkInvalid">Ne despiaze, \'sto nome no\'l ze mìa vàłido.</string>
   <string name="LinkInvalidShort">I nomi de i canałi i ga da ver almanco 5 caràtari.</string>
   <string name="LinkInvalidLong">El nome no\'l ga mìa da ndar sora i 32 caràtari.</string>
@@ -242,12 +242,12 @@
   <string name="ChannelLeaveAlert">Vutu davero ndar fora da\'l canałe?</string>
   <string name="ChannelDeleteInfo">A te perdarè tuti i mesaji inte \'sto canałe.</string>
   <string name="ChannelEdit">Modìfega</string>
-  <string name="MegaWasPrivateAlert">Tien conto che se A te ghe sernìo un link pùblego par el to grupo, co na reserca tuti i sarà boni de catarlo fora e de zontarse rento.\\n\\nNo stà mìa crear \'sto link se te vołi che el to supargrupo el stae privà.</string>
-  <string name="ChannelWasPrivateAlert">Tien conto che se A te ghe sernìo un link pùblego par el to canałe, co na reserca tuti i sarà boni de catarlo fora e de zontarse rento.\\n\\nNo stà mìa crear \'sto link se te vołi che el to canałe el stae privà.</string>
+  <string name="MegaWasPrivateAlert">Tien conto che se A te ghe sernìo un link pùblego par el to grupo, co na reserca tuti i sarà boni de catarlo fora e de zontarse rento.\\n\\nNo sta mìa crear \'sto link se te vołi che el to supargrupo el stae privà.</string>
+  <string name="ChannelWasPrivateAlert">Tien conto che se A te ghe sernìo un link pùblego par el to canałe, co na reserca tuti i sarà boni de catarlo fora e de zontarse rento.\\n\\nNo sta mìa crear \'sto link se te vołi che el to canałe el stae privà.</string>
   <string name="ChannelPublicEmptyUsername">Sernisi un link in manjera che, co na reserca, łe parsone łe posa catar fora el to canałe pùblego e sparpanjarlo co cheł\'altri.\\n\\nSe, invese, A no te ghè mìa intarese par \'sta funsion, A te sujerimo de crear un canałe privà.</string>
   <string name="ActionCreateChannel">Canałe creà</string>
   <string name="ActionChannelChangedPhoto">Foto de\'l canałe canbiada</string>
-  <string name="ActionChannelRemovedPhoto">Foto de\'l canałe ełimenada</string>
+  <string name="ActionChannelRemovedPhoto">Foto de\'l canałe cavada via</string>
   <string name="ActionChannelChangedTitle">Nome de\'l canałe canbià co un2</string>
   <string name="ChangePublicLimitReached">Ne despiaze, A te ghè za reservà masa nomi utente pùbleghi. Deso A te połi soło revogar el link da uno de i to grupi o canałi veci, o crear entidà privàe.</string>
   <string name="ChannelCreator">Creador</string>
@@ -260,7 +260,7 @@
   <string name="UnbanText">Sełesiona un utente tenjéndoło strucà par dezblocarlo.</string>
   <string name="ChannelInviteViaLink">Invita co un link</string>
   <string name="ChannelAddUserAdminAlert">Vutu davero promóvar %1$s cofà aministrador?</string>
-  <string name="ChannelRemoveUserAdmin">Cava via aministradori</string>
+  <string name="ChannelRemoveUserAdmin">Cava via aministrador</string>
   <string name="ChannelMembersInfo">Soło i aministradori de\'l canałe i połe védar \'sta łista.</string>
   <string name="ChannelAdminNotParticipant">\'Sto utente no\'l se ga njancora zontà inte\'l canałe. Vutu invitarlo?</string>
   <string name="ChannelLinkInfo">Tute łe parsone che łe ga Telegram instałà łe sarà bone de zontarse inte\'l to canałe ndàndoghe drio a \'sto link.</string>
@@ -322,10 +322,10 @@
   <string name="EditAdminDeleteMessages">Ełìmenar mesaji de altri</string>
   <string name="EditAdminGroupDeleteMessages">Ełìmenar mesaji</string>
   <string name="EditAdminAddAdmins">Zontar aministradori novi</string>
-  <string name="EditAdminRemoveAdmin">Cava via aministradori</string>
+  <string name="EditAdminRemoveAdmin">Cava via aministrador</string>
   <string name="EditAdminBanUsers">Blocar utenti</string>
   <string name="EditAdminAddUsers">Zontar utenti</string>
-  <string name="EditAdminAddUsersViaLink">Zontar utenti co un link de invito</string>
+  <string name="EditAdminAddUsersViaLink">Zontar utenti co el link de invito</string>
   <string name="EditAdminPinMessages">Picar insima mesaji</string>
   <string name="EditAdminPromotedBy">Zontà da %1$s</string>
   <string name="EditAdminCantEdit">A no te połi mìa modifegar i deriti de \'sto aministrador.</string>
@@ -352,11 +352,11 @@
   <string name="EventLogAllAdmins">Tuti i aministradori</string>
   <string name="EventLogEmpty"><![CDATA[<b>]]>Njancora njauna asion<![CDATA[</b>]]>\n\nI menbri e i aministradori de\'l grupo\nno i ga fazesto njauna asion de servisio\ninte łe 48 ore ùlteme.</string>
   <string name="EventLogEmptyChannel"><![CDATA[1]]>Njancora njauna asion<![CDATA[1]]>\n\nI aministradori de\'l canałe\nno i ga fazesto njauna asion de servisio\ninte łe 48 ore ùlteme.</string>
-  <string name="EventLogEmptySearch"><![CDATA[<b>]]>Njauna asion catada<![CDATA[</b>]]>\n\nNjauna asion resente ła coresponde a ła to reserca.</string>
-  <string name="EventLogEmptyTextSearch">Njauna asion resente co rento \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\' ła ze stà catada.</string>
+  <string name="EventLogEmptySearch"><![CDATA[<b>]]>Njauna asion catada<![CDATA[</b>]]>\n\nNjauna asion resente ła coresponde\na ła to reserca.</string>
+  <string name="EventLogEmptyTextSearch">Njauna asion resente co rento \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\' ła ze sta catada.</string>
   <string name="EventLogInfoTitle">Coza zełe łe \"asion resenti\"?</string>
-  <string name="EventLogInfoDetail">\'Sta cuà ła ze na łista de tute łe asion de servisio fazeste da i menbri e i aministradori de\'l grupo inte łe 48 ore ùlteme.</string>
-  <string name="EventLogInfoDetailChannel">\'Sta cuà ła ze na łista de tute łe asion de servisio fazeste da i aministradori de\'l canałe inte łe 48 ore ùlteme.</string>
+  <string name="EventLogInfoDetail">\'Sta cuà ła ze na łista de tute łe asion de servisio fazeste da i menbri e i aministradori de\'l grupo inte łe 48 ore ùlteme. Tuto ciaro?</string>
+  <string name="EventLogInfoDetailChannel">\'Sta cuà ła ze na łista de tute łe asion de servisio fazeste da i aministradori de\'l canałe inte łe 48 ore ùlteme. Tuto ciaro?</string>
   <string name="EventLogEditedGroupTitle">un1 L ga renomenà el grupo \"%1$s\"</string>
   <string name="EventLogEditedChannelTitle">un1 L ga renomenà el canałe \"%1$s\"</string>
   <string name="EventLogLeftGroup">un1 L ze ndà fora da\'l grupo</string>
@@ -376,7 +376,7 @@
   <string name="EventLogOriginalCaption">Comento orijinałe</string>
   <string name="EventLogOriginalCaptionEmpty">Vodo</string>
   <string name="EventLogPinnedMessages">un1 L ga picà insima \'sto mesajo:</string>
-  <string name="EventLogUnpinnedMessages">un1 L ga despicà via un mesajo</string>
+  <string name="EventLogUnpinnedMessages">un1 L ga despicà via el mesajo</string>
   <string name="EventLogDeletedMessages">un1 L ga ełimenà \'sto mesajo:</string>
   <string name="EventLogChangedGroupLink">un1 L ga canbià el link de\'l grupo:</string>
   <string name="EventLogChangedChannelLink">un1 L ga canbià el link de\'l canałe:</string>
@@ -390,13 +390,13 @@
   <string name="EventLogToggledInvitesOff">un1 L ga dezativà i inviti par el grupo</string>
   <string name="EventLogToggledSignaturesOn">un1 L ga ativà łe firme</string>
   <string name="EventLogToggledSignaturesOff">un1 L ga dezativà łe firme</string>
-  <string name="EventLogRestrictedUntil">Restrision par %1$s canbiàe\n\nDurada: %2$s</string>
+  <string name="EventLogRestrictedUntil">L ga canbià łe restrision de %1$s\n\nDurada: %2$s</string>
   <string name="EventLogRestrictedSendStickers">Mandar figurete e GIF</string>
   <string name="EventLogRestrictedSendMedia">Manda media</string>
   <string name="EventLogRestrictedSendMessages">Manda mesaji</string>
   <string name="EventLogRestrictedSendEmbed">Mandar link incalmài</string>
   <string name="EventLogRestrictedReadMessages">Łedi mesaji</string>
-  <string name="EventLogPromoted">Priviłeji de %1$s canbiài</string>
+  <string name="EventLogPromoted">L ga canbià i priviłeji de %1$s</string>
   <string name="EventLogPromotedChangeChannelInfo">Canbiar informasion de\'l canałe</string>
   <string name="EventLogPromotedChangeGroupInfo">Canbiar informasion de\'l grupo</string>
   <string name="EventLogPromotedPostMessages">Pùblegar mesaji</string>
@@ -488,7 +488,7 @@
   <string name="EncryptedDescription2">No łe łasa njauna tracia inte i server nostri</string>
   <string name="EncryptedDescription3">Łe ga el contador de autodestrusion</string>
   <string name="EncryptedDescription4">Łe bloca ła volta de i mesaji</string>
-  <string name="YouWereKicked">A te si stà cavà via da \'sto grupo</string>
+  <string name="YouWereKicked">A te si sta cavà via da \'sto grupo</string>
   <string name="YouLeft">A te si ndà fora da \'sto grupo</string>
   <string name="DeleteThisGroup">Ełìmena \'sto grupo</string>
   <string name="DeleteThisChat">Ełìmena \'sta chat</string>
@@ -614,7 +614,7 @@
   <string name="NotificationMessageGroupStickerEmoji">%1$s L ga mandà na figureta %3$s inte\'l grupo %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s L te ga invità inte\'l grupo %2$s</string>
   <string name="NotificationEditedGroupName">%1$s L ga renomenà el grupo %2$s</string>
-  <string name="NotificationEditedGroupPhoto">%1$s L ga canbià ła foto de\\'l grupo par %2$s</string>
+  <string name="NotificationEditedGroupPhoto">%1$s L ga canbià ła foto de\'l grupo par %2$s</string>
   <string name="NotificationGroupAddMember">%1$s L ga invità %3$s inte\'l grupo %2$s</string>
   <string name="NotificationGroupAddSelf">%1$s L ze tornà inte\'l grupo %2$s</string>
   <string name="NotificationGroupAddSelfMega">%1$s L se ga zontà inte\'l grupo %2$s</string>
@@ -624,7 +624,7 @@
   <string name="NotificationContactJoined">%1$s L se ga zontà so Telegram!</string>
   <string name="NotificationUnrecognizedDevice">%1$s,\\nA ghemo notà un aceso inte\'l to account da un dispozitivo novo so %2$s\\n\\nDispozitivo: %3$s\\nPozision: %4$s\\n\\nSe A no te jeri mìa ti, A te połi ndar so Inpostasion - Privacy e Seguresa - Sesion e sarar sù cheła sesion.\\n\\nSe A te pensi che calchedun el sia ndà rento el to account contro ła to vołontà, A te połi ativar ła verìfega in 2 pasaji inte łe inpostasion Privacy e Seguresa.\\n\\nCo Creansa,\\nEl grupo de Telegram</string>
   <string name="NotificationContactNewPhoto">%1$s L ga ajornà ła foto profiło</string>
-  <string name="NotificationInvitedToGroupByLink">%1$s L se ga zontà inte\'l grupo %2$s co un link de invito</string>
+  <string name="NotificationInvitedToGroupByLink">%1$s L se ga zontà inte\'l grupo %2$s co\'l link de invito</string>
   <string name="Reply">Respondi</string>
   <string name="ReplyToGroup">Respóndaghe a %1$s</string>
   <string name="ReplyToUser">Respóndaghe a %1$s</string>
@@ -638,7 +638,7 @@
   <string name="NotificationActionPinnedSticker">%1$s L ga picà insima na figureta inte\'l grupo %2$s</string>
   <string name="NotificationActionPinnedStickerEmoji">%1$s L ga picà insima na figureta %3$s inte\'l grupo %2$s</string>
   <string name="NotificationActionPinnedVoice">%1$s L ga picà insima un mesajo vocałe inte\'l grupo %2$s</string>
-  <string name="NotificationActionPinnedRound">%1$s L ga picà insima un mesajo video inte\\'l grupo %2$s</string>
+  <string name="NotificationActionPinnedRound">%1$s L ga picà insima un mesajo video inte\'l grupo %2$s</string>
   <string name="NotificationActionPinnedContact">%1$s L ga picà insima un contato inte\'l grupo %2$s</string>
   <string name="NotificationActionPinnedGeo">%1$s L ga picà insima na pozision inte\'l grupo %2$s</string>
   <string name="NotificationActionPinnedGif">%1$s L ga picà insima na GIF inte\'l grupo %2$s</string>
@@ -688,7 +688,7 @@
   <string name="InviteToGroupByLink">Invita inte\'l grupo co un link</string>
   <string name="InviteLink">Link de invito</string>
   <string name="RevokeAlert">Vutu davero revogar \'sto link? Na \'olta che A te ło ghe revogà, nesun el sarà pì bon de zontarse rento doparàndoło.</string>
-  <string name="RevokeAlertNewLink">El link de invito presedente da deso el ze dezativà. A ze stà zenerà un link novo.</string>
+  <string name="RevokeAlertNewLink">El link de invito presedente da deso el ze dezativà. A ze sta zenerà un link novo.</string>
   <string name="RevokeButton">Rèvoga</string>
   <string name="RevokeLink">Rèvoga link</string>
   <string name="RevokeLinkAlert">Vutu davero revogar el link <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?\\n\\nEl grupo \"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" el deventarà privà.</string>
@@ -718,7 +718,7 @@
   <string name="ConvertGroupAlert">Da \'sta asion A no se połe mìa pì tornar indrìo. A no ze mìa posìbiłe trasformar un supargrupo inte un grupo normałe.</string>
   <string name="ConvertGroupInfo"><![CDATA[<b>]]>Łìmite màsemo menbri.<![CDATA[</b>]]>\\n\\nPar ndarghe sora a\'l łìmite e ver funsion in pì, ajorna a supargrupo:\\n\\n• I supargrupi i połe tenjer fin a %1$s menbri\\n• I menbri novi i połe védar tuta ła cronołozìa de i mesaji\\n• I mesaji ełimenài i desconparise par tuti i menbri\\n• I aministradori i połe picar insima i mesaji inportanti\\n• El creador el połe inpostar un link pùblego par el grupo</string>
   <string name="ConvertGroupInfo2"><![CDATA[<b>]]>Inte i supargrupi:<![CDATA[</b>]]>\\n\\n• I menbri novi i połe védar tuta ła cronołozìa de i mesaji\\n• I mesaji ełimenài i desconparise par tuti i menbri\\n• I aministradori i połe picar insima i mesaji inportanti\\n• El creador el połe inpostar un link pùblego par el grupo</string>
-  <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Stà tento:<![CDATA[</b>]]> \'sta asion no ła połe mìa èsar anułà.</string>
+  <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Sta tento:<![CDATA[</b>]]> \'sta asion no ła połe mìa èsar anułà.</string>
   <!--contact info view-->
   <string name="ShareContact">Sparpanja</string>
   <string name="AddContact">Zonta</string>
@@ -755,7 +755,7 @@
   <!--usernames-->
   <string name="Username">Nome utente</string>
   <string name="UsernamePlaceholder">El to nome utente</string>
-  <string name="UsernameInUse">Ne despiaze, \'sto nome utente el ze za stà doparà.</string>
+  <string name="UsernameInUse">Ne despiaze, \'sto nome utente el ze za sta doparà.</string>
   <string name="UsernameInvalid">Ne despiaze, \'sto nome utente no\'l ze mìa vàłido.</string>
   <string name="UsernameInvalidShort">El nome utente el ga da ver almanco 5 caràtari.</string>
   <string name="UsernameInvalidLong">El nome utente no\'l ga mìa da ndar sora i 32 caràtari.</string>
@@ -795,9 +795,9 @@
   <string name="ArchivedMasksInfo">A te połi ver fin a 200 serie de màscare instałàe. Łe màscare doparàe de manco łe venjarà archivàe co A te instałi serie nove.</string>
   <string name="SendSticker">MANDA FIGURETA</string>
   <string name="ArchivedStickersAlertTitle">Figurete archivàe</string>
-  <string name="ArchivedStickersAlertInfo">Un fià de serie de łe to figurete pì vecie łe ze stà archivàe. A te połi reativarle inte łe inpostasion de łe figurete.</string>
+  <string name="ArchivedStickersAlertInfo">Un fià de serie de łe to figurete pì vecie łe ze sta archivàe. A te połi reativarle inte łe inpostasion de łe figurete.</string>
   <string name="ArchivedMasksAlertTitle">Màscare archivàe</string>
-  <string name="ArchivedMasksAlertInfo">Un fià de serie de łe to màscare pì vecie łe ze stà archivàe. A te połi reativarle inte łe inpostasion de łe màscare.</string>
+  <string name="ArchivedMasksAlertInfo">Un fià de serie de łe to màscare pì vecie łe ze sta archivàe. A te połi reativarle inte łe inpostasion de łe màscare.</string>
   <!--theme view-->
   <string name="Theme">Tema</string>
   <string name="ThemeDark">Moro</string>
@@ -805,7 +805,7 @@
   <string name="DeleteThemeAlert">Vutu davero ełimenar \'sto tema?</string>
   <string name="IncorrectTheme">File tema zbajà</string>
   <string name="EnterThemeName">Insarisi el nome de\'l tema</string>
-  <string name="CloseEditor">SARA SÙ MODIFEGADOR</string>
+  <string name="CloseEditor">SARA SU MODIFEGADOR</string>
   <string name="SaveTheme">SALVA TEMA</string>
   <string name="NewTheme">Tema novo</string>
   <string name="ApplyTheme">ÀPLEGA</string>
@@ -1003,7 +1003,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <!--passcode view-->
   <string name="Passcode">Còdaze de bloco</string>
   <string name="ChangePasscode">Canbia còdaze</string>
-  <string name="ChangePasscodeInfo">Co A te inposti un còdaze in pì, saltarà fora un łocheto inte ła pàjina de łe chat. Tócheło par blocar e dezblocar ła to app Telegram.\\n\\nStà tento: se A te te dezménteghi el còdaze, A te gavarè da ełimenar e reinstałar l\'app e tute łe chat segrete łe ndarà perdeste.</string>
+  <string name="ChangePasscodeInfo">Co A te inposti un còdaze in pì, saltarà fora un łocheto inte ła pàjina de łe chat. Tócheło par blocar e dezblocar ła to app Telegram.\\n\\nSta tento: se A te te dezménteghi el còdaze, A te gavarè da ełimenar e reinstałar l\'app e tute łe chat segrete łe ndarà perdeste.</string>
   <string name="ChangePasscodeAlert">Da deso A te vedarè un łocheto inte ła pàjina de łe chat. Tócheło par blocar l\'app Telegram co\'l to còdaze novo.</string>
   <string name="PasscodePIN">Nùmaro identifegadivo</string>
   <string name="PasscodePassword">Password</string>
@@ -1190,7 +1190,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="PrivacyLastSeen">Ùltemo aceso</string>
   <string name="PrivacyPayments">Pagaminti</string>
   <string name="PrivacyPaymentsClear">Neta pagaminti &amp; informasion de spedision</string>
-  <string name="PrivacyPaymentsClearInfo">A te połi ełimenar łe to informasion de spedision e/o darghe istrusion a tuti i fornidori de servisi de pagamento de cavar via ła to carta de crèdito salvada. Tien conto che Telegram no\'l archiva miga mai i dati de ła to carta de crèdito.</string>
+  <string name="PrivacyPaymentsClearInfo">A te połi ełimenar łe to informasion de spedision e darghe istrusion a tuti i fornidori de servisi de pagamento de cavar via ła to carta de crèdito salvada. Tien conto che Telegram no\'l archiva miga mai i dati de ła to carta de crèdito.</string>
   <string name="PrivacyClearShipping">Informasion de spedision</string>
   <string name="PrivacyClearPayment">Informasion de pagamento</string>
   <string name="LastSeenEverybody">Tuti</string>
@@ -1259,7 +1259,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="Open">Verzi</string>
   <string name="Save">Salva</string>
   <string name="Cancel">Anuła</string>
-  <string name="Close">Sara sù</string>
+  <string name="Close">Sara su</string>
   <string name="Add">Zonta</string>
   <string name="Edit">Modìfega</string>
   <string name="Send">Manda</string>
@@ -1278,8 +1278,8 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="Yes">Sì</string>
   <string name="No">Nò</string>
   <!--messages-->
-  <string name="ActionInviteYou">Te te si zontà inte\'l grupo co un link de invito</string>
-  <string name="ActionInviteUser">un1 L se ga zontà inte\'l grupo co un link de invito</string>
+  <string name="ActionInviteYou">Te te si zontà inte\'l grupo co el link de invito</string>
+  <string name="ActionInviteUser">un1 L se ga zontà inte\'l grupo co el link de invito</string>
   <string name="ActionKickUser">un1 L ga cavà via un2</string>
   <string name="ActionLeftUser">un1 L ze ndà fora da\'l grupo</string>
   <string name="ActionAddUser">un1 L ga zontà un2</string>
@@ -1349,7 +1349,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="AreYouSureDeleteThisChat">Vutu davero ełimenar \'sta chat?</string>
   <string name="ShareYouLocationTitle">Vutu sparpanjar ła to pozision?</string>
   <string name="ShareYouLocationInfo">A te ghe mandarè ła to pozision a\'l bot.</string>
-  <string name="ShareYouLocationUnable">L\'app no ła ze mìa stà bona de detarminar ła to pozision</string>
+  <string name="ShareYouLocationUnable">L\'app no ła ze mìa sta bona de detarminar ła to pozision</string>
   <string name="ShareYouLocationUnableManually">Sernisi manualmente</string>
   <string name="ShareYouLocationInline">\'Sto bot el vurìa saver ła to pozision tute łe \'olte che A te ghe dimandi calcosa. \'Sta informasion ła połe èsar doparada par ver rezultài geospesìfeghi.</string>
   <string name="ShareYouPhoneNumberTitle">Vutu sparpanjar el to nùmaro de tełèfono?</string>
@@ -1369,7 +1369,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="SendGameToGroup">Vutu sparpanjar el zogo co %1$s?</string>
   <string name="SendContactToGroup">Vutu mandar el contato a %1$s?</string>
   <string name="ForwardMessagesToGroup">Vutu voltar i mesaji a %1$s?</string>
-  <string name="FeatureUnavailable">Ne despiaze, par deso \'sta funsion no ła ze mìa disponìbiłe inte ła to nasion.</string>
+  <string name="FeatureUnavailable">Ne despiaze, par deso \'sta funsion no ła ze mìa disponìbiłe inte\'l to Stado.</string>
   <string name="NoUsernameFound">A no ghe ze njaun account Telegram co \'sto nome utente.</string>
   <string name="BotCantJoinGroups">\'Sto bot no\'l połe zontarse inte i grupi.</string>
   <string name="SecretLinkPreviewAlert">Ghetu caro ativar łe anteprime estendeste de i link inte łe chat segrete? Tien conto che łe anteprime de i link łe ze jeneràe so i server de Telegram.</string>
@@ -1431,7 +1431,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="VoipOutgoingCall">Ciamada Telegram in corso</string>
   <string name="VoipEndCall">Miti zó</string>
   <string name="VoipOngoingAlertTitle">N\'antra ciamada in corso</string>
-  <string name="VoipOngoingAlert">A te ghè za na ciamada in corso co <![CDATA[<b>%1$s</b>]]>. Vutu butarghe zo e tacar na ciamada nova co <![CDATA[<b>%2$s</b>]]>?</string>
+  <string name="VoipOngoingAlert">A te ghè za na ciamada in corso co <![CDATA[<b>%1$s</b>]]>. Vutu butarghe zó e tacar na ciamada nova co <![CDATA[<b>%2$s</b>]]>?</string>
   <string name="VoipNotificationSettings">Ciamade vocałi</string>
   <string name="VoipSettingsRingtone">Sonarìa</string>
   <string name="VoipRingtoneInfo">A te połi parsonałizar ła sonarìa doparàda par łe ciamade Telegram de \'sto contato.</string>
@@ -1469,13 +1469,13 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="ConfirmDeleteCallLog">Vutu davero ełimenar \'sta voze da\'l rejistro ciamade?</string>
   <string name="CallViaTelegram">Ciamada Telegram</string>
   <string name="VoipAudioRoutingEarpiece">Peocieto auregołar</string>
-  <string name="VoipAudioRoutingSpeaker">Vivavoze</string>
+  <string name="VoipAudioRoutingSpeaker">Alsavoze</string>
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
   <string name="ReturnToCall">TORNA A ŁA CIAMADA</string>
   <string name="CallNotAvailable">Ne despiaze, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> no L vołe mìa ciapar ciamade.</string>
   <string name="CallEmojiKeyTooltip">Se i dizenjeti so\'l schermo de %1$s i ze guałivi, \'sta ciamada ła ze segura a\'l 100%%.</string>
   <string name="CallMessageReportProblem">Vàłuta ła ciamada</string>
-  <string name="CallReportHint">Che problema ghe zeło stà?</string>
+  <string name="CallReportHint">Che problema ghe zeło sta?</string>
   <string name="CallReportIncludeLogs">Co rento informasion tècneghe</string>
   <string name="CallReportLogsExplain">\'Sta roba no ła dezvełarà mìa i contenjùi de ła to convarsasion, ma ła ne jutarà a sistemar prima posìbiłi problemi.</string>
   <string name="CallReportSent">Grasie de verne dà na man a mejorar łe ciamade Telegram.</string>
