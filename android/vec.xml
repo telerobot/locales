@@ -9,9 +9,9 @@
   <string name="ContinueOnThisLanguage">Continua in Veneto</string>
   <!--signin view-->
   <string name="YourPhone">El to tełèfono</string>
-  <string name="StartText">Conferma el prefiso nasionałe e insarisi el to nùmaro de tełèfono.</string>
+  <string name="StartText">Conferma el prefiso internasionałe e insarisi el to nùmaro de tełèfono.</string>
   <string name="ChooseCountry">Sernisi un Stado</string>
-  <string name="WrongCountry">Prefiso zbajà</string>
+  <string name="WrongCountry">Prefiso mìa vàłido</string>
   <!--code enter view-->
   <string name="YourCode">Verìfega nùmaro</string>
   <string name="SentSmsCode">A ghemo mandà un SMS co\'l còdaze de ativasion a\'l to nùmaro <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
@@ -27,7 +27,7 @@
   <string name="CancelAccountReset">Anuła ła reinpostasion de l\'account</string>
   <string name="CancelAccountResetInfo">Calchedun che\'l ga aceso a\'l to nùmaro de tełèfono <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> el ga dimandà de ełimenar el to account Telegram e de reinpostar ła to password de verìfega in 2 pasaji.\\n\\nSe A no te jeri ti, insarisi el còdaze che A te ghemo pena mandà par SMS a\'l to nùmaro de tełèfono.</string>
   <string name="ResetAccount">Reinposta account</string>
-  <string name="ResetAccountInfo">Daché el to account <![CDATA[1]]>%1$s<![CDATA[1]]> el ze ativo e protezesto da na password, A ło ełimenaremo fra 1 setimana par razon de securesa.\n\nIn calsìase momento, A te połi anułar \'sto proseso.</string>
+  <string name="ResetAccountInfo">Daché el to account <![CDATA[1]]>%1$s<![CDATA[1]]> el ze ativo e protezesto da na password, A ło ełimenaremo fra 1 setimana par razon de seguresa.\n\nIn calsìase momento, A te połi anułar \'sto proseso.</string>
   <string name="ResetAccountStatus">A te podarè reinpostar el to account tenpo:</string>
   <string name="ResetAccountCancelledAlert">Łe to prove resenti de reinpostasion de \'sto account łe ze sta anułàe da el so utente ativo. Reprova danovo uncò oto.</string>
   <string name="ResetAccountButton">REINPOSTA</string>
@@ -328,7 +328,7 @@
   <string name="EditAdminAddUsersViaLink">Zontar utenti co el link de invito</string>
   <string name="EditAdminPinMessages">Picar insima mesaji</string>
   <string name="EditAdminPromotedBy">Zontà da %1$s</string>
-  <string name="EditAdminCantEdit">A no te połi mìa modifegar i deriti de \'sto aministrador.</string>
+  <string name="EditAdminCantEdit">I priviłeji de \'sto aministrador no i połe mìa èsar modifegài.</string>
   <string name="UserRestrictionsBy">Restrision de %1$s</string>
   <string name="UserRestrictions">Restrision utente</string>
   <string name="UserRestrictionsRead">Łèdar mesaji</string>
@@ -568,10 +568,10 @@
   <string name="DiscardVideoMessageTitle">Scarta mesajo video</string>
   <string name="DiscardVideoMessageDescription">Vutu davero blocar ła rejistrasion e scartar el to mesajo video?</string>
   <string name="DiscardVoiceMessageAction">Scarta</string>
-  <string name="AttachMediaRestricted">I aministradori de \'sto grupo i te ga meso na restrision so\'l mandar media fin a %1$s</string>
+  <string name="AttachMediaRestricted">I aministradori de \'sto grupo i te ga meso na restrision so\'l mandar media fin a\'l %1$s</string>
   <string name="AttachInlineRestricted">I aministradori de \'sto grupo i te ga meso na restrision so\'l mandar contenjùi in-app fin a\'l %1$s</string>
-  <string name="AttachStickersRestricted">I aministradori de \'sto grupo i te ga meso na restrision so\'l mandar figurete fin a %1$s</string>
-  <string name="SendMessageRestricted">I aministradori de \'sto grupo i te ga meso na restrision so\'l scrìvar fin a %1$s</string>
+  <string name="AttachStickersRestricted">I aministradori de \'sto grupo i te ga meso na restrision so\'l mandar figurete fin a\'l %1$s</string>
+  <string name="SendMessageRestricted">I aministradori de \'sto grupo i te ga meso na restrision so\'l scrìvar fin a\'l %1$s</string>
   <string name="AttachMediaRestrictedForever">I aministradori de \'sto grupo i te ga meso na restrision so\'l mandar media</string>
   <string name="AttachInlineRestrictedForever">I aministradori de \'sto grupo i te ga meso na restrision so\'l mandar contenjùi in-app</string>
   <string name="AttachStickersRestrictedForever">I aministradori de \'sto grupo i te ga meso na restrision so\'l mandar figurete</string>
@@ -723,7 +723,7 @@
   <string name="ShareContact">Sparpanja</string>
   <string name="AddContact">Zonta</string>
   <string name="AddContactTitle">Zonta contato</string>
-  <string name="ContactNotRegistered">%1$s no L ze njancora so Telegram, vutu mandarghe un invito a zontarse rento?</string>
+  <string name="ContactNotRegistered">%1$s no L ze njancora so Telegram, ghetu caro mandarghe un invito a zontarse rento?</string>
   <string name="Invite">Invita</string>
   <string name="BlockContact">Bloca</string>
   <string name="EditContact">Modìfega</string>
@@ -1148,7 +1148,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="RestorePasswordNoEmailText">Co A te ghè inpostà ła password, A no te ghè mìa prevedesto na mail de recùparo, donca łe opsion che A te resta łe ze de recordarte par forsa ła password o reinpostar el to account.</string>
   <string name="RestoreEmailSent">A te ghemo mandà un còdaze de recùparo inte ła mail che A te ghè prevedesto:\\n\\n%1$s</string>
   <string name="RestoreEmailSentInfo">Controła ła to mail e insarisi el còdaze de 6 nùmari che A te gavemo mandà łà.</string>
-  <string name="RestoreEmailTrouble">Ghetu problemi de aceso inte ła to mail %1$s?</string>
+  <string name="RestoreEmailTrouble">Ghetu problemi de aceso so ła to mail %1$s?</string>
   <string name="RestoreEmailTroubleText">Se A no te połi repristenar l\'aceso inte ła to mail, łe opsion che A te resta łe ze de recordarte par forsa ła password o reinpostar el to account.</string>
   <string name="ResetMyAccount">REINPOSTA ACCOUNT</string>
   <string name="ResetMyAccountText">Se A te vè vanti co ła reinpostasion de\'l to account, A te perdarè tute łe to chat e mesaji, insenbre a calsìase media e file che a te ghesi sparpanjà.</string>
