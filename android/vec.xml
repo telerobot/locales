@@ -468,7 +468,7 @@
   <string name="SendingFile">L ze drio mandar un file...</string>
   <string name="GotAQuestion">Ghetu na dimanda\\nso Telegram?</string>
   <string name="ChatTakePhoto">Brinca na foto</string>
-  <string name="ChatGallery">Gałerìa</string>
+  <string name="ChatGallery">Gałarìa</string>
   <string name="ChatLocation">Pozision</string>
   <string name="ChatVideo">Video</string>
   <string name="ChatDocument">File</string>
@@ -910,7 +910,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="NoMediaAutoDownload">Njaun media</string>
   <string name="AutoplayGifs">Reprodusion automàtega GIF</string>
   <string name="RaiseToSpeak">Łeva sù par parlar</string>
-  <string name="SaveToGallerySettings">Salva inte ła gałerìa</string>
+  <string name="SaveToGallerySettings">Salva inte ła gałarìa</string>
   <string name="EditName">Modìfega nome</string>
   <string name="NotificationsCustomize">Parsonałiza</string>
   <string name="NotificationsCustom">Parsonałizàe</string>
@@ -1050,9 +1050,9 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="NearbyPlaces">O SERNISI UN POSTO</string>
   <!--photo gallery view-->
   <string name="ShowAllMedia">Mostra tuti i media</string>
-  <string name="SaveToGallery">Salva inte ła gałerìa</string>
+  <string name="SaveToGallery">Salva inte ła gałarìa</string>
   <string name="Of">%1$d de %2$d</string>
-  <string name="Gallery">Gałerìa</string>
+  <string name="Gallery">Gałarìa</string>
   <string name="AllPhotos">Tute łe foto</string>
   <string name="AllMedia">Tuti i media</string>
   <string name="NoPhotos">Njancora njauna foto</string>
@@ -1145,7 +1145,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="PasswordAsHintError">L\'indisio el ga da èsar difarente da ła to password</string>
   <string name="PasswordEmailInvalid">Mail mìa vàłida</string>
   <string name="RestorePasswordNoEmailTitle">Ne despiaze</string>
-  <string name="RestorePasswordNoEmailText">Co A te ghè inpostà ła password, A no te ghè mìa prevedesto na mail de recùparo, donca łe opsion che A te resta łe ze de recordarte par forsa ła password o reinpostar el to account.</string>
+  <string name="RestorePasswordNoEmailText">Co A te ghè inpostà ła password, A no te ghè mìa prevedesto na mail de recuparasion, donca łe opsion che A te resta łe ze de recordarte par forsa ła password o reinpostar el to account.</string>
   <string name="RestoreEmailSent">A te ghemo mandà un còdaze de recùparo inte ła mail che A te ghè prevedesto:\\n\\n%1$s</string>
   <string name="RestoreEmailSentInfo">Controła ła to mail e insarisi el còdaze de 6 nùmari che A te gavemo mandà łà.</string>
   <string name="RestoreEmailTrouble">Ghetu problemi de aceso so ła to mail %1$s?</string>
@@ -1162,7 +1162,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="PasswordCode">Còdaze</string>
   <string name="PasswordReset">Password dezativada</string>
   <string name="EnabledPasswordText">A te ghè ativà ła verìfega in 2 pasaji.\\nA te gavarè bizonjo de \'sta password cuà par ndar rento a\'l to account Telegram.</string>
-  <string name="PendingEmailText">Ła to mail de recùparo %1$s no ła ze njancora ativa e ła speta ła confermasion.</string>
+  <string name="PendingEmailText">Ła to mail de recuparasion %1$s no ła ze njancora ativa e ła speta ła confermasion.</string>
   <!--data settings-->
   <string name="DataSettings">Dati e memoria</string>
   <string name="DataUsage">Dòparo disco e rete</string>
@@ -1270,7 +1270,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="Forward">Volta</string>
   <string name="Retry">Reprova</string>
   <string name="FromCamera">Da ła fotocàmara</string>
-  <string name="FromGalley">Da ła gałerìa</string>
+  <string name="FromGalley">Da ła gałarìa</string>
   <string name="DeletePhoto">Ełìmena foto</string>
   <string name="Set">Inposta</string>
   <string name="OK">SÌ</string>
