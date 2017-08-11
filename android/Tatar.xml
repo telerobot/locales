@@ -28,7 +28,7 @@
   <string name="CancelAccountReset">Аккаунтны ташлауны кире кагу</string>
   <string name="CancelAccountResetInfo">Кемнеңдер сезнең <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> номерыгызга мөмкинлеге бар һәм ул профилегезне бетерергә һәм ике адымлы авторизацияне сүндерергә тели.\n\nӘгәр сез моны эшләмәгән булсагыз, без сезгә әле генә SMS аша җибәргән кодны кертегез.</string>
   <string name="ResetAccount">Аккаунтны ташлау</string>
-  <string name="ResetAccountInfo">Сезнең <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> аккаунтыгыз актив һәм пароль белән якланган, шуңа күрә без аны бер атна үткәч кенә бетерә алабыз.\n\nБетерүне сез теләсә кайсы вакытта кире кага аласыз.</string>
+  <string name="ResetAccountInfo">Сезнең <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> аккаунтыгыз актив һәм серсүз белән якланган, шуңа күрә без аны бер атна үткәч кенә бетерә алабыз.\n\nБетерүне сез теләсә кайсы вакытта кире кага аласыз.</string>
   <string name="ResetAccountStatus">Аккаунтны ташлау бу вакыт үткәч мөмкин булачак:</string>
   <string name="ResetAccountCancelledAlert">Ташлап карау актив аккаунт белән кире кагылды. Зинһар, 7 көннән кабатлап карагыз.</string>
   <string name="ResetAccountButton">ТАШЛАУ</string>
@@ -719,6 +719,7 @@
   <string name="SETTINGS">Көйләүләр</string>
   <string name="AddMember">Катнашучыны өстәү</string>
   <string name="SetAdmins">Администраторлар итеп билгеләү</string>
+  <string name="BanFromTheGroup">ТӨРКЕМНӘН БИКЛӘҮ</string>
   <string name="DeleteAndExit">Төркемне бетерү һәм чыгу</string>
   <string name="Notifications">Белгертүләр</string>
   <string name="KickFromSupergroup">Хокукларны чикләү</string>
@@ -772,6 +773,7 @@
   <string name="UsernameInvalidShort">Кулланучы исеме минимум 5 билгедән торырга тиеш.</string>
   <string name="UsernameInvalidLong">Кулланучының исеме 32 билгедән артык булырга тиеш түгел.</string>
   <string name="UsernameInvalidStartNumber">Кызганычка каршы, кулланучының исеме саннан башлана алмый.</string>
+  <string name="UsernameHelp">Сез үзегезгә <![CDATA[<b>]]>Telegramда<![CDATA[</b>]]> кулланучы исемен сайлый аласыз. Моны эшләгәч, башка кешеләр, телефон номерыгызны белмичә дә, сезне эзләп табып, сезнең белән бәйләнешкә керә алачаклар.\n\nКулланучы исеме латин хәрефләреннән генә <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, саннар<![CDATA[<b>]]>0–9<![CDATA[</b>]]> һәм ассызык билгеләреннән генә тора ала. Минималь озынлык: <![CDATA[<b>]]>5<![CDATA[</b>]]> билге.</string>
   <string name="UsernameHelpLink">Бу сылтама сезнең белән Telegramда чат ача:\n%1$s</string>
   <string name="UsernameChecking">Кулланучы исемен тикшерү...</string>
   <string name="UsernameAvailable">%1$s кулланучы исеме буш.</string>
@@ -886,6 +888,7 @@
   <string name="PinnedMessages">Беркетелгән хатлар</string>
   <string name="Language">Тел</string>
   <string name="LanguageCustom">Рәсми түгел</string>
+  <string name="AskAQuestionInfo">Игътибар итегез, Telegramның ярдәме волонтерлар тарафыннан башкарыла. Без мөмкин кадәр тизрәк җавап бирергә тырышырбыз, әмма моңа вакыт таләп ителергә мөмкин. Зинһар, <![CDATA[<a href="https://telegram.org/faq#general">Telegram турында сораулар һәм җаваплар</a>]]> белән танышып китегез: монда <![CDATA[<a href="https://telegram.org/faq#troubleshooting">сорауларга җаваплар һәм җитешсезлекләрне бетерү өчен</a>]]> мөһим киңәшләр бирелә.</string>
   <string name="AskButton">Волонтердан сорау</string>
   <string name="TelegramFaq">Telegram FAQ</string>
   <string name="TelegramFaqUrl">https://tlgrm.ru/faq</string>
@@ -1012,14 +1015,14 @@
   <string name="TerminateSessionQuestion">Сессияне тәмамларгамы?</string>
   <string name="UnofficialApp">рәсми булмаган кушымта</string>
   <!--passcode view-->
-  <string name="Passcode">Пароль белән саклау</string>
-  <string name="ChangePasscode">Парольне үзгәртү</string>
+  <string name="Passcode">Серсүз белән саклау</string>
+  <string name="ChangePasscode">Серсүзне үзгәртү</string>
   <string name="ChangePasscodeInfo">Өстәмә бикләү кодын куйганнан соң чатлар битендә йозак билгесе барлыкка киләчәк. Telegram кушымтасын бикләү һәм ачу өчен аңа басыгыз.
 
 Игътибар: әгәр кодны онытсагыз, сезгә кушымтаны бетерергә һәм кире куярга кирәк булачак. Бөтен яшерен чатлар югалачак.</string>
   <string name="ChangePasscodeAlert">Хәзер сез чатлар битендә йозак билгесен күрәчәксез. Telegram кушымтасын код ярдәмендә бикләү өчен аңа басыгыз.</string>
   <string name="PasscodePIN">ПИН-код</string>
-  <string name="PasscodePassword">Пароль</string>
+  <string name="PasscodePassword">Серсүз</string>
   <string name="EnterCurrentPasscode">Кодыгызны кертегез</string>
   <string name="EnterNewFirstPasscode">Кодны кертегез</string>
   <string name="EnterNewPasscode">Яңа код кертегез</string>
@@ -1028,7 +1031,7 @@
   <string name="InvalidPasscode">Дөрес түгел код</string>
   <string name="PasscodeDoNotMatch">Кодлар туры килмиләр</string>
   <string name="AutoLock">Үзе бикләү</string>
-  <string name="AutoLockInfo">Актив булмаганда парольне сорау.</string>
+  <string name="AutoLockInfo">Актив булмаганда серсүзне сорау.</string>
   <string name="AutoLockInTime">%1$s вакыт үткәч</string>
   <string name="AutoLockDisabled">Сүнгән</string>
   <string name="UnlockFingerprint">Бармак эзе белән биктән алу</string>
@@ -1128,33 +1131,33 @@
   <string name="CropSquare">Мәйдан</string>
   <!--password view-->
   <string name="TwoStepVerification">Ике адымлы авторизация</string>
-  <string name="SetAdditionalPassword">Өстәмә пароль кую</string>
-  <string name="SetAdditionalPasswordInfo">Сез пароль куя аласыз. Ул яңа җайланма аша кергәндә SMS аша килгән кодка өстәп соралачак.</string>
-  <string name="YourPassword">Пароль</string>
-  <string name="PleaseEnterCurrentPassword">Парольне кертегез</string>
-  <string name="PleaseEnterFirstPassword">Парольне кертегез</string>
-  <string name="PleaseEnterPassword">Яңа парольне кертегез</string>
-  <string name="PleaseReEnterPassword">Пароль кертүне кабатлагыз</string>
+  <string name="SetAdditionalPassword">Өстәмә серсүз кую</string>
+  <string name="SetAdditionalPasswordInfo">Сез серсүз куя аласыз. Ул яңа җайланма аша кергәндә SMS аша килгән кодка өстәп соралачак.</string>
+  <string name="YourPassword">Серсүз</string>
+  <string name="PleaseEnterCurrentPassword">Серсүзне кертегез</string>
+  <string name="PleaseEnterFirstPassword">Серсүзне кертегез</string>
+  <string name="PleaseEnterPassword">Яңа серсүзне кертегез</string>
+  <string name="PleaseReEnterPassword">Серсүз кертүне кабатлагыз</string>
   <string name="RecoveryEmail">Резерв e-mail</string>
   <string name="YourEmail">Сезнең e-mail</string>
-  <string name="YourEmailInfo">Дөрес e-mail кертегез. Бу онытылган парольне торгызыр өчен бердәнбер ысул.</string>
+  <string name="YourEmailInfo">Дөрес e-mail кертегез. Бу онытылган серсүзне торгызыр өчен бердәнбер ысул.</string>
   <string name="YourEmailSkip">Үткәрү</string>
   <string name="YourEmailSkipWarning">Игътибар</string>
   <string name="YourEmailSkipWarningText">Сез ризамы?
 
-Әгәр сез парольне онытсагыз, аккаунтка керүне торгызып булмаячак. Тагын бер тапкыр: сез бөтенләйгә аккаунтыгызга керүне югалтачаксыз.</string>
+Әгәр сез серсүзне онытсагыз, аккаунтка керүне торгызып булмаячак. Тагын бер тапкыр: сез бөтенләйгә аккаунтыгызга керүне югалтачаксыз.</string>
   <string name="YourEmailAlmostThere">Әзер диярлек</string>
   <string name="YourEmailAlmostThereText">e-mail-гызны тикшерегез: без сезгә ике адымлы авторизация көйләүләрен тәмамлар өчен сылтама белән хат җибәрдек.</string>
   <string name="YourPasswordSuccess">Әзер!</string>
   <string name="YourPasswordSuccessText">Ике адымлы авторизация кабынды.</string>
-  <string name="ChangePassword">Парольне үзгәртү</string>
-  <string name="TurnPasswordOff">Парольне сүндерү</string>
+  <string name="ChangePassword">Серсүзне үзгәртү</string>
+  <string name="TurnPasswordOff">Серсүзне сүндерү</string>
   <string name="SetRecoveryEmail">Резерв e-mail</string>
   <string name="ChangeRecoveryEmail">Резерв e-mail ны үзгәртү</string>
-  <string name="TurnPasswordOffQuestion">Пароль белән саклауны сүндерергә телисезме?</string>
-  <string name="PasswordHint">Парольне искә төшерү тексты</string>
-  <string name="PasswordHintText">Парольне искә төшерү текстын кертегез</string>
-  <string name="PasswordDoNotMatch">Парольләр туры килмиләр</string>
+  <string name="TurnPasswordOffQuestion">Серсүз белән саклауны сүндерергә телисезме?</string>
+  <string name="PasswordHint">Серсүзне искә төшерү тексты</string>
+  <string name="PasswordHintText">Серсүзне искә төшерү текстын кертегез</string>
+  <string name="PasswordDoNotMatch">Серсүзләр туры килмиләр</string>
   <string name="AbortPassword">Ике адымлы авторизация көйләүләрен туктату</string>
   <string name="EmailPasswordConfirmText">Зинһар, ике адымлы авторизация көйләүләрен тәмамлар өчен бу адымнарны эшләгез:
 
@@ -1164,23 +1167,23 @@
   <string name="PasswordAsHintError">Искә төшерү тексты паролегездән аерылырга тиеш</string>
   <string name="PasswordEmailInvalid">Дөрес түгел e-mail</string>
   <string name="RestorePasswordNoEmailTitle">Гафу итегез</string>
-  <string name="RestorePasswordNoEmailText">Электрон почтагызны күрсәтмәү сәбәпле, парольне торгызыр өчен калган вариантлар: парольне искә төшерү яисә аккаунтны ташлау.</string>
+  <string name="RestorePasswordNoEmailText">Электрон почтагызны күрсәтмәү сәбәпле, серсүзне торгызыр өчен калган вариантлар: серсүзне искә төшерү яисә аккаунтны ташлау.</string>
   <string name="RestoreEmailSent">Тергезү кодын сез күрсәткән почтага җибәрдек:\n\n%1$s</string>
   <string name="RestoreEmailSentInfo">Зинһар, почтагызны тикшерегез һәм без җибәргән алты урынны кодны кертегез.</string>
   <string name="RestoreEmailTrouble">%1$s почтасына кереп булмыймы?</string>
-  <string name="RestoreEmailTroubleText">Әгәр электрон почтагызга керә алмыйсыз икән, бердәнбер вариантлар: парольне искә төшерү яисә аккаунтны ташлау.</string>
+  <string name="RestoreEmailTroubleText">Әгәр электрон почтагызга керә алмыйсыз икән, бердәнбер вариантлар: серсүзне искә төшерү яисә аккаунтны ташлау.</string>
   <string name="ResetMyAccount">АККАУНТНЫ ТАШЛАУ</string>
   <string name="ResetMyAccountText">Хатлар тарихы һәм чатлар бетереләчәк. Дәвам итәргәме?</string>
   <string name="ResetMyAccountWarning">Игътибар</string>
   <string name="ResetMyAccountWarningText">Аккаунтны ташлаганда бөтен хатлар һәм чатлар бөтенләйгә бетереләчәкләр.</string>
   <string name="ResetMyAccountWarningReset">Ташлау</string>
-  <string name="LoginPassword">Пароль</string>
-  <string name="LoginPasswordText">Сез ике адымлы авторизация куйдыгыз: хәзер аккаунтыгыз өстәмә пароль белән сакланган.</string>
-  <string name="ForgotPassword">Парольне оныттыгызмы?</string>
-  <string name="PasswordRecovery">Парольне тергезү</string>
+  <string name="LoginPassword">Серсүз</string>
+  <string name="LoginPasswordText">Сез ике адымлы авторизация куйдыгыз: хәзер аккаунтыгыз өстәмә серсүз белән сакланган.</string>
+  <string name="ForgotPassword">Серсүзне оныттыгызмы?</string>
+  <string name="PasswordRecovery">Серсүзне тергезү</string>
   <string name="PasswordCode">Код</string>
-  <string name="PasswordReset">Пароль деактивлашты</string>
-  <string name="EnabledPasswordText">Сез ике адымлы авторизация куйдыгыз.\nХәзер Telegramга керер өчен сезгә әле генә куйган парольне кертергә кирәк булачак.</string>
+  <string name="PasswordReset">Серсүз ташланылды</string>
+  <string name="EnabledPasswordText">Сез ике адымлы авторизация куйдыгыз.\nХәзер Telegramга керер өчен сезгә әле генә куйган серсүзне кертергә кирәк булачак.</string>
   <string name="PendingEmailText">Сезнең торгызыр өчен %1$s электрон почта адресы әлегә актив түгел һәм раслауны көтә.</string>
   <!--data settings-->
   <string name="DataSettings">Трафик һәм саклау урыны</string>
@@ -1474,6 +1477,7 @@
   <string name="CallMessageOutgoingMissed">Кире кагылган шалтырату</string>
   <string name="CallMessageIncomingDeclined">Кире кагылган шалтырату</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
+  <string name="CallEncryptionKeyDescription">Бу сурәт һәм текст <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысы белән булган шалтыратуның шифрлау ачкычын күрсәтә.\n\nӘгәр бу сурәт һәм текст <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> кулланучысының җайланмасындагы сүрәткә һәм текстка туры килсә, сезнең аралашу якланган була.</string>
   <string name="NoCallLog">Сез беркемгә дә шалтыратмадыгыз әле.</string>
   <string name="VoipPeerIncompatible"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысының кушымтасы искергән һәм шалтыратулар кабул итә алмый. Бу кулланучы кушымтаны яңарткач кына сез аңа шалтырата алачаксыз. </string>
   <string name="VoipPeerOutdated"><![CDATA[<b>]]>%1$s<![CDATA[</b>]]> кулланучысының кушымтасы шалтыратулар кабул итә алмый. Бу кулланучы кушымтаны яңарткач кына сез аңа шалтырата алачаксыз.</string>
