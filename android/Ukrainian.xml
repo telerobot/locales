@@ -7,42 +7,44 @@
   <string name="LanguageCode">uk</string>
   <!--signin view-->
   <string name="YourPhone">Ваш телефон</string>
-  <string name="StartText">Підтвердіть код вашої країни
- і введіть ваш номер телефону.</string>
-  <string name="ChooseCountry">Оберіть країну</string>
+  <string name="StartText">Підтвердьте код вашої країни
+ і введіть свій номер телефону.</string>
+  <string name="ChooseCountry">Виберіть країну</string>
   <string name="WrongCountry">Неправильний код країни</string>
   <!--code enter view-->
-  <string name="YourCode">Підтвердження телефона</string>
-  <string name="SentSmsCode">Ми надіслали SMS з кодом активації на ваш телефон <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
-  <string name="SentAppCode">Ми надіслали код в <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> на вашому іншому пристрої.</string>
+  <string name="YourCode">Підтвердження телефону</string>
+  <string name="SentSmsCode">Ми надіслали СМС із кодом активації на ваш телефон <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
+  <string name="SentAppCode">Ми надіслали код у додаток <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> на вашому іншому пристрої.</string>
   <string name="SentCallCode">Ми надіслали виклик активації на ваш телефон <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nНе приймайте його, Telegram все зробить автоматично.</string>
   <string name="SentCallOnly">Ми телефонуємо вам, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> щоб продиктувати код.</string>
   <string name="CallText">Ми зателефонуємо вам через %1$d:%2$02d</string>
-  <string name="SmsText">Ми надішлемо вам SMS через %1$d:%2$02d</string>
+  <string name="SmsText">Ми надішлемо вам СМС через %1$d:%2$02d</string>
   <string name="Calling">Телефонуємо вам...</string>
   <string name="Code">Код</string>
   <string name="WrongNumber">Неправильний номер?</string>
   <string name="DidNotGetTheCode">Не отримали код?</string>
-  <string name="CancelAccountReset">Відмінити скидання облікового запису</string>
+  <string name="CancelAccountReset">Скасувати скидання облікового запису</string>
+  <string name="CancelAccountResetInfo">Хтось із доступом до вашого телефонного номера <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> надіслав запит на видалення вашого облікового запису Telegram і скидання пароля для двоетапної перевірки.\n\nЯкщо це не ви, введіть код із СМС, який ми надіслали на ваш номер.</string>
   <string name="ResetAccount">Скинути обліковий запис</string>
-  <string name="ResetAccountStatus">Ви зможете відновити свій обліковий запис об:</string>
-  <string name="ResetAccountCancelledAlert">Ваші недавні спроби скинути цей обліковий запис відмінено його активним користувачем. Будь ласка, спробуйте ще раз через 7 днів.</string>
+  <string name="ResetAccountInfo">Оскільки обліковий запис <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> активний і захищений паролем, ми видалимо його через 1 тиждень з міркувань безпеки.\n\nВи завжди можете скасувати цей процес.</string>
+  <string name="ResetAccountStatus">Ви зможете відновити свій обліковий запис через:</string>
+  <string name="ResetAccountCancelledAlert">Ви намагалися скинути цей обліковий запис, але ці спроби були скасовані активним користувачем. Спробуйте ще раз через 7 днів.</string>
   <string name="ResetAccountButton">СКИНУТИ</string>
-  <string name="CancelLinkExpired">Посилання не є дійсним, або строк його дії скінчився</string>
-  <string name="CancelLinkSuccess">Процес видалення був скасований для вашого облікового запису %1$s. Ви можете закрити це вікно прямо зараз.</string>
+  <string name="CancelLinkExpired">Посилання недійсне або його термін дії закінчився</string>
+  <string name="CancelLinkSuccess">Процес видалення було скасовано для вашого облікового запису %1$s. Ви можете закрити це вікно.</string>
   <!--signup view-->
   <string name="YourName">Ваше ім\'я</string>
-  <string name="RegisterText">Вкажіть ваше ім\'я та прізвище</string>
+  <string name="RegisterText">Вкажіть своє ім\'я та прізвище</string>
   <!--<string name="RegisterText">Set up your name and picture</string>-->
   <string name="FirstName">Ім\'я (обов\'язково)</string>
   <string name="LastName">Прізвище (необов\'язково)</string>
   <string name="CancelRegistration">Скасувати реєстрацію</string>
   <!--payments view-->
-  <string name="PaymentSuccessfullyPaid">Ви тільки що успішно перевели %1$s до %2$s для %3$s</string>
-  <string name="PaymentSuccessfullyPaidNoItem">Ви тільки що успішно перевели %1$s до %2$s</string>
-  <string name="PaymentCheckout">Перевірити</string>
+  <string name="PaymentSuccessfullyPaid">Ви щойно переказали %1$s до %2$s для %3$s</string>
+  <string name="PaymentSuccessfullyPaidNoItem">Ви щойно переказали %1$s до %2$s</string>
+  <string name="PaymentCheckout">Оформити замовлення</string>
   <string name="PaymentShippingMethod">Способи доставки</string>
-  <string name="PaymentNoShippingMethod">Вибачте, неможливо здійснити доставку за Вашою адресою</string>
+  <string name="PaymentNoShippingMethod">На жаль, неможливо здійснити доставку за вашою адресою</string>
   <string name="PaymentShippingInfo">Інформація про доставку</string>
   <string name="PaymentShippingAddress">Адреса доставки</string>
   <string name="PaymentShippingAddress1Placeholder">Адреса 1 (вулиця)</string>
@@ -56,24 +58,24 @@
   <string name="PaymentShippingPhoneNumber">Номер телефону</string>
   <string name="PaymentShippingEmailPlaceholder">E-Mail</string>
   <string name="PaymentShippingSave">Зберегти інформацію про доставку</string>
-  <string name="PaymentShippingSaveInfo">Ви можете зберегти Вашу інформацію про доставку для подальшого використання.</string>
+  <string name="PaymentShippingSaveInfo">Ви можете зберегти свою інформацію про доставку для подальшого використання.</string>
   <string name="PaymentCardInfo">Платіжна інформація</string>
   <string name="PaymentCardTitle">Платіжна картка</string>
   <string name="PaymentCardNumber">Номер картки</string>
   <string name="PaymentCardCvv">Код безпеки (CVV)</string>
-  <string name="PaymentCardExpireDate">ДД/РР</string>
+  <string name="PaymentCardExpireDate">ММ/РР</string>
   <string name="PaymentBillingAddress">Адреса для виставлення рахунків</string>
   <string name="PaymentCardNameTitle">Власник картки</string>
   <string name="PaymentCardName">Ім\'я та прізвище</string>
   <string name="PaymentCardSavePaymentInformation">Зберегти платіжну інформацію</string>
-  <string name="PaymentCardSavePaymentInformationInfoLine1">Ви можете зберегти Вашу платіжну інформацію для подальшого використання.</string>
-  <string name="PaymentCardSavePaymentInformationInfoLine2">Будь ласка, *увімкніть двофакторну перевірку*, щоб дозволити це.</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine1">Ви можете зберегти свою платіжну інформацію для подальшого використання.</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine2">Щоб дозволити цю дію, *увімкніть двоетапну перевірку*.</string>
   <string name="PaymentTransactionReview">Огляд транзакцій</string>
-  <string name="PaymentTransactionMessage">Ви справді хочете передати %1$sдо %2$s бот для %3$s?</string>
+  <string name="PaymentTransactionMessage">Ви справді хочете передати %1$s боту %2$s для %3$s?</string>
   <string name="PaymentTransactionTotal">Усього</string>
   <string name="PaymentInvoice">РАХУНОК</string>
   <string name="PaymentTestInvoice">ТЕСТОВИЙ РАХУНОК</string>
-  <string name="PaymentCheckoutPay">Оплатити %1$s</string>
+  <string name="PaymentCheckoutPay">СПЛАТИТИ %1$s</string>
   <string name="PaymentCheckoutMethod">Спосіб оплати</string>
   <string name="PaymentCheckoutProvider">Платіжний провайдер</string>
   <string name="PaymentCheckoutName">Ім\'я</string>
@@ -82,9 +84,10 @@
   <string name="PaymentCheckoutShippingMethod">Спосіб доставки</string>
   <string name="PaymentReceipt">Квитанція</string>
   <string name="PaymentConfirmationNewCard">Оберіть іншу картку</string>
-  <string name="PaymentPrecheckoutFailed">На жаль, бот скасував оплату</string>
-  <string name="PaymentFailed">Вибачте, платіж був відхилений.</string>
-  <string name="PaymentConnectionFailed">Не вдалося дістатись до сервера платежів. Будь ласка перевірте ваше підключення до інтернету та спробуйте знову</string>
+  <string name="PaymentConfirmationMessage">Вашу картку %1$s збережено. Щоб розрахуватися цією карткою, введіть пароль двоетапної перевірки.</string>
+  <string name="PaymentPrecheckoutFailed">На жаль, бот скасував оплату.</string>
+  <string name="PaymentFailed">На жаль, платіж було відхилено.</string>
+  <string name="PaymentConnectionFailed">Не вдалося підключитися до сервера платежів. Перевірте своє підключення до інтернету та спробуйте знову.</string>
   <string name="PaymentWarning">Увага</string>
   <string name="PaymentWarningText">Ні Телеграм, ні %1$s матиме доступу до інформації про вашу кредитну картку. Дані кредитної карти оброблятимуться лише платіжною системою %2$s.\n\nПлатежі надійдуть безпосередньо до розробника %1$s. Телеграм не може надати жодних гарантій, тому продовжуйте на свій страх і ризик. У разі виникнення проблем, будь ласка, зв’яжіться з розробником %1$s або вашим банком.</string>
   <!--chats view-->
