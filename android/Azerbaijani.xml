@@ -123,8 +123,6 @@
   <string name="HiddenName">Silinmiş hesab</string>
   <string name="SelectChat">Çatı seçin</string>
   <string name="PhotoTip">Baxmaq üçün basıb saxlayın</string>
-  <string name="DisappearingPhoto">Özü yoxa çıxan şəkil</string>
-  <string name="DisappearingVideo">Özü yoxa çıxan video</string>
   <string name="CompatibilityChat">%1$s Telegram-ın köhnəlmiş versiyasını istifadə etdiyinə görə gizli şəkillər uyğunluq rejimində görünəcəklər.\n\n%2$s Telegram-ı yeniləyəndən sonra, 1 dəqiqə və daha az vaxtda özünü məhv edən şəkillər «Baxmaq üçün basıb saxlayın» rejimində işləyəcək. Həmçinin həmsöhbətiniz ekran təsviri çəksə bildiriş alacaqsınız.</string>
   <string name="SearchMessages">MESAJLAR</string>
   <string name="Search">Axtarış</string>
@@ -325,7 +323,6 @@
   <string name="EditAdminRemoveAdmin">Administratorluqdan silə</string>
   <string name="EditAdminBanUsers">İstifadəçiləri ban edə</string>
   <string name="EditAdminAddUsers">İstifadəçiləri əlavə edə</string>
-  <string name="EditAdminAddUsersViaLink">İstifadəçiləri dəvət linki ilə əlavə etmək</string>
   <string name="EditAdminPinMessages">Mesajları bərkidə</string>
   <string name="EditAdminPromotedBy">Təyin etdi: %1$s</string>
   <string name="EditAdminCantEdit">Siz bu administratorun hüquqlarını dəyişə bilməzsiniz.</string>
@@ -586,8 +583,6 @@
   <string name="NotificationMessageNoText">%1$s sizə mesaj göndərib</string>
   <string name="NotificationMessagePhoto">%1$s sizə şəkil göndərib</string>
   <string name="NotificationMessageVideo">%1$s sizə video göndərib</string>
-  <string name="NotificationMessageSDPhoto">%1$s sizə özünü məhv edən şəkil göndərib</string>
-  <string name="NotificationMessageSDVideo">%1$s sizə özünü məhv edən video göndərib</string>
   <string name="NotificationMessageContact">%1$s sizinlə kontakt paylaşıb</string>
   <string name="NotificationMessageMap">%1$s sizə öz yerini göndərib</string>
   <string name="NotificationMessageGame">%1$s sizi %2$s oyununa dəvət edib</string>
@@ -734,7 +729,6 @@
   <string name="PhoneOther">Digər</string>
   <string name="PhoneMain">Əsas</string>
   <string name="UserBio">Haqqında</string>
-  <string name="UserBioEmpty">Boşdur</string>
   <string name="UserBioInfo">Siz özünüz haqqında bir-iki sətir yaza bilərsiniz. Profilinizi açan hər kəs bu mətni görəcək.</string>
   <string name="StartEncryptedChat">Gizli çatı başla</string>
   <string name="GroupsInCommon">Ortaq qruplar</string>
@@ -1305,8 +1299,6 @@
   <string name="UnsupportedMedia">Bu mesaj sizin versiya Telegram-da dəstəklənmir. Baxmaq üçün tətbiqi yeniləyin: https://telegram.org/update</string>
   <string name="AttachPhoto">Foto</string>
   <string name="AttachVideo">Video</string>
-  <string name="AttachPhotoExpired">Fotonun vaxtı bitib</string>
-  <string name="AttachVideoExpired">Videonun vaxtı bitib</string>
   <string name="AttachGif">Gif</string>
   <string name="AttachLocation">Yer</string>
   <string name="AttachContact">Kontakt</string>
@@ -1404,14 +1396,12 @@
   <string name="Page4Title">Təhlükəsiz</string>
   <string name="Page5Title">Güclü</string>
   <string name="Page6Title">Bulud</string>
-  <string name="Page7Title">Özəl</string>
   <string name="Page1Message">Dünyada ən <![CDATA[<b>sürətli</b>]]> messencer.\nHəm də <![CDATA[<b>pulsuz</b>]]> və <![CDATA[<b>təhlükəsiz</b>]]>.</string>
   <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> mesajları digər tətbiqlərdən\nsürətli çatdırır.</string>
   <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> həmişəlik pulsuzdur.\nHeç bir reklam. Heç bir abunəlik.</string>
   <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> sizin mesajlarınızı xaker hücumlarından\nqorunmuş yerdə saxlayır.</string>
   <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> sizin media və çatın ölçüsünə\nməhdudiyyət qoymur.</string>
   <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> sizin mesajlarınıza bir neçə\nсо qurğudan baxmağa imkan verir.</string>
-  <string name="Page7Message"><![CDATA[<b>Telegram</b>]]>-da bütün mesajlar güvənli şifrələnib və özünü məhv edə bilər.</string>
   <string name="StartMessaging">Ünsiyyətə başla</string>
   <!--VoIP-->
   <string name="AccountSettings">Profil kökləmələri</string>

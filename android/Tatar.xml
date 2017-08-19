@@ -126,8 +126,6 @@
   <string name="HiddenName">Бетерелгән аккаунт</string>
   <string name="SelectChat">Чатны сайлагыз</string>
   <string name="PhotoTip">Карар өчен басыгыз һәм көтеп торыгыз</string>
-  <string name="DisappearingPhoto">Югалучы фото</string>
-  <string name="DisappearingVideo">Югалучы видео</string>
   <string name="CompatibilityChat">%1$s Telegramның иске юрамасын куллана, шуның өчен яшерен фотосурәтләр туры китерү режимында күрсәтеләчәкләр.
 
 %2$s Telegramны яңарткач, фотосурәтләр минутлы яисә азрак вакыт белән \'Карар өчен басыгыз һәм көтеп торыгыз\' режимында эшли башлаячаклар, шулай ук сезгә әңгәмәдәшегез экран скриншоты ясаганда һәрвакыт белгертү киләчәк.</string>
@@ -330,7 +328,6 @@
   <string name="EditAdminRemoveAdmin">Администраторлыктан алу</string>
   <string name="EditAdminBanUsers">Кулланучыларны бикләү</string>
   <string name="EditAdminAddUsers">Кулланучылар өстәү</string>
-  <string name="EditAdminAddUsersViaLink">Чакыручы сылтамалар аша кулланучылар өстәү</string>
   <string name="EditAdminPinMessages">Хатлар беркетү</string>
   <string name="EditAdminPromotedBy">Өстәде: %1$s</string>
   <string name="EditAdminCantEdit">Сез бу администратор хокукларын үзгәртә алмыйсыз.</string>
@@ -591,8 +588,6 @@
   <string name="NotificationMessageNoText">%1$s сезгә хат җибәрде</string>
   <string name="NotificationMessagePhoto">%1$s сезгә фото җибәрде</string>
   <string name="NotificationMessageVideo">%1$s сезгә видео җибәрде</string>
-  <string name="NotificationMessageSDPhoto">%1$s сезгә югалучы фото җибәрде</string>
-  <string name="NotificationMessageSDVideo">%1$s сезгә югалучы видео җибәрде</string>
   <string name="NotificationMessageContact">%1$s сезнең белән контакт бүлеште</string>
   <string name="NotificationMessageMap">%1$s сезгә урнашу урынын җибәрде</string>
   <string name="NotificationMessageGame">%1$s сезне %2$s уйнарга чакырды</string>
@@ -747,7 +742,6 @@
   <string name="PhoneOther">Башка</string>
   <string name="PhoneMain">Төп</string>
   <string name="UserBio">Үзем турында</string>
-  <string name="UserBioEmpty">Тутырылмаган</string>
   <string name="UserBioInfo">Сез үзегез турында берничә юл яза аласыз. Профилегезне ачкан һәр кеше бу текстны күрә алачак.</string>
   <string name="StartEncryptedChat">Яшерен чатны башлау</string>
   <string name="GroupsInCommon">Уртак төркемнәр</string>
@@ -1328,8 +1322,6 @@
   <string name="UnsupportedMedia">Бу хат сезнең Telegram юрамасында укылмый. Карар өчен кушымтаны яңартыгыз: https://telegram.org/update</string>
   <string name="AttachPhoto">Фото</string>
   <string name="AttachVideo">Видео</string>
-  <string name="AttachPhotoExpired">Фото яраклыгы бетте</string>
-  <string name="AttachVideoExpired">Видео яраклыгы бетте</string>
   <string name="AttachGif">GIF</string>
   <string name="AttachLocation">Урнашу урыны</string>
   <string name="AttachContact">Контакт</string>
@@ -1427,14 +1419,12 @@
   <string name="Page4Title">Иминлек</string>
   <string name="Page5Title">Көчле</string>
   <string name="Page6Title">Болытлы</string>
-  <string name="Page7Title">Шәхсилек</string>
   <string name="Page1Message">Дөньядагы <![CDATA[<b>иң тиз</b>]]> мессенджер.\nӘ тагын <![CDATA[<b>түләүсез</b>]]> һәм <![CDATA[<b>куркынычсыз</b>]]>.</string>
   <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> бүтән кушымталарга караганда хатларны тизрәк тапшыра.</string>
   <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> бөтенләйгә түләүсез. Рекламасыз.\nЯзылуларсыз.</string>
   <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> хатларыгызны хакерлар һөҗүменнән\nкуркынычсызлыкта саклый.</string>
   <string name="Page5Message"><![CDATA[<b>Telegramда</b>]]> файллар һәм чатларыгыз өчен\nзурлык чикләүләре юк.</string>
   <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> төрле җайланмалардан\nхатларыгызны карау мөмкинлеген бирә.</string>
-  <string name="Page7Message"><![CDATA[<b>Telegramда</b>]]> бөтен хатлар шифрланганнар\nһәм үз-үзләрен бетерә алалар.</string>
   <string name="StartMessaging">Хатны башлау</string>
   <!--VoIP-->
   <string name="AccountSettings">Аккаунт көйләүләре</string>

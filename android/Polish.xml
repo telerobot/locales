@@ -1460,14 +1460,12 @@ Wylogowanie kończy natychmiast wszystkie twoje szyfrowane czaty.</string>
   <string name="Page4Title">Bezpieczny</string>
   <string name="Page5Title">Potężny</string>
   <string name="Page6Title">Działający w chmurze</string>
-  <string name="Page7Title">Prywatny</string>
   <string name="Page1Message"><![CDATA[<b>Najszybszy</b>]]> komunikator na świecie.\nJest <![CDATA[<b>darmowy</b>]]> oraz <![CDATA[<b>bezpieczny</b>]]>.</string>
   <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> dostarcza wiadomości szybciej niż\njakakolwiek inna aplikacja.</string>
   <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> jest darmowy na zawsze. Bez reklam.\nBez subskrypcji.</string>
   <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> zachowuje twoje wiadomości zabezpieczone\nprzed atakami hakerów.</string>
   <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> nie ma ograniczeń rozmiaru\ntwoich multimediów i czatów.</string>
   <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> umożliwia ci dostęp do wiadomości\nz wielu urządzeń.</string>
-  <string name="Page7Message"> Wiadomości w <![CDATA[1Telegramie1]]> są silnie szyfrowane i mogą ulegać autodestrukcji.</string>
   <string name="StartMessaging">Uruchom komunikator</string>
   <!--VoIP-->
   <string name="AccountSettings">Ustawienia konta</string>

@@ -123,8 +123,6 @@
   <string name="HiddenName">Account ełimenà</string>
   <string name="SelectChat">Sełesiona chat</string>
   <string name="PhotoTip">Sełesióneła tenjéndoła strucà par védarla</string>
-  <string name="DisappearingPhoto">Foto segreta</string>
-  <string name="DisappearingVideo">Video segreto</string>
   <string name="CompatibilityChat">%1$s L ze drio doparar na varsion de Telegram pì vecia, donca łe foto segrete łe venjarà mostràe co ła modałità de conpatibiłidà.\\n\\nNa \'olta che %2$s L ga ajornà Telegram, łe foto co\'l contador de 1 menuto o de manco łe tacarà a funsionar inte ła modałità \'Sełesióneła tenjéndoła strucà par védarla\', e A te venjarè notifegà onji \'olta che A venjarà brincà un screenshot.</string>
   <string name="SearchMessages">MESAJI</string>
   <string name="Search">Serca</string>
@@ -325,7 +323,6 @@
   <string name="EditAdminRemoveAdmin">Cava via aministrador</string>
   <string name="EditAdminBanUsers">Blocar utenti</string>
   <string name="EditAdminAddUsers">Zontar utenti</string>
-  <string name="EditAdminAddUsersViaLink">Zontar utenti co el link de invito</string>
   <string name="EditAdminPinMessages">Picar insima mesaji</string>
   <string name="EditAdminPromotedBy">Zontà da %1$s</string>
   <string name="EditAdminCantEdit">I priviłeji de \'sto aministrador no i połe mìa èsar modifegài.</string>
@@ -586,8 +583,6 @@
   <string name="NotificationMessageNoText">%1$s L te ga mandà un mesajo</string>
   <string name="NotificationMessagePhoto">%1$s L te ga mandà na foto</string>
   <string name="NotificationMessageVideo">%1$s L te ga mandà un video</string>
-  <string name="NotificationMessageSDPhoto">%1$s L te ga mandà na foto che ła se autodestruzarà</string>
-  <string name="NotificationMessageSDVideo">%1$s L te ga mandà un video che\'l se autodestruzarà</string>
   <string name="NotificationMessageContact">%1$s L te ga mandà na pozision</string>
   <string name="NotificationMessageMap">%1$s L te ga mandà na pozision</string>
   <string name="NotificationMessageGame">%1$s L te ga invità a zogar a %2$s</string>
@@ -734,7 +729,6 @@
   <string name="PhoneOther">Altro</string>
   <string name="PhoneMain">Tełèfono prensipałe</string>
   <string name="UserBio">Biografìa</string>
-  <string name="UserBioEmpty">Njancora scrivesta</string>
   <string name="UserBioInfo">A te połi zontar calche riga par descrìvarte. \'Sto testo el podarà èsar visto da tuti cuełi che A verzarà el to profiło.</string>
   <string name="StartEncryptedChat">Taca chat segreta</string>
   <string name="GroupsInCommon">Grupi in comun</string>
@@ -1306,8 +1300,6 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="UnsupportedMedia">\'Sto mesajo no\'l ze mìa suportà so ła to varsion de Telegram. Ajorna l\'app par védarlo: https://telegram.org/update</string>
   <string name="AttachPhoto">Foto</string>
   <string name="AttachVideo">Video</string>
-  <string name="AttachPhotoExpired">Ła foto ła se ga autodestruzesto</string>
-  <string name="AttachVideoExpired">El video el se ga autodestruzesto</string>
   <string name="AttachGif">GIF</string>
   <string name="AttachLocation">Pozision</string>
   <string name="AttachContact">Contato</string>
@@ -1405,14 +1397,12 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="Page4Title">Seguro</string>
   <string name="Page5Title">Potente</string>
   <string name="Page6Title">Co ła nùvoła</string>
-  <string name="Page7Title">Privà</string>
   <string name="Page1Message">L\'app de mesaji <![CDATA[<b>pì ràpida</b>]]> de\'l mondo.\nŁa ze <![CDATA[<b>agratis</b>]]> e <![CDATA[<b>segura</b>]]>. Tradusion: Academia Łengua Veneta</string>
   <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> ła consenja i mesaji pì\nrapidamente de calsìase altra aplegasion.</string>
   <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> ła ze agratis par senpre. Njauna\npublisidà. Njaun costo de abonamento.</string>
   <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> ła tien a\'l seguro\ni to mesaji da atachi hacker.</string>
   <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> no ła te dà łìmiti de\ngrandesa par i to media e łe to chat.</string>
   <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> ła te parmete l\'aceso\na i to mesaji da pì dispozitivi.</string>
-  <string name="Page7Message">I mesaji de <![CDATA[<b>Telegram</b>]]> i ze criptài de bruto\ne i połe autodestrùzarse.</string>
   <string name="StartMessaging">Taca mesajar</string>
   <!--VoIP-->
   <string name="AccountSettings">Inpostasion account</string>

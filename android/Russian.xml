@@ -734,7 +734,7 @@
   <string name="PhoneOther">Другое</string>
   <string name="PhoneMain">Основной</string>
   <string name="UserBio">О себе</string>
-  <string name="UserBioEmpty">Не заполнено</string>
+  <string name="UserBioEmpty">Добавить</string>
   <string name="UserBioInfo">Вы можете написать пару строк о себе. Любой, кто откроет ваш профиль, увидит этот текст.</string>
   <string name="StartEncryptedChat">Начать секретный чат</string>
   <string name="GroupsInCommon">Общие группы</string>
@@ -1404,14 +1404,12 @@
   <string name="Page4Title">Безопасный</string>
   <string name="Page5Title">Мощный</string>
   <string name="Page6Title">Облачный</string>
-  <string name="Page7Title">Приватный</string>
   <string name="Page1Message">Самый <![CDATA[<b>быстрый</b>]]> мессенджер в мире.\nА также <![CDATA[<b>бесплатный</b>]]> и <![CDATA[<b>безопасный</b>]]>.</string>
   <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> доставляет сообщения быстрее,\nчем любое другое приложение.</string>
   <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> бесплатный навсегда.\nНикакой рекламы. Никаких подписок.</string>
   <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> хранит ваши сообщения в безопасности\nот хакерских атак.</string>
   <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> не имеет ограничений на размер\nваших медиа и чатов.</string>
   <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> позволяет вам иметь доступ к вашим сообщениям\nсо множества устройств.</string>
-  <string name="Page7Message">Все сообщения в <![CDATA[<b>Telegram</b>]]> надёжно зашифрованы и могут самоуничтожаться.</string>
   <string name="StartMessaging">Начать общение</string>
   <!--VoIP-->
   <string name="AccountSettings">Настройки профиля</string>

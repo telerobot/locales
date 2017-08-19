@@ -123,8 +123,6 @@
   <string name="HiddenName">Compte supprimé</string>
   <string name="SelectChat">Sélectionnez une conversation</string>
   <string name="PhotoTip">Touchez et maintenez pour voir</string>
-  <string name="DisappearingPhoto">Photo éphémère</string>
-  <string name="DisappearingVideo">Vidéo éphémère</string>
   <string name="CompatibilityChat">%1$s utilise une version plus ancienne de Telegram, par conséquent les photos secrètes seront affichées en mode compatibilité.\n\Une fois que %2$s aura mis à jour son application, les photos avec compte-à-rebours de 1 minute ou moins seront visibles en mode \"toucher-pour-voir\" et vous serez averti si votre interlocuteur fait une capture d\'écran.</string>
   <string name="SearchMessages">MESSAGES</string>
   <string name="Search">Recherche</string>
@@ -325,7 +323,6 @@
   <string name="EditAdminRemoveAdmin">Retirer l\'administrateur</string>
   <string name="EditAdminBanUsers">Bannir des utilisateurs</string>
   <string name="EditAdminAddUsers">Ajouter des utilisateurs</string>
-  <string name="EditAdminAddUsersViaLink">Ajouter des utilisateurs via un lien d\'invitation</string>
   <string name="EditAdminPinMessages">Épingler des messages</string>
   <string name="EditAdminPromotedBy">Ajouté par %1$s</string>
   <string name="EditAdminCantEdit">Vous ne pouvez pas modifier les droits de cet administrateur.</string>
@@ -587,8 +584,6 @@
   <string name="NotificationMessageNoText">%1$s vous a envoyé un message</string>
   <string name="NotificationMessagePhoto">%1$s vous a envoyé une photo</string>
   <string name="NotificationMessageVideo">%1$s vous a envoyé une vidéo</string>
-  <string name="NotificationMessageSDPhoto">%1$s vous a envoyé une photo éphémère</string>
-  <string name="NotificationMessageSDVideo">%1$s vous a envoyé une vidéo éphémère</string>
   <string name="NotificationMessageContact">%1$s a partagé un contact avec vous</string>
   <string name="NotificationMessageMap">%1$s vous a envoyé une position</string>
   <string name="NotificationMessageGame">%1$s vous a invité à jouer à %2$s</string>
@@ -735,7 +730,6 @@
   <string name="PhoneOther">Autre</string>
   <string name="PhoneMain">Principal</string>
   <string name="UserBio">Bio</string>
-  <string name="UserBioEmpty">Non défini</string>
   <string name="UserBioInfo">Vous pouvez ajouter quelques lignes à propos de vous. Les utilisateurs qui consulteront votre profil verront ce texte.</string>
   <string name="StartEncryptedChat">Démarrer une conversation secrète</string>
   <string name="GroupsInCommon">Groupes en commun</string>
@@ -1306,8 +1300,6 @@
   <string name="UnsupportedMedia">Ce message n\'est pas supporté dans votre version de Telegram. Veuillez mettre à jour l\'app pour le voir: https://telegram.org/update</string>
   <string name="AttachPhoto">Photo</string>
   <string name="AttachVideo">Vidéo</string>
-  <string name="AttachPhotoExpired">La photo a expiré</string>
-  <string name="AttachVideoExpired">La vidéo a expiré</string>
   <string name="AttachGif">GIF</string>
   <string name="AttachLocation">Position</string>
   <string name="AttachContact">Contact</string>
@@ -1405,14 +1397,12 @@
   <string name="Page4Title">Sécurisé</string>
   <string name="Page5Title">Puissant</string>
   <string name="Page6Title">Basé sur le cloud</string>
-  <string name="Page7Title">Privé</string>
   <string name="Page1Message">La messagerie instantanée la plus <![CDATA[<b>rapide</b>]]> au monde.\n<![CDATA[<b>Gratuite</b>]]> and <![CDATA[<b>sécurisée</b>]]>.</string>
   <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> distribue les messages plus vite que \nn\'importe quelle autre application.</string>
   <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> est gratuit pour toujours. Sans pub.\nSans frais d\'inscription.</string>
   <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> garde vos messages à l\'abri \ndes attaques de hackers.</string>
   <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> n\'a aucune limite sur la taille de\nvos médias et conversations.</string>
   <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> vous permet d\'accéder à vos messages\ndepuis plusieurs appareils.</string>
-  <string name="Page7Message">Les messages <![CDATA[<b>Telegram</b>]]> sont lourdement chiffrés\net peuvent s\'auto-détruire.</string>
   <string name="StartMessaging">Démarrer une conversation</string>
   <!--VoIP-->
   <string name="AccountSettings">Paramètres du compte</string>

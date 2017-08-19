@@ -124,8 +124,6 @@
   <string name="HiddenName">Видалений обліковий запис</string>
   <string name="SelectChat">Оберіть чат</string>
   <string name="PhotoTip">Натисніть і утримуйте для перегляду</string>
-  <string name="DisappearingPhoto">Зникне Фотографія, Фото, Знімок</string>
-  <string name="DisappearingVideo">Зникне Відео</string>
   <string name="CompatibilityChat">%1$s використовує стару версію Telegram, тому секретні фото будуть відображатися в режимі сумісності.\n\nЯк тільки %2$s оновить Telegram, фото з таймером на 1 хвилину чи менше почнуть відображатися в режимі «Для перегляду натиснути й утримувати». Ви будете повідомлені, коли інша сторона приймає знімок екрану.</string>
   <string name="SearchMessages">ПОВІДОМЛЕННЯ</string>
   <string name="Search">Пошук</string>
@@ -324,7 +322,6 @@
   <string name="EditAdminRemoveAdmin">Звільнити Адміністратора</string>
   <string name="EditAdminBanUsers">Заборонити Користувачів</string>
   <string name="EditAdminAddUsers">Додати Користувачів</string>
-  <string name="EditAdminAddUsersViaLink">Додати Користувачів за запрошенням</string>
   <string name="EditAdminPinMessages">Закріпити Повідомлення</string>
   <string name="EditAdminPromotedBy">Додано %1$s</string>
   <string name="EditAdminCantEdit">Ви не можете редагувати права цього адміністратора.</string>
@@ -687,7 +684,6 @@
   <string name="PhoneWork">Робочий</string>
   <string name="PhoneOther">Інший</string>
   <string name="PhoneMain">Основний</string>
-  <string name="UserBioEmpty">Не встановлено</string>
   <string name="StartEncryptedChat">Почати секретний чат</string>
   <string name="CreateEncryptedChatError">Сталася помилка.</string>
   <string name="EncryptionKey">Ключ шифрування</string>
@@ -1250,7 +1246,6 @@
   <string name="Page4Title">Безпечний</string>
   <string name="Page5Title">Потужний</string>
   <string name="Page6Title">Хмарний</string>
-  <string name="Page7Title">Приватний</string>
   <string name="StartMessaging">Почати спілкування</string>
   <!--VoIP-->
   <string name="AccountSettings">Налаштування облікового запису</string>

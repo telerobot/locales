@@ -118,8 +118,6 @@
   <string name="HiddenName">Silinmiş Hesap</string>
   <string name="SelectChat">Sohbet Seçin</string>
   <string name="PhotoTip">Görüntülemek için dokunun ve basılı tutun</string>
-  <string name="DisappearingPhoto">Kaybolan resim</string>
-  <string name="DisappearingVideo">Kaybolan vidyo</string>
   <string name="CompatibilityChat">%1$s Telegram\'ın eski bir sürümünü kullanıyor, bu nedenle gizli fotoğraflar uyumluluk modunda gösterilecek.
 
 %2$s Telegram\'ı güncellediğinde 1 dakika veya daha az süreli zamanlanmış fotoğraflar görüntülenmeye \"Görüntülemek için basılı tutun\" modunda başlanacak ve karşınızdaki kişi ekran görüntüsü aldığında bilgilendirileceksiniz.</string>
@@ -321,7 +319,6 @@
   <string name="EditAdminRemoveAdmin">Yöneticiyi Kaldır</string>
   <string name="EditAdminBanUsers">Kullanıcı Engelle</string>
   <string name="EditAdminAddUsers">Kullanıcı Ekle</string>
-  <string name="EditAdminAddUsersViaLink">Davet Bağlantısı kullanarak Kullanıcı Ekle</string>
   <string name="EditAdminPinMessages">Sabitlenmiş Mesajlar</string>
   <string name="EditAdminPromotedBy">%1$s tarafından eklendi.</string>
   <string name="EditAdminCantEdit">Bu yöneticinin haklarını düzenleyemezsiniz.</string>
@@ -580,8 +577,6 @@ sorunuz mu var?</string>
   <string name="NotificationMessageNoText">%1$s size bir mesaj gönderdi</string>
   <string name="NotificationMessagePhoto">%1$s size bir fotoğraf gönderdi</string>
   <string name="NotificationMessageVideo">%1$s size bir video gönderdi</string>
-  <string name="NotificationMessageSDPhoto">%1$s size kendiliğinden silinen bir resim gönderdi</string>
-  <string name="NotificationMessageSDVideo">%1$s size kendiliğinden silinen bir vidyo gönderdi</string>
   <string name="NotificationMessageContact">%1$s sizinle bir kişi paylaştı</string>
   <string name="NotificationMessageMap">%1$s size bir konum gönderdi</string>
   <string name="NotificationMessageGame">%1$s, sizi %2$s oynamak için davet etti.</string>
@@ -727,7 +722,6 @@ sorunuz mu var?</string>
   <string name="PhoneOther">Diğer</string>
   <string name="PhoneMain">Anasayfa</string>
   <string name="UserBio">Hakkında</string>
-  <string name="UserBioEmpty">Ayarlanmadı</string>
   <string name="UserBioInfo">Kendini hakkında bir kaç cümle yazabilirsiniz. Profilinize bakan herkes bu yazıyı görecek.</string>
   <string name="StartEncryptedChat">Gizli Sohbet Başlat</string>
   <string name="GroupsInCommon">Ortak Gruplar</string>
@@ -1299,8 +1293,6 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="UnsupportedMedia">Telegram sürümünüz bu mesajı desteklemiyor. Uygulamayı güncelleyin: https://telegram.org/update</string>
   <string name="AttachPhoto">Fotoğraf</string>
   <string name="AttachVideo">Video</string>
-  <string name="AttachPhotoExpired">Fotoğrafın süresi doldu</string>
-  <string name="AttachVideoExpired">Vidyonun süresi doldu</string>
   <string name="AttachGif">GIF</string>
   <string name="AttachLocation">Konum</string>
   <string name="AttachContact">Kişi</string>
@@ -1402,14 +1394,12 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="Page4Title">Güvenli</string>
   <string name="Page5Title">Güçlü</string>
   <string name="Page6Title">Bulut Tabanlı</string>
-  <string name="Page7Title">Özel</string>
   <string name="Page1Message">Dünyanın <![CDATA[<b>en hızlı</b>]]> mesajlaşma uygulaması.\n<![CDATA[<b>Ücretsiz</b>]]> ve <![CDATA[<b>güvenli</b>]]>.</string>
   <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> mesajlarınızı diğer\nuygulamalardan daha hızlı gönderir.</string>
   <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> sonsuza kadar ücretsiz. Reklam yok.\nKayıt ücreti yok.</string>
   <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> mesajlarınızı\nsaldırganlara karşı korur.</string>
   <string name="Page5Message"><![CDATA[<b>Telegram</b>]]>da sohbet ve medya\niçeriği için sınır yoktur.</string>
   <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> mesajlarıza birden fazla\ncihazdan ulaşabilmenizi sağlar.</string>
-  <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> mesajları güçlü bir şekilde şifrelernmiştir\n ve mesajlar kendilerini yok edebilirler.</string>
   <string name="StartMessaging">Mesajlaşmaya Başlayın</string>
   <!--VoIP-->
   <string name="AccountSettings">Hesap Ayarları</string>
