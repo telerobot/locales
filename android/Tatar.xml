@@ -126,6 +126,8 @@
   <string name="HiddenName">Бетерелгән аккаунт</string>
   <string name="SelectChat">Чатны сайлагыз</string>
   <string name="PhotoTip">Карар өчен басыгыз һәм көтеп торыгыз</string>
+  <string name="DisappearingPhoto">Серле фото</string>
+  <string name="DisappearingVideo">Серле видео</string>
   <string name="CompatibilityChat">%1$s Telegramның иске юрамасын куллана, шуның өчен яшерен фотосурәтләр туры китерү режимында күрсәтеләчәкләр.
 
 %2$s Telegramны яңарткач, фотосурәтләр минутлы яисә азрак вакыт белән \'Карар өчен басыгыз һәм көтеп торыгыз\' режимында эшли башлаячаклар, шулай ук сезгә әңгәмәдәшегез экран скриншоты ясаганда һәрвакыт белгертү киләчәк.</string>
