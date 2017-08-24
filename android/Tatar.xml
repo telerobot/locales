@@ -330,6 +330,7 @@
   <string name="EditAdminRemoveAdmin">Администраторлыктан алу</string>
   <string name="EditAdminBanUsers">Кулланучыларны бикләү</string>
   <string name="EditAdminAddUsers">Кулланучылар өстәү</string>
+  <string name="EditAdminAddUsersViaLink">Кулланучыларны сылтама аша өстәү</string>
   <string name="EditAdminPinMessages">Хатлар беркетү</string>
   <string name="EditAdminPromotedBy">Өстәде: %1$s</string>
   <string name="EditAdminCantEdit">Сез бу администратор хокукларын үзгәртә алмыйсыз.</string>
@@ -426,7 +427,7 @@
   <string name="EnterListName">Хатлар таратуның исемен кертегез</string>
   <string name="YouCreatedBroadcastList">Сез хатлар тарату төзедегез</string>
   <string name="AddRecipient">Алучыны өстәү</string>
-  <string name="KickFromBroadcast">Хатлар тарату исемлегеннән чыгу</string>
+  <string name="KickFromBroadcast">Хатлар тарату исемлегеннән чыгару</string>
   <!--audio view-->
   <string name="NoAudio">Файлларны монда күрү өчен аларны җайланманың музыкаль китапханәсенә өстәгез.</string>
   <string name="AttachMusic">Музыка</string>
@@ -590,6 +591,8 @@
   <string name="NotificationMessageNoText">%1$s сезгә хат җибәрде</string>
   <string name="NotificationMessagePhoto">%1$s сезгә фото җибәрде</string>
   <string name="NotificationMessageVideo">%1$s сезгә видео җибәрде</string>
+  <string name="NotificationMessageSDPhoto">%1$s сезгә югалучы фото җибәрде</string>
+  <string name="NotificationMessageSDVideo">%1$s сезгә югалучы видео җибәрде</string>
   <string name="NotificationMessageContact">%1$s сезнең белән контакт бүлеште</string>
   <string name="NotificationMessageMap">%1$s сезгә урнашу урынын җибәрде</string>
   <string name="NotificationMessageGame">%1$s сезне %2$s уйнарга чакырды</string>
@@ -720,7 +723,7 @@
   <string name="DeleteAndExit">Төркемне бетерү һәм чыгу</string>
   <string name="Notifications">Белгертүләр</string>
   <string name="KickFromSupergroup">Хокукларны чикләү</string>
-  <string name="KickFromGroup">Төркемнән чыгу</string>
+  <string name="KickFromGroup">Төркемнән чыгару</string>
   <string name="UpgradeGroup">Супертөркемгә әйләндерелде</string>
   <string name="ConvertGroup">Супертөркемгә үзгәртелде</string>
   <string name="ConvertGroupMenu">Супертөркемгә үзгәртелде</string>
@@ -744,6 +747,7 @@
   <string name="PhoneOther">Башка</string>
   <string name="PhoneMain">Төп</string>
   <string name="UserBio">Үзем турында</string>
+  <string name="UserBioEmpty">Тутырылмаган</string>
   <string name="UserBioInfo">Сез үзегез турында берничә юл яза аласыз. Профилегезне ачкан һәр кеше бу текстны күрә алачак.</string>
   <string name="StartEncryptedChat">Яшерен чатны башлау</string>
   <string name="GroupsInCommon">Уртак төркемнәр</string>
@@ -1324,6 +1328,8 @@
   <string name="UnsupportedMedia">Бу хат сезнең Telegram юрамасында укылмый. Карар өчен кушымтаны яңартыгыз: https://telegram.org/update</string>
   <string name="AttachPhoto">Фото</string>
   <string name="AttachVideo">Видео</string>
+  <string name="AttachPhotoExpired">Фото яраклыгы бетте</string>
+  <string name="AttachVideoExpired">Видео яраклыгы бетте</string>
   <string name="AttachGif">GIF</string>
   <string name="AttachLocation">Урнашу урыны</string>
   <string name="AttachContact">Контакт</string>
