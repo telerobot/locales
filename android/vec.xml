@@ -123,6 +123,8 @@
   <string name="HiddenName">Account ełimenà</string>
   <string name="SelectChat">Sełesiona chat</string>
   <string name="PhotoTip">Sełesióneła tenjéndoła strucà par védarla</string>
+  <string name="DisappearingPhoto">Foto segreta</string>
+  <string name="DisappearingVideo">Video segreto</string>
   <string name="CompatibilityChat">%1$s L ze drio doparar na varsion de Telegram pì vecia, donca łe foto segrete łe venjarà mostràe co ła modałità de conpatibiłidà.\\n\\nNa \'olta che %2$s L ga ajornà Telegram, łe foto co\'l contador de 1 menuto o de manco łe tacarà a funsionar inte ła modałità \'Sełesióneła tenjéndoła strucà par védarla\', e A te venjarè notifegà onji \'olta che A venjarà brincà un screenshot.</string>
   <string name="SearchMessages">MESAJI</string>
   <string name="Search">Serca</string>
@@ -323,6 +325,7 @@
   <string name="EditAdminRemoveAdmin">Cava via aministrador</string>
   <string name="EditAdminBanUsers">Blocar utenti</string>
   <string name="EditAdminAddUsers">Zontar utenti</string>
+  <string name="EditAdminAddUsersViaLink">Invitar utenti co un link</string>
   <string name="EditAdminPinMessages">Picar insima mesaji</string>
   <string name="EditAdminPromotedBy">Zontà da %1$s</string>
   <string name="EditAdminCantEdit">I priviłeji de \'sto aministrador no i połe mìa èsar modifegài.</string>
@@ -583,6 +586,8 @@
   <string name="NotificationMessageNoText">%1$s L te ga mandà un mesajo</string>
   <string name="NotificationMessagePhoto">%1$s L te ga mandà na foto</string>
   <string name="NotificationMessageVideo">%1$s L te ga mandà un video</string>
+  <string name="NotificationMessageSDPhoto">%1$s L te ga mandà na foto che ła se autodestruzarà</string>
+  <string name="NotificationMessageSDVideo">%1$s L te ga mandà un video che\'l se autodestruzarà</string>
   <string name="NotificationMessageContact">%1$s L te ga mandà na pozision</string>
   <string name="NotificationMessageMap">%1$s L te ga mandà na pozision</string>
   <string name="NotificationMessageGame">%1$s L te ga invità a zogar a %2$s</string>
@@ -1300,6 +1305,8 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="UnsupportedMedia">\'Sto mesajo no\'l ze mìa suportà so ła to varsion de Telegram. Ajorna l\'app par védarlo: https://telegram.org/update</string>
   <string name="AttachPhoto">Foto</string>
   <string name="AttachVideo">Video</string>
+  <string name="AttachPhotoExpired">Ła foto ła se ga autodestruzesto</string>
+  <string name="AttachVideoExpired">El video el se ga autodestruzesto</string>
   <string name="AttachGif">GIF</string>
   <string name="AttachLocation">Pozision</string>
   <string name="AttachContact">Contato</string>
