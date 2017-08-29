@@ -35,10 +35,10 @@
   <string name="CancelLinkSuccess">El proseso de ełimenasion par l\'account %1$s el ze sta anułà. Deso A te połi sarar su \'sta fenestra.</string>
   <!--signup view-->
   <string name="YourName">El to nome</string>
-  <string name="RegisterText">Inposta el to nome e conjome</string>
+  <string name="RegisterText">Inposta el to nome primo e cheło de fameja</string>
   <!--<string name="RegisterText">Set up your name and picture</string>-->
   <string name="FirstName">Nome (nesesario)</string>
-  <string name="LastName">Conjome (opsionałe)</string>
+  <string name="LastName">Fameja (opsionałe)</string>
   <string name="CancelRegistration">Anuła rejistrasion</string>
   <!--payments view-->
   <string name="PaymentSuccessfullyPaid">A te ghè pena trasfarìo %1$s a %2$s par %3$s co suceso</string>
@@ -67,7 +67,7 @@
   <string name="PaymentCardExpireDate">MM/YY</string>
   <string name="PaymentBillingAddress">Ndariso de faturasion</string>
   <string name="PaymentCardNameTitle">Titołar de ła carta</string>
-  <string name="PaymentCardName">Conjome</string>
+  <string name="PaymentCardName">Fameja</string>
   <string name="PaymentCardSavePaymentInformation">Salva informasion de pagamento</string>
   <string name="PaymentCardSavePaymentInformationInfoLine1">A te połi salvar łe to informasion de pagamento par un dòparo fuduro.</string>
   <string name="PaymentCardSavePaymentInformationInfoLine2">*Inposta ła verìfega in 2 pasaji* par ativar \'sta funsion.</string>
@@ -892,7 +892,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="SortBy">Òrdena par</string>
   <string name="ImportContacts">Inporta contati</string>
   <string name="SortFirstName">Nome</string>
-  <string name="SortLastName">Conjome</string>
+  <string name="SortLastName">Fameja</string>
   <string name="LedColor">Cołor LED</string>
   <string name="PopupNotification">Notìfeghe salta-sù</string>
   <string name="NoPopup">Dezativàe</string>
@@ -1327,7 +1327,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="InvalidCode">Còdaze mìa vàłido</string>
   <string name="PhoneNumberFlood">Ne despiaze, de resente A te ghè ełimenà e recreà el to account masa \'olte. Speta calche dì prima de rejistrarte n\'antra \'olta.</string>
   <string name="InvalidFirstName">Nome mìa vàłido</string>
-  <string name="InvalidLastName">Conjome mìa vàłido</string>
+  <string name="InvalidLastName">Nome fameja mìa vàłido</string>
   <string name="Loading">Cargando...</string>
   <string name="NoPlayerInstalled">A te si sensa reprodutor video, instàłaghine un par continuar</string>
   <string name="NoMailInstalled">Màndane na mail so sms@stel.com e cóntane el to problema.</string>
