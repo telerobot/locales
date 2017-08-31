@@ -660,7 +660,7 @@
   <!--contacts view-->
   <string name="SelectContact">Sełesiona contato</string>
   <string name="NoContacts">Njancora njaun contato</string>
-  <string name="InviteText">Pasa anca ti so Telegram: https://telegram.org/dl \\nDa uncó anca in łengua veneta!</string>
+  <string name="InviteText">Ciao! Pasa anca ti so Telegram: https://telegram.org/dl \\nDa uncó anca in łengua veneta!</string>
   <string name="TodayAt">a łe</string>
   <string name="YesterdayAt">jiri a łe</string>
   <string name="Online">L ze in łinea</string>
