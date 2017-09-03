@@ -1,6 +1,6 @@
 [main]
 host = https://www.transifex.com
-lang_map = ar:Arabic, az:Azerbaijani, be:Belarusian, be@tarask:Taraskievica, cs:Czech, fr:French, hy:Armenian, pl:Polish, ru:Russian, tg:Tajik, tr:Turkish, tt:Tatar, uk:Ukrainian, uz:Uzbek
+lang_map = ar:Arabic, az:Azerbaijani, be:Belarusian, be@tarask:Taraskievica, cs:Czech, fr:French, hy:Armenian, pl:Polish, ru:Russian, tg:Tajik, tr:Turkish, tt:Tatar, uk:Ukrainian, uz:Uzbek, vec:Venetian
 
 [telegram-android.TelegramApp]
 source_lang = en
