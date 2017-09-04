@@ -242,8 +242,8 @@
   <string name="ChannelLeaveAlert">Vutu davero ndar fora da\'l canałe?</string>
   <string name="ChannelDeleteInfo">A te perdarè tuti i mesaji inte \'sto canałe.</string>
   <string name="ChannelEdit">Modìfega</string>
-  <string name="MegaWasPrivateAlert">Tien conto che se A te ghe sernìo un link pùblego par el to grupo, co na reserca tuti i sarà boni de catarlo fora e de zontarse rento.\\n\\nNo sta mìa crear \'sto link se te vołi che el to supargrupo el stae privà.</string>
-  <string name="ChannelWasPrivateAlert">Tien conto che se A te ghe sernìo un link pùblego par el to canałe, co na reserca tuti i sarà boni de catarlo fora e de zontarse rento.\\n\\nNo sta mìa crear \'sto link se te vołi che el to canałe el stae privà.</string>
+  <string name="MegaWasPrivateAlert">Tien da conto che se A te ghe sernìo un link pùblego par el to grupo, co na reserca tuti i sarà boni de catarlo fora e de zontarse rento.\\n\\nNo sta mìa crear \'sto link se te vołi che el to supargrupo el stae privà.</string>
+  <string name="ChannelWasPrivateAlert">Tien da conto che se A te ghe sernìo un link pùblego par el to canałe, co na reserca tuti i sarà boni de catarlo fora e de zontarse rento.\\n\\nNo sta mìa crear \'sto link se te vołi che el to canałe el stae privà.</string>
   <string name="ChannelPublicEmptyUsername">Sernisi un link in manjera che, co na reserca, łe parsone łe posa catar fora el to canałe pùblego e sparpanjarlo co cheł\'altri.\\n\\nSe, invese, A no te ghè mìa intarese par \'sta funsion, A te sujerimo de crear un canałe privà.</string>
   <string name="ActionCreateChannel">Canałe creà</string>
   <string name="ActionChannelChangedPhoto">Foto de\'l canałe canbiada</string>
@@ -274,7 +274,7 @@
   <string name="ChannelUserCantAdd">Ne despiaze, A no te połi mìa zontar \'sto utente inte un canałe.</string>
   <string name="ChannelUserCantAdmin">Ne despiaze, A ghe ze masa aministradori inte \'sto canałe.</string>
   <string name="ChannelUserCantBot">Ne despiaze, A ghe ze masa bot inte \'sto canałe.</string>
-  <string name="ChannelUserAddLimit">Ne despiaze, A te połi zontar soło fin a 200 menbri inte un canałe. Tien conto che co el link de un canałe A połe zontarse rento un nùmaro infenìo de parsone.</string>
+  <string name="ChannelUserAddLimit">Ne despiaze, A te połi zontar soło fin a 200 menbri inte un canałe. Tien da conto che co el link de un canałe A połe zontarse rento un nùmaro infenìo de parsone.</string>
   <string name="ChannelAddedBy">un1 L te ga zontà inte \'sto canałe</string>
   <string name="ChannelJoined">Te te si zontà rento \'sto canałe</string>
   <string name="ChannelMegaJoined">Te te si zontà rento \'sto grupo</string>
@@ -1189,7 +1189,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="PrivacyLastSeen">Ùltemo aceso</string>
   <string name="PrivacyPayments">Pagaminti</string>
   <string name="PrivacyPaymentsClear">Neta pagaminti &amp; informasion de spedision</string>
-  <string name="PrivacyPaymentsClearInfo">A te połi ełimenar łe to informasion de spedision e darghe istrusion a tuti i fornidori de servisi de pagamento de cavar via ła to carta de crèdito salvada. Tien conto che Telegram no\'l archiva miga mai i dati de ła to carta de crèdito.</string>
+  <string name="PrivacyPaymentsClearInfo">A te połi ełimenar łe to informasion de spedision e darghe istrusion a tuti i fornidori de servisi de pagamento de cavar via ła to carta de crèdito salvada. Tien da conto che Telegram no\'l archiva miga mai i dati de ła to carta de crèdito.</string>
   <string name="PrivacyClearShipping">Informasion de spedision</string>
   <string name="PrivacyClearPayment">Informasion de pagamento</string>
   <string name="LastSeenEverybody">Tuti</string>
@@ -1371,8 +1371,8 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="FeatureUnavailable">Ne despiaze, par deso \'sta funsion no ła ze mìa disponìbiłe inte\'l to Stado.</string>
   <string name="NoUsernameFound">A no ghe ze njaun account Telegram co \'sto nome utente.</string>
   <string name="BotCantJoinGroups">\'Sto bot no\'l połe zontarse inte i grupi.</string>
-  <string name="SecretLinkPreviewAlert">Ghetu caro ativar łe anteprime estendeste de i link inte łe chat segrete? Tien conto che łe anteprime de i link łe ze jeneràe so i server de Telegram.</string>
-  <string name="SecretChatContextBotAlert">Tien conto che i bot i ze fornìi da zviłupadori estarni. Par fàrghine funsionar uno, i sìnbołi che A te scrivi dopo el nome de\'l bot i vien mandài a\'l respetivo zviłupador.</string>
+  <string name="SecretLinkPreviewAlert">Ghetu caro ativar łe anteprime estendeste de i link inte łe chat segrete? Tien da conto che łe anteprime de i link łe ze jeneràe so i server de Telegram.</string>
+  <string name="SecretChatContextBotAlert">Tien da conto che i bot i ze fornìi da zviłupadori estarni. Par fàrghine funsionar uno, i sìnbołi che A te scrivi dopo el nome de\'l bot i vien mandài a\'l respetivo zviłupador.</string>
   <string name="RaiseToSpeakAlert">Ghetu caro ativar el \"Łeva sù par parlar\" par i mesaji vocałi?</string>
   <string name="EditMessageError">Ne despiaze, A no te połi mìa modifegar \'sto mesajo.</string>
   <string name="AllowReadSms">Parmétaghe a Telegram de resévar SMS, in manjera che A podemo insarir automategamente el to còdaze par ti.</string>
@@ -1717,4 +1717,5 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s a łe %2$s</string>
+  <!--04 september 2017-->
 </resources>

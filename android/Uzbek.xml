@@ -1246,4 +1246,5 @@
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">hh::mm</string>
   <string name="formatDateAtTime">%2$s da %1$s</string>
+  <!--04 september 2017-->
 </resources>

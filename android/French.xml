@@ -735,7 +735,7 @@
   <string name="PhoneOther">Autre</string>
   <string name="PhoneMain">Principal</string>
   <string name="UserBio">Bio</string>
-  <string name="UserBioEmpty">Aucun</string>
+  <string name="UserBioEmpty">Aucune</string>
   <string name="UserBioInfo">Vous pouvez ajouter quelques lignes à propos de vous. Les utilisateurs qui consulteront votre profil verront ce texte.</string>
   <string name="StartEncryptedChat">Démarrer une conversation secrète</string>
   <string name="GroupsInCommon">Groupes en commun</string>
@@ -1718,4 +1718,5 @@
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s à %2$s</string>
+  <!--04 september 2017-->
 </resources>
