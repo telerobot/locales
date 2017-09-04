@@ -186,7 +186,7 @@
   <string name="ActionPinnedGame">un1 L ga picà insima %1$s</string>
   <string name="ActionPinnedGeo">un1 L ga picà insima na pozision</string>
   <string name="ActionPinnedGif">un1 L ga picà insima na GIFa</string>
-  <string name="ActionPinnedMusic">un1 L ga picà insima un àudio</string>
+  <string name="ActionPinnedMusic">un1 L ga picà insima un audio</string>
   <string name="ActionMigrateFromGroup">\'Sto grupo el ze sta ajornà in supargrupo</string>
   <string name="ActionMigrateFromGroupNotify">%1$s L ze sta ajornà in supargrupo</string>
   <string name="NoBlockedGroup">I utenti blocài i vien cavài via da\'l grupo e i połe tornarghe rento soło se invitài da un aministrador. El link de invito no\'l funsiona mìa par łuri.</string>
@@ -291,7 +291,7 @@
   <string name="ChannelMessageGroupGif">%1$s L ga mandà na GIF so\'l canałe %2$s</string>
   <string name="ChannelMessageGroupAudio">%1$s L ga mandà un mesajo vocałe so\'l canałe %2$s</string>
   <string name="ChannelMessageGroupRound">%1$s L ga mandà un mesajo video so\\'l canałe %2$s</string>
-  <string name="ChannelMessageGroupMusic">%1$s L ga mandà un àudio so\'l canałe %2$s</string>
+  <string name="ChannelMessageGroupMusic">%1$s L ga mandà un audio so\'l canałe %2$s</string>
   <string name="ChannelMessageGroupSticker">%1$s L ga mandà na figureta so\'l canałe %2$s</string>
   <string name="ChannelMessageGroupStickerEmoji">%1$s L ga mandà na figureta %3$s so\'l canałe %2$s</string>
   <string name="ChannelMessageNoText">%1$s L ga publegà un mesajo</string>
@@ -303,7 +303,7 @@
   <string name="ChannelMessageGIF">%1$s L ga publegà na GIF</string>
   <string name="ChannelMessageAudio">%1$s L ga publegà un mesajo vocałe</string>
   <string name="ChannelMessageRound">%1$s L ga publegà un mesajo video</string>
-  <string name="ChannelMessageMusic">%1$s L ga publegà un àudio</string>
+  <string name="ChannelMessageMusic">%1$s L ga publegà un audio</string>
   <string name="ChannelMessageSticker">%1$s L ga publegà na figureta</string>
   <string name="ChannelMessageStickerEmoji">%1$s L ga publegà na figureta %2$s</string>
   <string name="WhoCanAddMembers">Chi pòseło zontar menbri novi?</string>
@@ -450,7 +450,7 @@
   <string name="AreTyping">L ze drio scrìvar...</string>
   <string name="IsRecordingAudio">%1$s L ze drio rejistrar un mesajo vocałe...</string>
   <string name="IsRecordingRound">%1$s L ze drio rejistrar un mesajo video...</string>
-  <string name="IsSendingAudio">%1$s L ze drio mandar un àudio...</string>
+  <string name="IsSendingAudio">%1$s L ze drio mandar un audio...</string>
   <string name="IsSendingPhoto">%1$s L ze drio mandar na foto...</string>
   <string name="InstantView">VIZION IMEDIÀ</string>
   <string name="OpenGroup">VERZI GRUPO</string>
@@ -461,7 +461,7 @@
   <string name="IsSendingFile">%1$s L ze drio mandar un file...</string>
   <string name="RecordingAudio">L ze drio rejistrar un mesajo vocałe...</string>
   <string name="RecordingRound">L ze drio rejistrar un mesajo video...</string>
-  <string name="SendingAudio">L ze drio mandar un àudio...</string>
+  <string name="SendingAudio">L ze drio mandar un audio...</string>
   <string name="SendingPhoto">L ze drio mandar na foto...</string>
   <string name="SendingGame">L ze drio zogar a un zogo...</string>
   <string name="SendingVideoStatus">L ze drio mandar un video...</string>
@@ -561,8 +561,8 @@
   <string name="DeleteForUser">Ełìmena anca par %1$s</string>
   <string name="DeleteForAll">Ełìmena anca par tuti i menbri</string>
   <string name="TextCopied">Testo copià inte łe note</string>
-  <string name="HoldToAudio">Tien strucà par rejistrar un àudio. Toca par poder rejistrar un video.</string>
-  <string name="HoldToVideo">Tien strucà par rejistrar un video. Toca par poder rejistrar un àudio.</string>
+  <string name="HoldToAudio">Tien strucà par rejistrar un audio. Toca par poder rejistrar un video.</string>
+  <string name="HoldToVideo">Tien strucà par rejistrar un video. Toca par poder rejistrar un audio.</string>
   <string name="DiscardVoiceMessageTitle">Scarta mesajo vocałe</string>
   <string name="DiscardVoiceMessageDescription">Vutu davero blocar ła rejistrasion e scartar el to mesajo vocałe?</string>
   <string name="DiscardVideoMessageTitle">Scarta mesajo video</string>
@@ -595,7 +595,7 @@
   <string name="NotificationMessageGif">%1$s L te ga mandà na GIF</string>
   <string name="NotificationMessageAudio">%1$s L te ga mandà un mesajo vocałe</string>
   <string name="NotificationMessageRound">%1$s L te ga mandà un mesajo video</string>
-  <string name="NotificationMessageMusic">%1$s L te ga mandà un àudio</string>
+  <string name="NotificationMessageMusic">%1$s L te ga mandà un audio</string>
   <string name="NotificationMessageSticker">%1$s L te ga mandà na figureta</string>
   <string name="NotificationMessageStickerEmoji">%1$s L te ga mandà na figureta %2$s</string>
   <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
@@ -609,7 +609,7 @@
   <string name="NotificationMessageGroupGif">%1$s L ga mandà na GIF inte\'l grupo %2$s</string>
   <string name="NotificationMessageGroupAudio">%1$s L ga mandà un mesajo vocałe inte\'l grupo %2$s</string>
   <string name="NotificationMessageGroupRound">%1$s L ga mandà un mesajo video inte\\'l grupo %2$s</string>
-  <string name="NotificationMessageGroupMusic">%1$s L ga mandà un àudio inte\'l grupo %2$s</string>
+  <string name="NotificationMessageGroupMusic">%1$s L ga mandà un audio inte\'l grupo %2$s</string>
   <string name="NotificationMessageGroupSticker">%1$s L ga mandà na figureta inte\'l grupo %2$s</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s L ga mandà na figureta %3$s inte\'l grupo %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s L te ga invità inte\'l grupo %2$s</string>
@@ -642,7 +642,7 @@
   <string name="NotificationActionPinnedContact">%1$s L ga picà insima un contato inte\'l grupo %2$s</string>
   <string name="NotificationActionPinnedGeo">%1$s L ga picà insima na pozision inte\'l grupo %2$s</string>
   <string name="NotificationActionPinnedGif">%1$s L ga picà insima na GIF inte\'l grupo %2$s</string>
-  <string name="NotificationActionPinnedMusic">%1$s L ga picà insima un àudio inte\'l grupo %2$s</string>
+  <string name="NotificationActionPinnedMusic">%1$s L ga picà insima un audio inte\'l grupo %2$s</string>
   <string name="NotificationActionPinnedTextChannel">%1$s L ga picà insima \"%2$s\"</string>
   <string name="NotificationActionPinnedNoTextChannel">%1$s L ga picà insima un mesajo</string>
   <string name="NotificationActionPinnedPhotoChannel">%1$s L ga picà insima na foto</string>
@@ -655,7 +655,7 @@
   <string name="NotificationActionPinnedContactChannel">%1$s L ga picà insima un contato</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s L ga picà insima na pozision</string>
   <string name="NotificationActionPinnedGifChannel">%1$s L ga picà insima na GIF</string>
-  <string name="NotificationActionPinnedMusicChannel">%1$s L ga picà insima un àudio</string>
+  <string name="NotificationActionPinnedMusicChannel">%1$s L ga picà insima un audio</string>
   <string name="NotificationActionPinnedGameChannel">%1$s L ga picà insima un zogo</string>
   <!--contacts view-->
   <string name="SelectContact">Sełesiona contato</string>
@@ -734,6 +734,7 @@
   <string name="PhoneOther">Altro</string>
   <string name="PhoneMain">Tełèfono prensipałe</string>
   <string name="UserBio">Biografìa</string>
+  <string name="UserBioEmpty">Njancora scrivesta</string>
   <string name="UserBioInfo">A te połi zontar calche riga par descrìvarte. \'Sto testo el podarà èsar visto da tuti cuełi che A verzarà el to profiło.</string>
   <string name="StartEncryptedChat">Taca chat segreta</string>
   <string name="GroupsInCommon">Grupi in comun</string>
@@ -1233,7 +1234,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="InviteToChannelError">Ne despiaze, A no te połi mìa zontar \'sto utente inte i canałi par colpa de łe só inpostasion de privacy.</string>
   <string name="CreateGroupError">Ne despiaze, A no te połi mìa crear un grupo co \'sti utenti par colpa de łe so inpostasion de privacy.</string>
   <string name="PrivacyCallsP2PTitle">Pata-a-Pata</string>
-  <string name="PrivacyCallsP2PHelp">Dezativando el pata-a-pata tute łe ciamade łe pasarà par i server de Telegram par tenjer sconto el to indariso IP, ma \'sta oparasion ła podarìa zbasàrghine un peło ła cuałidà de l\'àudio.</string>
+  <string name="PrivacyCallsP2PHelp">Dezativando el pata-a-pata tute łe ciamade łe pasarà par i server de Telegram par tenjer sconto el to indariso IP, ma \'sta oparasion ła podarìa zbasàrghine un peło ła cuałidà de l\'audio.</string>
   <!--edit video view-->
   <string name="EditVideo">Modìfega video</string>
   <string name="SendingVideo">Mandando el video...</string>
@@ -1462,7 +1463,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="VoipFeedbackCommentHint">Zonta un comento opsionałe</string>
   <string name="CallBack">Reciama indrìo</string>
   <string name="CallAgain">Reciama danovo</string>
-  <string name="DefaultRingtone">Predefenìo</string>
+  <string name="DefaultRingtone">Predefenìa</string>
   <string name="ConfirmDeleteCallLog">Vutu davero ełimenar \'sta voze da\'l rejistro ciamade?</string>
   <string name="CallViaTelegram">Ciamada Telegram</string>
   <string name="VoipAudioRoutingEarpiece">Peocieto auregołar</string>
@@ -1658,12 +1659,12 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="ForwardedVideo_few">%1$d video voltài</string>
   <string name="ForwardedVideo_many">%1$d video voltài</string>
   <string name="ForwardedVideo_other">%1$d video voltài</string>
-  <string name="ForwardedMusic_zero">%1$d àudio voltài</string>
-  <string name="ForwardedMusic_one">Àudio voltà</string>
-  <string name="ForwardedMusic_two">%1$d àudio voltài</string>
-  <string name="ForwardedMusic_few">%1$d àudio voltài</string>
-  <string name="ForwardedMusic_many">%1$d àudio voltài</string>
-  <string name="ForwardedMusic_other">%1$d àudio voltài</string>
+  <string name="ForwardedMusic_zero">%1$d audio voltài</string>
+  <string name="ForwardedMusic_one">Audio voltà</string>
+  <string name="ForwardedMusic_two">%1$d audio voltài</string>
+  <string name="ForwardedMusic_few">%1$d audio voltài</string>
+  <string name="ForwardedMusic_many">%1$d audio voltài</string>
+  <string name="ForwardedMusic_other">%1$d audio voltài</string>
   <string name="ForwardedAudio_zero">%1$d mesaji vocałi voltài</string>
   <string name="ForwardedAudio_one">Mesajo vocałe voltà</string>
   <string name="ForwardedAudio_two">%1$d mesaji vocałi voltài</string>
@@ -1718,4 +1719,30 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s a łe %2$s</string>
   <!--04 september 2017-->
+  <string name="ForwardTo">Volta a...</string>
+  <string name="EventLogChangedStickersSet">un1 L ga canbià ła serie de figurete de\'l grupo</string>
+  <string name="EventLogRemovedStickersSet">un1 L ga cavà via ła serie de figurete de\'l grupo</string>
+  <string name="GroupStickers">Figurete de\'l grupo</string>
+  <string name="ChooseFromYourStickers">SERNISI DA ŁE TO FIGURETE</string>
+  <string name="ChooseStickerSet">SERNISI SERIE DE FIGURETE</string>
+  <string name="ChooseStickerSetPlaceholder">serie de figurete</string>
+  <string name="SearchFrom">da:</string>
+  <string name="SearchFriends">Serca amighi</string>
+  <string name="InviteFriendsHelp">Sernisi contati da invitar so Telegram</string>
+  <string name="InviteToTelegram">INVITA SO TELEGRAM</string>
+  <string name="ShareTelegram">Sparpanja Telegram...</string>
+  <string name="AddToFavorites">Zonta figurete inte i prefarìi</string>
+  <string name="AddedToFavorites">Figurete zontàe inte i prefarìi</string>
+  <string name="RemovedFromFavorites">Figurete cavàe via da i prefarìi</string>
+  <string name="RecentStickers">Figurete prefarìe</string>
+  <string name="FavoriteStickers">Figurete prefarìe</string>
+  <string name="CurrentGroupStickers">Figurete de\'l grupo</string>
+  <string name="DeleteFromFavorites">Cava via figurete da i prefarìi</string>
+  <string name="LowDiskSpaceTitle">Avertensa</string>
+  <string name="TelegramContacts_zero">%1$d contati so Telegram</string>
+  <string name="TelegramContacts_one">%1$d contato so Telegram</string>
+  <string name="TelegramContacts_two">%1$d contati so Telegram</string>
+  <string name="TelegramContacts_few">%1$d contati so Telegram</string>
+  <string name="TelegramContacts_many">%1$d contati so Telegram</string>
+  <string name="TelegramContacts_other">%1$d contati so Telegram</string>
 </resources>
