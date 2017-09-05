@@ -1720,12 +1720,17 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="formatDateAtTime">%1$s a łe %2$s</string>
   <!--04 september 2017-->
   <string name="ForwardTo">Volta a...</string>
+  <string name="InviteText2">Ciao! Pasa anca ti so Telegram: %1$s
+Da uncó anca in łengua veneta!</string>
   <string name="EventLogChangedStickersSet">un1 L ga canbià ła serie de figurete de\'l grupo</string>
   <string name="EventLogRemovedStickersSet">un1 L ga cavà via ła serie de figurete de\'l grupo</string>
   <string name="GroupStickers">Figurete de\'l grupo</string>
   <string name="ChooseFromYourStickers">SERNISI DA ŁE TO FIGURETE</string>
+  <string name="GroupStickersInfo">A te połi sernir na serie de figurete che i menbri de \'sto grupo i podarà doparar fin che i ze drio ciacołar.</string>
   <string name="ChooseStickerSet">SERNISI SERIE DE FIGURETE</string>
   <string name="ChooseStickerSetPlaceholder">serie de figurete</string>
+  <string name="ChooseStickerSetMy">A te połi crear ła to serie de figurete parsonałizada doparando el bot @stickers.</string>
+  <string name="ChooseStickerSetNotFound">Serie de figurete mìa catada</string>
   <string name="SearchFrom">da:</string>
   <string name="SearchFriends">Serca amighi</string>
   <string name="InviteFriendsHelp">Sernisi contati da invitar so Telegram</string>

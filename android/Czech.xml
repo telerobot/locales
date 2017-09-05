@@ -1748,6 +1748,10 @@ Smazat a zastavit</string>
   <string name="DeleteFromFavorites">Odstranit z oblíbených</string>
   <string name="DebugMenuResetContacts">Obnovit importované kontakty</string>
   <string name="LowDiskSpaceTitle">Varování</string>
+  <string name="LowDiskSpaceMessage">Tvému zařízení dochází volné místo. Pro uvolnění místa na disku můžes nastavit, aby se cache Telegramu mazala pravidelně sama, po nějaké dobe nepoužívání jejího obsahu.</string>
+  <string name="LowDiskSpaceTitle2">Vymazat starší než</string>
+  <string name="LowDiskSpaceNeverRemove">Nikdy nemazat</string>
+  <string name="ShowInChat">Zobrazit v konverzaci</string>
   <string name="Recipient_zero">%1$dpříjemců </string>
   <string name="Recipient_one">%1$d příjemce</string>
   <string name="Recipient_two">%1$d příjemci</string>
@@ -1760,4 +1764,10 @@ Smazat a zastavit</string>
   <string name="TelegramContacts_few">%1$d kontaktů v Telegramu</string>
   <string name="TelegramContacts_many">%1$d kontaktů v Telegramu</string>
   <string name="TelegramContacts_other">%1$d kontakty v Telegramu</string>
+  <string name="InviteTextNum_zero">Ahoj, já a %1$d dalších lidí z našeho kontakt listu používáme Telegram pro komunikaci mezi sebou. Přidej se k nám! Ke stáhnutí tady: %2$s</string>
+  <string name="InviteTextNum_one">Ahoj, já a %1$d dalších lidí z našeho kontakt listu používáme Telegram pro komunikaci mezi sebou. Přidej se k nám! Ke stáhnutí tady: %2$s</string>
+  <string name="InviteTextNum_two">Ahoj, já a %1$d dalších lidí z našeho kontakt listu používáme Telegram pro komunikaci mezi sebou. Přidej se k nám! Ke stáhnutí tady: %2$s</string>
+  <string name="InviteTextNum_few">Ahoj, já a %1$d dalších lidí z našeho kontakt listu používáme Telegram pro komunikaci mezi sebou. Přidej se k nám! Ke stáhnutí tady: %2$s</string>
+  <string name="InviteTextNum_many">Ahoj, já a %1$d dalších lidí z našeho kontakt listu používáme Telegram pro komunikaci mezi sebou. Přidej se k nám! Ke stáhnutí tady: %2$s</string>
+  <string name="InviteTextNum_other">Ahoj, já a %1$d dalších lidí z našeho kontakt listu používáme Telegram pro komunikaci mezi sebou. Přidej se k nám! Ke stáhnutí tady: %2$s</string>
 </resources>
