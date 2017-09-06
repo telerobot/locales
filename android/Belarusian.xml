@@ -378,8 +378,8 @@
   <string name="Typing">піша...</string>
   <string name="IsTyping">піша...</string>
   <string name="AreTyping">пішуць...</string>
-  <string name="IsRecordingAudio">%1$sзапісвае галасавое паведамленне...</string>
-  <string name="IsRecordingRound">%1$s запісвае відэа паведамленне...</string>
+  <string name="IsRecordingAudio">%1$s робіць аўдыязапіс...</string>
+  <string name="IsRecordingRound">%1$s робіць відэазапіс...</string>
   <string name="IsSendingAudio">%1$s адпраўляе аўдыязапіс...</string>
   <string name="IsSendingPhoto">%1$s адпраўляе выяву...</string>
   <string name="InstantView">Хуткi прагляд</string>
@@ -387,8 +387,8 @@
   <string name="IsSendingGame">%1$s гуляе ў гульню</string>
   <string name="IsSendingVideo">%1$s адпраўляе відэазапіс...</string>
   <string name="IsSendingFile">%1$s адпраўляе файл...</string>
-  <string name="RecordingAudio">запісвае галасавое паведамленне...</string>
-  <string name="RecordingRound">запісвае відэа паведамленне...</string>
+  <string name="RecordingAudio">робіць аўдыязапіс...</string>
+  <string name="RecordingRound">робіць відэазапіс...</string>
   <string name="SendingAudio">адпраўляе аўдыязапіс...</string>
   <string name="SendingPhoto">адпраўка выявы...</string>
   <string name="SendingGame">гуляе ў гульню</string>
@@ -491,8 +491,8 @@
   <string name="HoldToVideo">Утрымлівайце, каб зрабіць відэазапіс. Даткніцеся, каб пераключыцца на аўдыязапіс.</string>
   <string name="DiscardVoiceMessageTitle">Скінуць відэазапіс</string>
   <string name="DiscardVoiceMessageDescription">Вы сапраўды жадаеце скончыць і скінуць відэазапіс?</string>
-  <string name="DiscardVideoMessageTitle">Выдаліць  відэа паведамленне</string>
-  <string name="DiscardVideoMessageDescription">Ты сапраўды жадаеш спыніць запіс відэа паведамлення?</string>
+  <string name="DiscardVideoMessageTitle">Скінуць відэазапіс</string>
+  <string name="DiscardVideoMessageDescription">Вы сапраўды хочаце спыніць відэазапіс?</string>
   <string name="DiscardVoiceMessageAction">Скінуць</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s усталяваў таймер самазнішчэння на %2$s</string>
@@ -1078,7 +1078,7 @@
   <string name="PrivacyTitle">Прыватнасць</string>
   <string name="PrivacyLastSeen">Бачнасць апошняй актыўнасці</string>
   <string name="PrivacyPayments">Аплата</string>
-  <string name="PrivacyPaymentsClear">Выдаліць інфармацыю аб выплаце &amp;amp</string>
+  <string name="PrivacyPaymentsClear">Выдаліць звесткі аб дастаўцы і аплаце</string>
   <string name="PrivacyPaymentsClearInfo">Ты можаш выдаліць дадзеныя даставы, выдаліць захаваныя крэдытныя карты. Звярні ўвагу на тое, што Telegram ніколі не захоўвае дадзеныя крэдытнае карткі.</string>
   <string name="PrivacyClearShipping">Звесткі для даставы</string>
   <string name="PrivacyClearPayment">Плацежныя звесткі</string>
