@@ -43,7 +43,6 @@
   <!--payments view-->
   <string name="PaymentSuccessfullyPaid">Вы толькі што аплацілі %3$s (кошт: %1$s, прадавец: %2$s)</string>
   <string name="PaymentSuccessfullyPaidNoItem">Вы паспяхова перавялі %1$s да %2$s</string>
-  <string name="PaymentCheckout">Праверка</string>
   <string name="PaymentShippingMethod">Спосабы дастаўкі</string>
   <string name="PaymentNoShippingMethod">Выбачайце, але даставіць тавар на ваш адрас немагчыма.</string>
   <string name="PaymentShippingInfo">Звесткі для дастаўкі</string>
@@ -78,12 +77,10 @@
   <string name="PaymentTestInvoice">ТЭСТАВЫ ЧЭК</string>
   <string name="PaymentCheckoutPay">АПЛАЦІЦЬ %1$s</string>
   <string name="PaymentCheckoutMethod">Метад аплаты</string>
-  <string name="PaymentCheckoutProvider">Варыянты аплаты</string>
   <string name="PaymentCheckoutName">Імя</string>
   <string name="PaymentCheckoutPhoneNumber">Нумар тэлефону</string>
   <string name="PaymentCheckoutEmail">Кантактны адрас</string>
   <string name="PaymentCheckoutShippingMethod">Спосаб дастаўкі</string>
-  <string name="PaymentReceipt">Разлікоўка</string>
   <string name="PaymentConfirmationNewCard">Абярыце іншую картку</string>
   <string name="PaymentConfirmationMessage">Вашая картка %1$s была захавана. Каб скарыстацца ёю, калі ласка, увядзіце ваш пароль двухкрокавай верыфікацыі.</string>
   <string name="PaymentPrecheckoutFailed">Выбачайце, але плацеж быў скасаваны ботам.</string>
@@ -383,7 +380,6 @@
   <string name="IsSendingAudio">%1$s адпраўляе аўдыязапіс...</string>
   <string name="IsSendingPhoto">%1$s адпраўляе выяву...</string>
   <string name="InstantView">Хуткi прагляд</string>
-  <string name="InstantViewNightMode">Цёмная тэма зменіцца аўтаматычна ў начны час</string>
   <string name="IsSendingGame">%1$s гуляе ў гульню</string>
   <string name="IsSendingVideo">%1$s адпраўляе відэазапіс...</string>
   <string name="IsSendingFile">%1$s адпраўляе файл...</string>
@@ -436,7 +432,6 @@
   <string name="OpenInExternalApp">Адкрыць праз...</string>
   <string name="CopyUrl">Скапіяваць спасылку</string>
   <string name="SendItems">Даслаць %1$s</string>
-  <string name="SendAsFiles">Даслаць як файл</string>
   <string name="OpenUrlAlert">Адкрыць спасылку «%1$s»?</string>
   <string name="BotPermissionGameAlert">Вы сапраўды дазваляеце %1$s перадаваць вашае імя і мянушку ў Тэлеграме (нумар тэлефона не перадаецца) на старонкі Сеціва, якія вы адкрываеце з дапамогай гэтага бота?</string>
   <string name="ReportSpam">ПАСКАРДЗІЦЦА НА СПАМ</string>
@@ -452,7 +447,6 @@
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Больш звестак</string>
   <string name="ShareSendTo">Даслаць…</string>
-  <string name="ShareComment">Напішы свой водгук...</string>
   <string name="TapHereGifs">Даткніцеся, каб адкрыць тэчку з схаванымі анімацыямі</string>
   <string name="PinMessage">Замацаваць</string>
   <string name="PinNotify">Паведаміць усіх удзельнікаў</string>
@@ -754,8 +748,6 @@
   <string name="ColorGreen">Зялёны</string>
   <string name="ColorCyan">Бірузовы</string>
   <string name="ColorWhite">Белы</string>
-  <string name="ColorSepia">Сепія</string>
-  <string name="ColorDark">Цёмная</string>
   <string name="ColorPink">Ружовы</string>
   <string name="FontSize">Памер шрыфту</string>
   <string name="ColorViolet">Фіялетавы</string>
@@ -1077,11 +1069,7 @@
   <string name="PrivacySettings">Прыватнасць і бяспека</string>
   <string name="PrivacyTitle">Прыватнасць</string>
   <string name="PrivacyLastSeen">Бачнасць апошняй актыўнасці</string>
-  <string name="PrivacyPayments">Аплата</string>
   <string name="PrivacyPaymentsClear">Выдаліць звесткі аб дастаўцы і аплаце</string>
-  <string name="PrivacyPaymentsClearInfo">Ты можаш выдаліць дадзеныя даставы, выдаліць захаваныя крэдытныя карты. Звярні ўвагу на тое, што Telegram ніколі не захоўвае дадзеныя крэдытнае карткі.</string>
-  <string name="PrivacyClearShipping">Звесткі для даставы</string>
-  <string name="PrivacyClearPayment">Плацежныя звесткі</string>
   <string name="LastSeenEverybody">Усе</string>
   <string name="LastSeenContacts">Мае кантакты</string>
   <string name="LastSeenNobody">Ніхто</string>
@@ -1333,9 +1321,6 @@
   <string name="VoipRateCallAlert">Калі ласка, пастаўце адзнаку гэтаму выкліку</string>
   <string name="VoipFeedbackAlert">Жадаеце пакінуць нам паведамленне, каб мы маглі палепшыць якасць выклікаў?</string>
   <string name="VoipNeedMicPermission">Тэлеграму патрэбны доступ да вашага мікрафона, каб вы маглі тэлефанаваць.</string>
-  <string name="VoipFeedbackCommentHint">Дадаць дадатковы каментар</string>
-  <string name="CallBack">Ператэлефанаваць</string>
-  <string name="CallAgain">Выклікаць зноўку</string>
   <string name="DefaultRingtone">Па змаўчанні</string>
   <string name="ConfirmDeleteCallLog">Вы ўпэўненыя, што жадаеце выдаліць гэты запіс з гісторыі выклікаў?</string>
   <string name="CallViaTelegram">Выклік праз Тэлеграм</string>

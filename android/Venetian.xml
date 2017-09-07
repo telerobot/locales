@@ -351,7 +351,7 @@
   <string name="EventLogSelectedEvents">Asion sełesionàe</string>
   <string name="EventLogAllAdmins">Tuti i aministradori</string>
   <string name="EventLogEmpty"><![CDATA[<b>]]>Njancora njauna asion<![CDATA[</b>]]>\n\nI menbri e i aministradori de\'l grupo\nno i ga fazesto njauna asion de servisio\ninte łe 48 ore ùlteme.</string>
-  <string name="EventLogEmptyChannel"><![CDATA[1]]>Njancora njauna asion<![CDATA[1]]>\n\nI aministradori de\'l canałe\nno i ga fazesto njauna asion de servisio\ninte łe 48 ore ùlteme.</string>
+  <string name="EventLogEmptyChannel"><![CDATA[<b>]]>Njancora njauna asion<![CDATA[</b>]]>\n\nI aministradori de\'l canałe\nno i ga fazesto njauna asion de servisio\ninte łe 48 ore ùlteme.</string>
   <string name="EventLogEmptySearch"><![CDATA[<b>]]>Njauna asion catada<![CDATA[</b>]]>\n\nNjauna asion resente ła coresponde\na ła to reserca.</string>
   <string name="EventLogEmptyTextSearch">Njauna asion resente co rento \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\' ła ze sta catada.</string>
   <string name="EventLogInfoTitle">Coza zełe łe \"asion resenti\"?</string>
@@ -1731,11 +1731,15 @@ Da uncó anca in łengua veneta!</string>
   <string name="ChooseStickerSetPlaceholder">serie de figurete</string>
   <string name="ChooseStickerSetMy">A te połi crear ła to serie de figurete parsonałizada doparando el bot @stickers.</string>
   <string name="ChooseStickerSetNotFound">Serie de figurete mìa catada</string>
+  <string name="ChooseStickerSetNotFoundInfo">Proa danovo o sernisi da ła łista cuà soto</string>
   <string name="SearchFrom">da:</string>
   <string name="SearchFriends">Serca amighi</string>
   <string name="InviteFriendsHelp">Sernisi contati da invitar so Telegram</string>
   <string name="InviteToTelegram">INVITA SO TELEGRAM</string>
   <string name="ShareTelegram">Sparpanja Telegram...</string>
+  <string name="UpdateContactsTitle">Vutu ajornar i contati?</string>
+  <string name="UpdateContactsMessage">Telegram el ga notà racuanti contati desincronizài, ghetu caro sincronizarli deso? Sernisi \'SÌ\' soło se A te si drio doparar el to dispozitivo, ła to carta SIM e el to account Google.</string>
+  <string name="GroupMembers">Menbri</string>
   <string name="AddToFavorites">Zonta figurete inte i prefarìi</string>
   <string name="AddedToFavorites">Figurete zontàe inte i prefarìi</string>
   <string name="RemovedFromFavorites">Figurete cavàe via da i prefarìi</string>
@@ -1743,11 +1747,34 @@ Da uncó anca in łengua veneta!</string>
   <string name="FavoriteStickers">Figurete prefarìe</string>
   <string name="CurrentGroupStickers">Figurete de\'l grupo</string>
   <string name="DeleteFromFavorites">Cava via figurete da i prefarìi</string>
+  <string name="DebugMenuResetContacts">Reinposta contati inportài</string>
   <string name="LowDiskSpaceTitle">Avertensa</string>
+  <string name="LowDiskSpaceMessage">A te sì drio fenir ła memoria rento el to dispozitivo. Par łibarar spasio, configura ła cache de Telegram par salvar soło i media pì resenti o par ełimenarli suito de\'l tuto.</string>
+  <string name="LowDiskSpaceTitle2">Ełìmena se pì vecio de</string>
+  <string name="LowDiskSpaceNeverRemove">Mai ełimenar</string>
+  <string name="ShowInChat">Mostra in chat</string>
+  <string name="Recipient_zero">%1$d reseventi</string>
+  <string name="Recipient_one">%1$d resevente</string>
+  <string name="Recipient_two">%1$d reseventi</string>
+  <string name="Recipient_few">%1$d reseventi</string>
+  <string name="Recipient_many">%1$d reseventi</string>
+  <string name="Recipient_other">%1$d reseventi</string>
   <string name="TelegramContacts_zero">%1$d contati so Telegram</string>
   <string name="TelegramContacts_one">%1$d contato so Telegram</string>
   <string name="TelegramContacts_two">%1$d contati so Telegram</string>
   <string name="TelegramContacts_few">%1$d contati so Telegram</string>
   <string name="TelegramContacts_many">%1$d contati so Telegram</string>
   <string name="TelegramContacts_other">%1$d contati so Telegram</string>
+  <string name="InviteTextNum_zero">Ciao! Par ciacołar, mi e n\'antri %1$d to contati, A semo drio doparar Telegram! Da uncó anca in łengua veneta! Zóntate anca ti!
+Descàrgheło da cuà: %2$s</string>
+  <string name="InviteTextNum_one">Ciao! Par ciacołar, mi e n\'antri %1$d to contati, A semo drio doparar Telegram! Da uncó anca in łengua veneta! Zóntate anca ti!
+Descàrgheło da cuà: %2$s</string>
+  <string name="InviteTextNum_two">Ciao! Par ciacołar, mi e n\'antri %1$d to contati, A semo drio doparar Telegram! Da uncó anca in łengua veneta! Zóntate anca ti!
+Descàrgheło da cuà: %2$s</string>
+  <string name="InviteTextNum_few">Ciao! Par ciacołar, mi e n\'antri %1$d to contati, A semo drio doparar Telegram! Da uncó anca in łengua veneta! Zóntate anca ti!
+Descàrgheło da cuà: %2$s</string>
+  <string name="InviteTextNum_many">Ciao! Par ciacołar, mi e n\'antri %1$d to contati, A semo drio doparar Telegram! Da uncó anca in łengua veneta! Zóntate anca ti!
+Descàrgheło da cuà: %2$s</string>
+  <string name="InviteTextNum_other">Ciao! Par ciacołar, mi e n\'antri %1$d to contati, A semo drio doparar Telegram! Da uncó anca in łengua veneta! Zóntate anca ti!
+Descàrgheło da cuà: %2$s</string>
 </resources>
