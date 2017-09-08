@@ -120,6 +120,8 @@
   <string name="HiddenName">Выдалены ўліковы запіс</string>
   <string name="SelectChat">Абярыце размову</string>
   <string name="PhotoTip">Націсніце і ўтрымлівайце для прагляду</string>
+  <string name="DisappearingPhoto">Выява з таймерам самазнішчэння</string>
+  <string name="DisappearingVideo">Відэазапіс з таймерам самазнішчэння</string>
   <string name="CompatibilityChat">%1$s выкарыстоўвае састарэлую версію Тэлеграма, таму патаемныя фотаздымкі будуць адлюстроўвацца ў рэжыме сумяшчальнасці.
 
 Пасля таго, як %2$s абновіць Тэлеграм, фотаздымкі з хвілінным або менш таймерам пачнуць працаваць у рэжыме \'Націсніце і ўтрымлівайце для прагляду\'. Таксама Вы будзеце апавешчаны ўсялякі раз, калі суразмоўца робіць скрыншот.</string>
@@ -231,6 +233,7 @@
   <string name="ChannelMembers">Удзельнікі </string>
   <string name="ChannelBlacklist">Чорны спіс</string>
   <string name="ChannelBlockedUsers">Заблакаваныя карыстальнікі</string>
+  <string name="ChannelRestrictedUsers">Абмежаваныя карыстальнікі</string>
   <string name="ChannelAdministrators">Кіраўнікі</string>
   <string name="ChannelDelete">Выдаліць канал</string>
   <string name="ChannelDeleteMenu">Выдаліць канал</string>
@@ -321,6 +324,7 @@
   <string name="EditAdminRemoveAdmin">Разжалаваць кіраўнікоў</string>
   <string name="EditAdminBanUsers">Блакаваць карыстальнікаў</string>
   <string name="EditAdminAddUsers">Дадаваць карыстальнікаў</string>
+  <string name="EditAdminAddUsersViaLink">Запрашаць праз спасылку</string>
   <string name="EditAdminPinMessages">Замацоўваць паведамленні</string>
   <string name="EditAdminPromotedBy">дадаў(-ла) %1$s</string>
   <string name="EditAdminCantEdit">Вы не можаце змяняць паўнамоцтвы гэтага кіраўніка.</string>
@@ -331,6 +335,7 @@
   <string name="UserRestrictionsSend">Дасылаць паведамленні</string>
   <string name="UserRestrictionsSendMedia">Дасылаць файлы</string>
   <string name="UserRestrictionsSendStickers">Дасылаць налепкі і анімацыі</string>
+  <string name="UserRestrictionsEmbedLinks">Прымацоўваць спасылкі</string>
   <string name="UserRestrictionsUntil">Срок блакавання</string>
   <string name="UserRestrictionsUntilForever">Назаўсёды</string>
   <string name="UserRestrictionsUntilRemove">Выдаліць</string>
@@ -344,6 +349,73 @@
   <string name="EventLogAllEvents">Усе дзеянні</string>
   <string name="EventLogSelectedEvents">Абраныя дзеянні</string>
   <string name="EventLogAllAdmins">Усе кіраўнікі</string>
+  <string name="EventLogEmpty"><![CDATA[<b>]]>Пакуль тут нічога няма<![CDATA[</b>]]>\n\nЗа апошнія 48 гадзін удзельнікі і кіраўнікі суполкі нічога не прадпрымалі.</string>
+  <string name="EventLogEmptyChannel"><![CDATA[<b>]]>Пакуль тут нічога няма<![CDATA[</b>]]>\n\nЗа апошнія 48 гадзін удзельнікі і кіраўнікі канала нічога не прадпрымалі.</string>
+  <string name="EventLogEmptySearch"><![CDATA[<b>]]>Нічога не знойдзена<![CDATA[</b>]]>\n\nНядаўніх дзеянняў, якія адпавядалі б вашаму запыту, не знойдзена.</string>
+  <string name="EventLogEmptyTextSearch">Нядаўніх дзеянняў, якія адпавядалі б запыту \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\', не знойдзена.</string>
+  <string name="EventLogInfoTitle">Што такое \"нядаўнія дзеянні\"?</string>
+  <string name="EventLogInfoDetail">Гэта спіс усіх дзеянняў, прадпрынятых ўдзельнікамі і кіраўнікамі суполкі за апошнія 48 гадзін.</string>
+  <string name="EventLogInfoDetailChannel">Гэта спіс усіх дзеянняў, прадпрынятых кіраўнікамі канала за апошнія 48 гадзін.</string>
+  <string name="EventLogEditedGroupTitle">un1 змяніў(-ла) назву суполкі на \"%1$s\"</string>
+  <string name="EventLogEditedChannelTitle">un1 змяніў(-ла) назву канала на \"%1$s\"</string>
+  <string name="EventLogLeftGroup">un1 выйшаў(-ла) з суполкі</string>
+  <string name="EventLogLeftChannel">un1 выйшаў(-ла) з канала</string>
+  <string name="EventLogAdded">un1 дадаў(-ла) un2</string>
+  <string name="EventLogGroupJoined">un1 далучыўся(-лася) да суполкі</string>
+  <string name="EventLogChannelRestricted">заблакаваў(-ла) %1$s</string>
+  <string name="EventLogChannelUnrestricted">разблакаваў(-ла) %1$s</string>
+  <string name="EventLogChannelJoined">un1 далучыўся(-лася) да канала</string>
+  <string name="EventLogEditedGroupPhoto">un1 змяніў(-ла) выяву суполкі</string>
+  <string name="EventLogEditedChannelPhoto">un1 змяніў(-ла) выяву канала</string>
+  <string name="EventLogRemovedWGroupPhoto">un1 выдаліў(-ла) выяву суполкі</string>
+  <string name="EventLogRemovedChannelPhoto">un1 выдаліў(-ла) выяву канала</string>
+  <string name="EventLogEditedMessages">un1 адрэдагаваў(-ла) паведамленне:</string>
+  <string name="EventLogEditedCaption">un1 змяніў(-ла) подпіс пад файлам:</string>
+  <string name="EventLogOriginalMessages">Арыгінальнае паведамленне</string>
+  <string name="EventLogOriginalCaption">Арыгінальны подпіс</string>
+  <string name="EventLogOriginalCaptionEmpty">Пуста</string>
+  <string name="EventLogPinnedMessages">un1 замацаваў(-ла) паведамленне:</string>
+  <string name="EventLogUnpinnedMessages">un1 адмацаваў(-ла) паведамленне</string>
+  <string name="EventLogDeletedMessages">un1 выдаліў(-ла) паведамленне:</string>
+  <string name="EventLogChangedGroupLink">un1 змяніў(-ла) спасылку суполкі:</string>
+  <string name="EventLogChangedChannelLink">un1 змяніў(-ла) спасылку канала:</string>
+  <string name="EventLogRemovedGroupLink">un1 выдаліў(-ла) спасылку суполкі:</string>
+  <string name="EventLogRemovedChannelLink">un1 выдаліў(-ла) спасылку канала:</string>
+  <string name="EventLogPreviousLink">Папярэдняя спасылка</string>
+  <string name="EventLogEditedGroupDescription">un1 змяніў(-ла) звесткі аб суполцы:</string>
+  <string name="EventLogEditedChannelDescription">un1 змяніў(-ла) звесткі аб канале:</string>
+  <string name="EventLogPreviousGroupDescription">Папярэдні тэкст</string>
+  <string name="EventLogToggledInvitesOn">un1 уключыў(-ла) запрашэнні</string>
+  <string name="EventLogToggledInvitesOff">un1 адключыў(-ла) запрашэнні</string>
+  <string name="EventLogToggledSignaturesOn">un1 уключыў(-ла) подпісы</string>
+  <string name="EventLogToggledSignaturesOff">un1 адключыў(-ла) подпісы</string>
+  <string name="EventLogRestrictedUntil">змяніў(-ла) абмежаванні для %1$s\n\nТэрмін: %2$s</string>
+  <string name="EventLogRestrictedSendStickers">Дасылаць налепкі і анімацыі</string>
+  <string name="EventLogRestrictedSendMedia">Дасылаць файлы</string>
+  <string name="EventLogRestrictedSendMessages">Дасылаць паведамленні</string>
+  <string name="EventLogRestrictedSendEmbed">Прымацоўваць спасылкі</string>
+  <string name="EventLogRestrictedReadMessages">Чытаць паведамленні</string>
+  <string name="EventLogPromoted">змяніў(-ла) паўнамоцтвы для %1$s</string>
+  <string name="EventLogPromotedChangeChannelInfo">Змяняць звесткі аб канале</string>
+  <string name="EventLogPromotedChangeGroupInfo">Змяняць звесткі аб суполцы</string>
+  <string name="EventLogPromotedPostMessages">Размяшчаць паведамленні</string>
+  <string name="EventLogPromotedEditMessages">Рэдагаваць паведамленні</string>
+  <string name="EventLogPromotedDeleteMessages">Выдаляць паведамленні</string>
+  <string name="EventLogPromotedAddAdmins">Дадаваць новых кіраўнікоў</string>
+  <string name="EventLogPromotedBanUsers">Блакаваць карыстальнікаў</string>
+  <string name="EventLogPromotedAddUsers">Дадаваць карыстальнікаў</string>
+  <string name="EventLogPromotedPinMessages">Замацоўваць паведамленні</string>
+  <string name="EventLogFilterAll">Усе дзеянні</string>
+  <string name="EventLogFilterNewRestrictions">Новыя абмежаванні</string>
+  <string name="EventLogFilterNewAdmins">Новыя кіраўнікі</string>
+  <string name="EventLogFilterNewMembers">Новыя ўдзельнікі</string>
+  <string name="EventLogFilterGroupInfo">Звесткі аб суполцы</string>
+  <string name="EventLogFilterChannelInfo">Звесткі аб канале</string>
+  <string name="EventLogFilterGroupSettings">Налады суполкі</string>
+  <string name="EventLogFilterDeletedMessages">Выдаленыя паведамленні</string>
+  <string name="EventLogFilterEditedMessages">Адрэдагаваныя паведамленні</string>
+  <string name="EventLogFilterPinnedMessages">Замацаваныя паведамленні</string>
+  <string name="EventLogFilterLeavingMembers">Удзельнікі, якія выйшлі</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Новы спіс рассылкі</string>
   <string name="EnterListName">Увядзіце імя спіса</string>
@@ -380,6 +452,9 @@
   <string name="IsSendingAudio">%1$s адпраўляе аўдыязапіс...</string>
   <string name="IsSendingPhoto">%1$s адпраўляе выяву...</string>
   <string name="InstantView">Хуткi прагляд</string>
+  <string name="OpenGroup">АДКРЫЦЬ СУПОЛКУ</string>
+  <string name="OpenChannel">АДКРЫЦЬ КАНАЛ</string>
+  <string name="InstantViewNightMode">Начны рэжым аўтаматычна ўключыцца ў адпаведны час</string>
   <string name="IsSendingGame">%1$s гуляе ў гульню</string>
   <string name="IsSendingVideo">%1$s адпраўляе відэазапіс...</string>
   <string name="IsSendingFile">%1$s адпраўляе файл...</string>
@@ -432,6 +507,8 @@
   <string name="OpenInExternalApp">Адкрыць праз...</string>
   <string name="CopyUrl">Скапіяваць спасылку</string>
   <string name="SendItems">Даслаць %1$s</string>
+  <string name="SendAsFile">Даслаць як файл</string>
+  <string name="SendAsFiles">Даслаць як файлы</string>
   <string name="OpenUrlAlert">Адкрыць спасылку «%1$s»?</string>
   <string name="BotPermissionGameAlert">Вы сапраўды дазваляеце %1$s перадаваць вашае імя і мянушку ў Тэлеграме (нумар тэлефона не перадаецца) на старонкі Сеціва, якія вы адкрываеце з дапамогай гэтага бота?</string>
   <string name="ReportSpam">ПАСКАРДЗІЦЦА НА СПАМ</string>
@@ -447,6 +524,7 @@
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Больш звестак</string>
   <string name="ShareSendTo">Даслаць…</string>
+  <string name="ShareComment">Напішыце тут ваш каментар...</string>
   <string name="TapHereGifs">Даткніцеся, каб адкрыць тэчку з схаванымі анімацыямі</string>
   <string name="PinMessage">Замацаваць</string>
   <string name="PinNotify">Паведаміць усіх удзельнікаў</string>
@@ -469,6 +547,7 @@
   <string name="TimeToEdit">%1$s</string>
   <string name="TimeToEditExpired">Выбачайце, але гэта больш нельга рэдагаваць.</string>
   <string name="AddShortcut">Дадаць скарот</string>
+  <string name="SearchMembers">Шукаць удзельнікаў</string>
   <string name="ShortcutAdded">Скарот даданы на галоўны экран</string>
   <string name="ChatYourSelf">размова з сабой</string>
   <string name="ChatYourSelfName">Вы</string>
@@ -488,6 +567,14 @@
   <string name="DiscardVideoMessageTitle">Скінуць відэазапіс</string>
   <string name="DiscardVideoMessageDescription">Вы сапраўды хочаце спыніць відэазапіс?</string>
   <string name="DiscardVoiceMessageAction">Скінуць</string>
+  <string name="AttachMediaRestricted">Кіраўнікі суполкі забаранілі вам размяшчаць файлы да %1$s.</string>
+  <string name="AttachInlineRestricted">Кіраўнікі суполкі забаранілі вам карыстацца хуткімі ботамі да %1$s.</string>
+  <string name="AttachStickersRestricted">Кіраўнікі суполкі забаранілі вам адпраўляць налепкі да %1$s.</string>
+  <string name="SendMessageRestricted">Кіраўнікі суполкі забаранілі вам размяшчаць паведамленні да %1$s.</string>
+  <string name="AttachMediaRestrictedForever">Кіраўнікі суполкі забаранілі вам размяшчаць файлы.</string>
+  <string name="AttachInlineRestrictedForever">Кіраўнікі суполкі забаранілі вам карыстацца хуткімі ботамі.</string>
+  <string name="AttachStickersRestrictedForever">Кіраўнікі суполкі забаранілі вам адпраўляць налепкі.</string>
+  <string name="SendMessageRestrictedForever">Кіраўнікі суполкі забаранілі вам размяшчаць паведамленні.</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s усталяваў таймер самазнішчэння на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы ўсталявалі таймер самазнішчэння на %1$s</string>
@@ -498,6 +585,8 @@
   <string name="NotificationMessageNoText">%1$s даслаў вам паведамленне</string>
   <string name="NotificationMessagePhoto">%1$s даслаў вам выяву</string>
   <string name="NotificationMessageVideo">%1$s даслаў вам відэа</string>
+  <string name="NotificationMessageSDPhoto">%1$s даслаў(-ла) вам выяву з таймерам самазнішчэння</string>
+  <string name="NotificationMessageSDVideo">%1$s даслаў(-ла) вам відэазапіс з таймерам самазнішчэння</string>
   <string name="NotificationMessageContact">%1$s падзяліўся кантактам з вамі</string>
   <string name="NotificationMessageMap">%1$s даслаў вам месцазнаходжанне</string>
   <string name="NotificationMessageGame">%1$s запрасіў(-ла) вас у гульню %2$s</string>
@@ -617,8 +706,10 @@
   <string name="SETTINGS">Налады</string>
   <string name="AddMember">Дадаць удзельніка</string>
   <string name="SetAdmins">Прызначыць кіраўнікоў</string>
+  <string name="BanFromTheGroup">ЗАБЛАКАВАЦЬ</string>
   <string name="DeleteAndExit">Выдаліць і выйсці з суполкі</string>
   <string name="Notifications">Апавяшчэнні</string>
+  <string name="KickFromSupergroup">Абмежаваць карыстальніка</string>
   <string name="KickFromGroup">Выдаліць з суполкі</string>
   <string name="UpgradeGroup">Абнавіцца да суперсуполкі</string>
   <string name="ConvertGroup">Абнавіцца да суперсуполкі</string>
@@ -642,6 +733,9 @@
   <string name="PhoneWork">Працоўны</string>
   <string name="PhoneOther">Іншы</string>
   <string name="PhoneMain">Галоўны</string>
+  <string name="UserBio">Звесткі</string>
+  <string name="UserBioEmpty">Няма</string>
+  <string name="UserBioInfo">Вы можаце напісаць нешта пра сябе. Кожны будзе бачыць гэты тэкст, калі адкрые ваш профіль.</string>
   <string name="StartEncryptedChat">Распачаць сакрэтную размову</string>
   <string name="GroupsInCommon">Агульныя суполкі</string>
   <string name="GroupsInCommonTitle">Агульныя суполкі</string>
@@ -649,7 +743,10 @@
   <string name="CreateEncryptedChatError">Адбылася памылка.</string>
   <string name="EncryptionKey">Ключ шыфравання</string>
   <string name="MessageLifetime">Таймер самазнішчэння</string>
+  <string name="MessageLifetimePhoto">Калі вы прызначыце таймер, то выява знішчыцца праз гэты час пасля таго, як атрымальнік яе праглядзіць.</string>
+  <string name="MessageLifetimeVideo">Калі вы прызначыце таймер, то відэазапіс знішчыцца праз гэты час пасля таго, як атрымальнік яго праглядзіць.</string>
   <string name="ShortMessageLifetimeForever">Выкл</string>
+  <string name="EncryptionKeyDescription">Гэтыя выява і тэкст рэпрэзэнтуюць ключ шыфравання для сакрэтнай размовы з <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nКалі яны выглядаюць гэтак жа на ўстройстве <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]>, то мы гарантуем вам шыфраванне з-канца-ў-канец.\n\nДазнайцеся больш на telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="TapToEmojify">Перавесці ў эмодзі</string>
   <string name="NumberUnknown">Невядомы</string>
@@ -663,12 +760,14 @@
   <string name="UsernameInvalidShort">Мянушка павінна складацца сама менш з 5 сімвалаў.</string>
   <string name="UsernameInvalidLong">Мянушка не павінна быць даўжэйшай за 32 сімвалы.</string>
   <string name="UsernameInvalidStartNumber">Выбачайце, але мянушка не можа пачынацца з лічбы.</string>
+  <string name="UsernameHelp">Вы можаце абраць мянушку ў <![CDATA[<b>]]>Тэлеграме<![CDATA[</b>]]>. Калі вы зробіце гэтак, іншыя карыстальнікі змогуць знайсці вас па ёй і звязацца з вамі, не выкарыстоўвая нумар тэлефону.\n\nВы можаце выкарыстоўваць <![CDATA[<b>]]>a-z<![CDATA[</b>]]>, <![CDATA[<b>]]>0-9<![CDATA[</b>]]> і ніжняе падкрэсліванне. Мінімальная даўжыня — <![CDATA[<b>]]>5<![CDATA[</b>]]> сімвалаў.</string>
   <string name="UsernameHelpLink">Гэтая спасылка адкрые размову з вамі ў Тэлеграме:\n%1$s</string>
   <string name="UsernameChecking">Праверка мянушкі…</string>
   <string name="UsernameAvailable">«%1$s» даступная. </string>
   <string name="UsernameEmpty">Няма</string>
   <string name="ErrorOccurred">Адбылася памылка.</string>
   <!--stickers view-->
+  <string name="StickersName">Налепкі</string>
   <string name="AddStickers">Дадаць налепкі</string>
   <string name="AddMasks">Дадаць маскі</string>
   <string name="AddToStickers">Дадаць у налепкі</string>
@@ -703,6 +802,8 @@
   <string name="ArchivedMasksAlertInfo">Некаторыя з вашых неўжываных масак былі перамешчаны ў архіў. Вы можаце перамясціць іх назад праз налады масак.</string>
   <!--theme view-->
   <string name="Theme">Тэма</string>
+  <string name="ThemeDark">Цёмная</string>
+  <string name="ThemeBlue">Сіняя</string>
   <string name="DeleteThemeAlert">Вы сапраўды хочаце выдаліць гэтую тэму?</string>
   <string name="IncorrectTheme">Памылковы файл тэмы</string>
   <string name="EnterThemeName">Увядзіце назву тэмы</string>
@@ -748,6 +849,8 @@
   <string name="ColorGreen">Зялёны</string>
   <string name="ColorCyan">Бірузовы</string>
   <string name="ColorWhite">Белы</string>
+  <string name="ColorSepia">Сепія</string>
+  <string name="ColorDark">Цёмная</string>
   <string name="ColorPink">Ружовы</string>
   <string name="FontSize">Памер шрыфту</string>
   <string name="ColorViolet">Фіялетавы</string>
@@ -773,6 +876,8 @@
   <string name="ContactJoined">Кантакт далучыўся да Тэлеграма</string>
   <string name="PinnedMessages">Замацаваныя паведамленні</string>
   <string name="Language">Мова</string>
+  <string name="LanguageCustom">Карыстальніцкая</string>
+  <string name="AskAQuestionInfo">Звярніце ўвагу, што Падтрымка Тэлеграма ажыццяўляецца добраахвотнікамі. Мы стараемся адказваць як мага хутчэй, але гэта можа заняць час. Калі ласка, праглядзіце <![CDATA[<a href="https://telegram.org/faq#general">ЧаПы Тэлеграма</a>]]>: там ёсць адказы на большасць пытанняў і важныя парады па <![CDATA[<a href="https://telegram.org/faq#troubleshooting">ліквідацыі хібнасцей</a>]]>.</string>
   <string name="AskButton">Спытацца ў добраахвотніка</string>
   <string name="TelegramFaq">ЧаПы Тэлеграма</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -853,6 +958,19 @@
   <string name="DebugMenu">Дэбаг-меню</string>
   <string name="DebugMenuImportContacts">Імпартаваць кантакты</string>
   <string name="DebugMenuReloadContacts">Перазагрузіць кантакты</string>
+  <string name="ChangeLanguageLater">Пазней вы можаце змяніць мову праз налады.</string>
+  <string name="ChooseYourLanguage">Абярыце мову</string>
+  <string name="ChooseYourLanguageOther">Іншая</string>
+  <string name="ProxySettings">Налады проксі</string>
+  <string name="Proxy">Проксі</string>
+  <string name="UseProxySettings">Ужыць налады проксі</string>
+  <string name="UseProxyAddress">Сервер</string>
+  <string name="UseProxyPassword">Пароль</string>
+  <string name="UseProxyPort">Порт</string>
+  <string name="UseProxyUsername">Імя карыстальніка</string>
+  <string name="UseProxyInfo">Налады проксі SOCKS5</string>
+  <string name="UseProxyForCalls">Ужываць проксі для выклікаў</string>
+  <string name="UseProxyForCallsInfo">Проксі-серверы могуць знізіць якасць вашых выклікаў.</string>
   <!--cache view-->
   <string name="LocalDatabase">Лакальная база дадзеных</string>
   <string name="LocalDatabaseClear">Выдаліць кэшаваныя паведамленні?</string>
@@ -936,6 +1054,8 @@
   <string name="SaveToGallery">Захаваць у галерэю</string>
   <string name="Of">%1$d з %2$d</string>
   <string name="Gallery">Галерэя</string>
+  <string name="AllPhotos">Усе выявы</string>
+  <string name="AllMedia">Усе файлы</string>
   <string name="NoPhotos">Пакуль няма выяў</string>
   <string name="NoVideo">Пакуль што няма відэа</string>
   <string name="PleaseDownload">Калі ласка, спярша спампуйце медыя</string>
@@ -1069,7 +1189,11 @@
   <string name="PrivacySettings">Прыватнасць і бяспека</string>
   <string name="PrivacyTitle">Прыватнасць</string>
   <string name="PrivacyLastSeen">Бачнасць апошняй актыўнасці</string>
+  <string name="PrivacyPayments">Плацяжы</string>
   <string name="PrivacyPaymentsClear">Выдаліць звесткі аб дастаўцы і аплаце</string>
+  <string name="PrivacyPaymentsClearInfo">Вы можаце выдаліць вашыя звесткі аб дастаўцы і захаваныя дадзеныя картак. Звярніце ўвагу, што Тэлеграм ніколі не захоўвае звесткі аб вашай картцы.</string>
+  <string name="PrivacyClearShipping">Звесткі для дастаўкі</string>
+  <string name="PrivacyClearPayment">Плацежныя звесткі</string>
   <string name="LastSeenEverybody">Усе</string>
   <string name="LastSeenContacts">Мае кантакты</string>
   <string name="LastSeenNobody">Ніхто</string>
@@ -1110,6 +1234,8 @@
   <string name="InviteToGroupError">Выбачайце, але вы не можаце дадаць гэтага карыстальніка у суполкі, бо ён(яна) забараніў(-ла) гэта сваімі наладамі прыватнасці.</string>
   <string name="InviteToChannelError">Выбачайце, але вы не можаце дадаць гэтага карыстальніка да каналаў, бо ён(яна) забараніў(-ла) гэта сваімі наладамі прыватнасці.</string>
   <string name="CreateGroupError">Выбачайце, але вы не можаце стварыць суполку з гэтымі карыстальнікамі з-за іх наладаў прыватнасці.</string>
+  <string name="PrivacyCallsP2PTitle">P2P</string>
+  <string name="PrivacyCallsP2PHelp">Калі вы адключыце P2P, то ўсе выклікі будуць праходзіць праз серверы Тэлеграма. Гэта схавае ваш IP-адрас, але крыху знізіць якасць гуку.</string>
   <!--edit video view-->
   <string name="EditVideo">Рэдагаваць відэа</string>
   <string name="SendingVideo">Адпраўка відэа...</string>
@@ -1181,6 +1307,8 @@
   <string name="UnsupportedMedia">Гэтае паведамленне не падтрымліваецца вашай версіяй Тэлеграма. Абнавіце праграму, каб праглядзець: http://telegram.org/update</string>
   <string name="AttachPhoto">Фотаздымак</string>
   <string name="AttachVideo">Відэазапіс</string>
+  <string name="AttachPhotoExpired">Выява самазнішчылася</string>
+  <string name="AttachVideoExpired">Відэазапіс самазнішчыўся </string>
   <string name="AttachGif">Анімацыя</string>
   <string name="AttachLocation">Месцазнаходжанне</string>
   <string name="AttachContact">Кантакт</string>
@@ -1256,6 +1384,11 @@
   <string name="UserRestricted">Выбачайце, але вам не дазволена гэта рабіць.</string>
   <string name="YouBlockedUser">Выбачайце, але вы не можаце дадаць гэтага карыстальніка ці бота, бо вы яго заблакавалі. Спярша вам трэба будзе яго разблакаваць.</string>
   <string name="JoinGroup">ДАЛУЧЫЦЦА ДА СУПОЛКІ</string>
+  <string name="AddAdminErrorNotAMember">Выбачайце, але вы не можаце прызначыць гэтага карыстальніка кіраўніком, бо ён не ёсць удзельнікам суполкі, і вам нельга яго запрасіць.</string>
+  <string name="AddAdminErrorBlacklisted">Выбачайце, але вы не можаце прызначыць гэтага карыстальніка кіраўніком, бо ён знаходзіцца ў чорным спісе, і вам нельга яго разблакаваць.</string>
+  <string name="AddBannedErrorAdmin">Выбачайце, але вы не можаце заблакаваць гэтага карыстальніка, бо ён ёсць кіраўніком, якога вам не дазволена разжалаваць.</string>
+  <string name="ErrorSendRestrictedStickers">Кіраўнікі суполкі забаранілі вам адпраўляць налепкі.</string>
+  <string name="ErrorSendRestrictedMedia">Кіраўнікі суполкі забаранілі вам размяшчаць файлы.</string>
   <!--permissions-->
   <string name="PermissionContacts">Тэлеграму патрэбны доступ да вашых кантактаў, каб вы маглі звязацца з сваімі сябрамі на ўсіх сваіх устройствах.</string>
   <string name="PermissionStorage">Тэлеграму патрэбны доступ да вашага сховішча файлаў, каб вы маглі дасылаць і захоўваць выявы, відэа, музыку і іншыя медыяфайлы.</string>
@@ -1273,6 +1406,12 @@
   <string name="Page4Title">Бяспечны</string>
   <string name="Page5Title">Моцны</string>
   <string name="Page6Title">Воблачны</string>
+  <string name="Page1Message"><![CDATA[<b>Найхутчэйшы</b>]]> мэсэнджар у свеце.\n\n<![CDATA[<b>Бясплатны</b>]]> і <![CDATA[<b>бяспечны</b>.]]></string>
+  <string name="Page2Message"><![CDATA[<b>Тэлеграм</b>]]> дастаўляе паведамленні\nхутчэй за любую іншую праграму.</string>
+  <string name="Page3Message">&lt;![CDATA[&lt;b&gt;Тэлеграм&lt;/b&gt;]]&gt; бясплатны назаўсёды.\nБез рэкламы і платы за падпіску.]]&gt;</string>
+  <string name="Page4Message"><![CDATA[<b>Тэлеграм</b>]]> засцерагае паведамленні\nад хакерскіх атак.</string>
+  <string name="Page5Message"><![CDATA[<b>Тэлеграм</b>]]> не мае абмежаванняў на памер\nмедыя-файлаў і размоў.</string>
+  <string name="Page6Message"><![CDATA[<b>Тэлеграм</b>]]> дазваляе даступацца\nда паведамленняў з некалькіх прылад.</string>
   <string name="StartMessaging">Пачаць абменьвацца паведамленнямі</string>
   <!--VoIP-->
   <string name="AccountSettings">Налады ўліковага запіса</string>
@@ -1315,12 +1454,16 @@
   <string name="CallMessageOutgoingMissed">Адмоўлены выклік</string>
   <string name="CallMessageIncomingDeclined">Скінуты выклік</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
+  <string name="CallEncryptionKeyDescription">Гэтыя выява і тэкст рэпрэзэнтуюць ключ шыфравання для тэлефоннай размовы з <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nКалі яны выглядаюць гэтак жа на ўстройстве <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]>, то мы гарантуем вам шыфраванне з-канца-ў-канец.</string>
   <string name="NoCallLog">Вы пакуль што не рабілі выклікаў.</string>
   <string name="VoipPeerIncompatible">Праграма гэтага карыстальніка (<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>) ужывае несумяшчальны пратакол. Яму або ёй трэба абнавіць сваю праграму, каб мець магчымасць прымаць выклікі.</string>
   <string name="VoipPeerOutdated">Праграма гэтага карыстальніка (<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>) не падтрымлівае функцыю выклікаў. Яму або ёй трэба абнавіць сваю праграму, каб мець магчымасць прымаць выклікі.</string>
   <string name="VoipRateCallAlert">Калі ласка, пастаўце адзнаку гэтаму выкліку</string>
   <string name="VoipFeedbackAlert">Жадаеце пакінуць нам паведамленне, каб мы маглі палепшыць якасць выклікаў?</string>
   <string name="VoipNeedMicPermission">Тэлеграму патрэбны доступ да вашага мікрафона, каб вы маглі тэлефанаваць.</string>
+  <string name="VoipFeedbackCommentHint">Пакінуць дадатковы каментар</string>
+  <string name="CallBack">Зрабіць выклік у адказ</string>
+  <string name="CallAgain">Паўтарыць выклік</string>
   <string name="DefaultRingtone">Па змаўчанні</string>
   <string name="ConfirmDeleteCallLog">Вы ўпэўненыя, што жадаеце выдаліць гэты запіс з гісторыі выклікаў?</string>
   <string name="CallViaTelegram">Выклік праз Тэлеграм</string>
@@ -1330,7 +1473,18 @@
   <string name="ReturnToCall">ВЯРНУЦЦА ДА ВЫКЛІКА</string>
   <string name="CallNotAvailable">Даруйце, але <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> не прымае выклікі.</string>
   <string name="CallEmojiKeyTooltip">Калі эмодзі на экране %1$s такія жа, то выклік абаронены на 100%%.</string>
+  <string name="CallMessageReportProblem">Ацаніць выклік</string>
+  <string name="CallReportHint">Што пайшло не так?</string>
+  <string name="CallReportIncludeLogs">Даслаць тэхнічныя звесткі</string>
+  <string name="CallReportLogsExplain">Гэта не раскрые змест вашай размовы, але дапаможа нам хутчэй разабрацца з праблемай.</string>
+  <string name="CallReportSent">Дзякуй вам за тое, што дапамаглі зрабіць выклікі Тэлеграма лепшымі!</string>
   <!--plural-->
+  <string name="OnlineCount_zero">%1$d тут</string>
+  <string name="OnlineCount_one">%1$d тут</string>
+  <string name="OnlineCount_two">%1$d тут</string>
+  <string name="OnlineCount_few">%1$d тут</string>
+  <string name="OnlineCount_many">%1$d тут</string>
+  <string name="OnlineCount_other">%1$d тут</string>
   <string name="Members_zero">%1$d удзельнікаў</string>
   <string name="Members_one">%1$d удзельнік</string>
   <string name="Members_two">%1$d удзельнікі</string>
@@ -1551,6 +1705,10 @@
   <!--date formatters-->
   <string name="formatterStats12H">dd MMM yyyy, HH:mm</string>
   <string name="formatterStats24H">dd MMM yyyy, HH:mm</string>
+  <string name="formatterBannedUntil12H">dd MMM yyyy, h:mm a</string>
+  <string name="formatterBannedUntil24H">dd MMM yyyy, HH:mm</string>
+  <string name="formatterBannedUntilThisYear12H">dd MMM, h:mm a</string>
+  <string name="formatterBannedUntilThisYear24H">dd MMM, HH:mm</string>
   <string name="formatterMonthYear">MMMM yyyy</string>
   <string name="formatterMonth">dd MMM</string>
   <string name="formatterYear">dd.MM.yy</string>
@@ -1562,4 +1720,49 @@
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s а %2$s</string>
   <!--04 september 2017-->
+  <string name="ForwardTo">Перадаслаць да…</string>
+  <string name="InviteText2">Гэй, пераходзьце на Тэлеграм: %1$s</string>
+  <string name="EventLogChangedStickersSet">un1 змяніў(-ла) набор налепак суполкі</string>
+  <string name="EventLogRemovedStickersSet">un1 выдаліў(-ла) набор налепак суполкі</string>
+  <string name="GroupStickers">Налепкі суполкі</string>
+  <string name="ChooseFromYourStickers">АБРАЦЬ СА СВАІХ НАЛЕПАК</string>
+  <string name="GroupStickersInfo">Вы можаце абраць набор налепак, які будзе даступны ўсім удзельнікам суполкі.</string>
+  <string name="ChooseStickerSet">АБЯРЫЦЕ НАБОР НАЛЕПАК</string>
+  <string name="ChooseStickerSetPlaceholder">набор налепак</string>
+  <string name="ChooseStickerSetMy">Вы можаце стварыць свой уласны набор налепак з дапамогай бота @stickers.</string>
+  <string name="ChooseStickerSetNotFound">Набор не знойдзены</string>
+  <string name="ChooseStickerSetNotFoundInfo">Паспрабуйце пазней або абярыце са спісу ніжэй</string>
+  <string name="SearchFrom">ад:</string>
+  <string name="SearchFriends">Шукаць сяброў</string>
+  <string name="InviteFriendsHelp">Абярыце людзей, якіх вы б хацелі запрасіць у Тэлеграм</string>
+  <string name="InviteToTelegram">ЗАПРАСІЦЬ У ТЭЛЕГРАМ</string>
+  <string name="ShareTelegram">Падзяліцца Тэлеграмам...</string>
+  <string name="UpdateContactsTitle">Абнавіць кантакты?</string>
+  <string name="UpdateContactsMessage">Мы заўважылі, што у вас шмат несінхранізаваных кантактаў. Вы хочаце сінхранізаваць іх? Раім рабіць гэта толькі на вашай уласнай прыладзе з уласнай SIM-карткай і ўліковым запісам Google.</string>
+  <string name="GroupMembers">Удзельнікі</string>
+  <string name="AddToFavorites">Дадаць у абранае</string>
+  <string name="AddedToFavorites">Дадана ў абранае</string>
+  <string name="RemovedFromFavorites">Прыбрана з абранага</string>
+  <string name="RecentStickers">Нядаўнія налепкі</string>
+  <string name="FavoriteStickers">Абраныя налепкі</string>
+  <string name="CurrentGroupStickers">Налепкі суполкі</string>
+  <string name="DeleteFromFavorites">Прыбраць з абранага</string>
+  <string name="DebugMenuResetContacts">Нядаўна імпартаваныя кантакты</string>
+  <string name="LowDiskSpaceTitle">Увага</string>
+  <string name="LowDiskSpaceMessage">На вашым устройстве сканчаецца дыскавая прастора. Наладзьце кэш Тэлеграма такім чынам, каб туды захоўваліся толькі нядаўнія файлы ці каб яны ўвогуле выдаляліся – гэта вызваліць месца.</string>
+  <string name="LowDiskSpaceTitle2">Выдаляць старэйшыя за</string>
+  <string name="LowDiskSpaceNeverRemove">Ніколі не выдаляць</string>
+  <string name="ShowInChat">Паказаць у размове</string>
+  <string name="Recipient_zero">%1$d атрымальнікаў</string>
+  <string name="Recipient_one">%1$d атрымальнік</string>
+  <string name="Recipient_two">%1$d атрымальнікі</string>
+  <string name="Recipient_few">%1$d атрымальнікі</string>
+  <string name="Recipient_many">%1$d атрымальнікаў</string>
+  <string name="Recipient_other">%1$d атрымальнікаў</string>
+  <string name="TelegramContacts_zero">%1$d кантактаў у Тэлеграме</string>
+  <string name="TelegramContacts_one">%1$d кантакт у Тэлеграме</string>
+  <string name="TelegramContacts_two">%1$d кантакты ў Тэлеграме</string>
+  <string name="TelegramContacts_few">%1$d кантакты ў Тэлеграме</string>
+  <string name="TelegramContacts_many">%1$d кантактаў у Тэлеграме</string>
+  <string name="TelegramContacts_other">%1$d кантактаў у Тэлеграме</string>
 </resources>
