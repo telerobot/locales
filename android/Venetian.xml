@@ -1029,10 +1029,10 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="SharedMediaTitle">Media sparpanjài</string>
   <string name="LinksTitle">Link sparpanjài</string>
   <string name="AudioTitle">Mùzega sparpanjada</string>
-  <string name="NoMedia">Sparpanja foto e video inte \'sta chat e acédaghe da calsìase to dispozitivo.</string>
-  <string name="NoSharedAudio">Sparpanja mùzega inte \'sta chat e acédaghe da calsìase to dispozitivo.</string>
-  <string name="NoSharedFiles">Sparpanja file e documenti inte \'sta chat e acédaghe da calsìase to dispozitivo.</string>
-  <string name="NoSharedLinks">Sparpanja link inte \'sta chat e acédaghe da calsìase to dispozitivo.</string>
+  <string name="NoMedia">Tute łe foto e i video sparpanjài co \'sto contato i saltarà fora cuà e A te podarè acédarghe da calsìase to dispozitivo.</string>
+  <string name="NoSharedAudio">Tuta ła mùzega sparpanjada co \'sto contato ła saltarà fora cuà e A te podarè acédarghe da calsìase to dispozitivo.</string>
+  <string name="NoSharedFiles">Tuti i file e i documenti sparpanjài co \'sto contato i saltarà fora cuà e A te podarè acédarghe da calsìase to dispozitivo.</string>
+  <string name="NoSharedLinks">Tuti link sparpanjài co \'sto contato i saltarà fora cuà e A te podarè acédarghe da calsìase to dispozitivo.</string>
   <string name="NoMediaSecret">Łe foto e i video da \'sta chat i venjarà mostrài cuà.</string>
   <string name="NoSharedAudioSecret">Ła mùzega da \'sta chat ła venjarà mostràda cuà.</string>
   <string name="NoSharedFilesSecret">I file e i documenti da \'sta chat i venjarà mostrài cuà.</string>
@@ -1116,7 +1116,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <!--password view-->
   <string name="TwoStepVerification">Verìfega in 2 pasaji</string>
   <string name="SetAdditionalPassword">Inposta password in pì</string>
-  <string name="SetAdditionalPasswordInfo">A te połi inpostar na password in pì inazonta a\'l còdaze che A te rivarà par SMS che ła te venjarà dimandà co te ndarè rento co un dispozitivo novo.</string>
+  <string name="SetAdditionalPasswordInfo">Inazonta a\'l còdaze che A te rivarà par SMS, A te połi inpostar na password in pì che ła te venjarà dimandà co te ndarè rento Telegram so un dispozitivo novo.</string>
   <string name="YourPassword">Ła to password</string>
   <string name="PleaseEnterCurrentPassword">Insarisi ła to password</string>
   <string name="PleaseEnterFirstPassword">Insarisi na password</string>
@@ -1183,7 +1183,7 @@ Itim A te podarè senpre tornar indrìo a\'l tema predefenìo de Telegram.</stri
   <string name="TotalDataUsage">Totałe</string>
   <string name="ResetStatistics">Reinposta statìsteghe</string>
   <string name="NetworkUsageSince">Dòparo rete da\'l %1$s</string>
-  <string name="ResetStatisticsAlert">Vutu reinpostar łe statìsteghe de\'l to dòparo?</string>
+  <string name="ResetStatisticsAlert">Vutu reinpostar łe statìsteghe de\'l to dòparo dati?</string>
   <!--privacy settings-->
   <string name="PrivacySettings">Privacy e Seguresa</string>
   <string name="PrivacyTitle">Privacy</string>

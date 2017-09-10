@@ -735,7 +735,7 @@
   <string name="PhoneMain">Основной</string>
   <string name="UserBio">О себе</string>
   <string name="UserBioEmpty">Добавить</string>
-  <string name="UserBioInfo">Вы можете написать пару строк о себе. Любой, кто откроет ваш профиль, увидит этот текст.</string>
+  <string name="UserBioInfo">Вы можете написать пару строк о себе. Этот текст будет виден всем, кто откроет ваш профиль.</string>
   <string name="StartEncryptedChat">Начать секретный чат</string>
   <string name="GroupsInCommon">Общие группы</string>
   <string name="GroupsInCommonTitle">Общие группы</string>
