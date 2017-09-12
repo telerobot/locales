@@ -118,6 +118,8 @@
   <string name="HiddenName">Silinmiş Hesap</string>
   <string name="SelectChat">Sohbet Seçin</string>
   <string name="PhotoTip">Görüntülemek için dokunun ve basılı tutun</string>
+  <string name="DisappearingPhoto">Gizli Fotoğraf</string>
+  <string name="DisappearingVideo">Gizli Video</string>
   <string name="CompatibilityChat">%1$s Telegram\'ın eski bir sürümünü kullanıyor, bu nedenle gizli fotoğraflar uyumluluk modunda gösterilecek.
 
 %2$s Telegram\'ı güncellediğinde 1 dakika veya daha az süreli zamanlanmış fotoğraflar görüntülenmeye \"Görüntülemek için basılı tutun\" modunda başlanacak ve karşınızdaki kişi ekran görüntüsü aldığında bilgilendirileceksiniz.</string>
@@ -176,7 +178,7 @@
   <string name="ActionPinnedFile">un1 bir dosya sabitledi</string>
   <string name="ActionPinnedSticker">un1 bir çıkartma sabitledi</string>
   <string name="ActionPinnedVoice">un1 bir sesli ileti sabitledi</string>
-  <string name="ActionPinnedRound">un1 bir vidyo mesaj sabitledi</string>
+  <string name="ActionPinnedRound">un1 bir video mesaj sabitledi</string>
   <string name="ActionPinnedContact">un1 bir kişi sabitledi</string>
   <string name="ActionPinnedGame">un1 sabitledi: \"%1$s\"</string>
   <string name="ActionPinnedGeo">un1 bir harita sabitledi</string>
@@ -284,7 +286,7 @@
   <string name="ChannelMessageGroupDocument">%1$s, %2$s kanalına bir dosya gönderdi</string>
   <string name="ChannelMessageGroupGif">%1$s, %2$s kanalına bir GIF gönderdi</string>
   <string name="ChannelMessageGroupAudio">%1$s, %2$s kanalına sesli bir mesaj gönderdi</string>
-  <string name="ChannelMessageGroupRound">%1$s, %2$s kanalına bir vidyo mesaj gönderdi</string>
+  <string name="ChannelMessageGroupRound">%1$s, %2$s kanalına bir video mesaj gönderdi</string>
   <string name="ChannelMessageGroupMusic">%1$s, %2$s kanalına bir parça gönderdi</string>
   <string name="ChannelMessageGroupSticker">%1$s, %2$s kanalına bir çıkartma gönderdi</string>
   <string name="ChannelMessageGroupStickerEmoji">%1$s, %2$s kanalına bir %3$s çıkartması gönderdi</string>
@@ -296,7 +298,7 @@
   <string name="ChannelMessageDocument">%1$s bir dosya yayınladı</string>
   <string name="ChannelMessageGIF">%1$s bir GIF yayınladı</string>
   <string name="ChannelMessageAudio">%1$s bir sesli mesaj yayınladı</string>
-  <string name="ChannelMessageRound">%1$s bir vidyo mesaj yayınladı</string>
+  <string name="ChannelMessageRound">%1$s bir video mesaj yayınladı</string>
   <string name="ChannelMessageMusic">%1$s bir parça yayınladı</string>
   <string name="ChannelMessageSticker">%1$s size bir çıkartma yayınladı</string>
   <string name="ChannelMessageStickerEmoji">%1$s, bir %2$s çıkartması gönderdi</string>
@@ -319,6 +321,7 @@
   <string name="EditAdminRemoveAdmin">Yöneticiyi Kaldır</string>
   <string name="EditAdminBanUsers">Kullanıcı Engelle</string>
   <string name="EditAdminAddUsers">Kullanıcı Ekle</string>
+  <string name="EditAdminAddUsersViaLink">Bağlantı ile Kullanıcıları Davet Et</string>
   <string name="EditAdminPinMessages">Sabitlenmiş Mesajlar</string>
   <string name="EditAdminPromotedBy">%1$s tarafından eklendi.</string>
   <string name="EditAdminCantEdit">Bu yöneticinin haklarını düzenleyemezsiniz.</string>
@@ -442,7 +445,7 @@
   <string name="IsTyping">yazıyor...</string>
   <string name="AreTyping">yazıyor...</string>
   <string name="IsRecordingAudio">%1$s bir sesli mesaj kaydediyor...</string>
-  <string name="IsRecordingRound">%1$s bir vidyo mesaj kaydediyor...</string>
+  <string name="IsRecordingRound">%1$s bir video mesaj kaydediyor...</string>
   <string name="IsSendingAudio">%1$s ses gönderiyor...</string>
   <string name="IsSendingPhoto">%1$s fotoğraf gönderiyor...</string>
   <string name="InstantView">HIZLI BAK</string>
@@ -453,7 +456,7 @@
   <string name="IsSendingVideo">%1$s video gönderiyor...</string>
   <string name="IsSendingFile">%1$s dosya gönderiyor...</string>
   <string name="RecordingAudio">bir sesli mesaj kaydediyor...</string>
-  <string name="RecordingRound">bir vidyo mesaj kaydediyor...</string>
+  <string name="RecordingRound">bir video mesaj kaydediyor...</string>
   <string name="SendingAudio">ses gönderiyor...</string>
   <string name="SendingPhoto">fotoğraf gönderiyor...</string>
   <string name="SendingGame">oyun oynuyor...</string>
@@ -552,12 +555,12 @@ sorunuz mu var?</string>
   <string name="DeleteForUser">%1$s için Sil</string>
   <string name="DeleteForAll">Bütün üyeler için sil</string>
   <string name="TextCopied">Metin panoya kopyalandı</string>
-  <string name="HoldToAudio">Sesi kaydetmek için basılı tut. Vidyoya geçmek için dokun.</string>
-  <string name="HoldToVideo">Vidyo kaydetmek için basılı tut. Sese geçmek için dokun.</string>
+  <string name="HoldToAudio">Sesi kaydetmek için basılı tut. Videoya geçmek için dokun.</string>
+  <string name="HoldToVideo">Video kaydetmek için basılı tut. Sese geçmek için dokun.</string>
   <string name="DiscardVoiceMessageTitle">Sesli Mesajı İptal et</string>
   <string name="DiscardVoiceMessageDescription">Kaydetmeyi durdurmak ve sesli mesajınızı iptal etmek istediğinizden emin misiniz?</string>
-  <string name="DiscardVideoMessageTitle">Vidyo Mesajı İptal et</string>
-  <string name="DiscardVideoMessageDescription">Kaydetmeyi durdurmak ve vidyo mesajınızı iptal etmek istediğinizden emin misiniz?</string>
+  <string name="DiscardVideoMessageTitle">Video Mesajı İptal et</string>
+  <string name="DiscardVideoMessageDescription">Kaydetmeyi durdurmak ve video mesajınızı iptal etmek istediğinizden emin misiniz?</string>
   <string name="DiscardVoiceMessageAction">İptal</string>
   <string name="AttachMediaRestricted">Grubun yöneticileri %1$s süresince buraya medya göndermenizi kısıtladı</string>
   <string name="AttachInlineRestricted">Grubun yöneticileri %1$s süresince buraya sıralı içerik göndermenizi kısıtladı</string>
@@ -577,13 +580,15 @@ sorunuz mu var?</string>
   <string name="NotificationMessageNoText">%1$s size bir mesaj gönderdi</string>
   <string name="NotificationMessagePhoto">%1$s size bir fotoğraf gönderdi</string>
   <string name="NotificationMessageVideo">%1$s size bir video gönderdi</string>
+  <string name="NotificationMessageSDPhoto">%1$s size kendiliğinden silinen bir fotoğraf gönderdi</string>
+  <string name="NotificationMessageSDVideo">%1$s size kendiliğinden silinen bir video gönderdi</string>
   <string name="NotificationMessageContact">%1$s sizinle bir kişi paylaştı</string>
   <string name="NotificationMessageMap">%1$s size bir konum gönderdi</string>
   <string name="NotificationMessageGame">%1$s, sizi %2$s oynamak için davet etti.</string>
   <string name="NotificationMessageDocument">%1$s size bir dosya gönderdi</string>
   <string name="NotificationMessageGif">%1$s size bir GIF gönderdi</string>
   <string name="NotificationMessageAudio">%1$s size bir sesli bir mesaj gönderdi</string>
-  <string name="NotificationMessageRound">%1$s size bir vidyo mesaj gönderdi</string>
+  <string name="NotificationMessageRound">%1$s size bir video mesaj gönderdi</string>
   <string name="NotificationMessageMusic">%1$s size bir parça gönderdi</string>
   <string name="NotificationMessageSticker">%1$s size bir çıkartma gönderdi</string>
   <string name="NotificationMessageStickerEmoji">%1$s, %2$s çıkartması gönderdi</string>
@@ -597,7 +602,7 @@ sorunuz mu var?</string>
   <string name="NotificationMessageGroupDocument">%1$s, %2$s grubuna bir dosya gönderdi</string>
   <string name="NotificationMessageGroupGif">%1$s, %2$s grubuna bir GIF gönderdi</string>
   <string name="NotificationMessageGroupAudio">%1$s, %2$s grubuna sesli bir mesaj gönderdi</string>
-  <string name="NotificationMessageGroupRound">%1$s, %2$s grubuna bir vidyo mesaj gönderdi</string>
+  <string name="NotificationMessageGroupRound">%1$s, %2$s grubuna bir video mesaj gönderdi</string>
   <string name="NotificationMessageGroupMusic">%1$s, %2$s grubuna bir parça gönderdi</string>
   <string name="NotificationMessageGroupSticker">%1$s, %2$s grubuna bir çıkartma gönderdi</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s, %2$s grubuna bir %3$s çıkartması gönderdi</string>
@@ -627,7 +632,7 @@ sorunuz mu var?</string>
   <string name="NotificationActionPinnedSticker">%1$s, %2$s grubunda bir çıkartma sabitledi</string>
   <string name="NotificationActionPinnedStickerEmoji">%1$s, %2$s grubunda bir %3$s çıkartmasını sabitledi</string>
   <string name="NotificationActionPinnedVoice">%1$s, %2$s grubunda bir sesli mesaj sabitledi</string>
-  <string name="NotificationActionPinnedRound">%1$s, %2$s grubuna bir vidyo mesaj sabitledi</string>
+  <string name="NotificationActionPinnedRound">%1$s, %2$s grubuna bir video mesaj sabitledi</string>
   <string name="NotificationActionPinnedContact">%1$s, %2$s grubunda bir kişi sabitledi</string>
   <string name="NotificationActionPinnedGeo">%1$s, %2$s grubunda bir harita sabitledi</string>
   <string name="NotificationActionPinnedGif">%1$s, %2$s grubunda bir GIF sabitledi</string>
@@ -640,7 +645,7 @@ sorunuz mu var?</string>
   <string name="NotificationActionPinnedStickerChannel">%1$s bir çıkartma sabitledi</string>
   <string name="NotificationActionPinnedStickerEmojiChannel">%1$s bir %2$s çıkartmasını sabitledi</string>
   <string name="NotificationActionPinnedVoiceChannel">%1$s bir sesli mesaj sabitledi</string>
-  <string name="NotificationActionPinnedRoundChannel">%1$s bir vidyo mesaj sabitledi</string>
+  <string name="NotificationActionPinnedRoundChannel">%1$s bir video mesaj sabitledi</string>
   <string name="NotificationActionPinnedContactChannel">%1$s bir kişi sabitledi</string>
   <string name="NotificationActionPinnedGeoChannel">%1$s bir harita sabitledi</string>
   <string name="NotificationActionPinnedGifChannel">%1$s bir GIF sabitledi</string>
@@ -722,6 +727,7 @@ sorunuz mu var?</string>
   <string name="PhoneOther">Diğer</string>
   <string name="PhoneMain">Anasayfa</string>
   <string name="UserBio">Hakkında</string>
+  <string name="UserBioEmpty">Yok</string>
   <string name="UserBioInfo">Kendini hakkında bir kaç cümle yazabilirsiniz. Profilinize bakan herkes bu yazıyı görecek.</string>
   <string name="StartEncryptedChat">Gizli Sohbet Başlat</string>
   <string name="GroupsInCommon">Ortak Gruplar</string>
@@ -731,10 +737,11 @@ sorunuz mu var?</string>
   <string name="EncryptionKey">Şifreleme Anahtarı</string>
   <string name="MessageLifetime">Kendini imha etme zamanlayıcı</string>
   <string name="MessageLifetimePhoto">Eğer bir zamanlayıcı ayarlarsanız, fotoğraf görüntülendikten sonra kendiliğinden kaybolacak.</string>
-  <string name="MessageLifetimeVideo">Eğer bir zamanlayıcı ayarlarsanız, vidyo görüntülendikten sonra kendiliğinden kaybolacak.</string>
+  <string name="MessageLifetimeVideo">Eğer bir zamanlayıcı ayarlarsanız, video görüntülendikten sonra kendiliğinden kaybolacak.</string>
   <string name="ShortMessageLifetimeForever">Kapalı</string>
   <string name="EncryptionKeyDescription">Bu resim ve yazı <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> ile yaptığınız gizli sohbet için şifreleme anahtarından türetildi.\n\nEğer <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> kişisinin cihazında da aynıysa, noktadan noktaya şifreleleme sağlanmış demektir.\n\nDaha fazla bilgi için telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
+  <string name="TapToEmojify">Emoji ile şifrelemek için dokunun</string>
   <string name="NumberUnknown">Bilinmeyen</string>
   <string name="Info">Bilgi</string>
   <string name="Phone">Telefon</string>
@@ -965,7 +972,7 @@ sorunuz mu var?</string>
   <string name="CalculatingSize">Hesaplanıyor...</string>
   <string name="LocalDocumentCache">Dökümanlar</string>
   <string name="LocalPhotoCache">Photos</string>
-  <string name="LocalAudioCache">Sesli/Vidyo Mesajlar</string>
+  <string name="LocalAudioCache">Sesli/Video Mesajlar</string>
   <string name="LocalVideoCache">Videolar</string>
   <string name="LocalMusicCache">Müzik</string>
   <string name="LocalGifCache">GIFler</string>
@@ -975,7 +982,7 @@ sorunuz mu var?</string>
   <string name="KeepMediaInfo">Bulut sohbetlerinizdeki <![CDATA[<b>bu süre içerisinde bakmadığınız</b>]]> fotoğraflar, videolar ve diğer dosyalar, disk alanı kazanmak için bu cihazdan silinecek.\n\nTüm medya dosyalarınız, Telegram bulut hafızası içinde kalacak ve tekrar ihtiyacınız tekrar indirebilecek.</string>
   <string name="KeepMediaForever">Sürekli</string>
   <string name="AudioAutodownload">Sesli mesajlar</string>
-  <string name="VideoMessagesAutodownload">Vidyo mesajlar</string>
+  <string name="VideoMessagesAutodownload">Video mesajlar</string>
   <!--sessions view-->
   <string name="SessionsTitle">Aktif Oturumlar</string>
   <string name="CurrentSession">Geçerli Oturum</string>
@@ -1293,13 +1300,15 @@ Not: Eğer parolanızı unutursanız, uygulamayı silip yeniden yüklemeniz gere
   <string name="UnsupportedMedia">Telegram sürümünüz bu mesajı desteklemiyor. Uygulamayı güncelleyin: https://telegram.org/update</string>
   <string name="AttachPhoto">Fotoğraf</string>
   <string name="AttachVideo">Video</string>
+  <string name="AttachPhotoExpired">Fotoğrafın süresi doldu</string>
+  <string name="AttachVideoExpired">Videonun süresi doldu</string>
   <string name="AttachGif">GIF</string>
   <string name="AttachLocation">Konum</string>
   <string name="AttachContact">Kişi</string>
   <string name="AttachDocument">Dosya</string>
   <string name="AttachSticker">Çıkartma</string>
   <string name="AttachAudio">Sesli mesaj</string>
-  <string name="AttachRound">Vidyo mesaj</string>
+  <string name="AttachRound">Video mesaj</string>
   <string name="AttachGame">Oyun</string>
   <string name="FromYou">Siz</string>
   <string name="ActionTakeScreenshootYou">Ekran görüntüsü aldınız!</string>
@@ -1659,12 +1668,12 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="ForwardedAudio_few">%1$d iletilen sesli mesaj</string>
   <string name="ForwardedAudio_many">%1$d iletilen sesli mesaj</string>
   <string name="ForwardedAudio_other">%1$d iletilen sesli mesaj</string>
-  <string name="ForwardedRound_zero">%1$d iletilen vidyo mesaj</string>
-  <string name="ForwardedRound_one">İletilen vidyo mesaj</string>
-  <string name="ForwardedRound_two">%1$d iletilen vidyo mesaj</string>
-  <string name="ForwardedRound_few">%1$d iletilen vidyo mesaj</string>
-  <string name="ForwardedRound_many">%1$d iletilen vidyo mesaj</string>
-  <string name="ForwardedRound_other">%1$d iletilen vidyo mesaj</string>
+  <string name="ForwardedRound_zero">%1$d iletilen video mesaj</string>
+  <string name="ForwardedRound_one">İletilen video mesaj</string>
+  <string name="ForwardedRound_two">%1$d iletilen video mesaj</string>
+  <string name="ForwardedRound_few">%1$d iletilen video mesaj</string>
+  <string name="ForwardedRound_many">%1$d iletilen video mesaj</string>
+  <string name="ForwardedRound_other">%1$d iletilen video mesaj</string>
   <string name="ForwardedLocation_zero">%1$d iletilen konum</string>
   <string name="ForwardedLocation_one">İletilen Konum</string>
   <string name="ForwardedLocation_two">%1$d iletilen konum</string>
@@ -1707,4 +1716,14 @@ Unutmayın, çıkış yaptığınızda bütün Gizli Konuşmalarınız silinir.<
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s saat %2$s</string>
   <!--04 september 2017-->
+  <string name="ForwardTo">İlet...</string>
+  <string name="InviteText2">Hey, Hadi Telegram\'a geçelim: %1$s</string>
+  <string name="EventLogChangedStickersSet">un1 grup çıkartma setini değiştirdi</string>
+  <string name="EventLogRemovedStickersSet">un1 grup çıkartma setini kaldırdı</string>
+  <string name="GroupStickers">Grup çıkartmaları</string>
+  <string name="ChooseFromYourStickers">ÇIKARTMALARINIZDAN SEÇİN</string>
+  <string name="GroupStickersInfo">Grupta mesajlaşırken bütün grup üyelerinin kullanabileceği çıkartma setleri seçebilirsiniz.</string>
+  <string name="ChooseStickerSet">ÇIKARTMA SETİ SEÇ</string>
+  <string name="ChooseStickerSetPlaceholder">çeıkartma seti</string>
+  <string name="ChooseStickerSetMy">@stickers robotunu kullanarak kendi özel çıkartmalarınızı yapabilirsiniz.</string>
 </resources>
